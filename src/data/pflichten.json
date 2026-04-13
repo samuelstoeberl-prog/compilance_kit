@@ -1,0 +1,106 @@
+[
+  {
+    "id": "dsgvo-datenschutzerklaerung",
+    "titel": "DSGVO – Datenschutzerklärung",
+    "kategorie": "Datenschutz",
+    "beschreibung": "Datenschutzerklärung auf Website und aktuelle Verarbeitungsverzeichnisse müssen vorliegen.",
+    "quelle": "Art. 13 DSGVO",
+    "quelleUrl": "https://dsgvo-gesetz.de/art-13-dsgvo/",
+    "bedingungen": {}
+  },
+  {
+    "id": "impressumspflicht",
+    "titel": "Impressumspflicht",
+    "kategorie": "Recht",
+    "beschreibung": "Vollständiges Impressum mit Verantwortlichem, Kontakt und Handelsregisternummer auf der Website.",
+    "quelle": "§5 TMG",
+    "quelleUrl": "https://www.gesetze-im-internet.de/tmg/__5.html",
+    "bedingungen": {}
+  },
+  {
+    "id": "nis2",
+    "titel": "NIS2-Richtlinie",
+    "kategorie": "IT-Sicherheit",
+    "beschreibung": "Maßnahmen zur Cybersicherheit und Meldepflicht bei Sicherheitsvorfällen.",
+    "quelle": "BSI-Gesetz §8a",
+    "quelleUrl": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/NIS-2/nis-2_node.html",
+    "bedingungen": {
+      "minMitarbeiter": 50
+    }
+  },
+  {
+    "id": "mindestlohn",
+    "titel": "Mindestlohndokumentation",
+    "kategorie": "Arbeitsrecht",
+    "beschreibung": "Arbeitszeitaufzeichnungen für Minijobber und bestimmte Branchen nach §17 MiLoG. Mindestlohn 2025: 12,82 €/Std.",
+    "quelle": "§17 MiLoG",
+    "quelleUrl": "https://www.bmas.de/DE/Arbeit/Arbeitsrecht/Mindestlohn/mindestlohn.html",
+    "bedingungen": {
+      "minMitarbeiter": 1
+    }
+  },
+  {
+    "id": "lksg",
+    "titel": "Lieferkettensorgfaltspflichten (LkSG)",
+    "kategorie": "Branche",
+    "beschreibung": "Sorgfaltspflichten in der Lieferkette bezüglich Menschenrechten und Umweltstandards.",
+    "quelle": "LkSG §3",
+    "quelleUrl": "https://www.bafa.de/DE/Lieferketten/lieferketten_node.html",
+    "bedingungen": {
+      "minMitarbeiter": 1000
+    }
+  },
+  {
+    "id": "csrd",
+    "titel": "CSRD Nachhaltigkeitsreporting",
+    "kategorie": "Reporting",
+    "beschreibung": "Verpflichtende Nachhaltigkeitsberichterstattung nach EU Corporate Sustainability Reporting Directive.",
+    "quelle": "EU CSRD 2022/2464",
+    "quelleUrl": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+    "bedingungen": {
+      "minMitarbeiter": 250
+    }
+  },
+  {
+    "id": "betriebsrat",
+    "titel": "Betriebsrat-Möglichkeit informieren",
+    "kategorie": "Arbeitsrecht",
+    "beschreibung": "Ab 5 Mitarbeitenden können Beschäftigte einen Betriebsrat wählen. Arbeitgeber darf dies nicht behindern.",
+    "quelle": "§1 BetrVG",
+    "quelleUrl": "https://www.gesetze-im-internet.de/betrvg/__1.html",
+    "bedingungen": {
+      "minMitarbeiter": 5
+    }
+  },
+  {
+    "id": "schwerbehindertenabgabe",
+    "titel": "Schwerbehindertenabgabe (SGB IX)",
+    "kategorie": "Arbeitsrecht",
+    "beschreibung": "Unternehmen ab 20 MA müssen 5% der Stellen mit schwerbehinderten Menschen besetzen oder Ausgleichsabgabe zahlen.",
+    "quelle": "§154 SGB IX",
+    "quelleUrl": "https://www.gesetze-im-internet.de/sgb_9_2018/__154.html",
+    "bedingungen": {
+      "minMitarbeiter": 20
+    }
+  },
+  {
+    "id": "eu-ai-act",
+    "titel": "EU AI Act – Registrierungspflicht",
+    "kategorie": "IT-Sicherheit",
+    "beschreibung": "Unternehmen die KI-Systeme einsetzen oder entwickeln müssen diese ab 2026 registrieren und klassifizieren.",
+    "quelle": "EU AI Act Art. 49",
+    "quelleUrl": "https://artificialintelligenceact.eu/",
+    "bedingungen": {}
+  },
+  {
+    "id": "arbeitssicherheit",
+    "titel": "Arbeitsstättenverordnung (ArbStättV)",
+    "kategorie": "Arbeitsrecht",
+    "beschreibung": "Einhaltung von Mindeststandards für Arbeitsstätten: Beleuchtung, Lüftung, Fluchtweg-Kennzeichnung.",
+    "quelle": "ArbStättV §3",
+    "quelleUrl": "https://www.gesetze-im-internet.de/arb_st_ttv_2004/",
+    "bedingungen": {
+      "minMitarbeiter": 1
+    }
+  }
+]
