@@ -1,4 +1,4 @@
-import { Foerderung } from '../types'
+import type { Foerderung } from '../types'
 
 const EBENE_COLORS: Record<string, string> = {
   'EU': 'bg-blue-100 text-blue-800',

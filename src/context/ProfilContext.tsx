@@ -1,5 +1,6 @@
-import { createContext, useContext, useState, ReactNode } from 'react'
-import { UnternehmensProfil, PflichtStatus } from '../types'
+import { createContext, useContext, useState } from 'react'
+import type { ReactNode } from 'react'
+import type { UnternehmensProfil, PflichtStatus } from '../types'
 
 interface ProfilContextValue {
   profil: UnternehmensProfil | null

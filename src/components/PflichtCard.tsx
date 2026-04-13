@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { PflichtMitStatus, PflichtStatus } from '../types'
+import type { PflichtMitStatus, PflichtStatus } from '../types'
 
 const KATEGORIE_COLORS: Record<string, string> = {
   'Datenschutz': 'bg-blue-100 text-blue-800',

@@ -1,4 +1,4 @@
-import { Pflicht, PflichtMitStatus, PflichtStatus, Foerderung, UnternehmensProfil } from '../types'
+import type { Pflicht, PflichtMitStatus, PflichtStatus, Foerderung, UnternehmensProfil } from '../types'
 
 export function filterPflichten(
   pflichten: Pflicht[],

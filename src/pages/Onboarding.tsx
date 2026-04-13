@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useProfil } from '../context/ProfilContext'
-import { UnternehmensProfil } from '../types'
+import type { UnternehmensProfil } from '../types'
 
 const RECHTSFORMEN = ['GmbH', 'UG (haftungsbeschränkt)', 'GbR', 'OHG', 'KG', 'AG', 'Einzelunternehmen', 'e.K.']
 const BRANCHEN = ['IT & Software', 'Handel', 'Handwerk', 'Gastronomie & Hotellerie', 'Gesundheit & Pflege', 'Beratung & Dienstleistung', 'Produktion & Industrie', 'Bau & Immobilien', 'Transport & Logistik', 'Sonstiges']

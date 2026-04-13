@@ -6,7 +6,7 @@ import PflichtCard from '../components/PflichtCard'
 import FoerderungCard from '../components/FoerderungCard'
 import pflichtData from '../data/pflichten.json'
 import foerderungData from '../data/foerderungen.json'
-import { Pflicht, Foerderung, PflichtStatus } from '../types'
+import type { Pflicht, Foerderung } from '../types'
 
 type Tab = 'pflichten' | 'foerderungen'
 type StatusFilter = 'alle' | 'offen' | 'erledigt' | 'nicht_relevant'
