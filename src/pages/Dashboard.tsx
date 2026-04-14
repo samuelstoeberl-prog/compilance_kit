@@ -67,7 +67,7 @@ export default function Dashboard() {
           <span className="font-serif text-sand-light text-lg">ComplianceKit</span>
           <span className="text-xs font-mono bg-ink border border-ink-border text-muted px-2 py-0.5 rounded">BETA</span>
         </div>
-        <button onClick={() => navigate('/')}
+        <button onClick={() => navigate('/onboarding')}
           className="flex items-center gap-2 bg-ink border border-ink-border hover:border-sand px-4 py-2 rounded-full text-sm transition-colors">
           <div className="w-6 h-6 bg-sand rounded-full flex items-center justify-center text-xs font-bold text-ink">{initials}</div>
           <span className="text-sand-light">{profil.name}</span>
@@ -88,7 +88,7 @@ export default function Dashboard() {
             {label}
           </button>
         ))}
-        <button onClick={() => navigate('/')} className="py-3 text-sm font-mono text-muted hover:text-sand-light ml-auto transition-colors">
+        <button onClick={() => navigate('/onboarding')} className="py-3 text-sm font-mono text-muted hover:text-sand-light ml-auto transition-colors">
           Profil bearbeiten
         </button>
       </nav>

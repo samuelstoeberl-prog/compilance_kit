@@ -21,10 +21,10 @@ type FormState = {
 }
 
 export default function Onboarding() {
-  const { setProfil } = useProfil()
+  const { profil, setProfil } = useProfil()
   const navigate = useNavigate()
   const [step, setStep] = useState(0)
-  const [form, setForm] = useState<FormState>({
+  const [form, setForm] = useState<FormState>(() => profil ?? {
     name: '', rechtsform: '', branche: '', mitarbeiter: '',
     bundesland: '', umsatz: '', gruendungsjahr: '',
   })
@@ -122,7 +122,7 @@ export default function Onboarding() {
 
           <button type="submit" disabled={!isValid}
             className="w-full bg-sand text-ink py-3 rounded-lg font-sans font-medium text-sm mt-2 disabled:opacity-30 hover:bg-sand-mid transition-colors">
-            Dashboard öffnen →
+            {profil ? 'Änderungen speichern →' : 'Dashboard öffnen →'}
           </button>
         </form>
       </div>

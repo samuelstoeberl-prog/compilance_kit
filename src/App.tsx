@@ -9,6 +9,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={profil ? <Navigate to="/dashboard" replace /> : <Onboarding />} />
+      <Route path="/onboarding" element={<Onboarding />} />
       <Route path="/dashboard" element={<Dashboard />} />
     </Routes>
   )
