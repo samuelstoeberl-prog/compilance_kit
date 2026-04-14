@@ -1,0 +1,159 @@
+[
+  {
+    "id": "kfw-digitalisierung",
+    "title": "KfW ERP-Förderkredit Digitalisierung",
+    "beschreibung": "Günstige Kredite für digitale Infrastruktur, Software und IT-Sicherheit. Zinsbindung 5–10 Jahre.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 2000000,
+    "zins": "ab 1,5 %",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Digitalisierung-(511-512)/",
+    "bearbeitungszeit_wochen": [6, 8],
+    "ausschlusskriterien": ["Kein Eigenkapitalersatz", "Nicht für laufende Betriebskosten", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschluss letztes Jahr", "auto": false},
+      {"name": "Investitionsplan", "auto": false},
+      {"name": "Hausbanken-Bestätigung", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "10 Mio. €", "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Software / IT", "Produktion / Fertigung"], "mitarbeiter": ["10–49", "50–249"] }
+  },
+  {
+    "id": "go-digital-it-sicherheit",
+    "title": "go-digital – Modul IT-Sicherheit",
+    "beschreibung": "50 % Förderung für Beratungsleistungen zu IT-Sicherheit, NIS2-Compliance und Datenschutz.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "max_betrag": 16500,
+    "zins": null,
+    "antrag_url": "https://www.innovation-beratung-foerderung.de/INNO/Navigation/DE/Karten/Beratersuche-go-digital/karte.html",
+    "bearbeitungszeit_wochen": [4, 6],
+    "ausschlusskriterien": ["Max. 100 Mitarbeitende", "Max. 20 Mio. € Jahresumsatz", "Antrag über autorisierten Berater"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Beratungsangebot eines autorisierten Beraters", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 100, "umsatz_max": "20 Mio. €", "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Software / IT", "Handel / E-Commerce"], "mitarbeiter": ["1–9", "10–49"] }
+  },
+  {
+    "id": "invest-zuschuss-wagniskapital",
+    "title": "INVEST – Zuschuss für Wagniskapital",
+    "beschreibung": "Privatinvestoren erhalten 20 % Erwerbszuschuss auf Beteiligungen an innovativen Start-ups.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Wirtschaft/Beratung_Finanzierung/Invest/invest_node.html",
+    "bearbeitungszeit_wochen": [8, 12],
+    "ausschlusskriterien": ["Nur für Unternehmen unter 7 Jahren", "Muss innovatives Geschäftsmodell nachweisen"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Innovationsnachweis / Pitch Deck", "auto": false},
+      {"name": "Gesellschafterliste", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["GmbH", "UG (haftungsbeschränkt)", "AG"], "mitarbeiter_max": 49, "umsatz_max": "10 Mio. €", "bundeslaender": ["alle"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "branchen": ["Software / IT"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "bafa-energieberatung",
+    "title": "BAFA Energieberatung für Nicht-Wohngebäude",
+    "beschreibung": "Bis zu 80 % Zuschuss für professionelle Energieberatung im Unternehmen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA",
+    "max_betrag": 6000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Energie/Energieberatung/Nichtwohngebaeude_Anlagen_Systeme/nichtwohngebaeude_anlagen_systeme_node.html",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Energieberater muss zugelassen sein", "Antrag vor Beratungsbeginn"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Angebot des Energieberaters", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 999, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Produktion / Fertigung", "Gastronomie / Hotellerie"], "mitarbeiter": ["10–49", "50–249"] }
+  },
+  {
+    "id": "forschungsbonus-kmu",
+    "title": "Forschungszulagengesetz (FZulG)",
+    "beschreibung": "Steuerbonus von 25 % auf Forschungs- und Entwicklungsausgaben, auch für interne F&E-Projekte.",
+    "typ": "Steuervorteil",
+    "quelle": "Bund",
+    "foerderer": "Bescheinigungsstelle Forschungszulage (BSFZ)",
+    "max_betrag": 1000000,
+    "zins": null,
+    "antrag_url": "https://portal.bescheinigung-forschungszulage.de/",
+    "bearbeitungszeit_wochen": [8, 14],
+    "ausschlusskriterien": ["Nur für anspruchsberechtigte F&E-Tätigkeiten"],
+    "benoetigte_dokumente": [
+      {"name": "Beschreibung der F&E-Tätigkeit", "auto": false},
+      {"name": "Kostenaufstellung Personalkosten F&E", "auto": false},
+      {"name": "Steuerbescheid Vorjahr", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 999, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Software / IT", "Produktion / Fertigung"], "mitarbeiter": ["10–49", "50–249"] }
+  },
+  {
+    "id": "digitalbonus-bayern",
+    "title": "Digitalbonus Bayern",
+    "beschreibung": "Bis zu 50 % Zuschuss für Digitalisierungsprojekte: Software, Hardware, IT-Sicherheit.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "StMWi Bayern",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.digitalbonus.bayern/antragstellung/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Bayern", "Max. 500 Mitarbeitende", "Antrag vor Projektbeginn"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Angebot des IT-Dienstleisters", "auto": false},
+      {"name": "Projektbeschreibung", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 500, "umsatz_max": null, "bundeslaender": ["Bayern"] },
+    "relevanz_boost": { "branchen": ["Handel / E-Commerce", "Software / IT", "Dienstleistungen"], "mitarbeiter": ["1–9", "10–49"] }
+  },
+  {
+    "id": "foerderung-berufsausbildung",
+    "title": "Förderung der Berufsausbildung (FbA)",
+    "beschreibung": "Zuschüsse für Ausbildungsbetriebe, die über Bedarf ausbilden oder schwächere Azubis fördern.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesagentur für Arbeit",
+    "max_betrag": 8000,
+    "zins": null,
+    "antrag_url": "https://www.arbeitsagentur.de/unternehmen/finanziell/foerderung-der-berufsausbildung",
+    "bearbeitungszeit_wochen": [3, 5],
+    "ausschlusskriterien": ["Nur für anerkannte Ausbildungsbetriebe"],
+    "benoetigte_dokumente": [
+      {"name": "Ausbildungsvertrag", "auto": false},
+      {"name": "Bescheinigung Ausbildungseignung", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Produktion / Fertigung", "Bau / Handwerk", "Gastronomie / Hotellerie"], "mitarbeiter": ["10–49", "50–249"] }
+  },
+  {
+    "id": "gruendungszuschuss",
+    "title": "Gründungszuschuss",
+    "beschreibung": "Finanzielle Unterstützung für Gründer aus der Arbeitslosigkeit. Kombination aus ALG I und Pauschale.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesagentur für Arbeit",
+    "max_betrag": 30000,
+    "zins": null,
+    "antrag_url": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen",
+    "bearbeitungszeit_wochen": [3, 6],
+    "ausschlusskriterien": ["Nur für Gründer aus der Arbeitslosigkeit", "Anspruch auf ALG I erforderlich"],
+    "benoetigte_dokumente": [
+      {"name": "Businessplan", "auto": false},
+      {"name": "Stellungnahme fachkundige Stelle", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 9, "umsatz_max": null, "bundeslaender": ["alle"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "gruendungsjahr": ["2020 oder später"], "mitarbeiter": ["1–9"] }
+  }
+]

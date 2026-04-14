@@ -1,50 +1,83 @@
-export type Kategorie = 'Datenschutz' | 'IT-Sicherheit' | 'Arbeitsrecht' | 'Branche' | 'Recht' | 'Reporting'
-
-export type PflichtStatus = 'offen' | 'erledigt' | 'nicht_relevant'
-
-export interface Pflicht {
-  id: string
-  titel: string
-  kategorie: Kategorie
-  beschreibung: string
-  quelle: string
-  quelleUrl: string
-  bedingungen: {
-    minMitarbeiter?: number
-    maxMitarbeiter?: number
-    rechtsformen?: string[]
-    bundeslaender?: string[]
-    branchen?: string[]
-  }
-}
-
-export interface Foerderung {
-  id: string
-  name: string
-  traeger: string
-  ebene: 'EU' | 'Bund' | 'Bundesland'
-  kategorie: string
-  beschreibung: string
-  maxBetrag?: string
-  foerderquote?: string
-  antragUrl: string
-  bedingungen: {
-    maxMitarbeiter?: number
-    bundeslaender?: string[]
-    branchen?: string[]
-  }
-}
-
+// ── Profile ──────────────────────────────────────────────────────────────
 export interface UnternehmensProfil {
   name: string
   rechtsform: string
   branche: string
-  mitarbeiter: number
+  mitarbeiter: string   // '1–9' | '10–49' | '50–249' | '250+'
   bundesland: string
-  umsatzklasse: string
-  gruendungsjahr: number
+  umsatz: string
+  gruendungsjahr: string
 }
 
-export interface PflichtMitStatus extends Pflicht {
+// ── Regulations ──────────────────────────────────────────────────────────
+export type PflichtStatus = 'offen' | 'erledigt' | 'nicht_relevant'
+
+export type DokumentTyp =
+  | 'datenschutzerklaerung'
+  | 'impressum'
+  | 'arbeitszeitnachweis'
+  | 'arbeitsschutz-unterweisung'
+
+export interface GiltFuer {
+  rechtsformen: string[]
+  branchen?: string[]
+  mitarbeiter_min?: number
+  bundeslaender?: string[]
+}
+
+export interface Regulation {
+  id: string
+  title: string
+  category: string
+  beschreibung: string
+  rechtsgrundlage: string
+  quelle_url: string
+  gilt_fuer: GiltFuer
+  hat_dokument_generator: boolean
+  dokument_typ?: DokumentTyp
+}
+
+export interface RegulationMitStatus extends Regulation {
   status: PflichtStatus
+}
+
+// ── Fundings ─────────────────────────────────────────────────────────────
+export interface BenoetigtsDokument {
+  name: string
+  auto: boolean
+}
+
+export interface FundingGiltFuer {
+  rechtsformen: string[]
+  mitarbeiter_max?: number
+  umsatz_max?: string | null
+  bundeslaender?: string[]
+  gruendungsjahr?: string[]
+}
+
+export interface FundingRelevanzBoost {
+  branchen?: string[]
+  mitarbeiter?: string[]
+  gruendungsjahr?: string[]
+}
+
+export interface Funding {
+  id: string
+  title: string
+  beschreibung: string
+  typ: 'Zuschuss' | 'Kredit' | 'Steuervorteil'
+  quelle: 'EU' | 'Bund' | 'Bundesland'
+  foerderer: string
+  max_betrag: number | null
+  zins: string | null
+  antrag_url: string
+  bearbeitungszeit_wochen: [number, number]
+  ausschlusskriterien: string[]
+  benoetigte_dokumente: BenoetigtsDokument[]
+  gilt_fuer: FundingGiltFuer
+  relevanz_boost?: FundingRelevanzBoost
+}
+
+export interface FundingMitScore extends Funding {
+  score: number
 }

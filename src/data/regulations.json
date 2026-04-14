@@ -1,0 +1,126 @@
+[
+  {
+    "id": "dsgvo-datenschutzerklaerung",
+    "title": "DSGVO – Datenschutzerklärung",
+    "category": "Datenschutz",
+    "beschreibung": "Datenschutzerklärung auf der Website und Verarbeitungsverzeichnis müssen vorliegen.",
+    "rechtsgrundlage": "Art. 13 DSGVO",
+    "quelle_url": "https://dsgvo-gesetz.de/art-13-dsgvo/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": true,
+    "dokument_typ": "datenschutzerklaerung"
+  },
+  {
+    "id": "impressumspflicht",
+    "title": "Impressumspflicht",
+    "category": "Recht",
+    "beschreibung": "Vollständiges Impressum mit Verantwortlichem, Kontakt und Handelsregisternummer auf der Website.",
+    "rechtsgrundlage": "§5 DDG",
+    "quelle_url": "https://www.gesetze-im-internet.de/ddg/__5.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": true,
+    "dokument_typ": "impressum"
+  },
+  {
+    "id": "nis2",
+    "title": "NIS2-Richtlinie – IT-Sicherheit",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Cybersicherheitsmaßnahmen und Meldepflicht bei Sicherheitsvorfällen innerhalb von 24h.",
+    "rechtsgrundlage": "BSI-Gesetz §8a / NIS2UmsuCG",
+    "quelle_url": "https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/nis-2-regulierte-unternehmen_node.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Software / IT", "Produktion / Fertigung", "Gesundheit / Pflege"], "mitarbeiter_min": 10, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "mindestlohn-dokumentation",
+    "title": "Mindestlohn-Dokumentationspflicht",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitszeitaufzeichnung für Minijobber und bestimmte Branchen. Mindestlohn 2026: 13,90 €/Std.",
+    "rechtsgrundlage": "§17 MiLoG",
+    "quelle_url": "https://www.bmas.de/DE/Arbeit/Arbeitsrecht/Mindestlohn/mindestlohn.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": true,
+    "dokument_typ": "arbeitszeitnachweis"
+  },
+  {
+    "id": "lksg",
+    "title": "Lieferkettensorgfaltspflichtengesetz (LkSG)",
+    "category": "Recht",
+    "beschreibung": "Sorgfaltspflichten für Menschenrechte und Umwelt in der Lieferkette.",
+    "rechtsgrundlage": "LkSG §3",
+    "quelle_url": "https://www.bafa.de/DE/Lieferketten/lieferketten_node.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1000, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dsgvo-datenschutzbeauftragter",
+    "title": "Datenschutzbeauftragter benennen",
+    "category": "Datenschutz",
+    "beschreibung": "Ab 20 Personen mit regelmäßiger Datenverarbeitung ist ein Datenschutzbeauftragter zu benennen.",
+    "rechtsgrundlage": "§38 BDSG / Art. 37 DSGVO",
+    "quelle_url": "https://www.bfdi.bund.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 20, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "cookie-consent",
+    "title": "Cookie-Consent / Einwilligungsmanagement",
+    "category": "Datenschutz",
+    "beschreibung": "Technisch nicht notwendige Cookies erfordern aktive Einwilligung der Nutzer (kein Opt-Out).",
+    "rechtsgrundlage": "Art. 6 DSGVO / TTDSG §25",
+    "quelle_url": "https://www.bfdi.bund.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gewerbesteuer-erklaerung",
+    "title": "Gewerbesteuererklärung",
+    "category": "Steuer",
+    "beschreibung": "Jährliche Gewerbesteuererklärung beim Finanzamt, Frist 31. Juli des Folgejahres.",
+    "rechtsgrundlage": "§14a GewStG",
+    "quelle_url": "https://www.elster.de",
+    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "e.K.", "GbR"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsschutz-unterweisung",
+    "title": "Arbeitsschutzunterweisung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Jährliche schriftliche Unterweisung aller Mitarbeitenden zu Arbeitsschutz und Unfallverhütung.",
+    "rechtsgrundlage": "§12 ArbSchG",
+    "quelle_url": "https://www.baua.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": true,
+    "dokument_typ": "arbeitsschutz-unterweisung"
+  },
+  {
+    "id": "elektronische-rechnung",
+    "title": "E-Rechnungspflicht (B2B ab 2025)",
+    "category": "Steuer",
+    "beschreibung": "Ab 2025 müssen inländische B2B-Rechnungen als strukturierte E-Rechnung (ZUGFeRD/XRechnung) ausgestellt werden.",
+    "rechtsgrundlage": "§14 UStG (neu)",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "UG (haftungsbeschränkt)", "GbR", "e.K.", "Einzelunternehmen"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "verpackungsgesetz",
+    "title": "Verpackungsgesetz (VerpackG)",
+    "category": "Umwelt",
+    "beschreibung": "Hersteller und Inverkehrbringer von Verpackungen müssen sich bei LUCID registrieren und lizenzieren.",
+    "rechtsgrundlage": "§9 VerpackG",
+    "quelle_url": "https://www.verpackungsregister.org",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handel / E-Commerce", "Produktion / Fertigung"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "eu-ai-act",
+    "title": "EU AI Act – Registrierungspflicht",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Unternehmen die KI-Systeme einsetzen müssen diese ab 2026 klassifizieren und ggf. registrieren.",
+    "rechtsgrundlage": "EU AI Act Art. 49",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  }
+]
