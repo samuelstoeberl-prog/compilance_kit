@@ -1,13 +1,13 @@
 [
   {
     "id": "kfw-digitalisierung",
-    "name": "KfW-Digitalisierungskredit (ERP-Digitalisierungs- und Innovationskredit)",
+    "name": "KfW ERP-Förderkredit Digitalisierung (511/512)",
     "traeger": "KfW Bankengruppe",
     "ebene": "Bund",
     "kategorie": "Digitalisierung",
-    "beschreibung": "Günstige Kredite für Digitalisierungsmaßnahmen, IT-Infrastruktur und digitale Geschäftsmodelle.",
+    "beschreibung": "Günstige Kredite für Digitalisierungsmaßnahmen, IT-Infrastruktur und digitale Geschäftsmodelle. Antrag über Ihre Hausbank.",
     "maxBetrag": "25 Mio. €",
-    "antragUrl": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Digitalisierung-Innovation/",
+    "antragUrl": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Digitalisierung-(511-512)/",
     "bedingungen": {
       "maxMitarbeiter": 500
     }
@@ -21,7 +21,7 @@
     "beschreibung": "Zuschuss für professionelle Energieberatung im Unternehmen. Bis zu 80% der Beratungskosten gefördert.",
     "maxBetrag": "6.000 €",
     "foerderquote": "bis zu 80%",
-    "antragUrl": "https://www.bafa.de/DE/Energie/Energieberatung/energieberatung_node.html",
+    "antragUrl": "https://www.bafa.de/DE/Energie/Energieberatung/Nichtwohngebaeude_Anlagen_Systeme/nichtwohngebaeude_anlagen_systeme_node.html",
     "bedingungen": {}
   },
   {
@@ -32,7 +32,7 @@
     "kategorie": "Digitalisierung",
     "beschreibung": "Förderung von Beratungsleistungen für KMU in den Bereichen IT-Sicherheit, digitale Markterschließung und digitalisierte Geschäftsprozesse.",
     "foerderquote": "50%",
-    "antragUrl": "https://www.innovation-beratung-foerderung.de/INNO/Navigation/DE/go-digital/go-digital.html",
+    "antragUrl": "https://www.innovation-beratung-foerderung.de/INNO/Navigation/DE/Karten/Beratersuche-go-digital/karte.html",
     "bedingungen": {
       "maxMitarbeiter": 100
     }
@@ -40,12 +40,12 @@
   {
     "id": "fzulg",
     "name": "Forschungszulagengesetz (FZulG)",
-    "traeger": "Finanzamt / Bescheinigungsstelle Forschungszulage",
+    "traeger": "Bescheinigungsstelle Forschungszulage (BSFZ)",
     "ebene": "Bund",
     "kategorie": "Innovation",
     "beschreibung": "Steuerliche Förderung von Forschungs- und Entwicklungsaufwendungen. 25% der förderfähigen Aufwendungen als Steuervorteil.",
     "foerderquote": "25% der F&E-Kosten",
-    "antragUrl": "https://www.bescheinigung-forschungszulage.de/",
+    "antragUrl": "https://portal.bescheinigung-forschungszulage.de/",
     "bedingungen": {}
   },
   {
@@ -54,9 +54,9 @@
     "traeger": "EU / Bundesbehörden",
     "ebene": "EU",
     "kategorie": "Allgemein",
-    "beschreibung": "Bis zu 300.000 € staatliche Beihilfen innerhalb von 3 Jahren ohne Notifizierungspflicht.",
+    "beschreibung": "Bis zu 300.000 € staatliche Beihilfen innerhalb von 3 Jahren ohne Notifizierungspflicht. Kombinierbar mit anderen Förderungen.",
     "maxBetrag": "300.000 € / 3 Jahre",
-    "antragUrl": "https://ec.europa.eu/competition-policy/state-aid/legislation/de-minimis-regulation_en",
+    "antragUrl": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32023R2831",
     "bedingungen": {}
   },
   {
@@ -68,7 +68,7 @@
     "beschreibung": "Zuschüsse für Hard- und Software, IT-Sicherheit und digitale Prozessoptimierung für bayerische KMU.",
     "maxBetrag": "50.000 €",
     "foerderquote": "bis zu 50%",
-    "antragUrl": "https://www.digitalbonus.bayern/",
+    "antragUrl": "https://www.digitalbonus.bayern/antragstellung/",
     "bedingungen": {
       "maxMitarbeiter": 250,
       "bundeslaender": ["Bayern"]
@@ -81,7 +81,7 @@
     "ebene": "Bund",
     "kategorie": "Gründung",
     "beschreibung": "Finanzielle Unterstützung für Gründer aus der Arbeitslosigkeit.",
-    "antragUrl": "https://www.arbeitsagentur.de/existenzgruendung/gruendungszuschuss",
+    "antragUrl": "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen",
     "bedingungen": {}
   },
   {
@@ -90,9 +90,9 @@
     "traeger": "Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)",
     "ebene": "Bund",
     "kategorie": "Investition",
-    "beschreibung": "Privaten Investoren wird ein Teil ihres Investments in innovative junge Unternehmen erstattet.",
+    "beschreibung": "Privaten Investoren wird ein Teil ihres Investments in innovative junge Unternehmen erstattet. Förderprogramm läuft bis Ende 2026.",
     "foerderquote": "20% des Investments",
-    "antragUrl": "https://www.bafa.de/DE/Wirtschaftsfoerderung/Investitionszuschuss_Wagniskapital/investitionszuschuss_wagniskapital_node.html",
+    "antragUrl": "https://www.bafa.de/DE/Wirtschaft/Beratung_Finanzierung/Invest/invest_node.html",
     "bedingungen": {
       "maxMitarbeiter": 250
     }

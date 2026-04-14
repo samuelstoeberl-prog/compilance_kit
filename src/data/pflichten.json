@@ -13,8 +13,8 @@
     "titel": "Impressumspflicht",
     "kategorie": "Recht",
     "beschreibung": "Vollständiges Impressum mit Verantwortlichem, Kontakt und Handelsregisternummer auf der Website.",
-    "quelle": "§5 TMG",
-    "quelleUrl": "https://www.gesetze-im-internet.de/tmg/__5.html",
+    "quelle": "§5 DDG",
+    "quelleUrl": "https://www.gesetze-im-internet.de/ddg/__5.html",
     "bedingungen": {}
   },
   {
@@ -23,7 +23,7 @@
     "kategorie": "IT-Sicherheit",
     "beschreibung": "Maßnahmen zur Cybersicherheit und Meldepflicht bei Sicherheitsvorfällen.",
     "quelle": "BSI-Gesetz §8a",
-    "quelleUrl": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/NIS-2/nis-2_node.html",
+    "quelleUrl": "https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/nis-2-regulierte-unternehmen_node.html",
     "bedingungen": {
       "minMitarbeiter": 50
     }
@@ -32,7 +32,7 @@
     "id": "mindestlohn",
     "titel": "Mindestlohndokumentation",
     "kategorie": "Arbeitsrecht",
-    "beschreibung": "Arbeitszeitaufzeichnungen für Minijobber und bestimmte Branchen nach §17 MiLoG. Mindestlohn 2025: 12,82 €/Std.",
+    "beschreibung": "Arbeitszeitaufzeichnungen für Minijobber und bestimmte Branchen nach §17 MiLoG. Mindestlohn 2026: 13,90 €/Std.",
     "quelle": "§17 MiLoG",
     "quelleUrl": "https://www.bmas.de/DE/Arbeit/Arbeitsrecht/Mindestlohn/mindestlohn.html",
     "bedingungen": {
@@ -98,7 +98,7 @@
     "kategorie": "Arbeitsrecht",
     "beschreibung": "Einhaltung von Mindeststandards für Arbeitsstätten: Beleuchtung, Lüftung, Fluchtweg-Kennzeichnung.",
     "quelle": "ArbStättV §3",
-    "quelleUrl": "https://www.gesetze-im-internet.de/arb_st_ttv_2004/",
+    "quelleUrl": "https://www.gesetze-im-internet.de/arbst_ttv_2004/",
     "bedingungen": {
       "minMitarbeiter": 1
     }
