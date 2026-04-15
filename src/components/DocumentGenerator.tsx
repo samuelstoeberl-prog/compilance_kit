@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Anthropic from '@anthropic-ai/sdk'
 import type { RegulationMitStatus, UnternehmensProfil, DokumentTyp } from '../types'
 
 interface Props {
@@ -16,66 +15,461 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   'arbeitsschutz-unterweisung': 'Arbeitsschutzunterweisung-Vorlage',
 }
 
-function buildPrompt(typ: DokumentTyp, profil: UnternehmensProfil): string {
-  const base = `Unternehmensform: ${profil.rechtsform}, Branche: ${profil.branche}, Bundesland: ${profil.bundesland}, Mitarbeiterzahl: ${profil.mitarbeiter}`
+function generateDatenschutzerklaerung(profil: UnternehmensProfil): string {
+  return `DATENSCHUTZERKLÄRUNG
+gemäß Art. 13, 14 DSGVO
 
-  const prompts: Record<DokumentTyp, string> = {
-    datenschutzerklaerung: `Erstelle eine vollständige, rechtskonforme DSGVO-Datenschutzerklärung für folgendes Unternehmen: ${base}. Pflichtangaben nach Art. 13 DSGVO, branchenspezifisch zugeschnitten. Abschnitte: Verantwortlicher, Zweck der Verarbeitung, Rechtsgrundlagen, Empfänger, Speicherdauer, Betroffenenrechte, Cookies. Verwende [FIRMENNAME], [ADRESSE], [EMAIL] als Platzhalter. Nur das Dokument ausgeben, keine Einleitung.`,
-    impressum: `Erstelle ein vollständiges, rechtskonformes Impressum nach §5 DDG für: ${base}. Alle Pflichtfelder mit [PLATZHALTERN] für unternehmensspezifische Daten. Nur das Impressum ausgeben.`,
-    arbeitszeitnachweis: `Erstelle eine Arbeitszeitnachweis-Vorlage nach §17 MiLoG für: ${base}. Monatsformular mit Tabelle (Tag, Von, Bis, Pause, Gesamt). Erkläre kurz Aufbewahrungsfrist (2 Jahre). Nur die Vorlage ausgeben.`,
-    'arbeitsschutz-unterweisung': `Erstelle eine Arbeitsschutzunterweisung-Vorlage nach §12 ArbSchG für: ${base}. Unterweisungsnachweis mit Datum, branchenspezifischen Themen, Unterschriftsfeldern. Nur die Vorlage ausgeben.`,
+Stand: ${new Date().toLocaleDateString('de-DE', { month: 'long', year: 'numeric' })}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. VERANTWORTLICHER
+
+${profil.name}
+[STRASSE UND HAUSNUMMER]
+[PLZ ORT]
+
+E-Mail: [EMAIL-ADRESSE]
+Telefon: [TELEFONNUMMER]
+${profil.rechtsform !== 'Einzelunternehmen' && profil.rechtsform !== 'GbR' ? 'Handelsregister: [AMTSGERICHT], HRB [NUMMER]' : ''}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2. ARTEN DER VERARBEITETEN DATEN
+
+Wir verarbeiten folgende Kategorien personenbezogener Daten:
+
+• Bestandsdaten (Name, Anschrift, Kontaktdaten)
+• Vertragsdaten (Vertragsgegenstand, Laufzeit, Kundenkategorie)
+• Nutzungsdaten (besuchte Webseiten, Interesse an Inhalten)
+• Kommunikationsdaten (Gerätekennungen, IP-Adressen)
+${profil.branche === 'Gesundheit / Pflege' ? '• Gesundheitsdaten (nur soweit für die Leistungserbringung erforderlich, Art. 9 Abs. 2 lit. h DSGVO)' : ''}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3. ZWECK UND RECHTSGRUNDLAGEN DER VERARBEITUNG
+
+3.1 Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)
+Wir verarbeiten Ihre Daten zur Durchführung und Abwicklung von Verträgen sowie zur
+Beantwortung vorvertraglicher Anfragen.
+
+3.2 Rechtliche Verpflichtungen (Art. 6 Abs. 1 lit. c DSGVO)
+Die Verarbeitung erfolgt zur Erfüllung gesetzlicher Aufbewahrungspflichten gemäß
+HGB (§ 257) und AO (§ 147).
+
+3.3 Berechtigte Interessen (Art. 6 Abs. 1 lit. f DSGVO)
+Für Direktmarketing gegenüber Bestandskunden, Betrugsverhinderung und
+IT-Sicherheit verarbeiten wir Daten auf Grundlage unserer berechtigten Interessen.
+
+3.4 Einwilligung (Art. 6 Abs. 1 lit. a DSGVO)
+Soweit Sie eine Einwilligung erteilt haben (z.B. Newsletter), kann diese jederzeit
+mit Wirkung für die Zukunft widerrufen werden.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4. EMPFÄNGER UND WEITERGABE
+
+Eine Übermittlung Ihrer Daten erfolgt an:
+
+• Steuerberater / Wirtschaftsprüfer (gesetzliche Pflicht)
+• IT-Dienstleister und Hostinganbieter (Auftragsverarbeitung gem. Art. 28 DSGVO)
+• Zahlungsdienstleister (soweit erforderlich)
+• Behörden (nur auf gesetzliche Anforderung)
+
+Eine Übermittlung in Drittstaaten außerhalb der EU/EWR erfolgt nur bei Vorliegen
+geeigneter Garantien (Standardvertragsklauseln gem. Art. 46 DSGVO).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5. SPEICHERDAUER
+
+Wir speichern Ihre Daten nur so lange, wie es für den jeweiligen Zweck erforderlich
+ist oder gesetzliche Aufbewahrungsfristen bestehen:
+
+• Vertragsdaten:        10 Jahre (§ 257 HGB)
+• Buchungsbelege:       10 Jahre (§ 147 AO)
+• Korrespondenz:        6 Jahre (§ 147 AO)
+• Einwilligungen:       bis zum Widerruf + 3 Jahre Nachweis
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+6. COOKIES UND TRACKING
+
+Unsere Website verwendet:
+
+• Technisch notwendige Cookies (keine Einwilligung erforderlich)
+• [OPTIONAL: Analyse-Cookies (z.B. Matomo/Google Analytics) – nur mit Einwilligung]
+• [OPTIONAL: Marketing-Cookies – nur mit Einwilligung]
+
+Sie können Ihre Cookie-Einstellungen jederzeit über unser Cookie-Consent-Banner
+anpassen.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+7. IHRE RECHTE (Art. 15–22 DSGVO)
+
+Sie haben das Recht auf:
+✓  Auskunft über Ihre gespeicherten Daten (Art. 15 DSGVO)
+✓  Berichtigung unrichtiger Daten (Art. 16 DSGVO)
+✓  Löschung Ihrer Daten (Art. 17 DSGVO)
+✓  Einschränkung der Verarbeitung (Art. 18 DSGVO)
+✓  Datenübertragbarkeit (Art. 20 DSGVO)
+✓  Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)
+✓  Widerruf einer Einwilligung (Art. 7 Abs. 3 DSGVO)
+
+Zur Ausübung Ihrer Rechte wenden Sie sich an: [EMAIL-ADRESSE]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+8. BESCHWERDERECHT
+
+Sie haben das Recht, sich bei der zuständigen Datenschutzaufsichtsbehörde
+zu beschweren. Die für ${profil.bundesland} zuständige Behörde ist:
+
+[ZUSTÄNDIGE LANDESBEHÖRDE – siehe https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HINWEIS: Dieses Dokument wurde auf Basis Ihres Unternehmensprofils
+(${profil.rechtsform}, ${profil.branche}, ${profil.bundesland}) vorausgefüllt.
+Bitte lassen Sie es von einem Rechtsanwalt prüfen und passen Sie alle
+[PLATZHALTER] an Ihr Unternehmen an.`
+}
+
+function generateImpressum(profil: UnternehmensProfil): string {
+  const isGmbHArtig = ['GmbH', 'UG (haftungsbeschränkt)', 'AG'].includes(profil.rechtsform)
+  const isEinzel = ['Einzelunternehmen', 'e.K.'].includes(profil.rechtsform)
+
+  return `IMPRESSUM
+gemäß § 5 DDG (Digitale-Dienste-Gesetz)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ANGABEN ZUM UNTERNEHMEN
+
+${profil.name}
+[STRASSE UND HAUSNUMMER]
+[PLZ ORT]
+Deutschland
+
+Telefon: [TELEFONNUMMER]
+E-Mail:  [EMAIL-ADRESSE]
+Website: [WEBSITE-URL]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RECHTSFORM UND VERTRETUNG
+
+Rechtsform: ${profil.rechtsform}
+${isGmbHArtig ? `Geschäftsführer: [VORNAME NACHNAME]
+Registergericht: Amtsgericht [ORT]
+Handelsregisternummer: HRB [NUMMER]` : ''}
+${profil.rechtsform === 'GbR' ? `Gesellschafter: [NAME 1], [NAME 2]` : ''}
+${isEinzel ? `Inhaber: [VORNAME NACHNAME]${profil.rechtsform === 'e.K.' ? '\nRegistergericht: Amtsgericht [ORT]\nHandelsregisternummer: HRA [NUMMER]' : ''}` : ''}
+${profil.rechtsform === 'AG' ? `Vorstandsvorsitzender: [VORNAME NACHNAME]\nAufsichtsratsvorsitzender: [VORNAME NACHNAME]` : ''}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEUERLICHE ANGABEN
+
+Umsatzsteuer-Identifikationsnummer (§ 27a UStG):
+DE [NUMMER – falls vorhanden]
+
+Steuernummer: [FINANZAMT] / [STEUERNUMMER]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+VERANTWORTLICH FÜR DEN INHALT (§ 18 Abs. 2 MStV)
+
+[VORNAME NACHNAME]
+[STRASSE UND HAUSNUMMER]
+[PLZ ORT]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BERUFLICHE ZULASSUNG / AUFSICHTSBEHÖRDE
+(nur falls zutreffend)
+
+${profil.branche === 'Gesundheit / Pflege' ? `Zuständige Aufsichtsbehörde: [ZUSTÄNDIGE BEHÖRDE, z.B. Kassenärztliche Vereinigung]
+Berufsbezeichnung: [BEZEICHNUNG]
+Staat der Verleihung: Deutschland` : '[Falls zutreffend: Angaben zur Berufszulassung eintragen]'}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STREITSCHLICHTUNG
+
+Die EU-Kommission stellt eine Plattform zur Online-Streitbeilegung bereit:
+https://ec.europa.eu/consumers/odr
+
+Wir sind [nicht] bereit, an einem Streitbeilegungsverfahren vor einer
+Verbraucherschlichtungsstelle teilzunehmen.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HAFTUNGSHINWEIS
+
+Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die
+Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich
+deren Betreiber verantwortlich.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HINWEIS: Alle [PLATZHALTER] müssen vor Veröffentlichung ersetzt werden.
+Branche: ${profil.branche} · Bundesland: ${profil.bundesland}`
+}
+
+function generateArbeitszeitnachweis(profil: UnternehmensProfil): string {
+  const monat = new Date().toLocaleDateString('de-DE', { month: 'long', year: 'numeric' })
+  return `ARBEITSZEITNACHWEIS
+gemäß § 17 MiLoG (Mindestlohngesetz)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+UNTERNEHMEN: ${profil.name}
+MONAT:       ${monat}
+MITARBEITER: ___________________________
+ABTEILUNG:   ___________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STUNDENNACHWEIS
+
+Tag  │ Datum       │ Arbeitsbeginn │ Arbeitsende │ Pause (Min) │ Gesamt
+─────┼─────────────┼───────────────┼─────────────┼─────────────┼───────
+  1  │             │               │             │             │
+  2  │             │               │             │             │
+  3  │             │               │             │             │
+  4  │             │               │             │             │
+  5  │             │               │             │             │
+  6  │             │               │             │             │
+  7  │             │               │             │             │
+  8  │             │               │             │             │
+  9  │             │               │             │             │
+ 10  │             │               │             │             │
+ 11  │             │               │             │             │
+ 12  │             │               │             │             │
+ 13  │             │               │             │             │
+ 14  │             │               │             │             │
+ 15  │             │               │             │             │
+ 16  │             │               │             │             │
+ 17  │             │               │             │             │
+ 18  │             │               │             │             │
+ 19  │             │               │             │             │
+ 20  │             │               │             │             │
+ 21  │             │               │             │             │
+ 22  │             │               │             │             │
+ 23  │             │               │             │             │
+ 24  │             │               │             │             │
+ 25  │             │               │             │             │
+ 26  │             │               │             │             │
+ 27  │             │               │             │             │
+ 28  │             │               │             │             │
+ 29  │             │               │             │             │
+ 30  │             │               │             │             │
+ 31  │             │               │             │             │
+─────┴─────────────┴───────────────┴─────────────┴─────────────┴───────
+                                               GESAMT MONAT:  _______ h
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MINDESTLOHN-KONTROLLE (2026)
+
+Geleistete Stunden:        _______ h
+Mindestlohn 2026:          13,90 € / Stunde
+Mindestvergütung gesamt:   _______ €
+Tatsächliche Vergütung:    _______ €
+Differenz:                 _______ €  ☐ OK  ☐ Nachzahlung erforderlich
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+UNTERSCHRIFTEN
+
+Mitarbeiter:
+Datum: ________________  Unterschrift: _______________________________
+
+Arbeitgeber / ${profil.name}:
+Datum: ________________  Unterschrift: _______________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RECHTLICHE HINWEISE
+
+Aufbewahrungsfrist:  2 Jahre ab Erstellungsdatum (§ 17 Abs. 2 MiLoG)
+Aufbewahrungsort:    Im Betrieb, für Kontrolle durch Zollbehörden bereitzuhalten
+
+Pflicht gilt für:
+• Geringfügig Beschäftigte (Minijobber)
+• Arbeitnehmer in Branchen nach § 2a SchwarzArbG
+• Arbeitnehmer bis 2.000 € Monatsverdienst (nicht dauerhaft)
+
+Gültige Branchen (Auszug): Bauwirtschaft, Gastronomie, Spedition,
+Schaustellergewerbe, Forst, Gebäudereinigung, Fleischwirtschaft, Messebau
+
+Unternehmen: ${profil.name} · ${profil.rechtsform} · ${profil.bundesland}
+Branche: ${profil.branche}`
+}
+
+function generateArbeitsschutzUnterweisung(profil: UnternehmensProfil): string {
+  const branchenThemen: Record<string, string[]> = {
+    'Software / IT': [
+      'Ergonomischer Büroarbeitsplatz (Bildschirmarbeitsverordnung)',
+      'Richtige Sitzhaltung und Pausenregelung (ArbStättV)',
+      'Schutz vor psychischer Belastung / Stress',
+      'Sicherheit im Homeoffice',
+      'Brandschutz und Fluchtweg-Kennzeichnung',
+    ],
+    'Produktion / Fertigung': [
+      'Maschinensicherheit und Schutzeinrichtungen (MaschVO)',
+      'Persönliche Schutzausrüstung (PSA-Pflicht)',
+      'Lärm- und Vibrationsschutz (LärmVibrationsArbSchV)',
+      'Gefahrstoffe und Sicherheitsdatenblätter (GefStoffV)',
+      'Brandschutz und Explosionsschutz',
+      'Heben und Tragen (Lastenhandhabungsverordnung)',
+    ],
+    'Handel / E-Commerce': [
+      'Heben und Tragen schwerer Lasten',
+      'Stolper- und Sturzgefahren im Lager',
+      'Bildschirmarbeit und Ergonomie',
+      'Brandschutz und Evakuierung',
+      'Elektrische Sicherheit',
+    ],
+    'Gastronomie / Hotellerie': [
+      'Schnittschutz und Umgang mit Messern',
+      'Brandschutz und Fettbrand-Prävention',
+      'Rutschgefahr auf nassen Böden',
+      'Gefahrstoffe: Reinigungsmittel richtig handhaben',
+      'Körperliche Belastung / Tragen von Lasten',
+      'Hygiene und Infektionsschutz',
+    ],
+    'Gesundheit / Pflege': [
+      'Infektionsschutz und Hygiene (IfSG)',
+      'Umgang mit Körperflüssigkeiten / Nadelstichverletzungen',
+      'Heben und Lagern von Patienten (Rückenschutz)',
+      'Umgang mit Arzneimitteln und medizinischen Geräten',
+      'Psychische Belastung / Umgang mit Stress',
+      'Brandschutz und Notfallpläne',
+    ],
+    'Bau / Handwerk': [
+      'Absturzschutz und Leitersicherheit (DGUV V38)',
+      'Persönliche Schutzausrüstung (Helm, Handschuhe, Schutzschuhe)',
+      'Elektrische Gefährdungen',
+      'Umgang mit Gefahrstoffen (Asbest, Quarzstaub)',
+      'Maschinensicherheit (Sägen, Bohrer, Winkelschleifer)',
+      'Sonnenschutz bei Außenarbeiten',
+    ],
+    'Transport / Logistik': [
+      'Fahrersicherheit und Fahrtüchtigkeit',
+      'Ladungssicherung (StVO § 22)',
+      'Gefahrguttransport (ADR) falls zutreffend',
+      'Heben und Tragen im Lager',
+      'Gabelstaplerbetrieb (DGUV V68)',
+      'Brandschutz im Lager',
+    ],
   }
 
-  return prompts[typ]
+  const themen = branchenThemen[profil.branche] ?? [
+    'Allgemeine Unfallverhütung',
+    'Brandschutz und Evakuierung',
+    'Erste Hilfe im Betrieb',
+    'Ergonomie am Arbeitsplatz',
+    'Elektrische Sicherheit',
+  ]
+
+  return `ARBEITSSCHUTZUNTERWEISUNG
+gemäß § 12 ArbSchG (Arbeitsschutzgesetz)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+UNTERWEISUNGSNACHWEIS
+
+Unternehmen:      ${profil.name}
+Branche:          ${profil.branche}
+Unterweisungsort: ___________________________
+Datum:            ___________________________
+Unterweiser/in:   ___________________________
+Anlass:           ☐ Erstunterweisung  ☐ Jährliche Wiederholung  ☐ Anlassbezogen
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+UNTERWEISUNGSTHEMEN (branchenspezifisch: ${profil.branche})
+
+${themen.map((t, i) => `${i + 1}. ${t}`).join('\n')}
+
+Zusätzliche betriebsspezifische Themen:
+___________________________________________
+___________________________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NOTFALLINFOMATIONEN
+
+Notruf:          112
+Betriebsarzt:    ___________________________
+Ersthelfer:      ___________________________
+Verbandskasten:  ___________________________
+Fluchtweg:       ___________________________
+Sammelplatz:     ___________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TEILNEHMERLISTE UND BESTÄTIGUNG
+
+Die unterzeichnenden Personen bestätigen, dass sie an der Unterweisung
+teilgenommen haben und die Inhalte verstanden haben.
+
+Nr.  │ Name (Druck)              │ Datum        │ Unterschrift
+─────┼───────────────────────────┼──────────────┼─────────────────────
+  1  │                           │              │
+  2  │                           │              │
+  3  │                           │              │
+  4  │                           │              │
+  5  │                           │              │
+  6  │                           │              │
+  7  │                           │              │
+  8  │                           │              │
+  9  │                           │              │
+ 10  │                           │              │
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BESTÄTIGUNG DES UNTERWEISERS
+
+Ich bestätige, dass die oben genannten Mitarbeitenden über die relevanten
+Arbeitsschutzthemen unterwiesen wurden.
+
+Datum: ________________  Unterschrift: _______________________________
+Name:  ________________________________  Funktion: ___________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RECHTLICHE HINWEISE
+
+Pflicht:            Mindestens jährlich, bei neuen Mitarbeitenden sofort
+Aufbewahrung:       Mindestens 2 Jahre nach Durchführung
+Rechtsgrundlagen:   § 12 ArbSchG, § 4 BGV A1, DGUV Vorschrift 1
+
+Unternehmen: ${profil.name} · ${profil.mitarbeiter} Mitarbeitende · ${profil.bundesland}`
+}
+
+function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
+  switch (typ) {
+    case 'datenschutzerklaerung': return generateDatenschutzerklaerung(profil)
+    case 'impressum': return generateImpressum(profil)
+    case 'arbeitszeitnachweis': return generateArbeitszeitnachweis(profil)
+    case 'arbeitsschutz-unterweisung': return generateArbeitsschutzUnterweisung(profil)
+  }
 }
 
 export default function DocumentGenerator({ regulation, profil, onComplete, onClose }: Props) {
   const typ = regulation.dokument_typ as DokumentTyp
-  const [content, setContent] = useState('')
-  const [streaming, setStreaming] = useState(false)
-  const [done, setDone] = useState(false)
-  const [error, setError] = useState('')
-
-  const generate = async () => {
-    const apiKey = import.meta.env.VITE_ANTHROPIC_API_KEY
-    if (!apiKey || apiKey === 'sk-ant-PLACEHOLDER') {
-      setError('Kein API-Key konfiguriert. Bitte VITE_ANTHROPIC_API_KEY in .env.local setzen.')
-      return
-    }
-
-    setStreaming(true)
-    setContent('')
-    setError('')
-    setDone(false)
-
-    try {
-      const client = new Anthropic({ apiKey, dangerouslyAllowBrowser: true })
-      const stream = client.messages.stream({
-        model: 'claude-sonnet-4-6',
-        max_tokens: 2000,
-        messages: [{ role: 'user', content: buildPrompt(typ, profil) }],
-      })
-
-      for await (const event of stream) {
-        if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {
-          const text = (event.delta as { type: 'text_delta'; text: string }).text
-          setContent(prev => prev + text)
-        }
-      }
-      setDone(true)
-    } catch (e) {
-      setError(e instanceof Error ? e.message : 'Unbekannter Fehler')
-    } finally {
-      setStreaming(false)
-    }
-  }
+  const [content] = useState(() => buildDocument(typ, profil))
 
   const download = () => {
     const blob = new Blob([content], { type: 'text/plain;charset=utf-8' })
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = `${typ}-${profil.name || 'dokument'}.txt`
+    a.download = `${typ}-${(profil.name || 'dokument').replace(/\s+/g, '-')}.txt`
     a.click()
     URL.revokeObjectURL(url)
     onComplete(regulation.id)
@@ -85,6 +479,7 @@ export default function DocumentGenerator({ regulation, profil, onComplete, onCl
     <div className="fixed inset-0 z-50 flex items-center justify-end bg-ink/60 backdrop-blur-sm" onClick={onClose}>
       <div className="h-full w-full max-w-2xl bg-ink-light border-l border-ink-border overflow-y-auto flex flex-col"
         onClick={e => e.stopPropagation()}>
+
         {/* Header */}
         <div className="p-6 border-b border-ink-border flex items-start justify-between gap-4">
           <div>
@@ -95,51 +490,34 @@ export default function DocumentGenerator({ regulation, profil, onComplete, onCl
           <button onClick={onClose} className="text-muted hover:text-sand-light text-xl leading-none mt-1">×</button>
         </div>
 
-        <div className="flex-1 p-6 flex flex-col gap-6">
-          {!streaming && !done && (
-            <div className="bg-ink border border-ink-border rounded-xl p-4">
-              <p className="text-sm font-sans text-muted mb-2">Dokument wird generiert für:</p>
-              <ul className="text-sm font-sans text-sand-light space-y-1">
-                <li>· {profil.rechtsform} · {profil.branche}</li>
-                <li>· {profil.bundesland} · {profil.mitarbeiter} Mitarbeitende</li>
-              </ul>
-            </div>
-          )}
-
-          {error && (
-            <div className="bg-danger-light border border-danger/30 rounded-xl p-4">
-              <p className="text-sm font-sans text-danger">{error}</p>
-            </div>
-          )}
-
-          {(content || streaming) && (
-            <div className="flex-1 min-h-64 bg-ink rounded-xl border border-ink-border p-4 overflow-y-auto">
-              <pre className="text-sm font-mono text-sand-light whitespace-pre-wrap leading-relaxed">
-                {content}
-                {streaming && <span className="animate-pulse text-sand">▊</span>}
-              </pre>
-            </div>
-          )}
-
-          <div className="flex gap-3">
-            {!done ? (
-              <button onClick={generate} disabled={streaming}
-                className="flex-1 bg-sand text-ink py-2.5 rounded-lg text-sm font-sans font-medium disabled:opacity-40 hover:bg-sand-mid transition-colors">
-                {streaming ? 'Generiert...' : 'Dokument generieren'}
-              </button>
-            ) : (
-              <>
-                <button onClick={generate}
-                  className="bg-ink-light border border-ink-border text-sand-light py-2.5 px-4 rounded-lg text-sm font-sans hover:border-sand transition-colors">
-                  Neu generieren
-                </button>
-                <button onClick={download}
-                  className="flex-1 bg-teal text-ink-light py-2.5 rounded-lg text-sm font-sans font-medium hover:bg-teal/90 transition-colors">
-                  Download (.txt) — als erledigt markieren
-                </button>
-              </>
-            )}
+        {/* Info banner */}
+        <div className="mx-6 mt-5 bg-teal-dark/20 border border-teal-dark/40 rounded-xl p-4 flex gap-3">
+          <span className="text-teal text-lg leading-none mt-0.5">✓</span>
+          <div>
+            <p className="text-sm font-sans font-medium text-teal">Dokument fertig</p>
+            <p className="text-xs text-muted font-sans mt-0.5">
+              Auf Basis Ihres Profils vorausgefüllt: {profil.rechtsform} · {profil.branche} · {profil.bundesland}
+            </p>
           </div>
+        </div>
+
+        {/* Preview */}
+        <div className="flex-1 m-6 bg-ink rounded-xl border border-ink-border p-5 overflow-y-auto">
+          <pre className="text-sm font-mono text-sand-light whitespace-pre-wrap leading-relaxed">
+            {content}
+          </pre>
+        </div>
+
+        {/* Actions */}
+        <div className="p-6 pt-0 flex gap-3">
+          <button onClick={onClose}
+            className="bg-ink-light border border-ink-border text-sand-light py-2.5 px-4 rounded-lg text-sm font-sans hover:border-sand transition-colors">
+            Schließen
+          </button>
+          <button onClick={download}
+            className="flex-1 bg-teal text-ink-light py-2.5 rounded-lg text-sm font-sans font-medium hover:bg-teal/90 transition-colors">
+            Download (.txt) — als erledigt markieren
+          </button>
         </div>
       </div>
     </div>
