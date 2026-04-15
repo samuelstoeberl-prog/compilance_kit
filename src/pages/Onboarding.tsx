@@ -60,8 +60,18 @@ export default function Onboarding() {
           ))}
         </div>
 
-        <h1 className="font-serif text-3xl text-sand-light mb-2">Unternehmensprofil</h1>
-        <p className="text-muted font-sans text-sm mb-8">Einmalig. 5 Minuten. Dann alles Relevante auf einen Blick.</p>
+        <div className="flex items-start justify-between mb-2">
+          <h1 className="font-serif text-3xl text-sand-light">{profil ? 'Profil bearbeiten' : 'Unternehmensprofil'}</h1>
+          {profil && (
+            <button onClick={() => navigate('/dashboard')}
+              className="text-sm font-mono text-muted hover:text-sand-light transition-colors mt-1">
+              ← Zurück
+            </button>
+          )}
+        </div>
+        <p className="text-muted font-sans text-sm mb-8">
+          {profil ? 'Änderungen werden sofort übernommen.' : 'Einmalig. 5 Minuten. Dann alles Relevante auf einen Blick.'}
+        </p>
 
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
