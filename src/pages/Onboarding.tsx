@@ -11,13 +11,8 @@ const UMSATZ = ['unter 500.000 €', '500.000 – 2 Mio. €', '2 – 10 Mio. �
 const GRUENDUNGSJAHR = ['vor 2000', '2000–2010', '2011–2019', '2020 oder später']
 
 type FormState = {
-  name: string
-  rechtsform: string
-  branche: string
-  mitarbeiter: string
-  bundesland: string
-  umsatz: string
-  gruendungsjahr: string
+  name: string; rechtsform: string; branche: string; mitarbeiter: string
+  bundesland: string; umsatz: string; gruendungsjahr: string
 }
 
 export default function Onboarding() {
@@ -40,47 +35,53 @@ export default function Onboarding() {
     navigate('/dashboard')
   }
 
-  const inputCls = 'w-full bg-ink-light border border-ink-border rounded-lg px-4 py-2.5 text-sand-light placeholder-muted focus:outline-none focus:border-sand font-sans text-sm'
-  const labelCls = 'block text-xs font-mono text-muted mb-1 uppercase tracking-wider'
+  const inputCls = 'w-full bg-white border border-sand-border rounded-lg px-4 py-2.5 text-ink placeholder-muted focus:outline-none focus:border-ink font-sans text-sm'
+  const labelCls = 'block text-xs font-mono text-muted-dark mb-1 uppercase tracking-wider'
 
   return (
-    <div className="min-h-screen bg-ink flex items-center justify-center p-6">
+    <div className="min-h-screen bg-sand-light flex items-center justify-center p-6">
       <div className="w-full max-w-lg">
-        <div className="flex items-center gap-3 mb-10">
-          <div className="w-8 h-8 bg-sand rounded flex items-center justify-center">
-            <span className="text-ink text-xs font-mono font-bold">CK</span>
+
+        {/* Logo */}
+        <div className="flex items-center gap-2.5 mb-10">
+          <div className="w-8 h-8 bg-ink rounded flex items-center justify-center">
+            <span className="text-sand-light text-xs font-mono font-bold">CK</span>
           </div>
-          <span className="font-serif text-sand-light text-xl">ComplianceKit</span>
-          <span className="text-xs font-mono bg-ink-light border border-ink-border text-muted px-2 py-0.5 rounded">BETA</span>
+          <span className="font-serif text-ink text-xl">ComplianceKit</span>
+          <span className="text-xs font-mono bg-white border border-sand-border text-muted px-2 py-0.5 rounded">BETA</span>
         </div>
 
+        {/* Progress bar */}
         <div className="flex gap-1.5 mb-8">
           {[0, 1, 2].map(i => (
-            <div key={i} className={`h-1 flex-1 rounded-full transition-colors ${i <= step ? 'bg-sand' : 'bg-ink-border'}`} />
+            <div key={i} className={`h-1 flex-1 rounded-full transition-colors ${i <= step ? 'bg-ink' : 'bg-sand-border'}`} />
           ))}
         </div>
 
-        <div className="flex items-start justify-between mb-2">
-          <h1 className="font-serif text-3xl text-sand-light">{profil ? 'Profil bearbeiten' : 'Unternehmensprofil'}</h1>
+        {/* Title */}
+        <div className="flex items-start justify-between mb-1">
+          <h1 className="font-serif text-3xl text-ink">
+            {profil ? 'Profil bearbeiten' : 'Unternehmensprofil'}
+          </h1>
           {profil && (
             <button onClick={() => navigate('/dashboard')}
-              className="text-sm font-mono text-muted hover:text-sand-light transition-colors mt-1">
+              className="text-sm font-mono text-muted hover:text-ink transition-colors mt-2">
               ← Zurück
             </button>
           )}
         </div>
-        <p className="text-muted font-sans text-sm mb-8">
+        <p className="text-muted-dark font-sans text-sm mb-8">
           {profil ? 'Änderungen werden sofort übernommen.' : 'Einmalig. 5 Minuten. Dann alles Relevante auf einen Blick.'}
         </p>
 
-        <form onSubmit={handleSubmit} className="space-y-5">
+        <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className={labelCls}>Unternehmensname</label>
-            <input type="text" placeholder="z.B. Müller GmbH" value={form.name} onChange={set('name')}
-              onFocus={() => setStep(0)} className={inputCls} />
+            <input type="text" placeholder="z.B. Müller GmbH" value={form.name}
+              onChange={set('name')} onFocus={() => setStep(0)} className={inputCls} />
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-3">
             <div>
               <label className={labelCls}>Rechtsform</label>
               <select value={form.rechtsform} onChange={set('rechtsform')} onFocus={() => setStep(0)} className={inputCls}>
@@ -105,7 +106,7 @@ export default function Onboarding() {
             </select>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-3">
             <div>
               <label className={labelCls}>Mitarbeiterzahl</label>
               <select value={form.mitarbeiter} onChange={set('mitarbeiter')} onFocus={() => setStep(1)} className={inputCls}>
@@ -131,7 +132,7 @@ export default function Onboarding() {
           </div>
 
           <button type="submit" disabled={!isValid}
-            className="w-full bg-sand text-ink py-3 rounded-lg font-sans font-medium text-sm mt-2 disabled:opacity-30 hover:bg-sand-mid transition-colors">
+            className="w-full bg-ink text-sand-light py-3 rounded-lg font-sans font-medium text-sm mt-2 disabled:opacity-30 hover:bg-ink-light transition-colors">
             {profil ? 'Änderungen speichern →' : 'Dashboard öffnen →'}
           </button>
         </form>

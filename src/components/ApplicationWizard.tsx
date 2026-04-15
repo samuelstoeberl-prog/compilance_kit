@@ -21,25 +21,25 @@ export default function ApplicationWizard({ funding, profil, onClose }: Props) {
   })()
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-end bg-ink/60 backdrop-blur-sm" onClick={onClose}>
-      <div className="h-full w-full max-w-xl bg-ink-light border-l border-ink-border overflow-y-auto flex flex-col"
+    <div className="fixed inset-0 z-50 flex items-center justify-end bg-ink/40 backdrop-blur-sm" onClick={onClose}>
+      <div className="h-full w-full max-w-xl bg-white border-l border-sand-border overflow-y-auto flex flex-col shadow-2xl"
         onClick={e => e.stopPropagation()}>
         {/* Header */}
-        <div className="p-6 border-b border-ink-border flex items-start justify-between gap-4">
+        <div className="p-6 border-b border-sand-border flex items-start justify-between gap-4">
           <div>
             <p className="text-xs font-mono text-muted uppercase tracking-wider mb-1">Antrag vorbereiten</p>
-            <h2 className="font-serif text-xl text-sand-light">{funding.title}</h2>
-            <p className="text-sm text-muted font-sans mt-1">{funding.foerderer}</p>
+            <h2 className="font-serif text-xl text-ink">{funding.title}</h2>
+            <p className="text-sm text-muted-dark font-sans mt-1">{funding.foerderer}</p>
           </div>
-          <button onClick={onClose} className="text-muted hover:text-sand-light text-xl leading-none mt-1">×</button>
+          <button onClick={onClose} className="text-muted hover:text-ink text-xl leading-none mt-1">×</button>
         </div>
 
         {/* Phase nav */}
-        <div className="flex border-b border-ink-border">
+        <div className="flex border-b border-sand-border">
           {([1, 2, 3] as const).map(p => (
             <button key={p} onClick={() => setPhase(p)}
               className={`flex-1 py-3 text-xs font-mono uppercase tracking-wider transition-colors ${
-                phase === p ? 'text-sand border-b-2 border-sand' : 'text-muted hover:text-sand-light'
+                phase === p ? 'text-ink border-b-2 border-ink' : 'text-muted hover:text-ink'
               }`}>
               {p === 1 ? '01 Berechtigung' : p === 2 ? '02 Unterlagen' : '03 Einreichen'}
             </button>
@@ -60,7 +60,7 @@ export default function ApplicationWizard({ funding, profil, onClose }: Props) {
                   ].map((item, i) => (
                     <div key={i} className="flex items-center gap-3">
                       <span className="text-teal text-sm">✓</span>
-                      <span className="text-sand-light text-sm font-sans">{item}</span>
+                      <span className="text-ink text-sm font-sans">{item}</span>
                     </div>
                   ))}
                 </div>
@@ -71,29 +71,29 @@ export default function ApplicationWizard({ funding, profil, onClose }: Props) {
                   <p className="text-xs font-mono text-muted uppercase tracking-wider mb-3">Ausschlusskriterien prüfen</p>
                   <div className="space-y-2">
                     {funding.ausschlusskriterien.map((k, i) => (
-                      <div key={i} className="flex items-start gap-3 bg-amber-dark/20 border border-amber-dark/30 rounded-lg px-3 py-2">
-                        <span className="text-amber text-sm mt-0.5">⚠</span>
-                        <span className="text-amber-light text-sm font-sans">{k}</span>
+                      <div key={i} className="flex items-start gap-3 bg-amber-light border border-amber/30 rounded-lg px-3 py-2">
+                        <span className="text-amber-dark text-sm mt-0.5">⚠</span>
+                        <span className="text-amber-dark text-sm font-sans">{k}</span>
                       </div>
                     ))}
                   </div>
                 </div>
               )}
 
-              <div className={`rounded-xl p-4 border ${isEligible ? 'bg-teal-dark/20 border-teal-dark/40' : 'bg-amber-dark/20 border-amber-dark/40'}`}>
+              <div className={`rounded-xl p-4 border ${isEligible ? 'bg-teal-light border-teal/30' : 'bg-amber-light border-amber/30'}`}>
                 <div className="flex items-center gap-3">
-                  <span className={`text-2xl ${isEligible ? 'text-teal' : 'text-amber'}`}>{isEligible ? '✓' : '!'}</span>
+                  <span className={`text-2xl ${isEligible ? 'text-teal-dark' : 'text-amber-dark'}`}>{isEligible ? '✓' : '!'}</span>
                   <div>
-                    <p className={`font-sans font-semibold text-sm ${isEligible ? 'text-teal' : 'text-amber'}`}>
+                    <p className={`font-sans font-semibold text-sm ${isEligible ? 'text-teal-dark' : 'text-amber-dark'}`}>
                       {isEligible ? 'Sie sind voraussichtlich antragsberechtigt' : 'Bitte Ausschlusskriterien manuell prüfen'}
                     </p>
-                    <p className="text-muted text-xs font-sans mt-0.5">Angaben basieren auf Ihrem Unternehmensprofil</p>
+                    <p className="text-muted-dark text-xs font-sans mt-0.5">Angaben basieren auf Ihrem Unternehmensprofil</p>
                   </div>
                 </div>
               </div>
 
               <button onClick={() => setPhase(2)}
-                className="w-full bg-sand text-ink py-2.5 rounded-lg text-sm font-sans font-medium hover:bg-sand-mid transition-colors">
+                className="w-full bg-ink text-sand-light py-2.5 rounded-lg text-sm font-sans font-medium hover:bg-ink-light transition-colors">
                 Weiter zu Unterlagen →
               </button>
             </div>
@@ -109,14 +109,14 @@ export default function ApplicationWizard({ funding, profil, onClose }: Props) {
                 <div className="space-y-2">
                   {funding.benoetigte_dokumente.map((doc, i) => (
                     <div key={i} className={`flex items-center gap-3 rounded-lg px-4 py-3 border ${
-                      doc.auto ? 'bg-teal-dark/20 border-teal-dark/30' : 'bg-ink border-ink-border'
+                      doc.auto ? 'bg-teal-light border-teal/20' : 'bg-sand-light border-sand-border'
                     }`}>
-                      <span className={`text-sm ${doc.auto ? 'text-teal' : 'text-amber'}`}>
+                      <span className={`text-sm ${doc.auto ? 'text-teal-dark' : 'text-amber-dark'}`}>
                         {doc.auto ? '✓' : '○'}
                       </span>
-                      <span className="text-sand-light text-sm font-sans flex-1">{doc.name}</span>
+                      <span className="text-ink text-sm font-sans flex-1">{doc.name}</span>
                       <span className={`text-xs font-mono px-2 py-0.5 rounded-full ${
-                        doc.auto ? 'bg-teal-dark/40 text-teal' : 'bg-amber-dark/30 text-amber'
+                        doc.auto ? 'bg-teal/20 text-teal-dark' : 'bg-amber-light text-amber-dark'
                       }`}>
                         {doc.auto ? 'aus Profil' : 'manuell'}
                       </span>
@@ -130,20 +130,20 @@ export default function ApplicationWizard({ funding, profil, onClose }: Props) {
                 <div className="flex items-center gap-3">
                   {['Antrag', 'Prüfung', 'Auszahlung'].map((label, i) => (
                     <div key={i} className="flex-1">
-                      <div className="h-1.5 bg-ink-border rounded-full">
-                        <div className="h-1.5 bg-sand rounded-full" style={{ width: `${(i + 1) * 33}%` }} />
+                      <div className="h-1.5 bg-sand-border rounded-full">
+                        <div className="h-1.5 bg-ink rounded-full" style={{ width: `${(i + 1) * 33}%` }} />
                       </div>
-                      <p className="text-xs text-muted font-mono mt-1">{label}</p>
+                      <p className="text-xs text-muted-dark font-mono mt-1">{label}</p>
                     </div>
                   ))}
                 </div>
-                <p className="text-xs text-muted font-sans mt-2">
+                <p className="text-xs text-muted-dark font-sans mt-2">
                   Typisch {funding.bearbeitungszeit_wochen[0]}–{funding.bearbeitungszeit_wochen[1]} Wochen gesamt
                 </p>
               </div>
 
               <button onClick={() => setPhase(3)}
-                className="w-full bg-sand text-ink py-2.5 rounded-lg text-sm font-sans font-medium hover:bg-sand-mid transition-colors">
+                className="w-full bg-ink text-sand-light py-2.5 rounded-lg text-sm font-sans font-medium hover:bg-ink-light transition-colors">
                 Weiter zur Einreichung →
               </button>
             </div>
@@ -152,7 +152,7 @@ export default function ApplicationWizard({ funding, profil, onClose }: Props) {
           {/* Phase 3 */}
           {phase === 3 && (
             <div className="space-y-6">
-              <div className="bg-ink border border-ink-border rounded-xl p-4">
+              <div className="bg-sand-light border border-sand-border rounded-xl p-4">
                 <p className="text-xs font-mono text-muted uppercase tracking-wider mb-3">Zusammenfassung</p>
                 <div className="space-y-2 text-sm font-sans">
                   {[
@@ -163,18 +163,18 @@ export default function ApplicationWizard({ funding, profil, onClose }: Props) {
                     ['Bearbeitungszeit', `${funding.bearbeitungszeit_wochen[0]}–${funding.bearbeitungszeit_wochen[1]} Wochen`],
                   ].map(([label, value], i) => (
                     <div key={i} className="flex justify-between">
-                      <span className="text-muted">{label}</span>
-                      <span className={label === 'Unterlagen bereit' ? 'text-teal' : 'text-sand-light'}>{value}</span>
+                      <span className="text-muted-dark">{label}</span>
+                      <span className={label === 'Unterlagen bereit' ? 'text-teal-dark font-semibold' : 'text-ink'}>{value}</span>
                     </div>
                   ))}
                 </div>
               </div>
 
               <a href={funding.antrag_url} target="_blank" rel="noopener noreferrer"
-                className="block w-full bg-sand text-ink py-3 rounded-lg text-sm font-sans font-semibold text-center hover:bg-sand-mid transition-colors">
+                className="block w-full bg-ink text-sand-light py-3 rounded-lg text-sm font-sans font-semibold text-center hover:bg-ink-light transition-colors">
                 Jetzt Antrag stellen →
               </a>
-              <p className="text-xs text-muted font-sans text-center">
+              <p className="text-xs text-muted-dark font-sans text-center">
                 Sie werden zur offiziellen Antragsseite weitergeleitet.
               </p>
             </div>

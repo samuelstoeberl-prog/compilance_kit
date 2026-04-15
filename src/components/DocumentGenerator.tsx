@@ -476,34 +476,34 @@ export default function DocumentGenerator({ regulation, profil, onComplete, onCl
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-end bg-ink/60 backdrop-blur-sm" onClick={onClose}>
-      <div className="h-full w-full max-w-2xl bg-ink-light border-l border-ink-border overflow-y-auto flex flex-col"
+    <div className="fixed inset-0 z-50 flex items-center justify-end bg-ink/40 backdrop-blur-sm" onClick={onClose}>
+      <div className="h-full w-full max-w-2xl bg-white border-l border-sand-border overflow-y-auto flex flex-col shadow-2xl"
         onClick={e => e.stopPropagation()}>
 
         {/* Header */}
-        <div className="p-6 border-b border-ink-border flex items-start justify-between gap-4">
+        <div className="p-6 border-b border-sand-border flex items-start justify-between gap-4">
           <div>
             <p className="text-xs font-mono text-muted uppercase tracking-wider mb-1">Dokument generieren</p>
-            <h2 className="font-serif text-xl text-sand-light">{DOK_LABELS[typ]}</h2>
-            <p className="text-sm text-muted font-sans mt-1">{regulation.title}</p>
+            <h2 className="font-serif text-xl text-ink">{DOK_LABELS[typ]}</h2>
+            <p className="text-sm text-muted-dark font-sans mt-1">{regulation.title}</p>
           </div>
-          <button onClick={onClose} className="text-muted hover:text-sand-light text-xl leading-none mt-1">×</button>
+          <button onClick={onClose} className="text-muted hover:text-ink text-xl leading-none mt-1">×</button>
         </div>
 
         {/* Info banner */}
-        <div className="mx-6 mt-5 bg-teal-dark/20 border border-teal-dark/40 rounded-xl p-4 flex gap-3">
-          <span className="text-teal text-lg leading-none mt-0.5">✓</span>
+        <div className="mx-6 mt-5 bg-teal-light border border-teal/30 rounded-xl p-4 flex gap-3">
+          <span className="text-teal-dark text-lg leading-none mt-0.5">✓</span>
           <div>
-            <p className="text-sm font-sans font-medium text-teal">Dokument fertig</p>
-            <p className="text-xs text-muted font-sans mt-0.5">
-              Auf Basis Ihres Profils vorausgefüllt: {profil.rechtsform} · {profil.branche} · {profil.bundesland}
+            <p className="text-sm font-sans font-medium text-teal-dark">Vorlage fertig</p>
+            <p className="text-xs text-muted-dark font-sans mt-0.5">
+              Vorausgefüllt für: {profil.rechtsform} · {profil.branche} · {profil.bundesland}
             </p>
           </div>
         </div>
 
         {/* Preview */}
-        <div className="flex-1 m-6 bg-ink rounded-xl border border-ink-border p-5 overflow-y-auto">
-          <pre className="text-sm font-mono text-sand-light whitespace-pre-wrap leading-relaxed">
+        <div className="flex-1 m-6 bg-sand-light rounded-xl border border-sand-border p-5 overflow-y-auto">
+          <pre className="text-sm font-mono text-ink whitespace-pre-wrap leading-relaxed">
             {content}
           </pre>
         </div>
@@ -511,11 +511,11 @@ export default function DocumentGenerator({ regulation, profil, onComplete, onCl
         {/* Actions */}
         <div className="p-6 pt-0 flex gap-3">
           <button onClick={onClose}
-            className="bg-ink-light border border-ink-border text-sand-light py-2.5 px-4 rounded-lg text-sm font-sans hover:border-sand transition-colors">
+            className="bg-white border border-sand-border text-ink py-2.5 px-4 rounded-lg text-sm font-sans hover:border-ink transition-colors">
             Schließen
           </button>
           <button onClick={download}
-            className="flex-1 bg-teal text-ink-light py-2.5 rounded-lg text-sm font-sans font-medium hover:bg-teal/90 transition-colors">
+            className="flex-1 bg-ink text-sand-light py-2.5 rounded-lg text-sm font-sans font-medium hover:bg-ink-light transition-colors">
             Download (.txt) — als erledigt markieren
           </button>
         </div>
