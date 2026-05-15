@@ -8,9 +8,10 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "scrape": "tsx scrapers/run.ts",
-    "scrape:dry": "tsx scrapers/run.ts --dry-run",
-    "scrape:domain": "tsx scrapers/run.ts --domain="
+    "scrape:foerderung": "tsx scrapers/run-foerderung.ts",
+    "scrape:regulatorik": "tsx scrapers/run-regulatorik.ts",
+    "scrape:all": "npm run scrape:foerderung && npm run scrape:regulatorik",
+    "scrape:dry": "tsx scrapers/run-foerderung.ts --dry-run"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.88.0",
