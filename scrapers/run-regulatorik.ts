@@ -1,10 +1,9 @@
 /**
- * Regulatorik-Scraper
+ * Regulatorik-Scraper – kein API, nur Keyword-Scanning + Regex
  *
  * npm run scrape:regulatorik
  * npm run scrape:regulatorik -- --dry-run
  * npm run scrape:regulatorik -- --domain=bsi
- * npm run scrape:regulatorik -- --resume=<runId>
  */
 
 import { readFileSync, writeFileSync, existsSync } from 'fs'
@@ -13,7 +12,7 @@ import { fileURLToPath } from 'url'
 import { loadEnv } from './env.js'
 import { ALL_REGULATION_DOMAINS, REGULATION_KEYWORDS } from './config/seeds-regulatorik.js'
 import { crawlDomains } from './core/crawler.js'
-import { extractRegulations } from './processors/ai-regulation.js'
+import { batchExtractRegulations } from './processors/keyword-extractor.js'
 import type { Regulation } from '../src/types.js'
 
 loadEnv()
@@ -42,7 +41,7 @@ function mergeAndSave(existing: Regulation[], fresh: Regulation[]): Regulation[]
 
 async function main() {
   console.log('╔════════════════════════════════════════════════════╗')
-  console.log('║   ComplianceKit – Regulatorik-Scraper              ║')
+  console.log('║   ComplianceKit – Regulatorik-Scraper (kein API)   ║')
   console.log('╚════════════════════════════════════════════════════╝\n')
 
   if (dryRun) console.log('⚠  DRY RUN\n')
@@ -52,9 +51,7 @@ async function main() {
     d.label.toLowerCase().includes(domainFilter) || d.origin.toLowerCase().includes(domainFilter)
   )
 
-  console.log(`Domains: ${domains.map(d => d.label).join(', ')}\n`)
-
-  const pages = await crawlDomains(domains, {
+  const { pages } = await crawlDomains(domains, {
     keywords: REGULATION_KEYWORDS,
     maxDepth: 2,
     concurrency,
@@ -63,28 +60,22 @@ async function main() {
     checkpointPrefix: 'regulatorik',
   })
 
-  console.log(`\n══ ${pages.length} relevante Seiten gefunden ══\n`)
-  if (pages.length === 0) { console.log('Nichts zu verarbeiten.'); return }
+  console.log(`\n══ ${pages.length} relevante Seiten gecrawlt ══\n`)
+  if (pages.length === 0) { console.log('Nichts gefunden.'); return }
 
   if (dryRun) {
     pages.forEach(p => console.log(`  • ${p.title} → ${p.url}`))
     return
   }
 
-  if (!process.env.ANTHROPIC_API_KEY && !process.env.VITE_ANTHROPIC_API_KEY) {
-    console.error('✗ VITE_ANTHROPIC_API_KEY fehlt in .env.local')
-    process.exit(1)
-  }
-
-  const fresh = await extractRegulations(pages)
+  const fresh = batchExtractRegulations(pages)
   const existing = loadExisting()
   const merged = mergeAndSave(existing, fresh)
 
-  console.log('\n══ Zusammenfassung ══════════════════════════════════')
-  console.log(`  Vorher in regulations.json : ${existing.length}`)
-  console.log(`  Neu extrahiert             : ${fresh.length}`)
-  console.log(`  Gesamt nach Merge          : ${merged.length}`)
-  console.log(`  Gespeichert                : ${REGULATIONS_PATH}`)
+  console.log('\n══ Ergebnis ══════════════════════════════════════════')
+  console.log(`  Vorher  : ${existing.length} Pflichten`)
+  console.log(`  Neu     : ${fresh.length} Pflichten`)
+  console.log(`  Gesamt  : ${merged.length} Pflichten`)
   console.log('═════════════════════════════════════════════════════')
 }
 
