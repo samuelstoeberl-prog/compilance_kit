@@ -1,73 +1,32 @@
-# React + TypeScript + Vite
+# ComplianceKit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ein Tool zur Erleichterung der Bürokratie für Unternehmen im Wirtschaftsstandort Deutschland. Hilft bei der Einhaltung von Regulierungen und der Nutzung von Förderungen.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Unternehmensprofil**: Erfassen Sie Ihr Unternehmensprofil für personalisierte Empfehlungen.
+- **Regulierungen**: Überblick über relevante gesetzliche Pflichten mit Status-Tracking.
+- **Förderungen**: Entdecken Sie passende Förderprogramme basierend auf Ihrem Profil.
+- **Dokumentengenerator**: Automatische Erstellung von Dokumenten wie Datenschutzerklärungen und Impressen mit KI-Unterstützung.
+- **Antragsassistent**: Geführte Unterstützung bei Förderantragsprozessen.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 18 + TypeScript
+- Vite
+- Tailwind CSS
+- Anthropic AI SDK für Dokumentengenerierung
+- React Router für Navigation
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+1. Klone das Repository
+2. Installiere Abhängigkeiten: `npm install`
+3. Erstelle `.env.local` mit deinem Anthropic API Key: `VITE_ANTHROPIC_API_KEY=sk-ant-...`
+4. Starte den Dev-Server: `npm run dev`
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Entwicklung
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- `npm run build` - Build für Produktion
+- `npm run lint` - Linting
+- `npm run preview` - Vorschau des Builds

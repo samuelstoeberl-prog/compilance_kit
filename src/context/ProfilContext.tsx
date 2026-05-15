@@ -6,6 +6,8 @@ interface ProfilContextValue {
   setProfil: (p: UnternehmensProfil) => void
   statusMap: Record<string, PflichtStatus>
   setStatus: (id: string, status: PflichtStatus) => void
+  docTimestamps: Record<string, string>   // regulationId → ISO date string
+  setDocGenerated: (id: string) => void
 }
 
 const ProfilContext = createContext<ProfilContextValue | null>(null)
@@ -18,6 +20,11 @@ export function ProfilProvider({ children }: { children: ReactNode }) {
 
   const [statusMap, setStatusMap] = useState<Record<string, PflichtStatus>>(() => {
     const stored = localStorage.getItem('ck_status')
+    return stored ? JSON.parse(stored) : {}
+  })
+
+  const [docTimestamps, setDocTimestamps] = useState<Record<string, string>>(() => {
+    const stored = localStorage.getItem('ck_docs')
     return stored ? JSON.parse(stored) : {}
   })
 
@@ -34,8 +41,16 @@ export function ProfilProvider({ children }: { children: ReactNode }) {
     })
   }
 
+  const setDocGenerated = (id: string) => {
+    setDocTimestamps(prev => {
+      const next = { ...prev, [id]: new Date().toISOString() }
+      localStorage.setItem('ck_docs', JSON.stringify(next))
+      return next
+    })
+  }
+
   return (
-    <ProfilContext.Provider value={{ profil, setProfil, statusMap, setStatus }}>
+    <ProfilContext.Provider value={{ profil, setProfil, statusMap, setStatus, docTimestamps, setDocGenerated }}>
       {children}
     </ProfilContext.Provider>
   )

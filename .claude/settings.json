@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item *)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-Content *)",
+      "PowerShell(Set-Content *)",
+      "PowerShell(Out-File *)",
+      "PowerShell(Copy-Item *)",
+      "PowerShell(Move-Item *)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(Measure-Object *)",
+      "PowerShell(docker compose *)",
+      "PowerShell(docker *)",
+      "PowerShell(Write-Host *)",
+      "PowerShell(ConvertFrom-Json *)",
+      "PowerShell(pip *)",
+      "PowerShell(python *)",
+      "PowerShell(alembic *)",
+      "PowerShell(npm *)",
+      "PowerShell(npx *)",
+      "PowerShell(node *)",
+      "PowerShell(mkdir *)",
+      "PowerShell(*)",
+      "Bash(docker *)",
+      "Bash(docker compose *)",
+      "Bash(mkdir *)",
+      "Bash(pip *)",
+      "Bash(python *)",
+      "Bash(alembic *)",
+      "Bash(curl *)",
+      "Bash(npm *)",
+      "Bash(node *)",
+      "mcp__ccd_session__mark_chapter",
+      "mcp__ccd_session__spawn_task"
+    ]
+  }
+}

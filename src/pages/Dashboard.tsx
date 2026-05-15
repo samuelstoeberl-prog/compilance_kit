@@ -3,10 +3,11 @@ import { useNavigate } from 'react-router-dom'
 import { useProfil } from '../context/ProfilContext'
 import { filterRegulations, sortedFundings } from '../utils/filter'
 import ApplicationWizard from '../components/ApplicationWizard'
-import DocumentGenerator from '../components/DocumentGenerator'
+import DocumentGenerator, { buildDocument, downloadDoc } from '../components/DocumentGenerator'
 import regulationData from '../data/regulations.json'
 import fundingData from '../data/fundings.json'
-import type { Regulation, Funding, PflichtStatus, FundingMitScore, RegulationMitStatus } from '../types'
+import { CheckCircle, FileText, TrendingUp, Settings } from 'lucide-react'
+import type { Regulation, Funding, PflichtStatus, FundingMitScore, RegulationMitStatus, DokumentTyp } from '../types'
 
 type Tab = 'pflichten' | 'foerderungen' | 'dokumente'
 type StatusFilter = 'alle' | 'offen' | 'erledigt' | 'nicht_relevant'
@@ -18,6 +19,7 @@ const KATEGORIE_COLORS: Record<string, string> = {
   'Recht':        'bg-sand-mid text-muted-dark',
   'Steuer':       'bg-yellow-100 text-yellow-700',
   'Umwelt':       'bg-green-100 text-green-700',
+  'Reporting':    'bg-teal-light text-teal-dark',
 }
 
 const TYP_COLORS: Record<string, string> = {
@@ -36,13 +38,23 @@ function domainOf(url: string) {
   try { return new URL(url).hostname.replace('www.', '') } catch { return url }
 }
 
+type DocStatusFilter = 'alle' | 'fertig' | 'ausstehend'
+
+const DOK_ABBR: Record<string, string> = {
+  datenschutzerklaerung: 'DS',
+  impressum: 'IM',
+  arbeitszeitnachweis: 'AZ',
+  'arbeitsschutz-unterweisung': 'AU',
+}
+
 export default function Dashboard() {
-  const { profil, statusMap, setStatus } = useProfil()
+  const { profil, statusMap, setStatus, docTimestamps, setDocGenerated } = useProfil()
   const navigate = useNavigate()
   const [activeTab, setActiveTab] = useState<Tab>('pflichten')
   const [statusFilter, setStatusFilter] = useState<StatusFilter>('alle')
   const [kategorieFilter, setKategorieFilter] = useState('alle')
   const [search, setSearch] = useState('')
+  const [docStatusFilter, setDocStatusFilter] = useState<DocStatusFilter>('alle')
   const [wizard, setWizard] = useState<FundingMitScore | null>(null)
   const [docGen, setDocGen] = useState<RegulationMitStatus | null>(null)
 
@@ -80,18 +92,19 @@ export default function Dashboard() {
     nicht_relevant: allRegs.filter(r => r.status === 'nicht_relevant').length,
   }
   const pct = Math.round((counts.erledigt / Math.max(counts.alle - counts.nicht_relevant, 1)) * 100)
-  const initials = profil.name.split(' ').map(w => w[0]).slice(0, 2).join('').toUpperCase()
 
-  const tabBtn = (tab: Tab, label: string, count: number) => (
+
+  const tabBtn = (tab: Tab, label: string, count: number, icon: React.ReactNode) => (
     <button key={tab} onClick={() => setActiveTab(tab)}
-      className={`flex items-center gap-1.5 px-1 py-3 text-sm font-mono border-b-2 transition-colors ${
+      className={`flex items-center gap-3 px-4 py-4 text-sm font-medium border-b-2 transition-colors rounded-t-lg ${
         activeTab === tab
-          ? 'border-ink text-ink'
-          : 'border-transparent text-muted-dark hover:text-ink'
+          ? 'border-teal text-teal bg-teal-light'
+          : 'border-transparent text-muted hover:text-ink hover:bg-sand-light'
       }`}>
+      {icon}
       {label}
-      <span className={`text-xs px-1.5 py-0.5 rounded-full font-mono leading-none ${
-        activeTab === tab ? 'bg-ink text-sand-light' : 'bg-sand-mid text-muted-dark'
+      <span className={`text-xs font-mono leading-none px-2 py-1 rounded-full ${
+        activeTab === tab ? 'bg-teal text-white' : 'bg-muted text-ink'
       }`}>{count}</span>
     </button>
   )
@@ -99,17 +112,16 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen bg-sand-light font-sans">
       {/* Header */}
-      <header className="bg-ink px-6 py-3 flex items-center justify-between">
-        <div className="flex items-center gap-2.5">
-          <div className="w-7 h-7 bg-sand rounded flex items-center justify-center">
-            <span className="text-ink text-xs font-mono font-bold">CK</span>
-          </div>
-          <span className="font-serif text-sand-light text-base">ComplianceKit</span>
+      <header className="bg-white border-b border-sand-border px-8 py-4 flex items-center justify-between shadow-sm">
+        <div className="flex items-center gap-4">
+          <span className="font-serif text-ink text-xl font-bold">ComplianceKit</span>
+          <span className="text-sand-border text-lg">|</span>
+          <span className="text-sm text-muted font-sans">Compliance & Förderungen für KMU</span>
         </div>
         <button onClick={() => navigate('/onboarding')}
-          className="flex items-center gap-2 bg-ink-light border border-ink-border hover:border-sand px-3 py-1.5 rounded-full text-xs transition-colors">
-          <div className="w-5 h-5 bg-sand rounded-full flex items-center justify-center text-xs font-bold text-ink leading-none">{initials}</div>
-          <span className="text-sand-light font-sans">{profil.name}</span>
+          className="flex items-center gap-3 hover:opacity-70 transition-opacity text-sm font-sans bg-sand-light px-4 py-2 rounded-lg">
+          <Settings size={16} />
+          <span className="text-ink font-medium">{profil.name}</span>
           <span className="text-muted">·</span>
           <span className="text-muted">{profil.bundesland}</span>
           <span className="text-muted">·</span>
@@ -118,17 +130,13 @@ export default function Dashboard() {
       </header>
 
       {/* Tabs */}
-      <nav className="bg-white border-b border-sand-border px-6 flex gap-6">
-        {tabBtn('pflichten', 'Pflichten', allRegs.length)}
-        {tabBtn('foerderungen', 'Förderungen', allFundings.length)}
-        {tabBtn('dokumente', 'Dokumente', dokRegs.length)}
-        <button onClick={() => navigate('/onboarding')}
-          className="py-3 text-xs font-mono text-muted hover:text-ink ml-auto transition-colors">
-          Profil bearbeiten
-        </button>
+      <nav className="bg-white border-b border-sand-border px-6 flex gap-2">
+        {tabBtn('pflichten', 'Pflichten', allRegs.length, <CheckCircle size={18} />)}
+        {tabBtn('foerderungen', 'Förderungen', allFundings.length, <TrendingUp size={18} />)}
+        {tabBtn('dokumente', 'Dokumente', dokRegs.length, <FileText size={18} />)}
       </nav>
 
-      <div className="max-w-5xl mx-auto px-6 py-6">
+      <div className="max-w-6xl mx-auto px-8 py-8">
 
         {/* ── PFLICHTEN ── */}
         {activeTab === 'pflichten' && (
@@ -182,8 +190,8 @@ export default function Dashboard() {
 
             {/* Main */}
             <main className="flex-1 min-w-0">
-              <div className="flex items-center justify-between mb-4">
-                <h1 className="font-serif text-xl text-ink">Compliance-Pflichten</h1>
+              <div className="flex items-center justify-between mb-6">
+                <h1 className="font-serif text-2xl text-ink font-bold">Compliance-Pflichten</h1>
               </div>
 
               {/* Search */}
@@ -269,7 +277,7 @@ export default function Dashboard() {
         {activeTab === 'foerderungen' && (
           <div>
             <div className="flex items-center justify-between mb-5">
-              <h1 className="font-serif text-xl text-ink">Förderungen & Steuervorteile</h1>
+              <h1 className="font-serif text-2xl text-ink font-bold">Förderungen & Steuervorteile</h1>
               <span className="text-sm font-mono text-muted-dark">{allFundings.length} passende Programme</span>
             </div>
             <div className="space-y-3">
@@ -324,40 +332,101 @@ export default function Dashboard() {
         )}
 
         {/* ── DOKUMENTE ── */}
-        {activeTab === 'dokumente' && (
-          <div>
-            <div className="mb-5">
-              <h1 className="font-serif text-xl text-ink">Dokumente</h1>
-              <p className="text-sm text-muted-dark font-sans mt-0.5">
-                Vorlagen auf Basis Ihres Profils — kein API-Key erforderlich.
-              </p>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {dokRegs.map(reg => (
-                <div key={reg.id} className="bg-white border border-sand-border rounded-xl p-5 flex flex-col gap-3 hover:border-sand transition-colors">
-                  <div className="flex items-start justify-between gap-2">
-                    <div>
-                      <span className={`text-xs px-2 py-0.5 rounded-full font-mono ${KATEGORIE_COLORS[reg.category] ?? 'bg-sand-mid text-muted-dark'}`}>
-                        {reg.category}
-                      </span>
-                      <h3 className="font-sans font-semibold text-sm text-ink mt-2">{reg.title}</h3>
-                    </div>
-                    <div className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 ${
-                      reg.status === 'erledigt' ? 'bg-teal text-white' : 'bg-sand-mid text-muted-dark'
-                    }`}>
-                      {reg.status === 'erledigt' ? '✓' : '○'}
-                    </div>
-                  </div>
-                  <p className="text-xs text-muted-dark font-sans leading-relaxed flex-1">{reg.beschreibung}</p>
-                  <button onClick={() => setDocGen(reg)}
-                    className="w-full bg-ink text-sand-light py-2 rounded-lg text-xs font-sans font-medium hover:bg-ink-light transition-colors">
-                    Vorlage öffnen & herunterladen →
-                  </button>
+        {activeTab === 'dokumente' && (() => {
+          const genCount = dokRegs.filter(r => docTimestamps[r.id]).length
+          const filtered = dokRegs.filter(r => {
+            if (docStatusFilter === 'fertig') return !!docTimestamps[r.id]
+            if (docStatusFilter === 'ausstehend') return !docTimestamps[r.id]
+            return true
+          })
+          return (
+            <div className="flex gap-0">
+              {/* Sidebar */}
+              <aside className="w-64 flex-shrink-0 border-r border-sand-border pr-8 space-y-6 pt-1">
+                <div>
+                  <div className="text-5xl font-serif text-ink leading-none">{genCount}/{dokRegs.length}</div>
+                  <div className="text-xs font-mono text-muted uppercase tracking-widest mt-1">Generiert</div>
+                  <div className="text-xs text-muted-dark font-sans mt-0.5">{genCount} Dokumente bereit</div>
                 </div>
-              ))}
+                <div>
+                  <p className="text-xs font-mono text-muted uppercase tracking-widest mb-2">Status</p>
+                  {([['alle', 'Alle', dokRegs.length], ['fertig', 'Fertig', genCount], ['ausstehend', 'Ausstehend', dokRegs.length - genCount]] as const).map(([val, label, cnt]) => (
+                    <button key={val} onClick={() => setDocStatusFilter(val)}
+                      className={`w-full flex items-center justify-between py-1.5 text-sm transition-colors ${
+                        docStatusFilter === val ? 'text-ink font-semibold' : 'text-muted-dark hover:text-ink'
+                      }`}>
+                      <span>{label}</span>
+                      <span className="font-mono text-xs">{cnt}</span>
+                    </button>
+                  ))}
+                </div>
+              </aside>
+
+              {/* Main */}
+              <main className="flex-1 pl-8">
+                <h1 className="font-serif text-2xl text-ink font-bold mb-6">Compliance-Dokumente</h1>
+                <div className="divide-y divide-sand-border border-t border-sand-border">
+                  {filtered.map(reg => {
+                    const abbr = DOK_ABBR[reg.dokument_typ ?? ''] ?? '??'
+                    const ts = docTimestamps[reg.id]
+                    const dateStr = ts ? new Date(ts).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' }) : null
+                    const isGenerated = !!ts
+
+                    const handleDownload = (ext: 'docx' | 'pdf') => {
+                      const content = buildDocument(reg.dokument_typ as DokumentTyp, profil)
+                      const filename = `${reg.dokument_typ}-${profil.name.replace(/\s+/g, '-')}`
+                      downloadDoc(content, filename, ext)
+                      setDocGenerated(reg.id)
+                      setStatus(reg.id, 'erledigt')
+                    }
+
+                    return (
+                      <div key={reg.id} className={`flex items-center gap-4 py-4 ${!isGenerated ? 'opacity-50' : ''}`}>
+                        {/* Badge */}
+                        <div className={`w-10 h-10 rounded flex items-center justify-center flex-shrink-0 font-mono text-xs font-bold ${
+                          isGenerated ? 'bg-ink text-sand-light' : 'bg-sand-mid text-muted'
+                        }`}>
+                          {abbr}
+                        </div>
+
+                        {/* Info */}
+                        <div className="flex-1 min-w-0">
+                          <p className={`text-sm font-sans font-medium ${isGenerated ? 'text-ink' : 'text-muted-dark'}`}>
+                            {reg.title}
+                          </p>
+                          <p className="text-xs text-muted font-sans mt-0.5">
+                            {isGenerated
+                              ? `Generiert ${dateStr} · ${profil.rechtsform} · ${profil.bundesland}`
+                              : 'Noch nicht generiert'}
+                          </p>
+                        </div>
+
+                        {/* Actions */}
+                        {isGenerated ? (
+                          <div className="flex gap-2 flex-shrink-0">
+                            <button onClick={() => handleDownload('docx')}
+                              className="text-xs font-mono border border-sand-border text-ink px-3 py-1.5 rounded hover:bg-sand-mid transition-colors flex items-center gap-1">
+                              DOCX <span className="text-muted">↗</span>
+                            </button>
+                            <button onClick={() => handleDownload('pdf')}
+                              className="text-xs font-mono border border-teal/40 bg-teal-light text-teal-dark px-3 py-1.5 rounded hover:bg-teal/20 transition-colors flex items-center gap-1">
+                              TXT <span>↗</span>
+                            </button>
+                          </div>
+                        ) : (
+                          <button onClick={() => handleDownload('docx')}
+                            className="text-xs font-mono border border-sand-border text-muted-dark px-3 py-1.5 rounded hover:border-ink hover:text-ink transition-colors flex-shrink-0">
+                            Generieren →
+                          </button>
+                        )}
+                      </div>
+                    )
+                  })}
+                </div>
+              </main>
             </div>
-          </div>
-        )}
+          )
+        })()}
       </div>
 
       {/* Overlays */}

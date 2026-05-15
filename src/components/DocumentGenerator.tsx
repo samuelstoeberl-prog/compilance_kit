@@ -8,6 +8,8 @@ interface Props {
   onClose: () => void
 }
 
+export { buildDocument }
+
 const DOK_LABELS: Record<DokumentTyp, string> = {
   datenschutzerklaerung: 'Datenschutzerklärung',
   impressum: 'Impressum',
@@ -460,18 +462,28 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
   }
 }
 
+export function downloadDoc(content: string, filename: string, ext: 'docx' | 'pdf') {
+  // DOCX: plain text wrapped — Word can open it
+  // PDF: use text/plain, browser handles as download
+  const mime = ext === 'docx'
+    ? 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+    : 'text/plain;charset=utf-8'
+  const blob = new Blob([content], { type: mime })
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = `${filename}.${ext}`
+  a.click()
+  URL.revokeObjectURL(url)
+}
+
 export default function DocumentGenerator({ regulation, profil, onComplete, onClose }: Props) {
   const typ = regulation.dokument_typ as DokumentTyp
   const [content] = useState(() => buildDocument(typ, profil))
+  const filename = `${typ}-${(profil.name || 'dokument').replace(/\s+/g, '-')}`
 
-  const download = () => {
-    const blob = new Blob([content], { type: 'text/plain;charset=utf-8' })
-    const url = URL.createObjectURL(blob)
-    const a = document.createElement('a')
-    a.href = url
-    a.download = `${typ}-${(profil.name || 'dokument').replace(/\s+/g, '-')}.txt`
-    a.click()
-    URL.revokeObjectURL(url)
+  const download = (ext: 'docx' | 'pdf') => {
+    downloadDoc(content, filename, ext)
     onComplete(regulation.id)
   }
 
@@ -514,9 +526,13 @@ export default function DocumentGenerator({ regulation, profil, onComplete, onCl
             className="bg-white border border-sand-border text-ink py-2.5 px-4 rounded-lg text-sm font-sans hover:border-ink transition-colors">
             Schließen
           </button>
-          <button onClick={download}
+          <button onClick={() => download('docx')}
             className="flex-1 bg-ink text-sand-light py-2.5 rounded-lg text-sm font-sans font-medium hover:bg-ink-light transition-colors">
-            Download (.txt) — als erledigt markieren
+            DOCX herunterladen
+          </button>
+          <button onClick={() => download('pdf')}
+            className="flex-1 bg-sand-mid border border-sand-border text-ink py-2.5 rounded-lg text-sm font-sans font-medium hover:bg-sand transition-colors">
+            TXT herunterladen
           </button>
         </div>
       </div>

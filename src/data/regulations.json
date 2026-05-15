@@ -122,5 +122,55 @@
     "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689",
     "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "betriebsrat",
+    "title": "Betriebsrat – Wahlrecht informieren",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Ab 5 Mitarbeitenden können Beschäftigte einen Betriebsrat wählen. Arbeitgeber darf dies nicht behindern.",
+    "rechtsgrundlage": "§1 BetrVG",
+    "quelle_url": "https://www.gesetze-im-internet.de/betrvg/__1.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 5, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "schwerbehindertenabgabe",
+    "title": "Schwerbehindertenabgabe (SGB IX)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Ab 20 Mitarbeitenden müssen 5 % der Stellen mit schwerbehinderten Menschen besetzt werden – sonst Ausgleichsabgabe.",
+    "rechtsgrundlage": "§154 SGB IX",
+    "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/__154.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 20, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "jahresabschluss-offenlegung",
+    "title": "Jahresabschluss & Offenlegungspflicht",
+    "category": "Steuer",
+    "beschreibung": "GmbH, AG und UG müssen Jahresabschluss beim Bundesanzeiger offenlegen. Frist: 12 Monate nach Geschäftsjahresende.",
+    "rechtsgrundlage": "§325 HGB",
+    "quelle_url": "https://www.bundesanzeiger.de",
+    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "UG (haftungsbeschränkt)"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "agb-pflicht",
+    "title": "AGB – Informationspflichten im E-Commerce",
+    "category": "Recht",
+    "beschreibung": "Online-Händler müssen Verbraucher vor Vertragsschluss über Widerrufsrecht, Lieferbedingungen und Preise informieren.",
+    "rechtsgrundlage": "§312d BGB / Art. 246a EGBGB",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__312d.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handel / E-Commerce"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "csrd",
+    "title": "CSRD – Nachhaltigkeitsberichterstattung",
+    "category": "Reporting",
+    "beschreibung": "Verpflichtende Nachhaltigkeitsberichte nach EU-Richtlinie. Ab 2026 für Unternehmen ab 250 Mitarbeitende.",
+    "rechtsgrundlage": "EU CSRD 2022/2464",
+    "quelle_url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
+    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "UG (haftungsbeschränkt)"], "branchen": ["alle"], "mitarbeiter_min": 250, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
   }
 ]

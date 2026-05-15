@@ -3,12 +3,55 @@ import { useNavigate } from 'react-router-dom'
 import { useProfil } from '../context/ProfilContext'
 import type { UnternehmensProfil } from '../types'
 
-const RECHTSFORMEN = ['GmbH', 'UG (haftungsbeschränkt)', 'AG', 'GbR', 'OHG', 'KG', 'Einzelunternehmen', 'e.K.']
-const BRANCHEN = ['Software / IT', 'Handel / E-Commerce', 'Produktion / Fertigung', 'Dienstleistungen', 'Gastronomie / Hotellerie', 'Gesundheit / Pflege', 'Bau / Handwerk', 'Transport / Logistik', 'Sonstiges']
-const BUNDESLAENDER = ['Baden-Württemberg', 'Bayern', 'Berlin', 'Brandenburg', 'Bremen', 'Hamburg', 'Hessen', 'Mecklenburg-Vorpommern', 'Niedersachsen', 'Nordrhein-Westfalen', 'Rheinland-Pfalz', 'Saarland', 'Sachsen', 'Sachsen-Anhalt', 'Schleswig-Holstein', 'Thüringen']
-const MITARBEITER = ['1–9', '10–49', '50–249', '250+']
-const UMSATZ = ['unter 500.000 €', '500.000 – 2 Mio. €', '2 – 10 Mio. €', 'über 10 Mio. €']
+const RECHTSFORMEN = [
+  // Einzelunternehmen
+  'Einzelunternehmen (Gewerbe)', 'Einzelunternehmen (Freiberufler)', 'e.K. (eingetragener Kaufmann)',
+  // Personengesellschaften
+  'GbR (Gesellschaft bürgerlichen Rechts)', 'OHG', 'KG', 'GmbH & Co. KG', 'PartGmbB',
+  // Kapitalgesellschaften
+  'GmbH', 'UG (haftungsbeschränkt)', 'AG', 'gGmbH (gemeinnützig)',
+  // Sonstige
+  'e.V. (Verein)', 'eG (Genossenschaft)', 'Stiftung'
+]
+
+const BRANCHEN = [
+  'Handwerk (zulassungspflichtig)', 'Handwerk (zulassungsfrei)', 
+  'Industrie & Fertigung', 'Baugewerbe',
+  'Einzelhandel (Stationär)', 'Großhandel', 'E-Commerce / Online-Handel',
+  'IT-Dienstleistungen & Software', 'KI & Hochtechnologie',
+  'Unternehmensberatung & Agentur', 'Kreativwirtschaft & Design',
+  'Gastronomie & Cafés', 'Hotellerie & Beherbergung',
+  'Gesundheitswesen & Soziales', 'Freie Berufe (Recht, Steuern, Architektur)',
+  'Transport, Logistik & Lager', 'Immobilienwesen', 'Land- & Forstwirtschaft'
+]
+
+const MITARBEITER = [
+  '0 (Solo-Selbstständig)',
+  '1–4 (Kleinstbetrieb)',
+  '5–9 (Schwelle Kündigungsschutz)',
+  '10–19 (Schwelle Datenschutzbeauftragter)',
+  '20–49 (Schwelle Schwerbehindertenabgabe)',
+  '50–249 (Mittleres Unternehmen / NIS2-Relevanz)',
+  '250–499 (Großer Mittelstand)',
+  '500+'
+]
+
+const UMSATZ = [
+  'unter 22.000 € (Kleinunternehmer-Grenze)',
+  '22.000 € – 50.000 €',
+  '50.000 € – 100.000 €',
+  '100.000 € – 500.000 €',
+  '500.000 € – 1 Mio. €',
+  '1 Mio. € – 2 Mio. € (Mikro-Unternehmen Grenze)',
+  '2 Mio. € – 10 Mio. € (Kleine Kapitalgesellschaft)',
+  '10 Mio. € – 25 Mio. € (NIS-2 / CSRD Check)',
+  '25 Mio. € – 50 Mio. € (Mittlere Kapitalgesellschaft)',
+  'über 50 Mio. € (Großunternehmen)'
+]
+
 const GRUENDUNGSJAHR = ['vor 2000', '2000–2010', '2011–2019', '2020 oder später']
+
+const BUNDESLAENDER = ['Baden-Württemberg', 'Bayern', 'Berlin', 'Brandenburg', 'Bremen', 'Hamburg', 'Hessen', 'Mecklenburg-Vorpommern', 'Niedersachsen', 'Nordrhein-Westfalen', 'Rheinland-Pfalz', 'Saarland', 'Sachsen', 'Sachsen-Anhalt', 'Schleswig-Holstein', 'Thüringen']
 
 type FormState = {
   name: string; rechtsform: string; branche: string; mitarbeiter: string

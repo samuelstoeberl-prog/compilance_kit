@@ -155,5 +155,63 @@
     ],
     "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 9, "umsatz_max": null, "bundeslaender": ["alle"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
     "relevanz_boost": { "gruendungsjahr": ["2020 oder später"], "mitarbeiter": ["1–9"] }
+  },
+  {
+    "id": "exist-gruenderstipendium",
+    "title": "EXIST-Gründerstipendium",
+    "beschreibung": "Bis zu 12 Monate Finanzierung für innovative Gründungsvorhaben aus Hochschulen und Forschungseinrichtungen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / BMBF",
+    "max_betrag": 150000,
+    "zins": null,
+    "antrag_url": "https://www.exist.de/EXIST/Navigation/DE/Gruendungsfoerderung/EXIST-Gruenderstipendium/exist-gruenderstipendium.html",
+    "bearbeitungszeit_wochen": [8, 14],
+    "ausschlusskriterien": ["Hochschul- oder Forschungseinrichtungsanbindung erforderlich", "Noch kein Unternehmen gegründet"],
+    "benoetigte_dokumente": [
+      {"name": "Gründungskonzept / Businessplan", "auto": false},
+      {"name": "Unterstützungsschreiben der Hochschule", "auto": false},
+      {"name": "Lebenslauf aller Gründer", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 9, "umsatz_max": null, "bundeslaender": ["alle"], "gruendungsjahr": ["2020 oder später"] },
+    "relevanz_boost": { "branchen": ["Software / IT"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "zim-innovationsfoerderung",
+    "title": "ZIM – Zentrales Innovationsprogramm Mittelstand",
+    "beschreibung": "Nicht rückzahlbare Zuschüsse für marktorientierte F&E-Projekte von KMU – bis 55 % der förderfähigen Kosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / AiF",
+    "max_betrag": 550000,
+    "zins": null,
+    "antrag_url": "https://www.zim.de/ZIM/Navigation/DE/Foerderung/foerderung.html",
+    "bearbeitungszeit_wochen": [10, 16],
+    "ausschlusskriterien": ["Muss innovatives FuE-Projekt sein", "Max. 499 Mitarbeitende", "Kooperationsprojekte bevorzugt"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Projektbeschreibung (Formblatt)", "auto": false},
+      {"name": "Kosten- und Finanzierungsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "UG (haftungsbeschränkt)", "GbR", "e.K.", "Einzelunternehmen"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Software / IT", "Produktion / Fertigung"], "mitarbeiter": ["10–49", "50–249"] }
+  },
+  {
+    "id": "de-minimis",
+    "title": "De-minimis-Beihilfe",
+    "beschreibung": "Bis zu 300.000 € staatliche Unterstützung innerhalb von 3 Jahren ohne EU-Notifizierungspflicht – kombinierbar mit anderen Förderprogrammen.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "EU / Bundesbehörden",
+    "max_betrag": 300000,
+    "zins": null,
+    "antrag_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32023R2831",
+    "bearbeitungszeit_wochen": [2, 4],
+    "ausschlusskriterien": ["Gesamtbeihilfe aller De-minimis-Förderungen max. 300.000 € / 3 Jahre", "Nicht für Landwirtschaft und Fischerei"],
+    "benoetigte_dokumente": [
+      {"name": "De-minimis-Erklärung", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 999, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "relevanz_boost": { "mitarbeiter": ["1–9", "10–49"] }
   }
 ]
