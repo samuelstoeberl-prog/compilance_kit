@@ -72,9 +72,9 @@ export default function Onboarding() {
 
   const isValid = Object.values(form).every(v => v !== '')
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    setProfil(form as UnternehmensProfil)
+    await setProfil(form as UnternehmensProfil)
     navigate('/dashboard')
   }
 
