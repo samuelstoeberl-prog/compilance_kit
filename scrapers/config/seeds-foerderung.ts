@@ -34,11 +34,16 @@ const BUND: DomainConfig[] = [
       '/FDB/Content/DE/Suche/suche.html?query=Digitalisierung',
       '/FDB/Content/DE/Suche/suche.html?query=Innovation',
       '/FDB/Content/DE/Suche/suche.html?query=Gruendung',
+      '/FDB/Content/DE/Suche/suche.html?query=Zuschuss',
+      '/FDB/Content/DE/Suche/suche.html?query=Kredit',
+      '/FDB/Content/DE/Suche/suche.html?query=Handwerk',
+      '/FDB/Content/DE/Suche/suche.html?query=Gastronomie',
+      '/FDB/Content/DE/Suche/suche.html?query=Energie',
     ],
     label: 'Förderdatenbank Bund',
     region: 'Bund',
     skipPatterns: [...GLOBAL_SKIP],
-    maxPages: 500,
+    maxPages: 600,
     priority: 'high',
   },
   {
@@ -178,12 +183,11 @@ const BAYERN: DomainConfig[] = [
   {
     origin: 'https://www.lfa.de',
     seeds: [
-      '/foerderprodukte/',
-      '/foerderprodukte/gruenden-und-nachfolgen/',
-      '/foerderprodukte/investieren-und-innovieren/',
-      '/foerderprodukte/digitalisieren/',
-      '/foerderprodukte/energie-und-umwelt/',
-      '/foerderprodukte/internationalisieren/',
+      '/foerderangebote/',
+      '/foerderangebote/gruenden-und-investieren/',
+      '/foerderangebote/wachsen-und-modernisieren/',
+      '/foerderangebote/energie-und-umwelt/',
+      '/foerderangebote/digital-und-innovation/',
     ],
     label: 'LfA Förderbank Bayern',
     region: 'Bayern',
@@ -201,10 +205,12 @@ const BAYERN: DomainConfig[] = [
     priority: 'high',
   },
   {
-    origin: 'https://www.stmwi.bayern.de',
+    origin: 'https://www.stmwi.de',
     seeds: [
-      '/wirtschaft/foerderprogramme/',
-      '/wirtschaft/digitalisierung/',
+      '/foerderung/',
+      '/themen/wirtschaft/',
+      '/themen/digitalisierung/',
+      '/themen/innovation/',
     ],
     label: 'StMWi Bayern',
     region: 'Bayern',
@@ -213,9 +219,12 @@ const BAYERN: DomainConfig[] = [
     priority: 'medium',
   },
   {
-    origin: 'https://www.wifoe.de',
-    seeds: ['/'],
-    label: 'Wirtschaftsförderung Bayern',
+    origin: 'https://www.bayern-innovativ.de',
+    seeds: [
+      '/foerderung/',
+      '/themen/foerdermittelberatung/',
+    ],
+    label: 'Bayern Innovativ',
     region: 'Bayern',
     skipPatterns: [...GLOBAL_SKIP],
     maxPages: 40,
@@ -298,9 +307,10 @@ const BERLIN: DomainConfig[] = [
   {
     origin: 'https://www.ibb.de',
     seeds: [
-      '/foerderprodukte/',
-      '/foerderprodukte/wirtschaft/',
-      '/foerderprodukte/gruendung/',
+      '/angebote/',
+      '/angebote/wirtschaft/',
+      '/angebote/gruendung/',
+      '/angebote/innovation/',
     ],
     label: 'IBB Berlin',
     region: 'Berlin',
@@ -310,7 +320,11 @@ const BERLIN: DomainConfig[] = [
   },
   {
     origin: 'https://www.berlin-partner.de',
-    seeds: ['/foerderung/'],
+    seeds: [
+      '/standortpolitik/foerderung/',
+      '/wirtschaft/foerderung/',
+      '/foerderung/',
+    ],
     label: 'Berlin Partner',
     region: 'Berlin',
     skipPatterns: [...GLOBAL_SKIP],
@@ -324,8 +338,10 @@ const HAMBURG: DomainConfig[] = [
   {
     origin: 'https://www.ifbhh.de',
     seeds: [
+      '/programme/',
+      '/programme/wirtschaft/',
+      '/programme/gruendung/',
       '/foerderprogramme/',
-      '/foerderprogramme/wirtschaft/',
     ],
     label: 'IFB Hamburg',
     region: 'Hamburg',
@@ -337,7 +353,7 @@ const HAMBURG: DomainConfig[] = [
     origin: 'https://www.hamburg.de',
     seeds: [
       '/wirtschaft/foerderung/',
-      '/foerderprogramme/',
+      '/politik-und-verwaltung/behoerden/behoerde-fuer-wirtschaft-und-innovation/',
     ],
     label: 'Hamburg Wirtschaft',
     region: 'Hamburg',
@@ -345,35 +361,54 @@ const HAMBURG: DomainConfig[] = [
     maxPages: 40,
     priority: 'medium',
   },
+  {
+    origin: 'https://www.hk24.de',
+    seeds: [
+      '/produktmarken/foerderung/',
+      '/produktmarken/finanzierung/',
+    ],
+    label: 'Handelskammer Hamburg',
+    region: 'Hamburg',
+    skipPatterns: [...GLOBAL_SKIP],
+    maxPages: 30,
+    priority: 'medium',
+  },
 ]
 
 // ── Hessen ────────────────────────────────────────────────────────────────────
 const HESSEN: DomainConfig[] = [
   {
-    origin: 'https://www.wtsh.de',
-    seeds: ['/foerderberatung/'],
-    label: 'Wirtschaftsförderung Hessen',
+    origin: 'https://www.wtb.hessen.de',
+    seeds: [
+      '/foerderung/',
+      '/themen/foerderung/',
+    ],
+    label: 'WIBank Hessen',
     region: 'Hessen',
     skipPatterns: [...GLOBAL_SKIP],
-    maxPages: 40,
-    priority: 'medium',
-  },
-  {
-    origin: 'https://www.lew-hessen.de',
-    seeds: ['/'],
-    label: 'LEW Hessen',
-    region: 'Hessen',
-    skipPatterns: [...GLOBAL_SKIP],
-    maxPages: 30,
-    priority: 'medium',
+    maxPages: 50,
+    priority: 'high',
   },
   {
     origin: 'https://wirtschaft.hessen.de',
-    seeds: ['/foerderung/'],
+    seeds: [
+      '/wirtschaft/',
+      '/foerderung/',
+      '/digitalisierung/',
+    ],
     label: 'Wirtschaftsministerium Hessen',
     region: 'Hessen',
     skipPatterns: [...GLOBAL_SKIP],
     maxPages: 40,
+    priority: 'medium',
+  },
+  {
+    origin: 'https://www.hessen-agentur.de',
+    seeds: ['/foerdermittel/'],
+    label: 'HA Hessen Agentur',
+    region: 'Hessen',
+    skipPatterns: [...GLOBAL_SKIP],
+    maxPages: 30,
     priority: 'medium',
   },
 ]
@@ -409,8 +444,10 @@ const NIEDERSACHSEN: DomainConfig[] = [
   {
     origin: 'https://www.nbank.de',
     seeds: [
-      '/Foerderprogramme/',
-      '/Foerderprogramme/Wirtschaft/',
+      '/foerderprogramme/',
+      '/foerderprogramme/wirtschaft/',
+      '/foerderprogramme/gruendung/',
+      '/foerderprogramme/innovation/',
     ],
     label: 'NBank Niedersachsen',
     region: 'Niedersachsen',
@@ -420,7 +457,10 @@ const NIEDERSACHSEN: DomainConfig[] = [
   },
   {
     origin: 'https://www.mw.niedersachsen.de',
-    seeds: ['/wirtschaft/foerderung/'],
+    seeds: [
+      '/themen/wirtschaft/',
+      '/themen/foerderung/',
+    ],
     label: 'Wirtschaftsministerium Niedersachsen',
     region: 'Niedersachsen',
     skipPatterns: [...GLOBAL_SKIP],
@@ -534,12 +574,28 @@ const MV: DomainConfig[] = [
 const SH: DomainConfig[] = [
   {
     origin: 'https://www.ib-sh.de',
-    seeds: ['/foerderung/'],
+    seeds: [
+      '/foerderung/',
+      '/foerderung/wirtschaft/',
+      '/foerderung/gruendung/',
+    ],
     label: 'IB Schleswig-Holstein',
     region: 'Schleswig-Holstein',
     skipPatterns: [...GLOBAL_SKIP],
     maxPages: 50,
     priority: 'high',
+  },
+  {
+    origin: 'https://www.wtsh.de',
+    seeds: [
+      '/foerderberatung/',
+      '/themen/foerderung/',
+    ],
+    label: 'WTSH Schleswig-Holstein',
+    region: 'Schleswig-Holstein',
+    skipPatterns: [...GLOBAL_SKIP],
+    maxPages: 30,
+    priority: 'medium',
   },
 ]
 

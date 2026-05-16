@@ -20,6 +20,10 @@ function normalizeUrl(url: string): string {
     u.hash = ''
     for (const k of ['utm_source', 'utm_medium', 'utm_campaign', 'ref', 'fbclid'])
       u.searchParams.delete(k)
+    // Doppelte Sprachpräfixe entfernen (/DE/DE/ → /DE/, /de/de/ → /de/)
+    u.pathname = u.pathname
+      .replace(/\/DE\/DE\//gi, '/DE/')
+      .replace(/\/de\/de\//gi, '/de/')
     return u.href.replace(/\/$/, '')
   } catch { return url }
 }
