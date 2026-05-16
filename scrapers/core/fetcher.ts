@@ -64,9 +64,31 @@ async function fetchWithPlaywright(url: string): Promise<string> {
   })
 
   try {
-    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20_000 })
-    // Kurz warten damit lazy-geladene Inhalte erscheinen
-    await page.waitForTimeout(1500)
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 25_000 })
+    await page.waitForTimeout(1000)
+
+    // Cookie-Banner akzeptieren (häufige deutsche Button-Texte)
+    for (const selector of [
+      'button:has-text("Alle akzeptieren")',
+      'button:has-text("Akzeptieren")',
+      'button:has-text("Zustimmen")',
+      'button:has-text("Alle Cookies akzeptieren")',
+      'button:has-text("Einverstanden")',
+      'button:has-text("OK")',
+      '[id*="accept"]',
+      '[class*="accept"]',
+      '[id*="cookie"] button',
+    ]) {
+      try {
+        const btn = page.locator(selector).first()
+        if (await btn.isVisible({ timeout: 800 })) {
+          await btn.click()
+          await page.waitForTimeout(600)
+          break
+        }
+      } catch { /* kein Banner → weiter */ }
+    }
+
     return page.content()
   } finally {
     await ctx.close()

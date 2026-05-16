@@ -24,9 +24,14 @@ function normalizeUrl(url: string): string {
   } catch { return url }
 }
 
-function isRelevant(text: string, keywords: string[]): boolean {
+function isRelevant(text: string, url: string, keywords: string[]): boolean {
   const lower = text.toLowerCase()
-  return keywords.filter(kw => lower.includes(kw)).length >= 3
+  const keywordHits = keywords.filter(kw => lower.includes(kw)).length
+  if (keywordHits >= 2) return true
+  // URL-basierte Relevanz: Förder-Seiten auch bei wenig Text aufnehmen
+  const urlLower = url.toLowerCase()
+  const urlRelevant = /foerd|zuschuss|kredit|programm|beihilfe|antrag|finanzier/.test(urlLower)
+  return urlRelevant && keywordHits >= 1
 }
 
 class Semaphore {
@@ -108,13 +113,14 @@ export async function crawlDomains(
         }
       }
 
-      if (isRelevant(text, keywords)) {
+      if (isRelevant(text, url, keywords)) {
         const page: CrawledPage = { url, domainLabel: cfg.label, region: cfg.region, rawText: text.slice(0, 10_000), title }
         pages.push(page)
         htmlMap.set(url, html)
-        console.log(`✓ "${title.slice(0, 50)}"`)
+        console.log(`✓ (${pages.length}) "${title.slice(0, 50)}"`)
       } else {
-        console.log(`–`)
+        const hits = keywords.filter(kw => text.toLowerCase().includes(kw)).length
+        console.log(`– (${hits} keywords, ${text.length} chars)`)
       }
 
       processed++
@@ -125,7 +131,13 @@ export async function crawlDomains(
 
       await sleep(delayMs + Math.random() * 400)
     } catch (err) {
-      console.log(`✗ ${err instanceof Error ? err.message : err}`)
+      const msg = err instanceof Error ? err.message : String(err)
+      // Fehlertypen kategorisieren
+      if (/429|rate.limit/i.test(msg)) console.log(`✗ [RATE-LIMIT] ${msg.slice(0, 80)}`)
+      else if (/403|forbidden/i.test(msg)) console.log(`✗ [BLOCKED] ${msg.slice(0, 80)}`)
+      else if (/timeout|ETIMEDOUT/i.test(msg)) console.log(`✗ [TIMEOUT]`)
+      else if (/ENOTFOUND|ECONNREFUSED|CERT/i.test(msg)) console.log(`✗ [NETZ] ${msg.slice(0, 80)}`)
+      else console.log(`✗ [ERR] ${msg.slice(0, 80)}`)
     } finally {
       sem.release()
     }
