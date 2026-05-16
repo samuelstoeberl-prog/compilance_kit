@@ -154,7 +154,7 @@ export function scoreRegulation(r: RegulationRow, p: CompanyProfile): number {
     if (!match) return 0
   }
 
-  if (gf.mitarbeiter_min && mitZahl < gf.mitarbeiter_min) return 0
+  if (gf.mitarbeiter_min && gf.mitarbeiter_min > 0 && mitZahl < gf.mitarbeiter_min) return 0
   if (gf.bundeslaender && gf.bundeslaender[0] !== 'alle' && !gf.bundeslaender.includes(p.bundesland)) return 0
 
   // NIS2: nur für kritische Infrastruktur-Branchen ab 50 MA

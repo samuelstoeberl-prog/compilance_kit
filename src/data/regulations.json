@@ -6,7 +6,7 @@
     "beschreibung": "Datenschutzerklärung auf der Website und Verarbeitungsverzeichnis müssen vorliegen.",
     "rechtsgrundlage": "Art. 13 DSGVO",
     "quelle_url": "https://dsgvo-gesetz.de/art-13-dsgvo/",
-    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
     "hat_dokument_generator": true,
     "dokument_typ": "datenschutzerklaerung"
   },
@@ -17,18 +17,48 @@
     "beschreibung": "Vollständiges Impressum mit Verantwortlichem, Kontakt und Handelsregisternummer auf der Website.",
     "rechtsgrundlage": "§5 DDG",
     "quelle_url": "https://www.gesetze-im-internet.de/ddg/__5.html",
-    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
     "hat_dokument_generator": true,
     "dokument_typ": "impressum"
   },
   {
-    "id": "nis2",
-    "title": "NIS2-Richtlinie – IT-Sicherheit",
-    "category": "IT-Sicherheit",
-    "beschreibung": "Cybersicherheitsmaßnahmen und Meldepflicht bei Sicherheitsvorfällen innerhalb von 24h.",
-    "rechtsgrundlage": "BSI-Gesetz §8a / NIS2UmsuCG",
-    "quelle_url": "https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/nis-2-regulierte-unternehmen_node.html",
-    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Software / IT", "Produktion / Fertigung", "Gesundheit / Pflege"], "mitarbeiter_min": 10, "bundeslaender": ["alle"] },
+    "id": "cookie-consent",
+    "title": "Cookie-Consent / Einwilligungsmanagement",
+    "category": "Datenschutz",
+    "beschreibung": "Technisch nicht notwendige Cookies erfordern aktive Einwilligung der Nutzer (kein Opt-Out).",
+    "rechtsgrundlage": "Art. 6 DSGVO / TTDSG §25",
+    "quelle_url": "https://www.bfdi.bund.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gewerbesteuer-erklaerung",
+    "title": "Gewerbesteuererklärung",
+    "category": "Steuer",
+    "beschreibung": "Jährliche Gewerbesteuererklärung beim Finanzamt, Frist 31. Juli des Folgejahres.",
+    "rechtsgrundlage": "§14a GewStG",
+    "quelle_url": "https://www.elster.de",
+    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "e.K. (eingetragener Kaufmann)", "GbR", "KG", "OHG", "GmbH & Co. KG", "UG (haftungsbeschränkt)"], "branchen": ["alle"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "jahresabschluss-offenlegung",
+    "title": "Jahresabschluss & Offenlegungspflicht",
+    "category": "Steuer",
+    "beschreibung": "GmbH, AG und UG müssen Jahresabschluss beim Bundesanzeiger offenlegen. Frist: 12 Monate nach Geschäftsjahresende.",
+    "rechtsgrundlage": "§325 HGB",
+    "quelle_url": "https://www.bundesanzeiger.de",
+    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "UG (haftungsbeschränkt)", "GmbH & Co. KG"], "branchen": ["alle"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "elektronische-rechnung",
+    "title": "E-Rechnungspflicht (B2B ab 2025)",
+    "category": "Steuer",
+    "beschreibung": "Ab 2025 müssen inländische B2B-Rechnungen als strukturierte E-Rechnung (ZUGFeRD/XRechnung) empfangen und ab 2027 auch ausgestellt werden.",
+    "rechtsgrundlage": "§14 UStG (neu)",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
     "hat_dokument_generator": false
   },
   {
@@ -43,13 +73,64 @@
     "dokument_typ": "arbeitszeitnachweis"
   },
   {
-    "id": "lksg",
-    "title": "Lieferkettensorgfaltspflichtengesetz (LkSG)",
-    "category": "Recht",
-    "beschreibung": "Sorgfaltspflichten für Menschenrechte und Umwelt in der Lieferkette.",
-    "rechtsgrundlage": "LkSG §3",
-    "quelle_url": "https://www.bafa.de/DE/Lieferketten/lieferketten_node.html",
-    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1000, "bundeslaender": ["alle"] },
+    "id": "arbeitsschutz-unterweisung",
+    "title": "Arbeitsschutzunterweisung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Jährliche schriftliche Unterweisung aller Mitarbeitenden zu Arbeitsschutz und Unfallverhütung.",
+    "rechtsgrundlage": "§12 ArbSchG",
+    "quelle_url": "https://www.baua.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": true,
+    "dokument_typ": "arbeitsschutz-unterweisung"
+  },
+  {
+    "id": "gefaehrdungsbeurteilung",
+    "title": "Gefährdungsbeurteilung (Arbeitsplätze)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Schriftliche Beurteilung aller Arbeitsplätze auf Gesundheits- und Sicherheitsrisiken. Muss aktuell gehalten und dokumentiert werden.",
+    "rechtsgrundlage": "§5 ArbSchG",
+    "quelle_url": "https://www.baua.de/DE/Themen/Arbeitsgestaltung-im-Betrieb/Gefaehrdungsbeurteilung/gefaehrdungsbeurteilung_node.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "erste-hilfe-einrichtung",
+    "title": "Erste-Hilfe-Einrichtungen & Ersthelfer",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Betriebe ab 1 Mitarbeitenden brauchen Erste-Hilfe-Material. Ab 2 MA muss mindestens ein ausgebildeter Ersthelfer vorhanden sein (Auffrischung alle 2 Jahre).",
+    "rechtsgrundlage": "DGUV Vorschrift 1 §24–26",
+    "quelle_url": "https://www.dguv.de/de/praevention/vorschriften_regeln/dguv_vorschrift_1/index.jsp",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "brandschutz-feuerschutz",
+    "title": "Brandschutz & Feuerlöscher",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Betriebe mit Geschäftsräumen müssen Feuerlöscher vorhalten, Fluchtwege freihalten und kennzeichnen sowie Brandschutzhelfer benennen (ab 20 MA: mind. 5 % der Belegschaft).",
+    "rechtsgrundlage": "ArbStättV §4 / ASR A2.2",
+    "quelle_url": "https://www.baua.de/DE/Angebote/Rechtstexte-und-Technische-Regeln/Regelwerk/ASR/ASR-A2-2.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "betriebsrat",
+    "title": "Betriebsrat – Wahlrecht informieren",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Ab 5 Mitarbeitenden können Beschäftigte einen Betriebsrat wählen. Arbeitgeber darf dies nicht behindern und muss Wahl ermöglichen.",
+    "rechtsgrundlage": "§1 BetrVG",
+    "quelle_url": "https://www.gesetze-im-internet.de/betrvg/__1.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 5, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "schwerbehindertenabgabe",
+    "title": "Schwerbehindertenabgabe (SGB IX)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Ab 20 Mitarbeitenden müssen 5 % der Stellen mit schwerbehinderten Menschen besetzt werden – sonst Ausgleichsabgabe von bis zu 720 €/Monat je unbesetzter Stelle.",
+    "rechtsgrundlage": "§154 SGB IX",
+    "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/__154.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 20, "bundeslaender": ["alle"] },
     "hat_dokument_generator": false
   },
   {
@@ -63,114 +144,224 @@
     "hat_dokument_generator": false
   },
   {
-    "id": "cookie-consent",
-    "title": "Cookie-Consent / Einwilligungsmanagement",
-    "category": "Datenschutz",
-    "beschreibung": "Technisch nicht notwendige Cookies erfordern aktive Einwilligung der Nutzer (kein Opt-Out).",
-    "rechtsgrundlage": "Art. 6 DSGVO / TTDSG §25",
-    "quelle_url": "https://www.bfdi.bund.de",
-    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
-    "hat_dokument_generator": false
-  },
-  {
-    "id": "gewerbesteuer-erklaerung",
-    "title": "Gewerbesteuererklärung",
-    "category": "Steuer",
-    "beschreibung": "Jährliche Gewerbesteuererklärung beim Finanzamt, Frist 31. Juli des Folgejahres.",
-    "rechtsgrundlage": "§14a GewStG",
-    "quelle_url": "https://www.elster.de",
-    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "e.K.", "GbR"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
-    "hat_dokument_generator": false
-  },
-  {
-    "id": "arbeitsschutz-unterweisung",
-    "title": "Arbeitsschutzunterweisung",
-    "category": "Arbeitsrecht",
-    "beschreibung": "Jährliche schriftliche Unterweisung aller Mitarbeitenden zu Arbeitsschutz und Unfallverhütung.",
-    "rechtsgrundlage": "§12 ArbSchG",
-    "quelle_url": "https://www.baua.de",
-    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
-    "hat_dokument_generator": true,
-    "dokument_typ": "arbeitsschutz-unterweisung"
-  },
-  {
-    "id": "elektronische-rechnung",
-    "title": "E-Rechnungspflicht (B2B ab 2025)",
-    "category": "Steuer",
-    "beschreibung": "Ab 2025 müssen inländische B2B-Rechnungen als strukturierte E-Rechnung (ZUGFeRD/XRechnung) ausgestellt werden.",
-    "rechtsgrundlage": "§14 UStG (neu)",
-    "quelle_url": "https://www.bundesfinanzministerium.de",
-    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "UG (haftungsbeschränkt)", "GbR", "e.K.", "Einzelunternehmen"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
-    "hat_dokument_generator": false
-  },
-  {
-    "id": "verpackungsgesetz",
-    "title": "Verpackungsgesetz (VerpackG)",
-    "category": "Umwelt",
-    "beschreibung": "Hersteller und Inverkehrbringer von Verpackungen müssen sich bei LUCID registrieren und lizenzieren.",
-    "rechtsgrundlage": "§9 VerpackG",
-    "quelle_url": "https://www.verpackungsregister.org",
-    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handel / E-Commerce", "Produktion / Fertigung"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "id": "nis2",
+    "title": "NIS2-Richtlinie – IT-Sicherheit",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Cybersicherheitsmaßnahmen, Risikomanagement und Meldepflicht bei Sicherheitsvorfällen innerhalb von 24h.",
+    "rechtsgrundlage": "BSI-Gesetz §8a / NIS2UmsuCG",
+    "quelle_url": "https://www.bsi.bund.de/DE/Themen/Regulierte-Wirtschaft/NIS-2-regulierte-Unternehmen/nis-2-regulierte-unternehmen_node.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["IT-Dienstleistungen & Software", "KI & Hochtechnologie", "Industrie & Fertigung", "Gesundheitswesen & Soziales", "Transport & Logistik"], "mitarbeiter_min": 50, "bundeslaender": ["alle"] },
     "hat_dokument_generator": false
   },
   {
     "id": "eu-ai-act",
-    "title": "EU AI Act – Registrierungspflicht",
+    "title": "EU AI Act – KI-Klassifizierungspflicht",
     "category": "IT-Sicherheit",
-    "beschreibung": "Unternehmen die KI-Systeme einsetzen müssen diese ab 2026 klassifizieren und ggf. registrieren.",
+    "beschreibung": "Unternehmen die KI-Systeme einsetzen oder anbieten müssen diese ab 2026 klassifizieren, dokumentieren und ggf. beim EU-Register anmelden.",
     "rechtsgrundlage": "EU AI Act Art. 49",
     "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689",
-    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
-    "hat_dokument_generator": false
-  },
-  {
-    "id": "betriebsrat",
-    "title": "Betriebsrat – Wahlrecht informieren",
-    "category": "Arbeitsrecht",
-    "beschreibung": "Ab 5 Mitarbeitenden können Beschäftigte einen Betriebsrat wählen. Arbeitgeber darf dies nicht behindern.",
-    "rechtsgrundlage": "§1 BetrVG",
-    "quelle_url": "https://www.gesetze-im-internet.de/betrvg/__1.html",
-    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 5, "bundeslaender": ["alle"] },
-    "hat_dokument_generator": false
-  },
-  {
-    "id": "schwerbehindertenabgabe",
-    "title": "Schwerbehindertenabgabe (SGB IX)",
-    "category": "Arbeitsrecht",
-    "beschreibung": "Ab 20 Mitarbeitenden müssen 5 % der Stellen mit schwerbehinderten Menschen besetzt werden – sonst Ausgleichsabgabe.",
-    "rechtsgrundlage": "§154 SGB IX",
-    "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/__154.html",
-    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 20, "bundeslaender": ["alle"] },
-    "hat_dokument_generator": false
-  },
-  {
-    "id": "jahresabschluss-offenlegung",
-    "title": "Jahresabschluss & Offenlegungspflicht",
-    "category": "Steuer",
-    "beschreibung": "GmbH, AG und UG müssen Jahresabschluss beim Bundesanzeiger offenlegen. Frist: 12 Monate nach Geschäftsjahresende.",
-    "rechtsgrundlage": "§325 HGB",
-    "quelle_url": "https://www.bundesanzeiger.de",
-    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "UG (haftungsbeschränkt)"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
-    "hat_dokument_generator": false
-  },
-  {
-    "id": "agb-pflicht",
-    "title": "AGB – Informationspflichten im E-Commerce",
-    "category": "Recht",
-    "beschreibung": "Online-Händler müssen Verbraucher vor Vertragsschluss über Widerrufsrecht, Lieferbedingungen und Preise informieren.",
-    "rechtsgrundlage": "§312d BGB / Art. 246a EGBGB",
-    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__312d.html",
-    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handel / E-Commerce"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["IT-Dienstleistungen & Software", "KI & Hochtechnologie"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
     "hat_dokument_generator": false
   },
   {
     "id": "csrd",
     "title": "CSRD – Nachhaltigkeitsberichterstattung",
     "category": "Reporting",
-    "beschreibung": "Verpflichtende Nachhaltigkeitsberichte nach EU-Richtlinie. Ab 2026 für Unternehmen ab 250 Mitarbeitende.",
+    "beschreibung": "Verpflichtende Nachhaltigkeitsberichte nach EU-Richtlinie. Ab 2026 für Unternehmen ab 250 Mitarbeitenden.",
     "rechtsgrundlage": "EU CSRD 2022/2464",
     "quelle_url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_en",
-    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "UG (haftungsbeschränkt)"], "branchen": ["alle"], "mitarbeiter_min": 250, "bundeslaender": ["alle"] },
+    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "UG (haftungsbeschränkt)", "GmbH & Co. KG"], "branchen": ["alle"], "mitarbeiter_min": 250, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "lksg",
+    "title": "Lieferkettensorgfaltspflichtengesetz (LkSG)",
+    "category": "Recht",
+    "beschreibung": "Sorgfaltspflichten für Menschenrechte und Umwelt in der Lieferkette. Ab 2024 für Unternehmen ab 1.000 MA.",
+    "rechtsgrundlage": "LkSG §3",
+    "quelle_url": "https://www.bafa.de/DE/Lieferketten/lieferketten_node.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1000, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+
+  {
+    "id": "gaststaettenerlaubnis",
+    "title": "Gaststättenerlaubnis / Schankerlaubnis",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Für den Betrieb einer Gaststätte mit Alkoholausschank ist eine behördliche Erlaubnis nach Landesrecht (ehem. GastG) erforderlich. Antrag beim örtlichen Ordnungsamt.",
+    "rechtsgrundlage": "Landesgaststättengesetze (z.B. GastG Bayern §2)",
+    "quelle_url": "https://www.gesetze-im-internet.de/gastg/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gastronomie & Cafés", "Hotellerie & Beherbergung"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "haccp-konzept",
+    "title": "HACCP-Konzept (Lebensmittelhygiene)",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Alle Betriebe, die Lebensmittel verarbeiten oder ausgeben, müssen ein HACCP-Konzept (Gefahrenanalyse und kritische Kontrollpunkte) einrichten, dokumentieren und regelmäßig prüfen.",
+    "rechtsgrundlage": "EG-VO 852/2004 Art. 5",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32004R0852",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gastronomie & Cafés", "Hotellerie & Beherbergung", "Einzelhandel", "Großhandel", "Land- & Forstwirtschaft"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "infektionsschutzbelehrung",
+    "title": "Infektionsschutzbelehrung (§43 IfSG)",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Mitarbeitende, die Lebensmittel herstellen oder ausgeben, brauchen eine Erstbelehrung beim Gesundheitsamt und danach alle 2 Jahre eine betriebliche Folgebelehrung.",
+    "rechtsgrundlage": "§43 IfSG",
+    "quelle_url": "https://www.gesetze-im-internet.de/ifsg/__43.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gastronomie & Cafés", "Hotellerie & Beherbergung", "Einzelhandel"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "hygieneplan-gesundheit",
+    "title": "Hygieneplan (Gesundheits- & Pflegebetriebe)",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Einrichtungen des Gesundheitswesens sind nach §36 IfSG verpflichtet, einen betriebsinternen Hygieneplan aufzustellen und Infektionshygiene zu überwachen.",
+    "rechtsgrundlage": "§36 IfSG",
+    "quelle_url": "https://www.gesetze-im-internet.de/ifsg/__36.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gesundheitswesen & Soziales"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "bimschg-genehmigung",
+    "title": "Immissionsschutzrechtliche Genehmigung (BImSchG)",
+    "category": "Umwelt",
+    "beschreibung": "Betriebe mit erheblichen Emissionen (Lärm, Staub, Abgase) brauchen vor Inbetriebnahme eine Genehmigung nach §4 BImSchG. Gilt für eine Vielzahl von Produktions- und Gewerbebetrieben.",
+    "rechtsgrundlage": "§4 BImSchG",
+    "quelle_url": "https://www.gesetze-im-internet.de/bimschg/__4.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Industrie & Fertigung", "Handwerk", "Baugewerbe", "Transport & Logistik", "Land- & Forstwirtschaft"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "abwassereinleitung",
+    "title": "Abwassereinleitung – Genehmigungspflicht",
+    "category": "Umwelt",
+    "beschreibung": "Wer gewerbliches Abwasser in öffentliche Kanalisation oder Gewässer einleitet, benötigt eine wasserrechtliche Erlaubnis. Branchenspezifische Grenzwerte gelten z.B. für Fettabscheider in Gastronomie.",
+    "rechtsgrundlage": "§58 WHG / AbwV",
+    "quelle_url": "https://www.gesetze-im-internet.de/whg_2009/__57.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Industrie & Fertigung", "Handwerk", "Gastronomie & Cafés", "Hotellerie & Beherbergung", "Land- & Forstwirtschaft"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gefahrstoffverzeichnis",
+    "title": "Gefahrstoffverzeichnis & Betriebsanweisung",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Betriebe, die Gefahrstoffe einsetzen, müssen ein Verzeichnis führen, Sicherheitsdatenblätter vorhalten und Mitarbeitende per Betriebsanweisung unterweisen.",
+    "rechtsgrundlage": "§6 GefStoffV",
+    "quelle_url": "https://www.gesetze-im-internet.de/gefstoffv_2010/__6.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handwerk", "Baugewerbe", "Industrie & Fertigung", "Land- & Forstwirtschaft"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "laermschutz-ta",
+    "title": "Lärmschutz (TA Lärm / LärmVibrationsArbSchV)",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Gewerbebetriebe mit Maschinenlärm müssen Schallpegel messen, Lärmschutzbereiche kennzeichnen und Gehörschutz stellen. Nachbarn sind durch TA-Lärm-Grenzwerte zu schützen.",
+    "rechtsgrundlage": "LärmVibrationsArbSchV / TA Lärm",
+    "quelle_url": "https://www.baua.de/DE/Angebote/Rechtstexte-und-Technische-Regeln/Regelwerk/TRLA/TRLA.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Industrie & Fertigung", "Handwerk", "Baugewerbe"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "meisterpflicht-handwerk",
+    "title": "Meisterpflicht (zulassungspflichtiges Handwerk)",
+    "category": "Gewerbezulassung",
+    "beschreibung": "In 53 Handwerksberufen (Anlage A HwO) darf ein Betrieb nur geführt werden, wenn der Inhaber oder eine leitende Fachkraft den Meistertitel besitzt. Eintrag in die Handwerksrolle erforderlich.",
+    "rechtsgrundlage": "§1 HwO / Anlage A",
+    "quelle_url": "https://www.gesetze-im-internet.de/hwo/__1.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handwerk"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "baustellenverordnung",
+    "title": "Baustellenverordnung (SiGe-Plan)",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Bei Baustellen ab bestimmter Größe (mehr als 500 Personentage oder mehrere Gewerke) muss ein Sicherheits- und Gesundheitsschutzplan sowie ein Sicherheitskoordinator bestellt werden.",
+    "rechtsgrundlage": "§2 BaustellV",
+    "quelle_url": "https://www.gesetze-im-internet.de/baustellv/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Baugewerbe", "Handwerk"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "preisauszeichnung",
+    "title": "Preisauszeichnungspflicht (PAngV)",
+    "category": "Recht",
+    "beschreibung": "Händler müssen Endpreise inklusive Steuern und Abgaben klar und deutlich auszeichnen – sowohl im stationären Handel als auch online.",
+    "rechtsgrundlage": "§1 PAngV",
+    "quelle_url": "https://www.gesetze-im-internet.de/pangv/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Einzelhandel", "E-Commerce", "Großhandel", "Gastronomie & Cafés"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "agb-ecommerce",
+    "title": "AGB & Widerrufsbelehrung im Online-Handel",
+    "category": "Recht",
+    "beschreibung": "Online-Händler müssen Verbraucher vor Vertragsschluss über Widerrufsrecht (14 Tage), Lieferbedingungen, Zahlungsarten und Preise informieren. Fehlendes Widerrufsrecht verlängert Frist auf 12 Monate.",
+    "rechtsgrundlage": "§312d BGB / Art. 246a EGBGB",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__312d.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["E-Commerce", "Einzelhandel", "Großhandel"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "verpackungsgesetz",
+    "title": "Verpackungsgesetz – LUCID-Registrierung",
+    "category": "Umwelt",
+    "beschreibung": "Hersteller und Inverkehrbringer von Verpackungen müssen sich kostenlos im LUCID-Register registrieren und Lizenzmengen melden. Gilt auch für kleine Online-Händler.",
+    "rechtsgrundlage": "§9 VerpackG",
+    "quelle_url": "https://www.verpackungsregister.org",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Einzelhandel", "Großhandel", "E-Commerce", "Industrie & Fertigung", "Gastronomie & Cafés"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kassenfuehrung-tse",
+    "title": "Kassenpflicht & TSE-Zertifizierung",
+    "category": "Steuer",
+    "beschreibung": "Elektronische Kassensysteme müssen mit einer zertifizierten technischen Sicherheitseinrichtung (TSE) ausgestattet und beim Finanzamt gemeldet sein. Bonpflicht gilt seit 2020.",
+    "rechtsgrundlage": "§146a AO / KassenSichV",
+    "quelle_url": "https://www.bzst.de/DE/Unternehmen/Aussenpruefungen/DigitaleSchnittstelleFinanzVerwaltungKassenSysteme/digitaleschnittstellefinanzverwaltungkassensysteme_node.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Einzelhandel", "Gastronomie & Cafés", "Hotellerie & Beherbergung", "Handwerk", "E-Commerce"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "berufsgenossenschaft-anmeldung",
+    "title": "Berufsgenossenschaft – Anmeldepflicht",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Jeder Arbeitgeber muss sich und seine Mitarbeitenden bei der zuständigen Berufsgenossenschaft anmelden. Die BG übernimmt Kosten bei Arbeitsunfällen und Berufskrankheiten.",
+    "rechtsgrundlage": "§136 SGB VII",
+    "quelle_url": "https://www.dguv.de/de/bg-uk-lv/bgen/index.jsp",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitszeitgesetz",
+    "title": "Arbeitszeitgesetz (ArbZG) – Höchstarbeitszeiten",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Max. 8 Stunden/Tag (auf 10 Stunden verlängerbar), Mindestruhezeit 11 Stunden, Sonntagsarbeitsverbot mit Ausnahmen. Verstöße: bis zu 30.000 € Bußgeld.",
+    "rechtsgrundlage": "§3 ArbZG",
+    "quelle_url": "https://www.gesetze-im-internet.de/arbzg/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "mutterschutz",
+    "title": "Mutterschutz & Elternzeit",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Schwangere Mitarbeitende sind ab Bekanntgabe der Schwangerschaft besonders geschützt. Beschäftigungsverbote, Kündigungsschutz und Mutterschaftsgeld sind zu beachten.",
+    "rechtsgrundlage": "MuSchG / BEEG",
+    "quelle_url": "https://www.bmas.de/DE/Arbeit/Arbeitsrecht/Mutterschutz/mutterschutz.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "datev-buchfuehrungspflicht",
+    "title": "Buchführungspflicht (HGB / EStG)",
+    "category": "Steuer",
+    "beschreibung": "Kaufleute und Kapitalgesellschaften sind zur doppelten Buchführung verpflichtet. Einnahmen-Überschuss-Rechnung (EÜR) nur für Einzelunternehmer und GbR bis 800.000 € Umsatz.",
+    "rechtsgrundlage": "§238 HGB / §141 AO",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__238.html",
+    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "UG (haftungsbeschränkt)", "GmbH & Co. KG", "OHG", "KG", "e.K. (eingetragener Kaufmann)"], "branchen": ["alle"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
     "hat_dokument_generator": false
   }
 ]

@@ -117,7 +117,7 @@ export function filterRegulations(
       if (!match) relevant = false
     }
 
-    if (g.mitarbeiter_min !== undefined && mitZahl < g.mitarbeiter_min) relevant = false
+    if (g.mitarbeiter_min !== undefined && g.mitarbeiter_min > 0 && mitZahl < g.mitarbeiter_min) relevant = false
     if (g.bundeslaender && g.bundeslaender[0] !== 'alle' && !g.bundeslaender.includes(profil.bundesland)) relevant = false
 
     const status: PflichtStatus = !relevant
@@ -187,6 +187,6 @@ export function scoreFunding(funding: Funding, profil: UnternehmensProfil): numb
 export function sortedFundings(fundings: Funding[], profil: UnternehmensProfil): FundingMitScore[] {
   return fundings
     .map(f => ({ ...f, score: scoreFunding(f, profil) }))
-    .filter(f => f.score >= 40)
+    .filter(f => f.score > 0)
     .sort((a, b) => b.score - a.score)
 }
