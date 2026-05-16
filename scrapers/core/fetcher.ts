@@ -89,9 +89,9 @@ async function fetchWithPlaywright(url: string): Promise<string> {
       } catch { /* kein Banner → weiter */ }
     }
 
-    return page.content()
+    return await page.content()
   } finally {
-    await ctx.close()
+    await ctx.close().catch(() => {})
   }
 }
 
@@ -122,11 +122,15 @@ export async function fetchHtml(url: string, retries = 3): Promise<string> {
   for (let i = 0; i < retries; i++) {
     if (i > 0) await sleep(2 ** i * 1000)
     try {
-      // Playwright zuerst, dann fetch als Fallback
       return playwrightAvailable
         ? await fetchWithPlaywright(url)
         : await fetchWithFetch(url)
     } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err)
+      // Browser crashed → close and restart on next attempt
+      if (/Target page|context or browser has been closed|browser has been closed/i.test(msg)) {
+        if (browser) { browser.close().catch(() => {}); browser = null }
+      }
       if (i === retries - 1) throw err
     }
   }
