@@ -5,7 +5,21 @@ import { readFileSync } from 'fs'
 import { resolve, dirname } from 'path'
 import { fileURLToPath } from 'url'
 import { db } from './client.js'
-import type { Funding, Regulation } from '../../src/types.js'
+// Typen für die JSON-Quelldateien (Frontend-Format)
+interface Funding {
+  id: string; title: string; beschreibung: string
+  typ: 'Zuschuss' | 'Kredit' | 'Steuervorteil'
+  quelle: 'EU' | 'Bund' | 'Bundesland'
+  foerderer: string; max_betrag: number | null; zins: string | null
+  antrag_url: string; bearbeitungszeit_wochen: [number, number]
+  ausschlusskriterien: string[]; benoetigte_dokumente: unknown
+  gilt_fuer: unknown; relevanz_boost?: unknown
+}
+interface Regulation {
+  id: string; title: string; category: string; beschreibung: string
+  rechtsgrundlage: string; quelle_url: string; gilt_fuer: unknown
+  hat_dokument_generator: boolean; dokument_typ: string | null
+}
 
 const __dir = dirname(fileURLToPath(import.meta.url))
 const root = resolve(__dir, '../../../')

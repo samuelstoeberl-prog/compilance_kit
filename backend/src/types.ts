@@ -4,10 +4,11 @@ export interface CompanyProfile {
   name: string
   rechtsform: string
   branche: string
-  mitarbeiter: string   // '1–9' | '10–49' | '50–249' | '250+'
+  mitarbeiter: string   // '0' | '1–9' | '10–49' | '50–249' | '250+'
   bundesland: string
   umsatz: string
   gruendungsjahr: string
+  foerderzweck: string[]
 }
 
 // DB-Row-Typen (wie sie aus PostgreSQL kommen)
@@ -54,6 +55,7 @@ export interface CompanyRow {
   bundesland: string
   umsatz: string
   gruendungsjahr: string
+  foerderzweck: string[]
   created_at: string
   updated_at: string
 }

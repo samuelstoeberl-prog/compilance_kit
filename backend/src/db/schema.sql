@@ -9,10 +9,11 @@ CREATE TABLE IF NOT EXISTS companies (
   name          VARCHAR(255) NOT NULL,
   rechtsform    VARCHAR(100) NOT NULL,
   branche       VARCHAR(100) NOT NULL,
-  mitarbeiter   VARCHAR(20)  NOT NULL,  -- '1–9' | '10–49' | '50–249' | '250+'
+  mitarbeiter   VARCHAR(20)  NOT NULL,  -- '0' | '1–9' | '10–49' | '50–249' | '250+'
   bundesland    VARCHAR(100) NOT NULL,
   umsatz        VARCHAR(50)  NOT NULL,
   gruendungsjahr VARCHAR(20) NOT NULL,
+  foerderzweck  TEXT[]       NOT NULL DEFAULT '{}',
   created_at    TIMESTAMPTZ  NOT NULL DEFAULT NOW(),
   updated_at    TIMESTAMPTZ  NOT NULL DEFAULT NOW()
 );

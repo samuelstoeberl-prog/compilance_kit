@@ -2,20 +2,33 @@ import { z } from 'zod'
 import type { Request, Response, NextFunction } from 'express'
 
 export const CompanySchema = z.object({
-  name:          z.string().min(1).max(255),
-  rechtsform:    z.enum(['GmbH', 'UG (haftungsbeschränkt)', 'AG', 'GbR', 'e.K.', 'Einzelunternehmen', 'OHG', 'KG']),
-  branche:       z.string().min(1).max(100),
-  mitarbeiter:   z.enum(['1–9', '10–49', '50–249', '250+']),
-  bundesland:    z.string().min(1).max(100),
-  umsatz:        z.string().min(1).max(50),
+  name: z.string().min(1).max(255),
+  rechtsform: z.enum([
+    'Einzelunternehmen',
+    'e.K. (eingetragener Kaufmann)',
+    'GbR',
+    'OHG',
+    'KG',
+    'GmbH & Co. KG',
+    'GmbH',
+    'UG (haftungsbeschränkt)',
+    'AG',
+    'gGmbH (gemeinnützig)',
+    'e.V. (Verein)',
+    'eG (Genossenschaft)',
+  ]),
+  branche: z.string().min(1).max(100),
+  mitarbeiter: z.enum(['0', '1–9', '10–49', '50–249', '250+']),
+  bundesland: z.string().min(1).max(100),
+  umsatz: z.string().min(1).max(50),
   gruendungsjahr: z.string().min(1).max(20),
+  foerderzweck: z.array(z.string()).default([]),
 })
 
 export const StatusUpdateSchema = z.object({
   status: z.enum(['offen', 'erledigt', 'nicht_relevant']),
 })
 
-// Middleware-Factory für Body-Validierung
 export function validateBody<T>(schema: z.ZodType<T>) {
   return (req: Request, res: Response, next: NextFunction) => {
     const result = schema.safeParse(req.body)
@@ -31,7 +44,6 @@ export function validateBody<T>(schema: z.ZodType<T>) {
   }
 }
 
-// UUID-Format prüfen
 export function validateUUID(param: string) {
   return (req: Request, res: Response, next: NextFunction) => {
     const id = req.params[param]
