@@ -84,7 +84,7 @@ export async function crawlDomains(
   const sleep = (ms: number) => new Promise(r => setTimeout(r, ms))
   let processed = 0
 
-  async function process(item: QItem): Promise<void> {
+  async function crawlUrl(item: QItem): Promise<void> {
     await sem.acquire()
     const url = normalizeUrl(item.url)
     const cfg = domainMap.get(item.domain)
@@ -111,7 +111,7 @@ export async function crawlDomains(
       if (isRelevant(text, keywords)) {
         const page: CrawledPage = { url, domainLabel: cfg.label, region: cfg.region, rawText: text.slice(0, 10_000), title }
         pages.push(page)
-        htmlMap.set(url, html) // HTML für Antrag-URL-Extraktion merken
+        htmlMap.set(url, html)
         console.log(`✓ "${title.slice(0, 50)}"`)
       } else {
         console.log(`–`)
@@ -133,7 +133,7 @@ export async function crawlDomains(
 
   while (queue.length > 0) {
     const batch = queue.splice(0, concurrency * 3)
-    await Promise.all(batch.map(process))
+    await Promise.all(batch.map(crawlUrl))
   }
 
   await closeBrowser()
