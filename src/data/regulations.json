@@ -674,5 +674,266 @@
     "quelle_url": "https://www.gesetze-im-internet.de/arbmedvv/",
     "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
     "hat_dokument_generator": false
+  },
+
+  {
+    "id": "friseur-hygienevorschriften",
+    "title": "Friseur – Hygienevorschriften & Betriebsstätte",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Friseurbetriebe müssen Hygienevorschriften nach Länder-Erlassen einhalten: Handtücher Einmalnutzung oder korrekte Wäsche, Desinfektion von Werkzeug, Hautschutzmittel bereitstellen. Verletzungen durch Schnitte unterliegen Meldepflicht.",
+    "rechtsgrundlage": "IfSG / Länderhygiene-Erlasse / §34 HwO",
+    "quelle_url": "https://www.zentralverband-friseure.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handwerk"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "taetowierer-hygiene",
+    "title": "Tätowierer & Piercer – Hygiene & §36a IfSG",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Tätowier- und Piercingstudios unterliegen §36a IfSG: Einwegnadeln/-kanülen Pflicht, Autoklav für Mehrweginstrumente, Dokumentation der Sterilisation, Hygieneplan aushängen. Zuständige Behörde: Gesundheitsamt.",
+    "rechtsgrundlage": "§36a IfSG / Tätowiermittel-Verordnung",
+    "quelle_url": "https://www.gesetze-im-internet.de/ifsg/__36a.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handwerk", "Einzelhandel"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kosmetik-eu-verordnung",
+    "title": "Kosmetikstudio – EU-Kosmetik-VO & Produktsicherheit",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Kosmetikerinnen, die selbst hergestellte oder umgefüllte Produkte anwenden, unterliegen EU-VO 1223/2009: Produktinformation (PIF), CPNP-Notifizierung, Konservierungsmittelgrenzen. Geräte (IPL, Laser) benötigen CE-Kennzeichnung.",
+    "rechtsgrundlage": "EU-VO 1223/2009 / MPG (Geräte)",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32009R1223",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handwerk", "Einzelhandel"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "apothekenrecht-lagerbedingungen",
+    "title": "Apothekenbetriebsordnung (ApBetrO)",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Apotheken müssen klimatisierte Lagerräume (2–8 °C Kühlkette), verschlossene Giftzimmer (§15 ApBetrO), tägliche Temperaturkontrollen und eine approbierte Apothekenleitung vorweisen. Regelmäßige Besichtigung durch Pharmazieaufsicht.",
+    "rechtsgrundlage": "ApBetrO §4–§16",
+    "quelle_url": "https://www.gesetze-im-internet.de/apobetrordg/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gesundheitswesen & Soziales"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "fleischhygiene-eu853",
+    "title": "Fleischhygiene (EG-VO 853/2004)",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Betriebe, die Fleisch oder tierische Erzeugnisse verarbeiten oder verkaufen, benötigen eine behördliche Zulassung nach EU-VO 853/2004, separate Kühl- und Zubereitungsbereiche, amtliche Veterinärkontrollen und Genusstauglichkeitskennzeichnung.",
+    "rechtsgrundlage": "EU-VO 853/2004 / LFGB §4",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32004R0853",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gastronomie & Cafés", "Einzelhandel", "Großhandel", "Land- & Forstwirtschaft"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "biostoffv-infektionsschutz",
+    "title": "Biologische Arbeitsstoffe (BioStoffV)",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Betriebe, in denen Beschäftigte mit biologischen Arbeitsstoffen (Bakterien, Viren, Parasiten) in Kontakt kommen, müssen Schutzstufenkonzepte einrichten, Impfungen anbieten und Gefährdungsbeurteilungen nach BioStoffV erstellen.",
+    "rechtsgrundlage": "BioStoffV §4–§12",
+    "quelle_url": "https://www.gesetze-im-internet.de/biostoffv_2013/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gesundheitswesen & Soziales", "Land- & Forstwirtschaft"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sprinkleranlage-pruefung",
+    "title": "Sprinkleranlage – Wartung & Prüfpflicht",
+    "category": "Brandschutz",
+    "beschreibung": "Sprinkleranlagen müssen jährlich durch einen anerkannten Sachverständigen geprüft werden (DIN 12259-4). Vierteljährliche Eigenkontrollen (Druckprüfung, Alarmventile) sind zu dokumentieren.",
+    "rechtsgrundlage": "DIN EN 12259 / VdS 2092",
+    "quelle_url": "https://www.vds.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Industrie & Fertigung", "Hotellerie & Beherbergung", "Einzelhandel", "Großhandel", "Gesundheitswesen & Soziales"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "asbest-schadstoffkataster",
+    "title": "Asbestkataster & Schadstoffsanierung",
+    "category": "Umwelt",
+    "beschreibung": "Betriebe in Gebäuden vor 1993 müssen vor Umbau- oder Abbrucharbeiten eine Asbestuntersuchung durchführen lassen. Asbesthaltiges Material darf nur von zugelassenen Fachbetrieben entfernt werden. Überschreitung der Grenzwerte ist meldepflichtig.",
+    "rechtsgrundlage": "TRGS 519 / GefStoffV §7",
+    "quelle_url": "https://www.baua.de/DE/Angebote/Rechtstexte-und-Technische-Regeln/Regelwerk/TRGS/TRGS-519.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handwerk", "Baugewerbe", "Industrie & Fertigung", "Immobilienwesen"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "rlt-lueftungsanlage-wartung",
+    "title": "Raumlufttechnische Anlagen (RLT) – Hygiene & Wartung",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Lüftungs- und Klimaanlagen müssen regelmäßig gewartet werden: Filteraustausch (quartalsweise), hygienische Inspektion (alle 2 Jahre nach VDI 6022), Protokollierung. Verkeimte Anlagen können Legionellen und andere Pathogene verbreiten.",
+    "rechtsgrundlage": "VDI 6022 / DIN EN 13779 / ArbStättV ASR A3.6",
+    "quelle_url": "https://www.vdi.de/richtlinien/details/vdi-6022-blatt-1-raumlufttechnik-hygieneanforderungen",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gastronomie & Cafés", "Hotellerie & Beherbergung", "Gesundheitswesen & Soziales", "IT-Dienstleistungen & Software", "Unternehmensberatung & Agentur"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "clp-gefahrstoffkennzeichnung",
+    "title": "CLP-Verordnung – Gefahrstoffkennzeichnung",
+    "category": "Umwelt",
+    "beschreibung": "Alle Gefahrstoffe müssen mit GHS-Piktogrammen, Signalwort, H- und P-Sätzen in deutscher Sprache gekennzeichnet sein. Eigenabfüllungen in andere Behälter müssen vollständig neu etikettiert werden.",
+    "rechtsgrundlage": "EU-VO 1272/2008 (CLP) / GefStoffV §8",
+    "quelle_url": "https://echa.europa.eu/de/regulations/clp/understanding-clp",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handwerk", "Baugewerbe", "Industrie & Fertigung", "Land- & Forstwirtschaft", "Gesundheitswesen & Soziales"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "ozon-kuehlmittel-ausstieg",
+    "title": "Ozon-abbauende Kältemittel – Nutzungsverbot",
+    "category": "Umwelt",
+    "beschreibung": "Kälteanlagen mit FCKW- oder HFCKW-Kältemitteln (R22 u.a.) dürfen seit 2015 nicht mehr mit aufgearbeitetem Kältemittel befüllt werden. Betriebe müssen auf zulässige Kältemittel umrüsten. Verstoß: Bußgeld bis 50.000 €.",
+    "rechtsgrundlage": "EU-VO 1005/2009 / ChemKlimaschutzV",
+    "quelle_url": "https://www.umweltbundesamt.de/themen/klima-energie/fluorierte-treibhausgase-f-gase",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Industrie & Fertigung", "Gastronomie & Cafés", "Hotellerie & Beherbergung", "Handwerk"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "leuchtreklame-baugenehmigung",
+    "title": "Außenwerbung & Leuchtreklame – Baugenehmigung",
+    "category": "Recht",
+    "beschreibung": "Außenschilder, Leuchtkästen und Werbeanlagen an Fassaden benötigen in den meisten Bundesländern eine bauordnungsrechtliche Genehmigung. Nachtabschaltzeiten (meist 22–6 Uhr) und maximale Leuchtdichten sind zu beachten.",
+    "rechtsgrundlage": "Landesbauordnungen (z.B. §13 BauO NRW, Art. 12 BayBO)",
+    "quelle_url": "https://www.bauordnungen.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Einzelhandel", "Gastronomie & Cafés", "Hotellerie & Beherbergung", "Handwerk", "Unternehmensberatung & Agentur"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "nutzungsaenderung-baugenehmigung",
+    "title": "Nutzungsänderung – Baugenehmigung",
+    "category": "Recht",
+    "beschreibung": "Wer Räume für einen anderen Zweck nutzt als genehmigt (z.B. Lager zu Büro, Wohnung zu Praxis), benötigt eine Nutzungsänderungsgenehmigung. Ohne Genehmigung drohen Rückbauforderungen und Bußgelder.",
+    "rechtsgrundlage": "Landesbauordnungen §61–§63",
+    "quelle_url": "https://www.bmk.gv.at",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "parkplaetze-behinderte",
+    "title": "Behindertenparkplätze (Stellplatzpflicht)",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Betriebe mit öffentlichem Parkplatz müssen mind. 1 % (min. 1 Stellplatz) als Behindertenparkplatz ausweisen und entsprechend kennzeichnen. Mindestbreite 3,50 m, Abstand zum Eingang max. 50 m.",
+    "rechtsgrundlage": "Stellplatzverordnungen der Länder / DIN 18040",
+    "quelle_url": "https://www.gesetze-im-internet.de/stvo_2013/__45.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Einzelhandel", "Gastronomie & Cafés", "Hotellerie & Beherbergung", "Gesundheitswesen & Soziales", "Industrie & Fertigung"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "immobilienmakler-mabv",
+    "title": "Immobilienmakler – MaBV & Sachkundepflicht",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Immobilienmakler benötigen eine Erlaubnis nach §34c GewO, müssen Weiterbildung von 20 Stunden je 3 Jahre nachweisen (§15b MaBV), Kundengeld treuhänderisch verwalten und Vermögensschadenhaftpflicht abschließen.",
+    "rechtsgrundlage": "§34c GewO / MaBV / §15b MaBV",
+    "quelle_url": "https://www.gesetze-im-internet.de/mabv/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Immobilienwesen", "Freie Berufe (Recht, Steuern, Architektur)"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kfz-werkstatt-zulassung",
+    "title": "Kfz-Werkstatt – Betriebserlaubnis & ASU-Anerkennung",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Kfz-Werkstätten benötigen eine Gewerbeanmeldung und müssen Meisterpflicht (Kfz-Mechatroniker) beachten. Für AU-Untersuchungen: amtlich anerkannte Überwachungsorganisation. Abwasser-/Ölabscheider sind Pflicht.",
+    "rechtsgrundlage": "§34g GewO / §29 StVZO / HwO Anlage A",
+    "quelle_url": "https://www.kba.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handwerk"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "pflanzenschutzmittel-sachkunde",
+    "title": "Pflanzenschutzmittel – Sachkundenachweis",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Wer beruflich Pflanzenschutzmittel anwendet, kauft oder berät, benötigt seit 2013 einen amtlichen Sachkundenachweis (alle 3 Jahre Fortbildung). Gilt auch für die Abgabe im Handel.",
+    "rechtsgrundlage": "§9 PflSchG / PflSchSachkV",
+    "quelle_url": "https://www.bvl.bund.de/DE/Arbeitsbereiche/04_Pflanzenschutzmittel/pflanzenschutzmittel_node.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Land- & Forstwirtschaft", "Handwerk", "Einzelhandel"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "tierhaltung-veterinaerueberwachung",
+    "title": "Tierhaltung – Veterinärüberwachung & Tierseuchenrecht",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Betriebe mit Tierhaltung müssen Ställe beim Veterinäramt registrieren lassen, Bestandsbücher führen, Tierarzneimittel dokumentieren und Seuchenschutzpläne vorhalten. Meldepflicht bei Verdacht auf Tierseuchen.",
+    "rechtsgrundlage": "TierGesG / §26 TierSG / ViehVerkV",
+    "quelle_url": "https://www.bmel.de/DE/themen/tiere/tiergesundheit/tiergesundheit_node.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Land- & Forstwirtschaft"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "forstbetrieb-waldgesetz",
+    "title": "Forstbetrieb – Waldgesetz & Fällgenehmigung",
+    "category": "Recht",
+    "beschreibung": "Einschläge über den Eigenbedarf hinaus erfordern eine forstbehördliche Genehmigung. Kahlschläge bedürfen einer Wiederbepflanzungspflicht. Meldung bei der Forstbehörde und ggf. Betriebsgutachten.",
+    "rechtsgrundlage": "BWaldG / Landeswaldgesetze",
+    "quelle_url": "https://www.gesetze-im-internet.de/bwaldg/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Land- & Forstwirtschaft"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuerberaterpflichten",
+    "title": "Steuerberater – Berufspflichten & Kanzleiorganisation",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Steuerberater unterliegen der StBerO: Verschwiegenheitspflicht, Berufshaftpflicht (mind. 250.000 €), Fortbildungspflicht (15 Stunden/Jahr), Kanzleipflicht, jährliche Meldung bei der Steuerberaterkammer.",
+    "rechtsgrundlage": "§57 StBerG / §67a StBerG",
+    "quelle_url": "https://www.bstbk.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Freie Berufe (Recht, Steuern, Architektur)"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "rechtsanwalt-berufspflichten",
+    "title": "Rechtsanwalt – Berufspflichten & Kanzleiorganisation",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Rechtsanwälte müssen Berufshaftpflicht (mind. 250.000 € je Schaden), ein Anwaltskonto für Fremdgelder führen, an beA (besonderes elektronisches Anwaltspostfach) angebunden sein und jährlich bei der Kammer melden.",
+    "rechtsgrundlage": "§51 BRAO / §43a BRAO",
+    "quelle_url": "https://www.brak.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Freie Berufe (Recht, Steuern, Architektur)"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "architekt-berufspflichten",
+    "title": "Architekt – Kammerpflicht & Berufshaftpflicht",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Die Berufsbezeichnung Architekt ist geschützt und setzt Mitgliedschaft in der Architektenkammer (Bundesland) voraus. Pflicht zur Berufshaftpflichtversicherung, Fortbildungsnachweis und Eintrag in die Architektenliste.",
+    "rechtsgrundlage": "Landesarchitektengesetze (z.B. BauKaG NRW)",
+    "quelle_url": "https://www.bak.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Freie Berufe (Recht, Steuern, Architektur)"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "geldwaesche-geldwschg",
+    "title": "Geldwäschegesetz (GwG) – Sorgfaltspflichten",
+    "category": "Recht",
+    "beschreibung": "Rechtsanwälte, Steuerberater, Immobilienmakler, Händler mit Bargeschäften über 10.000 € und viele weitere Branchen müssen Kunden identifizieren (KYC), interne Sicherungsmaßnahmen einrichten und verdächtige Transaktionen bei der FIU melden.",
+    "rechtsgrundlage": "GwG §10–§17",
+    "quelle_url": "https://www.gesetze-im-internet.de/gwg_2017/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Freie Berufe (Recht, Steuern, Architektur)", "Immobilienwesen", "Einzelhandel", "Großhandel", "Unternehmensberatung & Agentur"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "whistleblower-hinweisgeberschutz",
+    "title": "Hinweisgeberschutzgesetz (HinSchG)",
+    "category": "Recht",
+    "beschreibung": "Unternehmen ab 50 Mitarbeitenden müssen einen internen Meldekanal (Hinweisgeberstelle) einrichten, der anonyme Meldungen ermöglicht. Zuständige Person benennen, Eingangsbestätigung innerhalb 7 Tagen, Rückmeldung innerhalb 3 Monate.",
+    "rechtsgrundlage": "HinSchG §12–§17",
+    "quelle_url": "https://www.gesetze-im-internet.de/hinschg/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 50, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "pauschalreisen-reiserecht",
+    "title": "Reiseveranstalter – Insolvenzabsicherung & Reiserecht",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Reiseveranstalter müssen Kundenzahlungen durch einen Kundengeldabsicherer (Versicherung oder Bank) absichern, einen Reisesicherungsschein ausstellen und bei Änderungen/Absagen die gesetzlichen Fristen einhalten.",
+    "rechtsgrundlage": "§651w BGB / BGB §651a ff.",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__651w.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Unternehmensberatung & Agentur", "Transport & Logistik"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "datenschutz-auftragsverarbeitung",
+    "title": "Auftragsverarbeitungsvertrag (AVV / DPA)",
+    "category": "Datenschutz",
+    "beschreibung": "Wer personenbezogene Daten im Auftrag verarbeitet (Cloud-Dienste, IT-Dienstleister, Steuerberater, Lohnbuchhaltung) muss mit dem Auftraggeber einen schriftlichen Auftragsverarbeitungsvertrag nach Art. 28 DSGVO abschließen.",
+    "rechtsgrundlage": "Art. 28 DSGVO",
+    "quelle_url": "https://dsgvo-gesetz.de/art-28-dsgvo/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
   }
 ]
