@@ -363,5 +363,316 @@
     "quelle_url": "https://www.gesetze-im-internet.de/hgb/__238.html",
     "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "UG (haftungsbeschränkt)", "GmbH & Co. KG", "OHG", "KG", "e.K. (eingetragener Kaufmann)"], "branchen": ["alle"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
     "hat_dokument_generator": false
+  },
+
+  {
+    "id": "notbeleuchtung-fluchtwege",
+    "title": "Notbeleuchtung & Fluchtwegkennzeichnung",
+    "category": "Brandschutz",
+    "beschreibung": "Fluchtwege und Notausgänge müssen durch beleuchtete Sicherheitszeichen (grüne Piktogramme) dauerhaft gekennzeichnet sein. Bei Stromausfall muss eine Notbeleuchtung für mind. 1 Stunde gewährleistet werden.",
+    "rechtsgrundlage": "ArbStättV §5 / ASR A2.3 / ASR A3.4/3",
+    "quelle_url": "https://www.baua.de/DE/Angebote/Rechtstexte-und-Technische-Regeln/Regelwerk/ASR/ASR-A2-3.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "feuerloesch-pruefung",
+    "title": "Feuerlöscher – Jährliche Prüfpflicht",
+    "category": "Brandschutz",
+    "beschreibung": "Alle Feuerlöscher im Betrieb müssen jährlich von einer Sachkundigen Person geprüft werden. Prüfnachweis (Prüfplakette) am Gerät sowie im Prüfbuch ist Pflicht. Feuerlöscher müssen sichtbar und zugänglich angebracht sein.",
+    "rechtsgrundlage": "DIN 14406-4 / BetrSichV §10",
+    "quelle_url": "https://www.baua.de/DE/Angebote/Rechtstexte-und-Technische-Regeln/Regelwerk/TRBS/TRBS1201.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sicherheitsbeauftragter",
+    "title": "Sicherheitsbeauftragter benennen",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Betriebe ab 21 Mitarbeitenden müssen mindestens einen Sicherheitsbeauftragten benennen. Diese Person unterstützt den Arbeitgeber bei der Unfallverhütung, ist kein Haftungsträger, benötigt aber eine Grundausbildung.",
+    "rechtsgrundlage": "§22 SGB VII / DGUV Vorschrift 1",
+    "quelle_url": "https://www.dguv.de/de/praevention/vorschriften_regeln/dguv_vorschrift_1/index.jsp",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 21, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "unfallmeldepflicht-bg",
+    "title": "Unfallmeldepflicht an Berufsgenossenschaft",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitsunfälle mit mehr als 3 Tagen Arbeitsunfähigkeit müssen innerhalb von 3 Tagen der zuständigen BG gemeldet werden. Tödliche Unfälle und Massenunfälle sofort. Aufzeichnung aller Unfälle im Verbandbuch ist Pflicht.",
+    "rechtsgrundlage": "§193 SGB VII",
+    "quelle_url": "https://www.dguv.de/de/leistungen-mitglieder/meldung-unfaelle/index.jsp",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dguv-v3-elektropruefung",
+    "title": "DGUV V3 – Prüfung elektrischer Geräte & Anlagen",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Alle ortsfesten und ortsveränderlichen elektrischen Betriebsmittel müssen regelmäßig von einer Elektrofachkraft geprüft werden. Ortsveränderliche Geräte je nach Nutzung alle 6–24 Monate, ortsfeste Anlagen alle 4 Jahre.",
+    "rechtsgrundlage": "DGUV Vorschrift 3 / BetrSichV",
+    "quelle_url": "https://www.dguv.de/de/praevention/vorschriften_regeln/dguv_vorschrift_3/index.jsp",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsstätten-grundpflichten",
+    "title": "Arbeitsstättenverordnung – Raumklima & Sanitär",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Arbeitsräume müssen ausreichend beleuchtet, belüftet und beheizt sein (mind. 17°C Büro, 12°C Werkstatt). Toiletten: mind. 1 pro 10 Beschäftigte, getrennt nach Geschlecht. Pausenraum ab 10 MA erforderlich.",
+    "rechtsgrundlage": "ArbStättV §4 / ASR A1.2, A3.5, A3.6",
+    "quelle_url": "https://www.baua.de/DE/Angebote/Rechtstexte-und-Technische-Regeln/Regelwerk/ASR/ASR.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "bildschirmarbeitsplatz",
+    "title": "Bildschirmarbeitsplatz-Verordnung (BildscharbV)",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Bildschirmarbeitsplätze müssen ergonomisch gestaltet sein: reflexionsarme Monitore, höhenverstellbare Tische, Mitarbeitende haben Anspruch auf augenärztliche Untersuchung auf Kosten des Arbeitgebers.",
+    "rechtsgrundlage": "BildscharbV / ArbStättV ASR A1.2",
+    "quelle_url": "https://www.baua.de/DE/Angebote/Rechtstexte-und-Technische-Regeln/Regelwerk/ASR/ASR-A1-2.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["IT-Dienstleistungen & Software", "KI & Hochtechnologie", "Unternehmensberatung & Agentur", "Freie Berufe (Recht, Steuern, Architektur)", "Kreativwirtschaft"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "aufzugspruefung",
+    "title": "Aufzugsprüfung (BetrSichV)",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Aufzüge müssen nach Errichtung und danach alle 2 Jahre durch eine zugelassene Überwachungsstelle (TÜV/DEKRA) geprüft werden. Wiederkehrende Prüfung inklusive Schachtprüfung und Belastungstest.",
+    "rechtsgrundlage": "BetrSichV §15 / Anhang 2",
+    "quelle_url": "https://www.gesetze-im-internet.de/betrsichv_2015/__15.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Industrie & Fertigung", "Hotellerie & Beherbergung", "Gesundheitswesen & Soziales", "Einzelhandel", "Großhandel", "Immobilienwesen"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "druckbehaelter-pruefung",
+    "title": "Druckbehälter & Kompressoren – Prüfpflicht",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Druckbehälter (Kompressoren, Druckluftkessel, Dampferzeuger) über 50 bar·Liter müssen vor Inbetriebnahme und wiederkehrend durch eine ZÜS (TÜV, DEKRA) geprüft werden.",
+    "rechtsgrundlage": "BetrSichV §14 / TRBS 1201",
+    "quelle_url": "https://www.baua.de/DE/Angebote/Rechtstexte-und-Technische-Regeln/Regelwerk/TRBS/TRBS1201.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handwerk", "Baugewerbe", "Industrie & Fertigung", "Land- & Forstwirtschaft"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "psa-bereitstellung",
+    "title": "Persönliche Schutzausrüstung (PSA) bereitstellen",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Arbeitgeber sind verpflichtet, notwendige PSA (Helm, Handschuhe, Sicherheitsschuhe, Gehörschutz etc.) kostenlos bereitzustellen, regelmäßig zu prüfen und Mitarbeitende in der Nutzung zu unterweisen.",
+    "rechtsgrundlage": "PSA-BV / §3 ArbSchG / DGUV Regel 112-195",
+    "quelle_url": "https://www.dguv.de/de/praevention/vorschriften_regeln/dguv_regeln/index.jsp",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handwerk", "Baugewerbe", "Industrie & Fertigung", "Transport & Logistik", "Land- & Forstwirtschaft"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gewerbeabfallverordnung",
+    "title": "Gewerbeabfallverordnung (GewAbfV)",
+    "category": "Umwelt",
+    "beschreibung": "Gewerbliche Abfälle müssen getrennt gesammelt und nachweisbar entsorgt werden (Papier, Glas, Kunststoff, Biomüll). Betriebe müssen Entsorgungsnachweise führen und auf Anfrage der Behörde vorlegen.",
+    "rechtsgrundlage": "GewAbfV §3–§7",
+    "quelle_url": "https://www.gesetze-im-internet.de/gewabfv/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "f-gase-dichteprüfung",
+    "title": "F-Gas-Verordnung – Dichteprüfung Kälte-/Klimaanlagen",
+    "category": "Umwelt",
+    "beschreibung": "Kälte- und Klimaanlagen mit mehr als 5 Tonnen CO₂-Äquivalent Kältemittel müssen regelmäßig auf Dichtigkeit geprüft werden (jährlich bis quartalsweise). Nur zertifizierte Kälteanlagenbauer dürfen Wartungen durchführen.",
+    "rechtsgrundlage": "EU-VO 517/2014 / ChemKlimaschutzV",
+    "quelle_url": "https://www.umweltbundesamt.de/themen/klima-energie/fluorierte-treibhausgase-f-gase",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gastronomie & Cafés", "Hotellerie & Beherbergung", "Einzelhandel", "Industrie & Fertigung", "Gesundheitswesen & Soziales"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "schornsteinfeger-heizungspruefung",
+    "title": "Schornsteinfeger & Heizungsanlage",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Betriebe mit Feuerungsanlagen (Heizkessel, Öfen) müssen diese durch den bevollmächtigten Bezirksschornsteinfegermeister prüfen lassen. Kehrtermine, Abgasmessung und Heizungsinspektion sind pflichtmäßig.",
+    "rechtsgrundlage": "SchfHwG / 1. BImSchV",
+    "quelle_url": "https://www.gesetze-im-internet.de/schfhwg/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "trinkwasser-legionellen",
+    "title": "Trinkwasseruntersuchung – Legionellenprüfung",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Betriebe mit zentralen Warmwassererwärmungsanlagen (ab 400 Liter Inhalt oder 3 Liter in Rohrleitungen) müssen das Wasser jährlich auf Legionellen untersuchen lassen und das Ergebnis dem Gesundheitsamt melden.",
+    "rechtsgrundlage": "TrinkwV §14b / §16",
+    "quelle_url": "https://www.gesetze-im-internet.de/trinkwv_2001/__14b.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Hotellerie & Beherbergung", "Gastronomie & Cafés", "Gesundheitswesen & Soziales", "Industrie & Fertigung"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "schaedlingsbekaempfung-dokumentation",
+    "title": "Schädlingsbekämpfung & Monitoring (Lebensmittelbetriebe)",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Lebensmittelbetriebe müssen ein dokumentiertes Schädlingsmonitoring (Fallen, Inspektionsberichte) durchführen und bei Befall unverzüglich durch einen zertifizierten Kammerjäger behandeln lassen.",
+    "rechtsgrundlage": "EG-VO 852/2004 Art. 4 / §4 LFGB",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32004R0852",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gastronomie & Cafés", "Hotellerie & Beherbergung", "Einzelhandel", "Großhandel", "Land- & Forstwirtschaft"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "allergeninformation",
+    "title": "Allergeninformationspflicht (LMIV)",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Gastronomiebetriebe müssen die 14 EU-Hauptallergene (Gluten, Milch, Nüsse etc.) für alle Gerichte kenntlich machen – schriftlich auf der Speisekarte oder mündlich mit schriftlicher Rückfalloption.",
+    "rechtsgrundlage": "EU-VO 1169/2011 (LMIV) Art. 44",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32011R1169",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gastronomie & Cafés", "Hotellerie & Beherbergung", "Einzelhandel"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "oel-fettabscheider",
+    "title": "Fettabscheider & Ölabscheider – Wartung",
+    "category": "Umwelt",
+    "beschreibung": "Gastronomie- und Lebensmittelbetriebe müssen Fettabscheider in die Kanalisation einbauen und regelmäßig (mind. quartalsweise) entleeren und reinigen lassen. Kfz-Betriebe benötigen Ölabscheider.",
+    "rechtsgrundlage": "§58 WHG / EN 1825 (Fettabscheider) / DIN 1999-100 (Ölabscheider)",
+    "quelle_url": "https://www.gesetze-im-internet.de/whg_2009/__57.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gastronomie & Cafés", "Hotellerie & Beherbergung", "Handwerk"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "fahrerkarte-tachograph",
+    "title": "Tachograph & Fahrerkarte (Transportpflichten)",
+    "category": "Recht",
+    "beschreibung": "Fahrer von Lkw über 3,5t und Busse müssen einen digitalen Tachographen betreiben und eine persönliche Fahrerkarte verwenden. Lenk- und Ruhezeiten sind lückenlos zu dokumentieren.",
+    "rechtsgrundlage": "EU-VO 165/2014 / FPersV",
+    "quelle_url": "https://www.gesetze-im-internet.de/fpersv/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Transport & Logistik"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "uvv-fahrzeugpruefung",
+    "title": "UVV-Fahrzeugprüfung (DGUV Vorschrift 70)",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Betrieblich genutzte Fahrzeuge (auch Pkw und Stapler) müssen jährlich durch eine befähigte Person auf sicherheitstechnischen Zustand geprüft werden – unabhängig vom gesetzlichen Hauptuntersuchungs-Intervall.",
+    "rechtsgrundlage": "DGUV Vorschrift 70 §57",
+    "quelle_url": "https://www.dguv.de/de/praevention/vorschriften_regeln/dguv_vorschrift_70/index.jsp",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Transport & Logistik", "Handwerk", "Baugewerbe", "Industrie & Fertigung"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "adr-gefahrguttransport",
+    "title": "ADR-Gefahrguttransport & Gefahrgutbeauftragter",
+    "category": "Recht",
+    "beschreibung": "Unternehmen, die gefährliche Güter transportieren oder versenden, müssen ab bestimmten Mengen einen Gefahrgutbeauftragten mit ADR-Schein bestellen. Fahrer brauchen ADR-Schulungsbescheinigung.",
+    "rechtsgrundlage": "GbV §1 / ADR Abschnitt 1.8.3",
+    "quelle_url": "https://www.gesetze-im-internet.de/ggvse/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Transport & Logistik", "Industrie & Fertigung", "Handwerk", "Land- & Forstwirtschaft"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "maschinenrichtlinie-sicherheit",
+    "title": "Maschinensicherheit & CE-Kennzeichnung",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Selbst hergestellte oder wesentlich veränderte Maschinen müssen eine CE-Kennzeichnung erhalten und einer Konformitätsbewertung unterzogen werden. Betriebsanleitung auf Deutsch ist Pflicht. Auch gekaufte Maschinen müssen regelmäßig geprüft werden.",
+    "rechtsgrundlage": "Maschinenverordnung (9. ProdSV) / EU 2006/42/EG",
+    "quelle_url": "https://www.baua.de/DE/Angebote/Regelwerk/Verordnungen/9-ProdSV.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Industrie & Fertigung", "Handwerk", "Baugewerbe", "Land- & Forstwirtschaft"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reach-sicherheitsdatenblatt",
+    "title": "REACH & Sicherheitsdatenblätter",
+    "category": "Umwelt",
+    "beschreibung": "Betriebe, die Chemikalien und Gefahrstoffe einsetzen, müssen aktuelle Sicherheitsdatenblätter (SDB) für alle verwendeten Stoffe vorhalten und Mitarbeitenden zugänglich machen. REACH schreibt Lieferantenpflichten zur Weitergabe von SDB vor.",
+    "rechtsgrundlage": "REACH-VO (EG) 1907/2006 Art. 31",
+    "quelle_url": "https://echa.europa.eu/de/regulations/reach/understanding-reach",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Industrie & Fertigung", "Handwerk", "Baugewerbe", "Land- & Forstwirtschaft"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "medizinprodukte-mdr",
+    "title": "EU MDR – Medizinprodukte-Verordnung",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Hersteller, Importeure und Händler von Medizinprodukten (auch Verbandsmaterial, Diagnostika) müssen ihre Produkte bei EUDAMED registrieren, Qualitätsmanagementsysteme einrichten und Benannte Stellen einschalten.",
+    "rechtsgrundlage": "EU-MDR 2017/745 / MPG",
+    "quelle_url": "https://www.bfarm.de/DE/Medizinprodukte/medizinprodukte_node.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gesundheitswesen & Soziales"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "btmg-betaeubungsmittel",
+    "title": "Betäubungsmittelrecht (BtMG)",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Apotheken und Arztpraxen müssen Betäubungsmittel in gesonderten abschließbaren Schränken lagern, Bestände lückenlos dokumentieren und jährlich gegenüber der zuständigen Behörde Nachweis führen.",
+    "rechtsgrundlage": "BtMG §15 / BtMVV",
+    "quelle_url": "https://www.gesetze-im-internet.de/btmg_1981/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gesundheitswesen & Soziales"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "barrierefreiheit-kundenverkehr",
+    "title": "Barrierefreiheit (Kundenbereiche)",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Neubauten und wesentlich umgebaute Betriebsstätten mit Kundenverkehr müssen nach Landesbauordnung barrierefrei zugänglich sein (Rampen, stufenlose Eingänge, barrierefreie WC). Bestandsschutz gilt für Altbauten.",
+    "rechtsgrundlage": "§39 MBO / Landesbauordnungen / DIN 18040-1",
+    "quelle_url": "https://www.bmk.gv.at/themen/bauen/barrierefreiheit.html",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Einzelhandel", "Gastronomie & Cafés", "Hotellerie & Beherbergung", "Gesundheitswesen & Soziales", "Freie Berufe (Recht, Steuern, Architektur)"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "regalinspektion-lager",
+    "title": "Regal- & Lagereinrichtungen – jährliche Inspektion",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Ortsfeste Regalsysteme in Lagern müssen mindestens jährlich durch eine befähigte Person (DGUV-Lehrgang) auf Schäden, Überlastung und Stand-sicherheit inspiziert werden. Maximallasten sind auszuschildern.",
+    "rechtsgrundlage": "DIN EN 15635 / DGUV Information 208-043",
+    "quelle_url": "https://www.dguv.de/ifa/index.jsp",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Einzelhandel", "Großhandel", "Industrie & Fertigung", "Transport & Logistik"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "abluft-kuechenabzug",
+    "title": "Küchenabluft & Fettfilterreinigung",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Gewerbliche Küchenabzüge müssen mit Fettfiltern ausgestattet sein, die regelmäßig gereinigt werden (mind. alle 4–8 Wochen je nach Nutzung). Fettablagerungen in Abluftanlagen sind Brandschutzrisiko und müssen halbjährlich gereinigt werden.",
+    "rechtsgrundlage": "VDE 0108 / DIN 18869 / Versicherungsauflagen",
+    "quelle_url": "https://www.baua.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Gastronomie & Cafés", "Hotellerie & Beherbergung"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kassenbon-belegpflicht",
+    "title": "Belegausgabepflicht (Bonpflicht)",
+    "category": "Steuer",
+    "beschreibung": "Betriebe mit elektronischen Kassensystemen müssen jedem Kunden einen Kassenbeleg anbieten – unabhängig ob dieser ihn annimmt. Der Beleg muss alle Pflichtangaben gemäß KassenSichV enthalten.",
+    "rechtsgrundlage": "§146a Abs. 2 AO / KassenSichV §6",
+    "quelle_url": "https://www.bzst.de",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Einzelhandel", "Gastronomie & Cafés", "Hotellerie & Beherbergung", "Handwerk"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "ladenoeffentlichkeit-ladenschluss",
+    "title": "Ladenöffnungszeiten (Landesrecht)",
+    "category": "Recht",
+    "beschreibung": "Öffnungszeiten von Einzelhandelsgeschäften sind durch Landesgesetze geregelt. Sonntagsöffnung generell verboten (Ausnahmen: Bäckereien 3h, Tankstellen, Notfallapotheken). Bei Verstößen Bußgelder bis 10.000 €.",
+    "rechtsgrundlage": "LadenschlG / Landesgesetze (z.B. LöffG NRW)",
+    "quelle_url": "https://www.gesetze-im-internet.de/ladschlg/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Einzelhandel", "Gastronomie & Cafés"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "altoel-entsorgungsnachweis",
+    "title": "Altöl- & Schmierstoffentsorgung",
+    "category": "Umwelt",
+    "beschreibung": "Betriebe, bei denen Altöle anfallen (Kfz-Werkstätten, Industrie), müssen diese getrennt sammeln und ausschließlich über zugelassene Entsorgungsfachbetriebe entsorgen. Entsorgungsnachweis ist 3 Jahre aufzubewahren.",
+    "rechtsgrundlage": "AltölV §2 / §5",
+    "quelle_url": "https://www.gesetze-im-internet.de/altoelv/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["Handwerk", "Transport & Logistik", "Industrie & Fertigung"], "mitarbeiter_min": 0, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsmedizinische-vorsorge",
+    "title": "Arbeitsmedizinische Vorsorge (ArbMedVV)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitgeber müssen arbeitsmedizinische Vorsorge (Pflicht-, Angebots- oder Wunschvorsorge) anbieten – z.B. für Nacht-/Schichtarbeit, Bildschirmarbeit, Lärm, Chemikalien. Kosten trägt der Arbeitgeber.",
+    "rechtsgrundlage": "ArbMedVV / §3 ArbSchG",
+    "quelle_url": "https://www.gesetze-im-internet.de/arbmedvv/",
+    "gilt_fuer": { "rechtsformen": ["alle"], "branchen": ["alle"], "mitarbeiter_min": 1, "bundeslaender": ["alle"] },
+    "hat_dokument_generator": false
   }
 ]
