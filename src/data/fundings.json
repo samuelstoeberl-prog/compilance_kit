@@ -8,7 +8,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 2000000,
     "zins": "ab 1,5 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Digitalisierung-(511-512)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/",
     "bearbeitungszeit_wochen": [6, 8],
     "ausschlusskriterien": ["Kein Eigenkapitalersatz", "Nicht für laufende Betriebskosten", "Antrag über Hausbank"],
     "benoetigte_dokumente": [
@@ -24,7 +24,7 @@
     "id": "go-digital-it-sicherheit",
     "title": "go-digital – Modul IT-Sicherheit",
     "beschreibung": "50 % Förderung für Beratungsleistungen zu IT-Sicherheit, NIS2-Compliance und Datenschutz.",
-    "typ": "Zuschuss",
+    "typ": "Beratungszuschuss",
     "quelle": "Bund",
     "foerderer": "BMWK",
     "max_betrag": 16500,
@@ -193,7 +193,7 @@
       {"name": "Projektbeschreibung (Formblatt)", "auto": false},
       {"name": "Kosten- und Finanzierungsplan", "auto": false}
     ],
-    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "UG (haftungsbeschränkt)", "GbR", "e.K.", "Einzelunternehmen"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "gilt_fuer": { "rechtsformen": ["GmbH", "AG", "UG (haftungsbeschränkt)", "GbR", "e.K. (eingetragener Kaufmann)", "Einzelunternehmen"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["alle"] },
     "relevanz_boost": { "branchen": ["Software / IT", "Produktion / Fertigung"], "mitarbeiter": ["10–49", "50–249"] }
   },
   {
@@ -213,5 +213,1288 @@
     ],
     "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 999, "umsatz_max": null, "bundeslaender": ["alle"] },
     "relevanz_boost": { "mitarbeiter": ["1–9", "10–49"] }
+  },
+
+  {
+    "id": "kfw-startgeld",
+    "title": "KfW ERP-Gründerkredit StartGeld",
+    "beschreibung": "Bis 125.000 € Kredit für Gründer und junge Unternehmen (bis 5 Jahre), 80 % Haftungsfreistellung der Hausbank.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 125000,
+    "zins": "ab 5,37 %",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-und-Nachfolgen/Finanzierungsangebote/ERP-Gruenderkredit-Startgeld-(067)/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur für Gründer und Unternehmen bis 5 Jahre", "Antrag über Hausbank", "Nicht für reine Holdinggesellschaften"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false},
+      {"name": "Hausbanken-Bestätigung", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 49, "umsatz_max": "10 Mio. €", "bundeslaender": ["alle"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "kfw-gruenderkredit-universell",
+    "title": "KfW ERP-Gründerkredit Universell",
+    "beschreibung": "Kredit bis 25 Mio. € für Gründer und junge Unternehmen, finanziert Investitionen und Betriebsmittel.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 25000000,
+    "zins": "ab 5,62 %",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-und-Nachfolgen/Finanzierungsangebote/ERP-Gruenderkredit-Universell-(073-074-075-076)/",
+    "bearbeitungszeit_wochen": [6, 10],
+    "ausschlusskriterien": ["Nur für Unternehmen bis 5 Jahre", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false},
+      {"name": "Jahresabschluss / BWA", "auto": false},
+      {"name": "Hausbanken-Bestätigung", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["alle"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["1–9", "10–49"], "gruendungsjahr": ["2020 oder später", "2011–2019"] }
+  },
+  {
+    "id": "kfw-unternehmerkredit",
+    "title": "KfW Unternehmerkredit",
+    "beschreibung": "Zinsgünstige Kredite bis 25 Mio. € für Investitionen und Betriebsmittel etablierter Unternehmen (ab 5 Jahre).",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 25000000,
+    "zins": "ab 5,62 %",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Wachsen-und-Investieren/Finanzierungsangebote/KfW-Unternehmerkredit-(037-047)/",
+    "bearbeitungszeit_wochen": [6, 10],
+    "ausschlusskriterien": ["Antrag über Hausbank", "Nicht für kurzfristige Betriebsmittellinien"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschlüsse letzte 2 Jahre", "auto": false},
+      {"name": "Investitionsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 999, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"], "branchen": ["Produktion / Fertigung", "Bau / Handwerk"] }
+  },
+  {
+    "id": "kfw-energieeffizienzprogramm",
+    "title": "KfW Energieeffizienzprogramm – Produktionsanlagen",
+    "beschreibung": "Kredit bis 25 Mio. € für energieeffiziente Produktionsanlagen und -prozesse, bis 30 % Tilgungszuschuss.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 25000000,
+    "zins": "ab 4,98 %",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Finanzierungsangebote/KfW-Energieeffizienzprogramm-Produktionsanlagen-(293-294)/",
+    "bearbeitungszeit_wochen": [6, 10],
+    "ausschlusskriterien": ["Antrag über Hausbank", "Energieeffizienznachweis erforderlich"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Energieeffizienz-Expertengutachten", "auto": false},
+      {"name": "Investitionsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 999, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Produktion / Fertigung", "Bau / Handwerk", "Transport"], "mitarbeiter": ["10–49", "50–249"] }
+  },
+  {
+    "id": "kfw-erneuerbare-energien",
+    "title": "KfW Erneuerbare Energien – Standard",
+    "beschreibung": "Kredit bis 150 Mio. € für Photovoltaik, Windenergie, Biomasse und andere erneuerbare Energieanlagen.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 150000000,
+    "zins": "ab 4,73 %",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Finanzierungsangebote/Erneuerbare-Energien-Standard-(270)/",
+    "bearbeitungszeit_wochen": [6, 12],
+    "ausschlusskriterien": ["Antrag über Hausbank", "Anlage muss in Deutschland betrieben werden"],
+    "benoetigte_dokumente": [
+      {"name": "Anlagenbeschreibung", "auto": false},
+      {"name": "Netzanschlussbestätigung", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 999, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Produktion / Fertigung", "Landwirtschaft"], "mitarbeiter": ["10–49", "50–249", "250+"] }
+  },
+  {
+    "id": "kfw-wachstumskredit",
+    "title": "KfW Wachstumskredit – Unternehmen",
+    "beschreibung": "Kredit bis 25 Mio. € für Wachstum, Digitalisierung und Innovation etablierter KMU, mit 50 % Haftungsfreistellung.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 25000000,
+    "zins": "ab 5,62 %",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/",
+    "bearbeitungszeit_wochen": [6, 10],
+    "ausschlusskriterien": ["Antrag über Hausbank", "Unternehmen muss mindestens 2 Jahre bestehen"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschlüsse letzte 2 Jahre", "auto": false},
+      {"name": "Investitions- oder Innovationsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["alle"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"], "branchen": ["Software / IT", "Produktion / Fertigung"] }
+  },
+  {
+    "id": "go-digital-digitalisierung",
+    "title": "go-digital – Modul Digitalisierung",
+    "beschreibung": "50 % Förderung für Beratung zur digitalen Transformation: E-Commerce, digitale Prozesse, Cloud-Einführung.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "max_betrag": 16500,
+    "zins": null,
+    "antrag_url": "https://www.innovation-beratung-foerderung.de/INNO/Navigation/DE/go-digital/go-digital.html",
+    "bearbeitungszeit_wochen": [4, 6],
+    "ausschlusskriterien": ["Max. 100 Mitarbeitende", "Max. 20 Mio. € Jahresumsatz", "Antrag über autorisierten Berater"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Beratungsangebot eines autorisierten Beraters", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 100, "umsatz_max": "20 Mio. €", "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Handel / E-Commerce", "Dienstleistungen", "Bau / Handwerk"], "mitarbeiter": ["1–9", "10–49"] }
+  },
+  {
+    "id": "go-digital-markterschliessung",
+    "title": "go-digital – Modul Markterschließung",
+    "beschreibung": "50 % Beratungsförderung für Online-Marketing, SEO, Social Media und internationale Markterschließung.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "max_betrag": 16500,
+    "zins": null,
+    "antrag_url": "https://www.innovation-beratung-foerderung.de/INNO/Navigation/DE/go-digital/go-digital.html",
+    "bearbeitungszeit_wochen": [4, 6],
+    "ausschlusskriterien": ["Max. 100 Mitarbeitende", "Max. 20 Mio. € Jahresumsatz"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Beratungsangebot eines autorisierten Beraters", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 100, "umsatz_max": "20 Mio. €", "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Handel / E-Commerce", "Gastronomie / Hotellerie", "Dienstleistungen"], "mitarbeiter": ["1–9", "10–49"] }
+  },
+  {
+    "id": "digital-jetzt",
+    "title": "Digital Jetzt! – Investitionsförderung für KMU",
+    "beschreibung": "Zuschuss 40–70 % für Investitionen in digitale Technologien und Mitarbeiterqualifizierung, bis 50.000 €.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.bmwk.de/Redaktion/DE/Artikel/Digitale-Welt/digital-jetzt.html",
+    "bearbeitungszeit_wochen": [6, 10],
+    "ausschlusskriterien": ["Max. 499 Mitarbeitende", "Antrag vor Investitionsbeginn", "Mindestinvestition 17.000 €"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Investitionsplan mit Angeboten", "auto": false},
+      {"name": "Qualifizierungsplan (bei Modul 2)", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Handel / E-Commerce", "Software / IT", "Produktion / Fertigung"], "mitarbeiter": ["10–49", "50–249"] }
+  },
+  {
+    "id": "bafa-beg-einzelmassnahmen",
+    "title": "BEG Einzelmaßnahmen – Bundesförderung für effiziente Gebäude",
+    "beschreibung": "15–20 % Investitionszuschuss für energetische Sanierungsmaßnahmen an Nicht-Wohngebäuden (Dämmung, Fenster, Heizung).",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA",
+    "max_betrag": 150000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Energie/Effiziente_Gebaeude/Bundesfoerderung_Effiziente_Gebaeude/bundesfoerderung_effiziente_gebaeude_node.html",
+    "bearbeitungszeit_wochen": [6, 12],
+    "ausschlusskriterien": ["Antrag vor Maßnahmenbeginn", "Energieeffizienz-Experte erforderlich", "Mindest-Effizienzstandard einzuhalten"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Bestätigung Energieeffizienz-Experte", "auto": false},
+      {"name": "Angebot Handwerksbetrieb", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 999, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Produktion / Fertigung", "Gastronomie / Hotellerie", "Handel / E-Commerce"] }
+  },
+  {
+    "id": "bafa-transformation",
+    "title": "Transformationsprogramm Mittelstand (BAFA)",
+    "beschreibung": "50 % Beratungsförderung für KMU zur Vorbereitung auf wirtschaftliche Transformation und Klimaneutralität, bis 15.000 €.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA",
+    "max_betrag": 15000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Wirtschaft/Beratung_Finanzierung/Transformationsberatung/transformationsberatung_node.html",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Max. 499 Mitarbeitende", "Zugelassener Berater erforderlich"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Beratungsangebot", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Produktion / Fertigung", "Transport", "Bau / Handwerk"], "mitarbeiter": ["10–49", "50–249"] }
+  },
+  {
+    "id": "bafa-aussenwirtschaft",
+    "title": "Markterschließungsprogramm – Außenwirtschaftsförderung",
+    "beschreibung": "Zuschüsse für Messen, Delegationsreisen und Exportberatung zur internationalen Markterschließung.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / BAFA",
+    "max_betrag": 15000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Aussenwirtschaft/Aussenwirtschaftsfoerderung/aussenwirtschaftsfoerderung_node.html",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Veranstaltung muss förderfähig sein", "Antrag vor Teilnahme"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Messeregistrierungsbestätigung", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": "50 Mio. €", "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Produktion / Fertigung", "Software / IT", "Handel / E-Commerce"], "mitarbeiter": ["10–49", "50–249"] }
+  },
+  {
+    "id": "exist-forschungstransfer",
+    "title": "EXIST Forschungstransfer",
+    "beschreibung": "Förderung hochinnovativer technologiebasierter Ausgründungen aus Hochschulen: bis 1 Mio. € in zwei Phasen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / BMBF",
+    "max_betrag": 1000000,
+    "zins": null,
+    "antrag_url": "https://www.exist.de/EXIST/Navigation/DE/Gruendungsfoerderung/EXIST-Forschungstransfer/exist-forschungstransfer.html",
+    "bearbeitungszeit_wochen": [12, 20],
+    "ausschlusskriterien": ["Hochschulanbindung zwingend", "Technologiebasiertes Gründungsvorhaben erforderlich", "Kein Unternehmen über 5 Jahre"],
+    "benoetigte_dokumente": [
+      {"name": "Technisches Konzept", "auto": false},
+      {"name": "Unterstützungsschreiben Hochschule", "auto": false},
+      {"name": "Verwertungsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 49, "umsatz_max": null, "bundeslaender": ["alle"], "gruendungsjahr": ["2020 oder später"] },
+    "relevanz_boost": { "branchen": ["Software / IT", "Produktion / Fertigung"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "aufstiegs-bafog",
+    "title": "Aufstiegs-BAföG (Meister-BAföG)",
+    "beschreibung": "Förderung für berufliche Aufstiegsfortbildungen: 50 % Zuschuss auf Lehrgangskosten, Rest als zinsgünstiges Darlehen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / Länder",
+    "max_betrag": 15000,
+    "zins": null,
+    "antrag_url": "https://www.aufstiegs-bafoeg.de/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur für Prüfungsteilnehmer zugelassener Fortbildungen", "Antrag beim zuständigen Amt"],
+    "benoetigte_dokumente": [
+      {"name": "Zulassungsbescheid Fortbildungsprüfung", "auto": false},
+      {"name": "Kursgebührennachweis", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["Einzelunternehmen", "e.K. (eingetragener Kaufmann)", "GbR"], "mitarbeiter_max": 49, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Bau / Handwerk", "Gesundheit / Pflege"], "mitarbeiter": ["0", "1–9"] }
+  },
+  {
+    "id": "qualifizierungschancengesetz",
+    "title": "Qualifizierungschancengesetz – Weiterbildungsförderung",
+    "beschreibung": "Bundesagentur übernimmt 15–100 % der Weiterbildungskosten für Beschäftigte, abhängig von Betriebsgröße.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesagentur für Arbeit",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.arbeitsagentur.de/unternehmen/finanziell/foerderung-von-weiterbildung",
+    "bearbeitungszeit_wochen": [2, 6],
+    "ausschlusskriterien": ["Nur für sozialversicherungspflichtig Beschäftigte", "Weiterbildung muss arbeitsmarktrelevant sein"],
+    "benoetigte_dokumente": [
+      {"name": "Weiterbildungsangebot", "auto": false},
+      {"name": "Arbeitsverträge der Teilnehmer", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 999, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"], "branchen": ["Produktion / Fertigung", "Bau / Handwerk"] }
+  },
+  {
+    "id": "mikrokreditfonds",
+    "title": "Mikrokreditfonds Deutschland",
+    "beschreibung": "Kleinstkredite bis 25.000 € für Gründer und Kleinstunternehmen ohne ausreichende Banksicherheiten.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "BMWK / Mikrofinanzinstitute",
+    "max_betrag": 25000,
+    "zins": "ab 7,0 %",
+    "antrag_url": "https://www.mikrokreditfonds.de/",
+    "bearbeitungszeit_wochen": [2, 4],
+    "ausschlusskriterien": ["Max. 5 Beschäftigte", "Keine klassische Bankkreditwürdigkeit erforderlich"],
+    "benoetigte_dokumente": [
+      {"name": "Businessplan", "auto": false},
+      {"name": "Umsatzübersicht / Kontoauszüge", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 5, "umsatz_max": "2 Mio. €", "bundeslaender": ["alle"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "buergschaftsbank",
+    "title": "Bürgschaftsbanken der Länder",
+    "beschreibung": "Staatliche Bürgschaft bis 80 % des Kreditbetrages für KMU ohne ausreichende Sicherheiten, ermöglicht Bankkredite.",
+    "typ": "Bürgschaft",
+    "quelle": "Bundesland",
+    "foerderer": "Bürgschaftsbanken (je Bundesland)",
+    "max_betrag": 1500000,
+    "zins": null,
+    "antrag_url": "https://www.buergschaftsbanken.de/",
+    "bearbeitungszeit_wochen": [4, 10],
+    "ausschlusskriterien": ["Max. 249 Mitarbeitende", "Unternehmen muss wirtschaftlich gesund sein"],
+    "benoetigte_dokumente": [
+      {"name": "Jahresabschlüsse letzte 2 Jahre", "auto": false},
+      {"name": "Investitionsplan", "auto": false},
+      {"name": "Bankablehnungsschreiben (ggf.)", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["alle"] },
+    "relevanz_boost": { "mitarbeiter": ["1–9", "10–49"], "branchen": ["Bau / Handwerk", "Gastronomie / Hotellerie"] }
+  },
+  {
+    "id": "htgf",
+    "title": "High-Tech Gründerfonds (HTGF)",
+    "beschreibung": "Seed-Beteiligung bis 1 Mio. € für technologieorientierte Start-ups, staatlicher VC-Fonds mit privatem Co-Investment.",
+    "typ": "Beteiligung",
+    "quelle": "Bund",
+    "foerderer": "High-Tech Gründerfonds Management GmbH",
+    "max_betrag": 1000000,
+    "zins": null,
+    "antrag_url": "https://www.htgf.de/de/",
+    "bearbeitungszeit_wochen": [8, 16],
+    "ausschlusskriterien": ["Nur für technologiebasierte Gründungen", "Hochinnovatives Geschäftsmodell erforderlich", "Max. 3 Jahre alt"],
+    "benoetigte_dokumente": [
+      {"name": "Pitch Deck", "auto": false},
+      {"name": "Businessplan mit Finanzplanung", "auto": false},
+      {"name": "Gesellschaftervertrag", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["GmbH", "UG (haftungsbeschränkt)", "AG"], "mitarbeiter_max": 49, "umsatz_max": null, "bundeslaender": ["alle"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "branchen": ["Software / IT"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "innovationsgutschein-bund",
+    "title": "go-inno – Innovationsgutscheine für KMU",
+    "beschreibung": "50 % Beratungsförderung für Produktinnovation und Prozessinnovation über zugelassene Beratungsunternehmen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "max_betrag": 25000,
+    "zins": null,
+    "antrag_url": "https://www.innovation-beratung-foerderung.de/INNO/Navigation/DE/go-Inno/go-Inno.html",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Max. 100 Mitarbeitende", "Max. 20 Mio. € Umsatz", "Über zugelassenes Beratungsunternehmen"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Innovationskonzept", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 100, "umsatz_max": "20 Mio. €", "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Software / IT", "Produktion / Fertigung", "Bau / Handwerk"], "mitarbeiter": ["1–9", "10–49"] }
+  },
+
+  {
+    "id": "efre-strukturfonds",
+    "title": "EFRE – Europäischer Fonds für regionale Entwicklung",
+    "beschreibung": "EU-Strukturfonds kofinanziert regionale Investitions- und Innovationsprogramme der Bundesländer, je nach Region 30–70 % Förderquote.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "EU-Kommission / Bundesländer",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.efre.de/",
+    "bearbeitungszeit_wochen": [8, 16],
+    "ausschlusskriterien": ["Je nach Bundesland unterschiedliche Bedingungen", "Antrag über zuständige Landesbehörde"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Investitions- oder Innovationsplan", "auto": false},
+      {"name": "Finanzierungsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["alle"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"], "branchen": ["Produktion / Fertigung", "Software / IT"] }
+  },
+  {
+    "id": "esf-plus",
+    "title": "ESF+ – Europäischer Sozialfonds",
+    "beschreibung": "EU-Fonds für Beschäftigung, Weiterbildung und soziale Inklusion – über BMAS und Länder administriert.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "EU-Kommission / BMAS",
+    "max_betrag": 100000,
+    "zins": null,
+    "antrag_url": "https://www.esf.de/",
+    "bearbeitungszeit_wochen": [8, 16],
+    "ausschlusskriterien": ["Über Bundesprogramme oder Landesprogramme zu beantragen"],
+    "benoetigte_dokumente": [
+      {"name": "Projektbeschreibung", "auto": false},
+      {"name": "Finanzierungsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 999, "umsatz_max": null, "bundeslaender": ["alle"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"], "branchen": ["Gesundheit / Pflege", "Dienstleistungen"] }
+  },
+  {
+    "id": "horizon-europe-kmu",
+    "title": "Horizon Europe – EIC Accelerator",
+    "beschreibung": "EU-Innovationsförderung bis 2,5 Mio. € Zuschuss + bis 15 Mio. € Beteiligung für hochinnovative Deep-Tech-Start-ups.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäischer Innovationsrat (EIC)",
+    "max_betrag": 2500000,
+    "zins": null,
+    "antrag_url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+    "bearbeitungszeit_wochen": [16, 26],
+    "ausschlusskriterien": ["Hochinnovatives Geschäftsmodell zwingend", "Englischsprachige Anträge", "Sehr kompetitives Verfahren"],
+    "benoetigte_dokumente": [
+      {"name": "Pitch Video (3 Minuten)", "auto": false},
+      {"name": "Business Plan EN", "auto": false},
+      {"name": "Finanzprognose 5 Jahre", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["GmbH", "UG (haftungsbeschränkt)", "AG"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["alle"] },
+    "relevanz_boost": { "branchen": ["Software / IT"], "gruendungsjahr": ["2020 oder später", "2011–2019"] }
+  },
+  {
+    "id": "cosme-kreditgarantie",
+    "title": "InvestEU / COSME – KMU-Kreditgarantie",
+    "beschreibung": "EIF-Garantien erleichtern KMU-Kreditvergabe durch Hausbanken, günstigere Konditionen für Wachstums- und Innovationsfinanzierungen.",
+    "typ": "Bürgschaft",
+    "quelle": "EU",
+    "foerderer": "Europäischer Investitionsfonds (EIF)",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.eif.org/what_we_do/guarantees/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Über Partnerbanken zu beantragen", "Je nach Bank unterschiedliche Konditionen"],
+    "benoetigte_dokumente": [
+      {"name": "Jahresabschluss", "auto": false},
+      {"name": "Businessplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["alle"] },
+    "relevanz_boost": { "mitarbeiter": ["1–9", "10–49"] }
+  },
+
+  {
+    "id": "lfa-startkredit-bay",
+    "title": "LfA Startkredit Bayern",
+    "beschreibung": "Zinsgünstiger Kredit bis 10 Mio. € für Gründer und Unternehmen bis 5 Jahre in Bayern – alle Vorhaben förderfähig.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "LfA Förderbank Bayern",
+    "max_betrag": 10000000,
+    "zins": "ab 4,50 %",
+    "antrag_url": "https://www.lfa.de/foerderangebote/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur für Unternehmen mit Sitz in Bayern", "Antrag über Hausbank", "Max. 5 Jahre alt"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false},
+      {"name": "Jahresabschluss / BWA", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Bayern"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9", "10–49"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "lfa-digitalisierungskredit-bay",
+    "title": "LfA Digitalisierungskredit Bayern",
+    "beschreibung": "Zinsgünstiger Kredit bis 7,5 Mio. € für Digitalisierungsinvestitionen bayerischer Unternehmen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "LfA Förderbank Bayern",
+    "max_betrag": 7500000,
+    "zins": "ab 4,20 %",
+    "antrag_url": "https://www.lfa.de/foerderangebote/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Bayern", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Digitalisierungskonzept", "auto": false},
+      {"name": "Angebote IT-Dienstleister", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["Bayern"] },
+    "relevanz_boost": { "branchen": ["Software / IT", "Handel / E-Commerce", "Produktion / Fertigung"], "mitarbeiter": ["10–49", "50–249"] }
+  },
+  {
+    "id": "lfa-energiekredit-bay",
+    "title": "LfA Bayerischer Energiekredit",
+    "beschreibung": "Günstiger Kredit bis 10 Mio. € für Energieeffizienz und erneuerbare Energien in Bayern.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "LfA Förderbank Bayern",
+    "max_betrag": 10000000,
+    "zins": "ab 4,10 %",
+    "antrag_url": "https://www.lfa.de/foerderangebote/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Bayern", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Energiekonzept / Gutachten", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["Bayern"] },
+    "relevanz_boost": { "branchen": ["Produktion / Fertigung", "Landwirtschaft", "Bau / Handwerk"] }
+  },
+  {
+    "id": "gsp-bay",
+    "title": "Gründerstipendium Bayern",
+    "beschreibung": "Stipendium 2.000 € / Monat für 12 Monate plus Coaching für innovative Gründungsvorhaben in Bayern.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "StMWi Bayern / Bayern Innovativ",
+    "max_betrag": 24000,
+    "zins": null,
+    "antrag_url": "https://www.gruenderstipendium.de/",
+    "bearbeitungszeit_wochen": [6, 12],
+    "ausschlusskriterien": ["Nur für innovative Gründungsvorhaben", "Hochschulabschluss empfohlen", "Sitz/Gründung in Bayern"],
+    "benoetigte_dokumente": [
+      {"name": "Businessplan", "auto": false},
+      {"name": "Innovationsnachweis", "auto": false},
+      {"name": "Lebenslauf Gründer", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 9, "umsatz_max": null, "bundeslaender": ["Bayern"], "gruendungsjahr": ["2020 oder später"] },
+    "relevanz_boost": { "branchen": ["Software / IT"], "gruendungsjahr": ["2020 oder später"] }
+  },
+
+  {
+    "id": "lbank-gruendung-bw",
+    "title": "L-Bank Gründungsfinanzierung Baden-Württemberg",
+    "beschreibung": "Zinsgünstige Gründungskredite mit Haftungsfreistellung für Gründer und Unternehmen bis 5 Jahre in BW.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "L-Bank Baden-Württemberg",
+    "max_betrag": 5000000,
+    "zins": "ab 4,60 %",
+    "antrag_url": "https://www.l-bank.de/foerderung/wirtschaft/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in BW", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Baden-Württemberg"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "lbank-wirtschaft-bw",
+    "title": "L-Bank Wirtschaftsförderungsprogramm BW",
+    "beschreibung": "Zinsgünstiger Investitionskredit bis 5 Mio. € für Unternehmen in Baden-Württemberg.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "L-Bank Baden-Württemberg",
+    "max_betrag": 5000000,
+    "zins": "ab 4,85 %",
+    "antrag_url": "https://www.l-bank.de/foerderung/wirtschaft/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in BW", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschlüsse", "auto": false},
+      {"name": "Investitionsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["Baden-Württemberg"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"], "branchen": ["Produktion / Fertigung", "Bau / Handwerk"] }
+  },
+  {
+    "id": "innovationsgutscheine-bw",
+    "title": "Innovationsgutscheine BW (Stufe A + B)",
+    "beschreibung": "Zuschuss 2.500–10.000 € für Forschungs- und Entwicklungsleistungen bei externen Instituten und Beratungsunternehmen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Ministerium für Wirtschaft BW",
+    "max_betrag": 10000,
+    "zins": null,
+    "antrag_url": "https://wm.baden-wuerttemberg.de/de/wirtschaft/wirtschaftsfoerderung/foerderprogramme/innovationsgutscheine/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Max. 100 Mitarbeitende", "Sitz in BW", "Antrag vor Projektbeginn"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Angebot externes Institut", "auto": false},
+      {"name": "Innovationskonzept", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 100, "umsatz_max": "20 Mio. €", "bundeslaender": ["Baden-Württemberg"] },
+    "relevanz_boost": { "branchen": ["Software / IT", "Produktion / Fertigung"], "mitarbeiter": ["1–9", "10–49"] }
+  },
+  {
+    "id": "digital-bw",
+    "title": "Digitalisierungsprämie Baden-Württemberg",
+    "beschreibung": "Kredit mit Tilgungszuschuss für Digitalisierungsinvestitionen in BW: bis 100.000 € Kredit, 10.000 € Tilgungszuschuss.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "L-Bank Baden-Württemberg",
+    "max_betrag": 100000,
+    "zins": "ab 3,0 %",
+    "antrag_url": "https://www.l-bank.de/foerderung/wirtschaft/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in BW", "Max. 500 Mitarbeitende"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Angebote für Digitalprojekt", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 500, "umsatz_max": null, "bundeslaender": ["Baden-Württemberg"] },
+    "relevanz_boost": { "branchen": ["Handel / E-Commerce", "Software / IT", "Dienstleistungen"], "mitarbeiter": ["1–9", "10–49"] }
+  },
+  {
+    "id": "start-bw-preseed",
+    "title": "Start-up BW Pre-Seed",
+    "beschreibung": "Zuschuss bis 50.000 € für innovative Gründungsvorhaben in Baden-Württemberg, inkl. Coaching.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Ministerium für Wirtschaft BW / MFG",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.startup-bw.de/",
+    "bearbeitungszeit_wochen": [6, 12],
+    "ausschlusskriterien": ["Nur innovative Gründungsvorhaben", "Sitz oder Gründung in BW geplant"],
+    "benoetigte_dokumente": [
+      {"name": "Businessplan", "auto": false},
+      {"name": "Innovationsnachweis", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 9, "umsatz_max": null, "bundeslaender": ["Baden-Württemberg"], "gruendungsjahr": ["2020 oder später"] },
+    "relevanz_boost": { "branchen": ["Software / IT"], "gruendungsjahr": ["2020 oder später"] }
+  },
+
+  {
+    "id": "nrwbank-gruendung",
+    "title": "NRW.BANK Gründungsfinanzierung",
+    "beschreibung": "Zinsgünstige Kredite für Gründer und junge Unternehmen in NRW, mit Haftungsfreistellung bis 80 %.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "NRW.BANK",
+    "max_betrag": 750000,
+    "zins": "ab 4,40 %",
+    "antrag_url": "https://www.nrwbank.de/de/foerderangebote/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in NRW", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Nordrhein-Westfalen"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "nrwbank-mittelstand",
+    "title": "NRW.BANK Mittelstandsfinanzierung",
+    "beschreibung": "Investitionskredit bis 10 Mio. € für etablierte KMU in NRW, Laufzeiten bis 20 Jahre.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "NRW.BANK",
+    "max_betrag": 10000000,
+    "zins": "ab 4,85 %",
+    "antrag_url": "https://www.nrwbank.de/de/foerderangebote/unternehmensfoerderung/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in NRW", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschlüsse", "auto": false},
+      {"name": "Investitionsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["Nordrhein-Westfalen"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"], "branchen": ["Produktion / Fertigung", "Bau / Handwerk"] }
+  },
+  {
+    "id": "progres-nrw",
+    "title": "progres.nrw – Erneuerbare Energien",
+    "beschreibung": "Zuschuss bis 200.000 € für Photovoltaik, Speicher, Wärmepumpen und Energieeffizienz in NRW-Unternehmen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Ministerium für Wirtschaft NRW / BAFA",
+    "max_betrag": 200000,
+    "zins": null,
+    "antrag_url": "https://www.efre.nrw.de/",
+    "bearbeitungszeit_wochen": [6, 12],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in NRW", "Antrag vor Maßnahmenbeginn"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Angebote Installationsbetrieb", "auto": false},
+      {"name": "Energiegutachten", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": null, "bundeslaender": ["Nordrhein-Westfalen"] },
+    "relevanz_boost": { "branchen": ["Produktion / Fertigung", "Landwirtschaft"], "mitarbeiter": ["10–49", "50–249"] }
+  },
+  {
+    "id": "nrw-gruenderstipendium",
+    "title": "NRW-Gründerstipendium",
+    "beschreibung": "Stipendium 1.000 € / Monat für bis zu 12 Monate für innovative technologieorientierte Gründer in NRW.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Ministerium für Wirtschaft NRW",
+    "max_betrag": 12000,
+    "zins": null,
+    "antrag_url": "https://www.wirtschaft.nrw/",
+    "bearbeitungszeit_wochen": [6, 12],
+    "ausschlusskriterien": ["Nur für innovative technologieorientierte Gründer", "Hochschulanbindung empfohlen", "Sitz in NRW"],
+    "benoetigte_dokumente": [
+      {"name": "Businessplan", "auto": false},
+      {"name": "Nachweis Innovationsgehalt", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 9, "umsatz_max": null, "bundeslaender": ["Nordrhein-Westfalen"], "gruendungsjahr": ["2020 oder später"] },
+    "relevanz_boost": { "branchen": ["Software / IT"], "gruendungsjahr": ["2020 oder später"] }
+  },
+
+  {
+    "id": "ibb-gruendungskredit",
+    "title": "IBB Gründungskredit Berlin",
+    "beschreibung": "Zinsgünstiger Kredit bis 1,5 Mio. € für Gründer und junge Unternehmen in Berlin, 70 % Haftungsfreistellung.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Berlin (IBB)",
+    "max_betrag": 1500000,
+    "zins": "ab 4,30 %",
+    "antrag_url": "https://www.ibb.de/angebote/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Berlin", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Berlin"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "ibb-wachstumskredit",
+    "title": "IBB Wachstumskredit Berlin",
+    "beschreibung": "Investitionskredit bis 3 Mio. € für wachstumsorientierte Berliner Unternehmen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Berlin (IBB)",
+    "max_betrag": 3000000,
+    "zins": "ab 5,00 %",
+    "antrag_url": "https://www.ibb.de/angebote/wirtschaft/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Berlin", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschlüsse", "auto": false},
+      {"name": "Investitionsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["Berlin"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"] }
+  },
+  {
+    "id": "profit-berlin",
+    "title": "ProFIT Berlin – Innovationsförderung",
+    "beschreibung": "Zuschuss + zinsgünstiges Darlehen für FuE-Projekte Berliner KMU, Zuschuss bis 50 % der förderfähigen Kosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "IBB / Senat Berlin",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.ibb.de/angebote/innovation/",
+    "bearbeitungszeit_wochen": [8, 14],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Berlin", "FuE-Projekt erforderlich"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "FuE-Projektbeschreibung", "auto": false},
+      {"name": "Kosten- und Finanzierungsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Berlin"] },
+    "relevanz_boost": { "branchen": ["Software / IT", "Produktion / Fertigung"], "mitarbeiter": ["1–9", "10–49"] }
+  },
+  {
+    "id": "berlin-startup-stipendium",
+    "title": "Berlin Startup Stipendium",
+    "beschreibung": "Monatliches Stipendium 800 € für 6 Monate plus intensives Coaching für innovative Berliner Gründungsvorhaben.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Senat Berlin / Technologiestiftung Berlin",
+    "max_betrag": 4800,
+    "zins": null,
+    "antrag_url": "https://www.technologiestiftung-berlin.de/",
+    "bearbeitungszeit_wochen": [6, 10],
+    "ausschlusskriterien": ["Nur für Berliner Gründungsvorhaben", "Innovatives Geschäftsmodell erforderlich"],
+    "benoetigte_dokumente": [
+      {"name": "Businessplan", "auto": false},
+      {"name": "Pitch Deck", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 9, "umsatz_max": null, "bundeslaender": ["Berlin"], "gruendungsjahr": ["2020 oder später"] },
+    "relevanz_boost": { "branchen": ["Software / IT"], "gruendungsjahr": ["2020 oder später"] }
+  },
+
+  {
+    "id": "ifb-gruendungskredit-hh",
+    "title": "IFB Gründungskredit Hamburg",
+    "beschreibung": "Zinsgünstiger Kredit bis 500.000 € für Gründer in Hamburg, mit Haftungsfreistellung der Hausbank.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "IFB Hamburg",
+    "max_betrag": 500000,
+    "zins": "ab 4,50 %",
+    "antrag_url": "https://www.ifbhh.de/programme/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Hamburg", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Hamburg"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "ifb-innovationskredit-hh",
+    "title": "IFB Innovationskredit Hamburg",
+    "beschreibung": "Kredit bis 1 Mio. € für Innovationen, Digitalisierung und FuE-Projekte Hamburger Unternehmen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "IFB Hamburg",
+    "max_betrag": 1000000,
+    "zins": "ab 4,80 %",
+    "antrag_url": "https://www.ifbhh.de/programme/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Hamburg"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Innovationskonzept", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": null, "bundeslaender": ["Hamburg"] },
+    "relevanz_boost": { "branchen": ["Software / IT", "Produktion / Fertigung"], "mitarbeiter": ["10–49"] }
+  },
+
+  {
+    "id": "wibank-gruendung-he",
+    "title": "WIBank Hessen Gründungsfinanzierung",
+    "beschreibung": "Zinsgünstige Kredite und Bürgschaften für Gründer und junge Unternehmen in Hessen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "WIBank Hessen",
+    "max_betrag": 3000000,
+    "zins": "ab 4,60 %",
+    "antrag_url": "https://www.wibank.de/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Hessen", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Hessen"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "wibank-wirtschaft-he",
+    "title": "WIBank Wirtschaftsförderung Hessen",
+    "beschreibung": "Investitionskredite bis 10 Mio. € für hessische KMU, kombinierbar mit KfW-Programmen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "WIBank Hessen",
+    "max_betrag": 10000000,
+    "zins": "ab 4,90 %",
+    "antrag_url": "https://www.wibank.de/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Hessen", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschlüsse", "auto": false},
+      {"name": "Investitionsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["Hessen"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"] }
+  },
+
+  {
+    "id": "sab-mittelstand-sn",
+    "title": "SAB Mittelstandsförderung Sachsen",
+    "beschreibung": "Investitionskredite, Bürgschaften und Beteiligungen für sächsische KMU, Förderquoten bis 50 % möglich.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Sächsische Aufbaubank (SAB)",
+    "max_betrag": 5000000,
+    "zins": "ab 4,50 %",
+    "antrag_url": "https://www.sab.de/foerderung/wirtschaft/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Sachsen"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschlüsse", "auto": false},
+      {"name": "Investitionsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["Sachsen"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"], "branchen": ["Produktion / Fertigung"] }
+  },
+  {
+    "id": "sab-innovationsassistent",
+    "title": "SAB Innovationsassistent Sachsen",
+    "beschreibung": "50 % Zuschuss für Personalkosten eines Hochschulabsolventen in FuE-Stelle bis zu 24 Monate.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Sächsische Aufbaubank (SAB)",
+    "max_betrag": 60000,
+    "zins": null,
+    "antrag_url": "https://www.sab.de/foerderung/wirtschaft/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Sachsen", "Max. 250 Mitarbeitende", "Stelle muss FuE-Charakter haben"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Tätigkeitsbeschreibung der Stelle", "auto": false},
+      {"name": "Lebenslauf des Absolventen", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 250, "umsatz_max": null, "bundeslaender": ["Sachsen"] },
+    "relevanz_boost": { "branchen": ["Software / IT", "Produktion / Fertigung"], "mitarbeiter": ["1–9", "10–49"] }
+  },
+  {
+    "id": "efre-sachsen",
+    "title": "EFRE Sachsen – Betriebliche Investitionen",
+    "beschreibung": "Investitionszuschüsse bis 50 % für KMU in strukturschwachen Regionen Sachsens.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "SAB / EU / Freistaat Sachsen",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.sab.de/foerderung/wirtschaft/",
+    "bearbeitungszeit_wochen": [8, 14],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Sachsen", "Antrag vor Investitionsbeginn"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Investitionsplan mit Angeboten", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Sachsen"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"], "branchen": ["Produktion / Fertigung"] }
+  },
+
+  {
+    "id": "nbank-gruendung-ni",
+    "title": "NBank Gründungsfinanzierung Niedersachsen",
+    "beschreibung": "Zinsgünstige Kredite und Bürgschaften für Gründer in Niedersachsen, Haftungsfreistellung bis 80 %.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "NBank Niedersachsen",
+    "max_betrag": 1500000,
+    "zins": "ab 4,50 %",
+    "antrag_url": "https://www.nbank.de/foerderprogramme/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Niedersachsen", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Niedersachsen"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "niedersachsenkredit",
+    "title": "Niedersachsenkredit",
+    "beschreibung": "Zinsgünstiger Investitionskredit bis 5 Mio. € für niedersächsische KMU – Investitionen und Betriebsmittel.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "NBank Niedersachsen",
+    "max_betrag": 5000000,
+    "zins": "ab 4,80 %",
+    "antrag_url": "https://www.nbank.de/foerderprogramme/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Niedersachsen", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschlüsse", "auto": false},
+      {"name": "Investitionsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["Niedersachsen"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"] }
+  },
+
+  {
+    "id": "tab-gruendung-th",
+    "title": "Thüringer Aufbaubank – Startkredit",
+    "beschreibung": "Günstige Gründungskredite bis 1 Mio. € für Thüringer Gründer und junge Unternehmen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Thüringer Aufbaubank (TAB)",
+    "max_betrag": 1000000,
+    "zins": "ab 4,60 %",
+    "antrag_url": "https://www.aufbaubank.de/foerderangebote/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Thüringen", "Antrag über Hausbank"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Thüringen"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "tab-innovation-th",
+    "title": "Thüringer Innovationsförderung (ThINK)",
+    "beschreibung": "Zuschuss 40–60 % für FuE-Projekte thüringischer KMU, kofinanziert aus EFRE-Mitteln.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Thüringer Aufbaubank (TAB)",
+    "max_betrag": 300000,
+    "zins": null,
+    "antrag_url": "https://www.aufbaubank.de/foerderangebote/wirtschaft/",
+    "bearbeitungszeit_wochen": [8, 14],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Thüringen", "FuE-Projekt erforderlich"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "FuE-Projektbeschreibung", "auto": false},
+      {"name": "Kosten- und Finanzierungsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": null, "bundeslaender": ["Thüringen"] },
+    "relevanz_boost": { "branchen": ["Software / IT", "Produktion / Fertigung"], "mitarbeiter": ["1–9", "10–49"] }
+  },
+
+  {
+    "id": "isb-gruendung-rlp",
+    "title": "ISB Gründungsfinanzierung Rheinland-Pfalz",
+    "beschreibung": "Wagniskapital und zinsgünstige Darlehen für Gründer in Rheinland-Pfalz.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitions- und Strukturbank RLP (ISB)",
+    "max_betrag": 1000000,
+    "zins": "ab 4,60 %",
+    "antrag_url": "https://isb.de/foerderangebote/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in RLP"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Rheinland-Pfalz"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "isb-mittelstand-rlp",
+    "title": "ISB Mittelstandskredit Rheinland-Pfalz",
+    "beschreibung": "Investitionskredit bis 5 Mio. € für Unternehmen in RLP, Laufzeiten bis 20 Jahre.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitions- und Strukturbank RLP (ISB)",
+    "max_betrag": 5000000,
+    "zins": "ab 4,90 %",
+    "antrag_url": "https://isb.de/foerderangebote/wirtschaft/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in RLP"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschlüsse", "auto": false},
+      {"name": "Investitionsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["Rheinland-Pfalz"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"] }
+  },
+
+  {
+    "id": "ibsa-gruendung",
+    "title": "IB Sachsen-Anhalt Gründungsfinanzierung",
+    "beschreibung": "Mikrodarlehen, Zuschüsse und Beratung für Gründer in Sachsen-Anhalt, EFRE-kofinanziert.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Sachsen-Anhalt (IB)",
+    "max_betrag": 500000,
+    "zins": "ab 4,50 %",
+    "antrag_url": "https://www.ib-sachsen-anhalt.de/foerderprogramme/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Sachsen-Anhalt"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Sachsen-Anhalt"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "ibsa-mittelstand",
+    "title": "IB Sachsen-Anhalt Mittelstandsförderung",
+    "beschreibung": "Investitionszuschüsse und Kredite für KMU in Sachsen-Anhalt, besonders strukturschwache Regionen gefördert.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Sachsen-Anhalt (IB)",
+    "max_betrag": 3000000,
+    "zins": "ab 4,70 %",
+    "antrag_url": "https://www.ib-sachsen-anhalt.de/foerderprogramme/",
+    "bearbeitungszeit_wochen": [4, 10],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Sachsen-Anhalt"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschlüsse", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["Sachsen-Anhalt"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"] }
+  },
+
+  {
+    "id": "ilb-gruendung-bb",
+    "title": "ILB Gründungsförderung Brandenburg",
+    "beschreibung": "Startgeld, Kleinkredite und EFRE-Zuschüsse für Gründer in Brandenburg.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank des Landes Brandenburg (ILB)",
+    "max_betrag": 750000,
+    "zins": "ab 4,40 %",
+    "antrag_url": "https://www.ilb.de/de/foerderprogramme/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Brandenburg"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Brandenburg"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "ilb-mittelstand-bb",
+    "title": "ILB Mittelstandsförderung Brandenburg",
+    "beschreibung": "Investitionszuschüsse bis 50 % und günstige Kredite für KMU in Brandenburg, EFRE-kofinanziert.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank des Landes Brandenburg (ILB)",
+    "max_betrag": 3000000,
+    "zins": "ab 4,80 %",
+    "antrag_url": "https://www.ilb.de/de/foerderprogramme/wirtschaft/",
+    "bearbeitungszeit_wochen": [4, 10],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Brandenburg"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschlüsse", "auto": false},
+      {"name": "Investitionsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["Brandenburg"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"] }
+  },
+
+  {
+    "id": "ib-sh-gruendung",
+    "title": "IB Schleswig-Holstein Gründungsfinanzierung",
+    "beschreibung": "Zinsgünstige Gründungskredite bis 1 Mio. € für Gründer in Schleswig-Holstein.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Schleswig-Holstein (IB.SH)",
+    "max_betrag": 1000000,
+    "zins": "ab 4,50 %",
+    "antrag_url": "https://www.ib-sh.de/foerderung/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Schleswig-Holstein"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Schleswig-Holstein"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "ib-sh-mittelstand",
+    "title": "IB Schleswig-Holstein Mittelstandsfinanzierung",
+    "beschreibung": "Investitionskredite bis 5 Mio. € für KMU in Schleswig-Holstein.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Schleswig-Holstein (IB.SH)",
+    "max_betrag": 5000000,
+    "zins": "ab 4,90 %",
+    "antrag_url": "https://www.ib-sh.de/foerderung/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Schleswig-Holstein"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschlüsse", "auto": false},
+      {"name": "Investitionsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["Schleswig-Holstein"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"] }
+  },
+
+  {
+    "id": "lfi-gruendung-mv",
+    "title": "LFI Gründungsförderung Mecklenburg-Vorpommern",
+    "beschreibung": "Zuschüsse und Mikrodarlehen für Gründer in MV, EFRE-kofinanziert aus EU-Strukturfonds.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Landesförderinstitut MV (LFI)",
+    "max_betrag": 500000,
+    "zins": "ab 4,50 %",
+    "antrag_url": "https://www.lfi-mv.de/foerderung/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in MV"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Mecklenburg-Vorpommern"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "lfi-mittelstand-mv",
+    "title": "LFI Mittelstandsförderung Mecklenburg-Vorpommern",
+    "beschreibung": "EFRE-kofinanzierte Investitionszuschüsse bis 40 % für KMU in MV.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Landesförderinstitut MV (LFI)",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.lfi-mv.de/foerderung/",
+    "bearbeitungszeit_wochen": [6, 12],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in MV", "Antrag vor Investitionsbeginn"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Investitionsplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Mecklenburg-Vorpommern"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"] }
+  },
+
+  {
+    "id": "bab-gruendung-hb",
+    "title": "BAB Gründungsfinanzierung Bremen",
+    "beschreibung": "Zinsgünstige Kredite bis 500.000 € und Bürgschaften für Gründer in Bremen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Bremer Aufbau-Bank (BAB)",
+    "max_betrag": 500000,
+    "zins": "ab 4,50 %",
+    "antrag_url": "https://www.bab-bremen.de/foerderangebote/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Bremen"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Businessplan", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Bremen"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "bab-mittelstand-hb",
+    "title": "BAB Mittelstandsförderung Bremen",
+    "beschreibung": "Investitionskredite und Bürgschaften für KMU in Bremen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Bremer Aufbau-Bank (BAB)",
+    "max_betrag": 3000000,
+    "zins": "ab 4,90 %",
+    "antrag_url": "https://www.bab-bremen.de/foerderangebote/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz in Bremen"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschlüsse", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["Bremen"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"] }
+  },
+
+  {
+    "id": "sikb-gruendung-sl",
+    "title": "SIKB Saarland Gründungsfinanzierung",
+    "beschreibung": "Bürgschaften und Beteiligungen für Gründer im Saarland, ergänzt KfW-Programme.",
+    "typ": "Bürgschaft",
+    "quelle": "Bundesland",
+    "foerderer": "Saarländische Investitionskreditbank (SIKB)",
+    "max_betrag": 1000000,
+    "zins": null,
+    "antrag_url": "https://www.sikb.de/foerderung/",
+    "bearbeitungszeit_wochen": [4, 8],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz im Saarland"],
+    "benoetigte_dokumente": [
+      {"name": "Businessplan", "auto": false},
+      {"name": "Jahresabschluss / BWA", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 249, "umsatz_max": "50 Mio. €", "bundeslaender": ["Saarland"], "gruendungsjahr": ["2020 oder später", "2011–2019"] },
+    "relevanz_boost": { "mitarbeiter": ["0", "1–9"], "gruendungsjahr": ["2020 oder später"] }
+  },
+  {
+    "id": "saar-mittelstand",
+    "title": "Saarland Mittelstandsförderung",
+    "beschreibung": "Bürgschaften und zinsgünstige Kredite für KMU im Saarland, Kombination mit EFRE-Mitteln möglich.",
+    "typ": "Bürgschaft",
+    "quelle": "Bundesland",
+    "foerderer": "Saarländische Investitionskreditbank (SIKB)",
+    "max_betrag": 2000000,
+    "zins": null,
+    "antrag_url": "https://www.sikb.de/foerderung/",
+    "bearbeitungszeit_wochen": [4, 10],
+    "ausschlusskriterien": ["Nur Unternehmen mit Sitz im Saarland"],
+    "benoetigte_dokumente": [
+      {"name": "Handelsregisterauszug", "auto": true},
+      {"name": "Jahresabschlüsse", "auto": false}
+    ],
+    "gilt_fuer": { "rechtsformen": ["alle"], "mitarbeiter_max": 499, "umsatz_max": null, "bundeslaender": ["Saarland"] },
+    "relevanz_boost": { "mitarbeiter": ["10–49", "50–249"] }
   }
 ]
