@@ -8,8 +8,8 @@ import { db } from './client.js'
 // Typen für die JSON-Quelldateien (Frontend-Format)
 interface Funding {
   id: string; title: string; beschreibung: string
-  typ: 'Zuschuss' | 'Kredit' | 'Steuervorteil'
-  quelle: 'EU' | 'Bund' | 'Bundesland'
+  typ: 'Zuschuss' | 'Kredit' | 'Steuervorteil' | 'Bürgschaft' | 'Beteiligung' | 'Beratungszuschuss'
+  quelle: 'EU' | 'Bund' | 'Bundesland' | 'Gemeinde'
   foerderer: string; max_betrag: number | null; zins: string | null
   antrag_url: string; bearbeitungszeit_wochen: [number, number]
   ausschlusskriterien: string[]; benoetigte_dokumente: unknown

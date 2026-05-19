@@ -27,15 +27,19 @@ const KATEGORIE_COLORS: Record<string, string> = {
 }
 
 const TYP_COLORS: Record<string, string> = {
-  'Zuschuss':      'bg-teal-light text-teal-dark',
-  'Kredit':        'bg-blue-100 text-blue-700',
-  'Steuervorteil': 'bg-yellow-100 text-yellow-700',
+  'Zuschuss':          'bg-teal-light text-teal-dark',
+  'Kredit':            'bg-blue-100 text-blue-700',
+  'Steuervorteil':     'bg-yellow-100 text-yellow-700',
+  'Bürgschaft':        'bg-orange-100 text-orange-700',
+  'Beteiligung':       'bg-purple-100 text-purple-700',
+  'Beratungszuschuss': 'bg-green-100 text-green-700',
 }
 
 const QUELLE_COLORS: Record<string, string> = {
   'Bund':       'bg-sand-mid text-muted-dark',
   'EU':         'bg-blue-100 text-blue-700',
   'Bundesland': 'bg-purple-100 text-purple-700',
+  'Gemeinde':   'bg-green-100 text-green-700',
 }
 
 const DOK_ABBR: Record<string, string> = {

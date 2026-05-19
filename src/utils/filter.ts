@@ -62,19 +62,24 @@ const FUNDING_BRANCHE_AUSSCHLUSS: Record<string, string[]> = {
   'invest-zuschuss-wagniskapital': ['handwerk', 'gastronomie', 'transport', 'landwirtschaft'],
 }
 
-// Welche Förder-Zwecke passen strukturell zu diesem Programm?
-const FUNDING_ZWECK: Record<string, string[]> = {
-  'kfw-digitalisierung':           ['digitalisierung', 'investition'],
-  'go-digital-it-sicherheit':      ['digitalisierung', 'beratung'],
-  'invest-zuschuss-wagniskapital': ['innovation', 'gruendung'],
-  'bafa-energieberatung':          ['energie', 'beratung'],
-  'forschungsbonus-kmu':           ['innovation'],
-  'digitalbonus-bayern':           ['digitalisierung'],
-  'foerderung-berufsausbildung':   ['mitarbeiter'],
-  'gruendungszuschuss':            ['gruendung'],
-  'exist-gruenderstipendium':      ['gruendung', 'innovation'],
-  'zim-innovationsfoerderung':     ['innovation'],
-  'de-minimis':                    ['investition', 'gruendung', 'digitalisierung', 'energie', 'mitarbeiter', 'internationalisierung'],
+function inferZweck(id: string, title: string, typ: string): string[] {
+  const s = (id + ' ' + title).toLowerCase()
+  const z = new Set<string>()
+
+  if (/digital|it[_-]sicher|cyber|software|cloud|spieleförd|spieleford|ikt/.test(s)) z.add('digitalisierung')
+  if (/energ|beg[_-]|solar|erneuerbar|klima|wallbox|ladeinfra|wasserstoff|kälte|kalt|wärm|prozess/.test(s)) z.add('energie')
+  if (/innov|forsch|zim[_-]|horizon|interreg|validier|quanten|patent|kreislauf|pflegeinno|bmbf[_-]/.test(s)) z.add('innovation')
+  if (/exist/.test(s)) { z.add('gruendung'); z.add('innovation') }
+  if (typ === 'Beteiligung' || /htgf|wagniskapital|beteiligung/.test(s)) { z.add('gruendung'); z.add('innovation') }
+  if (/gr[uü]end|startup|preseed|mikrokred|mikrodarleh|stipendium/.test(s)) z.add('gruendung')
+  if (typ === 'Beratungszuschuss' || /beratung|coaching|gutschein|transform/.test(s)) z.add('beratung')
+  if (/ausbildung|fachkraft|azubi|meisterpräm|meisterpram|weiterbild|qualifiz|beschäftig|inklusionspräm|inklusionspram|eingliederung|esf[_-]|bafög|bafog|aufstieg|bildung/.test(s)) z.add('mitarbeiter')
+  if (/au[sß]en(?:handel|wirt)|export|invest[_-]in[_-]germany|binnenschiff/.test(s)) z.add('internationalisierung')
+  if (/mittelstand|wachstum|investit|betriebsmittel|nachfolge|barrieref|maschinen/.test(s)) z.add('investition')
+  if (typ === 'Kredit' || typ === 'Bürgschaft') z.add('investition')
+  if (id === 'de-minimis') return ['investition','gruendung','digitalisierung','energie','mitarbeiter','internationalisierung','beratung','innovation']
+
+  return z.size > 0 ? [...z] : ['investition']
 }
 
 function umsatzToNum(umsatz: string): number {
@@ -151,8 +156,8 @@ export function scoreFunding(funding: Funding, profil: UnternehmensProfil): numb
   if (ausschluss.includes(brancheGruppe)) return 0
 
   // Förder-Zweck: wenn Nutzer Zwecke angegeben hat und Programm nicht passt → ausblenden
-  const programmZwecke = FUNDING_ZWECK[funding.id] ?? []
-  if (foerderzweck.length > 0 && programmZwecke.length > 0) {
+  const programmZwecke = inferZweck(funding.id, funding.title, funding.typ)
+  if (foerderzweck.length > 0) {
     const hatOverlap = foerderzweck.some(z => programmZwecke.includes(z))
     if (!hatOverlap) return 0
   }
@@ -173,7 +178,7 @@ export function scoreFunding(funding: Funding, profil: UnternehmensProfil): numb
   if (boost.gruendungsjahr?.includes(profil.gruendungsjahr)) score += 5
 
   // Bonus für Förder-Zweck-Treffer
-  if (foerderzweck.length > 0 && programmZwecke.length > 0) {
+  if (foerderzweck.length > 0) {
     const treffer = foerderzweck.filter(z => programmZwecke.includes(z)).length
     score += Math.min(treffer * 10, 15)
   }
