@@ -15,15 +15,25 @@ type StatusFilter = 'alle' | 'offen' | 'erledigt' | 'nicht_relevant'
 type DocStatusFilter = 'alle' | 'fertig' | 'ausstehend'
 
 const KATEGORIE_COLORS: Record<string, string> = {
-  'Datenschutz':   'bg-blue-100 text-blue-700',
-  'IT-Sicherheit': 'bg-orange-100 text-orange-700',
-  'Arbeitsrecht':  'bg-purple-100 text-purple-700',
-  'Buchführung':   'bg-yellow-100 text-yellow-700',
-  'Umwelt':        'bg-green-100 text-green-700',
-  'Lieferkette':   'bg-red-100 text-red-700',
-  'Recht':         'bg-sand-mid text-muted-dark',
-  'Steuer':        'bg-yellow-100 text-yellow-700',
-  'Reporting':     'bg-teal-light text-teal-dark',
+  'Arbeitsrecht':      'bg-purple-100 text-purple-700',
+  'Datenschutz':       'bg-blue-100 text-blue-700',
+  'IT-Sicherheit':     'bg-orange-100 text-orange-700',
+  'Steuer':            'bg-yellow-100 text-yellow-700',
+  'Buchführung':       'bg-yellow-100 text-yellow-700',
+  'Umwelt':            'bg-green-100 text-green-700',
+  'Reporting':         'bg-teal-light text-teal-dark',
+  'Recht':             'bg-sand-mid text-muted-dark',
+  'Compliance':        'bg-red-100 text-red-700',
+  'Sozialversicherung':'bg-indigo-100 text-indigo-700',
+  'Finanzmarkt':       'bg-cyan-100 text-cyan-700',
+  'Gewerberecht':      'bg-amber-100 text-amber-700',
+  'Transport':         'bg-sky-100 text-sky-700',
+  'Produktrecht':      'bg-lime-100 text-lime-700',
+  'Berufsrecht':       'bg-rose-100 text-rose-700',
+  'Gesundheit':        'bg-pink-100 text-pink-700',
+  'Lebensmittelrecht': 'bg-emerald-100 text-emerald-700',
+  'Verbraucherschutz': 'bg-violet-100 text-violet-700',
+  'Lieferkette':       'bg-red-100 text-red-700',
 }
 
 const TYP_COLORS: Record<string, string> = {

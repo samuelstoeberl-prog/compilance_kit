@@ -77,24 +77,33 @@ const RF_MAP: Record<string, string> = {
 
 // Kategorie-Mapping: regulierung-Schema → app-Kategorien
 const KAT_MAP: Record<string, string> = {
-  'Arbeitsrecht':                 'Arbeitsrecht',
-  'Mitbestimmung':                'Arbeitsrecht',
-  'Arbeitsschutz':                'Arbeitsrecht',
-  'Datenschutz':                  'Datenschutz',
-  'Compliance':                   'Recht',
-  'Steuer / Rechnungswesen':      'Buchführung',
-  'Nachhaltigkeit / ESG':         'Reporting',
-  'Umwelt / Energie':             'Umwelt',
-  'IT / Cybersicherheit':         'IT-Sicherheit',
-  'Technologie / KI':             'IT-Sicherheit',
-  'Digital / Verbraucherschutz':  'Datenschutz',
-  'Verbraucherschutz':            'Recht',
-  'Branche: Handwerk':            'Arbeitsrecht',
-  'Branche: Bau':                 'Arbeitsrecht',
-  'Branche: Gastronomie':         'Steuer',
-  'Branche: Finanzdienstleistung':'Recht',
-  'Branche: Gesundheit':          'Recht',
-  'Branche: Lebensmittel':        'Recht',
+  'Arbeitsrecht':                    'Arbeitsrecht',
+  'Mitbestimmung':                   'Arbeitsrecht',
+  'Arbeitsschutz':                   'Arbeitsrecht',
+  'Datenschutz':                     'Datenschutz',
+  'Compliance':                      'Compliance',
+  'Steuer / Rechnungswesen':         'Steuer',
+  'Nachhaltigkeit / ESG':            'Reporting',
+  'Umwelt / Energie':                'Umwelt',
+  'IT / Cybersicherheit':            'IT-Sicherheit',
+  'Technologie / KI':                'IT-Sicherheit',
+  'Digital / Verbraucherschutz':     'Verbraucherschutz',
+  'Verbraucherschutz':               'Verbraucherschutz',
+  'Branche: Handwerk':               'Arbeitsrecht',
+  'Branche: Bau':                    'Arbeitsrecht',
+  'Branche: Gastronomie':            'Steuer',
+  'Branche: Finanzdienstleistung':   'Finanzmarkt',
+  'Branche: Gesundheit':             'Gesundheit',
+  'Branche: Lebensmittel':           'Lebensmittelrecht',
+  // New categories
+  'Sozialversicherung':              'Sozialversicherung',
+  'Energie':                         'Umwelt',
+  'Finanzmarkt':                     'Finanzmarkt',
+  'Gewerberecht / Gesellschaftsrecht': 'Gewerberecht',
+  'Transport / Logistik':            'Transport',
+  'Landwirtschaft':                  'Umwelt',
+  'Produktrecht / CE':               'Produktrecht',
+  'Berufsrecht / Zulassungen':       'Berufsrecht',
 }
 
 function slugify(s: string): string {
@@ -222,17 +231,19 @@ for (const reg of regs) {
   })
 }
 
-// regulations.json aktualisieren: vorhandene behalten + neue hinzufügen
+// regulations.json aktualisieren: migrierte Einträge updaten + neue hinzufügen
 const existingPath = resolve(ROOT, 'src/data/regulations.json')
 const { readFileSync } = await import('fs')
 const existing: { id: string }[] = JSON.parse(readFileSync(existingPath, 'utf-8'))
-const existingIds = new Set(existing.map(r => r.id))
+const migratedIds = new Set(jsonItems.map(r => (r as { id: string }).id))
 
-const newItems = jsonItems.filter(r => !existingIds.has((r as { id: string }).id))
-const merged = [...existing, ...newItems]
+// Bestehende Einträge: migrierte werden ersetzt, nicht-migrierte (manuell gepflegte) behalten
+const kept = existing.filter(r => !migratedIds.has(r.id))
+const merged = [...kept, ...jsonItems]
+const newCount = jsonItems.filter(r => !new Set(existing.map(e => e.id)).has((r as { id: string }).id)).length
 
 writeFileSync(existingPath, JSON.stringify(merged, null, 2), 'utf-8')
 
 console.log(`✓ ${upserted} Regulierungen upserted in public.regulations`)
-console.log(`✓ ${newItems.length} neue Einträge in regulations.json (${merged.length} gesamt)`)
+console.log(`✓ ${newCount} neue Einträge in regulations.json (${merged.length} gesamt, ${jsonItems.length} aus DB)`)
 await db.end()

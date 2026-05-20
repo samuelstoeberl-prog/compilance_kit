@@ -2305,7 +2305,7 @@
   {
     "id": "reg-hinschg",
     "title": "Hinweisgeberschutzgesetz - Interne Meldestelle",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Unternehmen mit 50 oder mehr Beschaeftigten muessen interne Meldestellen fuer Whistleblowing einrichten. Eingangsbestaetigung 7 Tage, Rueckmeldung 3 Monate, Vertraulichkeit. Repressalien verboten.",
     "rechtsgrundlage": "§§ 12-14 HinSchG",
     "quelle_url": "https://www.gesetze-im-internet.de/hinschg/",
@@ -2409,6 +2409,40 @@
     "hat_dokument_generator": false
   },
   {
+    "id": "reg-bbig",
+    "title": "Berufsausbildungsgesetz (Mindestausbildungsvergütung)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Berufsausbildungsgesetz (Mindestausbildungsvergütung)",
+    "rechtsgrundlage": "BBiG §§1ff.",
+    "quelle_url": "https://gesetze-im-internet.de/bbig_2005",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-bgb",
+    "title": "Betriebsübergang Unterrichtungspflicht",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Betriebsübergang Unterrichtungspflicht",
+    "rechtsgrundlage": "BGB §613a",
+    "quelle_url": "https://gesetze-im-internet.de/bgb",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
     "id": "reg-eu-ai-act",
     "title": "EU KI-Verordnung (AI Act)",
     "category": "IT-Sicherheit",
@@ -2435,7 +2469,7 @@
   {
     "id": "reg-e-rechnung",
     "title": "E-Rechnungspflicht (B2B)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Phase 1 (01.01.2025): Empfangspflicht fuer alle Unternehmen. Phase 2 (01.01.2027): Versandpflicht fuer Unternehmen mit Vorjahresumsatz > 800.000 EUR. Phase 3 (01.01.2028): Versandpflicht fuer alle.",
     "rechtsgrundlage": "§ 14 UStG (Wachstumschancengesetz 2024)",
     "quelle_url": "https://www.bundesfinanzministerium.de",
@@ -2453,7 +2487,7 @@
   {
     "id": "reg-bfsg",
     "title": "Barrierefreiheitsstaerkungsgesetz (BFSG)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "Produkte und Dienstleistungen fuer Verbraucher muessen barrierefrei sein. Ausnahme: Kleinstunternehmen < 10 MA UND < 2 Mio. EUR Umsatz. WCAG 2.1 Level AA als Mindeststandard.",
     "rechtsgrundlage": "BFSG; EU-RL 2019/882 (EAA)",
     "quelle_url": "https://www.gesetze-im-internet.de/bfsg/",
@@ -2475,7 +2509,7 @@
   {
     "id": "reg-hgb-241a",
     "title": "Bilanzierungspflicht - Einzelkaufleute (§ 241a HGB)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Einzelkaufleute sind befreit bei Unterschreitung beider Grenzen: Jahresumsatz <= 800.000 EUR und Jahresueberschuss <= 80.000 EUR. Personenhandelsgesellschaften stets buchfuehrungspflichtig.",
     "rechtsgrundlage": "§§ 238, 241a HGB; § 141 AO",
     "quelle_url": "https://www.gesetze-im-internet.de/hgb/__241a.html",
@@ -2495,7 +2529,7 @@
   {
     "id": "reg-hgb-325",
     "title": "Jahresabschluss-Offenlegung (§ 325 HGB)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Kapitalgesellschaften muessen Jahresabschluesse beim Bundesanzeiger einreichen. Frist: 12 Monate nach Geschaeftsjahresende. Ordnungsgeldverfahren durch Bundesamt fuer Justiz.",
     "rechtsgrundlage": "§ 325 HGB",
     "quelle_url": "https://www.gesetze-im-internet.de/hgb/__325.html",
@@ -2517,7 +2551,7 @@
   {
     "id": "reg-hgb-267",
     "title": "HGB-Groessenklassen (§ 267 HGB)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Kapitalgesellschaften werden in 4 Groessenklassen eingeteilt (Schwellenwerte ab GJ 2024). Klein: <= 7,5 Mio. EUR BS / <= 15 Mio. EUR UE / <= 50 MA. Mittel: <= 25 Mio. EUR BS / <= 50 Mio. EUR UE / <= 250 MA.",
     "rechtsgrundlage": "§§ 267, 267a HGB",
     "quelle_url": "https://www.gesetze-im-internet.de/hgb/__267.html",
@@ -2539,7 +2573,7 @@
   {
     "id": "reg-wp-pflicht-316",
     "title": "Jahresabschluss-Pflichtpruefung (§ 316 HGB)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Mittelgrosse und grosse Kapitalgesellschaften muessen Jahresabschluss durch Wirtschaftspruefer pruefen lassen. Kapitalmarktorientierte Unternehmen stets als grosse Gesellschaften behandelt.",
     "rechtsgrundlage": "§ 316 HGB",
     "quelle_url": "https://www.gesetze-im-internet.de/hgb/__316.html",
@@ -2561,7 +2595,7 @@
   {
     "id": "reg-cbcr-offenlegung",
     "title": "Ertragsteuer-Informationsbericht (§ 342b HGB)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Grosse Unternehmen mit Umsatzerloesen > 750 Mio. EUR in zwei aufeinanderfolgenden GJ muessen jaehrlich Ertragsteuer-Informationsbericht veroeffentlichen (Public CbCR).",
     "rechtsgrundlage": "§§ 342b-342k HGB; EU-RL 2021/2101",
     "quelle_url": "https://www.gesetze-im-internet.de/hgb/__342b.html",
@@ -2705,7 +2739,7 @@
   {
     "id": "reg-tse-pflicht",
     "title": "Elektronische Kassensysteme - TSE-Pflicht und Meldepflicht",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Alle Unternehmen mit elektronischen Kassensystemen muessen diese mit zertifizierter TSE ausstatten und bis 31.07.2025 beim Finanzamt melden. Belegausgabepflicht. Aufbewahrungspflicht: 10 Jahre.",
     "rechtsgrundlage": "§ 146a AO; KassenSichV",
     "quelle_url": "https://www.bundesfinanzministerium.de",
@@ -2741,6 +2775,24 @@
         "Hotellerie & Beherbergung"
       ],
       "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-kschg-2",
+    "title": "Massenentlassungsanzeige bei BA",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Massenentlassungsanzeige bei BA",
+    "rechtsgrundlage": "KSchG §§17-22",
+    "quelle_url": "https://gesetze-im-internet.de/kschg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 21
     },
     "hat_dokument_generator": false
   },
@@ -2830,7 +2882,7 @@
   {
     "id": "reg-dsa",
     "title": "EU Digital Services Act (DSA)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "DSA regelt Pflichten fuer Vermittlungsdienste. Alle: klares Impressum, Meldestelle fuer illegale Inhalte. Marktplaetze: Haendleridentitaeten pruefen. Sehr grosse Plattformen (> 45 Mio. EU-Nutzer): Risikoanalyse, Algorithmus-Transparenz.",
     "rechtsgrundlage": "EU-VO 2022/2065 (DSA)",
     "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32022R2065",
@@ -2869,7 +2921,7 @@
   {
     "id": "reg-gwg",
     "title": "Geldwaeschegesetz - Sorgfaltspflichten und Verdachtsmeldung",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Verpflichtete (Kreditinstitute, Finanzdienstleister, Rechtsanwaelte, Steuerberater, Notare, Immobilienmakler, Gueterhaendler ab 10.000 EUR Barzahlung, Kryptounternehmen) muessen Risikoanalyse, KYC, Verdachtsmeldung an FIU und 5-jaehrige Aufzeichnung sicherstellen.",
     "rechtsgrundlage": "§§ 1-58 GwG; EU-AMLD IV-VI",
     "quelle_url": "https://www.gesetze-im-internet.de/gwg_2017/",
@@ -2895,7 +2947,7 @@
   {
     "id": "reg-prodsg-gpsr",
     "title": "Produktsicherheitsgesetz / EU-Produktsicherheitsverordnung (GPSR)",
-    "category": "Recht",
+    "category": "Verbraucherschutz",
     "beschreibung": "Hersteller, Importeure und Haendler muessen sicherstellen dass ihre Produkte sicher sind. CE-Kennzeichnung, technische Unterlagen, Rueckverfolgbarkeit. Online-Marktplaetze muessen Sicherheitsnachweise einfordern.",
     "rechtsgrundlage": "EU-VO 2023/988 (GPSR); ProdSG",
     "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32023R0988",
@@ -2932,58 +2984,6 @@
         "Hotellerie & Beherbergung"
       ],
       "mitarbeiter_min": 1
-    },
-    "hat_dokument_generator": false
-  },
-  {
-    "id": "reg-bbig",
-    "title": "Berufsausbildungsgesetz (Mindestausbildungsvergütung)",
-    "category": "Arbeitsrecht",
-    "beschreibung": "Berufsausbildungsgesetz (Mindestausbildungsvergütung)",
-    "rechtsgrundlage": "BBiG §§1ff.",
-    "quelle_url": "https://gesetze-im-internet.de/bbig_2005",
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "branchen": [
-        "alle"
-      ]
-    },
-    "hat_dokument_generator": false
-  },
-  {
-    "id": "reg-bgb",
-    "title": "Betriebsübergang Unterrichtungspflicht",
-    "category": "Arbeitsrecht",
-    "beschreibung": "Betriebsübergang Unterrichtungspflicht",
-    "rechtsgrundlage": "BGB §613a",
-    "quelle_url": "https://gesetze-im-internet.de/bgb",
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "branchen": [
-        "alle"
-      ]
-    },
-    "hat_dokument_generator": false
-  },
-  {
-    "id": "reg-kschg-2",
-    "title": "Massenentlassungsanzeige bei BA",
-    "category": "Arbeitsrecht",
-    "beschreibung": "Massenentlassungsanzeige bei BA",
-    "rechtsgrundlage": "KSchG §§17-22",
-    "quelle_url": "https://gesetze-im-internet.de/kschg",
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "branchen": [
-        "alle"
-      ],
-      "mitarbeiter_min": 21
     },
     "hat_dokument_generator": false
   },
@@ -3782,7 +3782,7 @@
   {
     "id": "reg-sgb-iv",
     "title": "SV-Meldepflicht und Beitragsabführung (GKV/RV/AV/PV)",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "SV-Meldepflicht und Beitragsabführung (GKV/RV/AV/PV)",
     "rechtsgrundlage": "SGB IV §§28a ff.",
     "quelle_url": "https://gesetze-im-internet.de/sgb_4",
@@ -3799,7 +3799,7 @@
   {
     "id": "reg-ksvg",
     "title": "Künstlersozialkasse (5% Abgabe auf Honorare)",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "Künstlersozialkasse (5% Abgabe auf Honorare)",
     "rechtsgrundlage": "KSVG §§1ff.",
     "quelle_url": "https://ksvg.de",
@@ -3816,7 +3816,7 @@
   {
     "id": "reg-sgb-iv-2",
     "title": "Minijob Pauschalbeiträge 30%",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "Minijob Pauschalbeiträge 30%",
     "rechtsgrundlage": "SGB IV §8",
     "quelle_url": "https://minijob-zentrale.de",
@@ -3833,7 +3833,7 @@
   {
     "id": "reg-sgb-iv-3",
     "title": "Midijob Übergangsbereich (603–2.000 €)",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "Midijob Übergangsbereich (603–2.000 €)",
     "rechtsgrundlage": "SGB IV §20 Abs.2",
     "quelle_url": "https://gesetze-im-internet.de/sgb_4",
@@ -3850,7 +3850,7 @@
   {
     "id": "reg-sgb-vii-2",
     "title": "BG-Anmeldung und Jahresnachweis Lohnsummen",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "BG-Anmeldung und Jahresnachweis Lohnsummen",
     "rechtsgrundlage": "SGB VII §§183, 165",
     "quelle_url": "https://dguv.de",
@@ -3867,7 +3867,7 @@
   {
     "id": "reg-sgb-iii",
     "title": "Insolvenzgeldumlage (0,06% Bruttoentgelt)",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "Insolvenzgeldumlage (0,06% Bruttoentgelt)",
     "rechtsgrundlage": "SGB III §358",
     "quelle_url": "https://gesetze-im-internet.de/sgb_3",
@@ -3884,7 +3884,7 @@
   {
     "id": "reg-betravg-2",
     "title": "PSV-Pflichtmitgliedschaft (Direktzusagen, U-Kassen)",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "PSV-Pflichtmitgliedschaft (Direktzusagen, U-Kassen)",
     "rechtsgrundlage": "BetrAVG §14",
     "quelle_url": "https://psvag.de",
@@ -3901,7 +3901,7 @@
   {
     "id": "reg-deuev",
     "title": "DEÜV-Meldeverfahren (Jahresmeldung bis 15.2.)",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "DEÜV-Meldeverfahren (Jahresmeldung bis 15.2.)",
     "rechtsgrundlage": "DEÜV",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -3918,7 +3918,7 @@
   {
     "id": "reg-sgb-iv-4",
     "title": "Entsendung A1-Bescheinigung (vor Entsendung)",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "Entsendung A1-Bescheinigung (vor Entsendung)",
     "rechtsgrundlage": "SGB IV §4; VO 883/2004",
     "quelle_url": "https://gesetze-im-internet.de/sgb_4",
@@ -3935,7 +3935,7 @@
   {
     "id": "reg-brtv",
     "title": "SOKA-BAU (Urlaub, Rentenbeihilfe, Bildung im Bau)",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "SOKA-BAU (Urlaub, Rentenbeihilfe, Bildung im Bau)",
     "rechtsgrundlage": "BRTV Bau; SoKaSiG",
     "quelle_url": "https://soka-bau.de",
@@ -3952,7 +3952,7 @@
   {
     "id": "reg-sgb-iii-2",
     "title": "Kurzarbeitergeld Anzeige bei BA",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "Kurzarbeitergeld Anzeige bei BA",
     "rechtsgrundlage": "SGB III §95",
     "quelle_url": "https://gesetze-im-internet.de/sgb_3",
@@ -3969,7 +3969,7 @@
   {
     "id": "reg-sgb-iv-5",
     "title": "Sozialversicherung Praktikanten (ab 3 Monate: SV-pflichtig)",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "Sozialversicherung Praktikanten (ab 3 Monate: SV-pflichtig)",
     "rechtsgrundlage": "SGB IV §7",
     "quelle_url": "https://gesetze-im-internet.de/sgb_4",
@@ -3986,7 +3986,7 @@
   {
     "id": "reg-hgb",
     "title": "Buchführungspflicht (Kaufleute, Bilanzierung)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Buchführungspflicht (Kaufleute, Bilanzierung)",
     "rechtsgrundlage": "HGB §§238, 241a",
     "quelle_url": "https://gesetze-im-internet.de/hgb",
@@ -4003,7 +4003,7 @@
   {
     "id": "reg-hgb-2",
     "title": "Jahresabschluss Offenlegung im Unternehmensregister",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Jahresabschluss Offenlegung im Unternehmensregister",
     "rechtsgrundlage": "HGB §325",
     "quelle_url": "https://gesetze-im-internet.de/hgb",
@@ -4020,7 +4020,7 @@
   {
     "id": "reg-hgb-3",
     "title": "Pflichtprüfung durch Wirtschaftsprüfer",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Pflichtprüfung durch Wirtschaftsprüfer",
     "rechtsgrundlage": "HGB §316",
     "quelle_url": "https://gesetze-im-internet.de/hgb",
@@ -4038,7 +4038,7 @@
   {
     "id": "reg-ustg",
     "title": "E-Rechnungspflicht B2B (Empfang ab 2025, Versand gestaffelt bis 2028)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "E-Rechnungspflicht B2B (Empfang ab 2025, Versand gestaffelt bis 2028)",
     "rechtsgrundlage": "UStG §14",
     "quelle_url": "https://bundesfinanzministerium.de",
@@ -4055,7 +4055,7 @@
   {
     "id": "reg-ustg-2",
     "title": "Umsatzsteuervoranmeldung (monatlich/quartalsweise, ELSTER)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Umsatzsteuervoranmeldung (monatlich/quartalsweise, ELSTER)",
     "rechtsgrundlage": "UStG §18",
     "quelle_url": "https://gesetze-im-internet.de/ustg_1980",
@@ -4072,7 +4072,7 @@
   {
     "id": "reg-estg",
     "title": "Lohnsteueranmeldung (ELSTER, AG haftet)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Lohnsteueranmeldung (ELSTER, AG haftet)",
     "rechtsgrundlage": "EStG §41a",
     "quelle_url": "https://gesetze-im-internet.de/estg",
@@ -4089,7 +4089,7 @@
   {
     "id": "reg-ao",
     "title": "Aufbewahrungspflichten (10 J. Buchungsbelege, 6 J. sonstige)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Aufbewahrungspflichten (10 J. Buchungsbelege, 6 J. sonstige)",
     "rechtsgrundlage": "AO §147; HGB §257",
     "quelle_url": "https://gesetze-im-internet.de/ao_1977",
@@ -4106,7 +4106,7 @@
   {
     "id": "reg-gobd",
     "title": "GoBD (Unveränderbarkeit digitaler Buchführung)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "GoBD (Unveränderbarkeit digitaler Buchführung)",
     "rechtsgrundlage": "GoBD BMF-Schreiben 2020",
     "quelle_url": "https://bundesfinanzministerium.de",
@@ -4123,7 +4123,7 @@
   {
     "id": "reg-ao-2",
     "title": "Kassensicherungsverordnung TSE (ELSTER-Meldung, Belegpflicht)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Kassensicherungsverordnung TSE (ELSTER-Meldung, Belegpflicht)",
     "rechtsgrundlage": "AO §146a; KassenSichV",
     "quelle_url": "https://gesetze-im-internet.de/ao_1977",
@@ -4140,7 +4140,7 @@
   {
     "id": "reg-gewstg",
     "title": "Gewerbesteuer (Erklärung, Vorauszahlungen)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Gewerbesteuer (Erklärung, Vorauszahlungen)",
     "rechtsgrundlage": "GewStG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/gewstg",
@@ -4157,7 +4157,7 @@
   {
     "id": "reg-kstg",
     "title": "Körperschaftsteuer 15% + Soli",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Körperschaftsteuer 15% + Soli",
     "rechtsgrundlage": "KStG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/kstg_1977",
@@ -4174,7 +4174,7 @@
   {
     "id": "reg-ao-3",
     "title": "Verrechnungspreisdokumentation",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Verrechnungspreisdokumentation",
     "rechtsgrundlage": "AO §90 Abs.3; GAufzV",
     "quelle_url": "https://gesetze-im-internet.de/ao_1977",
@@ -4191,7 +4191,7 @@
   {
     "id": "reg-minstg",
     "title": "Globale Mindeststeuer Pillar 2 (15%)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Globale Mindeststeuer Pillar 2 (15%)",
     "rechtsgrundlage": "MinStG 2024",
     "quelle_url": "https://bundesfinanzministerium.de",
@@ -4208,7 +4208,7 @@
   {
     "id": "reg-hgb-4",
     "title": "CbCR Ertragsteuer-Informationsbericht",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "CbCR Ertragsteuer-Informationsbericht",
     "rechtsgrundlage": "HGB §§342b-342k",
     "quelle_url": "https://gesetze-im-internet.de/hgb",
@@ -4225,7 +4225,7 @@
   {
     "id": "reg-psttg",
     "title": "DAC7 Plattformmeldepflicht",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "DAC7 Plattformmeldepflicht",
     "rechtsgrundlage": "PStTG; EU-RL 2021/514",
     "quelle_url": "https://gesetze-im-internet.de/psttg",
@@ -4242,7 +4242,7 @@
   {
     "id": "reg-uzk",
     "title": "Zollanmeldung Einfuhr/Ausfuhr (EORI-Nummer)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Zollanmeldung Einfuhr/Ausfuhr (EORI-Nummer)",
     "rechtsgrundlage": "UZK EU-VO 952/2013",
     "quelle_url": "https://zoll.de",
@@ -4259,7 +4259,7 @@
   {
     "id": "reg-ustg-3",
     "title": "Kleinunternehmerregelung USt (bis 25.000 € Vorjahresumsatz)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Kleinunternehmerregelung USt (bis 25.000 € Vorjahresumsatz)",
     "rechtsgrundlage": "UStG §19",
     "quelle_url": "https://gesetze-im-internet.de/ustg_1980",
@@ -4276,7 +4276,7 @@
   {
     "id": "reg-ustg-4",
     "title": "OSS One-Stop-Shop (ausländische USt zentral in DE)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "OSS One-Stop-Shop (ausländische USt zentral in DE)",
     "rechtsgrundlage": "UStG §18j",
     "quelle_url": "https://elster.de",
@@ -4293,7 +4293,7 @@
   {
     "id": "reg-estg-2",
     "title": "ESt-Vorauszahlungen (15.3./15.6./15.9./15.12.)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "ESt-Vorauszahlungen (15.3./15.6./15.9./15.12.)",
     "rechtsgrundlage": "EStG §37",
     "quelle_url": "https://gesetze-im-internet.de/estg",
@@ -4310,7 +4310,7 @@
   {
     "id": "reg-eu-vo",
     "title": "IFRS Konzernabschluss",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "IFRS Konzernabschluss",
     "rechtsgrundlage": "EU-VO 1606/2002",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -4327,7 +4327,7 @@
   {
     "id": "reg-publg",
     "title": "Publizitätsgesetz (Offenlegung große Nicht-KapGes)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Publizitätsgesetz (Offenlegung große Nicht-KapGes)",
     "rechtsgrundlage": "PublG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/publg",
@@ -4345,7 +4345,7 @@
   {
     "id": "reg-erbstg",
     "title": "Erbschaftsteuer Unternehmen (Verschonung 85%/100%, Behaltensfrist 7 J.)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Erbschaftsteuer Unternehmen (Verschonung 85%/100%, Behaltensfrist 7 J.)",
     "rechtsgrundlage": "ErbStG §§13a-13c",
     "quelle_url": "https://gesetze-im-internet.de/erbstg_1974",
@@ -4636,7 +4636,7 @@
   {
     "id": "reg-eu-vo-6",
     "title": "EU Digital Services Act DSA (Meldestelle, Transparenz)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "EU Digital Services Act DSA (Meldestelle, Transparenz)",
     "rechtsgrundlage": "EU-VO 2022/2065",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -4653,7 +4653,7 @@
   {
     "id": "reg-eu-vo-7",
     "title": "EU Digital Markets Act DMA (Gatekeeper-Pflichten)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "EU Digital Markets Act DMA (Gatekeeper-Pflichten)",
     "rechtsgrundlage": "EU-VO 2022/1925",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -4670,7 +4670,7 @@
   {
     "id": "reg-tmg",
     "title": "Impressumspflicht (Name, Anschrift, Kontakt)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "Impressumspflicht (Name, Anschrift, Kontakt)",
     "rechtsgrundlage": "TMG §5",
     "quelle_url": "https://gesetze-im-internet.de/tmg",
@@ -4687,7 +4687,7 @@
   {
     "id": "reg-netzdg",
     "title": "Netzwerkdurchsetzungsgesetz NetzDG",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "Netzwerkdurchsetzungsgesetz NetzDG",
     "rechtsgrundlage": "NetzDG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/netzdg",
@@ -4704,7 +4704,7 @@
   {
     "id": "reg-pangv",
     "title": "Preisangabenverordnung PAngV (Gesamtpreis inkl. MwSt)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "Preisangabenverordnung PAngV (Gesamtpreis inkl. MwSt)",
     "rechtsgrundlage": "PAngV",
     "quelle_url": "https://gesetze-im-internet.de/pangv",
@@ -4721,7 +4721,7 @@
   {
     "id": "reg-bgb-2",
     "title": "Widerrufsrecht Online-Handel (14 Tage)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "Widerrufsrecht Online-Handel (14 Tage)",
     "rechtsgrundlage": "BGB §§312 ff.",
     "quelle_url": "https://gesetze-im-internet.de/bgb",
@@ -4738,7 +4738,7 @@
   {
     "id": "reg-bgb-3",
     "title": "AGB-Recht (Transparenz, keine unangemessene Benachteiligung)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "AGB-Recht (Transparenz, keine unangemessene Benachteiligung)",
     "rechtsgrundlage": "BGB §§305-310",
     "quelle_url": "https://gesetze-im-internet.de/bgb",
@@ -4755,7 +4755,7 @@
   {
     "id": "reg-prodhaftg",
     "title": "Produkthaftung (Haftung ohne Verschulden)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "Produkthaftung (Haftung ohne Verschulden)",
     "rechtsgrundlage": "ProdHaftG; EU-RL 2024/2853",
     "quelle_url": "https://gesetze-im-internet.de/prodhaftg",
@@ -4772,7 +4772,7 @@
   {
     "id": "reg-eu-vo-8",
     "title": "Produktsicherheitsverordnung GPSR (CE, Safety-Gate-Meldung)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "Produktsicherheitsverordnung GPSR (CE, Safety-Gate-Meldung)",
     "rechtsgrundlage": "EU-VO 2023/988",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -4789,7 +4789,7 @@
   {
     "id": "reg-uwg",
     "title": "Unlauterer Wettbewerb UWG (Werbung, Geschäftspraktiken)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "Unlauterer Wettbewerb UWG (Werbung, Geschäftspraktiken)",
     "rechtsgrundlage": "UWG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/uwg_2004",
@@ -4806,7 +4806,7 @@
   {
     "id": "reg-eu-rl",
     "title": "Greenwashing-Verbot (Nachweispflicht für Umweltaussagen, ab Sep. 2026)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "Greenwashing-Verbot (Nachweispflicht für Umweltaussagen, ab Sep. 2026)",
     "rechtsgrundlage": "EU-RL 2024/825",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -4823,7 +4823,7 @@
   {
     "id": "reg-uwg-2",
     "title": "E-Mail/Telefon-Werbung (Einwilligungspflicht)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "E-Mail/Telefon-Werbung (Einwilligungspflicht)",
     "rechtsgrundlage": "UWG §7",
     "quelle_url": "https://gesetze-im-internet.de/uwg_2004",
@@ -4840,7 +4840,7 @@
   {
     "id": "reg-vsbg",
     "title": "Verbraucherstreitbeilegung (Hinweispflicht)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "Verbraucherstreitbeilegung (Hinweispflicht)",
     "rechtsgrundlage": "VSBG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/vsbg",
@@ -4857,7 +4857,7 @@
   {
     "id": "reg-eu-vo-9",
     "title": "Kosmetikrecht (Sicherheitsbewertung, CPNP-Notifizierung)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "Kosmetikrecht (Sicherheitsbewertung, CPNP-Notifizierung)",
     "rechtsgrundlage": "EU-VO 1223/2009",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -5302,7 +5302,7 @@
   {
     "id": "reg-eeg",
     "title": "EEG Einspeisevergütung (Registrierung MaStR, Direktvermarktung)",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "EEG Einspeisevergütung (Registrierung MaStR, Direktvermarktung)",
     "rechtsgrundlage": "EEG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/eeg_2023",
@@ -5319,7 +5319,7 @@
   {
     "id": "reg-kwkg",
     "title": "KWKG Kraft-Wärme-Kopplung (Zuschlagszahlungen, BAFA)",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "KWKG Kraft-Wärme-Kopplung (Zuschlagszahlungen, BAFA)",
     "rechtsgrundlage": "KWKG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/kwkg_2016",
@@ -5336,7 +5336,7 @@
   {
     "id": "reg-mastrv",
     "title": "Marktstammdatenregister (Strom-/Gas-Anlagen ab 7 kW)",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "Marktstammdatenregister (Strom-/Gas-Anlagen ab 7 kW)",
     "rechtsgrundlage": "MaStRV; EnWG §111e",
     "quelle_url": "https://marktstammdatenregister.de",
@@ -5353,7 +5353,7 @@
   {
     "id": "reg-msbg",
     "title": "Smart Meter Pflicht (6.000–100.000 kWh und Anlagen ab 7 kW)",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "Smart Meter Pflicht (6.000–100.000 kWh und Anlagen ab 7 kW)",
     "rechtsgrundlage": "MsbG §§29-32",
     "quelle_url": "https://bundesnetzagentur.de",
@@ -5370,7 +5370,7 @@
   {
     "id": "reg-envkv",
     "title": "Energieverbrauchskennzeichnung A-G (Elektrogeräte)",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "Energieverbrauchskennzeichnung A-G (Elektrogeräte)",
     "rechtsgrundlage": "EnVKV; EU-VO 2017/1369",
     "quelle_url": "https://gesetze-im-internet.de/envkv",
@@ -5387,7 +5387,7 @@
   {
     "id": "reg-kav",
     "title": "Konzessionsabgabe (Energieversorger an Gemeinden)",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "Konzessionsabgabe (Energieversorger an Gemeinden)",
     "rechtsgrundlage": "KAV",
     "quelle_url": "https://gesetze-im-internet.de/kav",
@@ -5404,7 +5404,7 @@
   {
     "id": "reg-enwg",
     "title": "Netzentgelttransparenz (Genehmigungspflicht BNetzA)",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "Netzentgelttransparenz (Genehmigungspflicht BNetzA)",
     "rechtsgrundlage": "EnWG §20a",
     "quelle_url": "https://gesetze-im-internet.de/enwg_2005",
@@ -5421,7 +5421,7 @@
   {
     "id": "reg-avbfernwaermev",
     "title": "Fernwärme Preisregelung (Anschluss- und Versorgungspflicht)",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "Fernwärme Preisregelung (Anschluss- und Versorgungspflicht)",
     "rechtsgrundlage": "AVBFernwärmeV",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -5438,7 +5438,7 @@
   {
     "id": "reg-kwg",
     "title": "BaFin Bankenlizenz (Eigenkapitalanforderungen CRR)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "BaFin Bankenlizenz (Eigenkapitalanforderungen CRR)",
     "rechtsgrundlage": "KWG §§1, 32; CRR",
     "quelle_url": "https://gesetze-im-internet.de/kredwg",
@@ -5455,7 +5455,7 @@
   {
     "id": "reg-wphg",
     "title": "MiFID II Wertpapierrecht (Wohlverhaltensregeln, Best Execution)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "MiFID II Wertpapierrecht (Wohlverhaltensregeln, Best Execution)",
     "rechtsgrundlage": "WpHG; MiFID II RL 2014/65",
     "quelle_url": "https://gesetze-im-internet.de/wphg",
@@ -5472,7 +5472,7 @@
   {
     "id": "reg-vag",
     "title": "Versicherungsaufsicht Solvency II (SCR, Berichtspflichten)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Versicherungsaufsicht Solvency II (SCR, Berichtspflichten)",
     "rechtsgrundlage": "VAG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/vag_2016",
@@ -5489,7 +5489,7 @@
   {
     "id": "reg-zag",
     "title": "PSD2 Zahlungsdienste (SCA, Open Banking)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "PSD2 Zahlungsdienste (SCA, Open Banking)",
     "rechtsgrundlage": "ZAG; EU-RL 2015/2366",
     "quelle_url": "https://gesetze-im-internet.de/zag_2018",
@@ -5506,7 +5506,7 @@
   {
     "id": "reg-eu-vo-18",
     "title": "MiCA Kryptowerte (BaFin-Lizenz, Whitepaper, Reserven)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "MiCA Kryptowerte (BaFin-Lizenz, Whitepaper, Reserven)",
     "rechtsgrundlage": "EU-VO 2023/1114",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -5523,7 +5523,7 @@
   {
     "id": "reg-eu-vo-19",
     "title": "DORA digitale Resilienz Finanzsektor",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "DORA digitale Resilienz Finanzsektor",
     "rechtsgrundlage": "EU-VO 2022/2554",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -5540,7 +5540,7 @@
   {
     "id": "reg-gwg-2",
     "title": "Transparenzregister (wirtschaftlich Berechtigte)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Transparenzregister (wirtschaftlich Berechtigte)",
     "rechtsgrundlage": "GwG §§18-26c",
     "quelle_url": "https://transparenzregister.de",
@@ -5557,7 +5557,7 @@
   {
     "id": "reg-eu-vo-20",
     "title": "Insiderrecht / Marktmissbrauch (MAR)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Insiderrecht / Marktmissbrauch (MAR)",
     "rechtsgrundlage": "EU-VO 596/2014",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -5574,7 +5574,7 @@
   {
     "id": "reg-mar",
     "title": "Ad-hoc-Meldepflicht (Insiderinformationen unverzüglich)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Ad-hoc-Meldepflicht (Insiderinformationen unverzüglich)",
     "rechtsgrundlage": "MAR Art.17",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -5591,7 +5591,7 @@
   {
     "id": "reg-wphg-2",
     "title": "Stimmrechtsmeldepflichten (3/5/10/…/75%)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Stimmrechtsmeldepflichten (3/5/10/…/75%)",
     "rechtsgrundlage": "WpHG §§33 ff.",
     "quelle_url": "https://gesetze-im-internet.de/wphg",
@@ -5608,7 +5608,7 @@
   {
     "id": "reg-eu-vo-21",
     "title": "Prospektpflicht bei Wertpapierangeboten ab 8 Mio. €",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Prospektpflicht bei Wertpapierangeboten ab 8 Mio. €",
     "rechtsgrundlage": "EU-VO 2017/1129",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -5625,7 +5625,7 @@
   {
     "id": "reg-kagb",
     "title": "Alternative Investmentfonds AIFMD (BaFin-Lizenz, Risikomanagement)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Alternative Investmentfonds AIFMD (BaFin-Lizenz, Risikomanagement)",
     "rechtsgrundlage": "KAGB; EU-RL 2011/61",
     "quelle_url": "https://gesetze-im-internet.de/kagb",
@@ -5642,7 +5642,7 @@
   {
     "id": "reg-eu-vo-22",
     "title": "Crowdfunding Regulierung (BaFin-Zulassung, max. 5 Mio. €/Projekt)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Crowdfunding Regulierung (BaFin-Zulassung, max. 5 Mio. €/Projekt)",
     "rechtsgrundlage": "EU-VO 2020/1503",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -5659,7 +5659,7 @@
   {
     "id": "reg-bgb-4",
     "title": "Bonitätsprüfungspflicht Verbraucherkredite",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Bonitätsprüfungspflicht Verbraucherkredite",
     "rechtsgrundlage": "BGB §505a; VKrRL 2023",
     "quelle_url": "https://gesetze-im-internet.de/bgb",
@@ -5676,7 +5676,7 @@
   {
     "id": "reg-zag-2",
     "title": "Zahlungsdienste SCA (2 Faktoren bei Online-Zahlung)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Zahlungsdienste SCA (2 Faktoren bei Online-Zahlung)",
     "rechtsgrundlage": "ZAG §55; PSD2 Art.97",
     "quelle_url": "https://gesetze-im-internet.de/zag_2018",
@@ -5693,7 +5693,7 @@
   {
     "id": "reg-boershg",
     "title": "Börsenzulassung (Prospekt, laufende Meldepflichten)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Börsenzulassung (Prospekt, laufende Meldepflichten)",
     "rechtsgrundlage": "BörsHG §§32 ff.",
     "quelle_url": "https://gesetze-im-internet.de/boersehg",
@@ -5710,7 +5710,7 @@
   {
     "id": "reg-eu-vo-23",
     "title": "SFDR Nachhaltigkeitsoffenlegung Finanzprodukte",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "SFDR Nachhaltigkeitsoffenlegung Finanzprodukte",
     "rechtsgrundlage": "EU-VO 2019/2088",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -5727,7 +5727,7 @@
   {
     "id": "reg-stgb",
     "title": "Antikorruption (Bestechung im Geschäftsverkehr strafbar)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Antikorruption (Bestechung im Geschäftsverkehr strafbar)",
     "rechtsgrundlage": "StGB §§299-335b",
     "quelle_url": "https://gesetze-im-internet.de/stgb",
@@ -5744,7 +5744,7 @@
   {
     "id": "reg-awg",
     "title": "Sanktionslisten-Prüfpflicht (EU/UN/US vor Geschäftsbeziehung)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Sanktionslisten-Prüfpflicht (EU/UN/US vor Geschäftsbeziehung)",
     "rechtsgrundlage": "AWG §17; EU-Sanktionsrecht",
     "quelle_url": "https://gesetze-im-internet.de/awg_2013",
@@ -5761,7 +5761,7 @@
   {
     "id": "reg-dual-use-vo",
     "title": "Exportkontrolle Dual-Use (BAFA-Genehmigung)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Exportkontrolle Dual-Use (BAFA-Genehmigung)",
     "rechtsgrundlage": "Dual-Use-VO 2021/821; AWG/AWV",
     "quelle_url": "https://bafa.de",
@@ -5778,7 +5778,7 @@
   {
     "id": "reg-krwaffkontrg",
     "title": "Rüstungsexportkontrolle",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Rüstungsexportkontrolle",
     "rechtsgrundlage": "KrWaffKontrG; AWG; AWV",
     "quelle_url": "https://gesetze-im-internet.de/krwaffkontrg",
@@ -5795,7 +5795,7 @@
   {
     "id": "reg-gwb",
     "title": "Vergabe öffentlicher Aufträge (EU-Schwellenwerte)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Vergabe öffentlicher Aufträge (EU-Schwellenwerte)",
     "rechtsgrundlage": "GWB §§97ff.; VgV",
     "quelle_url": "https://gesetze-im-internet.de/gwb",
@@ -5812,7 +5812,7 @@
   {
     "id": "reg-stgb-2",
     "title": "Berufsgeheimnisschutz (Ärzte, Anwälte, Steuerberater)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Berufsgeheimnisschutz (Ärzte, Anwälte, Steuerberater)",
     "rechtsgrundlage": "StGB §203",
     "quelle_url": "https://gesetze-im-internet.de/stgb",
@@ -5829,7 +5829,7 @@
   {
     "id": "reg-vob-b",
     "title": "VOB/B öffentliche Bauverträge (Abnahme, Mängelhaftung, Kündigung)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "VOB/B öffentliche Bauverträge (Abnahme, Mängelhaftung, Kündigung)",
     "rechtsgrundlage": "VOB/B",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -5846,7 +5846,7 @@
   {
     "id": "reg-gewo-2",
     "title": "Gewerbeanmeldung (Beginn, Änderung, Aufgabe)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Gewerbeanmeldung (Beginn, Änderung, Aufgabe)",
     "rechtsgrundlage": "GewO §14",
     "quelle_url": "https://gesetze-im-internet.de/gewo",
@@ -5863,7 +5863,7 @@
   {
     "id": "reg-gewo-3",
     "title": "Bewachungsgewerbe (Zuverlässigkeit, IHK-Sachkundeprüfung)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Bewachungsgewerbe (Zuverlässigkeit, IHK-Sachkundeprüfung)",
     "rechtsgrundlage": "GewO §34a; BewachV",
     "quelle_url": "https://gesetze-im-internet.de/gewo",
@@ -5880,7 +5880,7 @@
   {
     "id": "reg-gewo-4",
     "title": "Immobilienmaklererlaubnis",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Immobilienmaklererlaubnis",
     "rechtsgrundlage": "GewO §34c",
     "quelle_url": "https://gesetze-im-internet.de/gewo",
@@ -5897,7 +5897,7 @@
   {
     "id": "reg-gewo-5",
     "title": "Versicherungsvermittlung (IHK-Registrierung, Haftpflicht)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Versicherungsvermittlung (IHK-Registrierung, Haftpflicht)",
     "rechtsgrundlage": "GewO §34d",
     "quelle_url": "https://gesetze-im-internet.de/gewo",
@@ -5914,7 +5914,7 @@
   {
     "id": "reg-gewo-6",
     "title": "Finanzanlagenvermittlung (DIRANICO-Registrierung)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Finanzanlagenvermittlung (DIRANICO-Registrierung)",
     "rechtsgrundlage": "GewO §34f",
     "quelle_url": "https://gesetze-im-internet.de/gewo",
@@ -5931,7 +5931,7 @@
   {
     "id": "reg-hwo",
     "title": "Meisterpflicht (41 Handwerke)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Meisterpflicht (41 Handwerke)",
     "rechtsgrundlage": "HwO §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/hwo",
@@ -5948,7 +5948,7 @@
   {
     "id": "reg-hwo-2",
     "title": "Handwerkskammer Pflichtmitgliedschaft",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Handwerkskammer Pflichtmitgliedschaft",
     "rechtsgrundlage": "HwO §§90ff.",
     "quelle_url": "https://gesetze-im-internet.de/hwo",
@@ -5965,7 +5965,7 @@
   {
     "id": "reg-ihkg",
     "title": "IHK Pflichtmitgliedschaft",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "IHK Pflichtmitgliedschaft",
     "rechtsgrundlage": "IHKG §2",
     "quelle_url": "https://gesetze-im-internet.de/ihkg",
@@ -5982,7 +5982,7 @@
   {
     "id": "reg-gwb-2",
     "title": "Kartellverbot (Preisabsprachen)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Kartellverbot (Preisabsprachen)",
     "rechtsgrundlage": "GWB §1; Art.101 AEUV",
     "quelle_url": "https://gesetze-im-internet.de/gwb",
@@ -5999,7 +5999,7 @@
   {
     "id": "reg-gwb-3",
     "title": "Fusionskontrolle (ab 25 Mio. € DE-Umsatz beim BKartA)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Fusionskontrolle (ab 25 Mio. € DE-Umsatz beim BKartA)",
     "rechtsgrundlage": "GWB §§35-43",
     "quelle_url": "https://gesetze-im-internet.de/gwb",
@@ -6016,7 +6016,7 @@
   {
     "id": "reg-inso",
     "title": "Insolvenzantragspflicht (max. 3 Wochen)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Insolvenzantragspflicht (max. 3 Wochen)",
     "rechtsgrundlage": "InsO §15a",
     "quelle_url": "https://gesetze-im-internet.de/inso",
@@ -6033,7 +6033,7 @@
   {
     "id": "reg-gmbhg",
     "title": "GmbH-Gründung (min. 25.000 € Stammkapital, HR-Eintragung)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "GmbH-Gründung (min. 25.000 € Stammkapital, HR-Eintragung)",
     "rechtsgrundlage": "GmbHG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/gmbhg",
@@ -6050,7 +6050,7 @@
   {
     "id": "reg-gmbhg-2",
     "title": "Haftung Geschäftsführer (persönlich bei Pflichtverletzung)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Haftung Geschäftsführer (persönlich bei Pflichtverletzung)",
     "rechtsgrundlage": "GmbHG §43",
     "quelle_url": "https://gesetze-im-internet.de/gmbhg",
@@ -6067,7 +6067,7 @@
   {
     "id": "reg-aktg",
     "title": "Vorstandshaftung AG (Business Judgement Rule)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Vorstandshaftung AG (Business Judgement Rule)",
     "rechtsgrundlage": "AktG §93",
     "quelle_url": "https://gesetze-im-internet.de/aktg",
@@ -6084,7 +6084,7 @@
   {
     "id": "reg-dcgk",
     "title": "Corporate Governance DCGK (comply-or-explain)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Corporate Governance DCGK (comply-or-explain)",
     "rechtsgrundlage": "DCGK; AktG §161",
     "quelle_url": "https://gesetze-im-internet.de/aktg",
@@ -6101,7 +6101,7 @@
   {
     "id": "reg-aktg-2",
     "title": "Vergütungsbericht Vorstand (jährlich, HV-Abstimmung)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Vergütungsbericht Vorstand (jährlich, HV-Abstimmung)",
     "rechtsgrundlage": "AktG §162; EU-AktionärsRL",
     "quelle_url": "https://gesetze-im-internet.de/aktg",
@@ -6118,7 +6118,7 @@
   {
     "id": "reg-markeng",
     "title": "Markenschutz (Benutzungspflicht 5 J., DPMA-Anmeldung)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Markenschutz (Benutzungspflicht 5 J., DPMA-Anmeldung)",
     "rechtsgrundlage": "MarkenG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/markeng",
@@ -6135,7 +6135,7 @@
   {
     "id": "reg-patg",
     "title": "Patentrecht (20 J. Schutz, DPMA-Anmeldung, Jahresgebühren)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Patentrecht (20 J. Schutz, DPMA-Anmeldung, Jahresgebühren)",
     "rechtsgrundlage": "PatG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/patg",
@@ -6152,7 +6152,7 @@
   {
     "id": "reg-designg",
     "title": "Designrecht (25 J. Schutz, DPMA-Eintragung)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Designrecht (25 J. Schutz, DPMA-Eintragung)",
     "rechtsgrundlage": "DesignG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/geschmmg",
@@ -6169,7 +6169,7 @@
   {
     "id": "reg-stberg",
     "title": "Steuerberaterzulassung (Kammermitgliedschaft, Berufshaftpflicht)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Steuerberaterzulassung (Kammermitgliedschaft, Berufshaftpflicht)",
     "rechtsgrundlage": "StBerG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/stberg",
@@ -6186,7 +6186,7 @@
   {
     "id": "reg-pflvg",
     "title": "Pflichtversicherung KFZ (Haftpflicht, Mindestdeckungssummen)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Pflichtversicherung KFZ (Haftpflicht, Mindestdeckungssummen)",
     "rechtsgrundlage": "PflVG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/pflvg",
@@ -6203,7 +6203,7 @@
   {
     "id": "reg-tkg",
     "title": "Telekommunikation Anzeige bei BNetzA",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Telekommunikation Anzeige bei BNetzA",
     "rechtsgrundlage": "TKG §3",
     "quelle_url": "https://gesetze-im-internet.de/tkg_2021",
@@ -6220,7 +6220,7 @@
   {
     "id": "reg-amg",
     "title": "Arzneimittelgesetz (Zulassung, GMP, Pharmakovigilanz)",
-    "category": "Recht",
+    "category": "Gesundheit",
     "beschreibung": "Arzneimittelgesetz (Zulassung, GMP, Pharmakovigilanz)",
     "rechtsgrundlage": "AMG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/amg_1976",
@@ -6237,7 +6237,7 @@
   {
     "id": "reg-eu-vo-24",
     "title": "Medizinprodukte MDR (CE, Benannte Stelle ab Klasse IIa)",
-    "category": "Recht",
+    "category": "Gesundheit",
     "beschreibung": "Medizinprodukte MDR (CE, Benannte Stelle ab Klasse IIa)",
     "rechtsgrundlage": "EU-VO 2017/745",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -6254,7 +6254,7 @@
   {
     "id": "reg-ifsg",
     "title": "Infektionsschutzgesetz Meldepflicht",
-    "category": "Recht",
+    "category": "Gesundheit",
     "beschreibung": "Infektionsschutzgesetz Meldepflicht",
     "rechtsgrundlage": "IfSG §§6-9",
     "quelle_url": "https://gesetze-im-internet.de/ifsg",
@@ -6271,7 +6271,7 @@
   {
     "id": "reg-apog",
     "title": "Apothekenrecht (Approbation, Rx-Arzneimittelpflicht)",
-    "category": "Recht",
+    "category": "Gesundheit",
     "beschreibung": "Apothekenrecht (Approbation, Rx-Arzneimittelpflicht)",
     "rechtsgrundlage": "ApoG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/apog",
@@ -6288,7 +6288,7 @@
   {
     "id": "reg-baeo",
     "title": "Arzt-Approbation + GKV-Kassenzulassung",
-    "category": "Recht",
+    "category": "Gesundheit",
     "beschreibung": "Arzt-Approbation + GKV-Kassenzulassung",
     "rechtsgrundlage": "BÄO; SGB V",
     "quelle_url": "https://gesetze-im-internet.de/baeppo",
@@ -6305,7 +6305,7 @@
   {
     "id": "reg-sgb-v",
     "title": "Krankenhaus Qualitätsbericht (jährlich, G-BA)",
-    "category": "Recht",
+    "category": "Gesundheit",
     "beschreibung": "Krankenhaus Qualitätsbericht (jährlich, G-BA)",
     "rechtsgrundlage": "SGB V §137",
     "quelle_url": "https://gesetze-im-internet.de/sgb_5",
@@ -6322,7 +6322,7 @@
   {
     "id": "reg-sgb-xi",
     "title": "Pflegeversicherung Versorgungsvertrag",
-    "category": "Recht",
+    "category": "Gesundheit",
     "beschreibung": "Pflegeversicherung Versorgungsvertrag",
     "rechtsgrundlage": "SGB XI §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/sgb_11",
@@ -6339,7 +6339,7 @@
   {
     "id": "reg-heimgesetze",
     "title": "Heimrecht Pflegeeinrichtungen (Betriebserlaubnis, Personalschlüssel)",
-    "category": "Recht",
+    "category": "Gesundheit",
     "beschreibung": "Heimrecht Pflegeeinrichtungen (Betriebserlaubnis, Personalschlüssel)",
     "rechtsgrundlage": "Heimgesetze Länder",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -6356,7 +6356,7 @@
   {
     "id": "reg-rilibaek",
     "title": "Labormedizin Qualitätssicherung (Ringversuche, RiliBäk)",
-    "category": "Recht",
+    "category": "Gesundheit",
     "beschreibung": "Labormedizin Qualitätssicherung (Ringversuche, RiliBäk)",
     "rechtsgrundlage": "RiliBäK",
     "quelle_url": "https://bundesaerztekammer.de",
@@ -6373,7 +6373,7 @@
   {
     "id": "reg-vo",
     "title": "Fahrpersonalverordnung (Lenk-/Ruhezeiten, digitaler Fahrtenschreiber)",
-    "category": "Recht",
+    "category": "Transport",
     "beschreibung": "Fahrpersonalverordnung (Lenk-/Ruhezeiten, digitaler Fahrtenschreiber)",
     "rechtsgrundlage": "VO 561/2006; FPersV",
     "quelle_url": "https://gesetze-im-internet.de/fpersv",
@@ -6390,7 +6390,7 @@
   {
     "id": "reg-bkrfqg",
     "title": "Berufskraftfahrer Qualifikation (Grundqualifikation + Weiterbildung alle 5 J.)",
-    "category": "Recht",
+    "category": "Transport",
     "beschreibung": "Berufskraftfahrer Qualifikation (Grundqualifikation + Weiterbildung alle 5 J.)",
     "rechtsgrundlage": "BKrFQG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/bkrfqg",
@@ -6407,7 +6407,7 @@
   {
     "id": "reg-ggvseb",
     "title": "Gefahrgutrecht ADR (Gefahrzettel, Gefahrgutbeauftragter)",
-    "category": "Recht",
+    "category": "Transport",
     "beschreibung": "Gefahrgutrecht ADR (Gefahrzettel, Gefahrgutbeauftragter)",
     "rechtsgrundlage": "GGVSEB; ADR",
     "quelle_url": "https://gesetze-im-internet.de/ggvseb",
@@ -6424,7 +6424,7 @@
   {
     "id": "reg-guekg",
     "title": "Güterkraftverkehrserlaubnis EU-Lizenz",
-    "category": "Recht",
+    "category": "Transport",
     "beschreibung": "Güterkraftverkehrserlaubnis EU-Lizenz",
     "rechtsgrundlage": "GüKG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/guerkg",
@@ -6441,7 +6441,7 @@
   {
     "id": "reg-pbefg",
     "title": "Personenbeförderungsgesetz (Bus, Taxi, Mietwagen: Konzession)",
-    "category": "Recht",
+    "category": "Transport",
     "beschreibung": "Personenbeförderungsgesetz (Bus, Taxi, Mietwagen: Konzession)",
     "rechtsgrundlage": "PBefG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/pbefg",
@@ -6458,7 +6458,7 @@
   {
     "id": "reg-bfstrmg",
     "title": "LKW-Maut (ab 3,5 t zGM, alle Bundesstraßen)",
-    "category": "Recht",
+    "category": "Transport",
     "beschreibung": "LKW-Maut (ab 3,5 t zGM, alle Bundesstraßen)",
     "rechtsgrundlage": "BFStrMG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/bfstrmg",
@@ -6475,7 +6475,7 @@
   {
     "id": "reg-luftvg",
     "title": "Luftfahrtrecht (Betriebsgenehmigung LBA, Drohnen)",
-    "category": "Recht",
+    "category": "Transport",
     "beschreibung": "Luftfahrtrecht (Betriebsgenehmigung LBA, Drohnen)",
     "rechtsgrundlage": "LuftVG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/luftvg",
@@ -6492,7 +6492,7 @@
   {
     "id": "reg-binschg",
     "title": "Binnenschifffahrtsrecht (Zulassung Schiff, Schifferführerschein)",
-    "category": "Recht",
+    "category": "Transport",
     "beschreibung": "Binnenschifffahrtsrecht (Zulassung Schiff, Schifferführerschein)",
     "rechtsgrundlage": "BinSchG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/binnschg",
@@ -6509,7 +6509,7 @@
   {
     "id": "reg-aeg",
     "title": "Bahnrecht Eisenbahn (Sicherheitsbescheinigung EBA)",
-    "category": "Recht",
+    "category": "Transport",
     "beschreibung": "Bahnrecht Eisenbahn (Sicherheitsbescheinigung EBA)",
     "rechtsgrundlage": "AEG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/aeg_1994",
@@ -6526,7 +6526,7 @@
   {
     "id": "reg-vo-2",
     "title": "HACCP-Konzept (Eigenkontrolle, Dokumentation, Schulung)",
-    "category": "Recht",
+    "category": "Lebensmittelrecht",
     "beschreibung": "HACCP-Konzept (Eigenkontrolle, Dokumentation, Schulung)",
     "rechtsgrundlage": "VO 852/2004; LMHV",
     "quelle_url": "https://gesetze-im-internet.de/lmhv",
@@ -6543,7 +6543,7 @@
   {
     "id": "reg-eu-vo-25",
     "title": "Lebensmittelkennzeichnung (Zutaten, Allergene, Nährwerte, MHD)",
-    "category": "Recht",
+    "category": "Lebensmittelrecht",
     "beschreibung": "Lebensmittelkennzeichnung (Zutaten, Allergene, Nährwerte, MHD)",
     "rechtsgrundlage": "EU-VO 1169/2011 (LMIV)",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -6560,7 +6560,7 @@
   {
     "id": "reg-lfgb",
     "title": "LFGB (Inverkehrbringen Lebensmittel und Bedarfsgegenstände)",
-    "category": "Recht",
+    "category": "Lebensmittelrecht",
     "beschreibung": "LFGB (Inverkehrbringen Lebensmittel und Bedarfsgegenstände)",
     "rechtsgrundlage": "LFGB §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/lfgb",
@@ -6577,7 +6577,7 @@
   {
     "id": "reg-eu-vo-26",
     "title": "Bio-Zertifizierung (anerkannte Kontrollstelle, jährliche Kontrolle)",
-    "category": "Recht",
+    "category": "Lebensmittelrecht",
     "beschreibung": "Bio-Zertifizierung (anerkannte Kontrollstelle, jährliche Kontrolle)",
     "rechtsgrundlage": "EU-VO 2018/848",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -6594,7 +6594,7 @@
   {
     "id": "reg-vo-3",
     "title": "Fleischhygiene (amtliche Tierärztin, Genusstauglichkeitskennzeichnung)",
-    "category": "Recht",
+    "category": "Lebensmittelrecht",
     "beschreibung": "Fleischhygiene (amtliche Tierärztin, Genusstauglichkeitskennzeichnung)",
     "rechtsgrundlage": "VO 854/2004; Tier-LMHV",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -6611,7 +6611,7 @@
   {
     "id": "reg-eu-vo-27",
     "title": "Novel Food Zulassung",
-    "category": "Recht",
+    "category": "Lebensmittelrecht",
     "beschreibung": "Novel Food Zulassung",
     "rechtsgrundlage": "EU-VO 2015/2283",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -6628,7 +6628,7 @@
   {
     "id": "reg-tabakerzg",
     "title": "Tabakerzeugniskontrolle (Warnhinweise, Track-and-Trace)",
-    "category": "Recht",
+    "category": "Lebensmittelrecht",
     "beschreibung": "Tabakerzeugniskontrolle (Warnhinweise, Track-and-Trace)",
     "rechtsgrundlage": "TabakerzG; EU-RL 2014/40",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -6747,7 +6747,7 @@
   {
     "id": "reg-eu-vo-28",
     "title": "Cross Compliance (EU-Förderung: Umwelt-, Tierschutz-, Lebensmittelauflagen)",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "Cross Compliance (EU-Förderung: Umwelt-, Tierschutz-, Lebensmittelauflagen)",
     "rechtsgrundlage": "EU-VO 2021/2115; InVeKoSV",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -6764,7 +6764,7 @@
   {
     "id": "reg-tierschg",
     "title": "Tierschutzgesetz (artgerechte Haltung, Betäubungspflicht)",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "Tierschutzgesetz (artgerechte Haltung, Betäubungspflicht)",
     "rechtsgrundlage": "TierSchG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/tierschg",
@@ -6781,7 +6781,7 @@
   {
     "id": "reg-tiergesg",
     "title": "Tierseuchenrecht (Meldepflicht, Bestandsregister)",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "Tierseuchenrecht (Meldepflicht, Bestandsregister)",
     "rechtsgrundlage": "TierGesG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/tiergesg",
@@ -6798,7 +6798,7 @@
   {
     "id": "reg-bwaldg",
     "title": "Forstrecht (Wiederaufforstungspflicht nach Einschlag)",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "Forstrecht (Wiederaufforstungspflicht nach Einschlag)",
     "rechtsgrundlage": "BWaldG; Länder",
     "quelle_url": "https://gesetze-im-internet.de/bwaldg",
@@ -6815,7 +6815,7 @@
   {
     "id": "reg-duengeg",
     "title": "Düngemittelrecht (Zulassung, Schwermetallgrenzwerte)",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "Düngemittelrecht (Zulassung, Schwermetallgrenzwerte)",
     "rechtsgrundlage": "DüngeG; DüMV",
     "quelle_url": "https://gesetze-im-internet.de/duengg",
@@ -6832,7 +6832,7 @@
   {
     "id": "reg-eu-vo-29",
     "title": "Direktzahlungen Landwirte (jährlicher Antrag, Konditionalität)",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "Direktzahlungen Landwirte (jährlicher Antrag, Konditionalität)",
     "rechtsgrundlage": "EU-VO 2021/2116",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -6934,7 +6934,7 @@
   {
     "id": "reg-eu-vo-30",
     "title": "Maschinenverordnung (CE, technische Dokumentation)",
-    "category": "Recht",
+    "category": "Produktrecht",
     "beschreibung": "Maschinenverordnung (CE, technische Dokumentation)",
     "rechtsgrundlage": "EU-VO 2023/1230",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -6951,7 +6951,7 @@
   {
     "id": "reg-1",
     "title": "Niederspannungsrichtlinie LVD (50V–1000V, CE)",
-    "category": "Recht",
+    "category": "Produktrecht",
     "beschreibung": "Niederspannungsrichtlinie LVD (50V–1000V, CE)",
     "rechtsgrundlage": "1. ProdSV; LVD 2014/35",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -6968,7 +6968,7 @@
   {
     "id": "reg-emvg",
     "title": "EMV-Richtlinie (elektromagnetische Emissionen, CE)",
-    "category": "Recht",
+    "category": "Produktrecht",
     "beschreibung": "EMV-Richtlinie (elektromagnetische Emissionen, CE)",
     "rechtsgrundlage": "EMVG; EMV-RL 2014/30",
     "quelle_url": "https://gesetze-im-internet.de/emvg",
@@ -6985,7 +6985,7 @@
   {
     "id": "reg-fuag",
     "title": "Funkanlagen-Richtlinie RED (WLAN, Bluetooth, Mobilfunk)",
-    "category": "Recht",
+    "category": "Produktrecht",
     "beschreibung": "Funkanlagen-Richtlinie RED (WLAN, Bluetooth, Mobilfunk)",
     "rechtsgrundlage": "FuAg; RED 2014/53",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7002,7 +7002,7 @@
   {
     "id": "reg-14",
     "title": "Druckgeräterichtlinie PED",
-    "category": "Recht",
+    "category": "Produktrecht",
     "beschreibung": "Druckgeräterichtlinie PED",
     "rechtsgrundlage": "14. ProdSV; DGRL 2014/68",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7019,7 +7019,7 @@
   {
     "id": "reg-eu-rl-3",
     "title": "Aufzugsrichtlinie (neue Aufzüge: CE, Konformitätsprüfung)",
-    "category": "Recht",
+    "category": "Produktrecht",
     "beschreibung": "Aufzugsrichtlinie (neue Aufzüge: CE, Konformitätsprüfung)",
     "rechtsgrundlage": "EU-RL 2014/33",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -7036,7 +7036,7 @@
   {
     "id": "reg-spielzv",
     "title": "Spielzeugrichtlinie (CE, Sicherheitsanforderungen, Alterseinstufung)",
-    "category": "Recht",
+    "category": "Produktrecht",
     "beschreibung": "Spielzeugrichtlinie (CE, Sicherheitsanforderungen, Alterseinstufung)",
     "rechtsgrundlage": "SpielzV; RL 2009/48/EG",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7053,7 +7053,7 @@
   {
     "id": "reg-eu-vo-31",
     "title": "Ökodesign-Verordnung ESPR (Mindestanforderungen, gestaffelt ab 2026)",
-    "category": "Recht",
+    "category": "Produktrecht",
     "beschreibung": "Ökodesign-Verordnung ESPR (Mindestanforderungen, gestaffelt ab 2026)",
     "rechtsgrundlage": "EU-VO 2024/1781",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -7070,7 +7070,7 @@
   {
     "id": "reg-brao",
     "title": "Rechtsanwaltszulassung (Kammermitgliedschaft, Berufspflichten)",
-    "category": "Recht",
+    "category": "Berufsrecht",
     "beschreibung": "Rechtsanwaltszulassung (Kammermitgliedschaft, Berufspflichten)",
     "rechtsgrundlage": "BRAO §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/brao",
@@ -7087,7 +7087,7 @@
   {
     "id": "reg-bnoto",
     "title": "Notarzulassung (staatliche Bestellung, Amtspflichten)",
-    "category": "Recht",
+    "category": "Berufsrecht",
     "beschreibung": "Notarzulassung (staatliche Bestellung, Amtspflichten)",
     "rechtsgrundlage": "BNotO §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/bnoto",
@@ -7104,7 +7104,7 @@
   {
     "id": "reg-wpo",
     "title": "Wirtschaftsprüfer Bestellung (WPK, Unabhängigkeitspflichten)",
-    "category": "Recht",
+    "category": "Berufsrecht",
     "beschreibung": "Wirtschaftsprüfer Bestellung (WPK, Unabhängigkeitspflichten)",
     "rechtsgrundlage": "WPO §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/wpo",
@@ -7121,7 +7121,7 @@
   {
     "id": "reg-stberg-2",
     "title": "Steuerberaterzulassung (Kammer, Berufshaftpflicht)",
-    "category": "Recht",
+    "category": "Berufsrecht",
     "beschreibung": "Steuerberaterzulassung (Kammer, Berufshaftpflicht)",
     "rechtsgrundlage": "StBerG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/stberg",
@@ -7138,7 +7138,7 @@
   {
     "id": "reg-archg",
     "title": "Architekt (Kammermitgliedschaft, Studium + Praxis)",
-    "category": "Recht",
+    "category": "Berufsrecht",
     "beschreibung": "Architekt (Kammermitgliedschaft, Studium + Praxis)",
     "rechtsgrundlage": "ArchG Länder",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7155,7 +7155,7 @@
   {
     "id": "reg-apoapprobo",
     "title": "Apotheker Approbation",
-    "category": "Recht",
+    "category": "Berufsrecht",
     "beschreibung": "Apotheker Approbation",
     "rechtsgrundlage": "ApoApprobO",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7172,7 +7172,7 @@
   {
     "id": "reg-gewo-8",
     "title": "Öffentlich bestellter Sachverständiger",
-    "category": "Recht",
+    "category": "Berufsrecht",
     "beschreibung": "Öffentlich bestellter Sachverständiger",
     "rechtsgrundlage": "GewO §36",
     "quelle_url": "https://gesetze-im-internet.de/gewo",
@@ -7189,7 +7189,7 @@
   {
     "id": "reg-iso",
     "title": "DAkkS-Akkreditierung (Prüf-/Kalibrierlabore, QMS)",
-    "category": "Recht",
+    "category": "Berufsrecht",
     "beschreibung": "DAkkS-Akkreditierung (Prüf-/Kalibrierlabore, QMS)",
     "rechtsgrundlage": "ISO 9001; DAkkS",
     "quelle_url": "https://dakks.de",
@@ -7206,7 +7206,7 @@
   {
     "id": "reg-gluestv",
     "title": "Glücksspielstaatsvertrag GlüStV (Lizenz je Produkt, Spielerschutz)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Glücksspielstaatsvertrag GlüStV (Lizenz je Produkt, Spielerschutz)",
     "rechtsgrundlage": "GlüStV 2021 §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7223,7 +7223,7 @@
   {
     "id": "reg-mstv",
     "title": "Rundfunklizenz / Medienrecht (Streaming-Zulassung, Programmvorschriften)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Rundfunklizenz / Medienrecht (Streaming-Zulassung, Programmvorschriften)",
     "rechtsgrundlage": "MStV; Landesmediengesetze",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7240,7 +7240,7 @@
   {
     "id": "reg-lpg",
     "title": "Presserecht Impressum Print (verantwortlicher Redakteur)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Presserecht Impressum Print (verantwortlicher Redakteur)",
     "rechtsgrundlage": "LPG Länder",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7257,7 +7257,7 @@
   {
     "id": "reg-bitv",
     "title": "Barrierefreiheit öffentliche Stellen (WCAG 2.1, Erklärungspflicht)",
-    "category": "Datenschutz",
+    "category": "Verbraucherschutz",
     "beschreibung": "Barrierefreiheit öffentliche Stellen (WCAG 2.1, Erklärungspflicht)",
     "rechtsgrundlage": "BITV 2.0; BGG §§12a-12k",
     "quelle_url": "https://gesetze-im-internet.de/bitv_2_0",
@@ -7274,7 +7274,7 @@
   {
     "id": "reg-art-107",
     "title": "EU-Beihilferecht (staatliche Beihilfen nur mit EU-Genehmigung)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "EU-Beihilferecht (staatliche Beihilfen nur mit EU-Genehmigung)",
     "rechtsgrundlage": "Art.107 AEUV; AGVO",
     "quelle_url": "https://ec.europa.eu",
@@ -7291,7 +7291,7 @@
   {
     "id": "reg-uvgo",
     "title": "Vergaberecht Unterschwelle UVgO (3 Angebote, Dokumentation)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Vergaberecht Unterschwelle UVgO (3 Angebote, Dokumentation)",
     "rechtsgrundlage": "UVgO 2017",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7308,7 +7308,7 @@
   {
     "id": "reg-tvgg",
     "title": "Tariftreue öffentliche Aufträge",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Tariftreue öffentliche Aufträge",
     "rechtsgrundlage": "TVgG Länder",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7325,7 +7325,7 @@
   {
     "id": "reg-vermanlg",
     "title": "Prospekthaftung Vermögensanlagen (ab 20 Anleger oder 100.000 €)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Prospekthaftung Vermögensanlagen (ab 20 Anleger oder 100.000 €)",
     "rechtsgrundlage": "VermAnlG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/vermogeanlg_2011",
@@ -7461,7 +7461,7 @@
   {
     "id": "reg-astg",
     "title": "Hinzurechnungsbesteuerung AStG (Passiveinkünfte Niedrigsteuerländer)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Hinzurechnungsbesteuerung AStG (Passiveinkünfte Niedrigsteuerländer)",
     "rechtsgrundlage": "AStG §§7-13",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7478,7 +7478,7 @@
   {
     "id": "reg-estg-3",
     "title": "Quellensteuer Aufsichtsrat (30% auf beschränkt Steuerpflichtige)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Quellensteuer Aufsichtsrat (30% auf beschränkt Steuerpflichtige)",
     "rechtsgrundlage": "EStG §50a Abs.1 Nr.4",
     "quelle_url": "https://gesetze-im-internet.de/estg",
@@ -7495,7 +7495,7 @@
   {
     "id": "reg-estg-4",
     "title": "Fahrtenbuchpflicht Firmenwagen (1%-Regel oder Fahrtenbuch)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Fahrtenbuchpflicht Firmenwagen (1%-Regel oder Fahrtenbuch)",
     "rechtsgrundlage": "EStG §6 Abs.1 Nr.4",
     "quelle_url": "https://gesetze-im-internet.de/estg",
@@ -7512,7 +7512,7 @@
   {
     "id": "reg-estg-5",
     "title": "Reisekostenrecht (Pauschalen: Verpflegung, Unterkunft, Fahrt)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Reisekostenrecht (Pauschalen: Verpflegung, Unterkunft, Fahrt)",
     "rechtsgrundlage": "EStG §§3 Nr.13-16",
     "quelle_url": "https://gesetze-im-internet.de/estg",
@@ -7529,7 +7529,7 @@
   {
     "id": "reg-estg-6",
     "title": "Bewirtungskosten (70% abzugsfähig, Bewirtungsbeleg mit Pflichtangaben)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Bewirtungskosten (70% abzugsfähig, Bewirtungsbeleg mit Pflichtangaben)",
     "rechtsgrundlage": "EStG §4 Abs.5 Nr.2",
     "quelle_url": "https://gesetze-im-internet.de/estg",
@@ -7546,7 +7546,7 @@
   {
     "id": "reg-estg-7",
     "title": "Homeoffice-Pauschale (6 €/Tag, max. 1.260 €/Jahr)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Homeoffice-Pauschale (6 €/Tag, max. 1.260 €/Jahr)",
     "rechtsgrundlage": "EStG §§4/9",
     "quelle_url": "https://gesetze-im-internet.de/estg",
@@ -7563,7 +7563,7 @@
   {
     "id": "reg-fzulg",
     "title": "FZulG Forschungsförderung (25–35% Steuererstattung auf FuE-Aufwendungen)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "FZulG Forschungsförderung (25–35% Steuererstattung auf FuE-Aufwendungen)",
     "rechtsgrundlage": "FZulG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/fzulg",
@@ -7598,7 +7598,7 @@
   {
     "id": "reg-ulak-tv",
     "title": "Sozialkassen Maler/Lackierer ULAK",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "Sozialkassen Maler/Lackierer ULAK",
     "rechtsgrundlage": "ULAK-TV",
     "quelle_url": "https://ulak.de",
@@ -7615,7 +7615,7 @@
   {
     "id": "reg-ulak-gre",
     "title": "Sozialkassen Gebäudereiniger ULAK-GRE",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "Sozialkassen Gebäudereiniger ULAK-GRE",
     "rechtsgrundlage": "ULAK-GRE TV",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7632,7 +7632,7 @@
   {
     "id": "reg-sgb-v-2",
     "title": "Beitragszuschuss Privatkrankenversicherung",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "Beitragszuschuss Privatkrankenversicherung",
     "rechtsgrundlage": "SGB V §257",
     "quelle_url": "https://gesetze-im-internet.de/sgb_5",
@@ -7649,7 +7649,7 @@
   {
     "id": "reg-geng",
     "title": "Genossenschaften (Satzung, Mindestreserve, Pflichtprüfung)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Genossenschaften (Satzung, Mindestreserve, Pflichtprüfung)",
     "rechtsgrundlage": "GenG §§5ff.",
     "quelle_url": "https://gesetze-im-internet.de/geng",
@@ -7666,7 +7666,7 @@
   {
     "id": "reg-stiftg",
     "title": "Stiftungsrecht (Behördliche Genehmigung, Kapitalerhalt, Jahresrechnung)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Stiftungsrecht (Behördliche Genehmigung, Kapitalerhalt, Jahresrechnung)",
     "rechtsgrundlage": "StiftG Länder",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7683,7 +7683,7 @@
   {
     "id": "reg-estg-8",
     "title": "Mitarbeiterbeteiligung ESOP (steuerliche Behandlung)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Mitarbeiterbeteiligung ESOP (steuerliche Behandlung)",
     "rechtsgrundlage": "EStG §19a",
     "quelle_url": "https://gesetze-im-internet.de/estg",
@@ -7700,7 +7700,7 @@
   {
     "id": "reg-dfb-spielervermittlero",
     "title": "Spielervermittler Profisport (DFB-Lizenz, Vergütungsobergrenze 3%)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Spielervermittler Profisport (DFB-Lizenz, Vergütungsobergrenze 3%)",
     "rechtsgrundlage": "DFB-SpielervermittlerO 2024",
     "quelle_url": "https://dfb.de",
@@ -7717,7 +7717,7 @@
   {
     "id": "reg-gluestv-2",
     "title": "Lotterierecht (staatliche Konzession, Spieler-/Jugendschutz)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Lotterierecht (staatliche Konzession, Spieler-/Jugendschutz)",
     "rechtsgrundlage": "GlüStV 2021 §§12ff.",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7734,7 +7734,7 @@
   {
     "id": "reg-grestg",
     "title": "Grunderwerbsteuer (3,5–6,5% je Bundesland, Anzeigepflicht)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Grunderwerbsteuer (3,5–6,5% je Bundesland, Anzeigepflicht)",
     "rechtsgrundlage": "GrEStG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/grestg_1983",
@@ -7751,7 +7751,7 @@
   {
     "id": "reg-energiestg",
     "title": "Energiesteuer (Kraftstoffe, Heizöl; Vergütungsanträge)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Energiesteuer (Kraftstoffe, Heizöl; Vergütungsanträge)",
     "rechtsgrundlage": "EnergieStG",
     "quelle_url": "https://gesetze-im-internet.de/energiestg",
@@ -7802,7 +7802,7 @@
   {
     "id": "reg-gluestv-3",
     "title": "Glücksspiel Jugendschutz (Spielersperrdatei OASIS)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Glücksspiel Jugendschutz (Spielersperrdatei OASIS)",
     "rechtsgrundlage": "GlüStV 2021",
     "quelle_url": "https://oasis-sperrsystem.de",
@@ -7819,7 +7819,7 @@
   {
     "id": "reg-dfb-spielervermittlero-2",
     "title": "Spielervermittlung DFB (Transparenzpflichten ab 2024)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Spielervermittlung DFB (Transparenzpflichten ab 2024)",
     "rechtsgrundlage": "DFB-SpielervermittlerO 2024",
     "quelle_url": "https://dfb.de",
@@ -7836,7 +7836,7 @@
   {
     "id": "reg-sag",
     "title": "Sanierungsplan Banken (Recovery Plan, ab 30 Mrd. € Bilanzsumme)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Sanierungsplan Banken (Recovery Plan, ab 30 Mrd. € Bilanzsumme)",
     "rechtsgrundlage": "SAG §§12ff.",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7854,7 +7854,7 @@
   {
     "id": "reg-wohnimmokrrl",
     "title": "Hypothekenkreditrecht ESIS-Formular (Beratungsprotokoll)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Hypothekenkreditrecht ESIS-Formular (Beratungsprotokoll)",
     "rechtsgrundlage": "WohnimmoKrRL 2014/17",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -7871,7 +7871,7 @@
   {
     "id": "reg-kfzstg",
     "title": "Fahrtenbuch KFZ-Steuer (Nachweis Privatnutzung Firmenwagen)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Fahrtenbuch KFZ-Steuer (Nachweis Privatnutzung Firmenwagen)",
     "rechtsgrundlage": "KfzStG; EStG §6",
     "quelle_url": "https://gesetze-im-internet.de/estg",
@@ -7888,7 +7888,7 @@
   {
     "id": "reg-ustg-6",
     "title": "Vorsteuerabzug Voraussetzungen (ordnungsgemäße Rechnung)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Vorsteuerabzug Voraussetzungen (ordnungsgemäße Rechnung)",
     "rechtsgrundlage": "UStG §15",
     "quelle_url": "https://gesetze-im-internet.de/ustg_1980",
@@ -7905,7 +7905,7 @@
   {
     "id": "reg-ao-4",
     "title": "Betriebsstätten-Meldepflicht Finanzamt",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Betriebsstätten-Meldepflicht Finanzamt",
     "rechtsgrundlage": "AO §12",
     "quelle_url": "https://gesetze-im-internet.de/ao_1977",
@@ -7922,7 +7922,7 @@
   {
     "id": "reg-postg",
     "title": "Post-Recht Briefgeheimnis (TK-Anbieter: Lizenz, Datenschutz)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Post-Recht Briefgeheimnis (TK-Anbieter: Lizenz, Datenschutz)",
     "rechtsgrundlage": "PostG §§1ff.",
     "quelle_url": "https://gesetze-im-internet.de/postg",
@@ -7939,7 +7939,7 @@
   {
     "id": "reg-tkg-2",
     "title": "Frequenzzuteilung BNetzA (Nutzung von Frequenzen gebührenpflichtig)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Frequenzzuteilung BNetzA (Nutzung von Frequenzen gebührenpflichtig)",
     "rechtsgrundlage": "TKG §§54ff.",
     "quelle_url": "https://gesetze-im-internet.de/tkg_2021",
@@ -7956,7 +7956,7 @@
   {
     "id": "reg-div",
     "title": "Haftpflichtversicherung Berufsausübung (Pflichtversicherung bestimmter Berufe)",
-    "category": "Recht",
+    "category": "Berufsrecht",
     "beschreibung": "Haftpflichtversicherung Berufsausübung (Pflichtversicherung bestimmter Berufe)",
     "rechtsgrundlage": "div. Berufsgesetze",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -7990,7 +7990,7 @@
   {
     "id": "reg-emir",
     "title": "Finanztransaktions-Meldepflicht (EMIR: OTC-Derivate an TR melden)",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Finanztransaktions-Meldepflicht (EMIR: OTC-Derivate an TR melden)",
     "rechtsgrundlage": "EMIR EU-VO 648/2012",
     "quelle_url": "https://eur-lex.europa.eu",
@@ -8007,7 +8007,7 @@
   {
     "id": "reg-ao-5",
     "title": "Steuerliche Außenprüfung Duldungspflicht",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Steuerliche Außenprüfung Duldungspflicht",
     "rechtsgrundlage": "AO §200",
     "quelle_url": "https://gesetze-im-internet.de/ao_1977",
@@ -8024,7 +8024,7 @@
   {
     "id": "reg-sgb-v-3",
     "title": "Medizinische Hilfsmittel GKV (Hilfsmittelverzeichnis, Qualitätssicherung)",
-    "category": "Recht",
+    "category": "Gesundheit",
     "beschreibung": "Medizinische Hilfsmittel GKV (Hilfsmittelverzeichnis, Qualitätssicherung)",
     "rechtsgrundlage": "SGB V §§139ff.",
     "quelle_url": "https://gesetze-im-internet.de/sgb_5",
@@ -8041,7 +8041,7 @@
   {
     "id": "reg-eeg-2",
     "title": "Erneuerbare Energien Herkunftsnachweise",
-    "category": "Recht",
+    "category": "Umwelt",
     "beschreibung": "Erneuerbare Energien Herkunftsnachweise",
     "rechtsgrundlage": "EEG §79; HKNR",
     "quelle_url": "https://gesetze-im-internet.de/eeg_2023",
@@ -8058,7 +8058,7 @@
   {
     "id": "reg-utp-rl",
     "title": "Wettbewerb unlautere Handelspraktiken B2B (UTP-Richtlinie, Lebensmittellieferkette)",
-    "category": "Recht",
+    "category": "Compliance",
     "beschreibung": "Wettbewerb unlautere Handelspraktiken B2B (UTP-Richtlinie, Lebensmittellieferkette)",
     "rechtsgrundlage": "UTP-RL; AgrarOLkG",
     "quelle_url": "https://gesetze-im-internet.de",
@@ -8075,7 +8075,7 @@
   {
     "id": "reg-sgb",
     "title": "Sozialversicherung Entsendung Drittstaaten",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "Sozialversicherung Entsendung Drittstaaten",
     "rechtsgrundlage": "SGB IV; SVBG",
     "quelle_url": "https://bundesfinanzministerium.de",
@@ -8109,7 +8109,7 @@
   {
     "id": "reg-sgb-iii-3",
     "title": "Kurzarbeit Weiterbildungsförderung (WBG während KUG)",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "Kurzarbeit Weiterbildungsförderung (WBG während KUG)",
     "rechtsgrundlage": "SGB III §82",
     "quelle_url": "https://gesetze-im-internet.de/sgb_3",
@@ -8126,7 +8126,7 @@
   {
     "id": "reg-sgb-iii-4",
     "title": "Arbeitslosengeld I Beitragszeiten Nachweispflicht",
-    "category": "Recht",
+    "category": "Sozialversicherung",
     "beschreibung": "Arbeitslosengeld I Beitragszeiten Nachweispflicht",
     "rechtsgrundlage": "SGB III §§137ff.",
     "quelle_url": "https://gesetze-im-internet.de/sgb_3",
@@ -8143,7 +8143,7 @@
   {
     "id": "reg-aktg-3",
     "title": "Aktienrecht Hauptversammlung (Einberufung, Anfechtung, Präsenz/virtuell)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "Aktienrecht Hauptversammlung (Einberufung, Anfechtung, Präsenz/virtuell)",
     "rechtsgrundlage": "AktG §§118ff.",
     "quelle_url": "https://gesetze-im-internet.de/aktg",
@@ -8160,7 +8160,7 @@
   {
     "id": "reg-gmbhg-3",
     "title": "GmbH-Gesellschafterversammlung (Einberufung, Ladungsfrist, Mehrheiten)",
-    "category": "Recht",
+    "category": "Gewerberecht",
     "beschreibung": "GmbH-Gesellschafterversammlung (Einberufung, Ladungsfrist, Mehrheiten)",
     "rechtsgrundlage": "GmbHG §§47ff.",
     "quelle_url": "https://gesetze-im-internet.de/gmbhg",
@@ -8177,7 +8177,7 @@
   {
     "id": "reg-wphg-3",
     "title": "Wertpapierhandel Aufzeichnungspflichten",
-    "category": "Recht",
+    "category": "Finanzmarkt",
     "beschreibung": "Wertpapierhandel Aufzeichnungspflichten",
     "rechtsgrundlage": "WpHG §§83ff.",
     "quelle_url": "https://gesetze-im-internet.de/wphg",
@@ -8211,7 +8211,7 @@
   {
     "id": "reg-estg-9",
     "title": "Arbeitnehmer-Beteiligung Aktien (Steuerfreiheit bis 2.000 €, §19a EStG)",
-    "category": "Buchführung",
+    "category": "Steuer",
     "beschreibung": "Arbeitnehmer-Beteiligung Aktien (Steuerfreiheit bis 2.000 €, §19a EStG)",
     "rechtsgrundlage": "EStG §19a",
     "quelle_url": "https://gesetze-im-internet.de/estg",
