@@ -7202,5 +7202,1062 @@
       ]
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-gluestv",
+    "title": "Glücksspielstaatsvertrag GlüStV (Lizenz je Produkt, Spielerschutz)",
+    "category": "Recht",
+    "beschreibung": "Glücksspielstaatsvertrag GlüStV (Lizenz je Produkt, Spielerschutz)",
+    "rechtsgrundlage": "GlüStV 2021 §§1ff.",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-mstv",
+    "title": "Rundfunklizenz / Medienrecht (Streaming-Zulassung, Programmvorschriften)",
+    "category": "Recht",
+    "beschreibung": "Rundfunklizenz / Medienrecht (Streaming-Zulassung, Programmvorschriften)",
+    "rechtsgrundlage": "MStV; Landesmediengesetze",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-lpg",
+    "title": "Presserecht Impressum Print (verantwortlicher Redakteur)",
+    "category": "Recht",
+    "beschreibung": "Presserecht Impressum Print (verantwortlicher Redakteur)",
+    "rechtsgrundlage": "LPG Länder",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-bitv",
+    "title": "Barrierefreiheit öffentliche Stellen (WCAG 2.1, Erklärungspflicht)",
+    "category": "Datenschutz",
+    "beschreibung": "Barrierefreiheit öffentliche Stellen (WCAG 2.1, Erklärungspflicht)",
+    "rechtsgrundlage": "BITV 2.0; BGG §§12a-12k",
+    "quelle_url": "https://gesetze-im-internet.de/bitv_2_0",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-art-107",
+    "title": "EU-Beihilferecht (staatliche Beihilfen nur mit EU-Genehmigung)",
+    "category": "Recht",
+    "beschreibung": "EU-Beihilferecht (staatliche Beihilfen nur mit EU-Genehmigung)",
+    "rechtsgrundlage": "Art.107 AEUV; AGVO",
+    "quelle_url": "https://ec.europa.eu",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-uvgo",
+    "title": "Vergaberecht Unterschwelle UVgO (3 Angebote, Dokumentation)",
+    "category": "Recht",
+    "beschreibung": "Vergaberecht Unterschwelle UVgO (3 Angebote, Dokumentation)",
+    "rechtsgrundlage": "UVgO 2017",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-tvgg",
+    "title": "Tariftreue öffentliche Aufträge",
+    "category": "Recht",
+    "beschreibung": "Tariftreue öffentliche Aufträge",
+    "rechtsgrundlage": "TVgG Länder",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-vermanlg",
+    "title": "Prospekthaftung Vermögensanlagen (ab 20 Anleger oder 100.000 €)",
+    "category": "Recht",
+    "beschreibung": "Prospekthaftung Vermögensanlagen (ab 20 Anleger oder 100.000 €)",
+    "rechtsgrundlage": "VermAnlG §§1ff.",
+    "quelle_url": "https://gesetze-im-internet.de/vermogeanlg_2011",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-ksg",
+    "title": "Klimaschutzgesetz Sektorziele-Monitoring",
+    "category": "Umwelt",
+    "beschreibung": "Klimaschutzgesetz Sektorziele-Monitoring",
+    "rechtsgrundlage": "KSG §§1ff.",
+    "quelle_url": "https://gesetze-im-internet.de/ksg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-vaws",
+    "title": "VAwS Anlagen mit wassergefährdenden Stoffen (Fachbetrieb WHG)",
+    "category": "Umwelt",
+    "beschreibung": "VAwS Anlagen mit wassergefährdenden Stoffen (Fachbetrieb WHG)",
+    "rechtsgrundlage": "VAwS Länder; WHG §62",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-depv",
+    "title": "Deponieverordnung (Genehmigung, Grundwassermonitoring)",
+    "category": "Umwelt",
+    "beschreibung": "Deponieverordnung (Genehmigung, Grundwassermonitoring)",
+    "rechtsgrundlage": "DepV",
+    "quelle_url": "https://gesetze-im-internet.de/depv",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-ta",
+    "title": "TA Lärm / BImSchG §22 (Lärmgrenzwerte Gewerbebetriebe)",
+    "category": "Umwelt",
+    "beschreibung": "TA Lärm / BImSchG §22 (Lärmgrenzwerte Gewerbebetriebe)",
+    "rechtsgrundlage": "TA Lärm; BImSchG §22",
+    "quelle_url": "https://gesetze-im-internet.de/bimschg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-abwv",
+    "title": "Abwasserverordnung (Branchenspezifische Einleitgrenzwerte)",
+    "category": "Umwelt",
+    "beschreibung": "Abwasserverordnung (Branchenspezifische Einleitgrenzwerte)",
+    "rechtsgrundlage": "AbwV",
+    "quelle_url": "https://gesetze-im-internet.de/abwv",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-abfklaerv",
+    "title": "Klärschlammverordnung (Grenzwerte, Analysen, Meldungen)",
+    "category": "Umwelt",
+    "beschreibung": "Klärschlammverordnung (Grenzwerte, Analysen, Meldungen)",
+    "rechtsgrundlage": "AbfKlärV",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-altoelv",
+    "title": "Altölannahme (getrennte Erfassung, zugelassener Entsorger)",
+    "category": "Umwelt",
+    "beschreibung": "Altölannahme (getrennte Erfassung, zugelassener Entsorger)",
+    "rechtsgrundlage": "AltölV",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-astg",
+    "title": "Hinzurechnungsbesteuerung AStG (Passiveinkünfte Niedrigsteuerländer)",
+    "category": "Buchführung",
+    "beschreibung": "Hinzurechnungsbesteuerung AStG (Passiveinkünfte Niedrigsteuerländer)",
+    "rechtsgrundlage": "AStG §§7-13",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-estg-3",
+    "title": "Quellensteuer Aufsichtsrat (30% auf beschränkt Steuerpflichtige)",
+    "category": "Buchführung",
+    "beschreibung": "Quellensteuer Aufsichtsrat (30% auf beschränkt Steuerpflichtige)",
+    "rechtsgrundlage": "EStG §50a Abs.1 Nr.4",
+    "quelle_url": "https://gesetze-im-internet.de/estg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-estg-4",
+    "title": "Fahrtenbuchpflicht Firmenwagen (1%-Regel oder Fahrtenbuch)",
+    "category": "Buchführung",
+    "beschreibung": "Fahrtenbuchpflicht Firmenwagen (1%-Regel oder Fahrtenbuch)",
+    "rechtsgrundlage": "EStG §6 Abs.1 Nr.4",
+    "quelle_url": "https://gesetze-im-internet.de/estg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-estg-5",
+    "title": "Reisekostenrecht (Pauschalen: Verpflegung, Unterkunft, Fahrt)",
+    "category": "Buchführung",
+    "beschreibung": "Reisekostenrecht (Pauschalen: Verpflegung, Unterkunft, Fahrt)",
+    "rechtsgrundlage": "EStG §§3 Nr.13-16",
+    "quelle_url": "https://gesetze-im-internet.de/estg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-estg-6",
+    "title": "Bewirtungskosten (70% abzugsfähig, Bewirtungsbeleg mit Pflichtangaben)",
+    "category": "Buchführung",
+    "beschreibung": "Bewirtungskosten (70% abzugsfähig, Bewirtungsbeleg mit Pflichtangaben)",
+    "rechtsgrundlage": "EStG §4 Abs.5 Nr.2",
+    "quelle_url": "https://gesetze-im-internet.de/estg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-estg-7",
+    "title": "Homeoffice-Pauschale (6 €/Tag, max. 1.260 €/Jahr)",
+    "category": "Buchführung",
+    "beschreibung": "Homeoffice-Pauschale (6 €/Tag, max. 1.260 €/Jahr)",
+    "rechtsgrundlage": "EStG §§4/9",
+    "quelle_url": "https://gesetze-im-internet.de/estg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-fzulg",
+    "title": "FZulG Forschungsförderung (25–35% Steuererstattung auf FuE-Aufwendungen)",
+    "category": "Buchführung",
+    "beschreibung": "FZulG Forschungsförderung (25–35% Steuererstattung auf FuE-Aufwendungen)",
+    "rechtsgrundlage": "FZulG §§1ff.",
+    "quelle_url": "https://gesetze-im-internet.de/fzulg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-montan-mitbestg",
+    "title": "Montan-Mitbestimmung (Kohle/Stahl: Arbeitsdirektor, neutrales Mitglied)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Montan-Mitbestimmung (Kohle/Stahl: Arbeitsdirektor, neutrales Mitglied)",
+    "rechtsgrundlage": "Montan-MitbestG",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 1001
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-ulak-tv",
+    "title": "Sozialkassen Maler/Lackierer ULAK",
+    "category": "Recht",
+    "beschreibung": "Sozialkassen Maler/Lackierer ULAK",
+    "rechtsgrundlage": "ULAK-TV",
+    "quelle_url": "https://ulak.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-ulak-gre",
+    "title": "Sozialkassen Gebäudereiniger ULAK-GRE",
+    "category": "Recht",
+    "beschreibung": "Sozialkassen Gebäudereiniger ULAK-GRE",
+    "rechtsgrundlage": "ULAK-GRE TV",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-sgb-v-2",
+    "title": "Beitragszuschuss Privatkrankenversicherung",
+    "category": "Recht",
+    "beschreibung": "Beitragszuschuss Privatkrankenversicherung",
+    "rechtsgrundlage": "SGB V §257",
+    "quelle_url": "https://gesetze-im-internet.de/sgb_5",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-geng",
+    "title": "Genossenschaften (Satzung, Mindestreserve, Pflichtprüfung)",
+    "category": "Recht",
+    "beschreibung": "Genossenschaften (Satzung, Mindestreserve, Pflichtprüfung)",
+    "rechtsgrundlage": "GenG §§5ff.",
+    "quelle_url": "https://gesetze-im-internet.de/geng",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-stiftg",
+    "title": "Stiftungsrecht (Behördliche Genehmigung, Kapitalerhalt, Jahresrechnung)",
+    "category": "Recht",
+    "beschreibung": "Stiftungsrecht (Behördliche Genehmigung, Kapitalerhalt, Jahresrechnung)",
+    "rechtsgrundlage": "StiftG Länder",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-estg-8",
+    "title": "Mitarbeiterbeteiligung ESOP (steuerliche Behandlung)",
+    "category": "Buchführung",
+    "beschreibung": "Mitarbeiterbeteiligung ESOP (steuerliche Behandlung)",
+    "rechtsgrundlage": "EStG §19a",
+    "quelle_url": "https://gesetze-im-internet.de/estg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-dfb-spielervermittlero",
+    "title": "Spielervermittler Profisport (DFB-Lizenz, Vergütungsobergrenze 3%)",
+    "category": "Recht",
+    "beschreibung": "Spielervermittler Profisport (DFB-Lizenz, Vergütungsobergrenze 3%)",
+    "rechtsgrundlage": "DFB-SpielervermittlerO 2024",
+    "quelle_url": "https://dfb.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-gluestv-2",
+    "title": "Lotterierecht (staatliche Konzession, Spieler-/Jugendschutz)",
+    "category": "Recht",
+    "beschreibung": "Lotterierecht (staatliche Konzession, Spieler-/Jugendschutz)",
+    "rechtsgrundlage": "GlüStV 2021 §§12ff.",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-grestg",
+    "title": "Grunderwerbsteuer (3,5–6,5% je Bundesland, Anzeigepflicht)",
+    "category": "Buchführung",
+    "beschreibung": "Grunderwerbsteuer (3,5–6,5% je Bundesland, Anzeigepflicht)",
+    "rechtsgrundlage": "GrEStG §§1ff.",
+    "quelle_url": "https://gesetze-im-internet.de/grestg_1983",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-energiestg",
+    "title": "Energiesteuer (Kraftstoffe, Heizöl; Vergütungsanträge)",
+    "category": "Buchführung",
+    "beschreibung": "Energiesteuer (Kraftstoffe, Heizöl; Vergütungsanträge)",
+    "rechtsgrundlage": "EnergieStG",
+    "quelle_url": "https://gesetze-im-internet.de/energiestg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-art-9",
+    "title": "SCIP-Meldepflicht ECHA (SVHC-Stoffe in Erzeugnissen ab 0,1%)",
+    "category": "Umwelt",
+    "beschreibung": "SCIP-Meldepflicht ECHA (SVHC-Stoffe in Erzeugnissen ab 0,1%)",
+    "rechtsgrundlage": "Art.9 AbfRL; ChemG §16f",
+    "quelle_url": "https://echa.europa.eu",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-chemverbotsv",
+    "title": "Chemikalienverbotsverordnung (Gifte, Beschränkungen)",
+    "category": "Umwelt",
+    "beschreibung": "Chemikalienverbotsverordnung (Gifte, Beschränkungen)",
+    "rechtsgrundlage": "ChemVerbotsV",
+    "quelle_url": "https://gesetze-im-internet.de/chemverbotsv",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-gluestv-3",
+    "title": "Glücksspiel Jugendschutz (Spielersperrdatei OASIS)",
+    "category": "Recht",
+    "beschreibung": "Glücksspiel Jugendschutz (Spielersperrdatei OASIS)",
+    "rechtsgrundlage": "GlüStV 2021",
+    "quelle_url": "https://oasis-sperrsystem.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-dfb-spielervermittlero-2",
+    "title": "Spielervermittlung DFB (Transparenzpflichten ab 2024)",
+    "category": "Recht",
+    "beschreibung": "Spielervermittlung DFB (Transparenzpflichten ab 2024)",
+    "rechtsgrundlage": "DFB-SpielervermittlerO 2024",
+    "quelle_url": "https://dfb.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-sag",
+    "title": "Sanierungsplan Banken (Recovery Plan, ab 30 Mrd. € Bilanzsumme)",
+    "category": "Recht",
+    "beschreibung": "Sanierungsplan Banken (Recovery Plan, ab 30 Mrd. € Bilanzsumme)",
+    "rechtsgrundlage": "SAG §§12ff.",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 30
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-wohnimmokrrl",
+    "title": "Hypothekenkreditrecht ESIS-Formular (Beratungsprotokoll)",
+    "category": "Recht",
+    "beschreibung": "Hypothekenkreditrecht ESIS-Formular (Beratungsprotokoll)",
+    "rechtsgrundlage": "WohnimmoKrRL 2014/17",
+    "quelle_url": "https://eur-lex.europa.eu",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-kfzstg",
+    "title": "Fahrtenbuch KFZ-Steuer (Nachweis Privatnutzung Firmenwagen)",
+    "category": "Buchführung",
+    "beschreibung": "Fahrtenbuch KFZ-Steuer (Nachweis Privatnutzung Firmenwagen)",
+    "rechtsgrundlage": "KfzStG; EStG §6",
+    "quelle_url": "https://gesetze-im-internet.de/estg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-ustg-6",
+    "title": "Vorsteuerabzug Voraussetzungen (ordnungsgemäße Rechnung)",
+    "category": "Buchführung",
+    "beschreibung": "Vorsteuerabzug Voraussetzungen (ordnungsgemäße Rechnung)",
+    "rechtsgrundlage": "UStG §15",
+    "quelle_url": "https://gesetze-im-internet.de/ustg_1980",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-ao-4",
+    "title": "Betriebsstätten-Meldepflicht Finanzamt",
+    "category": "Buchführung",
+    "beschreibung": "Betriebsstätten-Meldepflicht Finanzamt",
+    "rechtsgrundlage": "AO §12",
+    "quelle_url": "https://gesetze-im-internet.de/ao_1977",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-postg",
+    "title": "Post-Recht Briefgeheimnis (TK-Anbieter: Lizenz, Datenschutz)",
+    "category": "Recht",
+    "beschreibung": "Post-Recht Briefgeheimnis (TK-Anbieter: Lizenz, Datenschutz)",
+    "rechtsgrundlage": "PostG §§1ff.",
+    "quelle_url": "https://gesetze-im-internet.de/postg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-tkg-2",
+    "title": "Frequenzzuteilung BNetzA (Nutzung von Frequenzen gebührenpflichtig)",
+    "category": "Recht",
+    "beschreibung": "Frequenzzuteilung BNetzA (Nutzung von Frequenzen gebührenpflichtig)",
+    "rechtsgrundlage": "TKG §§54ff.",
+    "quelle_url": "https://gesetze-im-internet.de/tkg_2021",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-div",
+    "title": "Haftpflichtversicherung Berufsausübung (Pflichtversicherung bestimmter Berufe)",
+    "category": "Recht",
+    "beschreibung": "Haftpflichtversicherung Berufsausübung (Pflichtversicherung bestimmter Berufe)",
+    "rechtsgrundlage": "div. Berufsgesetze",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-tkg-3",
+    "title": "Datenspeicherung TKG (Verkehrsdaten 10 Wochen, Standortdaten 4 Wochen)",
+    "category": "Datenschutz",
+    "beschreibung": "Datenspeicherung TKG (Verkehrsdaten 10 Wochen, Standortdaten 4 Wochen)",
+    "rechtsgrundlage": "TKG §§170-174",
+    "quelle_url": "https://gesetze-im-internet.de/tkg_2021",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-emir",
+    "title": "Finanztransaktions-Meldepflicht (EMIR: OTC-Derivate an TR melden)",
+    "category": "Recht",
+    "beschreibung": "Finanztransaktions-Meldepflicht (EMIR: OTC-Derivate an TR melden)",
+    "rechtsgrundlage": "EMIR EU-VO 648/2012",
+    "quelle_url": "https://eur-lex.europa.eu",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-ao-5",
+    "title": "Steuerliche Außenprüfung Duldungspflicht",
+    "category": "Recht",
+    "beschreibung": "Steuerliche Außenprüfung Duldungspflicht",
+    "rechtsgrundlage": "AO §200",
+    "quelle_url": "https://gesetze-im-internet.de/ao_1977",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-sgb-v-3",
+    "title": "Medizinische Hilfsmittel GKV (Hilfsmittelverzeichnis, Qualitätssicherung)",
+    "category": "Recht",
+    "beschreibung": "Medizinische Hilfsmittel GKV (Hilfsmittelverzeichnis, Qualitätssicherung)",
+    "rechtsgrundlage": "SGB V §§139ff.",
+    "quelle_url": "https://gesetze-im-internet.de/sgb_5",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-eeg-2",
+    "title": "Erneuerbare Energien Herkunftsnachweise",
+    "category": "Recht",
+    "beschreibung": "Erneuerbare Energien Herkunftsnachweise",
+    "rechtsgrundlage": "EEG §79; HKNR",
+    "quelle_url": "https://gesetze-im-internet.de/eeg_2023",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-utp-rl",
+    "title": "Wettbewerb unlautere Handelspraktiken B2B (UTP-Richtlinie, Lebensmittellieferkette)",
+    "category": "Recht",
+    "beschreibung": "Wettbewerb unlautere Handelspraktiken B2B (UTP-Richtlinie, Lebensmittellieferkette)",
+    "rechtsgrundlage": "UTP-RL; AgrarOLkG",
+    "quelle_url": "https://gesetze-im-internet.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-sgb",
+    "title": "Sozialversicherung Entsendung Drittstaaten",
+    "category": "Recht",
+    "beschreibung": "Sozialversicherung Entsendung Drittstaaten",
+    "rechtsgrundlage": "SGB IV; SVBG",
+    "quelle_url": "https://bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-sgb-2",
+    "title": "Telearbeit Arbeitsstättenrecht international (Grenzgänger: Sozialrecht/Steuerrecht)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Telearbeit Arbeitsstättenrecht international (Grenzgänger: Sozialrecht/Steuerrecht)",
+    "rechtsgrundlage": "SGB IV; EStG; DSGVO",
+    "quelle_url": "https://gesetze-im-internet.de/sgb_4",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-sgb-iii-3",
+    "title": "Kurzarbeit Weiterbildungsförderung (WBG während KUG)",
+    "category": "Recht",
+    "beschreibung": "Kurzarbeit Weiterbildungsförderung (WBG während KUG)",
+    "rechtsgrundlage": "SGB III §82",
+    "quelle_url": "https://gesetze-im-internet.de/sgb_3",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-sgb-iii-4",
+    "title": "Arbeitslosengeld I Beitragszeiten Nachweispflicht",
+    "category": "Recht",
+    "beschreibung": "Arbeitslosengeld I Beitragszeiten Nachweispflicht",
+    "rechtsgrundlage": "SGB III §§137ff.",
+    "quelle_url": "https://gesetze-im-internet.de/sgb_3",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-aktg-3",
+    "title": "Aktienrecht Hauptversammlung (Einberufung, Anfechtung, Präsenz/virtuell)",
+    "category": "Recht",
+    "beschreibung": "Aktienrecht Hauptversammlung (Einberufung, Anfechtung, Präsenz/virtuell)",
+    "rechtsgrundlage": "AktG §§118ff.",
+    "quelle_url": "https://gesetze-im-internet.de/aktg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-gmbhg-3",
+    "title": "GmbH-Gesellschafterversammlung (Einberufung, Ladungsfrist, Mehrheiten)",
+    "category": "Recht",
+    "beschreibung": "GmbH-Gesellschafterversammlung (Einberufung, Ladungsfrist, Mehrheiten)",
+    "rechtsgrundlage": "GmbHG §§47ff.",
+    "quelle_url": "https://gesetze-im-internet.de/gmbhg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-wphg-3",
+    "title": "Wertpapierhandel Aufzeichnungspflichten",
+    "category": "Recht",
+    "beschreibung": "Wertpapierhandel Aufzeichnungspflichten",
+    "rechtsgrundlage": "WpHG §§83ff.",
+    "quelle_url": "https://gesetze-im-internet.de/wphg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-tvg",
+    "title": "Tarifvertragsgesetz (Bindung Mitglieder; Allgemeinverbindlicherklärung)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Tarifvertragsgesetz (Bindung Mitglieder; Allgemeinverbindlicherklärung)",
+    "rechtsgrundlage": "TVG §§1ff.",
+    "quelle_url": "https://gesetze-im-internet.de/tvg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-estg-9",
+    "title": "Arbeitnehmer-Beteiligung Aktien (Steuerfreiheit bis 2.000 €, §19a EStG)",
+    "category": "Buchführung",
+    "beschreibung": "Arbeitnehmer-Beteiligung Aktien (Steuerfreiheit bis 2.000 €, §19a EStG)",
+    "rechtsgrundlage": "EStG §19a",
+    "quelle_url": "https://gesetze-im-internet.de/estg",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-esrs",
+    "title": "ESRS-Standards Nachhaltigkeitsberichterstattung",
+    "category": "Reporting",
+    "beschreibung": "ESRS-Standards Nachhaltigkeitsberichterstattung",
+    "rechtsgrundlage": "ESRS (EFRAG)",
+    "quelle_url": "https://efrag.eu",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 250
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reg-reach",
+    "title": "Nanotechnologie REACH-Meldung (Nanoform-Registrierung)",
+    "category": "Umwelt",
+    "beschreibung": "Nanotechnologie REACH-Meldung (Nanoform-Registrierung)",
+    "rechtsgrundlage": "REACH Anhang VI; NanoVO",
+    "quelle_url": "https://echa.europa.eu",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false
   }
 ]
