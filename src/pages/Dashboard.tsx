@@ -4,7 +4,8 @@ import { useProfil } from '../context/ProfilContext'
 import { filterRegulations, sortedFundings } from '../utils/filter'
 import { fetchFundings, fetchRegulations, type ApiFunding, type ApiRegulation } from '../api/client'
 import ApplicationWizard from '../components/ApplicationWizard'
-import DocumentGenerator, { buildDocument, downloadDoc } from '../components/DocumentGenerator'
+import DocumentGenerator, { buildDocument } from '../components/DocumentGenerator'
+import { downloadAsPDF, downloadAsDOCX } from '../utils/exportDoc'
 import regulationData from '../data/regulations.json'
 import fundingData from '../data/fundings.json'
 import { CheckCircle, FileText, TrendingUp, Settings, Wifi, WifiOff } from 'lucide-react'
@@ -445,10 +446,14 @@ export default function Dashboard() {
                     const ts = docTimestamps[reg.id]
                     const dateStr = ts ? new Date(ts).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' }) : null
                     const isGenerated = !!ts
-                    const handleDownload = (ext: 'docx' | 'pdf') => {
+                    const handleDownload = async (ext: 'docx' | 'pdf') => {
                       const content = buildDocument(reg.dokument_typ as DokumentTyp, profil)
                       const filename = `${reg.dokument_typ}-${profil.name.replace(/\s+/g, '-')}`
-                      downloadDoc(content, filename, ext)
+                      if (ext === 'pdf') {
+                        downloadAsPDF(content, filename)
+                      } else {
+                        await downloadAsDOCX(content, filename)
+                      }
                       setDocGenerated(reg.id)
                       setStatus(reg.id, 'erledigt')
                     }
@@ -468,7 +473,7 @@ export default function Dashboard() {
                             <button onClick={() => handleDownload('docx')}
                               className="text-xs font-mono border border-sand-border text-ink px-3 py-1.5 rounded hover:bg-sand-mid transition-colors">DOCX ↗</button>
                             <button onClick={() => handleDownload('pdf')}
-                              className="text-xs font-mono border border-teal/40 bg-teal-light text-teal-dark px-3 py-1.5 rounded hover:bg-teal/20 transition-colors">TXT ↗</button>
+                              className="text-xs font-mono border border-teal/40 bg-teal-light text-teal-dark px-3 py-1.5 rounded hover:bg-teal/20 transition-colors">PDF ↗</button>
                           </div>
                         ) : (
                           <button onClick={() => handleDownload('docx')}
