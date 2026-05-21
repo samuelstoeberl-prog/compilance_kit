@@ -11067,5 +11067,760 @@
         "10–49"
       ]
     }
+  },
+  {
+    "id": "e-business-gutscheine",
+    "title": "E-Business-Gutscheine für Handwerk",
+    "beschreibung": "Zuschüsse für Handwerksbetriebe zur Einführung digitaler Geschäftsprozesse: Online-Shop, digitale Buchhaltung, Auftragsmanagement und E-Commerce-Lösungen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Handwerkskammern / Landesförderinstitute",
+    "max_betrag": 5000,
+    "zins": null,
+    "antrag_url": "https://www.zdh.de/themen/digitalisierung/",
+    "bearbeitungszeit_wochen": [
+      2,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Nur für Handwerksbetriebe",
+      "Maßnahme muss vor Antragstellung noch nicht begonnen haben"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Handwerkskarte / Gewerbeanmeldung",
+        "auto": true
+      },
+      {
+        "name": "Angebot des IT-Dienstleisters",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 9,
+      "umsatz_max": "2 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Handwerk"
+      ],
+      "mitarbeiter": [
+        "1–9"
+      ]
+    }
+  },
+  {
+    "id": "bmuv-e-lastenraeder",
+    "title": "BMUV: Förderung von E-Lastenrädern",
+    "beschreibung": "Kaufprämie für elektrische Lastenräder und -anhänger für Unternehmen und Kommunen zur nachhaltigen urbanen Güterlogistik. Bis zu 2.500 € Zuschuss je Fahrzeug.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit (BMUV)",
+    "max_betrag": 2500,
+    "zins": null,
+    "antrag_url": "https://www.bmuv.de/foerderung/e-lastenraeder",
+    "bearbeitungszeit_wochen": [
+      2,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Nur für neue E-Lastenräder",
+      "Privatpersonen nur in Ausnahmefällen förderfähig"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Kaufrechnung (nach Antragstellung)",
+        "auto": false
+      },
+      {
+        "name": "Gewerbeanmeldung / Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Transport & Logistik",
+        "Handel & E-Commerce",
+        "Handwerk"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "e-mobilitaet-infrastruktur-laender",
+    "title": "E-Mobilität Infrastruktur (Länderprogramme)",
+    "beschreibung": "Länderspezifische Förderprogramme für den Aufbau von Elektromobilitätsinfrastruktur: Ladestationen, Flottenmanagementsysteme und Fuhrparkumrüstung auf Elektrofahrzeuge.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Verschiedene Landesministerien und Förderinstitute",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.now-gmbh.de/foerderung/elektromobilitaet/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Je nach Bundesland unterschiedliche Bedingungen",
+      "Antrag vor Maßnahmenbeginn"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Standortnachweis",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Transport & Logistik",
+        "Handwerk",
+        "Industrie & Fertigung"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "energieberatung-mittelstand-bafa",
+    "title": "Energieberatung Mittelstand (BAFA Hauptprogramm)",
+    "beschreibung": "Übergreifendes BAFA-Programm zur Förderung qualifizierter Energieberatungen im Mittelstand. Umfasst Erstberatung, Detailberatung und Begleitmaßnahmen durch zugelassene Energieberater.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA / BMWK",
+    "max_betrag": 6000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Energie/Energieberatung/Energieberatung_Mittelstand/energieberatung_mittelstand_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nur für Unternehmen mit < 250 MA oder < 50 Mio. € Jahresumsatz",
+      "Zugelassener Berater erforderlich"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Angebot des BAFA-zugelassenen Energieberaters",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug / Gewerbeanmeldung",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Handwerk",
+        "Einzelhandel",
+        "Gastronomie & Cafés"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "kfw-energieeffizienz-kredit-292",
+    "title": "KfW Energieeffizienz-Kredit (Programm 292)",
+    "beschreibung": "Zinsgünstiger KfW-Kredit für Unternehmen aller Größen zur Finanzierung energieeffizienter Produktionsanlagen, Gebäudesanierungen und energiesparender Maßnahmen.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 25000000,
+    "zins": "ab 1,32 %",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Foerderprodukte/ERP-Umwelt-und-Energieeffizienzprogramm-(292)/",
+    "bearbeitungszeit_wochen": [
+      6,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Antrag über Hausbank",
+      "Maßnahme muss nachweislich Energie einsparen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Jahresabschluss / BWA",
+        "auto": false
+      },
+      {
+        "name": "Investitionsplan / Energieeinsparnachweis",
+        "auto": false
+      },
+      {
+        "name": "Hausbanken-Bestätigung",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Handwerk",
+        "Immobilienwesen"
+      ],
+      "mitarbeiter": [
+        "50–249",
+        "250+"
+      ]
+    }
+  },
+  {
+    "id": "energieeffizienz-gutschein",
+    "title": "Energieeffizienz-Gutschein für KMU",
+    "beschreibung": "Fördergutschein für KMU zur Finanzierung von Energieeffizienzmessungen, Energieaudits und kleinen Effizienzmaßnahmen. Gefördert von Ländern und Kammern, oft in Kombination mit BAFA-Programmen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Landesförderinstitute / Industrie- und Handelskammern",
+    "max_betrag": 3000,
+    "zins": null,
+    "antrag_url": "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMWi/energieeffizienz-mittelstand.html",
+    "bearbeitungszeit_wochen": [
+      2,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Nur für KMU (< 250 MA)",
+      "Je nach Land unterschiedliche Voraussetzungen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Angebot Energieberater",
+        "auto": false
+      },
+      {
+        "name": "Gewerbeanmeldung / Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Handwerk",
+        "Gastronomie & Cafés"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "kfw-erp-digitalisierung-kredit",
+    "title": "KfW ERP-Digitalisierungs- und Innovationskredit",
+    "beschreibung": "Zinsgünstiger Kredit für KMU zur Finanzierung von Digitalisierungsprojekten: Software, Hardware, IT-Sicherheit, digitale Geschäftsmodelle und Innovationsvorhaben.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 25000000,
+    "zins": "ab 1,5 %",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/Foerderprodukte/ERP-Digitalisierungs-und-Innovationskredit-(380-390)/",
+    "bearbeitungszeit_wochen": [
+      6,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Antrag über Hausbank stellen",
+      "Kein Eigenkapitalersatz",
+      "Unternehmensalter > 2 Jahre"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Jahresabschluss letzter 2 Jahre",
+        "auto": false
+      },
+      {
+        "name": "Investitionsplan Digitalisierung",
+        "auto": false
+      },
+      {
+        "name": "Hausbanken-Bestätigung",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Industrie & Fertigung",
+        "Einzelhandel"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "kfw-erp-gruenderkredit-startgeld",
+    "title": "KfW ERP-Gründerkredit StartGeld",
+    "beschreibung": "Günstige KfW-Kredite für Existenzgründer und junge Unternehmen (bis 5 Jahre) bis max. 125.000 €. Besonders für Kleingründungen ohne ausreichende Sicherheiten geeignet.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 125000,
+    "zins": "ab 5,51 %",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/Foerderprodukte/ERP-Gruenderkredit-%E2%80%93-StartGeld-(067)/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Unternehmensalter max. 5 Jahre",
+      "Max. 125.000 € pro Vorhaben",
+      "Antrag über Hausbank"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan mit Finanzplanung",
+        "auto": false
+      },
+      {
+        "name": "Lebenslauf Gründer/in",
+        "auto": false
+      },
+      {
+        "name": "Gewerbeanmeldung / Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 4,
+      "umsatz_max": "2 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Handwerk",
+        "Einzelhandel",
+        "Gastronomie & Cafés",
+        "IT-Dienstleistungen & Software"
+      ],
+      "mitarbeiter": [
+        "1–9"
+      ]
+    }
+  },
+  {
+    "id": "kfw-erp-kapital-fuer-gruendung",
+    "title": "KfW ERP-Kapital für Gründung",
+    "beschreibung": "Nachrangiges Darlehen (wirtschaftliches Eigenkapital) für Existenzgründer in der Startphase. Verbessert die Eigenkapitalbasis und ermöglicht weitere Bankfinanzierungen.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 500000,
+    "zins": "ab 1,94 %",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/Foerderprodukte/ERP-Kapital-fuer-Gruendung-(058)/",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Unternehmensalter max. 3 Jahre",
+      "Eigenkapitalnachweis erforderlich",
+      "Antrag über Hausbank"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Eigenkapitalnachweis",
+        "auto": false
+      },
+      {
+        "name": "Finanzplanung (3–5 Jahre)",
+        "auto": false
+      },
+      {
+        "name": "Gewerbeanmeldung / Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 2,
+      "umsatz_max": "1 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Handwerk",
+        "Industrie & Fertigung"
+      ],
+      "mitarbeiter": [
+        "1–9"
+      ]
+    }
+  },
+  {
+    "id": "existenzgruendungsberatung-kfw",
+    "title": "Existenzgründungsberatung (KfW / IHK / HWK)",
+    "beschreibung": "Geförderte Beratungsleistungen für Existenzgründer und junge Unternehmen: Businessplan-Check, Finanzierungsberatung, Marktanalyse und Coaching durch Kammern und akkreditierte Berater.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "KfW / IHK / HWK / BAFA",
+    "max_betrag": 4000,
+    "zins": null,
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/",
+    "bearbeitungszeit_wochen": [
+      2,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Unternehmensalter max. 5 Jahre",
+      "Berater muss bei KfW gelistet sein"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Gründungskonzept / Businessplan-Entwurf",
+        "auto": false
+      },
+      {
+        "name": "Nachweis Beratertätigkeit (Zulassung)",
+        "auto": false
+      },
+      {
+        "name": "Gewerbeanmeldung (falls bereits gegründet)",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 49,
+      "umsatz_max": "10 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Handwerk",
+        "Einzelhandel",
+        "Gastronomie & Cafés",
+        "IT-Dienstleistungen & Software"
+      ],
+      "mitarbeiter": [
+        "1–9"
+      ]
+    }
+  },
+  {
+    "id": "exportinitiative-energie",
+    "title": "Exportinitiative Energie (BMWK)",
+    "beschreibung": "Förderung des Exports deutscher Energietechnologien und -dienstleistungen in internationale Märkte. Markterschließungsmaßnahmen, Delegationsreisen, Messebeteiligungen und Studien.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Wirtschaft und Klimaschutz (BMWK) / AHK",
+    "max_betrag": 20000,
+    "zins": null,
+    "antrag_url": "https://www.exportinitiative-energie.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Nur für KMU in der Energiebranche",
+      "Maßnahme muss Exportpotenzial belegen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmens- und Produktbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Exportplan / Marktanalyse",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Energie & Versorgung",
+        "Industrie & Fertigung",
+        "IT-Dienstleistungen & Software"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "exportinitiative-umwelt",
+    "title": "Exportinitiative Umwelttechnologien (BMUV)",
+    "beschreibung": "Förderung für Unternehmen mit Umwelttechnologien zur Erschließung internationaler Märkte. Zuschüsse für Messeauftritte, Matchmaking, Pilot- und Demonstrationsprojekte im Ausland.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit (BMUV)",
+    "max_betrag": 20000,
+    "zins": null,
+    "antrag_url": "https://www.exportinitiative-umwelttechnologien.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Nur für Unternehmen mit Umwelttechnologien/-dienstleistungen",
+      "Antrag vor der Maßnahme stellen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Produktbeschreibung mit Umweltnutzen",
+        "auto": false
+      },
+      {
+        "name": "Markt-/Reiseplan",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Energie & Versorgung",
+        "Industrie & Fertigung",
+        "Land- & Forstwirtschaft"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "esf-fachkraefte-sichern",
+    "title": "Fachkräfte sichern – ESF-Programm (BMBF)",
+    "beschreibung": "ESF-gefördertes Bundesministerium-Programm zur Fachkräftesicherung in KMU: Qualifizierung, Weiterbildung, strategische Personalentwicklung und betriebliche Ausbildung.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Bundesministerium für Bildung und Forschung (BMBF) / ESF",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.fachkraefte-sichern.de/",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nur für KMU (< 250 MA)",
+      "Maßnahmen müssen betriebliche Weiterbildung umfassen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Weiterbildungskonzept / HR-Strategie",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Aktuelle Mitarbeiterzahl / Betriebskennzahlen",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Handwerk",
+        "IT-Dienstleistungen & Software"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "forschungszulage-steuer",
+    "title": "Forschungszulage (FZulG – steuerliche F&E-Förderung)",
+    "beschreibung": "Steuerliche Förderung von Forschungs- und Entwicklungsaufwendungen für alle Unternehmen unabhängig von Größe und Branche. 25 % der förderfähigen Aufwendungen als Steuergutschrift, max. 500.000 €/Jahr.",
+    "typ": "Steuervorteil",
+    "quelle": "Bund",
+    "foerderer": "Bescheinigungsstelle Forschungszulage (BSFZ) / Finanzamt",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.bescheinigung-forschungszulage.de/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "F&E-Vorhaben muss vorab durch BSFZ bescheinigt werden",
+      "Reine Marktforschung oder Routineentwicklung nicht förderfähig"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Antrag auf Forschungszulagen-Bescheinigung (BSFZ)",
+        "auto": false
+      },
+      {
+        "name": "Projektbeschreibung F&E-Vorhaben",
+        "auto": false
+      },
+      {
+        "name": "Nachweis förderfähiger Aufwendungen",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Industrie & Fertigung",
+        "Chemie & Pharma",
+        "Medizintechnik"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249",
+        "250+"
+      ]
+    }
   }
 ]
