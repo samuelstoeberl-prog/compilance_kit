@@ -11822,5 +11822,3736 @@
         "250+"
       ]
     }
+  },
+  {
+    "id": "grw-gemeinschaftsaufgabe",
+    "title": "GRW – Gemeinschaftsaufgabe Regionale Wirtschaftsstruktur",
+    "beschreibung": "Investitionszuschüsse für gewerbliche Unternehmen in strukturschwachen Regionen. Förderung von Betriebsstätten, Maschinen, Ausrüstungen und Arbeitsplatzschaffung.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / Landesförderinstitute",
+    "max_betrag": 5000000,
+    "zins": null,
+    "antrag_url": "https://www.bmwk.de/Redaktion/DE/Dossier/gemeinschaftsaufgabe-regionale-wirtschaftsfoerderung.html",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nur in GRW-Fördergebieten",
+      "Antrag vor Investitionsbeginn"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Beschäftigungsnachweis",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Handwerk",
+        "Einzelhandel"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "inqa-coaching",
+    "title": "INQA-Coaching",
+    "beschreibung": "Gefördertes Coaching für KMU zur Entwicklung agiler Arbeitsweisen, Personalstrategien und betrieblicher Gesundheitsförderung. Bis zu 80 % Zuschuss auf Beraterhonorare.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Arbeit und Soziales (BMAS) / INQA",
+    "max_betrag": 12000,
+    "zins": null,
+    "antrag_url": "https://www.inqa.de/DE/handeln/foerderung/inqa-coaching.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nur für KMU < 250 MA",
+      "Berater muss INQA-zertifiziert sein"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Handelsregisterauszug / Gewerbeanmeldung",
+        "auto": true
+      },
+      {
+        "name": "Beratungsangebot zertifizierter Coach",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Handwerk",
+        "Dienstleistungen"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "kompass-soloselbststaendige",
+    "title": "KOMPASS – Qualifizierung für Soloselbstständige",
+    "beschreibung": "Bis zu 90 % Zuschuss für Qualifizierungs- und Weiterbildungsmaßnahmen für Soloselbstständige. Geförderst werden betriebswirtschaftliche, digitale und fachliche Kompetenzen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / ESF",
+    "max_betrag": 5000,
+    "zins": null,
+    "antrag_url": "https://www.kompass-weiterbildung.de/",
+    "bearbeitungszeit_wochen": [
+      2,
+      4
+    ],
+    "ausschlusskriterien": [
+      "Nur für Soloselbstständige ohne Angestellte",
+      "Kein Anspruch auf Arbeitslosengeld"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Steuerbescheid / Gewerbeanmeldung",
+        "auto": false
+      },
+      {
+        "name": "Kursangebot",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 0,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Freie Berufe (Recht, Steuern, Architektur)",
+        "Kreativwirtschaft",
+        "IT-Dienstleistungen & Software"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "unternehmenswert-mensch",
+    "title": "Unternehmenswert:Mensch (uwm)",
+    "beschreibung": "Gefördertes Beratungsprogramm für KMU zu Personalführung, Fachkräftesicherung und Vereinbarkeit von Familie und Beruf. Bis zu 80 % Zuschuss, max. 8.100 €.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMAS / ESF",
+    "max_betrag": 8100,
+    "zins": null,
+    "antrag_url": "https://www.unternehmenswert-mensch.de/",
+    "bearbeitungszeit_wochen": [
+      2,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Nur für KMU < 250 MA",
+      "Berater muss zugelassen sein"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Angebot des uwm-Beraters",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Handwerk",
+        "Einzelhandel",
+        "Gastronomie & Cafés"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "mikromezzanin-fonds",
+    "title": "Mikromezzaninfonds Deutschland",
+    "beschreibung": "Stilles Beteiligungskapital ohne Mitspracherecht für Kleinstgründer und Soloselbstständige. Bis 75.000 € für 10 Jahre, festgelegte Vergütung, keine Sicherheiten nötig.",
+    "typ": "Beteiligung",
+    "quelle": "Bund",
+    "foerderer": "BMWi / ESF / BMWK / Gründerfonds",
+    "max_betrag": 75000,
+    "zins": "ab 8 % p.a. (feste Vergütung)",
+    "antrag_url": "https://www.mikromezzaninfonds.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Max. 10 Mitarbeiter",
+      "Unternehmen nicht älter als 3 Jahre bei Erstantrag",
+      "Keine Finanzbetriebe"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Finanzplanung",
+        "auto": false
+      },
+      {
+        "name": "Gewerbeanmeldung",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 9,
+      "umsatz_max": "2 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Handwerk",
+        "Gastronomie & Cafés",
+        "Einzelhandel"
+      ],
+      "mitarbeiter": [
+        "1–9"
+      ]
+    }
+  },
+  {
+    "id": "kfw-261-sanierung",
+    "title": "KfW 261 – Bundesförderung effiziente Gebäude (Kredit)",
+    "beschreibung": "Zinsgünstiger KfW-Kredit für energetische Sanierung von Wohn- und Nichtwohngebäuden auf Effizienzhaus-Niveau mit optionalem Tilgungszuschuss je nach erreichtem Standard.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 150000,
+    "zins": "ab 1,01 %",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Privatkunden/Bestandsimmobilie/Foerderprodukte/Bundesfoerderung-fuer-effiziente-Gebaeude-Wohngebaeude-(261)/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Antrag vor Sanierungsbeginn",
+      "BEE-Experte muss begleiten"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Bestätigung zum Antrag durch BEE",
+        "auto": false
+      },
+      {
+        "name": "Bau-/Sanierungsplanung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Immobilienwesen",
+        "Handwerk"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "nutzfahrzeuge-ksni",
+    "title": "KsNI – Klimaschutzprogramm saubere Nutzfahrzeuge",
+    "beschreibung": "Bundesförderung für den Kauf elektrischer und wasserstoffbetriebener Nutzfahrzeuge (Lkw, Busse). Zuschuss für Fahrzeugmehrkosten gegenüber konventionellen Antrieben.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMDV / BAG – Bundesamt für Güterverkehr",
+    "max_betrag": 800000,
+    "zins": null,
+    "antrag_url": "https://www.bag.bund.de/DE/Home/home_node.html",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nur für gewerbliche Güterverkehrsunternehmen",
+      "Fahrzeug muss Null-Emissions-Standard erfüllen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Fahrzeugkaufvertrag",
+        "auto": false
+      },
+      {
+        "name": "Konzession / Gewerbeanmeldung",
+        "auto": true
+      },
+      {
+        "name": "Technisches Datenblatt Fahrzeug",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Transport & Logistik"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "kmu-innovativ-material",
+    "title": "KMU-innovativ: Materialforschung",
+    "beschreibung": "BMBF-Förderung für KMU in der Materialforschung und Werkstoffinnovation. Bis zu 50 % Zuschuss für risikoreiche Forschungsprojekte in Bereichen wie Leichtbau, Funktionswerkstoffe und Composites.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / Projektträger Jülich (PtJ)",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.bmbf.de/bmbf/de/forschung/grundlagenforschung/kmu-innovativ/kmu-innovativ_node.html",
+    "bearbeitungszeit_wochen": [
+      12,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Nur für KMU < 250 MA",
+      "Forschungsrisiko muss nachgewiesen sein",
+      "Projektskizze als erster Schritt"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektskizze (max. 10 Seiten)",
+        "auto": false
+      },
+      {
+        "name": "Kurzdarstellung Unternehmen",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Chemie & Pharma",
+        "Medizintechnik"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "kmu-innovativ-pharma",
+    "title": "KMU-innovativ: Pharma & Medizintechnik",
+    "beschreibung": "Förderung für KMU in der pharmazeutischen Forschung und Medizintechnik. Entwicklung neuer Wirkstoffe, Diagnostika und medizinischer Geräte mit bis zu 50 % Zuschuss.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / Projektträger",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.bmbf.de/bmbf/de/forschung/grundlagenforschung/kmu-innovativ/kmu-innovativ_node.html",
+    "bearbeitungszeit_wochen": [
+      12,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Nur für KMU",
+      "Pharmabehördliche Zulassungskosten nicht förderfähig"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektskizze",
+        "auto": false
+      },
+      {
+        "name": "Unternehmensdarstellung",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Gesundheitswesen & Soziales",
+        "Chemie & Pharma"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "waermepumpen-zuschuss-bafa",
+    "title": "BAFA Wärmepumpen-Zuschuss (BEG EM)",
+    "beschreibung": "Investitionszuschuss für die Installation von Wärmepumpen im Rahmen der Bundesförderung effiziente Gebäude Einzelmaßnahmen. Basisförderung 15 %, mit Klimabonus bis 70 % möglich.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA / KfW",
+    "max_betrag": 30000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Energie/Effiziente_Gebaeude/Bundesfoerderung_Effiziente_Gebaeude/bundesfoerderung_effiziente_gebaeude_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Antrag vor Installation",
+      "Installateur muss Fachbetrieb sein",
+      "Nur für bestehende Gebäude"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Angebot Fachbetrieb",
+        "auto": false
+      },
+      {
+        "name": "Bestätigung Energieeffizienz-Experte (bei >Basis-Förderung)",
+        "auto": false
+      },
+      {
+        "name": "Eigentumsnachweis Gebäude",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Immobilienwesen",
+        "Handwerk"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "solarthermie-bafa",
+    "title": "BAFA Solarthermie-Förderung (BEG EM)",
+    "beschreibung": "Zuschuss für Solarthermieanlagen zur Warmwasserbereitung und Raumheizung. Basisförderung 25 %, bei Einbindung in Heizungssystem mit erneuerbaren Energien bis zu 55 %.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA",
+    "max_betrag": 15000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Energie/Effiziente_Gebaeude/Bundesfoerderung_Effiziente_Gebaeude/bundesfoerderung_effiziente_gebaeude_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Antrag vor Installation",
+      "Anlage muss Mindestgröße erfüllen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Angebot Fachbetrieb",
+        "auto": false
+      },
+      {
+        "name": "Technisches Datenblatt Anlage",
+        "auto": false
+      },
+      {
+        "name": "Eigentumsnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Immobilienwesen",
+        "Handwerk",
+        "Gastronomie & Cafés"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "umweltinnovationsprogramm",
+    "title": "Umweltinnovationsprogramm (UIP) – BMUV",
+    "beschreibung": "Förderung großtechnischer Pilot- und Demonstrationsvorhaben im Umweltbereich. Investitionszuschüsse für erstmalig im großen Maßstab angewandte Umwelttechnologien.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMUV / UBA – Umweltbundesamt",
+    "max_betrag": 2000000,
+    "zins": null,
+    "antrag_url": "https://www.bmuv.de/foerderung/umweltinnovationsprogramm",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Technologie muss wirklich neu (Pilot) sein",
+      "Nicht für bereits etablierte Technologien"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Technisches Konzept mit Neuheitsnachweis",
+        "auto": false
+      },
+      {
+        "name": "Kosten-Nutzen-Analyse (Umwelt)",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Energie & Versorgung",
+        "Chemie & Pharma"
+      ],
+      "mitarbeiter": [
+        "50–249",
+        "250+"
+      ]
+    }
+  },
+  {
+    "id": "phoenix-startup-darlehen",
+    "title": "Phönix – Gründungsdarlehen (diverse Länder)",
+    "beschreibung": "Nachrangdarlehen für risikoreiche Gründungsvorhaben in strukturschwachen Regionen. Ergänzt klassische Bankfinanzierungen und verbessert die Eigenkapitalbasis von Startups.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Regionale Förderinstitute (z.B. MBG, WKB)",
+    "max_betrag": 500000,
+    "zins": "ab 2,5 %",
+    "antrag_url": "https://www.foerderdatenbank.de/",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Je nach Land unterschiedlich",
+      "Unternehmensalter meist < 5 Jahre"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Finanzplanung",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 49,
+      "umsatz_max": "10 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Industrie & Fertigung"
+      ],
+      "mitarbeiter": [
+        "1–9"
+      ]
+    }
+  },
+  {
+    "id": "weiterbildungsscheck-laender",
+    "title": "Weiterbildungsscheck / Bildungsscheck (Länderprogramme)",
+    "beschreibung": "Länderspezifische Gutscheine zur Förderung betrieblicher und individueller Weiterbildung. Förderquoten 50–80 %, je nach Bundesland und Einkommenssituation.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Länder / ESF (z.B. NRW Bildungsscheck, Hamburg Weiterbildungsbonus)",
+    "max_betrag": 2000,
+    "zins": null,
+    "antrag_url": "https://www.foerderdatenbank.de/",
+    "bearbeitungszeit_wochen": [
+      2,
+      4
+    ],
+    "ausschlusskriterien": [
+      "Je nach Land: Einkommensgrenze oder MA-Begrenzung",
+      "Kurs muss anerkannter Träger sein"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Kursangebot / Einschreibebestätigung",
+        "auto": false
+      },
+      {
+        "name": "Einkommensnachweis (bei einkommensabhängiger Förderung)",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Handwerk",
+        "Einzelhandel",
+        "Gastronomie & Cafés"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "zim-netzwerke",
+    "title": "ZIM – Kooperationsnetzwerke (Innovationsnetzwerke)",
+    "beschreibung": "Förderung des Aufbaus und Managements von Innovationsnetzwerken zwischen KMU und Forschungseinrichtungen. Zuschüsse für Netzwerkmanagement und gemeinsame FuE-Vorhaben.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / AIF – Arbeitsgemeinschaft industrieller Forschungsvereinigungen",
+    "max_betrag": 450000,
+    "zins": null,
+    "antrag_url": "https://www.zim.de/ZIM/Navigation/DE/Foerderung/Kooperationsnetzwerke/kooperationsnetzwerke.html",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Netzwerk muss mind. 6 KMU umfassen",
+      "Alle Partner müssen am Markt aktiv sein"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Netzwerkkonzept",
+        "auto": false
+      },
+      {
+        "name": "Absichtserklärungen Netzwerkpartner",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszüge aller Partner",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 499,
+      "umsatz_max": "100 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "IT-Dienstleistungen & Software"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "go-inno-beratung",
+    "title": "Go-Inno – Innovationsberatung für KMU",
+    "beschreibung": "Bundesweiter Beratungsgutschein für KMU für externe Innovationsberatung: Technologiescreening, Schutzrechtstrategie, Marktanalyse und Innovationsmanagement.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / VDI/VDE",
+    "max_betrag": 20000,
+    "zins": null,
+    "antrag_url": "https://www.innovation-beratung-foerderung.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nur für KMU < 250 MA",
+      "Berater muss BMWi-akkreditiert sein"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Angebot akkreditierter Innovationsberater",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "IT-Dienstleistungen & Software",
+        "Handwerk"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "german-accelerator",
+    "title": "German Accelerator – Internationalisierungsprogramm",
+    "beschreibung": "Unterstützungsprogramm des BMWK für deutsche Technologie-Startups bei der Internationalisierung in die USA, Asien und Indien. Coaching, Netzwerk und Büroräume vor Ort.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / German Accelerator gGmbH",
+    "max_betrag": 30000,
+    "zins": null,
+    "antrag_url": "https://www.germanaccelerator.com/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nur für Tech-Startups",
+      "Bewerberverfahren erforderlich",
+      "Unternehmensalter < 7 Jahre"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Pitch Deck",
+        "auto": false
+      },
+      {
+        "name": "Gründerteam-Profil",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG (haftungsbeschränkt)"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Medizintechnik"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "digitalbonus-niedersachsen",
+    "title": "Digitalbonus Niedersachsen",
+    "beschreibung": "Zuschuss für KMU in Niedersachsen für Investitionen in digitale Technologien: Hard- und Software, IT-Sicherheit, digitale Prozessoptimierung und E-Commerce-Lösungen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "NBank – Investitions- und Förderbank Niedersachsen",
+    "max_betrag": 15000,
+    "zins": null,
+    "antrag_url": "https://www.nbank.de/Unternehmen/Innovation-und-Digitalisierung/Digitalbonus-Niedersachsen/index.jsp",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nur in Niedersachsen",
+      "Nur für KMU < 250 MA",
+      "Antrag vor Maßnahmenbeginn"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Angebot IT-Dienstleister",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "Niedersachsen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Handwerk",
+        "Einzelhandel",
+        "Industrie & Fertigung"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "digitalbonus-nord-sh",
+    "title": "Digitalbonus Nord (Schleswig-Holstein)",
+    "beschreibung": "Zuschuss für KMU in Schleswig-Holstein und Hamburg für Digitalisierungsvorhaben: E-Commerce, digitale Kundenprozesse, Datensicherheit und Cloud-Lösungen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "WT.SH – Wirtschaftsförderung und Technologietransfer Schleswig-Holstein",
+    "max_betrag": 15000,
+    "zins": null,
+    "antrag_url": "https://www.wtsh.de/foerderung/digitalbonus-nord/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nur in Schleswig-Holstein oder Hamburg",
+      "Nur für KMU"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Digitalisierungskonzept / Angebot",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "Schleswig-Holstein",
+        "Hamburg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Handwerk",
+        "Einzelhandel",
+        "Gastronomie & Cafés"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "hessenfilm-foerderung",
+    "title": "HessenFilm und Medien – Produktionsförderung",
+    "beschreibung": "Förderung der Film- und Medienproduktion in Hessen: Kino- und Fernsehfilme, Dokumentationen, Animationsfilme und interaktive Medien mit Hessenbezug.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "HessenFilm und Medien GmbH",
+    "max_betrag": 1000000,
+    "zins": null,
+    "antrag_url": "https://www.hessenfilm.de/foerderung/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Hessenbezug (Drehtage oder Firmenitz) erforderlich",
+      "Nur für Filmproduktionen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Drehbuch / Treatment",
+        "auto": false
+      },
+      {
+        "name": "Budget- und Finanzierungsplan",
+        "auto": false
+      },
+      {
+        "name": "Nachweis Hessenbezug",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "Hessen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Kreativwirtschaft",
+        "Medien & Kommunikation"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "fff-bayern-filmfoerderung",
+    "title": "FFF Bayern – FilmFernsehFonds Bayern",
+    "beschreibung": "Produktions- und Entwicklungsförderung für Film und Fernsehen in Bayern. Förderung von Kinofilmen, Serien, Dokumentationen und innovativen Medienformaten mit Bayernbezug.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "FilmFernsehFonds Bayern GmbH",
+    "max_betrag": 2000000,
+    "zins": null,
+    "antrag_url": "https://www.fff-bayern.de/foerderung/",
+    "bearbeitungszeit_wochen": [
+      8,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Bayernbezug erforderlich (Drehtage, Postproduktion oder Firmensitz)",
+      "Nur für Filmproduktionsunternehmen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Drehbuch oder Treatment",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsplan",
+        "auto": false
+      },
+      {
+        "name": "Produktionsfirma-Nachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG (haftungsbeschränkt)"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "Bayern"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Kreativwirtschaft",
+        "Medien & Kommunikation"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "medienboard-berlin-bb",
+    "title": "Medienboard Berlin-Brandenburg – Filmförderung",
+    "beschreibung": "Förderung der Film- und Medienwirtschaft in Berlin und Brandenburg: Entwicklung, Produktion, Verleih und digitale Medieninnovationen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Medienboard Berlin-Brandenburg GmbH",
+    "max_betrag": 1500000,
+    "zins": null,
+    "antrag_url": "https://www.medienboard.de/foerderung/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Berlin- oder Brandenburger Bezug erforderlich"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung / Drehbuch",
+        "auto": false
+      },
+      {
+        "name": "Budget- und Finanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "AG"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "Berlin",
+        "Brandenburg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Kreativwirtschaft",
+        "Medien & Kommunikation"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "elbkulturfonds-hamburg",
+    "title": "Elbkulturfonds Hamburg",
+    "beschreibung": "Förderung kultureller Projekte und kultureller Bildung in Hamburg. Finanzierung von Ausstellungen, Konzerten, Theater, Literatur und spartenübergreifenden Projekten.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Hamburgische Kulturstiftung / Behörde für Kultur und Medien",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.hamburg.de/kulturbehoerde/foerderung/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nur in Hamburg",
+      "Nur für gemeinnützige Kulturträger",
+      "Kommerzielle Veranstaltungen ausgeschlossen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung mit Kulturkonzept",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsplan",
+        "auto": false
+      },
+      {
+        "name": "Gemeinnützigkeitsnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "e.V.",
+        "Stiftung",
+        "GmbH"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "Hamburg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Kreativwirtschaft",
+        "Medien & Kommunikation"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "dbu-umweltinnovation",
+    "title": "DBU – Deutsche Bundesstiftung Umwelt (Projektzuschüsse)",
+    "beschreibung": "Zuschüsse der DBU für innovative Umweltschutzprojekte mit Modellcharakter. Gefördert werden Technologieentwicklung, Naturschutz, Umweltbildung und Kulturgutsicherung.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Deutsche Bundesstiftung Umwelt (DBU)",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.dbu.de/foerderung/",
+    "bearbeitungszeit_wochen": [
+      8,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Projekt muss Modell- und Transfercharakter haben",
+      "Keine Förderung gesetzlich vorgeschriebener Maßnahmen",
+      "Eigenmittel erforderlich"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung mit Umweltnutzen",
+        "auto": false
+      },
+      {
+        "name": "Qualifikationsnachweis Projektleitung",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsplan mit Eigenmittelanteil",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Land- & Forstwirtschaft",
+        "Energie & Versorgung"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "dbu-green-startup",
+    "title": "DBU – Green Startup-Programm",
+    "beschreibung": "Stipendien und Projektzuschüsse der DBU für nachhaltige Unternehmensgründungen mit Umweltinnovationscharakter. Begleitung und Netzwerkzugang für Greentech-Gründer.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Deutsche Bundesstiftung Umwelt (DBU)",
+    "max_betrag": 120000,
+    "zins": null,
+    "antrag_url": "https://www.dbu.de/themen/gruendung/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nur für Gründungen mit Umweltfokus",
+      "Unternehmen max. 3 Jahre alt",
+      "Bewerberverfahren"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Gründungskonzept mit Umweltnutzen",
+        "auto": false
+      },
+      {
+        "name": "Gründerteam-Profil",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GbR"
+      ],
+      "mitarbeiter_max": 9,
+      "umsatz_max": "2 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Energie & Versorgung",
+        "IT-Dienstleistungen & Software",
+        "Land- & Forstwirtschaft"
+      ],
+      "mitarbeiter": [
+        "1–9"
+      ]
+    }
+  },
+  {
+    "id": "stark-strukturwandel",
+    "title": "STARK – Stärkung der Transformationsdynamik und Anpassung in Kohleregionen",
+    "beschreibung": "Förderprogramm des BMWK für Kohlereviere (Lausitz, Mitteldeutschland, Rheinisches Revier). Investitionen in Wirtschaft, Infrastruktur und Forschung in betroffenen Regionen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / Projektträger",
+    "max_betrag": 10000000,
+    "zins": null,
+    "antrag_url": "https://www.bmwk.de/Redaktion/DE/Dossier/strukturwandel-kohleregionen.html",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Nur in Kohleabbauregionen",
+      "Projekt muss Transformationsbeitrag leisten"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung mit Strukturwandelbeitrag",
+        "auto": false
+      },
+      {
+        "name": "Standortnachweis in Fördergebiet",
+        "auto": false
+      },
+      {
+        "name": "Kosten- und Zeitplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "Brandenburg",
+        "Sachsen",
+        "Sachsen-Anhalt",
+        "Nordrhein-Westfalen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Energie & Versorgung",
+        "Industrie & Fertigung"
+      ],
+      "mitarbeiter": [
+        "50–249",
+        "250+"
+      ]
+    }
+  },
+  {
+    "id": "jtf-just-transition-fund",
+    "title": "JTF – Just Transition Fund (EU-Strukturfonds für Kohleausstieg)",
+    "beschreibung": "EU-Fonds zur Unterstützung von Regionen, die stark vom Kohleausstieg betroffen sind. Finanzierung von Diversifizierung, Umschulung und nachhaltigen Investitionen.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Union / BMWK / Länder",
+    "max_betrag": 5000000,
+    "zins": null,
+    "antrag_url": "https://ec.europa.eu/regional_policy/funding/just-transition-fund_en",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Nur in JTF-Fördergebieten (Kohlereviere)",
+      "Projekt muss zur Klimaneutralität beitragen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Territorialer Gerechtigkeits-Übergangsplan (TJTP)-Bezug",
+        "auto": false
+      },
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Standortnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 499,
+      "umsatz_max": "100 Mio. €",
+      "bundeslaender": [
+        "Brandenburg",
+        "Sachsen",
+        "Sachsen-Anhalt",
+        "Nordrhein-Westfalen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Energie & Versorgung",
+        "Industrie & Fertigung",
+        "IT-Dienstleistungen & Software"
+      ],
+      "mitarbeiter": [
+        "50–249",
+        "250+"
+      ]
+    }
+  },
+  {
+    "id": "leader-foerderung",
+    "title": "LEADER – Lokale Entwicklung ländlicher Räume (EU)",
+    "beschreibung": "EU-Förderprogramm für ländliche Regionen via lokaler Aktionsgruppen (LAG). Unterstützung kleiner Projekte für Dorfentwicklung, Tourismus, regionale Produkte und Gemeinschaft.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "EU / Bundesländer / Lokale Aktionsgruppen (LAG)",
+    "max_betrag": 200000,
+    "zins": null,
+    "antrag_url": "https://www.bmel.de/DE/themen/laendliche-regionen/foerderung/leader.html",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nur in ländlichen LEADER-Regionen",
+      "Antrag bei lokaler Aktionsgruppe (LAG) stellen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektantrag bei lokaler LAG",
+        "auto": false
+      },
+      {
+        "name": "Konzeptbeschreibung mit regionalem Mehrwert",
+        "auto": false
+      },
+      {
+        "name": "Kosten- und Finanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 49,
+      "umsatz_max": "10 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Land- & Forstwirtschaft",
+        "Gastronomie & Cafés",
+        "Hotellerie & Beherbergung"
+      ],
+      "mitarbeiter": [
+        "1–9"
+      ]
+    }
+  },
+  {
+    "id": "bob-buergschaft-bw",
+    "title": "Bürgschaft ohne Bank (BoB) – Baden-Württemberg",
+    "beschreibung": "Direktbürgschaft der Bürgschaftsbank Baden-Württemberg ohne Einschaltung einer Hausbank. Bis 250.000 € für Gründer und KMU mit unzureichenden Sicherheiten.",
+    "typ": "Bürgschaft",
+    "quelle": "Bundesland",
+    "foerderer": "Bürgschaftsbank Baden-Württemberg (BBB-W)",
+    "max_betrag": 250000,
+    "zins": "ab 1 % p.a. Provision",
+    "antrag_url": "https://www.buergschaftsbank.de/",
+    "bearbeitungszeit_wochen": [
+      2,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Nur in Baden-Württemberg",
+      "Nur für KMU",
+      "Unternehmen muss wirtschaftlich lebensfähig sein"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Kreditbedarf-Darstellung",
+        "auto": false
+      },
+      {
+        "name": "Jahresabschluss / BWA",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Handwerk",
+        "Gastronomie & Cafés",
+        "Einzelhandel"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "halm-hessen-agrar",
+    "title": "HALM – Hessisches Programm für Agrarumwelt- und Landschaftspflege-Maßnahmen",
+    "beschreibung": "Länderprogramm zur Förderung umweltschonender Landwirtschaft in Hessen: Ökologischer Landbau, Grünlanderhalt, Gewässerschutz und Biodiversitätsmaßnahmen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Hessisches Ministerium für Landwirtschaft / ELER",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.hlnug.de/themen/landwirtschaft-boden/agrarumweltfoerderung.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nur für landwirtschaftliche Betriebe in Hessen",
+      "Mindest-Flächengröße"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Flächenverzeichnis / GIS-Daten",
+        "auto": false
+      },
+      {
+        "name": "Betriebsübersicht",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "Hessen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Land- & Forstwirtschaft"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "photonik-foerderung-bmbf",
+    "title": "Photonik Forschung Deutschland (BMBF)",
+    "beschreibung": "Förderung von FuE-Projekten in der Photonikbranche: Laser, Optik, Sensoren, LED-Technologie und optische Kommunikation. Zuschüsse für Einzel- und Verbundprojekte.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / VDI/VDE-IT",
+    "max_betrag": 1000000,
+    "zins": null,
+    "antrag_url": "https://www.photonikforschung.de/",
+    "bearbeitungszeit_wochen": [
+      12,
+      20
+    ],
+    "ausschlusskriterien": [
+      "FuE-Charakter erforderlich",
+      "Nur für Firmen in Deutschland ansässig"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektskizze",
+        "auto": false
+      },
+      {
+        "name": "Unternehmensdarstellung",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "IT-Dienstleistungen & Software",
+        "Medizintechnik"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "sicherheitsforschung-bmbf",
+    "title": "Forschung für die zivile Sicherheit (BMBF)",
+    "beschreibung": "Förderung von FuE-Projekten für zivile Sicherheitstechnologien: Kritische Infrastruktur, Kriminalitätsprävention, Katastrophenschutz und Bevölkerungsschutz.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / VDI/VDE",
+    "max_betrag": 2000000,
+    "zins": null,
+    "antrag_url": "https://www.sifo.de/",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Ziviler Sicherheitsbezug muss nachgewiesen werden",
+      "Konsortien bevorzugt"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektskizze",
+        "auto": false
+      },
+      {
+        "name": "Konsortialvereinbarung",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Industrie & Fertigung"
+      ],
+      "mitarbeiter": [
+        "50–249",
+        "250+"
+      ]
+    }
+  },
+  {
+    "id": "messeprogramm-bund",
+    "title": "Messeprogramm des Bundes – Gemeinschaftsbeteiligungen",
+    "beschreibung": "Subventionierte Messebeteiligungen für KMU auf internationalen Leitmessen. Günstige Stände in deutschen Gemeinschaftspavillons auf Weltleitmessen wie CES, Hannover Messe, etc.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / AUMA / GTAI",
+    "max_betrag": 15000,
+    "zins": null,
+    "antrag_url": "https://www.auma.de/de/ausstellen/auslandsveranstaltungen/foerderung",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nur für KMU (< 250 MA)",
+      "Erstaussteller erhalten Sonderkonditionen",
+      "Antrag vor der Messe"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmens-/Produktbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "IT-Dienstleistungen & Software",
+        "Großhandel"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "busfoerderung-alternative-antriebe",
+    "title": "Förderung alternativ angetriebener Busse (BMDV)",
+    "beschreibung": "Bundesförderung für den Kauf von Bussen mit elektrischem, wasserstoffbetriebenem oder anderen alternativen Antrieben im ÖPNV und für Unternehmen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMDV / BAFA",
+    "max_betrag": 300000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Energie/Verkehr/busfoerderung.html",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nur für gewerbliche Busunternehmen und ÖPNV-Träger",
+      "Antrag vor Fahrzeugkauf"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Fahrzeugspezifikation",
+        "auto": false
+      },
+      {
+        "name": "Kaufvertrag / Bestellung",
+        "auto": false
+      },
+      {
+        "name": "Konzession / Linienführung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Transport & Logistik"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "combined-transport-foerderung",
+    "title": "Kombinierter Güterverkehr (BMWK/BMDV)",
+    "beschreibung": "Förderung der Verlagerung von Güterverkehr auf die Schiene und das Binnenschiff durch Unterstützung von Umschlagsanlagen und Terminalinfrastruktur für kombinierten Verkehr.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMDV / Eisenbahn-Bundesamt",
+    "max_betrag": 5000000,
+    "zins": null,
+    "antrag_url": "https://www.eba.bund.de/DE/Themen/Foerderung/KombinierterVerkehr/kombinierterverkehr_node.html",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Nur für kombinierte Verkehrsunternehmen oder Terminaloperatoren",
+      "Mindestumschlagvolumen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Terminalplanungsunterlagen",
+        "auto": false
+      },
+      {
+        "name": "Verkehrsprognose",
+        "auto": false
+      },
+      {
+        "name": "Unternehmensnachweis",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Transport & Logistik"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "plastikvermeindung-bmuv",
+    "title": "BMUV: Plastikreduzierung und Kreislaufwirtschaft",
+    "beschreibung": "Förderung von Projekten zur Vermeidung und Substitution von Einwegplastik sowie zur Entwicklung biobasierter und kompostierbarer Alternativen in Produktion und Handel.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMUV / UBA",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.bmuv.de/foerderung/plastikvermeidung",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Messbare Plastikreduzierung muss nachgewiesen werden",
+      "Kein reines Recycling ohne Vermeidungskomponente"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projekt- und Maßnahmenkonzept",
+        "auto": false
+      },
+      {
+        "name": "Mengenschätzung Plastikersparnis",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Einzelhandel",
+        "Industrie & Fertigung",
+        "Gastronomie & Cafés"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "druckluftsysteme-foerderung",
+    "title": "Effizienz von Druckluft- und Pumpenanlagen (BAFA EEW)",
+    "beschreibung": "Zuschuss für Investitionen in hocheffiziente Druckluftkompressoren, Pumpen und Vakuumsysteme im gewerblichen und industriellen Bereich. Teil des BAFA EEW Programms.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA / BMWK",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Energie/Energieeffizienz/Energieeffizienz_in_der_Wirtschaft/Querschnittstechnologien/querschnittstechnologien_node.html",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Antrag vor Investition",
+      "Mindest-Effizienzgewinn erforderlich"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Technische Spezifikation neue Anlage",
+        "auto": false
+      },
+      {
+        "name": "Vergleichswerte alte Anlage",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Handwerk"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249",
+        "250+"
+      ]
+    }
+  },
+  {
+    "id": "volkswagen-stiftung-foerderung",
+    "title": "Volkswagen Stiftung – Förderinitiative Niedersachsen",
+    "beschreibung": "Stiftungsförderung für Wissenschaft und Forschung in Deutschland. Schwerpunkte: Interdisziplinäre Forschung, Spitzenforschung, Wissenschaftlicher Nachwuchs und Gesellschaftlicher Wandel.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Volkswagen Stiftung",
+    "max_betrag": 1000000,
+    "zins": null,
+    "antrag_url": "https://www.volkswagenstiftung.de/foerderung/",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Nur für Wissenschafts- und Forschungseinrichtungen",
+      "Primär für Hochschulen, nicht rein kommerzielle Unternehmen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Forschungsantrag",
+        "auto": false
+      },
+      {
+        "name": "CV der Wissenschaftler",
+        "auto": false
+      },
+      {
+        "name": "Kosten- und Zeitplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Gesundheitswesen & Soziales"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "innostart-sachsen",
+    "title": "INNOSTART Sachsen – Gründungsförderung Technologie",
+    "beschreibung": "Zuschüsse für technologiebasierte Existenzgründungen in Sachsen. Finanzierung von Personalkosten, Sachausgaben und Gründungscoaching in der Startphase.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "SAB – Sächsische Aufbaubank / SMWA",
+    "max_betrag": 100000,
+    "zins": null,
+    "antrag_url": "https://www.sab.de/foerderung/unternehmen/gruendung/",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nur in Sachsen",
+      "Technologiebasierte Gründung erforderlich",
+      "Unternehmensalter max. 1 Jahr"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Geschäftsplan",
+        "auto": false
+      },
+      {
+        "name": "Technologiekonzept",
+        "auto": false
+      },
+      {
+        "name": "Gründernachweis / Gewerbeanmeldung",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GbR"
+      ],
+      "mitarbeiter_max": 49,
+      "umsatz_max": "10 Mio. €",
+      "bundeslaender": [
+        "Sachsen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Industrie & Fertigung"
+      ],
+      "mitarbeiter": [
+        "1–9"
+      ]
+    }
+  },
+  {
+    "id": "profil-hamburg-innovation",
+    "title": "PROFIL – Innovations- und Wachstumsfinanzierung Hamburg",
+    "beschreibung": "Innovationsförderung der IFB Hamburg für FuE-Vorhaben und innovative Projekte in kleinen und mittleren Hamburger Unternehmen. Zuschüsse und zinsgünstige Kredite.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "IFB Hamburg – Investitions- und Förderbank Hamburg",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.ifbhh.de/foerderprogramme/profil",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nur in Hamburg",
+      "Nur für KMU",
+      "FuE-Charakter oder Innovationsgehalt erforderlich"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Innovationskonzept",
+        "auto": false
+      },
+      {
+        "name": "Kostenplan",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "Hamburg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Industrie & Fertigung"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "ressourceneffizienz-kredit",
+    "title": "KfW Ressourceneffizienzprogramm (Kredit)",
+    "beschreibung": "Zinsgünstige Kredite der KfW für Investitionen in Ressourceneffizienz: Materialeinsatz, Wasser, Rohstoffe, Kreislaufwirtschaft und nachhaltige Produktionsprozesse.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 25000000,
+    "zins": "ab 1,5 %",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Foerderprodukte/ERP-Umwelt-und-Energieeffizienzprogramm-(237)/",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Antrag über Hausbank",
+      "Ressourceneinsparung muss quantifizierbar sein"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Ressourceneffizienznachweis",
+        "auto": false
+      },
+      {
+        "name": "Jahresabschluss",
+        "auto": false
+      },
+      {
+        "name": "Hausbanken-Bestätigung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Großhandel",
+        "Chemie & Pharma"
+      ],
+      "mitarbeiter": [
+        "50–249",
+        "250+"
+      ]
+    }
+  },
+  {
+    "id": "natur-artenschutz-bmuv",
+    "title": "Bundesprogramm Biologische Vielfalt (BMUV)",
+    "beschreibung": "Förderung von Projekten zum Schutz bedrohter Tier- und Pflanzenarten sowie ihrer Lebensräume. Maßnahmen für Biotopverbund, Schutzgebiete und Artenschutzprogramme.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMUV / BfN – Bundesamt für Naturschutz",
+    "max_betrag": 3000000,
+    "zins": null,
+    "antrag_url": "https://biologischevielfalt.bfn.de/bundesprogramm.html",
+    "bearbeitungszeit_wochen": [
+      8,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Nur für gemeinnützige Organisationen und Behörden",
+      "Keine privatwirtschaftliche Nutzung"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Artenschutz-Konzept",
+        "auto": false
+      },
+      {
+        "name": "Flächennachweis",
+        "auto": false
+      },
+      {
+        "name": "Trägernachweis / Gemeinnützigkeit",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "e.V.",
+        "Stiftung"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Land- & Forstwirtschaft"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "vier-tage-woche-beratung",
+    "title": "4-Tage-Woche und flexible Arbeitszeitmodelle (Beratungsförderung)",
+    "beschreibung": "Geförderte Beratung für Unternehmen bei der Einführung flexibler Arbeitszeitmodelle, Verkürzung der Arbeitszeit und Umsetzung hybrider Arbeitsformen. Über INQA-Netzwerk oder Beratungsgutscheine.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMAS / INQA / Bundesagentur für Arbeit",
+    "max_betrag": 8000,
+    "zins": null,
+    "antrag_url": "https://www.inqa.de/DE/handeln/foerderung/inqa-coaching.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nur für KMU < 250 MA",
+      "Berater muss INQA-zertifiziert sein"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Beratungsangebot",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Dienstleistungen",
+        "Industrie & Fertigung"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "zukunftsfonds-startup",
+    "title": "Zukunftsfonds – Startup-Kapital (KfW, EIF)",
+    "beschreibung": "10-Mrd.-€-Programm zur Stärkung des Startup-Ökosystems in Deutschland. KfW und EIF beteiligen sich an Wagniskapitalfonds, um Finanzierung für Tech-Startups zu verbessern.",
+    "typ": "Beteiligung",
+    "quelle": "Bund",
+    "foerderer": "KfW Capital / EIF / BMWK",
+    "max_betrag": 10000000,
+    "zins": null,
+    "antrag_url": "https://www.kfw-capital.de/zukunftsfonds/",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Nur für Startups über VC-Fonds",
+      "Kein Direktantrag – über akkreditierte VC-Fonds"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Pitch Deck",
+        "auto": false
+      },
+      {
+        "name": "Finanzprognose (5 Jahre)",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG (haftungsbeschränkt)"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Medizintechnik",
+        "Kreativwirtschaft"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "kulturraumfoerderung-sachsen",
+    "title": "Kulturraumförderung Sachsen",
+    "beschreibung": "Förderung von Kultureinrichtungen und -projekten in den sächsischen Kulturräumen. Sicherung professioneller Kulturangebote in Kommunen und Regionen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Freistaat Sachsen / Kulturraumsekretariate",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.smwk.sachsen.de/kulturraeume.html",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nur in Sachsen",
+      "Nur für kommunale und gemeinnützige Kulturträger"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektantrag Kulturraumsekretariat",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsplan",
+        "auto": false
+      },
+      {
+        "name": "Trägernachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "e.V.",
+        "Stiftung"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "Sachsen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Kreativwirtschaft",
+        "Medien & Kommunikation"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "kunstland-bw",
+    "title": "Kunstland BW – Kulturförderung Baden-Württemberg",
+    "beschreibung": "Landesförderung für bildende Kunst, Darstellende Kunst, Musik und Literatur in Baden-Württemberg. Projektförderung, Stipendien und Institutionelle Förderung.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Ministerium für Wissenschaft, Forschung und Kunst BW",
+    "max_betrag": 100000,
+    "zins": null,
+    "antrag_url": "https://mwk.baden-wuerttemberg.de/de/kunst-kultur/kulturfoerderung/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nur in Baden-Württemberg",
+      "Künstlerische Qualität und öffentliches Interesse erforderlich"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Künstlerisches Konzept",
+        "auto": false
+      },
+      {
+        "name": "Portfolio / Referenzprojekte",
+        "auto": false
+      },
+      {
+        "name": "Kosten- und Finanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Kreativwirtschaft"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "grin-gruendung-bb",
+    "title": "GRIN – Gründung Innovativ Brandenburg",
+    "beschreibung": "Gründungsförderung für innovative und technologiebasierte Unternehmen in Brandenburg. Zuschüsse für Personalkosten und Sachausgaben in der Startphase.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "ILB – Investitionsbank des Landes Brandenburg / MWAE",
+    "max_betrag": 150000,
+    "zins": null,
+    "antrag_url": "https://www.ilb.de/de/wirtschaft/zuschüsse/gruendung-innovativ-grin/",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nur in Brandenburg",
+      "Unternehmensalter max. 1 Jahr",
+      "Innovations- oder Technologiebezug erforderlich"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Innovationskonzept / Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Lebenslauf Gründerteam",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug / Gewerbeanmeldung",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GbR"
+      ],
+      "mitarbeiter_max": 9,
+      "umsatz_max": "2 Mio. €",
+      "bundeslaender": [
+        "Brandenburg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Industrie & Fertigung"
+      ],
+      "mitarbeiter": [
+        "1–9"
+      ]
+    }
+  },
+  {
+    "id": "baytp-technologieprogramm",
+    "title": "BayTP – Bayerisches Technologieförderprogramm",
+    "beschreibung": "Förderung von Technologieprojekten für KMU in Bayern: Entwicklung neuer Produkte, Verfahren und Dienstleistungen mit technologischem Risiko. Bis zu 50 % Zuschuss.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Bayerisches Staatsministerium für Wirtschaft / LfA",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.lfa.de/foerderprogramme/technologie/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nur in Bayern",
+      "Nur für KMU",
+      "Technologisches Neuheitsrisiko muss vorhanden sein"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Technologiekonzept / FuE-Beschreibung",
+        "auto": false
+      },
+      {
+        "name": "Kostenplan",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "Bayern"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Industrie & Fertigung",
+        "Medizintechnik"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "sportstattenbau-nrw",
+    "title": "Moderne Sportstätte NRW – Sportstättenbauförderung",
+    "beschreibung": "Investitionsförderung für Sportstätten in NRW: Sanierung, Neubau und Modernisierung von Sportstätten für Vereine. Zuschüsse aus dem Investitionsprogramm Land NRW.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "MSHB NRW / Landessportbund NRW",
+    "max_betrag": 200000,
+    "zins": null,
+    "antrag_url": "https://www.lsb.nrw/sportentwicklung/sportstaetten/sportstättenfoerderung.html",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nur in NRW",
+      "Nur für gemeinnützige Sportvereine",
+      "Antrag vor Baubeginn"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Bau-/Sanierungsplanung",
+        "auto": false
+      },
+      {
+        "name": "Vereinsnachweis / Gemeinnützigkeit",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "e.V."
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Gesundheitswesen & Soziales"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "solidarpakt-sport-bw",
+    "title": "Solidarpakt Sport Baden-Württemberg",
+    "beschreibung": "Finanzierungsbeitrag des Landes Baden-Württemberg für Sportvereine zur Förderung des Breitensports, Ehrenamts und der Sportinfrastruktur in BW.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Innenministerium Baden-Württemberg / Württembergischer Landessportbund",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.sportverbaende-bw.de/foerderung/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nur in Baden-Württemberg",
+      "Nur für Sportvereine (e.V.)"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Antrag über Landessportverband",
+        "auto": false
+      },
+      {
+        "name": "Vereinsnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "e.V."
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Gesundheitswesen & Soziales"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "eulle-rlp",
+    "title": "EULLE – Entwicklungsprogramm Umweltmaßnahmen Ländlicher Raum RLP",
+    "beschreibung": "Ländliches Entwicklungsprogramm für Rheinland-Pfalz: Agrarumweltmaßnahmen, Ökologischer Landbau, Investitionen in landwirtschaftliche Betriebe und Dorferneuerung.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Ministerium für Wirtschaft und Weinbau RLP / ELER",
+    "max_betrag": 100000,
+    "zins": null,
+    "antrag_url": "https://mwvlw.rlp.de/foerderung/eulle/",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nur in Rheinland-Pfalz",
+      "Nur für Landwirtschaft und ländliche Entwicklung"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Fördermittelantrag Agrarverwaltung",
+        "auto": false
+      },
+      {
+        "name": "Betriebskonzept / Flächennachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "Rheinland-Pfalz"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Land- & Forstwirtschaft"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "solar-invest-thueringen",
+    "title": "Solar Invest Thüringen",
+    "beschreibung": "Investitionszuschuss für Photovoltaik- und Solarthermieanlagen auf Gebäuden in Thüringen, insbesondere für Bürgerenergiegemeinschaften und Kommunen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Thüringer Aufbaubank (TAB) / TMWWDG",
+    "max_betrag": 200000,
+    "zins": null,
+    "antrag_url": "https://www.aufbaubank.de/Foerderprogramme/Solar-Invest",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nur in Thüringen",
+      "Antrag vor Installation"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Technische Planung Solaranlage",
+        "auto": false
+      },
+      {
+        "name": "Eigentumsnachweis Gebäude",
+        "auto": false
+      },
+      {
+        "name": "Angebot Fachbetrieb",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "Thüringen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Immobilienwesen",
+        "Energie & Versorgung"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "filmfoerderung-mdm-sachsen",
+    "title": "MDM – Mitteldeutsche Medienförderung (Sachsen/Thüringen/Sachsen-Anhalt)",
+    "beschreibung": "Regionale Filmförderung für Sachsen, Thüringen und Sachsen-Anhalt. Entwicklungs-, Produktions- und Verleihförderung für Kino- und Fernsehprojekte mit regionalem Bezug.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "MDM – Mitteldeutsche Medienförderung GmbH",
+    "max_betrag": 800000,
+    "zins": null,
+    "antrag_url": "https://www.mdm-online.de/foerderung/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Regionalbezug zu Sachsen, Thüringen oder Sachsen-Anhalt",
+      "Nur für Filmproduktionsunternehmen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Drehbuch / Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsplan",
+        "auto": false
+      },
+      {
+        "name": "Nachweis Regionalbezug",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "Sachsen",
+        "Thüringen",
+        "Sachsen-Anhalt"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Kreativwirtschaft",
+        "Medien & Kommunikation"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "baukindergeld-ergaenzung",
+    "title": "KfW Wohneigentumsprogramm (Ergänzung Baukindergeld)",
+    "beschreibung": "Ergänzung des ausgelaufenen Baukindergeld-Programms: Günstige KfW-Kredite für Familien beim Erwerb von Wohneigentum, mit besonders günstigen Konditionen für Erstkäufer.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 300000,
+    "zins": "ab 1,56 %",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Privatkunden/Neubau/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nur für selbstgenutztes Wohneigentum",
+      "Erstmaligees Wohneigentum bevorzugt"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Kaufvertrag / Baugenehmigung",
+        "auto": false
+      },
+      {
+        "name": "Einkommensnachweis",
+        "auto": false
+      },
+      {
+        "name": "Grundbuchauszug",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Immobilienwesen",
+        "Handwerk"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "bundesfoerderung-waermenetze",
+    "title": "Bundesförderung Wärmenetze (BEW)",
+    "beschreibung": "Förderung des Aufbaus, der Erweiterung und der Transformation von Wärmenetzen auf erneuerbare Energien. Zuschüsse und zinsgünstige Kredite für Fernwärmebetreiber und Kommunen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA / KfW",
+    "max_betrag": 100000000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Energie/Effiziente_Waermenetze/effiziente_waermenetze_node.html",
+    "bearbeitungszeit_wochen": [
+      8,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Nur für Wärmenetz-Betreiber",
+      "Mind. 75 % erneuerbare Energien als Ziel"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Machbarkeitsstudie",
+        "auto": false
+      },
+      {
+        "name": "Transformationsplan Wärmenetz",
+        "auto": false
+      },
+      {
+        "name": "Unternehmensnachweis",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Energie & Versorgung",
+        "Industrie & Fertigung"
+      ],
+      "mitarbeiter": [
+        "50–249",
+        "250+"
+      ]
+    }
+  },
+  {
+    "id": "musikfonds-bund",
+    "title": "Musikfonds – Förderung zeitgenössischer Musik",
+    "beschreibung": "Bundesweite Förderung für zeitgenössische Musik: Neue Musik, Jazz, Pop, elektronische Musik. Projektförderung für Komposition, Produktion und Konzerte.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Musikfonds e.V. / BKM",
+    "max_betrag": 30000,
+    "zins": null,
+    "antrag_url": "https://www.musikfonds.de/foerderung/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nur für professionelle Musikschaffende",
+      "Keine Nachwuchsförderung für Amateure",
+      "Antrag über Musikfonds-Portal"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Künstlerische Referenzen",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Kreativwirtschaft"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "lueges-anlagen-foerderung",
+    "title": "Lüftungsanlagen-Förderung (BEG EM Klimaanlage/Lüftung)",
+    "beschreibung": "Zuschuss für Lüftungsanlagen mit Wärmerückgewinnung im Gebäude. Bis zu 15 % Förderung der Investitionskosten als Teil der Bundesförderung Effiziente Gebäude Einzelmaßnahmen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA / KfW",
+    "max_betrag": 15000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Energie/Effiziente_Gebaeude/Bundesfoerderung_Effiziente_Gebaeude/bundesfoerderung_effiziente_gebaeude_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Antrag vor Installation",
+      "Anlage muss Mindest-Effizienzklasse erfüllen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Technisches Datenblatt",
+        "auto": false
+      },
+      {
+        "name": "Angebot Fachbetrieb",
+        "auto": false
+      },
+      {
+        "name": "Eigentumsnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Immobilienwesen",
+        "Handwerk",
+        "Gastronomie & Cafés"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "thueringen-invest",
+    "title": "Thüringen-Invest – Investitionsförderung Thüringen",
+    "beschreibung": "Investitionszuschüsse für Unternehmen in Thüringen zur Schaffung und Sicherung von Arbeitsplätzen. Förderung von Maschinen, Anlagen und Betriebsstätten.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Thüringer Aufbaubank (TAB) / TMWWDG",
+    "max_betrag": 1000000,
+    "zins": null,
+    "antrag_url": "https://www.aufbaubank.de/Foerderprogramme/Thueringen-Invest",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nur in Thüringen",
+      "Antrag vor Investitionsbeginn",
+      "Mindestinvestition erforderlich"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Arbeitsplatzplan",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "Thüringen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Handwerk"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "h2-mare-offshore",
+    "title": "H2Mare – Offshore-Wasserstoff (BMBF)",
+    "beschreibung": "Leitprojekt für die Erzeugung von grünem Wasserstoff aus Offshore-Windenergie. Förderung von FuE-Vorhaben zu Elektrolyseanlagen auf hoher See und Wasserstofftransport.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / PTJ",
+    "max_betrag": 5000000,
+    "zins": null,
+    "antrag_url": "https://www.wasserstoff-leitprojekte.de/leitprojekte/h2mare",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Offshore-Bezug erforderlich",
+      "Konsortien mit Industrie und Forschung bevorzugt"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektskizze Offshore-Konzept",
+        "auto": false
+      },
+      {
+        "name": "Konsortialvereinbarung",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszüge",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Energie & Versorgung",
+        "Industrie & Fertigung"
+      ],
+      "mitarbeiter": [
+        "50–249",
+        "250+"
+      ]
+    }
+  },
+  {
+    "id": "hyland-wasserstoff-regionen",
+    "title": "HyLand – Wasserstoffregionen in Deutschland",
+    "beschreibung": "Förderprogramm zur Entwicklung regionaler Wasserstoff-Ökosysteme: Erzeugung, Verteilung, Speicherung und Nutzung von grünem Wasserstoff auf regionaler Ebene.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMDV / NOW GmbH",
+    "max_betrag": 10000000,
+    "zins": null,
+    "antrag_url": "https://www.now-gmbh.de/projektfoerderung/wasserstoff/hyland/",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Regionales Konsortium erforderlich",
+      "Kommunen, Unternehmen und Forschung gemeinsam"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Regionales Wasserstoffkonzept",
+        "auto": false
+      },
+      {
+        "name": "Absichtserklärungen Konsortium",
+        "auto": false
+      },
+      {
+        "name": "Standortanalyse",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Energie & Versorgung",
+        "Transport & Logistik",
+        "Industrie & Fertigung"
+      ],
+      "mitarbeiter": [
+        "50–249",
+        "250+"
+      ]
+    }
+  },
+  {
+    "id": "schiffsneubau-innovativ",
+    "title": "Förderprogramm Schiffsneubau Innovation (BME)",
+    "beschreibung": "Bundesförderung für innovative und emissionsarme Schiffsneubauten: Alternative Antriebe (LNG, Wasserstoff, Elektro), effiziente Hydrodynamik und Digitalisierung an Bord.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMDV / Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)",
+    "max_betrag": 5000000,
+    "zins": null,
+    "antrag_url": "https://www.bmvj.de/SharedDocs/DE/Artikel/WS/schiffbau-foerderung.html",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Nur für Schiffsneubau",
+      "Emissionsreduktion gegenüber Standard nachweisbar"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Technische Schiffsspezifikation",
+        "auto": false
+      },
+      {
+        "name": "Emissionsvergleich",
+        "auto": false
+      },
+      {
+        "name": "Werftvertrag / Bestellung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Transport & Logistik"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "interreg-b-nordsee",
+    "title": "INTERREG B – Nordseeraum / Ostseeraum",
+    "beschreibung": "EU-Programm für transnationale Zusammenarbeit in Nord- und Ostseeraum. Förderung von Kooperationsprojekten zu Innovation, Klimaschutz, Nachhaltigkeit und integrierten Küstengebieten.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Union / INTERREG",
+    "max_betrag": 2000000,
+    "zins": null,
+    "antrag_url": "https://www.interreg-nordsee.eu/",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Mind. 3 Partner aus verschiedenen Ländern",
+      "Nur für transnationale Projekte"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Partnerschaftsvereinbarung",
+        "auto": false
+      },
+      {
+        "name": "Projektskizze transnational",
+        "auto": false
+      },
+      {
+        "name": "Nachweise aller Projektpartner",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "Hamburg",
+        "Schleswig-Holstein",
+        "Mecklenburg-Vorpommern",
+        "Bremen",
+        "Niedersachsen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Transport & Logistik",
+        "Land- & Forstwirtschaft",
+        "IT-Dienstleistungen & Software"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "markteintrittshilfe-mv",
+    "title": "Markteinführungsbonus Mecklenburg-Vorpommern",
+    "beschreibung": "Zuschuss für KMU in MV zur Markteinführung neuer Produkte und Dienstleistungen. Förderung von Marktforschung, Zertifizierungen, Prototypen und Erstvermarktung.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Landesförderinstitut Mecklenburg-Vorpommern (LFI MV)",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.lfi-mv.de/foerderung/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Nur in Mecklenburg-Vorpommern",
+      "Nur für KMU < 250 MA"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Markteinführungskonzept",
+        "auto": false
+      },
+      {
+        "name": "Produktbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "Mecklenburg-Vorpommern"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "IT-Dienstleistungen & Software"
+      ],
+      "mitarbeiter": [
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "foerderung-imkerei",
+    "title": "Förderung der Imkerei (Bundesministerium / Länder)",
+    "beschreibung": "Zuschüsse für Imkereibetriebe zur Anschaffung von Bienenvölkern, Ausrüstung und zur Bekämpfung von Bienenkrankheiten (insbesondere Varroamilbe). Länderspezifisch ausgestaltet.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Länderministerien / Deutsche Imker-Verbände",
+    "max_betrag": 5000,
+    "zins": null,
+    "antrag_url": "https://www.deutscherimkerbund.de/foerderung/",
+    "bearbeitungszeit_wochen": [
+      2,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Nur für aktive Imker",
+      "Mindestanzahl Bienenvölker je nach Programm"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Imkerausweis / Nachweis Bienenvölker",
+        "auto": false
+      },
+      {
+        "name": "Kostenvoranschlag Material",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Einzelunternehmen",
+        "e.V."
+      ],
+      "mitarbeiter_max": 9,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Land- & Forstwirtschaft"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "dkjs-kultur-macht-stark",
+    "title": "DKJS – Kultur macht stark (Bündnisse für Bildung)",
+    "beschreibung": "Bundesförderprogramm des BMBF für außerschulische kulturelle Bildung für sozial benachteiligte Kinder und Jugendliche. Förderung lokaler Bündnisse aus 3 Partnern.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / Deutsche Kinder- und Jugendstiftung (DKJS)",
+    "max_betrag": 25000,
+    "zins": null,
+    "antrag_url": "https://www.buendnisse-fuer-bildung.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Bündnis aus mind. 3 verschiedenen Partnern erforderlich",
+      "Zielgruppe: Kinder und Jugendliche in schwieriger Lage"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Bündnisvereinbarung (3 Partner)",
+        "auto": false
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Kosten- und Finanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "e.V.",
+        "Stiftung",
+        "GmbH"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Gesundheitswesen & Soziales",
+        "Kreativwirtschaft"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "cybersecurity-bonus-mv",
+    "title": "Cybersecurity-Bonus Mecklenburg-Vorpommern",
+    "beschreibung": "Zuschuss für KMU in Mecklenburg-Vorpommern für Investitionen in IT-Sicherheit: Firewall, Antivirensoftware, Datenverschlüsselung und Sicherheitsaudits.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Wirtschaftsministerium MV / LFI",
+    "max_betrag": 5000,
+    "zins": null,
+    "antrag_url": "https://www.lfi-mv.de/foerderung/digitalisierung/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nur in Mecklenburg-Vorpommern",
+      "Nur für KMU < 250 MA"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Angebot IT-Sicherheitsdienstleister",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "Mecklenburg-Vorpommern"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Einzelhandel",
+        "Handwerk"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "dehoga-modernisierung",
+    "title": "DEHOGA Modernisierungsförderung (Gastronomie & Hotellerie)",
+    "beschreibung": "Beratung und Vermittlung von Förderprogrammen für die Gastronomie- und Hotelleriebranche durch DEHOGA. Keine Direktförderung, aber Zugang zu Landes- und Bundesförderprogrammen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "DEHOGA Bundesverband / Landesverbände",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.dehoga-bundesverband.de/foerderung/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nur für Gastronomie- und Beherbergungsbetriebe",
+      "DEHOGA-Mitgliedschaft empfohlen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Betriebsnachweis Gastgewerbe",
+        "auto": true
+      },
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 49,
+      "umsatz_max": "10 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Gastronomie & Cafés",
+        "Hotellerie & Beherbergung"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "designfoerderung-hessen",
+    "title": "Designförderung Hessen",
+    "beschreibung": "Förderung von Design als Wettbewerbsfaktor für KMU in Hessen. Zuschüsse für Design-Projekte, Beratung durch Design-Experten und Teilnahme an Design-Wettbewerben.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "HA Hessen Agentur / WIBank",
+    "max_betrag": 10000,
+    "zins": null,
+    "antrag_url": "https://www.ha-hessen.de/foerderung/design/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nur in Hessen",
+      "Nur für KMU",
+      "Design-Projektbezug erforderlich"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Design-Briefing / Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Angebot Designbüro",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 499,
+      "umsatz_max": "100 Mio. €",
+      "bundeslaender": [
+        "Hessen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Kreativwirtschaft",
+        "Einzelhandel",
+        "Industrie & Fertigung"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "loewe-innovationsgutschein-he",
+    "title": "LOEWE – Innovationsgutschein Hessen",
+    "beschreibung": "Gutscheine für KMU in Hessen zur Finanzierung von Kooperationen mit Hochschulen und Forschungseinrichtungen. Förderung von Machbarkeitsstudien und Pilotprojekten.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "HMWEVW / HA Hessen Agentur",
+    "max_betrag": 35000,
+    "zins": null,
+    "antrag_url": "https://www.loewe.hessen.de/foerderung/kmu-gutscheine",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nur in Hessen",
+      "Kooperation mit hessischer Hochschule/FuE-Einrichtung erforderlich"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Kooperationsvereinbarung mit Hochschule",
+        "auto": false
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "Hessen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Industrie & Fertigung",
+        "Medizintechnik"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "wagniskapital-regional",
+    "title": "Regionale Wagniskapital- und Beteiligungsprogramme",
+    "beschreibung": "Beteiligungskapital und stille Beteiligungen der regionalen Mittelständischen Beteiligungsgesellschaften (MBG) für KMU und Startups ohne Mitspracherecht und Sicherheiten.",
+    "typ": "Beteiligung",
+    "quelle": "Bundesland",
+    "foerderer": "MBG / Beteiligungsgesellschaften der Bundesländer",
+    "max_betrag": 1500000,
+    "zins": "ab 6 % p.a. Beteiligungsvergütung",
+    "antrag_url": "https://www.vdb-info.de/mitglieder/beteiligungsgesellschaften/",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nur für KMU",
+      "Unternehmenskonzept muss tragfähig sein",
+      "Keine Kreditinstitute / Versicherungen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Finanzplanung (3–5 Jahre)",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Jahresabschlüsse",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50 Mio. €",
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Industrie & Fertigung",
+        "Handwerk"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "oeko-landbau-foerderung",
+    "title": "Förderung Ökologischer Landbau (BMEL / Länder)",
+    "beschreibung": "Zuschüsse für die Umstellung auf und Beibehaltung von ökologischem Landbau. Förderung der Bioland-Umstellung über EU-Agrarumweltprogramme mit Prämien je Hektar.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMEL / Länder-Landwirtschaftsministerien / ELER",
+    "max_betrag": 300000,
+    "zins": null,
+    "antrag_url": "https://www.bundesprogramm.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nur für landwirtschaftliche Betriebe",
+      "Mindest-Flächengröße",
+      "Bio-Zertifizierung erforderlich (bei Beibehaltung)"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Antrag Agrarumweltprogramm",
+        "auto": false
+      },
+      {
+        "name": "Flächenverzeichnis",
+        "auto": false
+      },
+      {
+        "name": "Bio-Zertifizierungsnachweis (falls vorhanden)",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Land- & Forstwirtschaft"
+      ],
+      "mitarbeiter": []
+    }
+  },
+  {
+    "id": "regionales-startup-stipendium",
+    "title": "Regionale Gründerstipendien (Länderprogramme)",
+    "beschreibung": "Stipendien der Bundesländer für innovative Gründungsvorhaben außerhalb der Hochschulen. Monatliche Zuschüsse für Gründer in der Konzeptionsphase vor der offiziellen Gründung.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Landeswirtschaftsministerien / Förderinstitute",
+    "max_betrag": 30000,
+    "zins": null,
+    "antrag_url": "https://www.foerderdatenbank.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Noch keine Gründung abgeschlossen",
+      "Innovativer Geschäftsgedanke erforderlich",
+      "Je nach Land: Alter, Branche, Region"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Gründungskonzept",
+        "auto": false
+      },
+      {
+        "name": "Lebenslauf",
+        "auto": false
+      },
+      {
+        "name": "Bewerbungsunterlagen Förderprogramm",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Einzelunternehmen",
+        "GbR"
+      ],
+      "mitarbeiter_max": 0,
+      "umsatz_max": null,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Kreativwirtschaft"
+      ],
+      "mitarbeiter": []
+    }
   }
 ]
