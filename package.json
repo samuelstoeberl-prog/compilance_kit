@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently -n frontend,backend -c cyan,green \"vite\" \"cd backend && node --env-file=.env --import tsx/esm src/index.ts\"",
+    "dev": "concurrently -n frontend,backend -c cyan,green \"vite\" \"(pg_isready -q 2>/dev/null || sudo -n service postgresql start 2>/dev/null || true) && cd backend && node --env-file=.env --import tsx/esm src/index.ts\"",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
