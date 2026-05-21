@@ -39,7 +39,7 @@ export function ProfilProvider({ children }: { children: ReactNode }) {
 
   // Backend-Verbindung beim Start prüfen
   useEffect(() => {
-    fetch(`${import.meta.env.VITE_API_URL ?? 'http://localhost:3001'}/api/health`, {
+    fetch(`${import.meta.env.VITE_API_URL ?? ''}/api/health`, {
       signal: AbortSignal.timeout(3000),
     })
       .then(() => setBackendOnline(true))

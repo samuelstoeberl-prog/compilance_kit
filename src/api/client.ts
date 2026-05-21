@@ -1,6 +1,6 @@
 import type { UnternehmensProfil, PflichtStatus } from '../types'
 
-const BASE = import.meta.env.VITE_API_URL ?? 'http://localhost:3001'
+const BASE = import.meta.env.VITE_API_URL ?? ''
 
 // ── Generischer Fetch-Wrapper ─────────────────────────────────────────────────
 
