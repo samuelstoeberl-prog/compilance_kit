@@ -468,34 +468,8 @@ export default function DocumentGenerator({ regulation, profil, onComplete, onCl
   const typ = regulation.dokument_typ as DokumentTyp
   const filename = `${typ}-${(profil.name || 'dokument').replace(/\s+/g, '-')}`
 
-  const [content, setContent] = useState(() => buildDocument(typ, profil))
-  const [isAiContent, setIsAiContent] = useState(false)
-  const [aiLoading, setAiLoading] = useState(false)
-  const [aiError, setAiError] = useState<string | null>(null)
+  const [content] = useState(() => buildDocument(typ, profil))
   const [downloading, setDownloading] = useState<'pdf' | 'docx' | null>(null)
-
-  const generateWithAI = async () => {
-    setAiLoading(true)
-    setAiError(null)
-    try {
-      const res = await fetch('/api/ai/documents', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ typ, profil }),
-      })
-      if (!res.ok) {
-        const err = await res.json().catch(() => ({}))
-        throw new Error(err.error ?? `HTTP ${res.status}`)
-      }
-      const data = await res.json()
-      setContent(data.content)
-      setIsAiContent(true)
-    } catch (err) {
-      setAiError(err instanceof Error ? err.message : 'Unbekannter Fehler')
-    } finally {
-      setAiLoading(false)
-    }
-  }
 
   const download = async (ext: 'pdf' | 'docx') => {
     setDownloading(ext)
@@ -527,57 +501,20 @@ export default function DocumentGenerator({ regulation, profil, onComplete, onCl
         </div>
 
         {/* Status banner */}
-        <div className={`mx-6 mt-5 rounded-xl p-4 flex gap-3 border ${isAiContent ? 'bg-violet-50 border-violet-200' : 'bg-teal-light border-teal/30'}`}>
-          <span className={`text-lg leading-none mt-0.5 ${isAiContent ? 'text-violet-600' : 'text-teal-dark'}`}>
-            {isAiContent ? '✦' : '✓'}
-          </span>
+        <div className="mx-6 mt-5 rounded-xl p-4 flex gap-3 border bg-teal-light border-teal/30">
+          <span className="text-lg leading-none mt-0.5 text-teal-dark">✓</span>
           <div className="flex-1 min-w-0">
-            <p className={`text-sm font-sans font-medium ${isAiContent ? 'text-violet-700' : 'text-teal-dark'}`}>
-              {isAiContent ? 'KI-generiertes Dokument' : 'Vorlage fertig'}
-            </p>
+            <p className="text-sm font-sans font-medium text-teal-dark">Vorlage fertig</p>
             <p className="text-xs text-muted-dark font-sans mt-0.5">
               Vorausgefüllt für: {profil.rechtsform} · {profil.branche} · {profil.bundesland}
             </p>
           </div>
-          {!isAiContent && (
-            <button
-              onClick={generateWithAI}
-              disabled={aiLoading}
-              className="shrink-0 text-xs font-sans font-medium bg-ink text-sand-light px-3 py-1.5 rounded-lg hover:bg-ink-light transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-1.5"
-            >
-              {aiLoading ? (
-                <>
-                  <span className="inline-block w-3 h-3 border-2 border-sand-light/40 border-t-sand-light rounded-full animate-spin" />
-                  Generiert…
-                </>
-              ) : (
-                <>✦ Mit KI verbessern</>
-              )}
-            </button>
-          )}
-          {isAiContent && (
-            <button
-              onClick={() => { setContent(buildDocument(typ, profil)); setIsAiContent(false) }}
-              className="shrink-0 text-xs font-sans text-muted hover:text-ink px-2 py-1 rounded transition-colors"
-            >
-              Vorlage
-            </button>
-          )}
         </div>
-
-        {/* AI error */}
-        {aiError && (
-          <div className="mx-6 mt-3 bg-red-50 border border-red-200 rounded-xl p-3 text-xs text-red-700 font-sans">
-            {aiError}
-          </div>
-        )}
 
         {/* Preview */}
         <div className="flex-1 m-6 bg-sand-light rounded-xl border border-sand-border p-5 overflow-y-auto">
           <pre className="text-sm font-mono text-ink whitespace-pre-wrap leading-relaxed">
-            {aiLoading ? (
-              <span className="text-muted animate-pulse">KI generiert Dokument…</span>
-            ) : content}
+            {content}
           </pre>
         </div>
 
