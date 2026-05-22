@@ -8259,5 +8259,2085 @@
       ]
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "grundbuch-eintragungspflicht",
+    "title": "Grundbucheintragung Eigentumsübertragung (§ 873 BGB)",
+    "category": "Recht",
+    "beschreibung": "Eigentumsübergang an Grundstücken nur durch Einigung und Eintragung im Grundbuch. Notarielle Beurkundung des Kaufvertrags zwingend.",
+    "rechtsgrundlage": "§ 873 BGB, § 311b BGB, GBO",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "geschaeftsfuehrervertrag-dokumentation",
+    "title": "Geschäftsführervertrag & Sozialversicherungspflicht",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Fremdgeschäftsführer sind regelmäßig sozialversicherungspflichtig. Gesellschafter-Geschäftsführer mit <50 % Anteil ebenfalls. Statusfeststellungsverfahren empfohlen.",
+    "rechtsgrundlage": "§ 7 SGB IV, § 35 GmbHG",
+    "quelle_url": "https://www.deutsche-rentenversicherung.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "gewerbliche-schutzrechte-ip",
+    "title": "Gewerbliche Schutzrechte – Marke, Patent, Design",
+    "category": "Recht",
+    "beschreibung": "Schutz von Marken (10 J., DPMA), Patenten (20 J.) und Designs (25 J.). Verletzungen führen zu Unterlassung, Schadensersatz und Abmahnungen.",
+    "rechtsgrundlage": "MarkenG, PatG, DesignG",
+    "quelle_url": "https://www.dpma.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "grunderwerbsteuer-anzeige",
+    "title": "Grunderwerbsteuer – Anzeige- und Zahlungspflicht",
+    "category": "Steuer",
+    "beschreibung": "Grundstückskäufe innerhalb von 2 Wochen beim Finanzamt anzeigen. Steuer 3,5–6,5 % je Bundesland, fällig nach Bescheid. Share Deals bei >90 % Anteilserwerb ebenfalls steuerpflichtig.",
+    "rechtsgrundlage": "GrEStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "gesellschafterliste-handelsregister",
+    "title": "Gesellschafterliste – Aktualisierungspflicht (§ 40 GmbHG)",
+    "category": "Gewerberecht",
+    "beschreibung": "Bei jeder Änderung der Gesellschafterstruktur muss die aktualisierte Gesellschafterliste unverzüglich beim Handelsregister eingereicht werden. Notarielle Beglaubigung erforderlich.",
+    "rechtsgrundlage": "§ 40 GmbHG",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "handelsregister-anmeldepflicht",
+    "title": "Handelsregister – Anmeldepflicht & Publizität",
+    "category": "Gewerberecht",
+    "beschreibung": "Kaufleute und Kapitalgesellschaften müssen sich im Handelsregister eintragen. Änderungen (Geschäftsführer, Adresse, Kapital) unverzüglich anmelden. Gebühr ab 70 €.",
+    "rechtsgrundlage": "§§ 29 ff. HGB, § 7 GmbHG",
+    "quelle_url": "https://www.handelsregister.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "OHG",
+        "KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "handwerkskarte-zulassung",
+    "title": "Handwerkskarte / Handwerksrolle (HwO)",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Für 41 zulassungspflichtige Handwerke ist die Eintragung in die Handwerksrolle mit Meisterbrief oder gleichwertiger Qualifikation Pflicht. Ohne Eintragung droht Untersagung.",
+    "rechtsgrundlage": "§§ 1, 7 HwO",
+    "quelle_url": "https://www.zdh.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Einzelunternehmen",
+        "GmbH",
+        "GbR",
+        "e.K. (eingetragener Kaufmann)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "haftpflicht-unternehmen-pflicht",
+    "title": "Betriebshaftpflichtversicherung (Pflicht bestimmter Branchen)",
+    "category": "Berufsrecht",
+    "beschreibung": "Bestimmte Berufe (Ärzte, Anwälte, Architekten, Notare, Steuerberater) haben gesetzliche Berufshaftpflicht-Pflicht. Empfehlung für alle Unternehmen.",
+    "rechtsgrundlage": "§ 51 BRAO, § 67 StBerG, § 45 ArchG",
+    "quelle_url": "https://www.brak.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Einzelunternehmen",
+        "GmbH",
+        "GbR",
+        "AG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "haccp-schulung-personal",
+    "title": "HACCP-Schulung Lebensmittelverarbeitendes Personal",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Alle Mitarbeiter mit Lebensmittelkontakt müssen in Lebensmittelhygiene unterwiesen sein. Schulungsnachweise aufbewahren. Bei Kontrolle durch Veterinäramt vorzulegen.",
+    "rechtsgrundlage": "Art. 4 VO (EG) 852/2004, § 43 IfSG",
+    "quelle_url": "https://www.bll.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "Einzelunternehmen",
+        "GbR"
+      ],
+      "branchen": [
+        "Gastronomie / Hotellerie",
+        "Lebensmittelhandel"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "heimgewerbetreibende-sozialversicherung",
+    "title": "Heimarbeit – Entgeltnachweis & Sozialkassenabführung",
+    "category": "Sozialversicherung",
+    "beschreibung": "Auftraggeber von Heimarbeitern sind zur Entgeltaufzeichnung und Abführung von Sozialversicherungsbeiträgen verpflichtet. Heimarbeitsgesetz regelt Mindestentgelte.",
+    "rechtsgrundlage": "HAG, SGB IV",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "iso-9001-qualitaetsmanagement",
+    "title": "Qualitätsmanagementsystem ISO 9001 (branchenspezifisch Pflicht)",
+    "category": "Compliance",
+    "beschreibung": "In bestimmten Branchen (Automotive IATF, Medizinprodukte ISO 13485, Luft-/Raumfahrt AS9100) ist ein zertifiziertes QMS Pflicht für Lieferantenzulassung und Betrieb.",
+    "rechtsgrundlage": "ISO 9001:2015, ISO 13485, EU MDR",
+    "quelle_url": "https://www.din.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "investmentgesetz-kapitalanlage",
+    "title": "Kapitalanlagegesetzbuch KAGB (Fonds, AIF)",
+    "category": "Finanzmarkt",
+    "beschreibung": "Verwalter alternativer Investmentfonds (AIF) ab 100 Mio. € AuM benötigen BaFin-Zulassung. Unterhalb der Schwelle: Registrierungspflicht. Jährliche Berichtspflichten.",
+    "rechtsgrundlage": "KAGB, AIFMD",
+    "quelle_url": "https://www.bafin.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "insolvenzrechtliche-anfechtung",
+    "title": "Insolvenzanfechtung – Rückzahlungsrisiko (§ 129 InsO)",
+    "category": "Recht",
+    "beschreibung": "Zahlungen an Gläubiger innerhalb von 4 Jahren vor Insolvenzantrag können angefochten werden. Unternehmen sollten die Bonität ihrer Schuldner im Auge behalten.",
+    "rechtsgrundlage": "§§ 129 ff. InsO",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "jahresabschluss-fristen-einreichung",
+    "title": "Jahresabschluss – Einreichungsfristen (§ 325 HGB)",
+    "category": "Steuer",
+    "beschreibung": "GmbH: 12 Monate nach Bilanzstichtag. AG: 10 Monate. Kleinstgesellschaften: nur Bilanz. Verspätete Einreichung führt zu Ordnungsgeld (2.500–25.000 €) durch Bundesamt für Justiz.",
+    "rechtsgrundlage": "§§ 325, 326 HGB",
+    "quelle_url": "https://www.unternehmensregister.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "kfz-steuer-unternehmen",
+    "title": "Kfz-Steuer & Fahrzeugzulassung Unternehmensflotte",
+    "category": "Steuer",
+    "beschreibung": "Für jedes betriebliche Fahrzeug: Kfz-Steuer-Anmeldung beim Hauptzollamt. Fahrtenbuch oder 1%-Methode für private Nutzung. Bei E-Fahrzeugen: 0,25%-Methode bis 2030.",
+    "rechtsgrundlage": "KraftStG, § 6 Abs. 1 Nr. 4 EStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "krankenversicherung-selbststaendige",
+    "title": "Krankenversicherungspflicht Selbstständige (§ 5 SGB V)",
+    "category": "Sozialversicherung",
+    "beschreibung": "Hauptberuflich Selbstständige sind nicht automatisch gesetzlich krankenversichert. Wahlrecht GKV (freiwillig) oder PKV. Mindestbeitrag GKV 2026: ca. 220 €/Monat.",
+    "rechtsgrundlage": "§ 5 SGB V, § 240 SGB V",
+    "quelle_url": "https://www.gkv-spitzenverband.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Einzelunternehmen",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "konzerndatenschutz-konzernprivileg",
+    "title": "Konzerninterner Datentransfer (kein DSGVO-Konzernprivileg)",
+    "category": "Datenschutz",
+    "beschreibung": "Konzernunternehmen gelten als separate Verantwortliche – kein automatisches Konzernprivileg. Konzernweite Datenweitergabe benötigt AVV oder berechtigte Interessen-Abwägung.",
+    "rechtsgrundlage": "Art. 4 Nr. 7, Art. 6 DSGVO, Erwägungsgrund 48",
+    "quelle_url": "https://www.datenschutz.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "kuendigungsschutz-schwangerschaft",
+    "title": "Kündigungsschutz Schwangerschaft & Mutterschutz",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Absolutes Kündigungsverbot ab Bekanntgabe der Schwangerschaft bis 4 Monate nach Entbindung. Gilt auch in der Probezeit. Behördliche Zustimmung für Ausnahmen erforderlich.",
+    "rechtsgrundlage": "§ 17 MuSchG",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "kurzarbeitergeld-anzeige-planung",
+    "title": "Kurzarbeitergeld – Anzeige und Beantragung",
+    "category": "Sozialversicherung",
+    "beschreibung": "Erheblicher Arbeitsausfall (>10 % der Belegschaft, >10 % Entgeltausfall) muss unverzüglich bei der zuständigen Agentur für Arbeit angezeigt werden. KUG bis 12 Monate.",
+    "rechtsgrundlage": "§§ 95 ff. SGB III",
+    "quelle_url": "https://www.arbeitsagentur.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "kommanditgesellschaft-haftsumme",
+    "title": "KG – Haftsumme Kommanditisten & Handelsregisterpflicht",
+    "category": "Gewerberecht",
+    "beschreibung": "Kommanditisten haften bis zur Höhe ihrer eingetragenen Haftsumme. Diese muss im Handelsregister eingetragen sein. Rückzahlungen unter die Haftsumme reaktivieren die Haftung.",
+    "rechtsgrundlage": "§§ 172 ff. HGB",
+    "quelle_url": "https://www.handelsregister.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "KG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "leiharbeit-equal-pay",
+    "title": "Leiharbeit Equal Pay (ab 9 Monaten Einsatz)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Leiharbeiter müssen ab 9 Monaten Einsatz beim gleichen Entleiher das gleiche Arbeitsentgelt wie Stammarbeitnehmer erhalten (Equal Pay). Tarifliche Abweichungen nur bis 15 Monate.",
+    "rechtsgrundlage": "§ 8 AÜG",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "lohnsteuer-elektronische-lohnsteuerbescheinigung",
+    "title": "Elektronische Lohnsteuerbescheinigung (§ 41b EStG)",
+    "category": "Steuer",
+    "beschreibung": "Arbeitgeber müssen bis 28. Februar Lohnsteuerbescheinigungen elektronisch an die Finanzverwaltung übermitteln und dem Arbeitnehmer eine Kopie aushändigen.",
+    "rechtsgrundlage": "§ 41b EStG",
+    "quelle_url": "https://www.elster.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "ladeneinrichtung-barrierefreiheit",
+    "title": "Ladeneinrichtung & Barrierefreiheit (BFSG 2025)",
+    "category": "Verbraucherschutz",
+    "beschreibung": "Ab Juni 2025 müssen Produkte und Dienstleistungen (Bankautomaten, E-Commerce, Telekommunikation) barrierefrei zugänglich sein gemäß Barrierefreiheitsstärkungsgesetz.",
+    "rechtsgrundlage": "BFSG, EN 301 549",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "lizenzgebuhren-verrechnungspreise",
+    "title": "Lizenzgebühren & Verrechnungspreise (§ 1 AStG)",
+    "category": "Steuer",
+    "beschreibung": "Konzerninterne Lizenzgebühren, Zinsen und Dienstleistungen müssen fremdübliche Verrechnungspreise haben. Dokumentation ab 5 Mio. € Transaktionswert zwingend.",
+    "rechtsgrundlage": "§ 1 AStG, § 90 AO",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "meldepflicht-auslaendische-mitarbeiter",
+    "title": "Meldepflicht ausländische Arbeitnehmer (AEntG, AÜG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Entsendung ausländischer Arbeitnehmer nach Deutschland: Vorab-Meldung beim Zoll (Mindestlohngesetz). A1-Bescheinigung des Heimatlandes. Generalunternehmerhaftung für Subunternehmer.",
+    "rechtsgrundlage": "§ 16 MiLoG, § 18 AEntG",
+    "quelle_url": "https://www.zoll.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "mietvertrag-gewerbe-schriftform",
+    "title": "Gewerbemietvertrag – Schriftform & Indexierung",
+    "category": "Recht",
+    "beschreibung": "Mietverträge über 1 Jahr müssen schriftlich abgeschlossen werden, sonst gelten sie als auf unbestimmte Zeit abgeschlossen. Indexierung an VPI zulässig. Kündigungsschutz schwächer als bei Wohnraum.",
+    "rechtsgrundlage": "§ 550 BGB, § 535 BGB",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "mobiles-arbeiten-regelung",
+    "title": "Mobiles Arbeiten / Homeoffice – Regelungspflichten",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Kein gesetzlicher Anspruch auf Homeoffice (außer durch TV/BV). Arbeitgeber muss Arbeitsmittel stellen oder Kostenerstattung vereinbaren. Arbeitsstättenrecht gilt auch im Homeoffice.",
+    "rechtsgrundlage": "ArbStättV, BetrVG § 87",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "nachweisgesetz-vertragsinhalte",
+    "title": "Nachweisgesetz – Schriftliche Arbeitsbedingungen (NachwG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Seit 2022 müssen wesentliche Arbeitsbedingungen am ersten Arbeitstag schriftlich ausgehändigt werden (kein digitales Format!). Verletzung: Bußgeld bis 2.000 €.",
+    "rechtsgrundlage": "NachwG (Neufassung 2022)",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "nicht-diskriminierung-stellenausschreibung",
+    "title": "AGG – Diskriminierungsfreie Stellenausschreibung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Stellenanzeigen müssen geschlechtsneutral formuliert sein (m/w/d). Diskriminierende Merkmale (Alter, Herkunft, Religion) verboten. Beweislastumkehr im Streitfall zu Lasten des Arbeitgebers.",
+    "rechtsgrundlage": "§§ 1, 7, 11 AGG",
+    "quelle_url": "https://www.antidiskriminierungsstelle.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "nutzungsbedingungen-agb-online",
+    "title": "AGB & Nutzungsbedingungen – Einbeziehung & Kontrolle",
+    "category": "Verbraucherschutz",
+    "beschreibung": "AGB müssen vor Vertragsschluss zugänglich gemacht werden. Unwirksame Klauseln (überraschend, unangemessen benachteiligend) werden unwirksam. AGB-Recht für B2C strenger als B2B.",
+    "rechtsgrundlage": "§§ 305 ff. BGB",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "online-handel-fernabsatzrecht",
+    "title": "Online-Handel – Fernabsatzrecht (§§ 312 ff. BGB)",
+    "category": "Verbraucherschutz",
+    "beschreibung": "B2C-Onlinehandel: 14-tägiges Widerrufsrecht, Muster-Widerrufsbelehrung, vollständige Produktinformationen, keine versteckten Kosten, CE-Button-Verordnung ab 2026.",
+    "rechtsgrundlage": "§§ 312b ff. BGB, VRRL",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "online-shop-pflichtangaben",
+    "title": "Online-Shop Pflichtangaben (§ 5 DDG, PAngV, LMIV)",
+    "category": "Verbraucherschutz",
+    "beschreibung": "Impressum, Datenschutzerklärung, AGB, Widerrufsbelehrung, Preisangaben inkl. MwSt und Versandkosten, OS-Plattform-Link. Fehlende Angaben führen zu wettbewerbsrechtlichen Abmahnungen.",
+    "rechtsgrundlage": "§ 5 DDG, PAngV, RL 2011/83/EU",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "offene-handelsgesellschaft-haftung",
+    "title": "OHG – Unbeschränkte persönliche Haftung aller Gesellschafter",
+    "category": "Gewerberecht",
+    "beschreibung": "Alle OHG-Gesellschafter haften persönlich, unbeschränkt und gesamtschuldnerisch für Verbindlichkeiten der Gesellschaft. Handelsregisterpflicht, Buchführungspflicht.",
+    "rechtsgrundlage": "§§ 105 ff. HGB",
+    "quelle_url": "https://www.handelsregister.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "OHG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "oeffentliche-auftraege-eignung",
+    "title": "Öffentliche Aufträge – Eignungsnachweise & Ausschlussgründe",
+    "category": "Gewerberecht",
+    "beschreibung": "Bieter müssen Unbedenklichkeitsbescheinigungen (Finanzamt, Krankenkasse, BG), Handelsregisterauszug und ggf. Referenzen vorlegen. Ausschluss bei Vergabeverstößen bis 3 Jahre.",
+    "rechtsgrundlage": "§§ 122 ff. GWB, VgV",
+    "quelle_url": "https://www.bmwi.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "outsourcing-auslagerung-banken",
+    "title": "Outsourcing – Auslagerungsanforderungen (MaRisk AT 9)",
+    "category": "Finanzmarkt",
+    "beschreibung": "Finanzunternehmen müssen wesentliche Auslagerungen vorab anzeigen, Auslagerungsvertrag mit Kündigungsrecht, Prüfungsrecht und Datensicherheitsanforderungen abschließen.",
+    "rechtsgrundlage": "§ 25b KWG, MaRisk AT 9, DORA",
+    "quelle_url": "https://www.bafin.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "oekologischer-landbau-zertifizierung",
+    "title": "Ökologischer Landbau – EU-Bio-Zertifizierung & Kontrolle",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Unternehmen, die Bio-Produkte herstellen, verarbeiten oder verkaufen, müssen sich bei einer akkreditierten Öko-Kontrollstelle anmelden und jährlich kontrollieren lassen.",
+    "rechtsgrundlage": "VO (EU) 2018/848, ÖLG",
+    "quelle_url": "https://www.bmel.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "Einzelunternehmen",
+        "GbR",
+        "AG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "ortszuschlag-kommunale-auftraggeber",
+    "title": "Ortszuschlag & Tariftreue bei öffentlichen Aufträgen",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei öffentlichen Aufträgen in Bundesländern mit Tariftreuepflicht müssen Auftragnehmer Mindest-Tarifentgelte einhalten und Nachauftragnehmer dazu verpflichten.",
+    "rechtsgrundlage": "Landesvergabegesetze (TVgG je Bundesland)",
+    "quelle_url": "https://www.bmwk.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "photovoltaik-eeg-pflichten",
+    "title": "Photovoltaik – MaStR-Registrierung & EEG-Pflichten",
+    "category": "Umwelt",
+    "beschreibung": "PV-Anlagen ab 1 kW müssen im Marktstammdatenregister (MaStR) registriert werden. Ab 7 kW: Smart-Meter-Pflicht. Einspeisevergütung: Direktvermarktung ab 100 kW Pflicht.",
+    "rechtsgrundlage": "§ 4 EEG, MsbG, MaStRV",
+    "quelle_url": "https://www.bundesnetzagentur.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "pflegezeit-freistellung-gesetz",
+    "title": "Pflegezeit & Familienpflegezeit – Freistellungsanspruch",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Beschäftigte haben Anspruch auf bis zu 6 Monate Pflegezeit und 24 Monate Familienpflegezeit. Kein Entgeltanspruch während Freistellung, aber zinsloses Darlehen.",
+    "rechtsgrundlage": "PflegeZG, FPfZG",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 15
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "preisbindung-buchpreisbindung",
+    "title": "Buchpreisbindung (BuchPrG)",
+    "category": "Verbraucherschutz",
+    "beschreibung": "Verlage und Importeure müssen für deutschsprachige Bücher Preise verbindlich festsetzen. Händler dürfen keine Rabatte gewähren. Gilt für E-Books und Hörbücher.",
+    "rechtsgrundlage": "BuchPrG",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Buchhandel"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "provision-handelsvertreter",
+    "title": "Handelsvertreter – Provisionsrecht & Ausgleichsanspruch (§ 89b HGB)",
+    "category": "Recht",
+    "beschreibung": "Handelsvertreter haben Anspruch auf Provision für vermittelte Geschäfte. Bei Kündigung: Ausgleichsanspruch bis zu einer Jahresprovision. Wettbewerbsverbot max. 2 Jahre.",
+    "rechtsgrundlage": "§§ 84 ff. HGB, § 89b HGB",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "qualitaetssicherung-medizin-labor",
+    "title": "Qualitätssicherung Medizin – Ringversuche & RiliBäK",
+    "category": "Gesundheit",
+    "beschreibung": "Medizinische Laboratorien müssen an Ringversuchen teilnehmen und die Richtlinie der Bundesärztekammer zur Qualitätssicherung laboratoriumsmedizinischer Untersuchungen (RiliBäK) einhalten.",
+    "rechtsgrundlage": "RiliBäK 2019, § 5 TPG",
+    "quelle_url": "https://www.bundesaerztekammer.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Gesundheit / Pflege"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "quellensteuer-dividenden-inland",
+    "title": "Kapitalertragsteuer / Abgeltungsteuer (§ 43 EStG)",
+    "category": "Steuer",
+    "beschreibung": "Kapitalgesellschaften müssen auf Gewinnausschüttungen 25 % Kapitalertragsteuer (+ Soli 5,5 %) einbehalten und abführen. Bei GmbH: Meldepflicht ans Finanzamt.",
+    "rechtsgrundlage": "§§ 43 ff. EStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "qualitaetszertifizierung-iso-14001",
+    "title": "Umweltmanagementsystem ISO 14001 / EMAS",
+    "category": "Umwelt",
+    "beschreibung": "Freiwillige Zertifizierung nach ISO 14001 oder EMAS-Registrierung. In bestimmten Branchen (öffentliche Aufträge, Förderanträge) als Nachweis verlangt. EMAS: stärkere EU-Anerkennung.",
+    "rechtsgrundlage": "ISO 14001:2015, VO (EG) 1221/2009",
+    "quelle_url": "https://www.emas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "rentenversicherungspflicht-selbststaendige",
+    "title": "Rentenversicherungspflicht bestimmter Selbstständiger (§ 2 SGB VI)",
+    "category": "Sozialversicherung",
+    "beschreibung": "Bestimmte Selbstständige (Lehrer, Erzieher, Pflegepersonen, Handwerker in ersten 18 Jahren) sind rentenversicherungspflichtig. Beitrag: 18,6 % des Einkommens.",
+    "rechtsgrundlage": "§ 2 SGB VI",
+    "quelle_url": "https://www.deutsche-rentenversicherung.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Einzelunternehmen",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "rundfunkbeitrag-unternehmen",
+    "title": "Rundfunkbeitrag für Betriebsstätten (§ 5 RBStV)",
+    "category": "Steuer",
+    "beschreibung": "Für jede Betriebsstätte ab 1 Mitarbeiter: 1/3 Rundfunkbeitrag (ca. 5,83 €/Monat). Jede weitere Betriebsstätte: voller Beitrag. KFZ mit Betriebsbezug: je KFZ 1/3 Beitrag.",
+    "rechtsgrundlage": "§ 5 Rundfunkbeitragsstaatsvertrag (RBStV)",
+    "quelle_url": "https://www.rundfunkbeitrag.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "regressansprueche-arbeitgeber",
+    "title": "Regressanspruch Arbeitgeber bei Schäden durch Mitarbeiter",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei vorsätzlichen Schäden volle Haftung des Arbeitnehmers. Bei grober Fahrlässigkeit hälftige Haftung. Bei leichter Fahrlässigkeit grundsätzlich keine Arbeitnehmerhaftung. Versicherungslösung empfohlen.",
+    "rechtsgrundlage": "BAG, § 276 BGB",
+    "quelle_url": "https://www.bundesarbeitsgericht.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "rechnungslegung-umsatzsteuer-pflicht",
+    "title": "Umsatzsteuer-Rechnung – Pflichtangaben (§ 14 UStG)",
+    "category": "Steuer",
+    "beschreibung": "Rechnungen müssen Name, Anschrift, Steuernummer/USt-ID, Leistungsdatum, Rechnungsnummer, Nettoentgelt, Steuersatz und Steuerbetrag enthalten. Fehler führen zu Vorsteuer-Versagung.",
+    "rechtsgrundlage": "§ 14 UStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GbR",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "rohstoffkennzeichnung-herkunft",
+    "title": "Rohstoffkennzeichnung – Herkunft & Konfliktmineralien",
+    "category": "Reporting",
+    "beschreibung": "Ab 2021: EU-Verordnung zu Konfliktmineralien (Zinn, Wolfram, Tantal, Gold). Importeure aus Risikogebieten müssen Sorgfaltspflichten und Lieferkettenprüfung dokumentieren.",
+    "rechtsgrundlage": "VO (EU) 2017/821",
+    "quelle_url": "https://policy.trade.ec.europa.eu",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "schriftform-arbeitsvertrag-teilzeit",
+    "title": "Teilzeitarbeit – Schriftformerfordernis & Verlängerungsanspruch",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitnehmer haben Anspruch auf Verringerung der Arbeitszeit (ab 15 AN, > 6 Monate beschäftigt). Ablehnung nur bei betrieblichen Gründen zulässig. Brückenteilzeit: befristete Verringerung bis 5 Jahre.",
+    "rechtsgrundlage": "§§ 8, 9a TzBfG",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 15
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "steuerabzug-aufsichtsrat",
+    "title": "Steuerabzug bei Aufsichtsratsvergütungen (§ 50a EStG)",
+    "category": "Steuer",
+    "beschreibung": "Vergütungen an Aufsichtsratsmitglieder unterliegen einem 30 %igen Quellensteuerabzug (+ Soli). Der ausschüttende Rechtsträger hat einzubehalten und abzuführen.",
+    "rechtsgrundlage": "§ 50a EStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG",
+        "GmbH"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "subfirmen-generalunternehmer-haftung",
+    "title": "Generalunternehmer-Haftung für Subunternehmer (Bau, Gastro)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Generalunternehmer haften für Mindestlohnverstöße ihrer Subunternehmer wie ein selbstschuldnerischer Bürge. Schriftliche Vereinbarungen und Kontrollen empfohlen.",
+    "rechtsgrundlage": "§ 13 MiLoG, § 14 AEntG",
+    "quelle_url": "https://www.zoll.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "sozialversicherung-minijob-kuendigung",
+    "title": "Minijob-Kündigung & Urlaubsanspruch",
+    "category": "Sozialversicherung",
+    "beschreibung": "Minijobber haben dieselben Kündigungsschutzrechte und denselben gesetzlichen Urlaubsanspruch wie Vollzeitbeschäftigte (anteilig). Pauschalbeiträge: KV 13 %, RV 15 %, Steuer 2 %.",
+    "rechtsgrundlage": "§ 40a EStG, SGB IV",
+    "quelle_url": "https://www.minijob-zentrale.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GbR"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "sachbezugswerte-lohnsteuer",
+    "title": "Sachbezugswerte Lohnsteuer (Mahlzeiten, Tankgutscheine)",
+    "category": "Steuer",
+    "beschreibung": "Sachleistungen an Arbeitnehmer bis 50 €/Monat steuerfrei (§ 8 EStG). Mahlzeiten: amtliche Sachbezugswerte (2026: Mittagessen 4,40 €). E-Ladestation: pauschal 15 %.",
+    "rechtsgrundlage": "§ 8 EStG, LStR",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "sicherheitsleistung-bauvertrag",
+    "title": "Sicherheitsleistung bei Bauverträgen (§ 650f BGB)",
+    "category": "Recht",
+    "beschreibung": "Unternehmer können Sicherheitsleistung in Höhe von 20 % der vereinbarten Vergütung verlangen. Bauherr kann Bauhandwerkersicherungshypothek eintragen lassen.",
+    "rechtsgrundlage": "§§ 650f ff. BGB",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Bau / Handwerk"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "stromsteuererstattung-produzierendes-gewerbe",
+    "title": "Stromsteuererstattung produzierendes Gewerbe (§ 9b StromStG)",
+    "category": "Steuer",
+    "beschreibung": "Produzierendes Gewerbe kann 5,13 €/MWh Stromsteuer erstattet bekommen. Antrag bis 31.12. des Folgejahres beim Hauptzollamt. Voraussetzung: über 1.000 kWh Verbrauch.",
+    "rechtsgrundlage": "§ 9b StromStG",
+    "quelle_url": "https://www.zoll.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Industrie & Fertigung",
+        "Produktion / Fertigung"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "tierarzneimittel-tierhalter-pflicht",
+    "title": "Tierarzneimittelrecht – TAMG & Antibiotika-Monitoring",
+    "category": "Gesundheit",
+    "beschreibung": "Tierhalter müssen Arzneimittelanwendungen dokumentieren (Bestandsbuch). Antibiotika-Einsatz muss an HIT-Datenbank gemeldet werden. Tierärztliche Verschreibungspflicht.",
+    "rechtsgrundlage": "TAMG, VO (EU) 2019/6",
+    "quelle_url": "https://www.bvl.bund.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "Einzelunternehmen",
+        "GbR"
+      ],
+      "branchen": [
+        "Land- & Forstwirtschaft"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "tarifvertrag-nachwirkung",
+    "title": "Tarifvertragliche Nachwirkung (§ 4 Abs. 5 TVG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Nach Ablauf eines Tarifvertrags gelten seine Regelungen so lange weiter, bis eine neue Vereinbarung getroffen wird. Betrifft insbesondere Entgelt und Arbeitszeit.",
+    "rechtsgrundlage": "§ 4 Abs. 5 TVG",
+    "quelle_url": "https://www.bundesarbeitsgericht.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "technische-ueberwachung-tuev",
+    "title": "TÜV-Prüfungen – Betriebssicherheitspflichten",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Überwachungsbedürftige Anlagen (Aufzüge, Druckbehälter, Kräne, Elektroanlagen, Lageranlagen) müssen durch zugelassene Überwachungsstellen (ZÜS) geprüft werden.",
+    "rechtsgrundlage": "BetrSichV, § 37 ProdSG",
+    "quelle_url": "https://www.baua.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "telefonwerbung-uwg",
+    "title": "Telefonwerbung – Einwilligung & UWG-Verstoß",
+    "category": "Verbraucherschutz",
+    "beschreibung": "Werbeanrufe bei Verbrauchern nur mit vorheriger ausdrücklicher Einwilligung zulässig. Bei B2B: mutmaßliches Einverständnis möglich. Verstöße: Bußgeld bis 300.000 € durch BNetzA.",
+    "rechtsgrundlage": "§ 7 UWG, § 20 UWG",
+    "quelle_url": "https://www.bundesnetzagentur.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "umsatzsteuer-istversteuerung",
+    "title": "Umsatzsteuer – Ist-Versteuerung vs. Soll-Versteuerung",
+    "category": "Steuer",
+    "beschreibung": "Unternehmen bis 600.000 € Umsatz können auf Antrag Ist-Versteuerung (USt erst bei Zahlungseingang) statt Soll-Versteuerung wählen. Liquiditätsvorteil bei langen Zahlungszielen.",
+    "rechtsgrundlage": "§ 20 UStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GbR",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "umweltschutz-emissionserklaerung",
+    "title": "Emissionserklärung (§ 27 BImSchG) – 4-Jahres-Zyklus",
+    "category": "Umwelt",
+    "beschreibung": "Betreiber genehmigungsbedürftiger Anlagen (4. BImSchV) müssen alle 4 Jahre eine Emissionserklärung abgeben. Nächste Frist: 31. März 2024 (Berichtsjahr 2023).",
+    "rechtsgrundlage": "§ 27 BImSchG, 11. BImSchV",
+    "quelle_url": "https://www.umweltbundesamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Industrie & Fertigung",
+        "Produktion / Fertigung"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "unternehmensregister-offenlegung",
+    "title": "Unternehmensregister – Offenlegungspflicht (§ 8b HGB)",
+    "category": "Gewerberecht",
+    "beschreibung": "Jahresabschlüsse, Lageberichte und Corporate Governance Erklärungen müssen beim Unternehmensregister eingereicht werden. Kostenpflichtiger Abruf möglich. Ordnungsgeld bei Verstoß.",
+    "rechtsgrundlage": "§§ 325 ff. HGB, § 8b HGB",
+    "quelle_url": "https://www.unternehmensregister.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "urheberrecht-nutzungsrechte",
+    "title": "Urheberrecht – Nutzungsrechte & Mitarbeiterwerke",
+    "category": "Recht",
+    "beschreibung": "Werke von Mitarbeitern in Ausübung ihrer Tätigkeit: Nutzungsrechte gehen auf Arbeitgeber über (§ 43 UrhG). Freie Mitarbeiter behalten Urheberrecht – Nutzungsrechte vertraglich einräumen.",
+    "rechtsgrundlage": "§§ 31, 43 UrhG",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "umsatzsteuer-auslandsgeschaefte",
+    "title": "Umsatzsteuer Auslandsgeschäfte (§ 3a, 3b UStG)",
+    "category": "Steuer",
+    "beschreibung": "B2B-Dienstleistungen ins EU-Ausland: steuerfrei mit Reverse Charge (§ 13b UStG). Zusammenfassende Meldung (ZM) bis 25. des Folgemonats. B2C-Dienstleistungen: OSS-Verfahren.",
+    "rechtsgrundlage": "§§ 3a, 13b, 18a UStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "unterhaltsvorschuss-arbeitgeber",
+    "title": "Pfändungsfreigrenzen & Lohnpfändung (§ 850c ZPO)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitgeber sind verpflichtet, Pfändungs- und Überweisungsbeschlüsse zu befolgen und den pfändbaren Betrag direkt an den Gläubiger abzuführen. Pfändungsfreigrenze 2026: 1.491 €/Monat.",
+    "rechtsgrundlage": "§§ 850 ff. ZPO",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "vertragsstrafe-verzug-baurecht",
+    "title": "Vertragsstrafe & Verzugsschaden (§§ 286 ff. BGB)",
+    "category": "Recht",
+    "beschreibung": "Verzug tritt ohne Mahnung ein bei Fälligkeit nach Kalender. Gesetzlicher Verzugszinssatz 9 % über Basiszinssatz für B2B-Geschäfte. Vertragsstrafe max. 5 % der Auftragssumme.",
+    "rechtsgrundlage": "§§ 286, 288 BGB, § 341 BGB",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "versicherungspflicht-kuenstler-ksk",
+    "title": "Künstlersozialkasse (KSK) – Abgabepflicht Auftraggeber",
+    "category": "Sozialversicherung",
+    "beschreibung": "Unternehmen, die selbstständige Künstler und Publizisten beauftragen, müssen 5 % der Honorare als KSK-Abgabe entrichten. Eigenveranstaltungen: 5,5 %. Meldung bis 31. März.",
+    "rechtsgrundlage": "§§ 24, 25 KSVG",
+    "quelle_url": "https://www.kuenstlersozialkasse.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "verpflegungsmehraufwand-reisekostenpauschalen",
+    "title": "Verpflegungsmehraufwand Dienstreise (Pauschalen 2026)",
+    "category": "Steuer",
+    "beschreibung": "Abwesenheit über 8h: 16 €. Über 24h: 32 €/Tag. An- und Abreisetag: 16 €. Kürzung bei Mahlzeitengestellung. Muss nicht einzeln nachgewiesen werden.",
+    "rechtsgrundlage": "§ 9 Abs. 4a EStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "verlustabzug-koerperschaftsteuer",
+    "title": "Verlustabzug & Mindestbesteuerung (§ 10d EStG, § 8c KStG)",
+    "category": "Steuer",
+    "beschreibung": "Verlustvortrag unbegrenzt, aber Mindestbesteuerung: nur 60 % des 1-Mio.-€-übersteigenden Gewinns verrechenbar. Anteilsübertragung >50 %: Untergang der Verlustvorträge (§ 8c KStG).",
+    "rechtsgrundlage": "§ 10d EStG, § 8c KStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "wettbewerbsrecht-abmahnung",
+    "title": "Wettbewerbsrecht – Abmahnung & UWG-Verstöße",
+    "category": "Verbraucherschutz",
+    "beschreibung": "Irreführende Werbung, fehlende Pflichtangaben, unzulässige Preisvergleiche können abgemahnt werden. Abmahnkosten trägt der Verletzer. Streitwert typisch 10.000–50.000 €.",
+    "rechtsgrundlage": "§§ 3, 5, 8 UWG",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "weiterbildungspflicht-freie-berufe",
+    "title": "Weiterbildungspflichten Freie Berufe (jährlich)",
+    "category": "Berufsrecht",
+    "beschreibung": "Rechtsanwälte, Steuerberater, Ärzte und Apotheker haben jährliche Pflicht-Fortbildungsnachweise. Ärzte: 250 CME-Punkte/5 Jahre. Anwälte: 15 Stunden/Jahr empfohlen.",
+    "rechtsgrundlage": "FAO, MBO-Ärzte, StBerG",
+    "quelle_url": "https://www.brak.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Einzelunternehmen",
+        "GbR",
+        "GmbH"
+      ],
+      "branchen": [
+        "Freie Berufe (Recht, Steuern, Architektur)",
+        "Gesundheitswesen & Soziales"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "werkzeugmaschinen-ce-kennzeichnung",
+    "title": "Maschinenrichtlinie – CE-Kennzeichnung & Konformitätserklärung",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Neu in Verkehr gebrachte Maschinen müssen CE-Kennzeichnung, EU-Konformitätserklärung und Betriebsanleitung in Landessprache haben. Ab 2027: neue Maschinenverordnung (EU) 2023/1230.",
+    "rechtsgrundlage": "2006/42/EG (MaschRL), VO (EU) 2023/1230",
+    "quelle_url": "https://www.baua.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Industrie & Fertigung",
+        "Bau / Handwerk"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "werberecht-heilmittelrecht-hwg",
+    "title": "Heilmittelwerbegesetz HWG – Werbebeschränkungen Medizin",
+    "category": "Gesundheit",
+    "beschreibung": "Werbung für Arzneimittel, Medizinprodukte und Heilbehandlungen unterliegt strengen Beschränkungen. Keine Werbung mit Krankengeschichten, Vorher-Nachher-Bildern oder Garantien.",
+    "rechtsgrundlage": "HWG",
+    "quelle_url": "https://www.bfarm.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Gesundheitswesen & Soziales",
+        "Freie Berufe (Recht, Steuern, Architektur)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "whistleblower-interner-meldekanal",
+    "title": "Hinweisgeberschutz – Interner Meldekanal (HinSchG)",
+    "category": "Compliance",
+    "beschreibung": "Ab 50 Mitarbeiter: Pflicht zur Einrichtung eines internen Meldekanals bis 17.12.2023. Vertraulichkeit der meldenden Person, Verbot von Repressalien, Dokumentationspflicht.",
+    "rechtsgrundlage": "HinSchG",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 50
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "zinsschranke-fremdkapital",
+    "title": "Zinsschranke (§ 4h EStG) – Abzugsbeschränkung",
+    "category": "Steuer",
+    "beschreibung": "Nettozinsaufwand über 3 Mio. € nur bis 30 % des steuerlichen EBITDA abzugsfähig. Ausnahme: Konzernklausel und Escape-Klausel. Nicht abziehbare Zinsen: Zinsvortrag.",
+    "rechtsgrundlage": "§ 4h EStG, § 8a KStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "zollrechtliche-anmeldepflicht",
+    "title": "Zollanmeldung & EORI-Nummer (Art. 5 UZK)",
+    "category": "Gewerberecht",
+    "beschreibung": "Alle Unternehmen, die Waren in die EU ein- oder ausführen, benötigen eine EORI-Nummer. Zollanmeldung elektronisch über ATLAS. Zollpräferenzen: Ursprungsnachweis erforderlich.",
+    "rechtsgrundlage": "Art. 5 UZK, ZK-DVO",
+    "quelle_url": "https://www.zoll.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "zwangsvollstreckung-duldungspflicht",
+    "title": "Zwangsvollstreckung – Duldung & Vollstreckungsschutz",
+    "category": "Recht",
+    "beschreibung": "Schuldner müssen Vollstreckungsmaßnahmen dulden. Unpfändbare Gegenstände: Arbeitsgeräte bis 3.000 €, lebensnotwendige Haushaltsgeräte. Insolvenzreife prüfen wenn Pfändungen häufen.",
+    "rechtsgrundlage": "§§ 811 ff. ZPO",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "zusammenfassende-meldung-ust",
+    "title": "Zusammenfassende Meldung (ZM) – Innergemeinschaftliche Lieferungen",
+    "category": "Steuer",
+    "beschreibung": "Bei innergemeinschaftlichen Lieferungen und Dienstleistungen: monatliche/quartalsweise ZM bis 25. des Folgemonats. Elektronisch via ELSTER. Verspätung: Bußgeld bis 5.000 €.",
+    "rechtsgrundlage": "§ 18a UStG",
+    "quelle_url": "https://www.elster.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "zugewinnausgleich-unternehmensbewertung",
+    "title": "Zugewinnausgleich – Unternehmensbewertung bei Scheidung",
+    "category": "Recht",
+    "beschreibung": "Unternehmensvermögen ist im Güterstand der Zugewinngemeinschaft beim Zugewinnausgleich zu bewerten. Empfehlung: Ehevertrag mit Unternehmensschutzklausel oder Gütertrennung.",
+    "rechtsgrundlage": "§§ 1363 ff. BGB",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "Einzelunternehmen",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "bahn-fahrgastrechte-meldepflicht",
+    "title": "Eisenbahn-Fahrgastrechte – Beschwerdestelle & Verspätungsentschädigung",
+    "category": "Transport",
+    "beschreibung": "Eisenbahnunternehmen müssen Beschwerdestelle einrichten, Fahrgastrechte umsetzen und ab 60 Minuten Verspätung 25 % des Fahrpreises erstatten.",
+    "rechtsgrundlage": "VO (EU) 2021/782, EBV",
+    "quelle_url": "https://www.bundesnetzagentur.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG"
+      ],
+      "branchen": [
+        "Transport / Logistik"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "apothekenbot-botendienst-dokumentation",
+    "title": "Apotheke – Botendienst & Versandhandel Dokumentation",
+    "category": "Gesundheit",
+    "beschreibung": "Apotheken-Botendienst: nur durch Apothekenpersonal oder vertraglich gebundene Dritte. Versandhandel: BfArM-Genehmigung. Kühlkette dokumentieren. Rx-Versand nach Deutschland verboten.",
+    "rechtsgrundlage": "ApBetrO § 17, AMG",
+    "quelle_url": "https://www.abda.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Gesundheitswesen & Soziales"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "augenoptiker-meisterpflicht",
+    "title": "Augenoptiker – Meisterpflicht & Kontaktlinsenanpassung",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Augenoptik ist zulassungspflichtiges Handwerk. Meisterbrief Pflicht. Kontaktlinsenanpassung nur durch Augenoptiker oder Augenarzt. CE-Kennzeichnung für Sehhilfen.",
+    "rechtsgrundlage": "HwO Anlage A Nr. 35",
+    "quelle_url": "https://www.zdh.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "Einzelunternehmen",
+        "GbR"
+      ],
+      "branchen": [
+        "Gesundheitswesen & Soziales"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "bestatter-bestattungsgesetz",
+    "title": "Bestattungsgewerbe – Konzession & Bestattungsgesetz",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Bestattungsgewerbe: Gewerbeanmeldung, ggf. behördliche Erlaubnis je Bundesland (NRW, Bayern). Leichentransport: Genehmigung der zuständigen Behörde. Kühlraum-Anforderungen.",
+    "rechtsgrundlage": "Bestattungsgesetze der Länder",
+    "quelle_url": "https://www.destatis.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "Einzelunternehmen",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "pflegeheim-personalschluessel-heimrecht",
+    "title": "Pflegeeinrichtung – Personalschlüssel & Konzessionspflicht",
+    "category": "Gesundheit",
+    "beschreibung": "Stationäre Pflegeeinrichtungen benötigen behördliche Zulassung, müssen Personalschlüssel einhalten (1:2,5 in der Tagpflege) und Qualitätsprüfungen durch MDK dulden.",
+    "rechtsgrundlage": "SGB XI, HeimG (Ländersache)",
+    "quelle_url": "https://www.bmg.bund.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "gGmbH (gemeinnützig)"
+      ],
+      "branchen": [
+        "Gesundheitswesen & Soziales"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "taxiunternehmen-konzession-p-schein",
+    "title": "Taxiunternehmen – Konzession & P-Schein Fahrer",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Taxiunternehmen benötigen Genehmigung der Verkehrsbehörde. Fahrer: P-Schein (Personenbeförderungsschein). Fahrzeugprüfung alle 6 Monate. Preisbindung an Behördentarif.",
+    "rechtsgrundlage": "§ 47 PBefG",
+    "quelle_url": "https://www.bmvi.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "Einzelunternehmen",
+        "GbR"
+      ],
+      "branchen": [
+        "Transport / Logistik"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "immobilienmakler-provisionsrecht-reform",
+    "title": "Maklerrecht – Provisionsteilung 2020 (§ 656c BGB)",
+    "category": "Berufsrecht",
+    "beschreibung": "Bei Wohnimmobilien gilt seit 2020: Wer Makler beauftragt, zahlt mindestens 50 %. Doppeltätigkeit zulässig. Nachweis-Maklervertrag kann formfrei, Vermittlungsauftrag schriftlich.",
+    "rechtsgrundlage": "§§ 656a ff. BGB",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "Einzelunternehmen",
+        "GbR",
+        "AG"
+      ],
+      "branchen": [
+        "Immobilienwesen"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "kreditinstitut-einlagensicherung",
+    "title": "Einlagensicherung – Pflichtmitgliedschaft (§ 43 EinSiG)",
+    "category": "Finanzmarkt",
+    "beschreibung": "Kreditinstitute müssen Pflichtmitglied in einem Einlagensicherungssystem sein. Einlagensicherung bis 100.000 € je Kunde. Einzahlungen ans Sicherungssystem jährlich.",
+    "rechtsgrundlage": "EinSiG, RL 2014/49/EU",
+    "quelle_url": "https://www.bafin.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG",
+        "GmbH"
+      ],
+      "branchen": [
+        "Finanzdienstleistungen"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "sportwetten-glueckspiel-konzession",
+    "title": "Sportwettenanbieter – Konzessionspflicht GlüStV",
+    "category": "Gewerbezulassung",
+    "beschreibung": "Online-Sportwetten, Casinobonus-Produkte und Poker benötigen seit 2021 Konzession der Gemeinsamen Glücksspielbehörde der Länder (GGL). Werbebeschränkungen, Spielersperrdatei OASIS.",
+    "rechtsgrundlage": "GlüStV 2021",
+    "quelle_url": "https://ggl.bund.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "architektenhonorar-hoai",
+    "title": "Architektenhonorar HOAI – Verbindliche Honorarzone",
+    "category": "Berufsrecht",
+    "beschreibung": "Die HOAI gilt seit EuGH-Urteil 2019 nicht mehr als zwingendes Recht – Mindestsätze sind EU-rechtswidrig. Honorarvereinbarung frei, aber HOAI als Kalkulationsgrundlage üblich.",
+    "rechtsgrundlage": "HOAI 2021, EuGH C-377/17",
+    "quelle_url": "https://www.bmwsb.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "Einzelunternehmen",
+        "GbR",
+        "AG"
+      ],
+      "branchen": [
+        "Freie Berufe (Recht, Steuern, Architektur)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "reiseveranstalter-insolvenz-sicherung",
+    "title": "Reiseveranstalter – Insolvenzabsicherung & Reisepakete-RL",
+    "category": "Verbraucherschutz",
+    "beschreibung": "Reiseveranstalter müssen seit 2018 Kundenzahlungen durch Versicherung oder Bankbürgschaft absichern. Pauschalreisevertrag: Informationspflichten, Rücktrittsrechte.",
+    "rechtsgrundlage": "§§ 651a ff. BGB, RL (EU) 2015/2302",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Gastronomie / Hotellerie",
+        "Hotellerie & Beherbergung"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "datenschutz-profiling-verbot",
+    "title": "DSGVO – Profiling & automatisierte Entscheidungen (Art. 22)",
+    "category": "Datenschutz",
+    "beschreibung": "Automatisierte Entscheidungen mit erheblicher Wirkung (z.B. Kreditvergabe, Einstellungsentscheidungen) sind nur in engen Grenzen zulässig. Betroffene haben Recht auf menschliche Überprüfung.",
+    "rechtsgrundlage": "Art. 22 DSGVO",
+    "quelle_url": "https://www.datenschutz.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "dsgvo-bussgelder-meldepflicht",
+    "title": "DSGVO – Bußgeldrahmen & Meldepflicht Datenpannen",
+    "category": "Datenschutz",
+    "beschreibung": "Bußgelder bis 20 Mio. € oder 4 % des weltweiten Jahresumsatzes. Datenpannen mit Risiko für Betroffene: Meldung an Datenschutzbehörde binnen 72 Stunden. Hochrisikopannen: Betroffene informieren.",
+    "rechtsgrundlage": "Art. 33, 34, 83 DSGVO",
+    "quelle_url": "https://www.bfdi.bund.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "it-sicherheitskonzept-isms",
+    "title": "IT-Sicherheitskonzept – ISMS & BSI-Grundschutz",
+    "category": "IT-Sicherheit",
+    "beschreibung": "KRITIS-Betreiber: BSI-Grundschutz-Zertifizierung oder ISO 27001 alle 2 Jahre nachweisen. Für andere: Risikoanalyse, Sicherheitsrichtlinien, Incident-Response-Plan empfohlen.",
+    "rechtsgrundlage": "§ 8a BSIG, NIS-2-Umsetzungsgesetz",
+    "quelle_url": "https://www.bsi.bund.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "videokonferenz-datenschutz-tools",
+    "title": "Videokonferenz-Tools – Datenschutzkonforme Nutzung",
+    "category": "Datenschutz",
+    "beschreibung": "Zoom, Teams, Google Meet: AVV mit Anbieter erforderlich. Keine Verarbeitung in Drittstaaten ohne Standardvertragsklauseln. Mitarbeitereinwilligung oder BV für Aufzeichnungen nötig.",
+    "rechtsgrundlage": "Art. 28, 46 DSGVO",
+    "quelle_url": "https://www.datenschutz.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "penetrationstest-it-sicherheit",
+    "title": "Penetrationstest & Schwachstellenmanagement (NIS-2)",
+    "category": "IT-Sicherheit",
+    "beschreibung": "NIS-2-pflichtige Unternehmen müssen regelmäßige Sicherheitstests durchführen und Schwachstellen beheben. Technische und organisatorische Maßnahmen (TOMs) dokumentieren.",
+    "rechtsgrundlage": "§ 30 BSIG (NIS-2-Umsetzung)",
+    "quelle_url": "https://www.bsi.bund.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "geldwaesche-immobilien-pflichten",
+    "title": "Geldwäschegesetz Immobilienmakler – Identifizierungspflicht",
+    "category": "Compliance",
+    "beschreibung": "Immobilienmakler müssen Käufer und Verkäufer ab 10.000 € Provisionswert identifizieren (KYC), wirtschaftlich Berechtigte prüfen und Verdachtsmeldungen ans BKA erstatten.",
+    "rechtsgrundlage": "§§ 2 Abs. 1 Nr. 14, 10 ff. GwG",
+    "quelle_url": "https://www.bka.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "Einzelunternehmen",
+        "GbR"
+      ],
+      "branchen": [
+        "Immobilienwesen"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "biostoff-gefaehrdungsbeurteilung",
+    "title": "Biologische Arbeitsstoffe – Gefährdungsbeurteilung (BioStoffV)",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Unternehmen mit Exposition gegenüber biologischen Arbeitsstoffen (Schimmelpilze, Bakterien, Viren) müssen Gefährdungsbeurteilung erstellen und Schutzmaßnahmen dokumentieren.",
+    "rechtsgrundlage": "BioStoffV, TRBA",
+    "quelle_url": "https://www.baua.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Gesundheitswesen & Soziales",
+        "Land- & Forstwirtschaft",
+        "Gastronomie / Hotellerie"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "elektroschrott-ear-registrierung",
+    "title": "Elektroschrott EAR-Registrierung (ElektroG) – Neupflichten 2026",
+    "category": "Umwelt",
+    "beschreibung": "Hersteller von Elektro- und Elektronikgeräten müssen sich beim EAR registrieren und Rücknahmepflichten erfüllen. Ab 2026: neue Kategorien, Kennzeichnungspflicht, Batteriepass.",
+    "rechtsgrundlage": "ElektroG, RL 2012/19/EU",
+    "quelle_url": "https://www.ear-system.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "lieferkette-menschenrechte-bericht",
+    "title": "Lieferkettensorgfalt – Risikoanalyse & Bericht (LkSG)",
+    "category": "Compliance",
+    "beschreibung": "Ab 1.000 Mitarbeiter: jährliche Risikoanalyse zu Menschenrechtsverletzungen und Umweltschäden in Lieferketten. Präventions- und Abhilfemaßnahmen dokumentieren. Bericht veröffentlichen.",
+    "rechtsgrundlage": "LkSG, CSDDD ab 2027",
+    "quelle_url": "https://www.bafa.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1000
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "abnahme-werkvertrag-mängel",
+    "title": "Werkvertragsrecht – Abnahme & Mängelrecht (§§ 634 ff. BGB)",
+    "category": "Recht",
+    "beschreibung": "Abnahme begründet Fälligkeit des Werklohns und startet Gewährleistungsfrist. Verdeckte Mängel: 5 Jahre Verjährung. Pauschalpreisvertrag: Nachtragsmanagement dokumentieren.",
+    "rechtsgrundlage": "§§ 631, 634 ff. BGB",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Bau / Handwerk"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "gebrauchsmuster-schutzrecht",
+    "title": "Gebrauchsmuster – Technischer Schutz (§ 1 GebrMG)",
+    "category": "Recht",
+    "beschreibung": "Gebrauchsmuster (deutsches Recht): 10 Jahre Schutz für technische Erfindungen. Schnelleres und günstigeres Verfahren als Patent. Keine Prüfung auf Neuheit beim DPMA.",
+    "rechtsgrundlage": "GebrMG",
+    "quelle_url": "https://www.dpma.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "zahlungsverzug-geschaeftsverkehr",
+    "title": "Zahlungsverzug im Geschäftsverkehr (ZVG-Richtlinie 2023)",
+    "category": "Recht",
+    "beschreibung": "Ab 2025 neue EU-Verordnung: max. 30 Tage Zahlungsziel für öffentliche Auftraggeber, 60 Tage B2B. Automatischer Verzugseintritt ohne Mahnung. Mindest-Verzugszinsen 8 % über EZB.",
+    "rechtsgrundlage": "RL 2011/7/EU, neue VO geplant",
+    "quelle_url": "https://www.bmj.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "sozialversicherungsausweis-arbeitgeber",
+    "title": "Sozialversicherungsausweis – Aufbewahrungspflicht AG",
+    "category": "Sozialversicherung",
+    "beschreibung": "Arbeitgeber müssen den Sozialversicherungsausweis (Rentenversicherungsnummer) des Arbeitnehmers prüfen und eine Kopie der Anmeldung aufbewahren. Digitale Meldung via sv.net.",
+    "rechtsgrundlage": "§ 28a SGB IV",
+    "quelle_url": "https://www.deutsche-rentenversicherung.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "gleichstellung-frauenfoerderplan",
+    "title": "Frauenförderplan & Gleichstellungsbeauftragte (BGleiG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bundesbehörden und Unternehmen mit Bundesbeteiligung: 4-Jahres-Frauenförderplan und Gleichstellungsbeauftragte Pflicht. Privatwirtschaft: Empfehlung, im öffentlichen Auftrag oft gefordert.",
+    "rechtsgrundlage": "BGleiG, FüPoG II",
+    "quelle_url": "https://www.bmfsfj.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG",
+        "GmbH"
+      ],
+      "mitarbeiter_min": 200
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "lagerung-gefahrstoffe-vorschriften",
+    "title": "Gefahrstofflagerung – TRGS 510 & Lagerklassen",
+    "category": "Betriebssicherheit",
+    "beschreibung": "Gefahrstoffe müssen nach TRGS 510 in zugelassenen Lagerräumen gelagert werden. Lagerklassen 1–13. Mengen-, Abstands- und Ausrüstungsanforderungen. Brandschutzkonzept erforderlich.",
+    "rechtsgrundlage": "GefStoffV, TRGS 510",
+    "quelle_url": "https://www.baua.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Industrie & Fertigung",
+        "Bau / Handwerk",
+        "Produktion / Fertigung"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "personalakte-datenschutz-einsicht",
+    "title": "Personalakte – Einsichtsrecht & DSGVO-konforme Führung",
+    "category": "Datenschutz",
+    "beschreibung": "Arbeitnehmer haben jederzeitiges Einsichtsrecht in die Personalakte (§ 83 BetrVG). Nur datenschutzrelevante Informationen dürfen gespeichert werden. Aufbewahrung max. 3 Jahre nach Ausscheiden.",
+    "rechtsgrundlage": "§ 83 BetrVG, Art. 5 DSGVO",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "kaelteanlagen-f-gase-prüfung",
+    "title": "Kälteanlagen & Klimageräte – F-Gase Dichtheitsprüfung",
+    "category": "Umwelt",
+    "beschreibung": "Kälteanlagen ab 5 t CO2-Äquivalent: jährliche Dichtheitsprüfung. Ab 50 t: halbjährlich. Leckagebehebung und Reparatur durch zertifizierte Techniker. Logbuchpflicht.",
+    "rechtsgrundlage": "F-Gas-VO (EU) 517/2014",
+    "quelle_url": "https://www.umweltbundesamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "fluchtwege-brandschutzkonzept",
+    "title": "Fluchtwegplan & Brandschutzkonzept – Bauordnungsrecht",
+    "category": "Brandschutz",
+    "beschreibung": "Aushangpflicht für Flucht- und Rettungspläne. Brandschutzkonzept für genehmigungspflichtige Gebäude. Brandschutzbeauftragter ab bestimmter Betriebsgröße empfohlen. Kontrolle durch Bauaufsicht.",
+    "rechtsgrundlage": "MBO, Landesbauordnungen, MFPA",
+    "quelle_url": "https://www.vfdb.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "ausbildungsvertrag-mindestverguetung",
+    "title": "Berufsausbildung – Mindestausbildungsvergütung 2026",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Mindestausbildungsvergütung 2026: 682 € im 1. Lehrjahr. Steigerung: 18 % im 2. Jahr, 35 % im 3. Jahr, 40 % im 4. Jahr. Gilt für neu abgeschlossene Ausbildungsverträge.",
+    "rechtsgrundlage": "§ 17 BBiG",
+    "quelle_url": "https://www.bmbf.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "produktrueckruf-meldepflicht-gpsr",
+    "title": "Produktrückruf – Meldepflicht Safety Gate (GPSR 2024)",
+    "category": "Produktrecht",
+    "beschreibung": "Seit Dezember 2024: Wirtschaftsakteure müssen gefährliche Produkte über Safety Gate melden. Rückrufkommunikation an Verbraucher direkt möglich. Bußgeld bis 1 Mio. € bei Verstoß.",
+    "rechtsgrundlage": "VO (EU) 2023/988 (GPSR)",
+    "quelle_url": "https://ec.europa.eu/safety-gate",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "geldbusse-kartellrecht-selbstanzeige",
+    "title": "Kartellrecht – Selbstanzeigeprogramm (Bonusregelung)",
+    "category": "Compliance",
+    "beschreibung": "Unternehmen, die als erste Kartellabsprache beim Bundeskartellamt anzeigen: vollständige Bußgeldbefreiung möglich. Spätere Anzeigen: Reduzierung bis 50 %. Kronzeuge muss kooperieren.",
+    "rechtsgrundlage": "§§ 81 ff. GWB, Bonusregelung BKartA",
+    "quelle_url": "https://www.bundeskartellamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
+  },
+  {
+    "id": "verbraucherstreitbeilegung-hinweis",
+    "title": "Verbraucherstreitbeilegung – Hinweispflicht OS-Plattform",
+    "category": "Verbraucherschutz",
+    "beschreibung": "Alle Online-Händler müssen auf die OS-Plattform (ec.europa.eu/consumers/odr) hinweisen und ihre E-Mail-Adresse angeben. Bei Ablehnung der Streitschlichtung: Hinweispflicht.",
+    "rechtsgrundlage": "Art. 14 ODR-VO, § 36 VSBG",
+    "quelle_url": "https://ec.europa.eu/consumers/odr",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Einzelunternehmen",
+        "UG (haftungsbeschränkt)"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null
   }
 ]
