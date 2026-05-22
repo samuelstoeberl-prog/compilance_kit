@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom'
 const BETREIBER = {
   name:       'Samuel Stoeberl',          // Dein Vor- und Nachname
   firma:      'ComplianceKit',            // Firmenname
-  strasse:    'Josef Schaab Straße 7',                         
-  plz_ort:    '94559 Niederwinkling',             
+  strasse:    'Josef Schaab Straße 7',
+  plz_ort:    '94559 Niederwinkling',
   email:      'samuelstoeberl@gmail.com',
-  telefon:    '016093369093',                         
+  telefon:    '016093369093',
+  rechtsform: 'Einzelunternehmen',
 }
 // ──────────────────────────────────────────────────────────────────────────────
 
