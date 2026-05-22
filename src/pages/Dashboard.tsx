@@ -8,7 +8,7 @@ import DocumentGenerator, { buildDocument } from '../components/DocumentGenerato
 import { downloadAsPDF, downloadAsDOCX } from '../utils/exportDoc'
 import regulationData from '../data/regulations.json'
 import fundingData from '../data/fundings.json'
-import { CheckCircle, FileText, TrendingUp, Settings, Wifi, WifiOff } from 'lucide-react'
+import { CheckCircle, TrendingUp, Settings } from 'lucide-react'
 import type { Regulation, Funding, PflichtStatus, FundingMitScore, RegulationMitStatus, DokumentTyp } from '../types'
 
 type Tab = 'pflichten' | 'foerderungen' | 'dokumente'
@@ -186,14 +186,6 @@ export default function Dashboard() {
           <span className="text-sm text-muted font-sans">Compliance & Förderungen für KMU</span>
         </div>
         <div className="flex items-center gap-3">
-          {/* Backend-Status-Indikator */}
-          <div className={`flex items-center gap-1.5 text-xs font-mono px-2.5 py-1 rounded-full ${
-            backendOnline ? 'bg-teal-light text-teal-dark' : 'bg-sand-mid text-muted-dark'
-          }`}>
-            {backendOnline
-              ? <><Wifi size={11} /> Live</>
-              : <><WifiOff size={11} /> Offline</>}
-          </div>
           <button onClick={() => navigate('/onboarding')}
             className="flex items-center gap-3 hover:opacity-70 transition-opacity text-sm font-sans bg-sand-light px-4 py-2 rounded-lg">
             <Settings size={16} />
@@ -206,14 +198,6 @@ export default function Dashboard() {
         </div>
       </header>
 
-      {/* Offline-Banner */}
-      {!backendOnline && (
-        <div className="bg-amber-light border-b border-amber/30 px-8 py-2 text-xs text-amber-dark font-sans flex items-center gap-2">
-          <WifiOff size={12} />
-          Backend nicht erreichbar – lokale Daten werden angezeigt. Starte das Backend mit <code className="font-mono bg-white/60 px-1 rounded">npm run backend:dev</code>
-        </div>
-      )}
-
       {/* Lade-Indikator */}
       {loading && (
         <div className="h-0.5 bg-sand-border">
@@ -225,7 +209,6 @@ export default function Dashboard() {
       <nav className="bg-white border-b border-sand-border px-6 flex gap-2">
         {tabBtn('pflichten',   'Pflichten',   allRegs.length,    <CheckCircle size={18} />)}
         {tabBtn('foerderungen','Förderungen', allFundings.length, <TrendingUp size={18} />)}
-        {tabBtn('dokumente',   'Dokumente',   dokRegs.length,    <FileText size={18} />)}
       </nav>
 
       <div className="max-w-6xl mx-auto px-8 py-8">
