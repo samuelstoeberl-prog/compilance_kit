@@ -60,10 +60,6 @@ const DOK_ABBR: Record<string, string> = {
   'arbeitsschutz-unterweisung':'AU',
 }
 
-function domainOf(url: string) {
-  try { return new URL(url).hostname.replace('www.', '') } catch { return url }
-}
-
 // Konvertiert API-Typen in lokale Typen für Wizard/Generator-Kompatibilität
 function toFundingMitScore(f: ApiFunding): FundingMitScore {
   return {
@@ -311,10 +307,6 @@ export default function Dashboard() {
                         <p className="text-xs text-muted-dark font-sans mt-0.5 leading-relaxed">{reg.beschreibung}</p>
                         <div className="flex items-center gap-3 mt-1.5">
                           <span className="text-xs font-mono text-muted">{reg.rechtsgrundlage}</span>
-                          <a href={reg.quelle_url} target="_blank" rel="noopener noreferrer"
-                            className="text-xs text-muted hover:text-ink transition-colors font-sans">
-                            {domainOf(reg.quelle_url)} ↗
-                          </a>
                         </div>
                       </div>
 
