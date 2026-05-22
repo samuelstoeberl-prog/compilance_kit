@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useCallback } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import { useProfil } from '../context/ProfilContext'
 import { filterRegulations, sortedFundings } from '../utils/filter'
 import { fetchFundings, fetchRegulations, type ApiFunding, type ApiRegulation } from '../api/client'
@@ -490,6 +490,20 @@ export default function Dashboard() {
           )
         })()}
       </div>
+
+      {/* Footer */}
+      <footer className="border-t border-sand-border bg-white px-6 py-4 mt-auto">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-xs font-sans text-muted">
+          <span>
+            © {new Date().getFullYear()} {profil.name || 'ComplianceKit'} — Alle Angaben ohne Gewähr. Keine Rechtsberatung.
+          </span>
+          <div className="flex items-center gap-4">
+            <Link to="/impressum" className="hover:text-ink transition-colors">Impressum</Link>
+            <span className="text-sand-border">|</span>
+            <Link to="/impressum#datenschutz" className="hover:text-ink transition-colors">Datenschutz</Link>
+          </div>
+        </div>
+      </footer>
 
       {wizard && <ApplicationWizard funding={wizard} profil={profil} onClose={() => setWizard(null)} />}
       {docGen && (
