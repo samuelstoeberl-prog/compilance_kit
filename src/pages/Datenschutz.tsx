@@ -1,7 +1,17 @@
 import { Link } from 'react-router-dom'
+import { useProfil } from '../context/ProfilContext'
+
+function Val({ value, missing }: { value?: string; missing: string }) {
+  return value
+    ? <span>{value}</span>
+    : <span className="text-amber-dark italic">[{missing}]</span>
+}
 
 export default function Datenschutz() {
+  const { profil } = useProfil()
   const stand = new Date().toLocaleDateString('de-DE', { month: 'long', year: 'numeric' })
+
+  const missingFields = !profil?.strasse || !profil?.plz_ort
 
   return (
     <div className="min-h-screen bg-sand-light">
@@ -21,6 +31,13 @@ export default function Datenschutz() {
         <h1 className="font-serif text-3xl text-ink mb-2">Datenschutzerklärung</h1>
         <p className="text-sm text-muted-dark font-sans mb-10">gemäß Art. 13, 14 DSGVO · Stand: {stand}</p>
 
+        {missingFields && (
+          <div className="mb-6 p-4 bg-amber-50 border border-amber-200 rounded-lg text-xs font-sans text-amber-dark">
+            Fehlende Pflichtangaben sind orange markiert.{' '}
+            <Link to="/onboarding" className="underline">Profil vervollständigen →</Link>
+          </div>
+        )}
+
         <div className="space-y-8">
 
           <section className="bg-teal-light border border-teal/30 rounded-xl p-5">
@@ -32,8 +49,11 @@ export default function Datenschutz() {
           </section>
 
           <Section nr="1" titel="Verantwortlicher">
-            <p>ComplianceKit</p>
-            <p>E-Mail: <a href="mailto:samuelstoeberl@gmail.com" className="underline hover:text-ink">samuelstoeberl@gmail.com</a></p>
+            <p><strong>{profil?.name || 'ComplianceKit'}</strong></p>
+            <p><Val value={profil?.strasse} missing="Straße und Hausnummer" /></p>
+            <p><Val value={profil?.plz_ort} missing="PLZ und Ort" /></p>
+            <p className="mt-1">E-Mail: <Val value={profil?.email} missing="E-Mail-Adresse" /></p>
+            {profil?.telefon && <p>Telefon: {profil.telefon}</p>}
             <p className="text-muted-dark mt-2 text-xs">
               Vollständige Angaben: <Link to="/impressum" className="underline hover:text-ink">Impressum</Link>
             </p>
@@ -57,9 +77,7 @@ export default function Datenschutz() {
               <li>Kontaktdaten (E-Mail, Telefon, Adresse) – nur lokal im Browser</li>
               <li>Compliance-Status einzelner Pflichten – nur lokal im Browser</li>
             </ul>
-            <p className="mt-2">
-              All diese Daten verlassen Ihr Gerät nicht und werden nicht an Dritte weitergegeben.
-            </p>
+            <p className="mt-2">All diese Daten verlassen Ihr Gerät nicht und werden nicht an Dritte weitergegeben.</p>
           </Section>
 
           <Section nr="4" titel="Zweck und Rechtsgrundlagen">
@@ -68,9 +86,7 @@ export default function Datenschutz() {
               Bereitstellung der Compliance- und Fördermittel-Übersicht auf Basis Ihrer Unternehmensangaben.
             </p>
             <p className="mt-3"><strong>Art. 6 Abs. 1 lit. f DSGVO</strong> — Berechtigte Interessen</p>
-            <p className="mt-1 text-muted-dark">
-              Verbesserung und Weiterentwicklung der Anwendung.
-            </p>
+            <p className="mt-1 text-muted-dark">Verbesserung und Weiterentwicklung der Anwendung.</p>
           </Section>
 
           <Section nr="5" titel="Cookies und Tracking">
@@ -102,21 +118,18 @@ export default function Datenschutz() {
               <li>Widerspruch gegen die Verarbeitung (Art. 21)</li>
             </ul>
             <p className="mt-3">
-              Anfragen richten Sie an:{' '}
-              <a href="mailto:samuelstoeberl@gmail.com" className="underline hover:text-ink">
-                samuelstoeberl@gmail.com
-              </a>
+              Anfragen richten Sie an: <Val value={profil?.email} missing="E-Mail-Adresse" />
             </p>
           </Section>
 
           <Section nr="8" titel="Beschwerderecht">
             <p>
-              Sie haben das Recht, sich bei der zuständigen Datenschutzaufsichtsbehörde
-              zu beschweren. Für Bayern:
+              Sie haben das Recht, sich bei der zuständigen Datenschutzaufsichtsbehörde zu beschweren.
+              {profil?.bundesland ? ` Für ${profil.bundesland}:` : ''}
             </p>
             <p className="mt-2 font-medium">Bayerisches Landesamt für Datenschutzaufsicht (BayLDA)</p>
             <p className="text-muted-dark">Promenade 18, 91522 Ansbach</p>
-            <p className="text-muted-dark">
+            <p>
               <a href="https://www.lda.bayern.de" className="underline hover:text-ink" target="_blank" rel="noopener noreferrer">
                 www.lda.bayern.de
               </a>
