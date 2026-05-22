@@ -1,17 +1,20 @@
 import { Link } from 'react-router-dom'
-import { useProfil } from '../context/ProfilContext'
 
-function Val({ value, missing }: { value?: string; missing: string }) {
-  return value
-    ? <span>{value}</span>
-    : <span className="text-amber-dark italic">[{missing}]</span>
+// ─── HIER DEINE DATEN EINTRAGEN ───────────────────────────────────────────────
+const BETREIBER = {
+  name:    'Samuel Stoeberl',           // Dein Vor- und Nachname
+  firma:   'ComplianceKit',             // Firmenname
+  strasse: '',                          // z.B. 'Musterstraße 42'
+  plz_ort: '',                          // z.B. '80331 München'
+  email:   'samuelstoeberl@gmail.com',
+  bundesland: 'Bayern',
 }
+// ──────────────────────────────────────────────────────────────────────────────
 
 export default function Datenschutz() {
-  const { profil } = useProfil()
   const stand = new Date().toLocaleDateString('de-DE', { month: 'long', year: 'numeric' })
 
-  const missingFields = !profil?.strasse || !profil?.plz_ort
+  const missingFields = !BETREIBER.strasse || !BETREIBER.plz_ort
 
   return (
     <div className="min-h-screen bg-sand-light">
@@ -49,11 +52,10 @@ export default function Datenschutz() {
           </section>
 
           <Section nr="1" titel="Verantwortlicher">
-            <p><strong>{profil?.name || 'ComplianceKit'}</strong></p>
-            <p><Val value={profil?.strasse} missing="Straße und Hausnummer" /></p>
-            <p><Val value={profil?.plz_ort} missing="PLZ und Ort" /></p>
-            <p className="mt-1">E-Mail: <Val value={profil?.email} missing="E-Mail-Adresse" /></p>
-            {profil?.telefon && <p>Telefon: {profil.telefon}</p>}
+            <p><strong>{BETREIBER.name}</strong></p>
+            <p className={BETREIBER.strasse ? 'text-ink' : 'text-amber-dark italic'}>{BETREIBER.strasse || '[Straße und Hausnummer]'}</p>
+            <p className={BETREIBER.plz_ort ? 'text-ink' : 'text-amber-dark italic'}>{BETREIBER.plz_ort || '[PLZ und Ort]'}</p>
+            <p className="mt-1">E-Mail: {BETREIBER.email}</p>
             <p className="text-muted-dark mt-2 text-xs">
               Vollständige Angaben: <Link to="/impressum" className="underline hover:text-ink">Impressum</Link>
             </p>
@@ -117,15 +119,13 @@ export default function Datenschutz() {
               <li>Einschränkung der Verarbeitung (Art. 18)</li>
               <li>Widerspruch gegen die Verarbeitung (Art. 21)</li>
             </ul>
-            <p className="mt-3">
-              Anfragen richten Sie an: <Val value={profil?.email} missing="E-Mail-Adresse" />
-            </p>
+            <p className="mt-3">Anfragen richten Sie an: {BETREIBER.email}</p>
           </Section>
 
           <Section nr="8" titel="Beschwerderecht">
             <p>
               Sie haben das Recht, sich bei der zuständigen Datenschutzaufsichtsbehörde zu beschweren.
-              {profil?.bundesland ? ` Für ${profil.bundesland}:` : ''}
+              {` Für ${BETREIBER.bundesland}:`}
             </p>
             <p className="mt-2 font-medium">Bayerisches Landesamt für Datenschutzaufsicht (BayLDA)</p>
             <p className="text-muted-dark">Promenade 18, 91522 Ansbach</p>
