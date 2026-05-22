@@ -23,6 +23,11 @@ export const CompanySchema = z.object({
   umsatz: z.string().min(1).max(50),
   gruendungsjahr: z.string().min(1).max(20),
   foerderzweck: z.array(z.string()).default([]),
+  email:    z.string().email().max(255).optional(),
+  telefon:  z.string().max(50).optional(),
+  strasse:  z.string().max(255).optional(),
+  plz_ort:  z.string().max(100).optional(),
+  website:  z.string().max(255).optional(),
 })
 
 export const StatusUpdateSchema = z.object({

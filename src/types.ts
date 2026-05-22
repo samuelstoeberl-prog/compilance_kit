@@ -8,6 +8,12 @@ export interface UnternehmensProfil {
   umsatz: string
   gruendungsjahr: string
   foerderzweck: string[] // was sucht das Unternehmen?
+  // Kontaktdaten (optional, für Dokumente)
+  email?: string
+  telefon?: string
+  strasse?: string
+  plz_ort?: string
+  website?: string
 }
 
 // ── Regulations ──────────────────────────────────────────────────────────

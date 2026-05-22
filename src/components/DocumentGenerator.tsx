@@ -18,6 +18,10 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   'arbeitsschutz-unterweisung': 'Arbeitsschutzunterweisung-Vorlage',
 }
 
+function ph(val: string | undefined, placeholder: string): string {
+  return val?.trim() ? val.trim() : `[${placeholder}]`
+}
+
 function generateDatenschutzerklaerung(profil: UnternehmensProfil): string {
   return `DATENSCHUTZERKLÄRUNG
 gemäß Art. 13, 14 DSGVO
@@ -29,11 +33,11 @@ Stand: ${new Date().toLocaleDateString('de-DE', { month: 'long', year: 'numeric'
 1. VERANTWORTLICHER
 
 ${profil.name}
-[STRASSE UND HAUSNUMMER]
-[PLZ ORT]
+${ph(profil.strasse, 'STRASSE UND HAUSNUMMER')}
+${ph(profil.plz_ort, 'PLZ ORT')}
 
-E-Mail: [EMAIL-ADRESSE]
-Telefon: [TELEFONNUMMER]
+E-Mail: ${ph(profil.email, 'EMAIL-ADRESSE')}
+Telefon: ${ph(profil.telefon, 'TELEFONNUMMER')}
 ${profil.rechtsform !== 'Einzelunternehmen' && profil.rechtsform !== 'GbR' ? 'Handelsregister: [AMTSGERICHT], HRB [NUMMER]' : ''}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -120,7 +124,7 @@ Sie haben das Recht auf:
 - Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)
 - Widerruf einer Einwilligung (Art. 7 Abs. 3 DSGVO)
 
-Zur Ausübung Ihrer Rechte wenden Sie sich an: [EMAIL-ADRESSE]
+Zur Ausübung Ihrer Rechte wenden Sie sich an: ${ph(profil.email, 'EMAIL-ADRESSE')}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -151,13 +155,13 @@ gemäß § 5 DDG (Digitale-Dienste-Gesetz)
 ANGABEN ZUM UNTERNEHMEN
 
 ${profil.name}
-[STRASSE UND HAUSNUMMER]
-[PLZ ORT]
+${ph(profil.strasse, 'STRASSE UND HAUSNUMMER')}
+${ph(profil.plz_ort, 'PLZ ORT')}
 Deutschland
 
-Telefon: [TELEFONNUMMER]
-E-Mail:  [EMAIL-ADRESSE]
-Website: [WEBSITE-URL]
+Telefon: ${ph(profil.telefon, 'TELEFONNUMMER')}
+E-Mail:  ${ph(profil.email, 'EMAIL-ADRESSE')}
+Website: ${ph(profil.website, 'WEBSITE-URL')}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 

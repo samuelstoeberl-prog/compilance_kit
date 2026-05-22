@@ -14,6 +14,11 @@ CREATE TABLE IF NOT EXISTS companies (
   umsatz        VARCHAR(50)  NOT NULL,
   gruendungsjahr VARCHAR(20) NOT NULL,
   foerderzweck  TEXT[]       NOT NULL DEFAULT '{}',
+  email         VARCHAR(255),
+  telefon       VARCHAR(50),
+  strasse       VARCHAR(255),
+  plz_ort       VARCHAR(100),
+  website       VARCHAR(255),
   created_at    TIMESTAMPTZ  NOT NULL DEFAULT NOW(),
   updated_at    TIMESTAMPTZ  NOT NULL DEFAULT NOW()
 );

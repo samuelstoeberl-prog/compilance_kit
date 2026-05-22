@@ -56,6 +56,11 @@ export interface CompanyRow {
   umsatz: string
   gruendungsjahr: string
   foerderzweck: string[]
+  email: string | null
+  telefon: string | null
+  strasse: string | null
+  plz_ort: string | null
+  website: string | null
   created_at: string
   updated_at: string
 }

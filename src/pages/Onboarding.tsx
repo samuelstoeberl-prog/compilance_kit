@@ -63,7 +63,7 @@ const FOERDERZWECKE: { value: string; emoji: string; label: string; beschreibung
   { value: 'beratung', emoji: '📋', label: 'Beratung & Zertifizierung', beschreibung: 'Unternehmensberatung, ISO, Audits' },
 ]
 
-type FormState = Omit<UnternehmensProfil, 'foerderzweck'> & { foerderzweck: string[] }
+type FormState = UnternehmensProfil
 
 const STEPS = [
   { title: 'Ihr Unternehmen', subtitle: 'Grunddaten für präzises Matching.' },
@@ -79,12 +79,17 @@ export default function Onboarding() {
     name: '', rechtsform: '', branche: '', mitarbeiter: '',
     bundesland: '', umsatz: '', gruendungsjahr: '',
     foerderzweck: [],
+    email: '', telefon: '', strasse: '', plz_ort: '', website: '',
     ...profil,
   }))
 
   const set = (k: keyof Omit<FormState, 'foerderzweck'>) =>
     (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) =>
       setForm(p => ({ ...p, [k]: e.target.value }))
+
+  const [showKontakt, setShowKontakt] = useState(() =>
+    !!(profil?.email || profil?.telefon || profil?.strasse)
+  )
 
   const toggleZweck = (val: string) => {
     setForm(p => ({
@@ -188,6 +193,51 @@ export default function Onboarding() {
                   <option value="">Auswählen</option>
                   {BRANCHEN.map(b => <option key={b}>{b}</option>)}
                 </select>
+              </div>
+
+              {/* Optionale Kontaktdaten für Dokumente */}
+              <div className="pt-1">
+                <button type="button" onClick={() => setShowKontakt(v => !v)}
+                  className="text-xs font-mono text-muted hover:text-ink transition-colors flex items-center gap-1">
+                  <span>{showKontakt ? '▾' : '▸'}</span>
+                  Kontaktdaten für Dokumente <span className="text-muted/60">(optional)</span>
+                </button>
+                {showKontakt && (
+                  <div className="mt-3 space-y-3 pl-3 border-l-2 border-sand-border">
+                    <div className="grid grid-cols-2 gap-3">
+                      <div>
+                        <label className={labelCls}>E-Mail</label>
+                        <input type="email" placeholder="info@firma.de" value={form.email ?? ''}
+                          onChange={set('email')} className={inputCls} />
+                      </div>
+                      <div>
+                        <label className={labelCls}>Telefon</label>
+                        <input type="tel" placeholder="+49 30 123456" value={form.telefon ?? ''}
+                          onChange={set('telefon')} className={inputCls} />
+                      </div>
+                    </div>
+                    <div>
+                      <label className={labelCls}>Straße &amp; Hausnummer</label>
+                      <input type="text" placeholder="Musterstraße 42" value={form.strasse ?? ''}
+                        onChange={set('strasse')} className={inputCls} />
+                    </div>
+                    <div className="grid grid-cols-2 gap-3">
+                      <div>
+                        <label className={labelCls}>PLZ &amp; Ort</label>
+                        <input type="text" placeholder="10115 Berlin" value={form.plz_ort ?? ''}
+                          onChange={set('plz_ort')} className={inputCls} />
+                      </div>
+                      <div>
+                        <label className={labelCls}>Website</label>
+                        <input type="text" placeholder="www.firma.de" value={form.website ?? ''}
+                          onChange={set('website')} className={inputCls} />
+                      </div>
+                    </div>
+                    <p className="text-xs text-muted font-sans">
+                      Werden automatisch in Datenschutzerklärung und Impressum eingesetzt.
+                    </p>
+                  </div>
+                )}
               </div>
             </>
           )}
