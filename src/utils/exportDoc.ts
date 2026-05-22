@@ -9,12 +9,44 @@ function isSeparator(line: string): boolean {
 function isHeading(line: string): boolean {
   const t = line.trim()
   if (t.length < 3) return false
-  // All-caps line with only letters, digits, spaces and basic punctuation
   return t === t.toUpperCase() && /^[A-ZÄÖÜ0-9\s.,\-()/§:]+$/.test(t)
 }
 
 function isTableRow(line: string): boolean {
   return line.includes('│') || line.includes('─') || line.includes('┼') || line.includes('┴') || line.includes('┬')
+}
+
+// jsPDF uses Latin-1 fonts — replace characters outside that range with ASCII equivalents
+function sanitizeForPDF(text: string): string {
+  return text
+    .replace(/│/g, '|')
+    .replace(/┼/g, '+')
+    .replace(/┴/g, '+')
+    .replace(/┬/g, '+')
+    .replace(/├/g, '+')
+    .replace(/┤/g, '+')
+    .replace(/┐/g, '+')
+    .replace(/┘/g, '+')
+    .replace(/┌/g, '+')
+    .replace(/└/g, '+')
+    .replace(/━/g, '-')
+    .replace(/─/g, '-')
+    .replace(/€/g, 'EUR')
+    .replace(/✓/g, '[x]')
+    .replace(/✦/g, '*')
+    .replace(/•/g, '-')
+}
+
+function triggerDownload(blob: Blob, filename: string): void {
+  const url = URL.createObjectURL(blob)
+  const a = document.createElement('a')
+  a.href = url
+  a.download = filename
+  document.body.appendChild(a)
+  a.click()
+  document.body.removeChild(a)
+  // Delay revoke so browser has time to start the download
+  setTimeout(() => URL.revokeObjectURL(url), 1000)
 }
 
 export function downloadAsPDF(content: string, filename: string): void {
@@ -46,6 +78,7 @@ export function downloadAsPDF(content: string, filename: string): void {
 
     const h = isHeading(line)
     const t = isTableRow(line)
+    const safe = sanitizeForPDF(line)
 
     if (h) {
       doc.setFont('helvetica', 'bold')
@@ -61,7 +94,7 @@ export function downloadAsPDF(content: string, filename: string): void {
       doc.setTextColor(50, 50, 50)
     }
 
-    const wrapped = doc.splitTextToSize(line, cw)
+    const wrapped = doc.splitTextToSize(safe, cw)
     const lh = h ? 5.5 : t ? 4.0 : 4.8
 
     ensureSpace(wrapped.length * lh + 1)
@@ -69,7 +102,8 @@ export function downloadAsPDF(content: string, filename: string): void {
     y += wrapped.length * lh
   }
 
-  doc.save(`${filename}.pdf`)
+  const blob = doc.output('blob')
+  triggerDownload(blob, `${filename}.pdf`)
 }
 
 export async function downloadAsDOCX(content: string, filename: string): Promise<void> {
@@ -80,6 +114,7 @@ export async function downloadAsDOCX(content: string, filename: string): Promise
       paragraphs.push(new Paragraph({
         border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: 'BBBBBB' } },
         spacing: { before: 60, after: 60 },
+        children: [],
       }))
       continue
     }
@@ -113,10 +148,5 @@ export async function downloadAsDOCX(content: string, filename: string): Promise
   })
 
   const blob = await Packer.toBlob(wordDoc)
-  const url = URL.createObjectURL(blob)
-  const a = document.createElement('a')
-  a.href = url
-  a.download = `${filename}.docx`
-  a.click()
-  URL.revokeObjectURL(url)
+  triggerDownload(blob, `${filename}.docx`)
 }
