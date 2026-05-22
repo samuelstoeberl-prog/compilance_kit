@@ -478,7 +478,7 @@ export default function Dashboard() {
       <footer className="border-t border-sand-border bg-white px-6 py-4 mt-auto">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-xs font-sans text-muted">
           <span>
-            © {new Date().getFullYear()} {profil.name || 'ComplianceKit'} — Alle Angaben ohne Gewähr. Keine Rechtsberatung.
+            ComplianceKit ersetzt keine individuelle Rechtsberatung. Alle Angaben ohne Gewähr auf Vollständigkeit und Aktualität.
           </span>
           <div className="flex items-center gap-4">
             <Link to="/impressum" className="hover:text-ink transition-colors">Impressum</Link>
