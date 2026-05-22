@@ -102,7 +102,21 @@ export default function Datenschutz() {
             </p>
           </Section>
 
-          <Section nr="6" titel="Datenlöschung">
+          <Section nr="6" titel="Hosting">
+            <p>
+              Diese Website wird gehostet von <strong>Vercel Inc.</strong> (340 Pine Street, Suite 701,
+              San Francisco, CA 94104, USA). Vercel verarbeitet technische Zugriffsdaten
+              (z.B. IP-Adressen) beim Aufruf der Website gemäß deren Datenschutzrichtlinie.
+            </p>
+            <p className="mt-2">
+              Weitere Informationen:{' '}
+              <a href="https://vercel.com/legal/privacy-policy" className="underline hover:text-ink" target="_blank" rel="noopener noreferrer">
+                vercel.com/legal/privacy-policy
+              </a>
+            </p>
+          </Section>
+
+          <Section nr="7" titel="Datenlöschung">
             <p>Sie können alle gespeicherten Daten jederzeit löschen:</p>
             <ul className="list-disc list-inside mt-2 space-y-1">
               <li>Browser-Einstellungen → Websitedaten löschen</li>
@@ -111,7 +125,7 @@ export default function Datenschutz() {
             <p className="mt-2">Eine serverseitige Speicherung findet nicht statt.</p>
           </Section>
 
-          <Section nr="7" titel="Ihre Rechte (Art. 15–22 DSGVO)">
+          <Section nr="8" titel="Ihre Rechte (Art. 15–22 DSGVO)">
             <ul className="list-disc list-inside space-y-1">
               <li>Auskunft über Ihre gespeicherten Daten (Art. 15)</li>
               <li>Berichtigung unrichtiger Daten (Art. 16)</li>
@@ -122,7 +136,7 @@ export default function Datenschutz() {
             <p className="mt-3">Anfragen richten Sie an: {BETREIBER.email}</p>
           </Section>
 
-          <Section nr="8" titel="Beschwerderecht">
+          <Section nr="9" titel="Beschwerderecht">
             <p>
               Sie haben das Recht, sich bei der zuständigen Datenschutzaufsichtsbehörde zu beschweren.
               {` Für ${BETREIBER.bundesland}:`}
