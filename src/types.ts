@@ -3,10 +3,17 @@ export interface UnternehmensProfil {
   name: string
   rechtsform: string
   branche: string
-  mitarbeiter: string   // '1–9' | '10–49' | '50–249' | '250+'
+  mitarbeiter: string   // '0' | '1–9' | '10–49' | '50–249' | '250+'
   bundesland: string
   umsatz: string
   gruendungsjahr: string
+  foerderzweck: string[] // was sucht das Unternehmen?
+  // Kontaktdaten (optional, für Dokumente)
+  email?: string
+  telefon?: string
+  strasse?: string
+  plz_ort?: string
+  website?: string
 }
 
 // ── Regulations ──────────────────────────────────────────────────────────
@@ -65,8 +72,8 @@ export interface Funding {
   id: string
   title: string
   beschreibung: string
-  typ: 'Zuschuss' | 'Kredit' | 'Steuervorteil'
-  quelle: 'EU' | 'Bund' | 'Bundesland'
+  typ: 'Zuschuss' | 'Kredit' | 'Steuervorteil' | 'Bürgschaft' | 'Beteiligung' | 'Beratungszuschuss'
+  quelle: 'EU' | 'Bund' | 'Bundesland' | 'Gemeinde'
   foerderer: string
   max_betrag: number | null
   zins: string | null
