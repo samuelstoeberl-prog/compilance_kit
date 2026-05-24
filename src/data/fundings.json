@@ -58,56 +58,6 @@
     }
   },
   {
-    "id": "go-digital-it-sicherheit",
-    "title": "go-digital – Modul IT-Sicherheit",
-    "beschreibung": "50 % Förderung für Beratungsleistungen zu IT-Sicherheit, NIS2-Compliance und Datenschutz.",
-    "typ": "Beratungszuschuss",
-    "quelle": "Bund",
-    "foerderer": "BMWK",
-    "max_betrag": 16500,
-    "zins": null,
-    "antrag_url": "https://www.innovation-beratung-foerderung.de/INNO/Navigation/DE/Karten/Beratersuche-go-digital/karte.html",
-    "bearbeitungszeit_wochen": [
-      4,
-      6
-    ],
-    "ausschlusskriterien": [
-      "Max. 100 Mitarbeitende",
-      "Max. 20 Mio. € Jahresumsatz",
-      "Antrag über autorisierten Berater"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Handelsregisterauszug",
-        "auto": true
-      },
-      {
-        "name": "Beratungsangebot eines autorisierten Beraters",
-        "auto": false
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": 100,
-      "umsatz_max": "20 Mio. €",
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Software / IT",
-        "Handel / E-Commerce"
-      ],
-      "mitarbeiter": [
-        "1–9",
-        "10–49"
-      ]
-    }
-  },
-  {
     "id": "invest-zuschuss-wagniskapital",
     "title": "INVEST – Zuschuss für Wagniskapital",
     "beschreibung": "Privatinvestoren erhalten 20 % Erwerbszuschuss auf Beteiligungen an innovativen Start-ups.",
@@ -903,162 +853,6 @@
     }
   },
   {
-    "id": "go-digital-digitalisierung",
-    "title": "go-digital – Modul Digitalisierung",
-    "beschreibung": "50 % Förderung für Beratung zur digitalen Transformation: E-Commerce, digitale Prozesse, Cloud-Einführung.",
-    "typ": "Beratungszuschuss",
-    "quelle": "Bund",
-    "foerderer": "BMWK",
-    "max_betrag": 16500,
-    "zins": null,
-    "antrag_url": "https://www.innovation-beratung-foerderung.de/INNO/Navigation/DE/go-digital/go-digital.html",
-    "bearbeitungszeit_wochen": [
-      4,
-      6
-    ],
-    "ausschlusskriterien": [
-      "Max. 100 Mitarbeitende",
-      "Max. 20 Mio. € Jahresumsatz",
-      "Antrag über autorisierten Berater"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Handelsregisterauszug",
-        "auto": true
-      },
-      {
-        "name": "Beratungsangebot eines autorisierten Beraters",
-        "auto": false
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": 100,
-      "umsatz_max": "20 Mio. €",
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Handel / E-Commerce",
-        "Dienstleistungen",
-        "Bau / Handwerk"
-      ],
-      "mitarbeiter": [
-        "1–9",
-        "10–49"
-      ]
-    }
-  },
-  {
-    "id": "go-digital-markterschliessung",
-    "title": "go-digital – Modul Markterschließung",
-    "beschreibung": "50 % Beratungsförderung für Online-Marketing, SEO, Social Media und internationale Markterschließung.",
-    "typ": "Beratungszuschuss",
-    "quelle": "Bund",
-    "foerderer": "BMWK",
-    "max_betrag": 16500,
-    "zins": null,
-    "antrag_url": "https://www.innovation-beratung-foerderung.de/INNO/Navigation/DE/go-digital/go-digital.html",
-    "bearbeitungszeit_wochen": [
-      4,
-      6
-    ],
-    "ausschlusskriterien": [
-      "Max. 100 Mitarbeitende",
-      "Max. 20 Mio. € Jahresumsatz"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Handelsregisterauszug",
-        "auto": true
-      },
-      {
-        "name": "Beratungsangebot eines autorisierten Beraters",
-        "auto": false
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": 100,
-      "umsatz_max": "20 Mio. €",
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Handel / E-Commerce",
-        "Gastronomie / Hotellerie",
-        "Dienstleistungen"
-      ],
-      "mitarbeiter": [
-        "1–9",
-        "10–49"
-      ]
-    }
-  },
-  {
-    "id": "digital-jetzt",
-    "title": "Digital Jetzt! – Investitionsförderung für KMU",
-    "beschreibung": "Zuschuss 40–70 % für Investitionen in digitale Technologien und Mitarbeiterqualifizierung, bis 50.000 €.",
-    "typ": "Zuschuss",
-    "quelle": "Bund",
-    "foerderer": "BMWK",
-    "max_betrag": 50000,
-    "zins": null,
-    "antrag_url": "https://www.bmwk.de/Redaktion/DE/Artikel/Digitale-Welt/digital-jetzt.html",
-    "bearbeitungszeit_wochen": [
-      6,
-      10
-    ],
-    "ausschlusskriterien": [
-      "Max. 499 Mitarbeitende",
-      "Antrag vor Investitionsbeginn",
-      "Mindestinvestition 17.000 €"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Handelsregisterauszug",
-        "auto": true
-      },
-      {
-        "name": "Investitionsplan mit Angeboten",
-        "auto": false
-      },
-      {
-        "name": "Qualifizierungsplan (bei Modul 2)",
-        "auto": false
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": 499,
-      "umsatz_max": null,
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Handel / E-Commerce",
-        "Software / IT",
-        "Produktion / Fertigung"
-      ],
-      "mitarbeiter": [
-        "10–49",
-        "50–249"
-      ]
-    }
-  },
-  {
     "id": "bafa-beg-einzelmassnahmen",
     "title": "BEG Einzelmaßnahmen – Bundesförderung für effiziente Gebäude",
     "beschreibung": "15–20 % Investitionszuschuss für energetische Sanierungsmaßnahmen an Nicht-Wohngebäuden (Dämmung, Fenster, Heizung).",
@@ -1521,57 +1315,6 @@
       ],
       "gruendungsjahr": [
         "2020 oder später"
-      ]
-    }
-  },
-  {
-    "id": "innovationsgutschein-bund",
-    "title": "go-inno – Innovationsgutscheine für KMU",
-    "beschreibung": "50 % Beratungsförderung für Produktinnovation und Prozessinnovation über zugelassene Beratungsunternehmen.",
-    "typ": "Beratungszuschuss",
-    "quelle": "Bund",
-    "foerderer": "BMWK",
-    "max_betrag": 25000,
-    "zins": null,
-    "antrag_url": "https://www.innovation-beratung-foerderung.de/INNO/Navigation/DE/go-Inno/go-Inno.html",
-    "bearbeitungszeit_wochen": [
-      4,
-      8
-    ],
-    "ausschlusskriterien": [
-      "Max. 100 Mitarbeitende",
-      "Max. 20 Mio. € Umsatz",
-      "Über zugelassenes Beratungsunternehmen"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Handelsregisterauszug",
-        "auto": true
-      },
-      {
-        "name": "Innovationskonzept",
-        "auto": false
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": 100,
-      "umsatz_max": "20 Mio. €",
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Software / IT",
-        "Produktion / Fertigung",
-        "Bau / Handwerk"
-      ],
-      "mitarbeiter": [
-        "1–9",
-        "10–49"
       ]
     }
   },
@@ -2362,7 +2105,7 @@
     "foerderer": "Ministerium für Wirtschaft NRW / BAFA",
     "max_betrag": 200000,
     "zins": null,
-    "antrag_url": "https://www.efre.nrw.de/",
+    "antrag_url": "https://www.progres.nrw.de/",
     "bearbeitungszeit_wochen": [
       6,
       12
@@ -2415,7 +2158,7 @@
     "foerderer": "Ministerium für Wirtschaft NRW",
     "max_betrag": 12000,
     "zins": null,
-    "antrag_url": "https://www.wirtschaft.nrw/",
+    "antrag_url": "https://www.nrwbank.de/de/foerderangebote/gruendungsfoerderung/nrw-gruenderstipendium/",
     "bearbeitungszeit_wochen": [
       6,
       12
@@ -4157,7 +3900,7 @@
     "foerderer": "BMBF",
     "max_betrag": 500000,
     "zins": null,
-    "antrag_url": "https://www.bmbf.de/de/kmu-innovativ-306.html",
+    "antrag_url": "https://www.bmbf.de/bmbf/de/forschung/grundlagenforschung/kmu-innovativ/kmu-innovativ_node.html",
     "bearbeitungszeit_wochen": [
       10,
       18
@@ -4212,7 +3955,7 @@
     "foerderer": "BMBF",
     "max_betrag": 500000,
     "zins": null,
-    "antrag_url": "https://www.bmbf.de/de/validierung-des-technologischen-und-gesellschaftlichen-innovationspotenzials-wissenschaftlicher-2129.html",
+    "antrag_url": "https://www.bmbf.de/bmbf/de/forschung/transfer-und-innovation/validierung/",
     "bearbeitungszeit_wochen": [
       10,
       16
@@ -4291,54 +4034,6 @@
       ],
       "mitarbeiter": [
         "0",
-        "1–9",
-        "10–49"
-      ]
-    }
-  },
-  {
-    "id": "pat-foerderung-kmu",
-    "title": "SIGNO – Patentförderung für KMU",
-    "beschreibung": "Zuschuss bis 80 % der Kosten für Patentrecherche, Schutzrechtsanmeldung und Verwertungsstrategie für kleine Unternehmen.",
-    "typ": "Zuschuss",
-    "quelle": "Bund",
-    "foerderer": "BMWK / DPMA",
-    "max_betrag": 16000,
-    "zins": null,
-    "antrag_url": "https://www.signo-deutschland.de/",
-    "bearbeitungszeit_wochen": [
-      4,
-      8
-    ],
-    "ausschlusskriterien": [
-      "Max. 49 Mitarbeitende oder max. 10 Mio. € Umsatz"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Beschreibung der Erfindung",
-        "auto": false
-      },
-      {
-        "name": "Handelsregisterauszug",
-        "auto": true
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": 49,
-      "umsatz_max": "10 Mio. €",
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Software / IT",
-        "Produktion / Fertigung"
-      ],
-      "mitarbeiter": [
         "1–9",
         "10–49"
       ]
@@ -4953,7 +4648,7 @@
     "foerderer": "Ministerium für Ernährung BW",
     "max_betrag": 200000,
     "zins": null,
-    "antrag_url": "https://www.landwirtschaft-bw.info/pb/MLR.BW,Lde/Startseite/Foerderung/ELR",
+    "antrag_url": "https://mlr.baden-wuerttemberg.de/de/unsere-themen/laendlicher-raum/foerderprogramme/elr/",
     "bearbeitungszeit_wochen": [
       8,
       16
@@ -6951,58 +6646,6 @@
     }
   },
   {
-    "id": "gruendercoaching",
-    "title": "Gründercoaching Deutschland (regionale Varianten)",
-    "beschreibung": "Bezuschusste Unternehmensberatung 50–75 % für Gründer in der Startphase – angeboten über KfW und Landesförderbanken.",
-    "typ": "Beratungszuschuss",
-    "quelle": "Bund",
-    "foerderer": "KfW / Bundesländer",
-    "max_betrag": 3000,
-    "zins": null,
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-und-Nachfolgen/",
-    "bearbeitungszeit_wochen": [
-      2,
-      4
-    ],
-    "ausschlusskriterien": [
-      "Nur für Gründer bis 2 Jahre nach Gründung",
-      "Zugelassener Berater erforderlich"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Gründungsnachweis",
-        "auto": false
-      },
-      {
-        "name": "Beratungsangebot",
-        "auto": false
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": 49,
-      "umsatz_max": null,
-      "bundeslaender": [
-        "alle"
-      ],
-      "gruendungsjahr": [
-        "2020 oder später",
-        "2011–2019"
-      ]
-    },
-    "relevanz_boost": {
-      "mitarbeiter": [
-        "0",
-        "1–9"
-      ],
-      "gruendungsjahr": [
-        "2020 oder später"
-      ]
-    }
-  },
-  {
     "id": "nachfolgekredit-kfw",
     "title": "KfW Kredit für Unternehmensnachfolge",
     "beschreibung": "Kredit bis 25 Mio. € für Kauf und Übernahme bestehender Unternehmen (Management-Buy-out, Nachfolge).",
@@ -7056,7 +6699,7 @@
     "foerderer": "BMBF",
     "max_betrag": 300000,
     "zins": null,
-    "antrag_url": "https://www.bmbf.de/de/berufsbildung-374.html",
+    "antrag_url": "https://www.bmbf.de/bmbf/de/bildung/berufliche-bildung/",
     "bearbeitungszeit_wochen": [
       8,
       14
@@ -7240,7 +6883,7 @@
     "foerderer": "BMBF",
     "max_betrag": 500000,
     "zins": null,
-    "antrag_url": "https://www.bmbf.de/de/soziale-innovationen-5840.html",
+    "antrag_url": "https://www.bmbf.de/bmbf/de/forschung/soziale-innovationen/",
     "bearbeitungszeit_wochen": [
       10,
       18
@@ -7508,54 +7151,6 @@
     }
   },
   {
-    "id": "bmbf-ikt",
-    "title": "BMBF IKT 2020 – Informations- und Kommunikationstechnologien",
-    "beschreibung": "Zuschüsse für FuE-Projekte in KI, Cloud, IoT, Cybersicherheit und Quantentechnologien, bis 60 % Förderquote.",
-    "typ": "Zuschuss",
-    "quelle": "Bund",
-    "foerderer": "BMBF",
-    "max_betrag": 500000,
-    "zins": null,
-    "antrag_url": "https://www.bmbf.de/de/ikt-2020-5839.html",
-    "bearbeitungszeit_wochen": [
-      10,
-      18
-    ],
-    "ausschlusskriterien": [
-      "Technologieoffener FuE-Bezug",
-      "Antrag über easy-Online"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Projektskizze",
-        "auto": false
-      },
-      {
-        "name": "Unternehmenspräsentation",
-        "auto": false
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": 499,
-      "umsatz_max": null,
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Software / IT"
-      ],
-      "mitarbeiter": [
-        "10–49",
-        "50–249"
-      ]
-    }
-  },
-  {
     "id": "invest-in-germany",
     "title": "Germany Trade & Invest – Ansiedlungsförderung",
     "beschreibung": "Kostenlose Beratung und Vermittlung von Fördergeldern für Neuansiedlungen und Investitionen ausländischer und inländischer Unternehmen.",
@@ -7590,52 +7185,6 @@
       ],
       "mitarbeiter": [
         "50–249",
-        "250+"
-      ]
-    }
-  },
-  {
-    "id": "arbeitsplatzsicherung-corona",
-    "title": "Bundesgarantien für Unternehmen (Wirtschaftsstabilisierungsfonds)",
-    "beschreibung": "Staatliche Garantien und Rekapitalisierungen für systemrelevante Unternehmen in wirtschaftlichen Krisen.",
-    "typ": "Bürgschaft",
-    "quelle": "Bund",
-    "foerderer": "BMWK / Wirtschaftsstabilisierungsfonds",
-    "max_betrag": null,
-    "zins": null,
-    "antrag_url": "https://www.bmwk.de/Redaktion/DE/Artikel/Wirtschaft/wsf.html",
-    "bearbeitungszeit_wochen": [
-      4,
-      12
-    ],
-    "ausschlusskriterien": [
-      "Nur in Krisen und systemrelevante Unternehmen",
-      "Strenge Voraussetzungen"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Jahresabschlüsse",
-        "auto": false
-      },
-      {
-        "name": "Krisenbescheinigung",
-        "auto": false
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "GmbH",
-        "AG",
-        "GmbH & Co. KG"
-      ],
-      "mitarbeiter_max": null,
-      "umsatz_max": null,
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "mitarbeiter": [
         "250+"
       ]
     }
@@ -7999,7 +7548,7 @@
     "foerderer": "BMBF",
     "max_betrag": 500000,
     "zins": null,
-    "antrag_url": "https://www.bmbf.de/de/pflege-5836.html",
+    "antrag_url": "https://www.bmbf.de/bmbf/de/forschung/gesundheitsforschung/pflegeinnovationen/",
     "bearbeitungszeit_wochen": [
       10,
       18
@@ -8337,7 +7886,7 @@
     "foerderer": "BMBF",
     "max_betrag": 1000000,
     "zins": null,
-    "antrag_url": "https://www.bmbf.de/de/quantentechnologien-5831.html",
+    "antrag_url": "https://www.bmbf.de/bmbf/de/forschung/quantentechnologien/",
     "bearbeitungszeit_wochen": [
       12,
       20
@@ -8470,7 +8019,7 @@
     "foerderer": "BMBF / BMUV",
     "max_betrag": 500000,
     "zins": null,
-    "antrag_url": "https://www.bmbf.de/de/kreislaufwirtschaft-5838.html",
+    "antrag_url": "https://www.bmbf.de/bmbf/de/forschung/biooekonomiestrategie/kreislaufwirtschaft/",
     "bearbeitungszeit_wochen": [
       10,
       18
@@ -8689,7 +8238,7 @@
     "foerderer": "BMDV / Bundesamt für Logistik",
     "max_betrag": 300000,
     "zins": null,
-    "antrag_url": "https://www.bmvi.de/DE/Themen/Digitales/Digitale-Logistik/digitale-logistik.html",
+    "antrag_url": "https://www.bmdv.bund.de/DE/Themen/Digitales/Digitale-Logistik/digitale-logistik.html",
     "bearbeitungszeit_wochen": [
       8,
       14
@@ -8782,7 +8331,7 @@
     "foerderer": "BMBF / BMEL",
     "max_betrag": 500000,
     "zins": null,
-    "antrag_url": "https://www.bmbf.de/de/ernaehrung-und-lebensmittel-5840.html",
+    "antrag_url": "https://www.bmbf.de/bmbf/de/forschung/biooekonomiestrategie/forschung-fuer-lebensmittel/",
     "bearbeitungszeit_wochen": [
       10,
       18
@@ -8868,7 +8417,7 @@
     "foerderer": "BMDV",
     "max_betrag": 2000000,
     "zins": null,
-    "antrag_url": "https://www.bmvi.de/DE/Themen/Gueterverkehr/Binnenschifffahrt/",
+    "antrag_url": "https://www.bmdv.bund.de/DE/Themen/Gueterverkehr/Binnenschifffahrt/",
     "bearbeitungszeit_wochen": [
       8,
       16
@@ -9037,60 +8586,6 @@
     }
   },
   {
-    "id": "abgasnachristung-hardware",
-    "title": "Abgasnachrüstung Hardware (Handwerk/KMU)",
-    "beschreibung": "Zuschuss für die Nachrüstung von Diesel-Fahrzeugen mit Partikelfiltern und SCR-Systemen zur Emissionsminderung. Gefördert werden Hardware-Komponenten und Einbaukosten.",
-    "typ": "Zuschuss",
-    "quelle": "Bund",
-    "foerderer": "BAFA / Bundesamt für Wirtschaft und Ausfuhrkontrolle",
-    "max_betrag": 3000,
-    "zins": null,
-    "antrag_url": "https://www.bafa.de/DE/Energie/Verkehr/abgasnachristung.html",
-    "bearbeitungszeit_wochen": [
-      4,
-      8
-    ],
-    "ausschlusskriterien": [
-      "Nur für gewerblich genutzte Fahrzeuge",
-      "Fahrzeug muss vor Antragstellung noch nicht umgerüstet sein"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Fahrzeugschein",
-        "auto": false
-      },
-      {
-        "name": "Kostenvoranschlag Werkstatt",
-        "auto": false
-      },
-      {
-        "name": "Gewerbeanmeldung / Handelsregisterauszug",
-        "auto": true
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": 49,
-      "umsatz_max": null,
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Handwerk",
-        "Transport & Logistik",
-        "Kfz & Fahrzeughandel"
-      ],
-      "mitarbeiter": [
-        "1–9",
-        "10–49"
-      ]
-    }
-  },
-  {
     "id": "abwaermevermeidung-nutzung",
     "title": "Abwärmevermeidung und -nutzung",
     "beschreibung": "Förderung von Investitionen zur Vermeidung oder Nutzung industrieller Abwärme. Zuschüsse für Wärmerückgewinnungssysteme, Wärmepumpen und Wärmeübertragungsanlagen im Industriebereich.",
@@ -9207,7 +8702,7 @@
     "foerderer": "BMWK / DLR Projektträger",
     "max_betrag": 50000,
     "zins": null,
-    "antrag_url": "https://www.digitale-technologien.de/DT/Navigation/DE/ProgrammeProjekte/AktuelleProgramme/MID/mid.html",
+    "antrag_url": "https://www.digitale-technologien.de/DT/Navigation/DE/ProgrammeProjekte/",
     "bearbeitungszeit_wochen": [
       8,
       12
@@ -9265,7 +8760,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 50000,
     "zins": "ab 1,01 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Privatkunden/Bestandsimmobilie/Foerderprodukte/Altersgerecht-Umbauen-Kredit-(159)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Foerderprodukte/Barrierereduzierung-(455)/",
     "bearbeitungszeit_wochen": [
       4,
       8
@@ -9363,56 +8858,6 @@
         "50–249",
         "250+"
       ]
-    }
-  },
-  {
-    "id": "emff-anpassung-fangflotte",
-    "title": "EMFF: Anpassung der Fangflotte",
-    "beschreibung": "EU-Förderung aus dem Europäischen Meeres- und Fischereifonds (EMFF) für Modernisierung und Anpassung von Fischereifahrzeugen an neue Vorschriften und nachhaltige Fangmethoden.",
-    "typ": "Zuschuss",
-    "quelle": "EU",
-    "foerderer": "Europäischer Meeres-, Fischerei- und Aquakulturfonds (EMFAF) / BLE",
-    "max_betrag": 150000,
-    "zins": null,
-    "antrag_url": "https://www.ble.de/DE/Foerderung/Fischerei-Aquakultur/EMFF/emff_node.html",
-    "bearbeitungszeit_wochen": [
-      12,
-      20
-    ],
-    "ausschlusskriterien": [
-      "Nur für Fischereibetriebe",
-      "Fahrzeug muss im EU-Fischereiflottenregister eingetragen sein"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Fischereierlaubnis",
-        "auto": false
-      },
-      {
-        "name": "Schiffszertifikat / Fahrzeugdokumente",
-        "auto": false
-      },
-      {
-        "name": "Investitionsplan",
-        "auto": false
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": null,
-      "umsatz_max": null,
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Land- & Forstwirtschaft",
-        "Transport & Logistik"
-      ],
-      "mitarbeiter": []
     }
   },
   {
@@ -10262,7 +9707,7 @@
     "foerderer": "Verschiedene Landesförderinstitute (z.B. NRW.BANK, LfA Bayern, IBB Berlin)",
     "max_betrag": 5000,
     "zins": null,
-    "antrag_url": "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMWi/foerderung-unternehmerischen-know-hows.html",
+    "antrag_url": "https://www.bafa.de/DE/Wirtschaft/Beratung_Finanzierung/Unternehmensberatung/unternehmensberatung_node.html",
     "bearbeitungszeit_wochen": [
       2,
       6
@@ -10357,57 +9802,6 @@
       ],
       "mitarbeiter": [
         "50–249"
-      ]
-    }
-  },
-  {
-    "id": "bildungspraemie-bmbf",
-    "title": "Bildungsprämie (BMBF)",
-    "beschreibung": "Prämiengutschein für berufliche Weiterbildung: 50 % der Weiterbildungskosten bis max. 500 € Eigenanteil. Für Beschäftigte mit weniger als 20.000 € Jahresbruttoeinkommen.",
-    "typ": "Zuschuss",
-    "quelle": "Bund",
-    "foerderer": "Bundesministerium für Bildung und Forschung (BMBF)",
-    "max_betrag": 500,
-    "zins": null,
-    "antrag_url": "https://www.bildungspraemie.info/",
-    "bearbeitungszeit_wochen": [
-      1,
-      2
-    ],
-    "ausschlusskriterien": [
-      "Einkommensgrenze 20.000 € brutto/Jahr",
-      "Nur für Erwerbstätige",
-      "Nicht für betrieblich finanzierte Pflichtschulungen"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Einkommensnachweis (Lohnzettel / Steuerbescheid)",
-        "auto": false
-      },
-      {
-        "name": "Kursangebot / Rechnung",
-        "auto": false
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": 249,
-      "umsatz_max": "50 Mio. €",
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Handwerk",
-        "Einzelhandel",
-        "Gastronomie & Cafés"
-      ],
-      "mitarbeiter": [
-        "1–9",
-        "10–49"
       ]
     }
   },
@@ -10748,7 +10142,7 @@
     "foerderer": "Deutsche Börse AG / Bundesministerium für Wirtschaft / Landesförderinstitute",
     "max_betrag": 100000,
     "zins": null,
-    "antrag_url": "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMWi/boersengang-foerderung.html",
+    "antrag_url": "https://www.foerderdatenbank.de/",
     "bearbeitungszeit_wochen": [
       8,
       16
@@ -10794,58 +10188,6 @@
       "mitarbeiter": [
         "50–249"
       ]
-    }
-  },
-  {
-    "id": "kfw-brennstoffzelle-433",
-    "title": "KfW Brennstoffzelle (Programm 433)",
-    "beschreibung": "Investitionszuschuss für stationäre Brennstoffzellenanlagen zur Strom- und Wärmeerzeugung in Gebäuden. Förderung der Anschaffungs- und Installationskosten von Brennstoffzellensystemen.",
-    "typ": "Zuschuss",
-    "quelle": "Bund",
-    "foerderer": "KfW Bankengruppe",
-    "max_betrag": 28200,
-    "zins": null,
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Privatkunden/Neubau/Foerderprodukte/Energieeffizient-Bauen-Brennstoffzelle-(433)/",
-    "bearbeitungszeit_wochen": [
-      4,
-      8
-    ],
-    "ausschlusskriterien": [
-      "Antrag vor Installation stellen",
-      "Anlage muss KfW-förderfähige Spezifikationen erfüllen",
-      "Nur für Wohn- und Gewerbegebäude"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Technisches Datenblatt der Brennstoffzelle",
-        "auto": false
-      },
-      {
-        "name": "Angebot / Rechnung Fachbetrieb",
-        "auto": false
-      },
-      {
-        "name": "Eigentumsnachweis Gebäude",
-        "auto": false
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": null,
-      "umsatz_max": null,
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Immobilienwesen",
-        "Handwerk",
-        "Energie & Versorgung"
-      ],
-      "mitarbeiter": []
     }
   },
   {
@@ -11116,53 +10458,6 @@
     }
   },
   {
-    "id": "bmuv-e-lastenraeder",
-    "title": "BMUV: Förderung von E-Lastenrädern",
-    "beschreibung": "Kaufprämie für elektrische Lastenräder und -anhänger für Unternehmen und Kommunen zur nachhaltigen urbanen Güterlogistik. Bis zu 2.500 € Zuschuss je Fahrzeug.",
-    "typ": "Zuschuss",
-    "quelle": "Bund",
-    "foerderer": "Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit (BMUV)",
-    "max_betrag": 2500,
-    "zins": null,
-    "antrag_url": "https://www.bmuv.de/foerderung/e-lastenraeder",
-    "bearbeitungszeit_wochen": [
-      2,
-      6
-    ],
-    "ausschlusskriterien": [
-      "Nur für neue E-Lastenräder",
-      "Privatpersonen nur in Ausnahmefällen förderfähig"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Kaufrechnung (nach Antragstellung)",
-        "auto": false
-      },
-      {
-        "name": "Gewerbeanmeldung / Handelsregisterauszug",
-        "auto": true
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": null,
-      "umsatz_max": null,
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Transport & Logistik",
-        "Handel & E-Commerce",
-        "Handwerk"
-      ],
-      "mitarbeiter": []
-    }
-  },
-  {
     "id": "e-mobilitaet-infrastruktur-laender",
     "title": "E-Mobilität Infrastruktur (Länderprogramme)",
     "beschreibung": "Länderspezifische Förderprogramme für den Aufbau von Elektromobilitätsinfrastruktur: Ladestationen, Flottenmanagementsysteme und Fuhrparkumrüstung auf Elektrofahrzeuge.",
@@ -11331,7 +10626,7 @@
     "foerderer": "Landesförderinstitute / Industrie- und Handelskammern",
     "max_betrag": 3000,
     "zins": null,
-    "antrag_url": "https://www.foerderdatenbank.de/FDB/Content/DE/Foerderprogramm/Bund/BMWi/energieeffizienz-mittelstand.html",
+    "antrag_url": "https://www.bafa.de/DE/Energie/Energieeffizienz/Energieeffizienz_in_der_Wirtschaft/",
     "bearbeitungszeit_wochen": [
       2,
       6
@@ -12133,7 +11428,7 @@
     "foerderer": "BMDV / BAG – Bundesamt für Güterverkehr",
     "max_betrag": 800000,
     "zins": null,
-    "antrag_url": "https://www.bag.bund.de/DE/Home/home_node.html",
+    "antrag_url": "https://www.now-gmbh.de/projektfoerderung/nutzfahrzeuge/ksni/",
     "bearbeitungszeit_wochen": [
       6,
       12
@@ -12585,56 +11880,6 @@
       "branchen": [
         "Industrie & Fertigung",
         "IT-Dienstleistungen & Software"
-      ],
-      "mitarbeiter": [
-        "10–49",
-        "50–249"
-      ]
-    }
-  },
-  {
-    "id": "go-inno-beratung",
-    "title": "Go-Inno – Innovationsberatung für KMU",
-    "beschreibung": "Bundesweiter Beratungsgutschein für KMU für externe Innovationsberatung: Technologiescreening, Schutzrechtstrategie, Marktanalyse und Innovationsmanagement.",
-    "typ": "Beratungszuschuss",
-    "quelle": "Bund",
-    "foerderer": "BMWK / VDI/VDE",
-    "max_betrag": 20000,
-    "zins": null,
-    "antrag_url": "https://www.innovation-beratung-foerderung.de/",
-    "bearbeitungszeit_wochen": [
-      4,
-      8
-    ],
-    "ausschlusskriterien": [
-      "Nur für KMU < 250 MA",
-      "Berater muss BMWi-akkreditiert sein"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Angebot akkreditierter Innovationsberater",
-        "auto": false
-      },
-      {
-        "name": "Handelsregisterauszug",
-        "auto": true
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": 249,
-      "umsatz_max": "50 Mio. €",
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Industrie & Fertigung",
-        "IT-Dienstleistungen & Software",
-        "Handwerk"
       ],
       "mitarbeiter": [
         "10–49",
@@ -13532,55 +12777,6 @@
     }
   },
   {
-    "id": "busfoerderung-alternative-antriebe",
-    "title": "Förderung alternativ angetriebener Busse (BMDV)",
-    "beschreibung": "Bundesförderung für den Kauf von Bussen mit elektrischem, wasserstoffbetriebenem oder anderen alternativen Antrieben im ÖPNV und für Unternehmen.",
-    "typ": "Zuschuss",
-    "quelle": "Bund",
-    "foerderer": "BMDV / BAFA",
-    "max_betrag": 300000,
-    "zins": null,
-    "antrag_url": "https://www.bafa.de/DE/Energie/Verkehr/busfoerderung.html",
-    "bearbeitungszeit_wochen": [
-      6,
-      12
-    ],
-    "ausschlusskriterien": [
-      "Nur für gewerbliche Busunternehmen und ÖPNV-Träger",
-      "Antrag vor Fahrzeugkauf"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Fahrzeugspezifikation",
-        "auto": false
-      },
-      {
-        "name": "Kaufvertrag / Bestellung",
-        "auto": false
-      },
-      {
-        "name": "Konzession / Linienführung",
-        "auto": false
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": null,
-      "umsatz_max": null,
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Transport & Logistik"
-      ],
-      "mitarbeiter": []
-    }
-  },
-  {
     "id": "combined-transport-foerderung",
     "title": "Kombinierter Güterverkehr (BMWK/BMDV)",
     "beschreibung": "Förderung der Verlagerung von Güterverkehr auf die Schiene und das Binnenschiff durch Unterstützung von Umschlagsanlagen und Terminalinfrastruktur für kombinierten Verkehr.",
@@ -13680,60 +12876,6 @@
       "mitarbeiter": [
         "10–49",
         "50–249"
-      ]
-    }
-  },
-  {
-    "id": "druckluftsysteme-foerderung",
-    "title": "Effizienz von Druckluft- und Pumpenanlagen (BAFA EEW)",
-    "beschreibung": "Zuschuss für Investitionen in hocheffiziente Druckluftkompressoren, Pumpen und Vakuumsysteme im gewerblichen und industriellen Bereich. Teil des BAFA EEW Programms.",
-    "typ": "Zuschuss",
-    "quelle": "Bund",
-    "foerderer": "BAFA / BMWK",
-    "max_betrag": 500000,
-    "zins": null,
-    "antrag_url": "https://www.bafa.de/DE/Energie/Energieeffizienz/Energieeffizienz_in_der_Wirtschaft/Querschnittstechnologien/querschnittstechnologien_node.html",
-    "bearbeitungszeit_wochen": [
-      6,
-      12
-    ],
-    "ausschlusskriterien": [
-      "Antrag vor Investition",
-      "Mindest-Effizienzgewinn erforderlich"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Technische Spezifikation neue Anlage",
-        "auto": false
-      },
-      {
-        "name": "Vergleichswerte alte Anlage",
-        "auto": false
-      },
-      {
-        "name": "Handelsregisterauszug",
-        "auto": true
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": null,
-      "umsatz_max": null,
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Industrie & Fertigung",
-        "Handwerk"
-      ],
-      "mitarbeiter": [
-        "10–49",
-        "50–249",
-        "250+"
       ]
     }
   },
@@ -14564,56 +13706,6 @@
     }
   },
   {
-    "id": "baukindergeld-ergaenzung",
-    "title": "KfW Wohneigentumsprogramm (Ergänzung Baukindergeld)",
-    "beschreibung": "Ergänzung des ausgelaufenen Baukindergeld-Programms: Günstige KfW-Kredite für Familien beim Erwerb von Wohneigentum, mit besonders günstigen Konditionen für Erstkäufer.",
-    "typ": "Kredit",
-    "quelle": "Bund",
-    "foerderer": "KfW Bankengruppe",
-    "max_betrag": 300000,
-    "zins": "ab 1,56 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Privatkunden/Neubau/",
-    "bearbeitungszeit_wochen": [
-      4,
-      8
-    ],
-    "ausschlusskriterien": [
-      "Nur für selbstgenutztes Wohneigentum",
-      "Erstmaligees Wohneigentum bevorzugt"
-    ],
-    "benoetigte_dokumente": [
-      {
-        "name": "Kaufvertrag / Baugenehmigung",
-        "auto": false
-      },
-      {
-        "name": "Einkommensnachweis",
-        "auto": false
-      },
-      {
-        "name": "Grundbuchauszug",
-        "auto": false
-      }
-    ],
-    "gilt_fuer": {
-      "rechtsformen": [
-        "alle"
-      ],
-      "mitarbeiter_max": null,
-      "umsatz_max": null,
-      "bundeslaender": [
-        "alle"
-      ]
-    },
-    "relevanz_boost": {
-      "branchen": [
-        "Immobilienwesen",
-        "Handwerk"
-      ],
-      "mitarbeiter": []
-    }
-  },
-  {
     "id": "bundesfoerderung-waermenetze",
     "title": "Bundesförderung Wärmenetze (BEW)",
     "beschreibung": "Förderung des Aufbaus, der Erweiterung und der Transformation von Wärmenetzen auf erneuerbare Energien. Zuschüsse und zinsgünstige Kredite für Fernwärmebetreiber und Kommunen.",
@@ -14937,7 +14029,7 @@
     "foerderer": "BMDV / Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)",
     "max_betrag": 5000000,
     "zins": null,
-    "antrag_url": "https://www.bmvj.de/SharedDocs/DE/Artikel/WS/schiffbau-foerderung.html",
+    "antrag_url": "https://www.bmdv.bund.de/SharedDocs/DE/Artikel/WS/schiffbau-foerderung.html",
     "bearbeitungszeit_wochen": [
       12,
       24
