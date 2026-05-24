@@ -368,6 +368,11 @@ export default function Dashboard() {
                         </p>
                       )}
                     </div>
+
+                    <a href={f.antrag_url} target="_blank" rel="noopener noreferrer"
+                      className="flex-shrink-0 text-xs bg-ink text-sand-light px-3 py-2 rounded-lg font-sans font-medium hover:bg-ink-light transition-colors whitespace-nowrap">
+                      Direkt beantragen ↗
+                    </a>
                   </div>
                 </div>
               ))}
