@@ -533,7 +533,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 125000,
     "zins": "ab 5,37 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-und-Nachfolgen/Finanzierungsangebote/ERP-Gruenderkredit-Startgeld-(067)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/Foerderprodukte/ERP-Gruenderkredit-Startgeld-(067)/",
     "bearbeitungszeit_wochen": [
       4,
       8
@@ -590,7 +590,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 25000000,
     "zins": "ab 5,62 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-und-Nachfolgen/Finanzierungsangebote/ERP-Gruenderkredit-Universell-(073-074-075-076)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Existenzgruendung/Foerderprodukte/ERP-Gruenderkredit-Universell-(073-074-075-076)/",
     "bearbeitungszeit_wochen": [
       6,
       10
@@ -651,7 +651,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 25000000,
     "zins": "ab 5,62 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Wachsen-und-Investieren/Finanzierungsangebote/KfW-Unternehmerkredit-(037-047)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Erweitern-und-Festigen/Foerderprodukte/KfW-Unternehmerkredit-(037-047)/",
     "bearbeitungszeit_wochen": [
       6,
       10
@@ -704,7 +704,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 25000000,
     "zins": "ab 4,98 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Finanzierungsangebote/KfW-Energieeffizienzprogramm-Produktionsanlagen-(293-294)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/Foerderprodukte/Klimaschutzoffensive-fuer-den-Mittelstand-(293)/",
     "bearbeitungszeit_wochen": [
       6,
       10
@@ -758,7 +758,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 150000000,
     "zins": "ab 4,73 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Finanzierungsangebote/Erneuerbare-Energien-Standard-(270)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/Foerderprodukte/Erneuerbare-Energien-Standard-(270)/",
     "bearbeitungszeit_wochen": [
       6,
       12
@@ -7024,7 +7024,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 50000,
     "zins": "ab 4,98 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsgebaeude/Finanzierungsangebote/Altersgerecht-Umbauen-Kredit-(159)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestehende-Immobilie/Foerderprodukte/Altersgerecht-Umbauen-(159)/",
     "bearbeitungszeit_wochen": [
       4,
       8
@@ -7930,7 +7930,7 @@
     "foerderer": "BMWK",
     "max_betrag": 5000000,
     "zins": null,
-    "antrag_url": "https://www.ki-in-kmu.de/",
+    "antrag_url": "https://www.digitale-technologien.de/DT/Navigation/DE/Foerderaufrufe/KI-Innovationswettbewerb/ki-innovationswettbewerb.html",
     "bearbeitungszeit_wochen": [
       10,
       18
@@ -8238,7 +8238,7 @@
     "foerderer": "BMDV / Bundesamt für Logistik",
     "max_betrag": 300000,
     "zins": null,
-    "antrag_url": "https://www.bmdv.bund.de/DE/Themen/Digitales/Digitale-Logistik/digitale-logistik.html",
+    "antrag_url": "https://www.bmv.de/DE/Themen/Digitales/Digitale-Logistik/digitale-logistik.html",
     "bearbeitungszeit_wochen": [
       8,
       14
@@ -8417,7 +8417,7 @@
     "foerderer": "BMDV",
     "max_betrag": 2000000,
     "zins": null,
-    "antrag_url": "https://www.bmdv.bund.de/DE/Themen/Gueterverkehr/Binnenschifffahrt/",
+    "antrag_url": "https://www.bmv.de/DE/Themen/Gueterverkehr/Binnenschifffahrt/",
     "bearbeitungszeit_wochen": [
       8,
       16
@@ -8811,7 +8811,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 10000000,
     "zins": "ab 1,5 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Foerderprodukte/ERP-Umwelt-und-Energieeffizienzprogramm-(237)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/Foerderprodukte/Energieeffizienz-und-Prozesswaerme-aus-Erneuerbaren-Energien-(295)/",
     "bearbeitungszeit_wochen": [
       6,
       12
@@ -9865,7 +9865,7 @@
     "foerderer": "Bundesministerium für Digitales und Verkehr (BMDV)",
     "max_betrag": 2000000,
     "zins": null,
-    "antrag_url": "https://www.bmdv.bund.de/SharedDocs/DE/Artikel/DG/foerderung-drohnen.html",
+    "antrag_url": "https://www.bmv.de/SharedDocs/DE/Artikel/DG/foerderung-drohnen.html",
     "bearbeitungszeit_wochen": [
       12,
       24
@@ -9923,7 +9923,7 @@
     "foerderer": "Bundesministerium für Digitales und Verkehr (BMDV)",
     "max_betrag": 10000000,
     "zins": null,
-    "antrag_url": "https://www.bmdv.bund.de/SharedDocs/DE/Artikel/StV/radverkehr-foerderung.html",
+    "antrag_url": "https://www.bmv.de/SharedDocs/DE/Artikel/StV/radverkehr-foerderung.html",
     "bearbeitungszeit_wochen": [
       12,
       24
@@ -10199,7 +10199,7 @@
     "foerderer": "Bundesministerium für Digitales und Verkehr (BMDV) / BAG",
     "max_betrag": 750000,
     "zins": null,
-    "antrag_url": "https://www.binnenschifffahrt-foerderung.de/",
+    "antrag_url": "https://www.bmv.de/SharedDocs/DE/Artikel/WS/foerderrichtlinie-nachhaltige-modernisierung-binnenschiffe.html",
     "bearbeitungszeit_wochen": [
       8,
       16
@@ -10568,7 +10568,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 25000000,
     "zins": "ab 1,32 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Foerderprodukte/ERP-Umwelt-und-Energieeffizienzprogramm-(292)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/Foerderprodukte/EE-Produktion-292-293/",
     "bearbeitungszeit_wochen": [
       6,
       10
@@ -10676,7 +10676,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 25000000,
     "zins": "ab 1,5 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/Foerderprodukte/ERP-Digitalisierungs-und-Innovationskredit-(380-390)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/Foerderprodukte/ERP-Foerderkredit-Digitalisierung-(511-512)/",
     "bearbeitungszeit_wochen": [
       6,
       10
@@ -10738,7 +10738,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 125000,
     "zins": "ab 5,51 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/Foerderprodukte/ERP-Gruenderkredit-%E2%80%93-StartGeld-(067)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/Foerderprodukte/ERP-Gruenderkredit-Startgeld-(067)/",
     "bearbeitungszeit_wochen": [
       4,
       8
@@ -10905,7 +10905,7 @@
     "foerderer": "Bundesministerium für Wirtschaft und Klimaschutz (BMWK) / AHK",
     "max_betrag": 20000,
     "zins": null,
-    "antrag_url": "https://www.exportinitiative-energie.de/",
+    "antrag_url": "https://www.german-energy-solutions.de",
     "bearbeitungszeit_wochen": [
       4,
       10
@@ -11013,7 +11013,7 @@
     "foerderer": "Bundesministerium für Bildung und Forschung (BMBF) / ESF",
     "max_betrag": 50000,
     "zins": null,
-    "antrag_url": "https://www.fachkraefte-sichern.de/",
+    "antrag_url": "https://www.initiative-fachkraefte-sichern.de",
     "bearbeitungszeit_wochen": [
       6,
       12
@@ -13047,7 +13047,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 25000000,
     "zins": "ab 1,5 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Foerderprodukte/ERP-Umwelt-und-Energieeffizienzprogramm-(237)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/Foerderprodukte/Energieeffizienz-und-Prozesswaerme-aus-Erneuerbaren-Energien-(295)/",
     "bearbeitungszeit_wochen": [
       6,
       12
@@ -13521,7 +13521,7 @@
     "foerderer": "Innenministerium Baden-Württemberg / Württembergischer Landessportbund",
     "max_betrag": 50000,
     "zins": null,
-    "antrag_url": "https://www.sportverbaende-bw.de/foerderung/",
+    "antrag_url": "https://www.lsvbw.de",
     "bearbeitungszeit_wochen": [
       4,
       12
@@ -14029,7 +14029,7 @@
     "foerderer": "BMDV / Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)",
     "max_betrag": 5000000,
     "zins": null,
-    "antrag_url": "https://www.bmdv.bund.de/SharedDocs/DE/Artikel/WS/schiffbau-foerderung.html",
+    "antrag_url": "https://www.bmv.de/SharedDocs/DE/Artikel/WS/schiffbau-foerderung.html",
     "bearbeitungszeit_wochen": [
       12,
       24
@@ -14382,7 +14382,7 @@
     "foerderer": "HA Hessen Agentur / WIBank",
     "max_betrag": 10000,
     "zins": null,
-    "antrag_url": "https://www.ha-hessen.de/foerderung/design/",
+    "antrag_url": "https://www.rkw-hessen.de/beratungsfoerderung/designberatung.html",
     "bearbeitungszeit_wochen": [
       4,
       8
@@ -17102,7 +17102,7 @@
     "foerderer": "Bayerisches Staatsministerium für Wirtschaft / LfA",
     "max_betrag": 5000,
     "zins": null,
-    "antrag_url": "https://www.gruenderland.bayern.de/foerderung/start-zuschuss/",
+    "antrag_url": "https://www.gruenderland.bayern/startzuschuss/",
     "bearbeitungszeit_wochen": [
       2,
       6
