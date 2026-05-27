@@ -48,6 +48,7 @@ export interface RegulationRow {
 
 export interface CompanyRow {
   id: string
+  clerk_user_id: string | null   // Clerk User-ID (null bei alten Einträgen)
   name: string
   rechtsform: string
   branche: string

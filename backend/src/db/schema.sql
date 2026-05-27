@@ -6,6 +6,7 @@ CREATE EXTENSION IF NOT EXISTS "pgcrypto";
 -- ── Unternehmen ──────────────────────────────────────────────────────────────
 CREATE TABLE IF NOT EXISTS companies (
   id            UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  clerk_user_id VARCHAR(100) UNIQUE,          -- Clerk User-ID (null bei alten Einträgen)
   name          VARCHAR(255) NOT NULL,
   rechtsform    VARCHAR(100) NOT NULL,
   branche       VARCHAR(100) NOT NULL,
@@ -81,6 +82,7 @@ CREATE TABLE IF NOT EXISTS match_cache (
 
 -- ── Indexes ───────────────────────────────────────────────────────────────────
 CREATE INDEX IF NOT EXISTS idx_regulation_status_company ON regulation_status(company_id);
+CREATE INDEX IF NOT EXISTS idx_companies_clerk_user_id ON companies(clerk_user_id);
 CREATE INDEX IF NOT EXISTS idx_fundings_typ ON fundings(typ);
 CREATE INDEX IF NOT EXISTS idx_fundings_quelle ON fundings(quelle);
 CREATE INDEX IF NOT EXISTS idx_fundings_max_betrag ON fundings(max_betrag DESC);

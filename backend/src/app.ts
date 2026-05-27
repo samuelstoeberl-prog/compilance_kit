@@ -1,12 +1,17 @@
 import express from 'express'
 import cors from 'cors'
+import { clerkMiddleware } from '@clerk/express'
 import { companiesRouter } from './routes/companies.js'
 import { matchRouter } from './routes/match.js'
 import { aiRouter } from './routes/ai.js'
 
 export const app = express()
 
-// ── Middleware ────────────────────────────────────────────────────────────────
+// ── Clerk-Middleware (muss vor allen Routes stehen) ───────────────────────────
+// Liest CLERK_SECRET_KEY aus process.env und verifiziert JWTs automatisch
+app.use(clerkMiddleware())
+
+// ── Standard-Middleware ───────────────────────────────────────────────────────
 app.use(cors({
   origin: process.env.FRONTEND_URL ?? 'http://localhost:5173',
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
@@ -14,7 +19,7 @@ app.use(cors({
 }))
 app.use(express.json({ limit: '1mb' }))
 
-// Security-Header (ohne helmet-Paket)
+// Security-Header
 app.use((_, res, next) => {
   res.setHeader('X-Content-Type-Options', 'nosniff')
   res.setHeader('X-Frame-Options', 'DENY')

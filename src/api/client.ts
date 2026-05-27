@@ -1,14 +1,22 @@
 import type { UnternehmensProfil, PflichtStatus } from '../types'
+import { getAuthToken } from '../lib/authToken'
 
 const BASE = import.meta.env.VITE_API_URL ?? ''
 
-// ── Generischer Fetch-Wrapper ─────────────────────────────────────────────────
+// ── Generischer Fetch-Wrapper (hängt automatisch den Auth-Token an) ───────────
 
 async function apiFetch<T>(path: string, init?: RequestInit): Promise<T> {
+  const token = await getAuthToken()
+
   const res = await fetch(`${BASE}${path}`, {
-    headers: { 'Content-Type': 'application/json', ...init?.headers },
     ...init,
+    headers: {
+      'Content-Type': 'application/json',
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
+      ...init?.headers,
+    },
   })
+
   if (!res.ok) {
     const body = await res.json().catch(() => ({}))
     throw new Error(body.error ?? `HTTP ${res.status}`)
@@ -22,6 +30,17 @@ export interface CompanyResponse extends UnternehmensProfil {
   id: string
   created_at: string
   updated_at: string
+}
+
+/** Gibt das Unternehmen des aktuell eingeloggten Nutzers zurück, oder null */
+export async function fetchMyCompany(): Promise<CompanyResponse | null> {
+  try {
+    return await apiFetch<CompanyResponse>('/api/companies/me')
+  } catch (err: unknown) {
+    // 404 = Nutzer hat noch kein Unternehmen angelegt
+    if (err instanceof Error && err.message.includes('404')) return null
+    throw err
+  }
 }
 
 export function createCompany(profil: UnternehmensProfil): Promise<CompanyResponse> {
@@ -99,7 +118,8 @@ export function updateRegulationStatus(
   })
 }
 
-// Health-Check – prüft ob Backend erreichbar ist
+// ── Health-Check ──────────────────────────────────────────────────────────────
+
 export async function checkBackend(): Promise<boolean> {
   try {
     await fetch(`${BASE}/api/health`, { signal: AbortSignal.timeout(3000) })

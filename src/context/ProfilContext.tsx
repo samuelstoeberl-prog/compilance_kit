@@ -1,11 +1,14 @@
 import { createContext, useContext, useState, useEffect, type ReactNode } from 'react'
+import { useAuth } from '@clerk/clerk-react'
 import type { UnternehmensProfil, PflichtStatus } from '../types'
-import { createCompany, updateCompany, updateRegulationStatus } from '../api/client'
+import { createCompany, updateCompany, updateRegulationStatus, fetchMyCompany } from '../api/client'
+import { setTokenGetter } from '../lib/authToken'
 
 interface ProfilContextValue {
   profil: UnternehmensProfil | null
   companyId: string | null
   backendOnline: boolean
+  isLoadingProfil: boolean
   setProfil: (p: UnternehmensProfil) => Promise<void>
   statusMap: Record<string, PflichtStatus>
   setStatus: (id: string, status: PflichtStatus) => void
@@ -15,29 +18,51 @@ interface ProfilContextValue {
 
 const ProfilContext = createContext<ProfilContextValue | null>(null)
 
+// ── Hilfsfunktionen localStorage ──────────────────────────────────────────────
+
+function clearLocalStorage() {
+  localStorage.removeItem('ck_profil')
+  localStorage.removeItem('ck_company_id')
+  localStorage.removeItem('ck_status')
+  localStorage.removeItem('ck_docs')
+}
+
+function readLS<T>(key: string, fallback: T): T {
+  try {
+    const s = localStorage.getItem(key)
+    return s ? JSON.parse(s) : fallback
+  } catch {
+    return fallback
+  }
+}
+
+// ── Provider ──────────────────────────────────────────────────────────────────
+
 export function ProfilProvider({ children }: { children: ReactNode }) {
-  const [profil, setProfilState] = useState<UnternehmensProfil | null>(() => {
-    const s = localStorage.getItem('ck_profil')
-    return s ? JSON.parse(s) : null
-  })
+  const { userId, getToken, isLoaded: clerkLoaded } = useAuth()
 
-  const [companyId, setCompanyId] = useState<string | null>(
-    () => localStorage.getItem('ck_company_id')
+  // Sofort aus LocalStorage laden (schnelle Erstanzeige)
+  const [profil, setProfilState] = useState<UnternehmensProfil | null>(() =>
+    readLS('ck_profil', null)
   )
-
+  const [companyId, setCompanyId] = useState<string | null>(() =>
+    readLS('ck_company_id', null)
+  )
+  const [statusMap, setStatusMap] = useState<Record<string, PflichtStatus>>(() =>
+    readLS('ck_status', {})
+  )
+  const [docTimestamps, setDocTimestamps] = useState<Record<string, string>>(() =>
+    readLS('ck_docs', {})
+  )
   const [backendOnline, setBackendOnline] = useState(false)
+  const [isLoadingProfil, setIsLoadingProfil] = useState(true)
 
-  const [statusMap, setStatusMap] = useState<Record<string, PflichtStatus>>(() => {
-    const s = localStorage.getItem('ck_status')
-    return s ? JSON.parse(s) : {}
-  })
+  // ── Clerk-Token dem API-Client zur Verfügung stellen ──────────────────────
+  useEffect(() => {
+    setTokenGetter(getToken)
+  }, [getToken])
 
-  const [docTimestamps, setDocTimestamps] = useState<Record<string, string>>(() => {
-    const s = localStorage.getItem('ck_docs')
-    return s ? JSON.parse(s) : {}
-  })
-
-  // Backend-Verbindung beim Start prüfen
+  // ── Backend-Verbindung prüfen ─────────────────────────────────────────────
   useEffect(() => {
     fetch(`${import.meta.env.VITE_API_URL ?? ''}/api/health`, {
       signal: AbortSignal.timeout(3000),
@@ -46,7 +71,52 @@ export function ProfilProvider({ children }: { children: ReactNode }) {
       .catch(() => setBackendOnline(false))
   }, [])
 
-  // Profil speichern – localStorage + Backend
+  // ── Profil laden wenn Clerk-Auth bereit ist ───────────────────────────────
+  useEffect(() => {
+    if (!clerkLoaded) return
+
+    if (!userId) {
+      // Nutzer ausgeloggt – alles zurücksetzen
+      setProfilState(null)
+      setCompanyId(null)
+      setStatusMap({})
+      setDocTimestamps({})
+      clearLocalStorage()
+      setIsLoadingProfil(false)
+      return
+    }
+
+    // Nutzer eingeloggt – Unternehmen vom Backend laden
+    if (!backendOnline) {
+      // Offline: LocalStorage-Fallback weiter nutzen
+      setIsLoadingProfil(false)
+      return
+    }
+
+    setIsLoadingProfil(true)
+    fetchMyCompany()
+      .then(company => {
+        if (company) {
+          // Backend hat ein Unternehmen → als Quelle der Wahrheit nutzen
+          setProfilState(company)
+          setCompanyId(company.id)
+          localStorage.setItem('ck_profil', JSON.stringify(company))
+          localStorage.setItem('ck_company_id', company.id)
+        } else {
+          // Noch kein Unternehmen angelegt → zur Onboarding-Seite
+          setProfilState(null)
+          setCompanyId(null)
+          clearLocalStorage()
+        }
+      })
+      .catch(err => {
+        console.warn('[ProfilContext] Profil-Laden fehlgeschlagen:', err)
+        // LocalStorage-Fallback behalten
+      })
+      .finally(() => setIsLoadingProfil(false))
+  }, [userId, clerkLoaded, backendOnline])
+
+  // ── Profil speichern – LocalStorage + Backend ─────────────────────────────
   const setProfil = async (p: UnternehmensProfil) => {
     setProfilState(p)
     localStorage.setItem('ck_profil', JSON.stringify(p))
@@ -66,7 +136,7 @@ export function ProfilProvider({ children }: { children: ReactNode }) {
     }
   }
 
-  // Status lokal + Backend synchronisieren
+  // ── Regulatorik-Status lokal + Backend synchronisieren ───────────────────
   const setStatus = (id: string, status: PflichtStatus) => {
     setStatusMap(prev => {
       const next = { ...prev, [id]: status }
@@ -91,7 +161,7 @@ export function ProfilProvider({ children }: { children: ReactNode }) {
 
   return (
     <ProfilContext.Provider value={{
-      profil, companyId, backendOnline,
+      profil, companyId, backendOnline, isLoadingProfil,
       setProfil, statusMap, setStatus, docTimestamps, setDocGenerated,
     }}>
       {children}
