@@ -10,10 +10,12 @@ import App from './App.tsx'
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 
 if (!PUBLISHABLE_KEY || PUBLISHABLE_KEY.includes('DEIN_KEY')) {
-  throw new Error(
-    '⚠️  VITE_CLERK_PUBLISHABLE_KEY fehlt in .env\n' +
-    'Erstelle einen Key auf https://clerk.com und trage ihn in .env ein.'
-  )
+  document.getElementById('root')!.innerHTML =
+    '<div style="font-family:sans-serif;padding:2rem;color:#dc2626">' +
+    '<h2>Konfigurationsfehler</h2>' +
+    '<p>VITE_CLERK_PUBLISHABLE_KEY fehlt in den Environment Variables.</p>' +
+    '</div>'
+  throw new Error('VITE_CLERK_PUBLISHABLE_KEY not configured')
 }
 
 createRoot(document.getElementById('root')!).render(
