@@ -8,7 +8,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 2000000,
     "zins": "ab 1,5 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/Foerderprodukte/ERP-Foerderkredit-Digitalisierung-(511-512)/",
     "bearbeitungszeit_wochen": [
       6,
       8
@@ -808,7 +808,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 25000000,
     "zins": "ab 5,62 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/Foerderprodukte/KfW-Wachstumskredit-(359-360)/",
     "bearbeitungszeit_wochen": [
       6,
       10
@@ -3650,7 +3650,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 500000,
     "zins": "ab 5,89 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Gruenden-Erweitern/Foerderprodukte/ERP-Kapital-fuer-Gruendung-(058)/",
     "bearbeitungszeit_wochen": [
       6,
       10
@@ -3710,7 +3710,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 25000000,
     "zins": "ab 5,62 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/Foerderprodukte/ERP-Foerderkredit-Innovation-(513-514)/",
     "bearbeitungszeit_wochen": [
       6,
       12
@@ -3763,7 +3763,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 25000000,
     "zins": "ab 4,68 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/Foerderprodukte/Klimaschutzoffensive-fuer-den-Mittelstand-(293)/",
     "bearbeitungszeit_wochen": [
       6,
       10
@@ -3809,7 +3809,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 150000000,
     "zins": "ab 4,73 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/Foerderprodukte/Ladestationen-fuer-Elektrofahrzeuge-Unternehmen-(441)/",
     "bearbeitungszeit_wochen": [
       4,
       8
@@ -6654,7 +6654,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 25000000,
     "zins": "ab 5,62 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/Foerderprodukte/ERP-Foerderkredit-Gruendung-und-Nachfolge-(077)/",
     "bearbeitungszeit_wochen": [
       6,
       10
@@ -6973,7 +6973,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 25000000,
     "zins": "ab 5,37 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Freie-Berufe/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/Foerderprodukte/ERP-Gruenderkredit-Startgeld-(067)/",
     "bearbeitungszeit_wochen": [
       4,
       8
@@ -7975,7 +7975,7 @@
     "foerderer": "BMDV / NOW GmbH",
     "max_betrag": 2000000,
     "zins": null,
-    "antrag_url": "https://www.now-gmbh.de/foerderung/wasserstoff-brennstoffzelle/",
+    "antrag_url": "https://www.now-gmbh.de/foerderung/foerderprogramme/wasserstoff-und-brennstoffzelle/",
     "bearbeitungszeit_wochen": [
       10,
       18
@@ -8460,7 +8460,7 @@
     "foerderer": "BMDV / NOW GmbH",
     "max_betrag": 100000,
     "zins": null,
-    "antrag_url": "https://www.now-gmbh.de/foerderung/nutzfahrzeuge/",
+    "antrag_url": "https://www.now-gmbh.de/foerderung/foerderprogramme/klimafreundliche-nutzfahrzeuge/",
     "bearbeitungszeit_wochen": [
       6,
       12
@@ -8549,7 +8549,7 @@
     "foerderer": "BMDV / Bundesamt für Logistik und Mobilität",
     "max_betrag": 150000,
     "zins": null,
-    "antrag_url": "https://www.now-gmbh.de/foerderung/ladeinfrastruktur/",
+    "antrag_url": "https://www.now-gmbh.de/foerderung/foerderfinder/ladeinfrastruktur-fuer-schwere-nutzfahrzeuge/",
     "bearbeitungszeit_wochen": [
       6,
       12
@@ -8760,7 +8760,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 50000,
     "zins": "ab 1,01 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/Foerderprodukte/Barrierereduzierung-(455)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilie/Foerderprodukte/Altersgerecht-Umbauen-Investitionszuschuss-(455-B)/",
     "bearbeitungszeit_wochen": [
       4,
       8
@@ -10466,7 +10466,7 @@
     "foerderer": "Verschiedene Landesministerien und Förderinstitute",
     "max_betrag": 50000,
     "zins": null,
-    "antrag_url": "https://www.now-gmbh.de/foerderung/elektromobilitaet/",
+    "antrag_url": "https://www.now-gmbh.de/foerderung/foerderprogramme-fuer-klimafreundliche-mobilitaet/foerderung-elektromobilitaet/",
     "bearbeitungszeit_wochen": [
       4,
       12
@@ -10851,7 +10851,7 @@
     "foerderer": "KfW / IHK / HWK / BAFA",
     "max_betrag": 4000,
     "zins": null,
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/",
+    "antrag_url": "https://www.bafa.de/DE/Wirtschafts_Mittelstandsfoerderung/Beratung_Finanzierung/Unternehmensberatung/unternehmensberatung_node.html",
     "bearbeitungszeit_wochen": [
       2,
       6
@@ -11428,7 +11428,7 @@
     "foerderer": "BMDV / BAG – Bundesamt für Güterverkehr",
     "max_betrag": 800000,
     "zins": null,
-    "antrag_url": "https://www.now-gmbh.de/projektfoerderung/nutzfahrzeuge/ksni/",
+    "antrag_url": "https://www.now-gmbh.de/foerderung/foerderfinder/aufruf-zur-antragseinreichung-zur-foerderung-von-klimaschonenden-nutzfahrzeugen-und-dazugehoeriger-tank-und-ladeinfrastruktur/",
     "bearbeitungszeit_wochen": [
       6,
       12
@@ -13975,7 +13975,7 @@
     "foerderer": "BMDV / NOW GmbH",
     "max_betrag": 10000000,
     "zins": null,
-    "antrag_url": "https://www.now-gmbh.de/projektfoerderung/wasserstoff/hyland/",
+    "antrag_url": "https://www.now-gmbh.de/netzwerkfinder/hyland/",
     "bearbeitungszeit_wochen": [
       12,
       24
@@ -15869,7 +15869,7 @@
     "foerderer": "BMDV / NOW GmbH",
     "max_betrag": 5000000,
     "zins": null,
-    "antrag_url": "https://www.now-gmbh.de/projektfoerderung/schifffahrt/landstrom/",
+    "antrag_url": "https://www.now-gmbh.de/foerderung/foerderfinder/foerderung-alternativer-technologien-fuer-die-umweltfreundliche-bordstrom-und-mobile-landstromversorgung-von-see-und-binnenschiffen/",
     "bearbeitungszeit_wochen": [
       8,
       16
