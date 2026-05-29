@@ -590,7 +590,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 25000000,
     "zins": "ab 5,62 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Existenzgruendung/Foerderprodukte/ERP-Gruenderkredit-Universell-(073-074-075-076)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/Foerderprodukte/ERP-Gruenderkredit-Universell-(073-074-075-076)/",
     "bearbeitungszeit_wochen": [
       6,
       10
@@ -3650,7 +3650,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 500000,
     "zins": "ab 5,89 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-und-Nachfolgen/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/",
     "bearbeitungszeit_wochen": [
       6,
       10
@@ -3763,7 +3763,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 25000000,
     "zins": "ab 4,68 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/",
     "bearbeitungszeit_wochen": [
       6,
       10
@@ -3809,7 +3809,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 150000000,
     "zins": "ab 4,73 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/",
     "bearbeitungszeit_wochen": [
       4,
       8
@@ -6654,7 +6654,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 25000000,
     "zins": "ab 5,62 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-und-Nachfolgen/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/",
     "bearbeitungszeit_wochen": [
       6,
       10
@@ -8760,7 +8760,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 50000,
     "zins": "ab 1,01 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Foerderprodukte/Barrierereduzierung-(455)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/Foerderprodukte/Barrierereduzierung-(455)/",
     "bearbeitungszeit_wochen": [
       4,
       8
@@ -9495,7 +9495,7 @@
     "foerderer": "KfW Bankengruppe",
     "max_betrag": 150000,
     "zins": "ab 1,01 %",
-    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-und-Umwelt/Foerderprodukte/Bundesfoerderung-fuer-effiziente-Gebaeude-Nichtwohngebaeude-(263)/",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/Foerderprodukte/Bundesfoerderung-fuer-effiziente-Gebaeude-Nichtwohngebaeude-(263)/",
     "bearbeitungszeit_wochen": [
       4,
       10
