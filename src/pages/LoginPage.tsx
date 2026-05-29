@@ -86,7 +86,8 @@ export default function LoginPage() {
 
           {/* Clerk Sign-In mit angepasstem Styling */}
           <SignIn
-            routing="hash"
+            routing="path"
+            path="/login"
             appearance={{
               layout: {
                 showOptionalFields: false,
