@@ -56,14 +56,14 @@ export default function App() {
         }
       />
 
-      {/* Preview: öffentlich – zeigt Ergebnisse vor dem Login */}
+      {/* Preview: Hard-Lock nach Onboarding – zeigt Zahlen, erzwingt Anmeldung */}
       <Route
         path="/preview"
-        element={
-          isSignedIn
-            ? <Navigate to="/dashboard" replace />
-            : <PreviewPage />
-        }
+        element={isSignedIn ? <Navigate to="/dashboard" replace /> : <PreviewPage />}
+      />
+      <Route
+        path="/preview/*"
+        element={isSignedIn ? <Navigate to="/dashboard" replace /> : <PreviewPage />}
       />
 
       {/* Login: eingeloggte Nutzer weiterleiten */}
