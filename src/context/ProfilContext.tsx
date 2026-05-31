@@ -95,7 +95,7 @@ export function ProfilProvider({ children }: { children: ReactNode }) {
 
     setIsLoadingProfil(true)
     fetchMyCompany()
-      .then(company => {
+      .then(async company => {
         if (company) {
           // Backend hat ein Unternehmen → als Quelle der Wahrheit nutzen
           setProfilState(company)
@@ -103,10 +103,23 @@ export function ProfilProvider({ children }: { children: ReactNode }) {
           localStorage.setItem('ck_profil', JSON.stringify(company))
           localStorage.setItem('ck_company_id', company.id)
         } else {
-          // Noch kein Unternehmen angelegt → zur Onboarding-Seite
-          setProfilState(null)
-          setCompanyId(null)
-          clearLocalStorage()
+          // Kein Backend-Eintrag – aber hat der Nutzer schon das Onboarding ausgefüllt?
+          const localProfil = readLS<UnternehmensProfil | null>('ck_profil', null)
+          if (localProfil) {
+            // Onboarding-Daten ins Backend synchronisieren
+            try {
+              const created = await createCompany(localProfil)
+              setCompanyId(created.id)
+              localStorage.setItem('ck_company_id', created.id)
+              // Profil bleibt erhalten (bereits im State aus localStorage-Init)
+            } catch {
+              // Sync fehlgeschlagen – localStorage-Fallback behalten
+            }
+          } else {
+            setProfilState(null)
+            setCompanyId(null)
+            clearLocalStorage()
+          }
         }
       })
       .catch(err => {

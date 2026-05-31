@@ -111,7 +111,7 @@ export default function Onboarding() {
 
   const handleSubmit = async () => {
     await setProfil(form as UnternehmensProfil)
-    navigate('/dashboard')
+    navigate(profil ? '/dashboard' : '/preview')
   }
 
   const inputCls = 'w-full bg-white border border-sand-border rounded-lg px-4 py-2.5 text-ink placeholder-muted focus:outline-none focus:border-ink font-sans text-sm'
