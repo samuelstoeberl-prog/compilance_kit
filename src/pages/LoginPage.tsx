@@ -1,71 +1,66 @@
 import { SignIn } from '@clerk/clerk-react'
 
-const FEATURES = [
-  { label: '346 Förderprogramme', sub: 'automatisch auf dein Profil gematcht' },
-  { label: 'Rechtspflichten', sub: 'gefiltert nach Branche & Größe' },
-  { label: 'Compliance-Dokumente', sub: 'per KI in Sekunden generiert' },
+const STATS = [
+  { zahl: '346', einheit: 'Förderprogramme', sub: 'laufend aktualisiert' },
+  { zahl: '558', einheit: 'Rechtspflichten', sub: 'nach Branche & Größe' },
+  { zahl: '< 3 min', einheit: 'Ersteinrichtung', sub: 'kein Papierkram' },
 ]
 
 export default function LoginPage() {
   return (
     <div className="min-h-screen flex font-sans">
 
-      {/* ── Linke Spalte: Branding ─────────────────────────────────────────── */}
+      {/* ── Linke Spalte ──────────────────────────────────────────────────── */}
       <div className="hidden lg:flex lg:w-[46%] bg-ink flex-col justify-between p-12 relative overflow-hidden">
 
-        {/* Subtile Hintergrund-Dekoration */}
-        <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-teal/5 rounded-full blur-3xl translate-x-16 -translate-y-16" />
-          <div className="absolute bottom-0 left-0 w-48 h-48 bg-sand/5 rounded-full blur-3xl -translate-x-8 translate-y-8" />
+        <div className="absolute inset-0 pointer-events-none select-none">
+          <div className="absolute top-0 right-0 w-72 h-72 bg-teal/5 rounded-full blur-3xl translate-x-20 -translate-y-20" />
         </div>
 
         {/* Logo */}
         <div className="relative flex items-center gap-2.5">
-          <div className="w-8 h-8 bg-sand-light rounded flex items-center justify-center">
+          <div className="w-8 h-8 bg-sand-light rounded flex items-center justify-center flex-shrink-0">
             <span className="text-ink text-xs font-mono font-bold">CK</span>
           </div>
           <span className="font-serif text-sand-light text-xl">ComplianceKit</span>
-          <span className="text-xs font-mono bg-ink-light border border-ink-border text-muted px-2 py-0.5 rounded ml-1">BETA</span>
         </div>
 
         {/* Headline */}
         <div className="relative">
-          <p className="text-xs font-mono text-teal uppercase tracking-widest mb-4">
-            Für Gründer & KMU
+          <p className="text-xs font-mono text-teal uppercase tracking-widest mb-5">
+            Für Gründer & KMU in Deutschland
           </p>
-          <h1 className="font-serif text-4xl text-sand-light leading-tight">
-            Compliance &<br />Fördermittel<br />
-            <span className="text-teal">auf einen Blick.</span>
+          <h1 className="font-serif text-[2.6rem] text-sand-light leading-[1.15]">
+            Nie wieder<br />eine Pflicht<br />
+            <span className="text-teal">übersehen.</span>
           </h1>
-          <p className="mt-5 text-muted font-sans text-sm leading-relaxed max-w-sm">
-            Alle rechtlichen Pflichten und passenden Förderprogramme
-            automatisch für dein Unternehmen zusammengestellt.
+          <p className="mt-6 text-muted font-sans text-sm leading-relaxed max-w-[17rem]">
+            ComplianceKit zeigt dir exakt welche Gesetze für dein
+            Unternehmen gelten — und welche Fördergelder du gerade liegenlässt.
           </p>
+
+          {/* Stats */}
+          <div className="mt-8 grid grid-cols-3 gap-4">
+            {STATS.map(s => (
+              <div key={s.einheit}>
+                <div className="font-serif text-2xl text-sand-light leading-none">{s.zahl}</div>
+                <div className="text-xs font-sans text-sand-light/80 mt-0.5 leading-tight">{s.einheit}</div>
+                <div className="text-xs font-mono text-muted mt-0.5">{s.sub}</div>
+              </div>
+            ))}
+          </div>
         </div>
 
-        {/* Features + Footer */}
-        <div className="relative space-y-3">
-          {FEATURES.map(f => (
-            <div key={f.label} className="flex items-start gap-3">
-              <div className="w-5 h-5 rounded flex items-center justify-center flex-shrink-0 mt-0.5 bg-teal/20">
-                <span className="text-teal text-xs font-mono font-bold">✓</span>
-              </div>
-              <div>
-                <span className="text-sand-light text-sm font-sans font-medium">{f.label}</span>
-                <span className="text-muted text-sm font-sans"> · {f.sub}</span>
-              </div>
-            </div>
-          ))}
-
-          <div className="pt-5 mt-2 border-t border-ink-border">
-            <p className="text-muted text-xs font-mono">
-              Kostenlos bis 50.000 Nutzer · DSGVO-konform · Keine Kreditkarte
-            </p>
-          </div>
+        {/* Footer */}
+        <div className="relative border-t border-ink-border pt-5">
+          <p className="text-muted text-xs font-mono leading-relaxed">
+            Datenschutz nach DSGVO · Hosting in Deutschland ·
+            Daten werden nicht weiterverkauft
+          </p>
         </div>
       </div>
 
-      {/* ── Rechte Spalte: Sign-In ─────────────────────────────────────────── */}
+      {/* ── Rechte Spalte ─────────────────────────────────────────────────── */}
       <div className="flex-1 flex items-center justify-center bg-sand-light px-6 py-12">
         <div className="w-full max-w-[400px]">
 
@@ -77,17 +72,29 @@ export default function LoginPage() {
             <span className="font-serif text-ink text-xl">ComplianceKit</span>
           </div>
 
+          {/* Heading über dem Clerk-Widget */}
+          <div className="mb-6">
+            <h2 className="font-serif text-2xl text-ink">Kostenlos starten</h2>
+            <p className="text-sm text-muted-dark font-sans mt-1">
+              Konto anlegen oder einloggen — dauert unter einer Minute.
+            </p>
+          </div>
+
           <SignIn
             routing="path"
             path="/login"
+            afterSignInUrl="/"
+            afterSignUpUrl="/"
             appearance={{
               layout: { showOptionalFields: false },
               elements: {
                 rootBox: 'w-full',
-                card: 'shadow-none p-0 bg-transparent gap-6',
+                card: 'shadow-none p-0 bg-transparent gap-5',
 
-                headerTitle: 'font-serif text-2xl text-ink',
-                headerSubtitle: 'text-muted-dark text-sm font-sans',
+                // Clerk-eigenen Header ausblenden — wir haben unseren eigenen
+                headerTitle: 'hidden',
+                headerSubtitle: 'hidden',
+                header: 'hidden',
 
                 socialButtonsBlockButton:
                   'border border-sand-border bg-white hover:bg-sand-mid transition-colors text-ink font-sans font-medium rounded-lg h-11',
@@ -97,15 +104,16 @@ export default function LoginPage() {
                 dividerLine: 'bg-sand-border',
                 dividerText: 'text-muted text-xs bg-sand-light px-3 font-mono',
 
-                formFieldLabel: 'text-xs font-mono text-muted-dark mb-1 uppercase tracking-wider',
+                formFieldLabel: 'text-xs font-mono text-muted-dark uppercase tracking-wider',
                 formFieldInput:
                   'border border-sand-border bg-white focus:ring-0 focus:border-ink rounded-lg text-sm h-11 px-4 text-ink placeholder-muted transition-colors font-sans',
+                formFieldInputShowPasswordButton: 'text-muted hover:text-ink',
 
                 formButtonPrimary:
                   'bg-ink hover:bg-ink-light transition-colors font-sans font-medium rounded-lg h-11 text-sm text-sand-light',
 
                 footerActionLink: 'text-teal-dark hover:text-teal font-medium font-sans',
-                identityPreviewText: 'text-ink text-sm font-sans',
+                footerActionText: 'text-muted-dark font-sans text-sm',
 
                 alertText: 'text-sm font-sans',
                 alertTextDanger: 'text-danger',
@@ -116,16 +124,10 @@ export default function LoginPage() {
             }}
           />
 
-          <p className="mt-8 text-center text-xs text-muted font-sans">
-            Mit der Anmeldung stimmst du unseren{' '}
-            <a href="/datenschutz" className="underline hover:text-ink-light transition-colors">
-              Datenschutzbestimmungen
-            </a>{' '}
-            und dem{' '}
-            <a href="/impressum" className="underline hover:text-ink-light transition-colors">
-              Impressum
-            </a>{' '}
-            zu.
+          <p className="mt-6 text-center text-xs text-muted font-sans">
+            <a href="/impressum" className="hover:text-ink transition-colors">Impressum</a>
+            <span className="mx-2 text-sand-border">·</span>
+            <a href="/datenschutz" className="hover:text-ink transition-colors">Datenschutz</a>
           </p>
         </div>
       </div>
