@@ -19,7 +19,8 @@
       ]
     },
     "hat_dokument_generator": true,
-    "dokument_typ": "datenschutzerklaerung"
+    "dokument_typ": "datenschutzerklaerung",
+    "stand": "2025-06"
   },
   {
     "id": "impressumspflicht",
@@ -41,7 +42,8 @@
       ]
     },
     "hat_dokument_generator": true,
-    "dokument_typ": "impressum"
+    "dokument_typ": "impressum",
+    "stand": "2025-06"
   },
   {
     "id": "cookie-consent",
@@ -62,7 +64,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "gewerbesteuer-erklaerung",
@@ -90,7 +93,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "jahresabschluss-offenlegung",
@@ -114,7 +118,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "elektronische-rechnung",
@@ -135,7 +140,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "mindestlohn-dokumentation",
@@ -157,7 +163,8 @@
       ]
     },
     "hat_dokument_generator": true,
-    "dokument_typ": "arbeitszeitnachweis"
+    "dokument_typ": "arbeitszeitnachweis",
+    "stand": "2025-06"
   },
   {
     "id": "arbeitsschutz-unterweisung",
@@ -179,7 +186,8 @@
       ]
     },
     "hat_dokument_generator": true,
-    "dokument_typ": "arbeitsschutz-unterweisung"
+    "dokument_typ": "arbeitsschutz-unterweisung",
+    "stand": "2025-06"
   },
   {
     "id": "gefaehrdungsbeurteilung",
@@ -200,7 +208,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "erste-hilfe-einrichtung",
@@ -221,7 +230,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "brandschutz-feuerschutz",
@@ -242,7 +252,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "betriebsrat",
@@ -263,7 +274,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "schwerbehindertenabgabe",
@@ -284,7 +296,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "dsgvo-datenschutzbeauftragter",
@@ -305,7 +318,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "nis2",
@@ -330,7 +344,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "eu-ai-act",
@@ -352,7 +367,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "csrd",
@@ -376,7 +392,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "lksg",
@@ -397,7 +414,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "gaststaettenerlaubnis",
@@ -419,7 +437,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "haccp-konzept",
@@ -444,7 +463,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "infektionsschutzbelehrung",
@@ -467,7 +487,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "hygieneplan-gesundheit",
@@ -488,7 +509,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "bimschg-genehmigung",
@@ -513,7 +535,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "abwassereinleitung",
@@ -538,7 +561,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "gefahrstoffverzeichnis",
@@ -562,7 +586,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "laermschutz-ta",
@@ -585,7 +610,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "meisterpflicht-handwerk",
@@ -606,7 +632,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "baustellenverordnung",
@@ -628,7 +655,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "preisauszeichnung",
@@ -652,7 +680,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "agb-ecommerce",
@@ -675,7 +704,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "verpackungsgesetz",
@@ -700,7 +730,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "kassenfuehrung-tse",
@@ -725,7 +756,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "berufsgenossenschaft-anmeldung",
@@ -746,7 +778,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "arbeitszeitgesetz",
@@ -767,7 +800,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "mutterschutz",
@@ -788,7 +822,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "datev-buchfuehrungspflicht",
@@ -815,7 +850,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "notbeleuchtung-fluchtwege",
@@ -836,7 +872,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "feuerloesch-pruefung",
@@ -857,7 +894,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "sicherheitsbeauftragter",
@@ -878,7 +916,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "unfallmeldepflicht-bg",
@@ -899,7 +938,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "dguv-v3-elektropruefung",
@@ -920,7 +960,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "arbeitsstätten-grundpflichten",
@@ -941,7 +982,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "bildschirmarbeitsplatz",
@@ -966,7 +1008,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "aufzugspruefung",
@@ -992,7 +1035,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "druckbehaelter-pruefung",
@@ -1016,7 +1060,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "psa-bereitstellung",
@@ -1041,7 +1086,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "gewerbeabfallverordnung",
@@ -1062,7 +1108,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "f-gase-dichteprüfung",
@@ -1087,7 +1134,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "schornsteinfeger-heizungspruefung",
@@ -1108,7 +1156,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "trinkwasser-legionellen",
@@ -1132,7 +1181,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "schaedlingsbekaempfung-dokumentation",
@@ -1157,7 +1207,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "allergeninformation",
@@ -1180,7 +1231,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "oel-fettabscheider",
@@ -1203,7 +1255,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "fahrerkarte-tachograph",
@@ -1224,7 +1277,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "uvv-fahrzeugpruefung",
@@ -1248,7 +1302,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "adr-gefahrguttransport",
@@ -1272,7 +1327,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "maschinenrichtlinie-sicherheit",
@@ -1296,7 +1352,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reach-sicherheitsdatenblatt",
@@ -1320,7 +1377,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "medizinprodukte-mdr",
@@ -1341,7 +1399,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "btmg-betaeubungsmittel",
@@ -1362,7 +1421,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "barrierefreiheit-kundenverkehr",
@@ -1387,7 +1447,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "regalinspektion-lager",
@@ -1411,7 +1472,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "abluft-kuechenabzug",
@@ -1433,7 +1495,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "kassenbon-belegpflicht",
@@ -1457,7 +1520,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "ladenoeffentlichkeit-ladenschluss",
@@ -1479,7 +1543,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "altoel-entsorgungsnachweis",
@@ -1502,7 +1567,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "arbeitsmedizinische-vorsorge",
@@ -1523,7 +1589,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "friseur-hygienevorschriften",
@@ -1544,7 +1611,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "taetowierer-hygiene",
@@ -1566,7 +1634,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "kosmetik-eu-verordnung",
@@ -1588,7 +1657,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "apothekenrecht-lagerbedingungen",
@@ -1609,7 +1679,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "fleischhygiene-eu853",
@@ -1633,7 +1704,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "biostoffv-infektionsschutz",
@@ -1655,7 +1727,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "sprinkleranlage-pruefung",
@@ -1680,7 +1753,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "asbest-schadstoffkataster",
@@ -1704,7 +1778,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "rlt-lueftungsanlage-wartung",
@@ -1729,7 +1804,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "clp-gefahrstoffkennzeichnung",
@@ -1754,7 +1830,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "ozon-kuehlmittel-ausstieg",
@@ -1778,7 +1855,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "leuchtreklame-baugenehmigung",
@@ -1803,7 +1881,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "nutzungsaenderung-baugenehmigung",
@@ -1824,7 +1903,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "parkplaetze-behinderte",
@@ -1849,7 +1929,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "immobilienmakler-mabv",
@@ -1871,7 +1952,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "kfz-werkstatt-zulassung",
@@ -1892,7 +1974,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "pflanzenschutzmittel-sachkunde",
@@ -1915,7 +1998,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "tierhaltung-veterinaerueberwachung",
@@ -1936,7 +2020,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "forstbetrieb-waldgesetz",
@@ -1957,7 +2042,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "steuerberaterpflichten",
@@ -1978,7 +2064,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "rechtsanwalt-berufspflichten",
@@ -1999,7 +2086,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "architekt-berufspflichten",
@@ -2020,7 +2108,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "geldwaesche-geldwschg",
@@ -2045,7 +2134,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "whistleblower-hinweisgeberschutz",
@@ -2066,7 +2156,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "pauschalreisen-reiserecht",
@@ -2088,7 +2179,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "datenschutz-auftragsverarbeitung",
@@ -2109,7 +2201,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-kschg",
@@ -2127,7 +2220,8 @@
       ],
       "mitarbeiter_min": 11
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-betrvg-1",
@@ -2145,7 +2239,8 @@
       ],
       "mitarbeiter_min": 5
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-betrvg-38",
@@ -2163,7 +2258,8 @@
       ],
       "mitarbeiter_min": 200
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-dsb",
@@ -2181,7 +2277,8 @@
       ],
       "mitarbeiter_min": 20
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-ix-schwerb",
@@ -2199,7 +2296,8 @@
       ],
       "mitarbeiter_min": 20
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sib-sgb-vii",
@@ -2217,7 +2315,8 @@
       ],
       "mitarbeiter_min": 21
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-fpfzg",
@@ -2235,7 +2334,8 @@
       ],
       "mitarbeiter_min": 26
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-entgtranspg",
@@ -2253,7 +2353,8 @@
       ],
       "mitarbeiter_min": 100
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-drittelbg",
@@ -2275,7 +2376,8 @@
       ],
       "mitarbeiter_min": 500
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-mitbestg",
@@ -2300,7 +2402,8 @@
       ],
       "mitarbeiter_min": 2001
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-hinschg",
@@ -2318,7 +2421,8 @@
       ],
       "mitarbeiter_min": 50
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-milog",
@@ -2336,7 +2440,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-lksg",
@@ -2354,7 +2459,8 @@
       ],
       "mitarbeiter_min": 1000
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-csrd",
@@ -2376,7 +2482,8 @@
       ],
       "mitarbeiter_min": 250
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-nis-2",
@@ -2406,7 +2513,8 @@
       ],
       "mitarbeiter_min": 50
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bbig",
@@ -2423,7 +2531,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bgb",
@@ -2440,7 +2549,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-ai-act",
@@ -2464,7 +2574,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-e-rechnung",
@@ -2482,7 +2593,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bfsg",
@@ -2504,7 +2616,8 @@
       ],
       "mitarbeiter_min": 10
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-hgb-241a",
@@ -2524,7 +2637,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-hgb-325",
@@ -2546,7 +2660,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-hgb-267",
@@ -2568,7 +2683,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-wp-pflicht-316",
@@ -2590,7 +2706,8 @@
       ],
       "mitarbeiter_min": 51
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-cbcr-offenlegung",
@@ -2611,7 +2728,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-ets-behg",
@@ -2632,7 +2750,8 @@
         "Industrie & Fertigung"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-energieaudit-edl-g",
@@ -2650,7 +2769,8 @@
       ],
       "mitarbeiter_min": 251
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-smart-meter-msbg",
@@ -2667,7 +2787,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-verpackg",
@@ -2690,7 +2811,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eudr",
@@ -2711,7 +2833,8 @@
         "Industrie & Fertigung"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-hwo-meisterpflicht",
@@ -2734,7 +2857,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-tse-pflicht",
@@ -2756,7 +2880,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gastro-mwst-7",
@@ -2776,7 +2901,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-kschg-2",
@@ -2794,7 +2920,8 @@
       ],
       "mitarbeiter_min": 21
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-branchenmindestlohn",
@@ -2817,7 +2944,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-schwarzarbg-2a",
@@ -2839,7 +2967,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gefstoffv-asbest",
@@ -2859,7 +2988,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-beg-iv-nachwg",
@@ -2877,7 +3007,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-dsa",
@@ -2898,7 +3029,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-dsgvo",
@@ -2916,7 +3048,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gwg",
@@ -2942,7 +3075,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-prodsg-gpsr",
@@ -2966,7 +3100,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gaststaettenrecht-laender",
@@ -2985,7 +3120,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-arbzg",
@@ -3002,7 +3138,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-arbzg-2",
@@ -3019,7 +3156,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-burlg",
@@ -3036,7 +3174,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-efzg",
@@ -3053,7 +3192,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-nachwg",
@@ -3070,7 +3210,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-agg",
@@ -3087,7 +3228,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-tzbfg",
@@ -3105,7 +3247,8 @@
       ],
       "mitarbeiter_min": 16
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-tzbfg-2",
@@ -3123,7 +3266,8 @@
       ],
       "mitarbeiter_min": 46
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-muschg",
@@ -3140,7 +3284,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-beeg",
@@ -3157,7 +3302,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-pflegezg",
@@ -3175,7 +3321,8 @@
       ],
       "mitarbeiter_min": 16
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-jarbschg",
@@ -3192,7 +3339,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-aueg",
@@ -3209,7 +3357,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-aentg",
@@ -3226,7 +3375,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-betravg",
@@ -3243,7 +3393,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-ix",
@@ -3261,7 +3412,8 @@
       ],
       "mitarbeiter_min": 20
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-ix-2",
@@ -3278,7 +3430,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-ix-3",
@@ -3295,7 +3448,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-hag",
@@ -3312,7 +3466,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-arbnerfg",
@@ -3329,7 +3484,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-zpo",
@@ -3346,7 +3502,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gewo",
@@ -3363,7 +3520,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-nachwg-2",
@@ -3380,7 +3538,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-beschv",
@@ -3397,7 +3556,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-zpo-2",
@@ -3414,7 +3574,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-betrvg",
@@ -3432,7 +3593,8 @@
       ],
       "mitarbeiter_min": 5
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-betrvg-2",
@@ -3450,7 +3612,8 @@
       ],
       "mitarbeiter_min": 200
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-betrvg-3",
@@ -3468,7 +3631,8 @@
       ],
       "mitarbeiter_min": 21
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ebrg",
@@ -3486,7 +3650,8 @@
       ],
       "mitarbeiter_min": 1000
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sebg",
@@ -3503,7 +3668,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-ix-4",
@@ -3521,7 +3687,8 @@
       ],
       "mitarbeiter_min": 5
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-arbschg",
@@ -3538,7 +3705,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-asig",
@@ -3555,7 +3723,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-vii",
@@ -3573,7 +3742,8 @@
       ],
       "mitarbeiter_min": 21
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-arbstaettv",
@@ -3590,7 +3760,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-betrsichv",
@@ -3607,7 +3778,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-biostoffv",
@@ -3624,7 +3796,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-laermvibrationsarbschv",
@@ -3641,7 +3814,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-psa-bv",
@@ -3658,7 +3832,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-baustellv",
@@ -3675,7 +3850,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-dguv",
@@ -3692,7 +3868,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-arbstaettv-2",
@@ -3709,7 +3886,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-arbmedvv",
@@ -3726,7 +3904,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-strlschg",
@@ -3743,7 +3922,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gefstoffv",
@@ -3760,7 +3940,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-muschg-2",
@@ -3777,7 +3958,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-iv",
@@ -3794,7 +3976,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ksvg",
@@ -3811,7 +3994,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-iv-2",
@@ -3828,7 +4012,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-iv-3",
@@ -3845,7 +4030,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-vii-2",
@@ -3862,7 +4048,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-iii",
@@ -3879,7 +4066,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-betravg-2",
@@ -3896,7 +4084,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-deuev",
@@ -3913,7 +4102,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-iv-4",
@@ -3930,7 +4120,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-brtv",
@@ -3947,7 +4138,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-iii-2",
@@ -3964,7 +4156,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-iv-5",
@@ -3981,7 +4174,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-hgb",
@@ -3998,7 +4192,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-hgb-2",
@@ -4015,7 +4210,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-hgb-3",
@@ -4033,7 +4229,8 @@
       ],
       "mitarbeiter_min": 51
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ustg",
@@ -4050,7 +4247,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ustg-2",
@@ -4067,7 +4265,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-estg",
@@ -4084,7 +4283,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ao",
@@ -4101,7 +4301,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gobd",
@@ -4118,7 +4319,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ao-2",
@@ -4135,7 +4337,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gewstg",
@@ -4152,7 +4355,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-kstg",
@@ -4169,7 +4373,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ao-3",
@@ -4186,7 +4391,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-minstg",
@@ -4203,7 +4409,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-hgb-4",
@@ -4220,7 +4427,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-psttg",
@@ -4237,7 +4445,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-uzk",
@@ -4254,7 +4463,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ustg-3",
@@ -4271,7 +4481,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ustg-4",
@@ -4288,7 +4499,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-estg-2",
@@ -4305,7 +4517,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo",
@@ -4322,7 +4535,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-publg",
@@ -4340,7 +4554,8 @@
       ],
       "mitarbeiter_min": 5001
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-erbstg",
@@ -4357,7 +4572,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-2",
@@ -4374,7 +4590,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bdsg",
@@ -4392,7 +4609,8 @@
       ],
       "mitarbeiter_min": 20
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-art-28",
@@ -4409,7 +4627,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-art-33-34",
@@ -4426,7 +4645,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-art-35",
@@ -4443,7 +4663,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ttdsg",
@@ -4460,7 +4681,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bdsg-2",
@@ -4477,7 +4699,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-art-44-49",
@@ -4494,7 +4717,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-nis",
@@ -4512,7 +4736,8 @@
       ],
       "mitarbeiter_min": 50
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-3",
@@ -4529,7 +4754,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-4",
@@ -4546,7 +4772,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-kritis-dachg",
@@ -4563,7 +4790,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bsig",
@@ -4580,7 +4808,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-5",
@@ -4597,7 +4826,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-urhg",
@@ -4614,7 +4844,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-urhg-2",
@@ -4631,7 +4862,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-6",
@@ -4648,7 +4880,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-7",
@@ -4665,7 +4898,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-tmg",
@@ -4682,7 +4916,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-netzdg",
@@ -4699,7 +4934,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-pangv",
@@ -4716,7 +4952,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bgb-2",
@@ -4733,7 +4970,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bgb-3",
@@ -4750,7 +4988,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-prodhaftg",
@@ -4767,7 +5006,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-8",
@@ -4784,7 +5024,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-uwg",
@@ -4801,7 +5042,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-rl",
@@ -4818,7 +5060,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-uwg-2",
@@ -4835,7 +5078,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-vsbg",
@@ -4852,7 +5096,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-9",
@@ -4869,7 +5114,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-rl-2",
@@ -4887,7 +5133,8 @@
       ],
       "mitarbeiter_min": 250
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-10",
@@ -4905,7 +5152,8 @@
       ],
       "mitarbeiter_min": 250
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-11",
@@ -4922,7 +5170,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-12",
@@ -4939,7 +5188,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-rl",
@@ -4956,7 +5206,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-behg",
@@ -4973,7 +5224,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-13",
@@ -4990,7 +5242,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-edl-g",
@@ -5008,7 +5261,8 @@
       ],
       "mitarbeiter_min": 251
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-krwg",
@@ -5025,7 +5279,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-elektrog",
@@ -5042,7 +5297,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-battg",
@@ -5059,7 +5315,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-14",
@@ -5076,7 +5333,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-15",
@@ -5093,7 +5351,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gefstoffv-2",
@@ -5110,7 +5369,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-16",
@@ -5127,7 +5387,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-whg",
@@ -5144,7 +5405,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bimschg",
@@ -5161,7 +5423,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-geg",
@@ -5178,7 +5441,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bbodschg",
@@ -5195,7 +5459,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-nachwv",
@@ -5212,7 +5477,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-17",
@@ -5229,7 +5495,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sprengg",
@@ -5246,7 +5513,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-pflschg",
@@ -5263,7 +5531,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bimschg-2",
@@ -5280,7 +5549,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-altfahrzeugv",
@@ -5297,7 +5567,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eeg",
@@ -5314,7 +5585,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-kwkg",
@@ -5331,7 +5603,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-mastrv",
@@ -5348,7 +5621,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-msbg",
@@ -5365,7 +5639,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-envkv",
@@ -5382,7 +5657,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-kav",
@@ -5399,7 +5675,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-enwg",
@@ -5416,7 +5693,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-avbfernwaermev",
@@ -5433,7 +5711,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-kwg",
@@ -5450,7 +5729,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-wphg",
@@ -5467,7 +5747,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-vag",
@@ -5484,7 +5765,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-zag",
@@ -5501,7 +5783,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-18",
@@ -5518,7 +5801,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-19",
@@ -5535,7 +5819,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gwg-2",
@@ -5552,7 +5837,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-20",
@@ -5569,7 +5855,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-mar",
@@ -5586,7 +5873,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-wphg-2",
@@ -5603,7 +5891,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-21",
@@ -5620,7 +5909,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-kagb",
@@ -5637,7 +5927,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-22",
@@ -5654,7 +5945,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bgb-4",
@@ -5671,7 +5963,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-zag-2",
@@ -5688,7 +5981,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-boershg",
@@ -5705,7 +5999,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-23",
@@ -5722,7 +6017,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-stgb",
@@ -5739,7 +6035,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-awg",
@@ -5756,7 +6053,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-dual-use-vo",
@@ -5773,7 +6071,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-krwaffkontrg",
@@ -5790,7 +6089,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gwb",
@@ -5807,7 +6107,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-stgb-2",
@@ -5824,7 +6125,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-vob-b",
@@ -5841,7 +6143,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gewo-2",
@@ -5858,7 +6161,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gewo-3",
@@ -5875,7 +6179,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gewo-4",
@@ -5892,7 +6197,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gewo-5",
@@ -5909,7 +6215,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gewo-6",
@@ -5926,7 +6233,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-hwo",
@@ -5943,7 +6251,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-hwo-2",
@@ -5960,7 +6269,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ihkg",
@@ -5977,7 +6287,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gwb-2",
@@ -5994,7 +6305,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gwb-3",
@@ -6011,7 +6323,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-inso",
@@ -6028,7 +6341,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gmbhg",
@@ -6045,7 +6359,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gmbhg-2",
@@ -6062,7 +6377,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-aktg",
@@ -6079,7 +6395,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-dcgk",
@@ -6096,7 +6413,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-aktg-2",
@@ -6113,7 +6431,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-markeng",
@@ -6130,7 +6449,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-patg",
@@ -6147,7 +6467,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-designg",
@@ -6164,7 +6485,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-stberg",
@@ -6181,7 +6503,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-pflvg",
@@ -6198,7 +6521,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-tkg",
@@ -6215,7 +6539,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-amg",
@@ -6232,7 +6557,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-24",
@@ -6249,7 +6575,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ifsg",
@@ -6266,7 +6593,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-apog",
@@ -6283,7 +6611,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-baeo",
@@ -6300,7 +6629,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-v",
@@ -6317,7 +6647,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-xi",
@@ -6334,7 +6665,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-heimgesetze",
@@ -6351,7 +6683,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-rilibaek",
@@ -6368,7 +6701,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-vo",
@@ -6385,7 +6719,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bkrfqg",
@@ -6402,7 +6737,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ggvseb",
@@ -6419,7 +6755,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-guekg",
@@ -6436,7 +6773,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-pbefg",
@@ -6453,7 +6791,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bfstrmg",
@@ -6470,7 +6809,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-luftvg",
@@ -6487,7 +6827,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-binschg",
@@ -6504,7 +6845,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-aeg",
@@ -6521,7 +6863,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-vo-2",
@@ -6538,7 +6881,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-25",
@@ -6555,7 +6899,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-lfgb",
@@ -6572,7 +6917,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-26",
@@ -6589,7 +6935,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-vo-3",
@@ -6606,7 +6953,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-27",
@@ -6623,7 +6971,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-tabakerzg",
@@ -6640,7 +6989,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-baugb",
@@ -6657,7 +7007,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-weg",
@@ -6674,7 +7025,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-mabv",
@@ -6691,7 +7043,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-schwarzarbg",
@@ -6708,7 +7061,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gefstoffv-3",
@@ -6725,7 +7079,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-aentg-2",
@@ -6742,7 +7097,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-28",
@@ -6759,7 +7115,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-tierschg",
@@ -6776,7 +7133,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-tiergesg",
@@ -6793,7 +7151,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bwaldg",
@@ -6810,7 +7169,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-duengeg",
@@ -6827,7 +7187,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-29",
@@ -6844,7 +7205,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gastg",
@@ -6861,7 +7223,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ustg-5",
@@ -6878,7 +7241,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-aentg-3",
@@ -6895,7 +7259,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gewo-7",
@@ -6912,7 +7277,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-juschg",
@@ -6929,7 +7295,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-30",
@@ -6946,7 +7313,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-1",
@@ -6963,7 +7331,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-emvg",
@@ -6980,7 +7349,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-fuag",
@@ -6997,7 +7367,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-14",
@@ -7014,7 +7385,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-rl-3",
@@ -7031,7 +7403,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-spielzv",
@@ -7048,7 +7421,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eu-vo-31",
@@ -7065,7 +7439,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-brao",
@@ -7082,7 +7457,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bnoto",
@@ -7099,7 +7475,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-wpo",
@@ -7116,7 +7493,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-stberg-2",
@@ -7133,7 +7511,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-archg",
@@ -7150,7 +7529,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-apoapprobo",
@@ -7167,7 +7547,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gewo-8",
@@ -7184,7 +7565,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-iso",
@@ -7201,7 +7583,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gluestv",
@@ -7218,7 +7601,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-mstv",
@@ -7235,7 +7619,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-lpg",
@@ -7252,7 +7637,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-bitv",
@@ -7269,7 +7655,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-art-107",
@@ -7286,7 +7673,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-uvgo",
@@ -7303,7 +7691,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-tvgg",
@@ -7320,7 +7709,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-vermanlg",
@@ -7337,7 +7727,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ksg",
@@ -7354,7 +7745,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-vaws",
@@ -7371,7 +7763,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-depv",
@@ -7388,7 +7781,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ta",
@@ -7405,7 +7799,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-abwv",
@@ -7422,7 +7817,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-abfklaerv",
@@ -7439,7 +7835,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-altoelv",
@@ -7456,7 +7853,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-astg",
@@ -7473,7 +7871,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-estg-3",
@@ -7490,7 +7889,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-estg-4",
@@ -7507,7 +7907,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-estg-5",
@@ -7524,7 +7925,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-estg-6",
@@ -7541,7 +7943,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-estg-7",
@@ -7558,7 +7961,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-fzulg",
@@ -7575,7 +7979,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-montan-mitbestg",
@@ -7593,7 +7998,8 @@
       ],
       "mitarbeiter_min": 1001
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ulak-tv",
@@ -7610,7 +8016,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ulak-gre",
@@ -7627,7 +8034,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-v-2",
@@ -7644,7 +8052,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-geng",
@@ -7661,7 +8070,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-stiftg",
@@ -7678,7 +8088,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-estg-8",
@@ -7695,7 +8106,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-dfb-spielervermittlero",
@@ -7712,7 +8124,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gluestv-2",
@@ -7729,7 +8142,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-grestg",
@@ -7746,7 +8160,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-energiestg",
@@ -7763,7 +8178,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-art-9",
@@ -7780,7 +8196,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-chemverbotsv",
@@ -7797,7 +8214,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gluestv-3",
@@ -7814,7 +8232,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-dfb-spielervermittlero-2",
@@ -7831,7 +8250,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sag",
@@ -7849,7 +8269,8 @@
       ],
       "mitarbeiter_min": 30
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-wohnimmokrrl",
@@ -7866,7 +8287,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-kfzstg",
@@ -7883,7 +8305,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ustg-6",
@@ -7900,7 +8323,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ao-4",
@@ -7917,7 +8341,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-postg",
@@ -7934,7 +8359,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-tkg-2",
@@ -7951,7 +8377,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-div",
@@ -7968,7 +8395,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-tkg-3",
@@ -7985,7 +8413,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-emir",
@@ -8002,7 +8431,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-ao-5",
@@ -8019,7 +8449,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-v-3",
@@ -8036,7 +8467,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-eeg-2",
@@ -8053,7 +8485,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-utp-rl",
@@ -8070,7 +8503,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb",
@@ -8087,7 +8521,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-2",
@@ -8104,7 +8539,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-iii-3",
@@ -8121,7 +8557,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-sgb-iii-4",
@@ -8138,7 +8575,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-aktg-3",
@@ -8155,7 +8593,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-gmbhg-3",
@@ -8172,7 +8611,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-wphg-3",
@@ -8189,7 +8629,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-tvg",
@@ -8206,7 +8647,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-estg-9",
@@ -8223,7 +8665,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-esrs",
@@ -8241,7 +8684,8 @@
       ],
       "mitarbeiter_min": 250
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "reg-reach",
@@ -8258,7 +8702,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   },
   {
     "id": "grundbuch-eintragungspflicht",
@@ -8276,7 +8721,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "geschaeftsfuehrervertrag-dokumentation",
@@ -8293,7 +8739,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "gewerbliche-schutzrechte-ip",
@@ -8311,7 +8758,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "grunderwerbsteuer-anzeige",
@@ -8329,7 +8777,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "gesellschafterliste-handelsregister",
@@ -8345,7 +8794,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "handelsregister-anmeldepflicht",
@@ -8365,7 +8815,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "handwerkskarte-zulassung",
@@ -8383,7 +8834,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "haftpflicht-unternehmen-pflicht",
@@ -8401,7 +8853,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "haccp-schulung-personal",
@@ -8422,7 +8875,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "heimgewerbetreibende-sozialversicherung",
@@ -8439,7 +8893,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "iso-9001-qualitaetsmanagement",
@@ -8456,7 +8911,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "investmentgesetz-kapitalanlage",
@@ -8473,7 +8929,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "insolvenzrechtliche-anfechtung",
@@ -8491,7 +8948,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "jahresabschluss-fristen-einreichung",
@@ -8509,7 +8967,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "kfz-steuer-unternehmen",
@@ -8527,7 +8986,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "krankenversicherung-selbststaendige",
@@ -8543,7 +9003,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "konzerndatenschutz-konzernprivileg",
@@ -8560,7 +9021,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "kuendigungsschutz-schwangerschaft",
@@ -8579,7 +9041,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "kurzarbeitergeld-anzeige-planung",
@@ -8598,7 +9061,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "kommanditgesellschaft-haftsumme",
@@ -8614,7 +9078,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "leiharbeit-equal-pay",
@@ -8632,7 +9097,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "lohnsteuer-elektronische-lohnsteuerbescheinigung",
@@ -8651,7 +9117,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "ladeneinrichtung-barrierefreiheit",
@@ -8669,7 +9136,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "lizenzgebuhren-verrechnungspreise",
@@ -8686,7 +9154,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "meldepflicht-auslaendische-mitarbeiter",
@@ -8704,7 +9173,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "mietvertrag-gewerbe-schriftform",
@@ -8722,7 +9192,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "mobiles-arbeiten-regelung",
@@ -8740,7 +9211,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "nachweisgesetz-vertragsinhalte",
@@ -8759,7 +9231,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "nicht-diskriminierung-stellenausschreibung",
@@ -8778,7 +9251,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "nutzungsbedingungen-agb-online",
@@ -8796,7 +9270,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "online-handel-fernabsatzrecht",
@@ -8814,7 +9289,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "online-shop-pflichtangaben",
@@ -8832,7 +9308,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "offene-handelsgesellschaft-haftung",
@@ -8847,7 +9324,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "oeffentliche-auftraege-eignung",
@@ -8865,7 +9343,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "outsourcing-auslagerung-banken",
@@ -8881,7 +9360,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "oekologischer-landbau-zertifizierung",
@@ -8899,7 +9379,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "ortszuschlag-kommunale-auftraggeber",
@@ -8918,7 +9399,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "photovoltaik-eeg-pflichten",
@@ -8936,7 +9418,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "pflegezeit-freistellung-gesetz",
@@ -8954,7 +9437,8 @@
       "mitarbeiter_min": 15
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "preisbindung-buchpreisbindung",
@@ -8974,7 +9458,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "provision-handelsvertreter",
@@ -8992,7 +9477,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "qualitaetssicherung-medizin-labor",
@@ -9012,7 +9498,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "quellensteuer-dividenden-inland",
@@ -9030,7 +9517,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "qualitaetszertifizierung-iso-14001",
@@ -9048,7 +9536,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "rentenversicherungspflicht-selbststaendige",
@@ -9064,7 +9553,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "rundfunkbeitrag-unternehmen",
@@ -9083,7 +9573,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "regressansprueche-arbeitgeber",
@@ -9101,7 +9592,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "rechnungslegung-umsatzsteuer-pflicht",
@@ -9120,7 +9612,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "rohstoffkennzeichnung-herkunft",
@@ -9137,7 +9630,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "schriftform-arbeitsvertrag-teilzeit",
@@ -9155,7 +9649,8 @@
       "mitarbeiter_min": 15
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "steuerabzug-aufsichtsrat",
@@ -9171,7 +9666,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "subfirmen-generalunternehmer-haftung",
@@ -9189,7 +9685,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "sozialversicherung-minijob-kuendigung",
@@ -9208,7 +9705,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "sachbezugswerte-lohnsteuer",
@@ -9227,7 +9725,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "sicherheitsleistung-bauvertrag",
@@ -9247,7 +9746,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "stromsteuererstattung-produzierendes-gewerbe",
@@ -9268,7 +9768,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "tierarzneimittel-tierhalter-pflicht",
@@ -9288,7 +9789,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "tarifvertrag-nachwirkung",
@@ -9307,7 +9809,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "technische-ueberwachung-tuev",
@@ -9325,7 +9828,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "telefonwerbung-uwg",
@@ -9343,7 +9847,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "umsatzsteuer-istversteuerung",
@@ -9362,7 +9867,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "umweltschutz-emissionserklaerung",
@@ -9383,7 +9889,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "unternehmensregister-offenlegung",
@@ -9401,7 +9908,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "urheberrecht-nutzungsrechte",
@@ -9419,7 +9927,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "umsatzsteuer-auslandsgeschaefte",
@@ -9437,7 +9946,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "unterhaltsvorschuss-arbeitgeber",
@@ -9456,7 +9966,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "vertragsstrafe-verzug-baurecht",
@@ -9474,7 +9985,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "versicherungspflicht-kuenstler-ksk",
@@ -9492,7 +10004,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "verpflegungsmehraufwand-reisekostenpauschalen",
@@ -9511,7 +10024,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "verlustabzug-koerperschaftsteuer",
@@ -9529,7 +10043,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "wettbewerbsrecht-abmahnung",
@@ -9547,7 +10062,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "weiterbildungspflicht-freie-berufe",
@@ -9568,7 +10084,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "werkzeugmaschinen-ce-kennzeichnung",
@@ -9590,7 +10107,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "werberecht-heilmittelrecht-hwg",
@@ -9611,7 +10129,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "whistleblower-interner-meldekanal",
@@ -9629,7 +10148,8 @@
       "mitarbeiter_min": 50
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "zinsschranke-fremdkapital",
@@ -9646,7 +10166,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "zollrechtliche-anmeldepflicht",
@@ -9664,7 +10185,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "zwangsvollstreckung-duldungspflicht",
@@ -9682,7 +10204,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "zusammenfassende-meldung-ust",
@@ -9700,7 +10223,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "zugewinnausgleich-unternehmensbewertung",
@@ -9717,7 +10241,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "bahn-fahrgastrechte-meldepflicht",
@@ -9736,7 +10261,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "apothekenbot-botendienst-dokumentation",
@@ -9755,7 +10281,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "augenoptiker-meisterpflicht",
@@ -9775,7 +10302,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "bestatter-bestattungsgesetz",
@@ -9792,7 +10320,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "pflegeheim-personalschluessel-heimrecht",
@@ -9812,7 +10341,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "taxiunternehmen-konzession-p-schein",
@@ -9832,7 +10362,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "immobilienmakler-provisionsrecht-reform",
@@ -9853,7 +10384,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "kreditinstitut-einlagensicherung",
@@ -9872,7 +10404,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "sportwetten-glueckspiel-konzession",
@@ -9888,7 +10421,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "architektenhonorar-hoai",
@@ -9909,7 +10443,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "reiseveranstalter-insolvenz-sicherung",
@@ -9930,7 +10465,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "datenschutz-profiling-verbot",
@@ -9947,7 +10483,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "dsgvo-bussgelder-meldepflicht",
@@ -9965,7 +10502,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "it-sicherheitskonzept-isms",
@@ -9982,7 +10520,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "videokonferenz-datenschutz-tools",
@@ -10000,7 +10539,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "penetrationstest-it-sicherheit",
@@ -10017,7 +10557,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "geldwaesche-immobilien-pflichten",
@@ -10037,7 +10578,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "biostoff-gefaehrdungsbeurteilung",
@@ -10059,7 +10601,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "elektroschrott-ear-registrierung",
@@ -10077,7 +10620,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "lieferkette-menschenrechte-bericht",
@@ -10095,7 +10639,8 @@
       "mitarbeiter_min": 1000
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "abnahme-werkvertrag-mängel",
@@ -10116,7 +10661,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "gebrauchsmuster-schutzrecht",
@@ -10134,7 +10680,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "zahlungsverzug-geschaeftsverkehr",
@@ -10152,7 +10699,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "sozialversicherungsausweis-arbeitgeber",
@@ -10171,7 +10719,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "gleichstellung-frauenfoerderplan",
@@ -10188,7 +10737,8 @@
       "mitarbeiter_min": 200
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "lagerung-gefahrstoffe-vorschriften",
@@ -10211,7 +10761,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "personalakte-datenschutz-einsicht",
@@ -10230,7 +10781,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "kaelteanlagen-f-gase-prüfung",
@@ -10248,7 +10800,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "fluchtwege-brandschutzkonzept",
@@ -10266,7 +10819,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "ausbildungsvertrag-mindestverguetung",
@@ -10285,7 +10839,8 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "produktrueckruf-meldepflicht-gpsr",
@@ -10303,7 +10858,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "geldbusse-kartellrecht-selbstanzeige",
@@ -10320,7 +10876,8 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
   },
   {
     "id": "verbraucherstreitbeilegung-hinweis",
@@ -10338,6 +10895,64 @@
       ]
     },
     "hat_dokument_generator": false,
-    "dokument_typ": null
+    "dokument_typ": null,
+    "stand": "2025-06"
+  },
+  {
+    "id": "kassensicherungsverordnung",
+    "title": "Kassensicherungsverordnung – Technische Sicherheitseinrichtung (TSE)",
+    "category": "Steuer",
+    "beschreibung": "Elektronische Kassensysteme müssen mit einer zertifizierten technischen Sicherheitseinrichtung (TSE) ausgestattet und beim Finanzamt gemeldet sein.",
+    "rechtsgrundlage": "§146a AO, KassenSichV",
+    "quelle_url": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/2020-02-18-steuergerechtigkeit-belegpflicht.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "Gastronomie & Cafés",
+        "Hotellerie & Beherbergung",
+        "Einzelhandel",
+        "Großhandel"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null,
+    "stand": "2025-06"
+  },
+  {
+    "id": "transparenzregister-gwg",
+    "title": "Transparenzregister – wirtschaftlich Berechtigte eintragen",
+    "category": "Recht",
+    "beschreibung": "Juristische Personen und eingetragene Personengesellschaften müssen ihre wirtschaftlich Berechtigten im Transparenzregister eintragen (§20 GwG). Verstöße werden mit Bußgeldern belegt.",
+    "rechtsgrundlage": "§20 GwG, Geldwäschegesetz",
+    "quelle_url": "https://www.transparenzregister.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "AG",
+        "GmbH & Co. KG",
+        "OHG",
+        "KG",
+        "gGmbH (gemeinnützig)",
+        "e.V. (Verein)",
+        "eG (Genossenschaft)"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "dokument_typ": null,
+    "stand": "2025-06"
   }
 ]

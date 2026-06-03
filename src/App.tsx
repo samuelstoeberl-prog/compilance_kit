@@ -1,12 +1,14 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { useAuth } from '@clerk/clerk-react'
 import { useProfil } from './context/ProfilContext'
+import { ErrorBoundary } from './components/ErrorBoundary'
 import Onboarding from './pages/Onboarding'
 import PreviewPage from './pages/PreviewPage'
 import Dashboard from './pages/Dashboard'
 import LoginPage from './pages/LoginPage'
 import Impressum from './pages/Impressum'
 import Datenschutz from './pages/Datenschutz'
+import StatistikPage from './pages/StatistikPage'
 
 function AuthLoadingSkeleton() {
   return (
@@ -35,6 +37,7 @@ export default function App() {
   if (!isLoaded || isLoadingProfil) return <AuthLoadingSkeleton />
 
   return (
+    <ErrorBoundary>
     <Routes>
       {/* Root: eingeloggt → Dashboard, sonst → Onboarding */}
       <Route
@@ -82,6 +85,8 @@ export default function App() {
       {/* Öffentliche Seiten */}
       <Route path="/impressum"   element={<Impressum />} />
       <Route path="/datenschutz" element={<Datenschutz />} />
+      <Route path="/statistik"   element={<StatistikPage />} />
     </Routes>
+    </ErrorBoundary>
   )
 }

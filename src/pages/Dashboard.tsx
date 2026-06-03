@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect, useCallback } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { useProfil } from '../context/ProfilContext'
+import DisclaimerBanner from '../components/DisclaimerBanner'
 import { filterRegulations, sortedFundings } from '../utils/filter'
 import { fetchFundings, fetchRegulations, type ApiFunding, type ApiRegulation } from '../api/client'
 import ApplicationWizard from '../components/ApplicationWizard'
@@ -193,6 +194,8 @@ export default function Dashboard() {
           </button>
         </div>
       </header>
+
+      <DisclaimerBanner />
 
       {/* Lade-Indikator */}
       {loading && (
@@ -476,6 +479,8 @@ export default function Dashboard() {
             <Link to="/impressum" className="hover:text-ink transition-colors">Impressum</Link>
             <span className="text-sand-border">|</span>
             <Link to="/datenschutz" className="hover:text-ink transition-colors">Datenschutz</Link>
+            <span className="text-sand-border">|</span>
+            <Link to="/statistik" className="hover:text-ink transition-colors">Statistik</Link>
           </div>
         </div>
       </footer>

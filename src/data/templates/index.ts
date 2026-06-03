@@ -1,0 +1,5 @@
+export { datenschutzerklaerungTemplate } from './datenschutzerklaerung'
+export { impressumTemplate } from './impressum'
+export { arbeitszeitnachweisTemplate } from './arbeitszeitnachweis'
+export { arbeitsschutzunterweisungTemplate } from './arbeitsschutzunterweisung'
+export { kassenbuchTemplate } from './kassenbuch'
