@@ -17252,5 +17252,6453 @@
         "1–9"
       ]
     }
+  },
+  {
+    "id": "eu-horizon-europe-sme",
+    "title": "Horizon Europe – KMU Förderung (European Innovation Council)",
+    "beschreibung": "Finanzierung für Forschungs- und Innovationsprojekte; EIC Accelerator bietet bis zu 2,5 Mio. € Zuschuss + 15 Mio. € Eigenkapital für Start-ups.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission – EIC",
+    "antrag_url": "https://eic.ec.europa.eu/eic-funding/eic-accelerator_de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Software / IT",
+        "IT-Dienstleistungen & Software",
+        "KI & Hochtechnologie"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    },
+    "max_betrag": 500000
+  },
+  {
+    "id": "eu-efre-kmu-invest",
+    "title": "EFRE – Europäischer Fonds für regionale Entwicklung für KMU",
+    "beschreibung": "Zuschüsse für Investitionen in Innovation, Digitalisierung und Nachhaltigkeit; Abwicklung über Landesbanken der jeweiligen Bundesländer.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission / Landesbanken",
+    "antrag_url": "https://ec.europa.eu/regional_policy/funding/erdf_de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 200000
+  },
+  {
+    "id": "eu-esf-weiterbildung",
+    "title": "ESF+ – Europäischer Sozialfonds für Qualifizierung",
+    "beschreibung": "Förderung von Weiterbildungen, Qualifizierungsmaßnahmen und Integration benachteiligter Gruppen in den Arbeitsmarkt.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission / BMAS",
+    "antrag_url": "https://www.esf.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    },
+    "max_betrag": 50000
+  },
+  {
+    "id": "eu-life-programm",
+    "title": "LIFE-Programm – Umwelt und Klimaschutzprojekte",
+    "beschreibung": "EU-Förderprogramm für Umwelt-, Natur- und Klimaschutzprojekte; Zuschüsse bis zu 60% der förderfähigen Kosten.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission – CINEA",
+    "antrag_url": "https://cinea.ec.europa.eu/programmes/life_de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Produktion / Fertigung"
+      ]
+    },
+    "max_betrag": 500000
+  },
+  {
+    "id": "eu-interreg",
+    "title": "Interreg – Grenzüberschreitende Zusammenarbeit",
+    "beschreibung": "Förderung grenzüberschreitender Projekte zwischen deutschen und europäischen Partnern in den Bereichen Innovation, Umwelt und Beschäftigung.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission",
+    "antrag_url": "https://interreg.eu/de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 100000
+  },
+  {
+    "id": "eu-invest-eu",
+    "title": "InvestEU – Bürgschaften für Investitionen",
+    "beschreibung": "InvestEU stellt Garantien für Investitionen in Infrastruktur, Forschung und KMU; Abwicklung über nationale Förderbanken (KfW, L-Bank etc.).",
+    "typ": "Bürgschaft",
+    "quelle": "EU",
+    "foerderer": "Europäische Investitionsbank (EIB)",
+    "antrag_url": "https://www.eib.org/de/products/blending/investeu/index.htm",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 5000000
+  },
+  {
+    "id": "eu-cosme-garantie",
+    "title": "COSME – Darlehensgarantie für KMU",
+    "beschreibung": "EU-Darlehensbürgschaft erleichtert KMU den Zugang zu Bankfinanzierungen; Umsetzung über nationale Banken.",
+    "typ": "Bürgschaft",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission / EIF",
+    "antrag_url": "https://single-market-economy.ec.europa.eu/access-to-finance/cosme_de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 1500000
+  },
+  {
+    "id": "eu-digitales-europa",
+    "title": "Digitales Europa Programm – Supercomputing und KI",
+    "beschreibung": "Förderung von Projekten in Hochleistungsrechnen, KI, Cybersicherheit und digitale Kompetenz; Ausschreibungsbasiert.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission – DIGITAL",
+    "antrag_url": "https://digital-strategy.ec.europa.eu/de/activities/digital-programme",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Software / IT",
+        "KI & Hochtechnologie"
+      ]
+    }
+  },
+  {
+    "id": "eu-creative-europe",
+    "title": "Creative Europe – Medien und Kulturförderung",
+    "beschreibung": "Unterstützung für kulturelle und kreative Branchen, Koproduktionen, Festivalteilnahmen und Filmvertrieb.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission – EACEA",
+    "antrag_url": "https://culture.ec.europa.eu/de/creative-europe",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Kreativwirtschaft"
+      ]
+    },
+    "max_betrag": 200000
+  },
+  {
+    "id": "eu-green-deal-innovation",
+    "title": "EU Green Deal – Innovationsfonds Klimaprojekte",
+    "beschreibung": "Finanzierung für bahnbrechende klimafreundliche Technologieprojekte aus den Einnahmen des EU-ETS.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission",
+    "antrag_url": "https://ec.europa.eu/clima/eu-action/eu-emissions-trading-system-eu-ets/innovation-fund_de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Produktion / Fertigung"
+      ]
+    },
+    "max_betrag": 5000000
+  },
+  {
+    "id": "eu-erasmus-unternehmen",
+    "title": "Erasmus für junge Unternehmer – Austauschprogramm",
+    "beschreibung": "Neue Unternehmensgründer können bis zu 6 Monate bei erfahrenen Unternehmern in einem anderen EU-Land lernen und Zuschüsse für Lebenshaltungskosten erhalten.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission",
+    "antrag_url": "https://www.erasmus-entrepreneurs.eu/de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {},
+    "max_betrag": 6000
+  },
+  {
+    "id": "eu-single-market-programme",
+    "title": "Single Market Programme – Unternehmernetzwerke",
+    "beschreibung": "Förderung der Wettbewerbsfähigkeit europäischer KMU über Enterprise Europe Network und Unternehmenstransaktionen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission",
+    "antrag_url": "https://single-market-economy.ec.europa.eu/smes/sme-strategy/single-market-programme_de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 50000
+  },
+  {
+    "id": "eu-eit-food",
+    "title": "EIT Food – Agrar- und Lebensmittelinnovation",
+    "beschreibung": "European Institute of Innovation & Technology fördert Innovationsprojekte im Lebensmittelbereich; Accelerator-Programm für Start-ups.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "EIT Food",
+    "antrag_url": "https://www.eitfood.eu/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Lebensmittelhandel"
+      ]
+    },
+    "max_betrag": 100000
+  },
+  {
+    "id": "eu-eit-manufacturing",
+    "title": "EIT Manufacturing – Produktionsinnovation",
+    "beschreibung": "Förderung von Industrie-4.0-Projekten, additiver Fertigung und nachhaltiger Produktion durch EIT Manufacturing.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "EIT Manufacturing",
+    "antrag_url": "https://www.eitmanufacturing.eu/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Produktion / Fertigung"
+      ]
+    },
+    "max_betrag": 200000
+  },
+  {
+    "id": "eu-eit-health",
+    "title": "EIT Health – Gesundheitsinnovation",
+    "beschreibung": "EIT Health fördert Start-ups und Scale-ups im Gesundheitsbereich; Inkubator, Accelerator und Bootcamp-Programme.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "EIT Health",
+    "antrag_url": "https://eithealth.eu/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Gesundheit / Pflege",
+        "Gesundheitswesen & Soziales"
+      ]
+    },
+    "max_betrag": 150000
+  },
+  {
+    "id": "eu-solvit",
+    "title": "SOLVIT – Kostenlose EU-Problemlösung grenzüberschreitend",
+    "beschreibung": "Kostenlose Beratung bei grenzüberschreitenden Problemen mit EU-Behörden; kein direktes Förderprogramm, aber wertvolle Unterstützung.",
+    "typ": "Beratungszuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission",
+    "antrag_url": "https://ec.europa.eu/solvit/index_de.htm",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 0
+  },
+  {
+    "id": "eu-patent-sme",
+    "title": "Europäisches Patentamt – KMU-Gebührenreduktion",
+    "beschreibung": "KMU und Start-ups erhalten 30% Reduktion auf EPA-Anmeldegebühren; nationale Patentämter bieten zusätzliche Vergünstigungen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäisches Patentamt (EPA)",
+    "antrag_url": "https://www.epo.org/applying/fees/fee-reductions_de.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 10000
+  },
+  {
+    "id": "eu-cbam-zertifikate-info",
+    "title": "CBAM – Unterstützung für importierende KMU",
+    "beschreibung": "Unterstützungsmaßnahmen für KMU, die CBAM-pflichtige Waren importieren; Beratung und vereinfachte Verfahren geplant.",
+    "typ": "Beratungszuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission",
+    "antrag_url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 5000
+  },
+  {
+    "id": "eu-sme-fund",
+    "title": "EU SME Fund – IP-Schutz für KMU",
+    "beschreibung": "Zuschüsse für KMU zur Anmeldung von Marken, Designs und Patenten beim EUIPO und EPA; bis zu 1.000–1.500 € je nach IP-Recht.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäisches Amt für geistiges Eigentum (EUIPO)",
+    "antrag_url": "https://euipo.europa.eu/de/beneficiaries/sme-fund",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 1500
+  },
+  {
+    "id": "eu-green-public-procurement",
+    "title": "Grünes Beschaffungswesen – GPP Förderberatung",
+    "beschreibung": "Beratungsförderung für Unternehmen, die an öffentlichen Ausschreibungen mit Nachhaltigkeitskriterien teilnehmen wollen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission",
+    "antrag_url": "https://ec.europa.eu/environment/gpp/index_de.htm",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 5000
+  },
+  {
+    "id": "bafa-energie-effizienz-netzwerke",
+    "title": "BAFA – Energieeffizienznetzwerke für KMU",
+    "beschreibung": "Förderprogramm für Unternehmensverbünde (8–15 Betriebe), die gemeinsam Energieeffizienzmaßnahmen umsetzen; Zuschuss auf externe Moderation.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)",
+    "antrag_url": "https://www.bafa.de/DE/Energie/Energieeffizienz/Energieeffizienz_Netzwerke/energieeffizienz_netzwerke_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 20000
+  },
+  {
+    "id": "bafa-bundesfoerderung-ee-gebaeude",
+    "title": "BEG – Bundesförderung Effiziente Gebäude Nichtwohngebäude",
+    "beschreibung": "Investitionszuschüsse für energetische Sanierungen von Nicht-Wohngebäuden (Büros, Produktionsstätten); bis zu 35% Förderquote.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "KfW / BAFA",
+    "antrag_url": "https://www.bafa.de/DE/Energie/Energieeffizienz/Bundesfoerderung_Effiziente_Gebaeude/Nichtwohngebaeude/nichtwohngebaeude_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 5000000
+  },
+  {
+    "id": "bmwk-zentrales-innovationsprogramm-mittelstand",
+    "title": "ZIM – Zentrales Innovationsprogramm Mittelstand",
+    "beschreibung": "Förderung von FuE-Projekten für KMU und mittelständische Unternehmen; Einzelprojekte bis 525.000 €, Kooperationsprojekte bis 1,9 Mio. €.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Wirtschaft und Klimaschutz (BMWK)",
+    "antrag_url": "https://www.zim.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "IT-Dienstleistungen & Software",
+        "Software / IT"
+      ]
+    },
+    "max_betrag": 525000
+  },
+  {
+    "id": "bmbf-innovationswettbewerbe",
+    "title": "BMBF – Innovationswettbewerbe Spitzenforschung",
+    "beschreibung": "Förderung von Hochrisiko-FuE-Projekten in Spitzentechnologien (Quantencomputing, Batterie, KI) durch BMBF-Ausschreibungen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Bildung und Forschung (BMBF)",
+    "antrag_url": "https://www.bmbf.de/bmbf/de/forschung/technologische-souveraenitaet/innovationswettbewerbe/innovationswettbewerbe.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "KI & Hochtechnologie",
+        "IT-Dienstleistungen & Software"
+      ]
+    },
+    "max_betrag": 3000000
+  },
+  {
+    "id": "bmdv-digitale-infrastruktur",
+    "title": "BMDV – Gigabit-Förderung Breitband",
+    "beschreibung": "Förderung von Gigabit-Netzausbau in unterversorgten Gebieten; auch für Unternehmen als Mieter relevant.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Digitales und Verkehr (BMDV)",
+    "antrag_url": "https://www.gigabitbuero.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Transport & Logistik"
+      ]
+    }
+  },
+  {
+    "id": "kfw-erneuerbare-energien-premium",
+    "title": "KfW – Erneuerbare Energien Premium (Windkraft/Biomasse)",
+    "beschreibung": "Finanzierung großer Anlagen zur Erzeugung erneuerbarer Energien (Windkraft, Biomasse, Geothermie) mit bis zu 150 Mio. € pro Vorhaben.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/Foerderprodukte/Erneuerbare-Energien-Premium-(271-272-273-274-281-282)/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Produktion / Fertigung"
+      ]
+    },
+    "max_betrag": 150000000,
+    "zins": "ab 1,5 %"
+  },
+  {
+    "id": "kfw-wohngebaeude-kredit",
+    "title": "KfW – Bundesförderung Wohngebäude Kredit BEG WG",
+    "beschreibung": "Zinsgünstige Darlehen für energetische Sanierungen und Neubauten von Wohngebäuden; gilt auch für Vermieter.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsgebaeude/Foerderprodukte/Bundesfoerderung-fuer-effiziente-Gebaeude-Kredit-(261)/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Immobilienwesen"
+      ]
+    },
+    "max_betrag": 150000,
+    "zins": "ab 0,85 %"
+  },
+  {
+    "id": "kfw-einzelmassnahmen-beg",
+    "title": "KfW – BEG Einzelmaßnahmen Heizungsaustausch",
+    "beschreibung": "Tilgungszuschüsse oder Kredit für Einzelmaßnahmen: Wärmedämmung, Fenster, Heizungsanlage mit erneuerbaren Energien.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsgebaeude/Foerderprodukte/Bundesfoerderung-fuer-effiziente-Gebaeude-Einzelmassnahmen-(358-359)/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 30000,
+    "zins": "zinsgünstig"
+  },
+  {
+    "id": "bafa-foerderung-umweltmanagementsystem",
+    "title": "BAFA – Umweltmanagementsystem EMAS und ISO 14001",
+    "beschreibung": "Zuschuss für KMU zur Einführung zertifizierter Umweltmanagementsysteme (EMAS, ISO 14001); bis zu 80% der Beratungskosten.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA",
+    "antrag_url": "https://www.bafa.de/DE/Energie/Energieeffizienz/Energieberatung_Unternehmen/energieberatung_unternehmen_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 15000
+  },
+  {
+    "id": "bmwk-go-digital",
+    "title": "go-digital – Digitalisierungsberatung für KMU",
+    "beschreibung": "Förderung von Beratungsleistungen zu digitalisierten Geschäftsprozessen, digitaler Markterschließung und IT-Sicherheit; 50% Zuschuss.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "antrag_url": "https://www.bmwk.de/Redaktion/DE/Artikel/Digitale-Welt/foerderprogramm-go-digital.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 100
+    },
+    "relevanz_boost": {},
+    "max_betrag": 16500
+  },
+  {
+    "id": "bmbf-validierung-innovation",
+    "title": "BMBF – VIP+ Validierung des Innovationspotenzials",
+    "beschreibung": "Förderung für die Entwicklung wissenschaftlicher Erkenntnisse bis zur Marktreife; max. 500.000 € für 3 Jahre.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF",
+    "antrag_url": "https://www.validierung-innovation.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "KI & Hochtechnologie"
+      ]
+    },
+    "max_betrag": 500000
+  },
+  {
+    "id": "exist-transfer-innovation",
+    "title": "EXIST Transfer of Innovation – Wissenstransfer aus Hochschulen",
+    "beschreibung": "Förderung für Gründungsteams aus Hochschulen und Forschungseinrichtungen; bis zu 200.000 € für Entwicklung bis zur Marktreife.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "antrag_url": "https://www.exist.de/EXIST/Navigation/DE/Gruendungsfoerderung/EXIST-Forschungstransfer/exist-forschungstransfer.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {},
+    "max_betrag": 200000
+  },
+  {
+    "id": "kfw-gruenderkredit-erf",
+    "title": "KfW – ERP-Gründerkredit ERP-Kapital für Gründung",
+    "beschreibung": "Kredit für Gründer in den ersten 5 Jahren; ERP-Kapital für Gründung (58/59): bis zu 500.000 € mit 10% eigenkapitalähnlichem Anteil.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gruenden-Nachfolgen/Foerderprodukte/ERP-Kapital-fuer-Gruendung-(058-059)/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "mitarbeiter": [
+        "1–9"
+      ]
+    },
+    "max_betrag": 500000,
+    "zins": "ab 1,8 %"
+  },
+  {
+    "id": "high-tech-gründerfonds",
+    "title": "High-Tech Gründerfonds (HTGF) – Seed-Finanzierung",
+    "beschreibung": "Seed-Finanzierung für technologieorientierte Start-ups; erste Tranche bis zu 1 Mio. €, Folgefinanzierung bis 3 Mio. €.",
+    "typ": "Beteiligung",
+    "quelle": "Bund",
+    "foerderer": "High-Tech Gründerfonds GmbH",
+    "antrag_url": "https://www.htgf.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "KI & Hochtechnologie",
+        "IT-Dienstleistungen & Software",
+        "Software / IT"
+      ]
+    },
+    "max_betrag": 1000000
+  },
+  {
+    "id": "bafa-exportfoerderung-auslandsmessen",
+    "title": "BAFA – Auslandsmesseprogramm",
+    "beschreibung": "Beteiligung an staatlich geförderten Messen im Ausland; Standkostenzuschuss für KMU.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA",
+    "antrag_url": "https://www.bafa.de/DE/Aussenwirtschaft/Exportfoerderung/auslandsmesseprogramm_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 15000
+  },
+  {
+    "id": "bmas-eingliederungszuschuss",
+    "title": "Eingliederungszuschuss – Förderung Einstellung Arbeitsloser",
+    "beschreibung": "Lohnkostenzuschüsse bei Einstellung von Arbeitslosen oder Berufsrückkehrenden; bis zu 50% des Lohns für bis zu 24 Monate.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesagentur für Arbeit",
+    "antrag_url": "https://www.arbeitsagentur.de/unternehmen/finanziell/eingliederungszuschuss",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bafa-energieberatung-mittelstand",
+    "title": "BAFA – Energieberatung Mittelstand",
+    "beschreibung": "Zuschuss für professionelle Energieberatung in KMU; 60–80% der Beratungskosten gefördert.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA",
+    "antrag_url": "https://www.bafa.de/DE/Energie/Energieeffizienz/Energieberatung_Unternehmen/energieberatung_unternehmen_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 6000
+  },
+  {
+    "id": "kfw-kredit-nachhaltigkeit",
+    "title": "KfW – Nachhaltigkeit und Kreislaufwirtschaft (292/293)",
+    "beschreibung": "Finanzierung für Investitionen in Kreislaufwirtschaft, Ressourceneffizienz und Emissionsminderung.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/Foerderprodukte/KfW-Kredit-Nachhaltigkeit-(292-293)/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 25000000,
+    "zins": "ab 1,6 %"
+  },
+  {
+    "id": "kfw-innovationskredit",
+    "title": "KfW – ERP-Innovationskredit (058/059)",
+    "beschreibung": "Finanzierung von FuE-Projekten für Markteinführung innovativer Produkte, Verfahren oder Dienstleistungen.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation-und-Digitalisierung/Foerderprodukte/ERP-Innovationsprogramm-(058-059)/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 5000000,
+    "zins": "ab 2,1 %"
+  },
+  {
+    "id": "bmas-berufsausbildungsbeihilfe",
+    "title": "Berufsausbildungsbeihilfe – Förderung Azubi-Stelle",
+    "beschreibung": "Lohnkostenzuschüsse bei Schaffung neuer Ausbildungsplätze in strukturschwachen Regionen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesagentur für Arbeit",
+    "antrag_url": "https://www.arbeitsagentur.de/unternehmen/finanziell/foerderung-ausbildung",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 4000
+  },
+  {
+    "id": "bafa-transformation-industrie",
+    "title": "BAFA – Bundesförderung Industrie und Gewerbe (BIG)",
+    "beschreibung": "Investitionszuschüsse für energiesparende Produktionsanlagen, Prozesswärme aus erneuerbaren Energien.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA",
+    "antrag_url": "https://www.bafa.de/DE/Energie/Energieeffizienz/Bundesfoerderung_Industrie_Gewerbe/bundesfoerderung_industrie_gewerbe_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Produktion / Fertigung",
+        "Bau / Handwerk"
+      ]
+    },
+    "max_betrag": 15000000
+  },
+  {
+    "id": "inno-suisse-kooperation",
+    "title": "BMBF – Internationale Forschungskooperationen",
+    "beschreibung": "Förderung von bilateralen FuE-Kooperationen mit Partnern in ausgewählten Ländern (z.B. Israel, Kanada, Japan).",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF",
+    "antrag_url": "https://www.bmbf.de/bmbf/de/forschung/internationale-zusammenarbeit/internationale-zusammenarbeit.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 500000
+  },
+  {
+    "id": "hamburg-innovationsfoerderung",
+    "title": "Hamburger Investitions- und Förderbank – Innovationsförderung",
+    "beschreibung": "Zuschüsse für Forschung, Entwicklung und Innovation für Hamburger Unternehmen; 50% Förderquote bis 350.000 €.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "IFB Hamburg",
+    "antrag_url": "https://www.ifbhh.de/magazin/news/ihren-newsletter",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Hamburg"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Software / IT",
+        "IT-Dienstleistungen & Software",
+        "KI & Hochtechnologie"
+      ]
+    },
+    "max_betrag": 350000
+  },
+  {
+    "id": "hamburg-gruenderbonus",
+    "title": "IFB Hamburg – Gründerbonus Hamburg",
+    "beschreibung": "Nicht rückzahlbarer Zuschuss für Hamburger Start-ups bis 12 Monate nach Gründung; bis zu 10.000 € Starthilfe.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "IFB Hamburg",
+    "antrag_url": "https://www.ifbhh.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Hamburg"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {},
+    "max_betrag": 10000
+  },
+  {
+    "id": "schleswig-holstein-investitionsbank",
+    "title": "IB.SH – Investitionsbank Schleswig-Holstein Mittelstandsdarlehen",
+    "beschreibung": "Günstige Darlehen für Investitionen in Schleswig-Holstein; Kombinierbar mit KfW-Programmen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Schleswig-Holstein (IB.SH)",
+    "antrag_url": "https://www.ib-sh.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Schleswig-Holstein"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 2000000,
+    "zins": "ab 1,4 %"
+  },
+  {
+    "id": "mv-foerderbank-gruendung",
+    "title": "Förderinstitut MV – Gründungsförderung Mecklenburg-Vorpommern",
+    "beschreibung": "Niedrigschwellige Gründungsbeihilfen für Start-ups in Mecklenburg-Vorpommern; kombinierbar mit ESF+-Mitteln.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Förderinstitut MV",
+    "antrag_url": "https://www.foerderinstitut-mv.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Mecklenburg-Vorpommern"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {},
+    "max_betrag": 50000
+  },
+  {
+    "id": "berlin-ibb-digital-health",
+    "title": "IBB – Technologie- und Gründerzentren Berlin",
+    "beschreibung": "Günstige Miet- und Infrastrukturangebote plus Finanzierungsberatung für Berliner Tech-Start-ups.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Berlin (IBB)",
+    "antrag_url": "https://www.ibb.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Berlin"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Software / IT",
+        "KI & Hochtechnologie"
+      ]
+    }
+  },
+  {
+    "id": "berlin-kredit-mittelstand",
+    "title": "IBB – Mittelstandskredit Berlin",
+    "beschreibung": "Zinsgünstige Darlehen für Berliner KMU-Investitionen und Betriebsmittel; bis zu 5 Mio. €.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "IBB Berlin",
+    "antrag_url": "https://www.ibb.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Berlin"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 5000000,
+    "zins": "ab 1,5 %"
+  },
+  {
+    "id": "Brandenburg-digitalisierungsprogramm",
+    "title": "ILB Brandenburg – Digitalisierungsprogramm",
+    "beschreibung": "Zuschüsse für Digitalisierungsinvestitionen Brandenburger KMU; IT-Infrastruktur, Software, Schulungen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank des Landes Brandenburg (ILB)",
+    "antrag_url": "https://www.ilb.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Brandenburg"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Software / IT",
+        "IT-Dienstleistungen & Software"
+      ]
+    },
+    "max_betrag": 200000
+  },
+  {
+    "id": "sachsen-anhalt-invsu",
+    "title": "IB Sachsen-Anhalt – Investitionsbank Mittelstandsfinanzierung",
+    "beschreibung": "Finanzierungen und Bürgschaften für mittelständische Unternehmen in Sachsen-Anhalt.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Sachsen-Anhalt (IB)",
+    "antrag_url": "https://www.ib-sachsen-anhalt.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Sachsen-Anhalt"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 3000000,
+    "zins": "ab 1,6 %"
+  },
+  {
+    "id": "thueringen-aufbaubank-innovation",
+    "title": "Thüringer Aufbaubank – Thüringer Innovationsförderung (ThINKA)",
+    "beschreibung": "FuE-Förderung für Thüringer Unternehmen; Einzelbetriebliche Maßnahmen bis zu 500.000 €.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Thüringer Aufbaubank (TAB)",
+    "antrag_url": "https://www.aufbaubank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Thüringen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 500000
+  },
+  {
+    "id": "sachsen-sab-digitalisierung",
+    "title": "SAB Sachsen – Digitale Transformation",
+    "beschreibung": "Zuschüsse für Digitalisierungsprojekte kleiner und mittlerer Unternehmen in Sachsen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Sächsische Aufbaubank (SAB)",
+    "antrag_url": "https://www.sab.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Sachsen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Software / IT"
+      ]
+    },
+    "max_betrag": 200000
+  },
+  {
+    "id": "saarland-foerderkredit",
+    "title": "SIKB Saarland – Förderkredit Mittelstand",
+    "beschreibung": "Zinsgünstige Darlehen für Investitionen saarländischer Unternehmen; kombinierbar mit Bundesförderprogrammen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Saarländische Investitionskreditbank AG (SIKB)",
+    "antrag_url": "https://www.sikb.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Saarland"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 5000000,
+    "zins": "ab 1,5 %"
+  },
+  {
+    "id": "saarland-digitalpraemie",
+    "title": "Saarland – Digitalprämi@Saar",
+    "beschreibung": "Zuschuss bis zu 10.000 € für Digitalisierungsmaßnahmen im saarländischen Mittelstand.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Ministerium für Wirtschaft des Saarlandes",
+    "antrag_url": "https://www.saarland.de/mwide",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Saarland"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 10000
+  },
+  {
+    "id": "bremen-wirtschaftsfoerderung",
+    "title": "Bremer Aufbau-Bank – Mittelstandsfinanzierung",
+    "beschreibung": "Günstige Betriebsmittel- und Investitionskredite für Bremer Unternehmen; Bürgschaftsprogramme verfügbar.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Bremer Aufbau-Bank (BAB)",
+    "antrag_url": "https://www.bab-bremen.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Bremen"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 3000000,
+    "zins": "ab 1,4 %"
+  },
+  {
+    "id": "bremen-innovationszuschuss",
+    "title": "BAB Bremen – Innovationsförderung für KMU",
+    "beschreibung": "Zuschüsse für FuE-Projekte und Produktinnovationen Bremer Unternehmen bis 100 Mitarbeitende.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Bremer Aufbau-Bank (BAB)",
+    "antrag_url": "https://www.bab-bremen.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Bremen"
+      ],
+      "mitarbeiter_max": 100
+    },
+    "relevanz_boost": {},
+    "max_betrag": 150000
+  },
+  {
+    "id": "hessen-foerderbank-gründung",
+    "title": "Wirtschafts- und Infrastrukturbank Hessen – Gründungskredit",
+    "beschreibung": "Günstige Existenzgründungskredite für hessische Gründer; bis zu 10 Jahre Laufzeit.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Wirtschafts- und Infrastrukturbank Hessen (WIBank)",
+    "antrag_url": "https://www.wibank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Hessen"
+      ]
+    },
+    "relevanz_boost": {
+      "mitarbeiter": [
+        "1–9"
+      ]
+    },
+    "max_betrag": 750000,
+    "zins": "ab 1,6 %"
+  },
+  {
+    "id": "hessen-digitalisierungsfoerderung",
+    "title": "WIBank Hessen – Digibonus Hessen",
+    "beschreibung": "Nicht rückzahlbarer Zuschuss für hessische KMU zur Einführung digitaler Technologien; bis 10.000 €.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "WIBank Hessen",
+    "antrag_url": "https://www.wibank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Hessen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 10000
+  },
+  {
+    "id": "rlp-isb-kredit",
+    "title": "ISB Rheinland-Pfalz – Mittelstandskredit",
+    "beschreibung": "Zinsgünstige Investitionskredite für rheinland-pfälzische Betriebe; Finanzierung von Betriebsmitteln und Investitionen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitions- und Strukturbank RLP (ISB)",
+    "antrag_url": "https://www.isb.rlp.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Rheinland-Pfalz"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 5000000,
+    "zins": "ab 1,6 %"
+  },
+  {
+    "id": "rlp-digitalbonusplus",
+    "title": "ISB RLP – Digitalbonus RLP Plus",
+    "beschreibung": "Zuschuss für digitale Modellprojekte in Rheinland-Pfalz; Vernetzung, Prozessautomatisierung, E-Commerce.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "ISB Rheinland-Pfalz",
+    "antrag_url": "https://www.isb.rlp.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Rheinland-Pfalz"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 50000
+  },
+  {
+    "id": "niedersachsen-nbank-kredit",
+    "title": "NBank Niedersachsen – Niedersachsen-Kredit Wirtschaft",
+    "beschreibung": "Investitions- und Betriebsmittelkredite für niedersächsische Unternehmen; bis zu 10 Mio. €.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitions- und Förderbank Niedersachsen (NBank)",
+    "antrag_url": "https://www.nbank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Niedersachsen"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 10000000,
+    "zins": "ab 1,5 %"
+  },
+  {
+    "id": "niedersachsen-digitalpraemie",
+    "title": "NBank Niedersachsen – Digitalpräm!e",
+    "beschreibung": "Zuschuss für Digitalisierungsmaßnahmen kleiner Unternehmen; bis 10.000 €.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "NBank Niedersachsen",
+    "antrag_url": "https://www.nbank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Niedersachsen"
+      ],
+      "mitarbeiter_max": 49
+    },
+    "relevanz_boost": {},
+    "max_betrag": 10000
+  },
+  {
+    "id": "bw-lbank-digitalisierungsfoerderung",
+    "title": "L-Bank Baden-Württemberg – Investitionskredit Mittelstand",
+    "beschreibung": "Günstige Darlehen für Investitionen in BW; breite Verwendungszwecke.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "L-Bank Baden-Württemberg",
+    "antrag_url": "https://www.l-bank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 10000000,
+    "zins": "ab 1,5 %"
+  },
+  {
+    "id": "bw-digitalisierungsprogramm",
+    "title": "L-Bank BW – Digitalisierungsprogramm KMU",
+    "beschreibung": "Zinsgünstige Kredite speziell für Digitalisierungsvorhaben in Baden-Württemberg; bis zu 5 Mio. €.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "L-Bank Baden-Württemberg",
+    "antrag_url": "https://www.l-bank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Software / IT"
+      ]
+    },
+    "max_betrag": 5000000,
+    "zins": "ab 1,4 %"
+  },
+  {
+    "id": "by-lfa-energiekredit",
+    "title": "LfA Bayern – Energie- und Klimaschutzprogramm",
+    "beschreibung": "Zinsgünstige Darlehen für energiesparende Investitionen bayerischer Unternehmen; besonders für Erneuerbare.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "LfA Förderbank Bayern",
+    "antrag_url": "https://www.lfa.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 10000000,
+    "zins": "ab 1,4 %"
+  },
+  {
+    "id": "by-hightech-agenda",
+    "title": "Bayern – Hightech Agenda Bayern Förderung",
+    "beschreibung": "Förderung von KI-, Quantencomputing- und Hochleistungsprojekten; direkter Zugang über bayerische Hochschulen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Bayerisches Staatsministerium für Digitales",
+    "antrag_url": "https://www.stmd.bayern.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "KI & Hochtechnologie",
+        "IT-Dienstleistungen & Software"
+      ]
+    },
+    "max_betrag": 1000000
+  },
+  {
+    "id": "by-qualifizierungsoffensive",
+    "title": "Bayern – Qualifizierungsoffensive Mittelstand",
+    "beschreibung": "Förderung von Weiterbildungsmaßnahmen bayerischer KMU; bis 50% der Kurskosten erstattet.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Bayerisches Staatsministerium für Arbeit",
+    "antrag_url": "https://www.stmas.bayern.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 5000
+  },
+  {
+    "id": "nrw-startup",
+    "title": "NRW Bank – Start-up Darlehen NRW",
+    "beschreibung": "Nachrangdarlehen für innovative NRW-Gründungen in der frühen Phase; keine Sicherheiten erforderlich.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "NRW.BANK",
+    "antrag_url": "https://www.nrwbank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {},
+    "max_betrag": 500000,
+    "zins": "ab 2,5 %"
+  },
+  {
+    "id": "nrw-foerderkredit-kmu",
+    "title": "NRW.BANK – Universalkredit Mittelstand",
+    "beschreibung": "Universelle Investitionsfinanzierung für NRW-KMU; breite Einsatzmöglichkeiten.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "NRW.BANK",
+    "antrag_url": "https://www.nrwbank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 5000000,
+    "zins": "ab 1,5 %"
+  },
+  {
+    "id": "nrw-digitalisierungsfoerderung",
+    "title": "NRW – Digitalisierungsförderung go.digital NRW",
+    "beschreibung": "Zuschüsse für Digitalisierungsberatung und -investitionen in NRW-KMU.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "NRW Wirtschaftsministerium",
+    "antrag_url": "https://www.wirtschaft.nrw",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ],
+      "mitarbeiter_max": 100
+    },
+    "relevanz_boost": {},
+    "max_betrag": 15000
+  },
+  {
+    "id": "sachsen-sab-gruendung",
+    "title": "SAB Sachsen – Gründungsfinanzierung",
+    "beschreibung": "Mikrodarlehen und Zuschüsse für sächsische Existenzgründungen; kombinierbar mit ESF-Mitteln.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Sächsische Aufbaubank (SAB)",
+    "antrag_url": "https://www.sab.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Sachsen"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {},
+    "max_betrag": 100000,
+    "zins": "ab 2,0 %"
+  },
+  {
+    "id": "thueringen-mikrodarlehen",
+    "title": "TAB Thüringen – Mikrodarlehen für Kleinstunternehmen",
+    "beschreibung": "Kleinstkredite bis 25.000 € für thüringische Kleinstunternehmen und Gründer ohne ausreichende Sicherheiten.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Thüringer Aufbaubank (TAB)",
+    "antrag_url": "https://www.aufbaubank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Thüringen"
+      ],
+      "mitarbeiter_max": 9
+    },
+    "relevanz_boost": {},
+    "max_betrag": 25000,
+    "zins": "ab 2,5 %"
+  },
+  {
+    "id": "bundesfoerderung-gastgewerbe",
+    "title": "DEHOGA – Beratungsprogramm Gastgewerbe Digitalisierung",
+    "beschreibung": "Spezielle Förderprogramme und Beratungsangebote für Gastronomie und Hotel beim DEHOGA; Buchungssysteme, Digitalisierung.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "DEHOGA Bundesverband / BMWK",
+    "antrag_url": "https://www.dehoga.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Gastronomie / Hotellerie",
+        "Gastronomie & Cafés",
+        "Hotellerie & Beherbergung"
+      ]
+    },
+    "max_betrag": 5000
+  },
+  {
+    "id": "foerderung-kulturwirtschaft",
+    "title": "Bundeskulturförderung – Kulturelle Bildung und Kreativwirtschaft",
+    "beschreibung": "BKM-Förderung für Projekte im Bereich Kulturelle Bildung, Digitalkultur und kreative Industrien.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesbeauftragte für Kultur und Medien (BKM)",
+    "antrag_url": "https://www.kulturstaatsministerin.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Kreativwirtschaft"
+      ]
+    },
+    "max_betrag": 100000
+  },
+  {
+    "id": "foerderung-sozialunternehmen",
+    "title": "Impact Investing – Sozialunternehmen und Impact Fonds",
+    "beschreibung": "Förderung und Beteiligungskapital für Social Enterprises; Programm soziale Innovationen des BMAS.",
+    "typ": "Beteiligung",
+    "quelle": "Bund",
+    "foerderer": "BMAS / Soziale Innovationen",
+    "antrag_url": "https://www.bmas.de/DE/Arbeit/Soziale-Innovationen/soziale-innovationen.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 500000
+  },
+  {
+    "id": "agrar-eler-foerderung",
+    "title": "ELER – Europäischer Landwirtschaftsfonds für die Entwicklung des ländlichen Raums",
+    "beschreibung": "Förderung für Landwirtschaft, Forstwirtschaft und ländliche Unternehmen; Agrarinvestitionen, Direktzahlungen.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission / Bundesländer",
+    "antrag_url": "https://www.bmel.de/DE/themen/landwirtschaft/eu-agrarpolitik-und-foerderung/eler.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Land- & Forstwirtschaft"
+      ]
+    },
+    "max_betrag": 300000
+  },
+  {
+    "id": "foerderung-handwerk-meisterprogramm",
+    "title": "Meistergründungsprämie – Förderung nach Meisterprüfung",
+    "beschreibung": "Viele Bundesländer bieten Prämien von 1.000–7.500 € bei Gründung nach bestandener Meisterprüfung.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Handwerkskammern / Landesministerien",
+    "antrag_url": "https://www.zdh.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Bau / Handwerk",
+        "Handwerk"
+      ]
+    },
+    "max_betrag": 7500
+  },
+  {
+    "id": "transportsicherheit-digitalisierung",
+    "title": "BMWK – Digitalisierung Transport und Logistik",
+    "beschreibung": "Förderung für vernetzte Transportsysteme, autonomes Fahren und digitale Frachtplattformen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / BMDV",
+    "antrag_url": "https://www.bmwk.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Transport & Logistik",
+        "Transport / Logistik"
+      ]
+    },
+    "max_betrag": 500000
+  },
+  {
+    "id": "ge-digital-hub-initiative",
+    "title": "Digital Hub Initiative – Ökosystem für Start-ups",
+    "beschreibung": "Zugang zu digitalen Hubs in Deutschland (Berlin, München, Hamburg); Netzwerk, Mentoring, Infrastruktur.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK – Digital Hub Initiative",
+    "antrag_url": "https://www.digital-hub.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 50
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Software / IT",
+        "KI & Hochtechnologie"
+      ]
+    },
+    "max_betrag": 0
+  },
+  {
+    "id": "foerderung-weiterbildung-kurzarbeit",
+    "title": "Qualifizierungsoffensive Kurzarbeit – WeGebAU",
+    "beschreibung": "Förderung von Weiterbildungen für Beschäftigte in Kurzarbeit; bis 100% der Lehrgangskosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesagentur für Arbeit",
+    "antrag_url": "https://www.arbeitsagentur.de/unternehmen/finanziell/weiterbildung-beschaeftigter",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 10000
+  },
+  {
+    "id": "bundesfoerderung-pflege-innovationen",
+    "title": "BMBF – Zukunft der Pflege – Pflegeinnovationen",
+    "beschreibung": "FuE-Förderung für technische Pflegeassistenzsysteme und digitale Pflegetechnologien.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF",
+    "antrag_url": "https://www.bmbf.de/bmbf/de/forschung/gesundheit-und-pflege/pflege/pflege_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Gesundheit / Pflege",
+        "Gesundheitswesen & Soziales"
+      ]
+    },
+    "max_betrag": 500000
+  },
+  {
+    "id": "it-sicherheit-foerderung-kmu",
+    "title": "BMWK – Transferprojekte IT-Sicherheit für KMU",
+    "beschreibung": "Geförderte Umsetzung von IT-Sicherheitsmaßnahmen durch zertifizierte IT-Sicherheitsdienstleister; bis 30.000 €.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "antrag_url": "https://www.bmwk.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Software / IT"
+      ]
+    },
+    "max_betrag": 30000
+  },
+  {
+    "id": "foerderung-beratung-nachfolge",
+    "title": "DIHK/NachfolgeKontor – Beratung Unternehmensnachfolge",
+    "beschreibung": "Beratungsförderung für Unternehmensübergaben und -nachfolgen; Zuschuss auf externe Beratungskosten.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / DIHK",
+    "antrag_url": "https://www.nexxt-change.org",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 5000
+  },
+  {
+    "id": "umweltinnovationsprogramm-bmu",
+    "title": "Umweltinnovationsprogramm – BMU Großvorhaben",
+    "beschreibung": "Finanzierungsbeihilfen für große Demonstrationsvorhaben im Umweltbereich; Pilotprojekte mit Multiplikatorwirkung.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Umwelt (BMUV)",
+    "antrag_url": "https://www.bmuv.de/themen/wirtschaft-produkte-ressourcen/wirtschaft-und-umwelt/umweltinnovationsprogramm",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 30000000,
+    "zins": "zinsgünstig"
+  },
+  {
+    "id": "foerderung-markterschliessung-ausland",
+    "title": "iXPOS/AHK – Außenwirtschaftsförderung",
+    "beschreibung": "Förderung von Markterschließungsmaßnahmen im Ausland; Delegationsreisen, Marktstudien, Messebeteiligungen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA / DIHK / AHKs",
+    "antrag_url": "https://www.bafa.de/DE/Aussenwirtschaft/Exportfoerderung/auslandsmesseprogramm_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 15000
+  },
+  {
+    "id": "foerderung-inklusion-unternehmen",
+    "title": "Eingliederungshilfe – Agentur für Arbeit Schwerbehinderung",
+    "beschreibung": "Zuschüsse zur Ausstattung von Arbeitsplätzen für schwerbehinderte Mitarbeitende bis zu 75% der Kosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesagentur für Arbeit",
+    "antrag_url": "https://www.arbeitsagentur.de/unternehmen/finanziell/foerderung-einstellung-behinderter",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 20000
+  },
+  {
+    "id": "foerderung-sport-sportwirtschaft",
+    "title": "BMI – Sportwirtschaft Förderprogramm",
+    "beschreibung": "Förderung von Sportstätten, -infrastruktur und Sporttechnologie-Start-ups.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium des Innern",
+    "antrag_url": "https://www.bmi.bund.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 100000
+  },
+  {
+    "id": "foerderung-tourismus-bundeslaender",
+    "title": "LTV – Tourismusförderung der Bundesländer",
+    "beschreibung": "Investitions- und Marketingförderung für touristische Betriebe; regional unterschiedliche Programme.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Länder-Tourismusverbände",
+    "antrag_url": "https://www.deutschland.de/de/topic/wirtschaft/tourismus",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Hotellerie & Beherbergung",
+        "Gastronomie / Hotellerie",
+        "Gastronomie & Cafés"
+      ]
+    },
+    "max_betrag": 50000
+  },
+  {
+    "id": "stiftungsmittel-gemeinnuetzige",
+    "title": "Stiftungsförderung – Private und öffentliche Stiftungen",
+    "beschreibung": "Förderung gemeinnütziger Projekte durch Stiftungen (Bertelsmann, Bosch, Volkswagen); keine direkten Programmanträge, sondern Projekteinreichung.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Private Stiftungen",
+    "antrag_url": "https://www.stiftungen.org",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "e.V. (Verein)",
+        "gGmbH (gemeinnützig)"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 100000
+  },
+  {
+    "id": "foerderung-frauenunternehmertum",
+    "title": "BMG/BMFSFJ – Förderung Frauenunternehmertum",
+    "beschreibung": "Programme zur Stärkung weiblicher Gründer; Coaching, Netzwerke, Kleinkredite über Mikrokreditfonds.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMFSFJ / Mikrokreditfonds",
+    "antrag_url": "https://www.mikrokreditfonds.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "mitarbeiter": [
+        "1–9"
+      ]
+    },
+    "max_betrag": 20000
+  },
+  {
+    "id": "foerderung-ki-startups",
+    "title": "BMWK – KI-Gründerturbo",
+    "beschreibung": "Förderprogramm speziell für KI-Startups in Deutschland; bis zu 500.000 € Anschubfinanzierung.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "antrag_url": "https://www.bmwk.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "KI & Hochtechnologie",
+        "IT-Dienstleistungen & Software"
+      ]
+    },
+    "max_betrag": 500000
+  },
+  {
+    "id": "foerderung-gesundheitswirtschaft-netz",
+    "title": "BMG – Strukturfonds Gesundheitswirtschaft",
+    "beschreibung": "Unterstützung für Projekte zur Digitalisierung des Gesundheitswesens und Telemedizin-Lösungen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Gesundheit (BMG)",
+    "antrag_url": "https://www.bundesgesundheitsministerium.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung / Handelsregisterauszug",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Gesundheit / Pflege",
+        "Gesundheitswesen & Soziales"
+      ]
+    },
+    "max_betrag": 500000
+  },
+  {
+    "id": "by-startupbonus",
+    "title": "Bayern – StartupBonus Bayern",
+    "beschreibung": "Nicht rückzahlbarer Zuschuss für bayerische Start-ups in der frühen Phase; Förderung bis 12 Monate nach Gründung.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "LfA Bayern / StMWi",
+    "antrag_url": "https://www.lfa.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {
+      "mitarbeiter": [
+        "1–9"
+      ]
+    },
+    "max_betrag": 15000
+  },
+  {
+    "id": "by-invest-kredit",
+    "title": "LfA Bayern – Energiesparkredit für Unternehmen",
+    "beschreibung": "Finanzierung energieeffizienter Maßnahmen in bayerischen Betrieben; Tilgungszuschuss möglich.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "LfA Förderbank Bayern",
+    "antrag_url": "https://www.lfa.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 10000000,
+    "zins": "ab 1,3 %"
+  },
+  {
+    "id": "bw-zuschuss-klimaneutral",
+    "title": "L-Bank BW – Klimaneutral-Förderung Gewerbe",
+    "beschreibung": "Zuschüsse für Klimaschutzmaßnahmen in gewerblichen Betrieben in Baden-Württemberg.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "L-Bank Baden-Württemberg",
+    "antrag_url": "https://www.l-bank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 500000
+  },
+  {
+    "id": "bw-messefoerderung",
+    "title": "Baden-Württemberg – Messebeteiligung International",
+    "beschreibung": "Förderung der Beteiligung württembergischer KMU an internationalen Messen; bis 50% der Standkosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Wirtschaftsministerium BW / bw-i",
+    "antrag_url": "https://bw-i.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 10000
+  },
+  {
+    "id": "nrw-kredit-erneuerbar",
+    "title": "NRW.BANK – Gebäude.Effizienzkredit",
+    "beschreibung": "Finanzierung von Energieeffizienz-Maßnahmen und erneuerbaren Energien in NRW-Gebäuden.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "NRW.BANK",
+    "antrag_url": "https://www.nrwbank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 5000000,
+    "zins": "ab 1,4 %"
+  },
+  {
+    "id": "nrw-digitales-aufholen",
+    "title": "NRW – Digitales Aufholen für Handwerk",
+    "beschreibung": "Förderung für Handwerksbetriebe in NRW zur Einführung digitaler Geschäftsprozesse.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "NRW Wirtschaftsministerium",
+    "antrag_url": "https://www.wirtschaft.nrw",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ],
+      "mitarbeiter_max": 49
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Bau / Handwerk",
+        "Handwerk"
+      ]
+    },
+    "max_betrag": 15000
+  },
+  {
+    "id": "hessen-startup-accelerator",
+    "title": "Hessen – StartHub Accelerator",
+    "beschreibung": "Förderprogramm für hessische Start-ups in den Bereichen FinTech, MedTech und Mobilität.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Hessen Trade & Invest",
+    "antrag_url": "https://www.htai.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Hessen"
+      ],
+      "mitarbeiter_max": 20
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "KI & Hochtechnologie"
+      ]
+    },
+    "max_betrag": 50000
+  },
+  {
+    "id": "rlp-meisterpraemie",
+    "title": "Rheinland-Pfalz – Meisterprämie",
+    "beschreibung": "Prämie von 3.000 € bei Neugründung eines Handwerksbetriebs in RLP nach bestandener Meisterprüfung.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "HWK Rheinland-Pfalz",
+    "antrag_url": "https://www.hwk-koblenz.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Rheinland-Pfalz"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Bau / Handwerk",
+        "Handwerk"
+      ],
+      "mitarbeiter": [
+        "1–9"
+      ]
+    },
+    "max_betrag": 3000
+  },
+  {
+    "id": "sachsen-innovationskredit",
+    "title": "SAB Sachsen – InnoKredit",
+    "beschreibung": "Günstige Darlehen für Investitionen in Forschung, Entwicklung und Innovation sächsischer Unternehmen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "SAB Sachsen",
+    "antrag_url": "https://www.sab.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Sachsen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 2000000,
+    "zins": "ab 1,6 %"
+  },
+  {
+    "id": "thueringen-innovationspfad",
+    "title": "TAB Thüringen – Innovationspfad Thüringen",
+    "beschreibung": "Förderprogramm für technologieorientierte Unternehmensgründungen und Wachstumsfinanzierungen in Thüringen.",
+    "typ": "Beteiligung",
+    "quelle": "Bundesland",
+    "foerderer": "Thüringer Aufbaubank (TAB)",
+    "antrag_url": "https://www.aufbaubank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Thüringen"
+      ],
+      "mitarbeiter_max": 50
+    },
+    "relevanz_boost": {},
+    "max_betrag": 1500000
+  },
+  {
+    "id": "mv-strukturfonds",
+    "title": "Förderinstitut MV – Strukturfonds Mecklenburg-Vorpommern",
+    "beschreibung": "Investitionszuschüsse für Betriebe in strukturschwachen Regionen Mecklenburg-Vorpommerns; bis 35%.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Förderinstitut MV",
+    "antrag_url": "https://www.foerderinstitut-mv.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Mecklenburg-Vorpommern"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 500000
+  },
+  {
+    "id": "bb-bic-gruendung",
+    "title": "ILB Brandenburg – Gründercoaching BIC",
+    "beschreibung": "Förderprogramm für Beratung und Coaching frischer Gründer in Brandenburg; Zuschuss auf externe Coachinghonorare.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Brandenburg (ILB)",
+    "antrag_url": "https://www.ilb.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Brandenburg"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {},
+    "max_betrag": 9000
+  },
+  {
+    "id": "sachsen-anhalt-mikrodarlehen",
+    "title": "IB Sachsen-Anhalt – Mikrodarlehen Kleinstunternehmen",
+    "beschreibung": "Kleinstkredite für Gründer und Kleinstbetriebe in Sachsen-Anhalt ohne ausreichende Sicherheiten.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "IB Sachsen-Anhalt",
+    "antrag_url": "https://www.ib-sachsen-anhalt.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Sachsen-Anhalt"
+      ],
+      "mitarbeiter_max": 9
+    },
+    "relevanz_boost": {},
+    "max_betrag": 20000,
+    "zins": "ab 2,5 %"
+  },
+  {
+    "id": "sh-windenergiefoerderung",
+    "title": "IB.SH – Windenergie und Erneuerbare Schleswig-Holstein",
+    "beschreibung": "Kredite und Bürgschaften für Investitionen in Windenergie und erneuerbare Energien in Schleswig-Holstein.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "IB Schleswig-Holstein",
+    "antrag_url": "https://www.ib-sh.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Schleswig-Holstein"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 5000000,
+    "zins": "ab 1,5 %"
+  },
+  {
+    "id": "bremen-kredit-innovationsparks",
+    "title": "BAB Bremen – Innovationsparks und Flächen",
+    "beschreibung": "Günstige Mieten und Infrastruktur für Unternehmen in Bremer Technologie- und Innovationsparks.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "BAB Bremen / BIC",
+    "antrag_url": "https://www.bab-bremen.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Bremen"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "saarland-clusterfoerderung",
+    "title": "Saarland – Clusterförderung Automobil und Digitales",
+    "beschreibung": "Förderung von Cluster-Projekten in saarländischen Schwerpunktbranchen (Automotive, IT, Rohstoffe).",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Ministerium für Wirtschaft des Saarlandes",
+    "antrag_url": "https://www.saarland.de/mwide",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Saarland"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 100000
+  },
+  {
+    "id": "hamburg-klima",
+    "title": "IFB Hamburg – Klimaschutz-Förderprogramm",
+    "beschreibung": "Investitionszuschüsse für Klimaschutzmaßnahmen in Hamburger Unternehmen; Photovoltaik, Wärmedämmung.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "IFB Hamburg",
+    "antrag_url": "https://www.ifbhh.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Hamburg"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 200000
+  },
+  {
+    "id": "niedersachsen-gruendungskredit",
+    "title": "NBank Niedersachsen – Gründungskredit",
+    "beschreibung": "Niedrigschwelliger Gründungskredit für niedersächsische Existenzgründer; keine Sicherheitspflicht.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "NBank Niedersachsen",
+    "antrag_url": "https://www.nbank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Niedersachsen"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {
+      "mitarbeiter": [
+        "1–9"
+      ]
+    },
+    "max_betrag": 300000,
+    "zins": "ab 2,0 %"
+  },
+  {
+    "id": "niedersachsen-foerderung-handwerk",
+    "title": "NBank Niedersachsen – Handwerksförderung Modernisierung",
+    "beschreibung": "Zuschüsse für Modernisierungsmaßnahmen in niedersächsischen Handwerksbetrieben.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "NBank Niedersachsen",
+    "antrag_url": "https://www.nbank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Niedersachsen"
+      ],
+      "mitarbeiter_max": 49
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Bau / Handwerk",
+        "Handwerk"
+      ]
+    },
+    "max_betrag": 50000
+  },
+  {
+    "id": "sachsen-sab-tourismus",
+    "title": "SAB Sachsen – Tourismusinfrastruktur",
+    "beschreibung": "Zuschüsse für touristische Infrastrukturprojekte (Hotels, Gastronomie, Freizeiteinrichtungen) in Sachsen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "SAB Sachsen",
+    "antrag_url": "https://www.sab.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Sachsen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Hotellerie & Beherbergung",
+        "Gastronomie / Hotellerie"
+      ]
+    },
+    "max_betrag": 500000
+  },
+  {
+    "id": "thueringen-fachkraefte",
+    "title": "TAB Thüringen – Fachkräfteprogramm",
+    "beschreibung": "Förderung von Weiterbildungs- und Qualifizierungsmaßnahmen zur Fachkräftebindung in Thüringen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "TAB Thüringen",
+    "antrag_url": "https://www.aufbaubank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Thüringen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 10000
+  },
+  {
+    "id": "bb-infrastrukturfoerderung",
+    "title": "ILB Brandenburg – Infrastrukturinvestition",
+    "beschreibung": "Zuschüsse für Investitionen in Energie-, Wasser- und Verkehrsinfrastruktur in Brandenburg.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "ILB Brandenburg",
+    "antrag_url": "https://www.ilb.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Brandenburg"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 2000000
+  },
+  {
+    "id": "sh-kmu-buergschaft",
+    "title": "IB.SH – KMU-Bürgschaft ohne Sicherheiten",
+    "beschreibung": "Staatliche Bürgschaft bis 1 Mio. € für Investitionen und Betriebsmittel in Schleswig-Holstein; erleichtert Bankfinanzierungen.",
+    "typ": "Bürgschaft",
+    "quelle": "Bundesland",
+    "foerderer": "IB Schleswig-Holstein",
+    "antrag_url": "https://www.ib-sh.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Schleswig-Holstein"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 1000000
+  },
+  {
+    "id": "by-gruendungszuschuss",
+    "title": "Bayern – Gründungszuschuss Arbeitslosengeld-Empfänger",
+    "beschreibung": "Gründungszuschuss für ALG-1-Empfänger, die sich selbstständig machen; bis zu 6 Monate volle Förderung.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Agentur für Arbeit Bayern",
+    "antrag_url": "https://www.arbeitsagentur.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ],
+      "mitarbeiter_max": 5
+    },
+    "relevanz_boost": {
+      "mitarbeiter": [
+        "1–9"
+      ]
+    },
+    "max_betrag": 16800
+  },
+  {
+    "id": "sachsen-anhalt-energieeffizienz",
+    "title": "IB Sachsen-Anhalt – Energieeffizienzprogramm",
+    "beschreibung": "Zinsgünstige Kredite für energieeffiziente Investitionen in Sachsen-Anhalt; Wärmedämmung, Heizungsanlagen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "IB Sachsen-Anhalt",
+    "antrag_url": "https://www.ib-sachsen-anhalt.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Sachsen-Anhalt"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 3000000,
+    "zins": "ab 1,5 %"
+  },
+  {
+    "id": "hessen-ökowärme",
+    "title": "WIBank Hessen – Ökowärme Förderung",
+    "beschreibung": "Investitionszuschüsse für Wärmepumpen und Solarthermie in hessischen Unternehmen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "WIBank Hessen",
+    "antrag_url": "https://www.wibank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Hessen"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 30000
+  },
+  {
+    "id": "nrw-startup-finanzierung",
+    "title": "NRW – NRW.Startup",
+    "beschreibung": "Beteiligungskapital für nordrhein-westfälische Start-ups in frühen Phasen; nachrangige Darlehen und stille Beteiligungen.",
+    "typ": "Beteiligung",
+    "quelle": "Bundesland",
+    "foerderer": "NRW.BANK",
+    "antrag_url": "https://www.nrwbank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ],
+      "mitarbeiter_max": 20
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "KI & Hochtechnologie",
+        "Software / IT"
+      ]
+    },
+    "max_betrag": 750000
+  },
+  {
+    "id": "rlp-umweltfoerderung",
+    "title": "ISB RLP – Umweltprogramm Rheinland-Pfalz",
+    "beschreibung": "Zuschüsse für Umweltschutzinvestitionen in rheinland-pfälzischen Betrieben; Kreislaufwirtschaft, Emissionsminderung.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "ISB RLP",
+    "antrag_url": "https://www.isb.rlp.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Rheinland-Pfalz"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 300000
+  },
+  {
+    "id": "bw-buergschaftsbank",
+    "title": "Bürgschaftsbank Baden-Württemberg – KMU-Bürgschaft",
+    "beschreibung": "Staatliche Bürgschaft erleichtert KMU-Finanzierungen ohne ausreichende Sicherheiten in BW; bis 1,25 Mio. €.",
+    "typ": "Bürgschaft",
+    "quelle": "Bundesland",
+    "foerderer": "Bürgschaftsbank BW",
+    "antrag_url": "https://www.buergschaftsbank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 1250000
+  },
+  {
+    "id": "kfw-offshore-wind",
+    "title": "KfW – Offshore-Windenergie-Finanzierung",
+    "beschreibung": "Langfristige Projektfinanzierung für Offshore-Windparks in der deutschen Nord- und Ostsee.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "antrag_url": "https://www.kfw.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung"
+      ]
+    },
+    "max_betrag": 200000000,
+    "zins": "ab 1,8 %"
+  },
+  {
+    "id": "bafa-waermepumpen-foerderung",
+    "title": "BAFA – Bundesförderung Wärmepumpe Gewerbe",
+    "beschreibung": "Investitionszuschuss von bis zu 35% für den Einbau von Wärmepumpen in gewerblichen Gebäuden.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA",
+    "antrag_url": "https://www.bafa.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 30000
+  },
+  {
+    "id": "bmwk-technologietransfer",
+    "title": "BMWK – Technologietransfer-Programm",
+    "beschreibung": "Förderung des Wissenstransfers zwischen Hochschulen/Forschungseinrichtungen und Unternehmen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "antrag_url": "https://www.bmwk.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 50000
+  },
+  {
+    "id": "bmbf-quantencomputing",
+    "title": "BMBF – Quantencomputing für Unternehmen",
+    "beschreibung": "Förderung von anwendungsorientierten Quantencomputing-Projekten in der Industrie.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF",
+    "antrag_url": "https://www.bmbf.de/bmbf/de/forschung/quantensysteme/quantensysteme_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "KI & Hochtechnologie",
+        "Industrie & Fertigung"
+      ]
+    },
+    "max_betrag": 2000000
+  },
+  {
+    "id": "bmbf-wasserstoff",
+    "title": "BMBF/BMWK – Nationale Wasserstoffstrategie Förderung",
+    "beschreibung": "Umfassendes Förderprogramm für Elektrolyse, Transportinfrastruktur und Wasserstoffanwendungen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / BMWK",
+    "antrag_url": "https://www.wasserstoff-foerderung.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Transport & Logistik"
+      ]
+    },
+    "max_betrag": 10000000
+  },
+  {
+    "id": "kfw-landwirtschaft",
+    "title": "KfW – Agrarinvestitionsförderungsprogramm (AFP)",
+    "beschreibung": "Finanzierung von Investitionen in land- und forstwirtschaftlichen Betrieben; Modernisierung und Diversifizierung.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW / Bund",
+    "antrag_url": "https://www.kfw.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Land- & Forstwirtschaft"
+      ]
+    },
+    "max_betrag": 2500000,
+    "zins": "ab 1,6 %"
+  },
+  {
+    "id": "bmas-betriebliche-gesundheitsfoerderung",
+    "title": "BMAS – Betriebliche Gesundheitsförderung Prämien",
+    "beschreibung": "Steuerfreiheit bis 600 € p.a. für Arbeitgeber-Beiträge zur betrieblichen Gesundheitsförderung; Präventionskurse.",
+    "typ": "Steuervorteil",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Arbeit (BMAS)",
+    "antrag_url": "https://www.bmas.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 600
+  },
+  {
+    "id": "kfw-studienkredit",
+    "title": "KfW – Studienkredit (für Selbstständige zur Qualifizierung)",
+    "beschreibung": "Zinsgünstige Studienkredite auch für Unternehmer, die nebenberuflich studieren oder sich weiterqualifizieren.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "antrag_url": "https://www.kfw.de/studienkredit",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    },
+    "max_betrag": 650,
+    "zins": "ab 0,5 %"
+  },
+  {
+    "id": "bafin-innovationshub-beratung",
+    "title": "BaFin Innovation Hub – Beratung FinTech",
+    "beschreibung": "Kostenlose Erstberatung für innovative FinTech-Unternehmen zu regulatorischen Fragen durch die BaFin.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BaFin",
+    "antrag_url": "https://www.bafin.de/DE/Aufsicht/FinTech/FinTech_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Finanzdienstleistungen",
+        "IT-Dienstleistungen & Software"
+      ]
+    }
+  },
+  {
+    "id": "eu-eic-pathfinder",
+    "title": "EIC Pathfinder – Tiefe Technologien",
+    "beschreibung": "Förderung für bahnbrechende tiefe Technologien mit transformativem Marktpotenzial; bis 4 Mio. € für Konsortien.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission – EIC",
+    "antrag_url": "https://eic.ec.europa.eu/eic-funding/eic-pathfinder_de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "KI & Hochtechnologie",
+        "IT-Dienstleistungen & Software"
+      ]
+    },
+    "max_betrag": 4000000
+  },
+  {
+    "id": "kfw-solarstromspeicher",
+    "title": "KfW – Solar- und Stromspeicherförderung",
+    "beschreibung": "Günstige Darlehen für Photovoltaikanlagen kombiniert mit Batteriespeicher für gewerbliche Gebäude.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "antrag_url": "https://www.kfw.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 150000,
+    "zins": "zinsgünstig"
+  },
+  {
+    "id": "bafa-abwasser",
+    "title": "BAFA – Bundesförderung Abwärmenutzung",
+    "beschreibung": "Investitionszuschüsse für die Nutzung industrieller Abwärme; bis zu 40% der förderfähigen Kosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA",
+    "antrag_url": "https://www.bafa.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Produktion / Fertigung"
+      ]
+    },
+    "max_betrag": 5000000
+  },
+  {
+    "id": "bmbf-soziale-innovationen",
+    "title": "BMBF – Gesellschaft der Innovationen",
+    "beschreibung": "Förderung sozialer Innovationen mit gesellschaftlicher Wirkung; co-kreative Ansätze und Reallabore.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF",
+    "antrag_url": "https://www.bmbf.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 500000
+  },
+  {
+    "id": "kfw-kredit-flotte-efahrzeuge",
+    "title": "KfW – Flottenfinanzierung Elektrofahrzeuge",
+    "beschreibung": "Günstige Darlehen für die Umrüstung von Fahrzeugflotten auf elektrische oder wasserstoffbetriebene Fahrzeuge.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "antrag_url": "https://www.kfw.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Transport & Logistik",
+        "Transport / Logistik"
+      ]
+    },
+    "max_betrag": 5000000,
+    "zins": "ab 1,4 %"
+  },
+  {
+    "id": "münchen-innovationsfoerderung",
+    "title": "München – Innovationsförderung Stadt München",
+    "beschreibung": "Zuschüsse der Stadt München für innovative Projekte; Technologietransfer und Stadtentwicklung.",
+    "typ": "Zuschuss",
+    "quelle": "Gemeinde",
+    "foerderer": "Landeshauptstadt München / LHM",
+    "antrag_url": "https://www.muenchen.de/wirtschaft",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "KI & Hochtechnologie"
+      ]
+    },
+    "max_betrag": 50000
+  },
+  {
+    "id": "berlin-bezirksfoerderung",
+    "title": "Berlin Bezirke – Gewerbeflächenförderung",
+    "beschreibung": "Günstige Gewerbemieten und Infrastrukturpauschalen in bestimmten Berliner Bezirken für Existenzgründer.",
+    "typ": "Zuschuss",
+    "quelle": "Gemeinde",
+    "foerderer": "Berliner Bezirke",
+    "antrag_url": "https://www.berlin.de/wirtschaft",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Berlin"
+      ],
+      "mitarbeiter_max": 25
+    },
+    "relevanz_boost": {},
+    "max_betrag": 12000
+  },
+  {
+    "id": "hamburg-hafen-foerderung",
+    "title": "HPA Hamburg – Hafenbezogene Unternehmensförderung",
+    "beschreibung": "Günstige Standortkonditionen und Förderberatung für Unternehmen im Hamburger Hafen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Gemeinde",
+    "foerderer": "Hamburg Port Authority (HPA)",
+    "antrag_url": "https://www.hamburg-port-authority.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Hamburg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Transport & Logistik"
+      ]
+    }
+  },
+  {
+    "id": "koeln-innovationsfonds",
+    "title": "Köln – Kölner Innovationsfonds",
+    "beschreibung": "Förderung technologieorientierter Projekte durch den Innovationsfonds der Stadt Köln.",
+    "typ": "Zuschuss",
+    "quelle": "Gemeinde",
+    "foerderer": "Stadt Köln",
+    "antrag_url": "https://www.koeln.de/wirtschaft",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 100000
+  },
+  {
+    "id": "frankfurt-fintech-foerderung",
+    "title": "Frankfurt – FinTech-Cluster Förderung",
+    "beschreibung": "Förderung von FinTech-Unternehmen durch das Frankfurter FinTech-Ökosystem; Zugang zu Netzwerken und Investoren.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Gemeinde",
+    "foerderer": "Frankfurt Main Finance",
+    "antrag_url": "https://www.frankfurt-main-finance.com",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Hessen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Finanzdienstleistungen",
+        "IT-Dienstleistungen & Software"
+      ]
+    }
+  },
+  {
+    "id": "stuttgart-digitalhub",
+    "title": "Stuttgart – Digitalhub für Start-ups",
+    "beschreibung": "Günstige Büroflächen und Beratungsleistungen für Tech-Start-ups in Stuttgart; Automobilzulieferer-Schwerpunkt.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Gemeinde",
+    "foerderer": "Stadt Stuttgart / Region Stuttgart",
+    "antrag_url": "https://www.region-stuttgart.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ],
+      "mitarbeiter_max": 50
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Industrie & Fertigung"
+      ]
+    }
+  },
+  {
+    "id": "düsseldorf-kreativwirtschaft",
+    "title": "Düsseldorf – Förderung Kreativwirtschaft",
+    "beschreibung": "Zuschüsse für Projekte in der Düsseldorfer Kreativwirtschaft; Design, Kommunikation, Medien.",
+    "typ": "Zuschuss",
+    "quelle": "Gemeinde",
+    "foerderer": "Wirtschaftsförderung Düsseldorf",
+    "antrag_url": "https://www.duesseldorf.de/wirtschaftsfoerderung",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Kreativwirtschaft"
+      ]
+    },
+    "max_betrag": 20000
+  },
+  {
+    "id": "leipzig-gruenderfoerderung",
+    "title": "Leipzig – Gründer-Förderpaket",
+    "beschreibung": "Existenzgründungsberatung und -förderung der Stadt Leipzig; Micro-Grants für Kleinstgründer.",
+    "typ": "Zuschuss",
+    "quelle": "Gemeinde",
+    "foerderer": "Wirtschaftsförderung Leipzig",
+    "antrag_url": "https://www.leipzig.de/wirtschaft",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Sachsen"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {
+      "mitarbeiter": [
+        "1–9"
+      ]
+    },
+    "max_betrag": 5000
+  },
+  {
+    "id": "muenchen-tourismus-foerderung",
+    "title": "München – Tourismusförderprogramm",
+    "beschreibung": "Förderung für touristische Innovationen und nachhaltige Angebote im Großraum München.",
+    "typ": "Zuschuss",
+    "quelle": "Gemeinde",
+    "foerderer": "München Tourismus / LHM",
+    "antrag_url": "https://www.muenchen.de/wirtschaft",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Hotellerie & Beherbergung",
+        "Gastronomie / Hotellerie"
+      ]
+    },
+    "max_betrag": 30000
+  },
+  {
+    "id": "nuernberg-mittelstand-foerderung",
+    "title": "Nürnberg – Mittelstandsförderung MetropolRegion",
+    "beschreibung": "Beratung und Zuschüsse für den Nürnberger Mittelstand; Internationalisierung und Digitalisierung.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Gemeinde",
+    "foerderer": "Metropolregion Nürnberg",
+    "antrag_url": "https://www.metropolregion.nuernberg.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Kurzbeschreibung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 10000
+  },
+  {
+    "id": "foerderung-handwerk-digitalisierung-bund",
+    "title": "BMWK – Handwerk Digital",
+    "beschreibung": "Digitalisierungsberatung und -zuschüsse speziell für Handwerksbetriebe; Kooperation mit Handwerkskammern.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / ZDH",
+    "antrag_url": "https://www.zdh.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 49
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Bau / Handwerk",
+        "Handwerk"
+      ]
+    },
+    "max_betrag": 10000
+  },
+  {
+    "id": "bmwk-tourismus-nachhaltig",
+    "title": "BMWK – Nachhaltige Tourismusentwicklung",
+    "beschreibung": "Förderung nachhaltiger Tourismusprojekte; Ökotourismus, barrierefreier Tourismus, digitale Vermarktung.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "antrag_url": "https://www.bmwk.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Hotellerie & Beherbergung",
+        "Gastronomie / Hotellerie"
+      ]
+    },
+    "max_betrag": 200000
+  },
+  {
+    "id": "bfarm-innovationsprogramm",
+    "title": "BfArM – Innovationsfonds Medizinprodukte",
+    "beschreibung": "Förderung der Entwicklung neuer Medizinprodukte und Diagnostika.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesinstitut für Arzneimittel (BfArM)",
+    "antrag_url": "https://www.bfarm.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Gesundheit / Pflege",
+        "Gesundheitswesen & Soziales"
+      ]
+    },
+    "max_betrag": 1000000
+  },
+  {
+    "id": "foerderung-ki-ethik",
+    "title": "BMBF – KI-Ethik und Erklärbarkeit",
+    "beschreibung": "Förderung von Forschungs- und Anwendungsprojekten zu erklärbarer und ethischer KI.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF",
+    "antrag_url": "https://www.bmbf.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "KI & Hochtechnologie",
+        "IT-Dienstleistungen & Software"
+      ]
+    },
+    "max_betrag": 500000
+  },
+  {
+    "id": "bundesfoerderung-logistik-innovation",
+    "title": "BMWK – Innovative Hafentechnologien",
+    "beschreibung": "Förderung von Innovationsprojekten in der Hafenlogistik und maritimen Wirtschaft.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "antrag_url": "https://www.bmwk.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Transport & Logistik"
+      ]
+    },
+    "max_betrag": 1000000
+  },
+  {
+    "id": "bundesfoerderung-kfz-werkstatt",
+    "title": "BMDV – Elektromobilität Ladeinfrastruktur Fuhrpark",
+    "beschreibung": "Zuschüsse für Aufbau von Ladeinfrastruktur für Elektrofahrzeuge bei Unternehmen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMDV",
+    "antrag_url": "https://www.bmdv.bund.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Transport & Logistik",
+        "Bau / Handwerk"
+      ]
+    },
+    "max_betrag": 100000
+  },
+  {
+    "id": "kfw-sozialwohnungsbau",
+    "title": "KfW – Soziale Wohnraumförderung",
+    "beschreibung": "Günstige Darlehen für Bau und Sanierung sozialen Wohnraums; für gemeinnützige Wohnungsgesellschaften.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "antrag_url": "https://www.kfw.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "e.V. (Verein)",
+        "gGmbH (gemeinnützig)"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 15000000,
+    "zins": "ab 0,5 %"
+  },
+  {
+    "id": "eu-youth-employment",
+    "title": "ESF+ – Jugendgarantie und Jugendbeschäftigung",
+    "beschreibung": "Förderung der Jugendbeschäftigung; Erstausbildung, Praktika, Qualifizierung junger Menschen.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "ESF+ / BMAS",
+    "antrag_url": "https://www.esf.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    },
+    "max_betrag": 30000
+  },
+  {
+    "id": "bmbf-startup-challenge",
+    "title": "BMBF – Startup-Challenge und Innovationswettbewerb",
+    "beschreibung": "Wettbewerbsbasierte Förderung für Start-ups; Preisgelder und Anschlussfinanzierung.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF",
+    "antrag_url": "https://www.bmbf.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "KI & Hochtechnologie",
+        "IT-Dienstleistungen & Software",
+        "Software / IT"
+      ],
+      "mitarbeiter": [
+        "1–9"
+      ]
+    },
+    "max_betrag": 100000
+  },
+  {
+    "id": "foerderung-recycling-kreislauf",
+    "title": "BMUV – Kreislaufwirtschaft Innovationsprojekte",
+    "beschreibung": "Förderung von Innovationen für Abfallvermeidung, Recycling und Kreislaufwirtschaft.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Umwelt (BMUV)",
+    "antrag_url": "https://www.bmuv.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Handel / E-Commerce"
+      ]
+    },
+    "max_betrag": 1000000
+  },
+  {
+    "id": "foerderung-kulturelle-infrastruktur",
+    "title": "BKM – Kulturinfrastruktur Digitalisierung",
+    "beschreibung": "Zuschüsse für die Digitalisierung kultureller Einrichtungen und Erschließung kulturellen Erbes.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesbeauftragte für Kultur und Medien (BKM)",
+    "antrag_url": "https://www.kulturstaatsministerin.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "e.V. (Verein)",
+        "gGmbH (gemeinnützig)"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Kreativwirtschaft"
+      ]
+    },
+    "max_betrag": 200000
+  },
+  {
+    "id": "eu-space-programme",
+    "title": "EU Space Programme – Copernicus und Galileo Nutzung",
+    "beschreibung": "Förderung von Anwendungen, die Copernicus-Erdbeobachtungsdaten oder Galileo nutzen; Ausschreibungsbasiert.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission / EUSPA",
+    "antrag_url": "https://euspa.europa.eu/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "KI & Hochtechnologie",
+        "Transport & Logistik"
+      ]
+    },
+    "max_betrag": 500000
+  },
+  {
+    "id": "bmbf-werkstoffinnovation",
+    "title": "BMBF – Werkstoffinnovationen für Industrie",
+    "beschreibung": "Förderung neuer Materialien und Fertigungsverfahren; Leichtbau, Verbundwerkstoffe, Additive Fertigung.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF",
+    "antrag_url": "https://www.bmbf.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Produktion / Fertigung"
+      ]
+    },
+    "max_betrag": 2000000
+  },
+  {
+    "id": "bundesfoerderung-pflanzenschutz",
+    "title": "BMEL – Pflanzenschutz und ökologischer Landbau",
+    "beschreibung": "Förderung des ökologischen Landbaus und umweltfreundlicher Pflanzenschutzmaßnahmen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMEL",
+    "antrag_url": "https://www.bmel.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Land- & Forstwirtschaft"
+      ]
+    },
+    "max_betrag": 200000
+  },
+  {
+    "id": "foerderung-weiterbildung-digital",
+    "title": "BMBF – Digitale Weiterbildung Qualifizierung",
+    "beschreibung": "Förderung betrieblicher Weiterbildungsmaßnahmen für die digitale Transformation.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF",
+    "antrag_url": "https://www.bmbf.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    },
+    "max_betrag": 30000
+  },
+  {
+    "id": "kfw-kredit-arbeitsstätten",
+    "title": "KfW – Altersgerecht Umbauen gewerblich",
+    "beschreibung": "Finanzierung barrierefreier Umbaumaßnahmen in gewerblichen Räumen.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "antrag_url": "https://www.kfw.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 150000,
+    "zins": "zinsgünstig"
+  },
+  {
+    "id": "bmelv-foerderung-lebensmitteltechnologie",
+    "title": "BMEL – Lebensmitteltechnologie und Innovation",
+    "beschreibung": "Förderung von Innovationsprojekten in der Lebensmittelverarbeitung und -technologie.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMEL",
+    "antrag_url": "https://www.bmel.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Lebensmittelhandel"
+      ]
+    },
+    "max_betrag": 500000
+  },
+  {
+    "id": "eu-innovationsfonds-kleinprojekte",
+    "title": "EU Innovationsfonds – Kleine Klimaschutzprojekte",
+    "beschreibung": "Förderung kleiner und mittlerer Klimaschutzprojekte (1–7,5 Mio. €) aus EU-ETS-Erlösen; vereinfachtes Antragsverfahren.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission",
+    "antrag_url": "https://ec.europa.eu/clima/eu-action/eu-emissions-trading-system-eu-ets/innovation-fund_de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Produktion / Fertigung"
+      ]
+    },
+    "max_betrag": 7500000
+  },
+  {
+    "id": "bundesfoerderung-gleichstellung-preis",
+    "title": "BMFSFJ – Bundespreis Gleichstellung",
+    "beschreibung": "Förderpreis und Beratungsleistungen für vorbildliche Gleichstellungspraktiken in Unternehmen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMFSFJ",
+    "antrag_url": "https://www.bmfsfj.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "relevanz_boost": {},
+    "max_betrag": 10000
+  },
+  {
+    "id": "by-innovationsbonus-cluster",
+    "title": "Bayern – Innovationsbonus Cluster Bayern",
+    "beschreibung": "Förderung von Clusterprojekten in bayerischen Schlüsselindustrien; Automobil, Luft- und Raumfahrt, Medizintechnik.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Bayerisches Staatsministerium für Wirtschaft",
+    "antrag_url": "https://www.stmwi.bayern.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "KI & Hochtechnologie"
+      ]
+    },
+    "max_betrag": 1000000
+  },
+  {
+    "id": "nrw-transformationsfoerderung",
+    "title": "NRW – Transformationsförderung Strukturwandel Ruhr",
+    "beschreibung": "Förderung des wirtschaftlichen Strukturwandels im Ruhrgebiet; neue Industrien und Innovation.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "NRW Wirtschaftsministerium / RAG-Stiftung",
+    "antrag_url": "https://www.wirtschaft.nrw",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 2000000
+  },
+  {
+    "id": "sachsen-medizintechnik",
+    "title": "SAB Sachsen – Medizintechnik und Biotechnologie",
+    "beschreibung": "Förderung von FuE-Projekten in der sächsischen Medizintechnik- und Biotechnologiebranche.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "SAB Sachsen",
+    "antrag_url": "https://www.sab.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Sachsen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Gesundheit / Pflege",
+        "Gesundheitswesen & Soziales"
+      ]
+    },
+    "max_betrag": 500000
+  },
+  {
+    "id": "bw-gruendungsfoerderung",
+    "title": "L-Bank BW – Start-up BW PreSeed",
+    "beschreibung": "Pre-Seed-Beteiligung für besonders innovative Start-ups in Baden-Württemberg.",
+    "typ": "Beteiligung",
+    "quelle": "Bundesland",
+    "foerderer": "L-Bank / Start-up BW",
+    "antrag_url": "https://www.l-bank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "KI & Hochtechnologie",
+        "IT-Dienstleistungen & Software"
+      ],
+      "mitarbeiter": [
+        "1–9"
+      ]
+    },
+    "max_betrag": 200000
+  },
+  {
+    "id": "hamburg-cleantech-foerderung",
+    "title": "IFB Hamburg – CleanTech-Förderung",
+    "beschreibung": "Finanzierung für Hamburger Unternehmen in den Bereichen Umwelttechnologie und nachhaltige Wirtschaft.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "IFB Hamburg",
+    "antrag_url": "https://www.ifbhh.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Hamburg"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 500000
+  },
+  {
+    "id": "thueringen-exportfoerderung",
+    "title": "TAB Thüringen – Außenwirtschaft und Export",
+    "beschreibung": "Förderung thüringischer Unternehmen bei der Erschließung internationaler Märkte; Messebeteiligungen, Marktanalysen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "TAB / GFAW Thüringen",
+    "antrag_url": "https://www.aufbaubank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Thüringen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 15000
+  },
+  {
+    "id": "mv-küstenregion-foerderung",
+    "title": "Förderinstitut MV – Küstenwirtschaft und maritimer Tourismus",
+    "beschreibung": "Förderung wirtschaftlicher Aktivitäten in der Küstenregion MV; Tourismus, Fischerei, maritime Industrie.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Förderinstitut MV",
+    "antrag_url": "https://www.foerderinstitut-mv.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Mecklenburg-Vorpommern"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Hotellerie & Beherbergung",
+        "Land- & Forstwirtschaft"
+      ]
+    },
+    "max_betrag": 200000
+  },
+  {
+    "id": "sachsen-anhalt-automobilzulieferer",
+    "title": "IB Sachsen-Anhalt – Transformation Automobilzulieferer",
+    "beschreibung": "Förderung des Wandels von Automobilzulieferern in Sachsen-Anhalt hin zu E-Mobilität und alternativen Antrieben.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "IB Sachsen-Anhalt",
+    "antrag_url": "https://www.ib-sachsen-anhalt.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Sachsen-Anhalt"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Industrie & Fertigung",
+        "Produktion / Fertigung"
+      ]
+    },
+    "max_betrag": 500000
+  },
+  {
+    "id": "rlp-landwirtschaft-investition",
+    "title": "ISB RLP – Agrarinvestitionsförderung",
+    "beschreibung": "Investitionsbeihilfen für landwirtschaftliche Betriebe in Rheinland-Pfalz; Modernisierung und Nachhaltigkeit.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "ISB RLP / MLU",
+    "antrag_url": "https://www.isb.rlp.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Rheinland-Pfalz"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Land- & Forstwirtschaft"
+      ]
+    },
+    "max_betrag": 400000
+  },
+  {
+    "id": "niedersachsen-offshore-wind",
+    "title": "NBank Niedersachsen – Offshore-Windkraft Wertschöpfungskette",
+    "beschreibung": "Förderung niedersächsischer Zulieferer und Dienstleister der Offshore-Windenergie-Industrie.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "NBank Niedersachsen",
+    "antrag_url": "https://www.nbank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregistrierung",
+        "auto": true
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "bundeslaender": [
+        "Niedersachsen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {},
+    "max_betrag": 1000000
   }
 ]

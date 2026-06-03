@@ -6,6 +6,9 @@ import {
   impressumTemplate,
   arbeitszeitnachweisTemplate,
   arbeitsschutzunterweisungTemplate,
+  kassenbuchTemplate,
+  datenschutzFolgenabschaetzungTemplate,
+  itSicherheitsrichtlinieTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -22,6 +25,9 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   impressum: 'Impressum',
   arbeitszeitnachweis: 'Arbeitszeitnachweis-Vorlage',
   'arbeitsschutz-unterweisung': 'Arbeitsschutzunterweisung-Vorlage',
+  kassenbuch: 'Kassenbuch-Vorlage',
+  'datenschutz-folgenabschaetzung': 'Datenschutz-Folgenabschätzung (DPIA)',
+  'it-sicherheitsrichtlinie': 'IT-Sicherheitsrichtlinie',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -56,6 +62,9 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'impressum': return applyTemplate(impressumTemplate, vars)
     case 'arbeitszeitnachweis': return applyTemplate(arbeitszeitnachweisTemplate, vars)
     case 'arbeitsschutz-unterweisung': return applyTemplate(arbeitsschutzunterweisungTemplate, vars)
+    case 'kassenbuch': return applyTemplate(kassenbuchTemplate, vars)
+    case 'datenschutz-folgenabschaetzung': return applyTemplate(datenschutzFolgenabschaetzungTemplate, vars)
+    case 'it-sicherheitsrichtlinie': return applyTemplate(itSicherheitsrichtlinieTemplate, vars)
   }
 }
 

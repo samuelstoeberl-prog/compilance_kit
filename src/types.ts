@@ -24,6 +24,9 @@ export type DokumentTyp =
   | 'impressum'
   | 'arbeitszeitnachweis'
   | 'arbeitsschutz-unterweisung'
+  | 'kassenbuch'
+  | 'datenschutz-folgenabschaetzung'
+  | 'it-sicherheitsrichtlinie'
 
 export interface GiltFuer {
   rechtsformen: string[]
