@@ -26905,5 +26905,465 @@
       "mitarbeiter_max": 249
     },
     "relevanz_boost": {}
+  },
+  {
+    "id": "eu-horizon-europe-kmu-instrument",
+    "title": "Horizon Europe KMU-Instrument (EIC Pathfinder)",
+    "beschreibung": "EU-Förderung für bahnbrechende Frühphasenforschung mit Potential für disruptive Technologien. Kollaborative und Einzelprojekte bis 4 Mio. €. Schwerpunkt: Deep Tech, Biowissenschaften, Quantentechnologien.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "EIC / Europäische Kommission",
+    "max_betrag": 4000000,
+    "zins": null,
+    "antrag_url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder_de",
+    "bearbeitungszeit_wochen": [
+      20,
+      52
+    ],
+    "ausschlusskriterien": [
+      "Reine Anwendungsentwicklung ohne Forschungsanteil"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Forschungsvorschlag",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "DeepTech",
+        "Quantentechnologie",
+        "Biotech",
+        "KI",
+        "Materialwissenschaft"
+      ]
+    }
+  },
+  {
+    "id": "bund-nachhaltige-mobilität-sofortprogramm",
+    "title": "Sofortprogramm Klimaschutz – Schienenfahrzeuge und ÖPNV",
+    "beschreibung": "Bundesförderung für klimafreundliche Fahrzeuge im ÖPNV: Brennstoffzellen-Busse, Batterie-Busse, Wasserstoff-Züge. Zuschüsse bis 80 % bei Kommunen und Verkehrsgesellschaften.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMDV / NOW GmbH",
+    "max_betrag": 5000000,
+    "zins": null,
+    "antrag_url": "https://www.now-gmbh.de/",
+    "bearbeitungszeit_wochen": [
+      12,
+      30
+    ],
+    "ausschlusskriterien": [
+      "Private Pkw",
+      "Kein ÖPNV-Bezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektskizze",
+        "auto": false
+      },
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "Verein"
+      ],
+      "branchen": [
+        "Transport",
+        "Busunternehmen",
+        "Schienenverkehr",
+        "Logistik"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-foerderung-energieberatung-bundesfoerderung",
+    "title": "BAFA Energieberatung Mittelstand",
+    "beschreibung": "Zuschuss zu Energieberatungskosten für gewerbliche Unternehmen. Zuschuss 60 % (bis 60 kW Verbrauch) oder 50 % (größere Unternehmen) der förderfähigen Beratungskosten, max. 6.000 €.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA",
+    "max_betrag": 6000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Energie/Energieberatung/Energieberatung_Mittelstand/energieberatung_mittelstand_node.html",
+    "bearbeitungszeit_wochen": [
+      2,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Privatpersonen",
+      "Freie Berufe ohne Gewerbe"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Beratungsangebot",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Produktion",
+        "Handel",
+        "Handwerk",
+        "Gastronomie"
+      ]
+    }
+  },
+  {
+    "id": "bund-reallabore-digitale-innovationen",
+    "title": "Reallabore – Experimentierräume für digitale Innovationen",
+    "beschreibung": "Bundesministerien ermöglichen zeitlich begrenzte Erprobung neuer Technologien (Smart Mobility, KI, Blockchain) in regulatorischen Sandboxen. Keine Direktförderung, aber Regulierungserleichterungen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / BMDV",
+    "max_betrag": null,
+    "zins": null,
+    "antrag_url": "https://www.bmwk.de/Redaktion/DE/Artikel/Digitale-Welt/reallabore.html",
+    "bearbeitungszeit_wochen": [
+      8,
+      26
+    ],
+    "ausschlusskriterien": [
+      "Kein Innovationsbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Innovationsbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Regulierungsbedarf-Analyse",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR"
+      ],
+      "branchen": [
+        "IT",
+        "Fintech",
+        "Smart City",
+        "Autonomes Fahren",
+        "Drohnen"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "sachsen-gründerkredit-start",
+    "title": "Sachsen – Gründerkredit SAB",
+    "beschreibung": "Günstiger Gründerkredit der Sächsischen Aufbaubank für Existenzgründer in Sachsen. Finanzierung von Investitionen und Betriebsmitteln bis 5 Jahre nach Gründung. Tilgungsfreie Anlaufjahre.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Sächsische Aufbaubank (SAB)",
+    "max_betrag": 1000000,
+    "zins": "ab 1,65 % eff.",
+    "antrag_url": "https://www.sab.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb Sachsen",
+      "Unternehmen > 5 Jahre"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "bundeslaender": [
+        "Sachsen"
+      ]
+    },
+    "relevanz_boost": {
+      "gruendungsjahr": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ]
+    }
+  },
+  {
+    "id": "hessen-tech-startup-fonds",
+    "title": "Hessen-Kapital – Tech Start-up Fonds",
+    "beschreibung": "Beteiligungskapital für Tech-Start-ups in Hessen in Früh- und Wachstumsphase. Co-Investment mit privaten Business Angels und VC-Fonds. Ticket: 250.000–2 Mio. €.",
+    "typ": "Beteiligung",
+    "quelle": "Bundesland",
+    "foerderer": "Hessen Kapital / WiBank",
+    "max_betrag": 2000000,
+    "zins": null,
+    "antrag_url": "https://www.wibank.de/",
+    "bearbeitungszeit_wochen": [
+      8,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb Hessen",
+      "Kein Tech-Schwerpunkt"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Pitch-Deck",
+        "auto": false
+      },
+      {
+        "name": "Businessplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "bundeslaender": [
+        "Hessen"
+      ],
+      "mitarbeiter_max": 49
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT",
+        "Software",
+        "Fintech",
+        "GreenTech",
+        "KI"
+      ],
+      "gruendungsjahr": [
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    }
+  },
+  {
+    "id": "bund-bürgschaft-ohne-bank-kfw",
+    "title": "KfW-Bürgschaft / Bürgschaftsbank – Kreditbesicherung",
+    "beschreibung": "Bürgschaftsbanken der Länder übernehmen Ausfallbürgschaften für KMU, die nicht ausreichend Sicherheiten haben (bis 1,25 Mio. €). KfW-Bürgschaften für größere Vorhaben (bis 1,5 Mrd. €). Ermöglicht Hausbankkredite.",
+    "typ": "Bürgschaft",
+    "quelle": "Bund",
+    "foerderer": "KfW / Bürgschaftsbanken der Länder",
+    "max_betrag": 1250000,
+    "zins": "Bürgschaftsentgelt 0,8–1,5 % p.a.",
+    "antrag_url": "https://www.vdb-info.de/",
+    "bearbeitungszeit_wochen": [
+      3,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Ausreichend Sicherheiten vorhanden"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Kreditantrag",
+        "auto": false
+      },
+      {
+        "name": "Jahresabschlüsse",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "relevanz_boost": {
+      "gruendungsjahr": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    }
+  },
+  {
+    "id": "bund-fachkräfteprogramm-einwanderungsgesetz",
+    "title": "Fachkräfteeinwanderung – Förderung Anerkennung ausländischer Abschlüsse",
+    "beschreibung": "BMBF und BA fördern Beratung und Qualifizierungsmaßnahmen zur Anerkennung ausländischer Berufsabschlüsse. Unternehmen können geförderte Qualifizierungsmaßnahmen für ausländische Fachkräfte nutzen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / Bundesagentur für Arbeit",
+    "max_betrag": 10000,
+    "zins": null,
+    "antrag_url": "https://www.make-it-in-germany.com/",
+    "bearbeitungszeit_wochen": [
+      2,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Anerkennungsantrag",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Gesundheitswirtschaft",
+        "Pflege",
+        "IT",
+        "Bau",
+        "Handwerk"
+      ]
+    }
+  },
+  {
+    "id": "mv-tourismusfoerderung-ostseeland",
+    "title": "MV – Tourismusförderung Mecklenburg-Vorpommern",
+    "beschreibung": "MV fördert Investitionen in Tourismusinfrastruktur: Hotels, Gastronomie, Freizeitanlagen, Radwege. EFRE-Mittel und GRW-Zuschüsse. Besonders für naturnahen Tourismus.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "LFI MV / Tourismusverband MV",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.lfi-mv.de/",
+    "bearbeitungszeit_wochen": [
+      8,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb MV"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "bundeslaender": [
+        "Mecklenburg-Vorpommern"
+      ],
+      "branchen": [
+        "Tourismus",
+        "Gastronomie",
+        "Hotellerie"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "thueringen-innovationsfoerderung-tap",
+    "title": "Thüringen – Innovationsförderung TAP",
+    "beschreibung": "Thüringer Aufbaubank fördert Innovationsprojekte in Unternehmen: Forschung und Entwicklung, Technologietransfer. Fördersatz bis 50 % für KMU, max. 400.000 €. EFRE kofinanziert.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Thüringer Aufbaubank (TAB)",
+    "max_betrag": 400000,
+    "zins": null,
+    "antrag_url": "https://www.aufbaubank.de/",
+    "bearbeitungszeit_wochen": [
+      8,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb Thüringen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "FuE-Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR"
+      ],
+      "bundeslaender": [
+        "Thüringen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT",
+        "Optik",
+        "Maschinenbau",
+        "Medizintechnik"
+      ]
+    }
   }
 ]

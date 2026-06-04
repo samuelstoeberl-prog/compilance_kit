@@ -22788,5 +22788,739 @@
       ]
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "bank-mifid2-anlageberatung",
+    "title": "MiFID II – Anforderungen an Anlageberatung und Vermögensverwaltung",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "Anlageberater und Vermögensverwalter müssen Geeignetheitsprüfung (Suitability), Angemessenheitsprüfung (Appropriateness) und umfangreiche Dokumentationspflichten einhalten. Provisionsoffenlegung und Interessenkonfliktmanagement.",
+    "rechtsgrundlage": "WpHG §§ 63–80, EU-RL 2014/65/EU (MiFID II)",
+    "quelle_url": "https://www.bafin.de/DE/Aufsicht/WertpapierhandelsunternehmenBanken/Anforderungen/Verhaltenspflichten/verhaltenspflichten_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Finanzen",
+        "Banken",
+        "Versicherungen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "bank-pfandbrief-hypothekenbank",
+    "title": "Pfandbriefgesetz – Deckungsmasse und Transparenz",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "Pfandbriefbanken müssen deckungsreife Hypothekendarlehen in der Deckungsmasse führen, Treuhänder bestellen und Quartalsberichte über die Deckungsmasse veröffentlichen (PfandBG §§ 14–28).",
+    "rechtsgrundlage": "PfandBG §§ 1, 14",
+    "quelle_url": "https://www.gesetze-im-internet.de/pfandbg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG"
+      ],
+      "branchen": [
+        "Banken",
+        "Finanzdienstleistungen",
+        "Immobilien"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "bank-factoring-abtretungsverbot",
+    "title": "Factoring und Abtretungsverbote (§ 354a HGB)",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "Forderungsabtretungsverbote in AGB und Kaufverträgen sind gegenüber Factoringunternehmen unwirksam (§ 354a HGB), sofern beide Parteien Kaufleute sind. Factoring kann trotz Abtretungsverbot genutzt werden.",
+    "rechtsgrundlage": "HGB § 354a, BGB § 399",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__354a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-umsatzsteuer-kleinunternehmerregelung",
+    "title": "Kleinunternehmerregelung (§ 19 UStG) – Wegfall ab 2025",
+    "category": "Steuer",
+    "beschreibung": "Kleinunternehmer (Vorjahresumsatz ≤ 22.000 €, Voraussatz ≤ 50.000 €) sind von der Umsatzsteuer befreit. Ab 2025: EU-weite Anpassung, Schwelle erhöht. Keine Vorsteuerabzugsmöglichkeit. Wahlrecht zum Verzicht.",
+    "rechtsgrundlage": "UStG § 19, ab 2025: § 19 UStG neu",
+    "quelle_url": "https://www.gesetze-im-internet.de/ustg_1980/__19.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Freiberufler",
+        "GbR",
+        "Einzelunternehmen",
+        "UG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-umweltsteuer-energiesteuer-mineralöl",
+    "title": "Energiesteuer auf Kraftstoffe und Heizöl",
+    "category": "Steuer",
+    "beschreibung": "Mineralöl, Benzin, Diesel und andere Kraftstoffe unterliegen der Energiesteuer (früher Mineralölsteuer). Energiesteuerbegünstigungen für Land- und Forstwirtschaft (Agrardiesel), ÖPNV, Biokraftstoffe möglich.",
+    "rechtsgrundlage": "EnStG §§ 2, 49–60",
+    "quelle_url": "https://www.zoll.de/DE/Fachthemen/Steuern/Verbrauchsteuern/Energie-Strom-Erdgas/Energiesteuer-Stromsteuer/energiesteuer-stromsteuer_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Transport",
+        "Landwirtschaft",
+        "Energie",
+        "Mineralöl"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-gewerbesteuer-hinzurechnungen",
+    "title": "Gewerbesteuerliche Hinzurechnungen (§ 8 GewStG)",
+    "category": "Steuer",
+    "beschreibung": "Bestimmte Aufwendungen (Zinsen, Mieten, Lizenzen, Leasingraten) werden dem Gewerbeertrag anteilig wieder hinzugerechnet (§ 8 GewStG). Dies erhöht die Gewerbesteuerlast bei kapitalintensiven Unternehmen.",
+    "rechtsgrundlage": "GewStG § 8",
+    "quelle_url": "https://www.gesetze-im-internet.de/gewstg/__8.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-verlustabzug-mindestbesteuerung",
+    "title": "Mindestbesteuerung – Verlustabzugsbeschränkung (§ 10d EStG)",
+    "category": "Steuer",
+    "beschreibung": "Verluste können unbeschränkt 1 Jahr zurückgetragen werden (1 Mio. €). Vortrag ist unbegrenzt, aber nur zu 60 % des 1 Mio. € übersteigenden Gesamtbetrags abziehbar (Mindestbesteuerung § 10d EStG).",
+    "rechtsgrundlage": "EStG § 10d, KStG § 10a GewStG",
+    "quelle_url": "https://www.gesetze-im-internet.de/estg/__10d.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-immissionsschutzrechtliche-genehmigung-bimschg",
+    "title": "Immissionsschutzgenehmigung (BImSchG) für Industrieanlagen",
+    "category": "Umwelt",
+    "beschreibung": "Bestimmte Industrieanlagen (4. BImSchV) bedürfen einer Genehmigung nach BImSchG. Genehmigungsantrag enthält Beschreibung von Anlage, Emissionen, Schutzmaßnahmen. Betreiberpflichten: Stand der Technik, Überwachung.",
+    "rechtsgrundlage": "BImSchG §§ 4, 5, 4. BImSchV",
+    "quelle_url": "https://www.gesetze-im-internet.de/bimschg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG"
+      ],
+      "branchen": [
+        "Produktion",
+        "Chemie",
+        "Stahl",
+        "Energie",
+        "Abfallwirtschaft",
+        "Zement"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-wasserrecht-einleitung-abwasser",
+    "title": "Wasserrecht – Einleitungserlaubnis (WHG)",
+    "category": "Umwelt",
+    "beschreibung": "Das Einleiten von Stoffen in Gewässer bedarf einer wasserrechtlichen Erlaubnis (§ 8 WHG). Indirekteinleiter (Anschluss an Kanal) benötigen ggf. Indirekteinleitergenehmigung der Gemeinde. Abwassergebühren.",
+    "rechtsgrundlage": "WHG §§ 8, 57, AbwV",
+    "quelle_url": "https://www.gesetze-im-internet.de/whg_2009/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Produktion",
+        "Chemie",
+        "Lebensmittel",
+        "Kfz",
+        "Wäschereien"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-bodenschutz-altlasten",
+    "title": "Bodenschutz und Altlastensanierung (BBodSchG)",
+    "category": "Umwelt",
+    "beschreibung": "Grundstückseigentümer und -besitzer müssen Bodenverschmutzungen vermeiden und bei bestehenden Altlasten sanieren. Behördliche Anordnungen zur Erkundung und Sanierung möglich. Altlastenverdacht beim Kauf prüfen.",
+    "rechtsgrundlage": "BBodSchG §§ 4, 9",
+    "quelle_url": "https://www.gesetze-im-internet.de/bbodschg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Bau",
+        "Immobilien",
+        "Chemie",
+        "Produktion",
+        "Tankstellen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-lärm-vibration-arbeitsstätte",
+    "title": "Lärmschutz am Arbeitsplatz (LärmVibrationsArbSchV)",
+    "category": "Umwelt",
+    "beschreibung": "Bei Lärm-Expositionswerten über 80 dB(A) müssen Arbeitgeber Gehörschutz bereitstellen; ab 85 dB(A) ist Gehörschutz verpflichtend. Audiometrische Untersuchungen und Gefährdungsbeurteilung erforderlich.",
+    "rechtsgrundlage": "LärmVibrationsArbSchV §§ 5–9",
+    "quelle_url": "https://www.gesetze-im-internet.de/l_rmvibrationsarbschv/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Bau",
+        "Produktion",
+        "Maschinenbau",
+        "Kfz",
+        "Musik",
+        "Gastronomie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-chemikalienrecht-reach-registration",
+    "title": "REACH-Verordnung – Registrierung chemischer Stoffe",
+    "category": "Umwelt",
+    "beschreibung": "Hersteller und Importeure von chemischen Stoffen (≥ 1 t/Jahr) müssen diese bei der ECHA registrieren (REACH). Downstream-User müssen Sicherheitsdatenblätter beachten und eigene Risikobewertungen durchführen.",
+    "rechtsgrundlage": "EU-VO 1907/2006 (REACH), ChemG",
+    "quelle_url": "https://echa.europa.eu/de/regulations/reach/understanding-reach",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Chemie",
+        "Pharma",
+        "Kosmetik",
+        "Farben",
+        "Reinigung",
+        "Automobil"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-biozidprodukte-zulassung",
+    "title": "Biozidprodukte-Verordnung (EU 528/2012) – Zulassungspflicht",
+    "category": "Umwelt",
+    "beschreibung": "Biozidprodukte (Desinfektionsmittel, Schädlingsbekämpfungsmittel, Konservierungsmittel etc.) dürfen nur nach Zulassung durch ECHA oder nationale Behörden (BfR, UBA) in Verkehr gebracht werden.",
+    "rechtsgrundlage": "EU-VO 528/2012 (BPR), ChemG § 28",
+    "quelle_url": "https://www.bfr.bund.de/de/biozide_und_biozidprodukte.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Chemie",
+        "Reinigung",
+        "Gesundheitswirtschaft",
+        "Landwirtschaft",
+        "Schädlingsbekämpfung"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsschutz-ersthelfer-betrieb",
+    "title": "Ersthelfer-Pflicht im Betrieb (DGUV V1)",
+    "category": "Brandschutz",
+    "beschreibung": "In Betrieben mit ≥ 2 Beschäftigten muss mindestens ein ausgebildeter Ersthelfer vorhanden sein (DGUV-V 1 § 26). Richtwert: 1 Ersthelfer pro 10 Beschäftigte in Verwaltung, 1 pro 5 in gefährdeten Bereichen. Alle 2 Jahre Auffrischung.",
+    "rechtsgrundlage": "DGUV V1 § 26, BGV A1",
+    "quelle_url": "https://www.dguv.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsschutz-sicherheitsfachkraft-sifa",
+    "title": "Betriebliche Sicherheitsfachkraft (SiFa) – Pflicht ASiG",
+    "category": "Brandschutz",
+    "beschreibung": "Arbeitgeber müssen Betriebsärzte und Fachkräfte für Arbeitssicherheit (SiFa) nach ASiG bestellen. Für Betriebe mit ≤ 10 MA in bestimmten Branchen: Alternative-Betreuungsmodell möglich (OSHA-Direktbetreuung).",
+    "rechtsgrundlage": "ASiG §§ 1–6, DGUV V2",
+    "quelle_url": "https://www.gesetze-im-internet.de/arbsichg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsschutz-persönliche-schutzausrüstung-psa",
+    "title": "Persönliche Schutzausrüstung (PSA) – Bereitstellungspflicht",
+    "category": "Brandschutz",
+    "beschreibung": "Arbeitgeber müssen geeignete PSA kostenlos bereitstellen, wenn technische oder organisatorische Schutzmaßnahmen nicht ausreichen. PSA-Auswahl nach Gefährdungsbeurteilung; Unterweisungs- und Tragepflicht.",
+    "rechtsgrundlage": "PSA-BV, ArbSchG § 3",
+    "quelle_url": "https://www.gesetze-im-internet.de/psa-bv/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Bau",
+        "Produktion",
+        "Chemie",
+        "Gesundheitswirtschaft",
+        "Lebensmittel",
+        "Kfz"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsschutz-bildschirmarbeitsplatz-verordnung",
+    "title": "Bildschirmarbeitsverordnung (BildscharbV)",
+    "category": "Brandschutz",
+    "beschreibung": "Für Bildschirmarbeitsplätze gelten besondere Anforderungen an Ergonomie (Stuhl, Tisch, Monitor, Beleuchtung), Pausen und arbeitsmedizinische Vorsorge. Augenheilkunde-Untersuchung auf Wunsch des Arbeitnehmers.",
+    "rechtsgrundlage": "BildscharbV, ArbStättV",
+    "quelle_url": "https://www.gesetze-im-internet.de/bildscharbv/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "brandschutz-feuerlöscher-prüfung",
+    "title": "Feuerlöscher – Bereitstellungspflicht und Prüfung",
+    "category": "Brandschutz",
+    "beschreibung": "Jeder Arbeitgeber muss ausreichende Feuerlöschmittel bereitstellen (ArbStättV § 4, ASR A2.2). Feuerlöscher müssen alle 2 Jahre von einem Sachkundigen geprüft werden. Anzahl und Art abhängig von Brandrisiko.",
+    "rechtsgrundlage": "ArbStättV § 4, ASR A2.2, DIN EN 3",
+    "quelle_url": "https://www.gesetze-im-internet.de/arbst_ttv_2004/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "brandschutz-sonderbauten-fachplanungspflicht",
+    "title": "Brandschutznachweis für Sonderbauten",
+    "category": "Brandschutz",
+    "beschreibung": "Für Sonderbauten (Versammlungsstätten, Krankenhäuser, Schulen, Hochhäuser, Industriebauten) muss ein Brandschutznachweis von einem staatlich anerkannten Sachverständigen erstellt und geprüft werden.",
+    "rechtsgrundlage": "LBO der Länder, SonderbauVO, Muster-HochhausRL",
+    "quelle_url": "https://www.vfdb.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Verein"
+      ],
+      "branchen": [
+        "Bau",
+        "Immobilien",
+        "Gesundheitswirtschaft",
+        "Gastronomie",
+        "Hotel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-doppelbesteuerungsabkommen-dba",
+    "title": "Doppelbesteuerungsabkommen (DBA) – Ansässigkeit und Quellensteuer",
+    "category": "Steuer",
+    "beschreibung": "Deutschland hat mit über 90 Ländern DBA abgeschlossen. Sie regeln, welches Land Besteuerungsrecht hat. Wichtig für: Dividendenausschüttungen, Lizenzzahlungen, Gewinne aus Betriebsstätten, grenzüberschreitende Arbeitnehmer.",
+    "rechtsgrundlage": "DBA (bilateral), AStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de/Web/DE/Themen/Steuern/Internationales_Steuerrecht/DBA/dba.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-wegzugsbesteuerung-estg-6",
+    "title": "Wegzugsbesteuerung (§ 6 AStG / § 17 EStG) bei Wohnsitzwechsel",
+    "category": "Steuer",
+    "beschreibung": "Bei Verlagerung des Wohnsitzes ins Ausland (natürliche Personen) oder Verlegung von Betriebsstätten werden stille Reserven besteuert (§ 6 AStG, § 12 KStG). EU-Stundungsmöglichkeit bei Umzug in EU/EWR.",
+    "rechtsgrundlage": "AStG § 6, KStG § 12, EStG § 17",
+    "quelle_url": "https://www.gesetze-im-internet.de/astg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sozialrecht-bav-betriebliche-altersvorsorge",
+    "title": "Betriebliche Altersvorsorge (bAV) – Obligatorischer Arbeitgeberzuschuss",
+    "category": "Sozialversicherung",
+    "beschreibung": "Seit 2019 müssen Arbeitgeber bei neu abgeschlossenen Entgeltumwandlungen 15 % Zuschuss zur bAV zahlen (§ 1a Abs. 1a BetrAVG). Ab 2022 gilt dies für alle Bestands-Entgeltumwandlungen. Nachweispflicht.",
+    "rechtsgrundlage": "BetrAVG § 1a Abs. 1a",
+    "quelle_url": "https://www.gesetze-im-internet.de/betravg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sozialrecht-insolvenzgeldumlage",
+    "title": "Insolvenzgeldumlage (§ 358 SGB III)",
+    "category": "Sozialversicherung",
+    "beschreibung": "Arbeitgeber zahlen monatlich eine Umlage zur Finanzierung des Insolvenzgeldes (0,06 % des Bruttoarbeitsentgelts seit 2024). Im Insolvenzfall erhalten Arbeitnehmer Insolvenzgeld für die letzten 3 Monate.",
+    "rechtsgrundlage": "SGB III §§ 165, 358",
+    "quelle_url": "https://www.arbeitsagentur.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sozialrecht-betriebsrentengesetz-unverfallbarkeit",
+    "title": "Unverfallbarkeit von bAV-Anwartschaften (BetrAVG § 1b)",
+    "category": "Sozialversicherung",
+    "beschreibung": "bAV-Anwartschaften sind unverfallbar, wenn der Arbeitnehmer das 21. Lebensjahr vollendet hat und die Versorgungszusage mindestens 3 Jahre besteht. Bei Arbeitgeberwechsel muss der neue AG die Anwartschaft übernehmen oder ausfinanzieren.",
+    "rechtsgrundlage": "BetrAVG §§ 1b, 4",
+    "quelle_url": "https://www.gesetze-im-internet.de/betravg/__1b.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "immobilien-weg-eigentümerversammlung",
+    "title": "WEG – Eigentümerversammlung und Jahresabrechnung",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "Wohnungseigentümergemeinschaften müssen mindestens einmal jährlich eine Eigentümerversammlung einberufen. Der Verwalter hat jährlich eine Jahresabrechnung vorzulegen. Neue WEG-Reform 2020: Erleichterte Beschlussfassung.",
+    "rechtsgrundlage": "WEG §§ 23–29",
+    "quelle_url": "https://www.gesetze-im-internet.de/woeigg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Immobilien",
+        "Hausverwaltung"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "immobilien-soziale-erhaltungssatzung",
+    "title": "Soziale Erhaltungssatzung – Milieuschutz",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "In Milieuschutzgebieten (§ 172 BauGB) bedarf der Abriss, die Änderung und die Umnutzung von Wohnraum einer Genehmigung. Gemeinde kann Vorkaufsrecht ausüben. Luxussanierungen können verboten werden.",
+    "rechtsgrundlage": "BauGB § 172",
+    "quelle_url": "https://www.gesetze-im-internet.de/bbaug/__172.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Immobilien",
+        "Bau"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-telemediengesetz-tmd-impressum-datenschutz",
+    "title": "Impressumspflicht für Telemedien (TMG / TTDSG)",
+    "category": "Datenschutz",
+    "beschreibung": "Alle kommerziellen Websites und Apps müssen ein Impressum mit leicht erkennbaren, unmittelbar erreichbaren Angaben des Anbieters bereitstellen (§ 5 TMG, jetzt § 5 TTDSG). Pflichtangaben: Name, Anschrift, E-Mail, ggf. Handelsregisternummer.",
+    "rechtsgrundlage": "TTDSG § 5 (früher TMG § 5)",
+    "quelle_url": "https://www.gesetze-im-internet.de/ttdsg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "impressum"
+  },
+  {
+    "id": "digital-verbraucherstreitbeilegung-vsbg",
+    "title": "Hinweispflicht Streitbeilegung (VSBG / OS-Plattform)",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Online-Händler müssen auf die EU-OS-Plattform für Online-Streitbeilegung und die zuständige Verbraucherschlichtungsstelle hinweisen (§ 36 VSBG, § 14 ODR-VO). Fehlt der Hinweis, drohen Abmahnungen.",
+    "rechtsgrundlage": "VSBG § 36, EU-VO 524/2013 (ODR)",
+    "quelle_url": "https://www.gesetze-im-internet.de/vsbg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-barrierefreiheit-webseite-bfsg",
+    "title": "Barrierefreiheit von Webseiten und Apps (BFSG ab 2025)",
+    "category": "Digitales Recht",
+    "beschreibung": "Ab 28. Juni 2025 müssen Produkte und Dienstleistungen, die Verbrauchern angeboten werden (inkl. E-Commerce, E-Banking, E-Books), die Barrierefreiheitsanforderungen des BFSG (WCAG 2.1) erfüllen.",
+    "rechtsgrundlage": "BFSG 2021, EU-RL 2019/882 (Barrierefreiheitsgesetz)",
+    "quelle_url": "https://www.gesetze-im-internet.de/bfsg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "IT",
+        "E-Commerce",
+        "Banken",
+        "Telekommunikation",
+        "Medien"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "handwerk-meisterpflicht-hwo",
+    "title": "Handwerksordnung – Meisterpflicht (§ 1 HwO)",
+    "category": "Gewerberecht",
+    "beschreibung": "Zulassungspflichtige Handwerke der Anlage A HwO dürfen nur als selbstständiger Betrieb geführt werden, wenn ein Meisterbrief oder gleichwertige Qualifikation vorliegt. 41 Gewerke sind meisterpflichtig (Bäcker, Friseure etc. wieder seit 2020).",
+    "rechtsgrundlage": "HwO § 1, Anlage A",
+    "quelle_url": "https://www.gesetze-im-internet.de/hwo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Handwerk",
+        "Bau",
+        "Elektro",
+        "Kfz",
+        "SHK",
+        "Fleischer"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "handwerk-handwerksrolle-eintragung",
+    "title": "Eintragung in die Handwerksrolle",
+    "category": "Gewerberecht",
+    "beschreibung": "Betriebe, die ein Anlage-A-Handwerk selbstständig ausüben, müssen sich in die Handwerksrolle der zuständigen Handwerkskammer eintragen lassen. Pflichtmitgliedschaft und Beitragspflicht zur HWK.",
+    "rechtsgrundlage": "HwO §§ 6, 90",
+    "quelle_url": "https://www.zdh.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Handwerk",
+        "Bau",
+        "Kfz",
+        "SHK",
+        "Elektro",
+        "Lebensmittel"
+      ]
+    },
+    "hat_dokument_generator": false
   }
 ]
