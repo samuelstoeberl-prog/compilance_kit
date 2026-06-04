@@ -24966,5 +24966,2049 @@
       ]
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "geschgehg-001",
+    "title": "Schutz von Geschäftsgeheimnissen (GeschGehG)",
+    "category": "Geistiges Eigentum",
+    "beschreibung": "Das GeschGehG schützt Geschäftsgeheimnisse vor rechtswidriger Erlangung, Nutzung und Offenlegung. Unternehmen müssen angemessene Geheimhaltungsmaßnahmen treffen.",
+    "rechtsgrundlage": "GeschGehG § 2, § 3, § 4",
+    "quelle_url": "https://www.gesetze-im-internet.de/geschgehg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "nda-geheimhaltung"
+  },
+  {
+    "id": "geschgehg-002",
+    "title": "Geheimhaltungsvereinbarung bei Kooperationen",
+    "category": "Vertragsrecht",
+    "beschreibung": "Vor Aufnahme von Geschäftsverhandlungen oder Kooperationen empfiehlt sich der Abschluss einer NDA (Non-Disclosure Agreement) zum Schutz vertraulicher Informationen.",
+    "rechtsgrundlage": "GeschGehG § 2 Nr. 1 lit. b, BGB § 241 Abs. 2",
+    "quelle_url": "https://www.gesetze-im-internet.de/geschgehg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "nda-geheimhaltung"
+  },
+  {
+    "id": "geschgehg-003",
+    "title": "NDA für Mitarbeitende und Auftragnehmer",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Mitarbeitende und externe Dienstleister mit Zugang zu sensiblen Unternehmensinformationen sollten zur Geheimhaltung verpflichtet werden.",
+    "rechtsgrundlage": "GeschGehG § 3 Abs. 1 Nr. 1, BGB § 611a",
+    "quelle_url": "https://www.gesetze-im-internet.de/geschgehg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "nda-geheimhaltung"
+  },
+  {
+    "id": "werkvertrag-001",
+    "title": "Werkvertragspflichten nach BGB",
+    "category": "Vertragsrecht",
+    "beschreibung": "Werkverträge müssen das geschuldete Werk, Vergütung, Abnahme und Mängelrechte klar regeln. Bei höherem Auftragsvolumen empfiehlt sich ein schriftlicher Vertrag.",
+    "rechtsgrundlage": "BGB §§ 631–651",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__631.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "werkvertrag-002",
+    "title": "Abnahmepflicht und Mängelrüge",
+    "category": "Vertragsrecht",
+    "beschreibung": "Der Auftraggeber ist zur Abnahme verpflichtet, wenn das Werk im Wesentlichen mangelfrei ist. Mängel müssen unverzüglich gerügt werden.",
+    "rechtsgrundlage": "BGB § 640, § 641, § 634",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__640.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dsgvo-ext-001",
+    "title": "Datenschutz-Beauftragter – Bestellpflicht",
+    "category": "Datenschutz",
+    "beschreibung": "Ab 20 ständig mit automatisierter Datenverarbeitung beschäftigten Personen muss ein Datenschutzbeauftragter bestellt werden (in bestimmten Fällen auch früher).",
+    "rechtsgrundlage": "DSGVO Art. 37, BDSG § 38",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/DSB_Bestellpflicht.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 20
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dsgvo-ext-002",
+    "title": "Verzeichnis von Verarbeitungstätigkeiten (VVT)",
+    "category": "Datenschutz",
+    "beschreibung": "Unternehmen mit mehr als 250 Mitarbeitenden müssen ein Verzeichnis aller Datenverarbeitungstätigkeiten führen. Bei regelmäßiger Verarbeitung besonderer Kategorien gilt dies auch für kleinere Unternehmen.",
+    "rechtsgrundlage": "DSGVO Art. 30",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/Verzeichnis_Verarbeitungstaetigkeiten.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dsgvo-ext-003",
+    "title": "Datenschutzverletzungen melden (Art. 33 DSGVO)",
+    "category": "Datenschutz",
+    "beschreibung": "Datenschutzverletzungen müssen innerhalb von 72 Stunden an die zuständige Aufsichtsbehörde gemeldet werden. Bei hohem Risiko auch Benachrichtigung der Betroffenen.",
+    "rechtsgrundlage": "DSGVO Art. 33, Art. 34",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/Datenpannen.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dsgvo-ext-004",
+    "title": "Technisch-organisatorische Maßnahmen (TOM)",
+    "category": "Datenschutz",
+    "beschreibung": "Geeignete TOMs zum Schutz personenbezogener Daten müssen implementiert und dokumentiert werden (Verschlüsselung, Pseudonymisierung, Zugangskontrolle etc.).",
+    "rechtsgrundlage": "DSGVO Art. 32",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/TOM.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbr-ext-001",
+    "title": "Elternzeit und Elterngeld",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitnehmerinnen und Arbeitnehmer haben Anspruch auf bis zu 3 Jahre Elternzeit. Der Arbeitgeber muss die Elternzeit gewähren und darf während dieser Zeit nicht kündigen.",
+    "rechtsgrundlage": "BEEG §§ 15–21",
+    "quelle_url": "https://www.gesetze-im-internet.de/beeg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbr-ext-002",
+    "title": "Mutterschutz – Beschäftigungsverbote",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Schwangere Arbeitnehmerinnen genießen besonderen Schutz. Beschäftigungsverbote gelten in den letzten 6 Wochen vor und 8 Wochen nach der Geburt.",
+    "rechtsgrundlage": "MuSchG §§ 3–5, § 17",
+    "quelle_url": "https://www.gesetze-im-internet.de/muschg_2018/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbr-ext-003",
+    "title": "Betriebsrat – Mitbestimmungsrechte",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Ab 5 ständigen wahlberechtigten Arbeitnehmern kann ein Betriebsrat gegründet werden. Der Betriebsrat hat umfangreiche Mitbestimmungsrechte in sozialen, personellen und wirtschaftlichen Angelegenheiten.",
+    "rechtsgrundlage": "BetrVG §§ 87–113",
+    "quelle_url": "https://www.gesetze-im-internet.de/betrvg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 5
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbr-ext-004",
+    "title": "Schwerbehindertenvertretung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Ab 5 schwerbehinderten Beschäftigten muss eine Schwerbehindertenvertretung gewählt werden. Arbeitgeber mit 20+ Arbeitsplätzen müssen mindestens 5% schwerbehinderte Menschen beschäftigen.",
+    "rechtsgrundlage": "SGB IX §§ 177–180",
+    "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 20
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbr-ext-005",
+    "title": "Berufsausbildung – Ausbildungsvertrag",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Berufsausbildungsverträge müssen schriftlich abgeschlossen und bei der zuständigen Kammer registriert werden. Mindestausbildungsvergütung ab 2024: 649 €/Monat im 1. Ausbildungsjahr.",
+    "rechtsgrundlage": "BBiG §§ 10–14, § 17",
+    "quelle_url": "https://www.gesetze-im-internet.de/bbig_2005/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "hgb-ext-001",
+    "title": "Buchführungspflicht nach HGB",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Kaufleute sind zur doppelten Buchführung verpflichtet. Einzelkaufleute mit weniger als 600.000 € Umsatz oder 60.000 € Gewinn können vereinfachte Einnahmen-Überschuss-Rechnung nutzen.",
+    "rechtsgrundlage": "HGB §§ 238–241",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__238.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "OHG",
+        "KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "hgb-ext-002",
+    "title": "Jahresabschluss und Offenlegungspflicht",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Kapitalgesellschaften müssen ihren Jahresabschluss beim Bundesanzeiger offenlegen. Fristen: 12 Monate nach Bilanzstichtag (kleine GmbH), 4 Monate (AG).",
+    "rechtsgrundlage": "HGB §§ 242, 264, 325",
+    "quelle_url": "https://www.bundesanzeiger.de/pub/de/start",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "hgb-ext-003",
+    "title": "Inventurpflicht zum Jahresabschluss",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Kaufleute müssen zu Beginn des Handelsgewerbes und zum Schluss jedes Geschäftsjahres eine Bestandsaufnahme aller Vermögenswerte und Schulden durchführen.",
+    "rechtsgrundlage": "HGB § 240, § 241a",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__240.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "hgb-ext-004",
+    "title": "Prokura und Handlungsvollmacht registrieren",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Die Erteilung einer Prokura muss ins Handelsregister eingetragen werden. Die Prokura ermächtigt zu allen gerichtlichen und außergerichtlichen Handlungen.",
+    "rechtsgrundlage": "HGB §§ 48–58",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__48.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steur-ext-001",
+    "title": "Umsatzsteuer-Voranmeldung",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Umsatzsteuer-Voranmeldungen müssen monatlich oder vierteljährlich beim Finanzamt eingereicht werden. Neugründer sind in den ersten zwei Jahren monatlich meldepflichtig.",
+    "rechtsgrundlage": "UStG § 18",
+    "quelle_url": "https://www.gesetze-im-internet.de/ustg_1980/__18.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steur-ext-002",
+    "title": "Lohnsteuer-Anmeldung",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Arbeitgeber müssen die einbehaltene Lohnsteuer anmelden und an das Finanzamt abführen (monatlich, vierteljährlich oder jährlich je nach Lohnsteuersumme).",
+    "rechtsgrundlage": "EStG § 41a",
+    "quelle_url": "https://www.gesetze-im-internet.de/estg/__41a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steur-ext-003",
+    "title": "Körperschaftsteuer und Solidaritätszuschlag",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Kapitalgesellschaften unterliegen der Körperschaftsteuer (15 % zzgl. 5,5 % SolZ). Vorauszahlungen sind vierteljährlich zu leisten.",
+    "rechtsgrundlage": "KStG §§ 1–8, SolZG",
+    "quelle_url": "https://www.gesetze-im-internet.de/kstg_1977/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steur-ext-004",
+    "title": "Gewerbesteuer – Anzeigepflicht und Vorauszahlung",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Gewerbetreibende müssen den Betrieb beim Finanzamt anzeigen und Gewerbesteuervorauszahlungen leisten. Freibetrag für Personenunternehmen: 24.500 €.",
+    "rechtsgrundlage": "GewStG §§ 2, 14, 19",
+    "quelle_url": "https://www.gesetze-im-internet.de/gewstg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "uwg-ext-001",
+    "title": "Irreführende Werbung vermeiden (UWG)",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Werbung darf nicht irreführend sein. Unternehmen müssen sicherstellen, dass Preisangaben, Eigenschaften und Leistungsversprechen korrekt sind.",
+    "rechtsgrundlage": "UWG §§ 5, 5a",
+    "quelle_url": "https://www.gesetze-im-internet.de/uwg_2004/__5.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "uwg-ext-002",
+    "title": "Unzumutbare Belästigung durch Werbung",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Unerwünschte Werbung per E-Mail, Telefon oder Fax ist unzulässig. E-Mail-Marketing erfordert ausdrückliche Einwilligung (Double-Opt-In).",
+    "rechtsgrundlage": "UWG § 7, TTDSG § 25",
+    "quelle_url": "https://www.gesetze-im-internet.de/uwg_2004/__7.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "datenschutz-einwilligung"
+  },
+  {
+    "id": "uwg-ext-003",
+    "title": "Preisangabenverordnung (PAngV)",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Im B2C-Handel müssen Endpreise einschließlich aller Steuern und Abgaben angegeben werden. Grundpreise sind bei mengenbezogenen Produkten Pflicht.",
+    "rechtsgrundlage": "PAngV §§ 1–5",
+    "quelle_url": "https://www.gesetze-im-internet.de/pangv_2022/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Handel",
+        "E-Commerce",
+        "Einzelhandel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "uwg-ext-004",
+    "title": "Influencer-Marketing und Kennzeichnungspflicht",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Werbliche Inhalte in sozialen Medien müssen klar als Werbung gekennzeichnet werden. Dies gilt auch für bezahlte Kooperationen mit Influencern.",
+    "rechtsgrundlage": "UWG § 5a Abs. 4, MStV § 22",
+    "quelle_url": "https://www.gesetze-im-internet.de/uwg_2004/__5a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vrb-ext-001",
+    "title": "Fernabsatzvertrag – Widerrufsrecht",
+    "category": "Vertragsrecht",
+    "beschreibung": "Im Online-Handel haben Verbraucher ein 14-tägiges Widerrufsrecht. Die Widerrufsbelehrung muss klar und verständlich erteilt werden.",
+    "rechtsgrundlage": "BGB §§ 312g, 355–357",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__312g.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "E-Commerce",
+        "Handel"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "gewaehrleistung-agb"
+  },
+  {
+    "id": "vrb-ext-002",
+    "title": "Online-Streitbeilegung (OS-Plattform)",
+    "category": "Vertragsrecht",
+    "beschreibung": "Online-Händler müssen einen Link zur OS-Plattform der EU-Kommission auf ihrer Website einfügen und ihre E-Mail-Adresse angeben.",
+    "rechtsgrundlage": "ODR-VO Art. 14, VSBG § 36",
+    "quelle_url": "https://ec.europa.eu/consumers/odr",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "E-Commerce",
+        "Handel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vrb-ext-003",
+    "title": "Produktsicherheit – CE-Kennzeichnung",
+    "category": "Produktrecht",
+    "beschreibung": "Bestimmte Produkte müssen die CE-Kennzeichnung tragen und entsprechende Konformitätserklärungen vorhalten. Dies betrifft u.a. Elektrogeräte, Spielzeug, Maschinen.",
+    "rechtsgrundlage": "ProdSG, EU-Richtlinien 2006/42/EG, 2014/35/EU",
+    "quelle_url": "https://www.baua.de/DE/Themen/Arbeitsgestaltung-im-Betrieb/Produktsicherheit/Produktsicherheit_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Produktion",
+        "Handel",
+        "Technologie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-ext-001",
+    "title": "Barrierefreiheit digitaler Angebote (BFSG)",
+    "category": "Digitales Recht",
+    "beschreibung": "Ab Juni 2025 müssen bestimmte digitale Produkte und Dienstleistungen barrierefrei gestaltet sein (BFSG). Betroffen sind u.a. E-Commerce, Banking, Telekommunikation.",
+    "rechtsgrundlage": "BFSG, EU-Richtlinie 2019/882",
+    "quelle_url": "https://www.gesetze-im-internet.de/bfsg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Technologie",
+        "E-Commerce",
+        "Finanzdienstleistungen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-ext-002",
+    "title": "KI-Verordnung (EU AI Act) – Pflichten",
+    "category": "Digitales Recht",
+    "beschreibung": "Die EU AI Act (ab August 2024 in Kraft) stuft KI-Systeme nach Risiko ein. Hochrisiko-KI erfordert Conformity Assessment, CE-Kennzeichnung und Registrierung.",
+    "rechtsgrundlage": "EU AI Act (Verordnung 2024/1689), Art. 6 ff.",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Technologie",
+        "KI",
+        "Software"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-ext-003",
+    "title": "NIS2-Richtlinie – IT-Sicherheitspflichten",
+    "category": "Digitales Recht",
+    "beschreibung": "Die NIS2-Richtlinie (umgesetzt durch NIS2UmsuCG) verpflichtet kritische und wichtige Einrichtungen zu Cybersecurity-Maßnahmen, Meldepflichten und Schulungen der Geschäftsleitung.",
+    "rechtsgrundlage": "NIS2-Richtlinie 2022/2555, NIS2UmsuCG",
+    "quelle_url": "https://www.bsi.bund.de/DE/Themen/Regulierung-und-Zertifizierung/NIS2/nis2_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Technologie",
+        "Kritische Infrastruktur",
+        "Energie",
+        "Gesundheit"
+      ],
+      "mitarbeiter_min": 50
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "it-sicherheitsrichtlinie"
+  },
+  {
+    "id": "digital-ext-004",
+    "title": "Datenschutz-Grundverordnung – Cookie-Einwilligung",
+    "category": "Datenschutz",
+    "beschreibung": "Nicht notwendige Cookies (Tracking, Marketing, Analytics) dürfen nur nach ausdrücklicher Einwilligung der Nutzer gesetzt werden (kein Opt-Out, sondern Opt-In).",
+    "rechtsgrundlage": "TTDSG § 25, DSGVO Art. 6 Abs. 1 lit. a",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/Cookies.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "datenschutz-einwilligung"
+  },
+  {
+    "id": "umwelt-ext-001",
+    "title": "Verpackungsgesetz – Registrierungspflicht",
+    "category": "Umweltrecht",
+    "beschreibung": "Hersteller und Erstinverkehrbringer von Verpackungen müssen sich im LUCID-Register registrieren und an einem dualen System beteiligen (lizenzieren). Gilt ab der ersten Verpackungseinheit.",
+    "rechtsgrundlage": "VerpackG §§ 9, 10, 24",
+    "quelle_url": "https://www.verpackungsregister.org/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Handel",
+        "E-Commerce",
+        "Produktion",
+        "Lebensmittel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-ext-002",
+    "title": "Elektrogeräte-Rücknahme (ElektroG)",
+    "category": "Umweltrecht",
+    "beschreibung": "Hersteller und Händler von Elektro- und Elektronikgeräten müssen bei der Stiftung EAR registriert sein und Altgeräte zurücknehmen.",
+    "rechtsgrundlage": "ElektroG §§ 6, 17",
+    "quelle_url": "https://www.stiftung-ear.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Elektro",
+        "Handel",
+        "E-Commerce",
+        "Technologie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-ext-003",
+    "title": "Batteriegesetz – Rücknahmepflicht",
+    "category": "Umweltrecht",
+    "beschreibung": "Hersteller und Händler von Batterien müssen bei der GRS oder einem anderen zugelassenen Rücknahmesystem registriert sein und Altbatterien zurücknehmen.",
+    "rechtsgrundlage": "BattG §§ 3, 5, 7",
+    "quelle_url": "https://www.batteriegesetz.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Elektro",
+        "Handel",
+        "E-Commerce",
+        "Produktion"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-ext-004",
+    "title": "CO₂-Berichterstattung – CSRD",
+    "category": "Umweltrecht",
+    "beschreibung": "Die Corporate Sustainability Reporting Directive (CSRD) verpflichtet große Unternehmen ab 2025 (börsennotierte KMU ab 2026) zur umfassenden Nachhaltigkeitsberichterstattung nach ESRS.",
+    "rechtsgrundlage": "CSRD 2022/2464/EU, HGB §§ 289b–289e",
+    "quelle_url": "https://www.bafin.de/DE/Aufsicht/Nachhaltigkeitsberichterstattung/nachhaltigkeitsberichterstattung_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG",
+        "GmbH",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 250
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesundheit-ext-001",
+    "title": "MPG/MDR – Medizinprodukte-Regulierung",
+    "category": "Gesundheitsrecht",
+    "beschreibung": "Medizinprodukte müssen nach MDR (EU 2017/745) klassifiziert, zugelassen und mit CE-Kennzeichnung versehen werden. Hersteller brauchen ein QM-System.",
+    "rechtsgrundlage": "MDR 2017/745, MPDG",
+    "quelle_url": "https://www.bfarm.de/DE/Medizinprodukte/medizinprodukte_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Gesundheit",
+        "Medizintechnik"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesundheit-ext-002",
+    "title": "Heilmittelwerbegesetz (HWG)",
+    "category": "Gesundheitsrecht",
+    "beschreibung": "Werbung für Medizinprodukte, Arzneimittel und Heilbehandlungen unterliegt strengen Einschränkungen. Irreführende oder unsachgemäße Werbung ist verboten.",
+    "rechtsgrundlage": "HWG §§ 1–12",
+    "quelle_url": "https://www.gesetze-im-internet.de/heilmwerbg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Gesundheit",
+        "Medizintechnik",
+        "Pharma"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "finanz-ext-001",
+    "title": "Geldwäscheprävention – Sorgfaltspflichten",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "Verpflichtete (Notare, Rechtsanwälte, Immobilienmakler, bestimmte Händler) müssen Kunden identifizieren, wirtschaftlich Berechtigte feststellen und Verdachtsmeldungen erstatten.",
+    "rechtsgrundlage": "GwG §§ 10–17, § 43",
+    "quelle_url": "https://www.bafin.de/DE/Aufsicht/Geldwaeschebekaempfung/geldwaeschebekaempfung_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Finanzdienstleistungen",
+        "Immobilien",
+        "Beratung",
+        "Recht"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "finanz-ext-002",
+    "title": "Zahlungsdiensteaufsicht – PSD2/ZAG",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "Unternehmen, die Zahlungsdienste erbringen, benötigen eine BaFin-Erlaubnis als Zahlungsinstitut. Strong Customer Authentication (SCA) ist bei Online-Transaktionen erforderlich.",
+    "rechtsgrundlage": "ZAG, PSD2-Richtlinie 2015/2366",
+    "quelle_url": "https://www.bafin.de/DE/Aufsicht/ZahlungsdiensteEMI/zahlungsdienste_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Finanzdienstleistungen",
+        "E-Commerce",
+        "Technologie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "finanz-ext-003",
+    "title": "Crowdfunding – ECSP-Verordnung",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "Crowdfunding-Dienstleister benötigen ab 2021 eine Zulassung nach der ECSP-Verordnung (EU 2020/1503). Angebote über 5 Mio. € erfordern einen Prospekt.",
+    "rechtsgrundlage": "ECSP-VO 2020/1503, WpPG",
+    "quelle_url": "https://www.bafin.de/DE/Aufsicht/FinTech/Crowdfunding/crowdfunding_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG"
+      ],
+      "branchen": [
+        "Finanzdienstleistungen",
+        "Technologie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "immo-ext-001",
+    "title": "Maklerrecht – Courtagepflichten",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "Seit 2020 gilt beim Immobilienkauf das Provisionsteilungsgebot: Wenn ein Makler für Käufer und Verkäufer tätig ist, darf er von Käuferseite nicht mehr verlangen als vom Verkäufer.",
+    "rechtsgrundlage": "BGB §§ 656a–656d",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__656a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Immobilien"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "immo-ext-002",
+    "title": "Energieausweis – Pflicht bei Verkauf/Vermietung",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "Bei Verkauf, Vermietung oder Verpachtung von Gebäuden muss ein gültiger Energieausweis vorgelegt werden. Dieser ist maximal 10 Jahre gültig.",
+    "rechtsgrundlage": "GEG §§ 79–88",
+    "quelle_url": "https://www.gesetze-im-internet.de/geg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Immobilien",
+        "Bau"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "awg-ext-001",
+    "title": "Exportkontrolle – Dual-Use-Güter",
+    "category": "Außenwirtschaft",
+    "beschreibung": "Güter mit doppeltem Verwendungszweck (militärisch und zivil) unterliegen der Exportkontrolle. Für den Export in bestimmte Länder sind Genehmigungen erforderlich.",
+    "rechtsgrundlage": "AWG § 8, AWV § 74, EG-Dual-Use-VO 2021/821",
+    "quelle_url": "https://www.bafa.de/DE/Aussenwirtschaft/Exportkontrolle/exportkontrolle_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Produktion",
+        "Technologie",
+        "Rüstung"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "awg-ext-002",
+    "title": "Zollrecht – Zollanmeldung und Ursprungsnachweise",
+    "category": "Außenwirtschaft",
+    "beschreibung": "Beim Import und Export von Waren aus und in Drittländer müssen Zollanmeldungen erstattet und Ursprungsnachweise geführt werden.",
+    "rechtsgrundlage": "Zollkodex UZK, ZollVG",
+    "quelle_url": "https://www.zoll.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Handel",
+        "Produktion",
+        "Logistik"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "awg-ext-003",
+    "title": "Sanktionsrecht – Finanzsanktionen EU/USA",
+    "category": "Außenwirtschaft",
+    "beschreibung": "Unternehmen müssen Geschäftspartner gegen EU- und US-Sanktionslisten prüfen. Geschäfte mit sanktionierten Personen oder Unternehmen sind verboten.",
+    "rechtsgrundlage": "EU-Verordnungen über restriktive Maßnahmen, OFAC",
+    "quelle_url": "https://www.bafa.de/DE/Aussenwirtschaft/Exportkontrolle/Finanzsanktionen/finanzsanktionen_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "insolvenz-ext-001",
+    "title": "Insolvenzantragspflicht",
+    "category": "Insolvenzrecht",
+    "beschreibung": "Bei Zahlungsunfähigkeit oder Überschuldung sind GmbH-Geschäftsführer verpflichtet, ohne schuldhaftes Zögern, spätestens binnen drei Wochen Insolvenzantrag zu stellen.",
+    "rechtsgrundlage": "InsO § 17, § 19, StGB § 15a",
+    "quelle_url": "https://www.gesetze-im-internet.de/inso/__17.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "insolvenz-ext-002",
+    "title": "Geschäftsführerhaftung bei Insolvenzverschleppung",
+    "category": "Insolvenzrecht",
+    "beschreibung": "Geschäftsführer haften persönlich für Zahlungen nach Eintritt der Zahlungsunfähigkeit. Schadensersatzpflicht gegenüber Gläubigern bei verzögerter Insolvenzanmeldung.",
+    "rechtsgrundlage": "GmbHG § 64, InsO § 15a",
+    "quelle_url": "https://www.gesetze-im-internet.de/gmbhg/__64.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "telekom-ext-001",
+    "title": "Telekommunikationsgesetz – TKG 2021",
+    "category": "Digitales Recht",
+    "beschreibung": "Das TKG 2021 enthält neue Verbraucherschutzpflichten für TK-Anbieter (Mindestqualität, Entschädigungen, Anbieterwechsel). Unternehmen mit eigener TK-Infrastruktur haben Meldepflichten.",
+    "rechtsgrundlage": "TKG 2021 §§ 1 ff.",
+    "quelle_url": "https://www.gesetze-im-internet.de/tkg_2021/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Telekommunikation",
+        "Technologie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "telekom-ext-002",
+    "title": "Vorratsdatenspeicherung – Löschpflichten",
+    "category": "Datenschutz",
+    "beschreibung": "Anbieter von Telekommunikationsdiensten haben nach dem EuGH-Urteil strenge Pflichten zur Datensparsamkeit und müssen Verkehrsdaten nach Abrechnung löschen.",
+    "rechtsgrundlage": "TKG 2021 § 176, DSGVO Art. 5 Abs. 1 lit. e",
+    "quelle_url": "https://www.gesetze-im-internet.de/tkg_2021/__176.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Telekommunikation",
+        "Technologie",
+        "ISP"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reise-ext-001",
+    "title": "Pauschalreise-Richtlinie – Insolvenzabsicherung",
+    "category": "Vertragsrecht",
+    "beschreibung": "Reiseveranstalter müssen Kundenzahlungen durch einen Insolvenzversicherer absichern. Kundengeldabsicherungsschein ist bei Vertragsschluss auszuhändigen.",
+    "rechtsgrundlage": "BGB §§ 651a–651y, PAuschRRL 2015/2302",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__651a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Tourismus",
+        "Reise"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "bildung-ext-001",
+    "title": "Fernunterrichtsschutzgesetz (FernUSG)",
+    "category": "Bildungsrecht",
+    "beschreibung": "Anbieter von Fernunterrichtskursen benötigen eine staatliche Zulassung. Verträge müssen Widerrufsrecht, Kursinhalte und Kosten klar ausweisen.",
+    "rechtsgrundlage": "FernUSG §§ 1–12",
+    "quelle_url": "https://www.gesetze-im-internet.de/fernusg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Bildung",
+        "E-Learning"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "bildung-ext-002",
+    "title": "Datenschutz in Bildungseinrichtungen",
+    "category": "Datenschutz",
+    "beschreibung": "Schulen und Bildungseinrichtungen unterliegen besonderen datenschutzrechtlichen Anforderungen bei der Verarbeitung von Schüler- und Elterndaten. Videokonferenz-Tools müssen DSGVO-konform sein.",
+    "rechtsgrundlage": "DSGVO Art. 6, 9, Schulgesetze der Länder",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Bereiche/Bildung/Bildung_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Bildung",
+        "E-Learning"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "franchise-001",
+    "title": "Franchise-Offenlegungspflicht (Vorvertrag)",
+    "category": "Vertragsrecht",
+    "beschreibung": "Franchisegeber müssen Interessenten vor Vertragsschluss ein vollständiges Informationsdokument (Disclosure Document) bereitstellen. Entscheidungszeit mindestens 2 Wochen.",
+    "rechtsgrundlage": "BGB § 311 Abs. 2, vorvertragliche Aufklärungspflicht",
+    "quelle_url": "https://www.dfv-franchise.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Franchise",
+        "Handel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "transport-ext-001",
+    "title": "ADR – Gefahrguttransport",
+    "category": "Transportrecht",
+    "beschreibung": "Der Transport gefährlicher Güter auf der Straße unterliegt dem ADR-Abkommen. Fahrer benötigen ADR-Scheine, Fahrzeuge müssen entsprechend ausgerüstet sein.",
+    "rechtsgrundlage": "ADR, GGVSEB, GGBefG",
+    "quelle_url": "https://www.bam.de/DE/Themen/Transport/Gefahrguttransport/gefahrguttransport_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Logistik",
+        "Transport",
+        "Chemie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "transport-ext-002",
+    "title": "Fahrpersonalverordnung – Lenk- und Ruhezeiten",
+    "category": "Transportrecht",
+    "beschreibung": "Fahrer von LKW und Bussen (>3,5t/> 9 Personen) müssen Lenk- und Ruhezeiten nach EU-Verordnung einhalten. Verstöße können zu hohen Bußgeldern führen.",
+    "rechtsgrundlage": "FPersV, EU-VO 561/2006",
+    "quelle_url": "https://www.bav.bund.de/DE/Themen/Fahrpersonal/fahrpersonal_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Logistik",
+        "Transport"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "lebensm-ext-001",
+    "title": "Lebensmittelkennzeichnung – LMIV",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Vorverpackte Lebensmittel müssen alle 14 Pflichtinformationen gemäß LMIV tragen (Zutaten, Allergene, Nährwerte, MHD etc.). Allergenkennzeichnung auch bei loser Ware Pflicht.",
+    "rechtsgrundlage": "LMIV EU 1169/2011, LMKV",
+    "quelle_url": "https://www.bmel.de/DE/themen/ernaehrung/lebensmittelrecht/kennzeichnung.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Lebensmittel",
+        "Gastronomie",
+        "Produktion"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "lebensm-ext-002",
+    "title": "HACCP-Konzept in der Lebensmittelbranche",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Lebensmittelunternehmer müssen ein HACCP-Konzept (Hazard Analysis and Critical Control Points) erstellen, dokumentieren und umsetzen.",
+    "rechtsgrundlage": "VO (EG) 852/2004 Art. 5, LMHV § 3",
+    "quelle_url": "https://www.bfr.bund.de/de/haccp-10367.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Lebensmittel",
+        "Gastronomie",
+        "Produktion"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "versich-ext-001",
+    "title": "Berufshaftpflicht – Pflichtversicherung",
+    "category": "Versicherungsrecht",
+    "beschreibung": "Bestimmte Berufsgruppen (Rechtsanwälte, Ärzte, Architekten, Steuerberater, Ingenieure) sind zur Berufshaftpflichtversicherung verpflichtet.",
+    "rechtsgrundlage": "BRAO § 51, BO der jeweiligen Kammern",
+    "quelle_url": "https://www.brak.de/fuer-anwaelte/berufliche-pflichten/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Beratung",
+        "Recht",
+        "Medizin",
+        "Architektur",
+        "Ingenieurwesen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "versich-ext-002",
+    "title": "Betriebshaftpflicht – empfohlene Pflicht",
+    "category": "Versicherungsrecht",
+    "beschreibung": "Für Schäden, die durch den Betrieb entstehen, sollte eine ausreichende Betriebshaftpflichtversicherung bestehen. In manchen Branchen gesetzlich vorgeschrieben.",
+    "rechtsgrundlage": "BGB § 823, branchenspezifische Vorschriften",
+    "quelle_url": "https://www.gdv.de/de/themen/news/haftpflichtversicherung-34628",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vergabe-ext-001",
+    "title": "Vergaberecht – öffentliche Aufträge",
+    "category": "Vergaberecht",
+    "beschreibung": "Öffentliche Aufträge ab bestimmten Schwellenwerten müssen EU-weit ausgeschrieben werden. Bieter müssen Eignungsnachweise (Bonität, Referenzen) vorlegen.",
+    "rechtsgrundlage": "GWB §§ 97–184, VgV",
+    "quelle_url": "https://www.bmwk.de/Redaktion/DE/Artikel/Wirtschaft/vergaberecht.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vergabe-ext-002",
+    "title": "Lieferkettensorgfaltspflichtengesetz (LkSG)",
+    "category": "Vergaberecht",
+    "beschreibung": "Unternehmen ab 1.000 Mitarbeitenden (ab 2024) müssen menschenrechtliche und umweltbezogene Sorgfaltspflichten in ihrer Lieferkette einhalten und darüber berichten.",
+    "rechtsgrundlage": "LkSG §§ 3–10",
+    "quelle_url": "https://www.bafa.de/DE/Lieferketten/lieferketten_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1000
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "werkvertrag-dok-001",
+    "title": "Werkvertrag – Schriftformempfehlung",
+    "category": "Vertragsrecht",
+    "beschreibung": "Bei Werkverträgen ab einem Wert von 500 € empfiehlt sich die Schriftform zum Schutz beider Parteien.",
+    "rechtsgrundlage": "BGB §§ 631–651",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__631.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "werkvertrag"
+  },
+  {
+    "id": "werkvertrag-dok-002",
+    "title": "IT-Werkvertrag – Abnahme und Mängelrüge",
+    "category": "Digitales Recht",
+    "beschreibung": "Bei Software- und IT-Projekten sollte ein Werkvertrag mit klarer Abnahmeprozedur vereinbart werden. Abnahmeverzögerungen können zu fiktiver Abnahme führen.",
+    "rechtsgrundlage": "BGB §§ 640, 641, 634",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__640.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Technologie",
+        "Software"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "werkvertrag"
+  },
+  {
+    "id": "freiberufler-dok-001",
+    "title": "Scheinselbstständigkeit vermeiden",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei der Beauftragung von Freelancern muss Scheinselbstständigkeit ausgeschlossen werden. Sonst drohen Nachzahlungen von Sozialversicherungsbeiträgen.",
+    "rechtsgrundlage": "SGB IV § 7, SGB I § 14",
+    "quelle_url": "https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Arbeitgeber-und-Steuerberater/Meldung-und-Beitrag/Statusfeststellungsverfahren/statusfeststellungsverfahren.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "freiberufler-vertrag"
+  },
+  {
+    "id": "freiberufler-dok-002",
+    "title": "Freiberufler-Vertrag – Nachweis Selbstständigkeit",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Freiberufler müssen ihre Selbstständigkeit nachweisen. Korrekte Vertragsgestaltung vermeidet steuerliche und sozialversicherungsrechtliche Risiken.",
+    "rechtsgrundlage": "EStG § 18, UStG § 2, SGB IV § 7",
+    "quelle_url": "https://www.gesetze-im-internet.de/estg/__18.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "freiberufler-vertrag"
+  },
+  {
+    "id": "arbr-home-001",
+    "title": "Homeoffice – Vereinbarung und Ausstattungspflicht",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Homeoffice-Regelungen sollten schriftlich vereinbart werden. Arbeitgeber müssen notwendige Ausstattung bereitstellen. Datenschutz im Homeoffice ist besonders zu beachten.",
+    "rechtsgrundlage": "ArbStättV, DSGVO Art. 32, BGB § 611a",
+    "quelle_url": "https://www.baua.de/DE/Themen/Arbeitsgestaltung-im-Betrieb/Telearbeit-und-mobiles-Arbeiten/telearbeit_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbr-home-002",
+    "title": "Mobile Arbeit – Arbeitszeiterfassungspflicht",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Das BAG hat 2022 entschieden, dass Arbeitgeber zur Erfassung der gesamten Arbeitszeit verpflichtet sind – auch im Homeoffice.",
+    "rechtsgrundlage": "ArbZG § 16 Abs. 2, BAG-Urteil 13.09.2022",
+    "quelle_url": "https://www.bmas.de/DE/Arbeit/Arbeitnehmerrechte/Arbeitszeit/arbeitszeit.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "arbeitszeitnachweis"
+  },
+  {
+    "id": "arbr-lohn-001",
+    "title": "Mindestlohn – Dokumentationspflicht",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bestimmte Branchen müssen Beginn, Ende und Dauer der Arbeitszeit täglich dokumentieren. Ab 1.1.2025: 12,82 €/Stunde.",
+    "rechtsgrundlage": "MiLoG §§ 17, 19",
+    "quelle_url": "https://www.bmas.de/DE/Arbeit/Arbeitnehmerrechte/Mindestlohn/mindestlohn.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "arbeitszeitnachweis"
+  },
+  {
+    "id": "arbr-zeugnis-001",
+    "title": "Arbeitszeugnis – Ausstellungspflicht",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitnehmer haben bei Beendigung des Arbeitsverhältnisses Anspruch auf ein schriftliches Zeugnis.",
+    "rechtsgrundlage": "GewO § 109, BGB § 630",
+    "quelle_url": "https://www.gesetze-im-internet.de/gewo/__109.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steur-forsch-001",
+    "title": "Forschungsförderungsgesetz (FZulG) – Steuerbonus FuE",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Unternehmen erhalten 25% Steuerbonus auf FuE-Personalkosten bis max. 500.000 € p.a. Antrag beim Bescheinigungsstelle BSFZ.",
+    "rechtsgrundlage": "FZulG §§ 1–10",
+    "quelle_url": "https://www.bsfz.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "energie-effizienz-001",
+    "title": "Energieaudit – Pflicht für Nicht-KMU",
+    "category": "Energierecht",
+    "beschreibung": "Nicht-KMU müssen alle 4 Jahre ein Energieaudit nach DIN EN ISO 50001 durchführen.",
+    "rechtsgrundlage": "EDL-G § 8, EnAuditVO",
+    "quelle_url": "https://www.bafa.de/DE/Energie/Energieeffizienz/Energieaudit_Energieberatung/energieaudit_energieberatung_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 250
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "produkthaftung-001",
+    "title": "Produkthaftung – ProdHaftG",
+    "category": "Produktrecht",
+    "beschreibung": "Hersteller haften ohne Verschulden für Schäden durch fehlerhafte Produkte (Gefährdungshaftung).",
+    "rechtsgrundlage": "ProdHaftG §§ 1–16",
+    "quelle_url": "https://www.gesetze-im-internet.de/prodhaftg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Produktion",
+        "Handel",
+        "E-Commerce"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "produkthaftung-002",
+    "title": "Neue EU-Produkthaftungsrichtlinie 2024",
+    "category": "Produktrecht",
+    "beschreibung": "Die neue EU-Produkthaftungsrichtlinie (2024/2853) erweitert die Haftung auf Software, KI-Systeme und digitale Dienste. Umzusetzen bis Ende 2026.",
+    "rechtsgrundlage": "EU-Richtlinie 2024/2853",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202402853",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Technologie",
+        "KI",
+        "Software",
+        "Produktion"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesellschaft-001",
+    "title": "GmbH – Gesellschafterversammlung und Protokollpflicht",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Die Gesellschafterversammlung muss mindestens einmal jährlich stattfinden. Beschlüsse sind zu protokollieren.",
+    "rechtsgrundlage": "GmbHG §§ 46–51",
+    "quelle_url": "https://www.gesetze-im-internet.de/gmbhg/__46.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesellschaft-002",
+    "title": "Gesellschafterliste – Aktualisierungspflicht",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Die Gesellschafterliste muss bei jeder Änderung der Gesellschafterverhältnisse aktualisiert und beim Handelsregister eingereicht werden.",
+    "rechtsgrundlage": "GmbHG § 40",
+    "quelle_url": "https://www.gesetze-im-internet.de/gmbhg/__40.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesellschaft-003",
+    "title": "Transparenzregister – Meldepflicht wirtschaftlich Berechtigte",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Unternehmen müssen ihre wirtschaftlich Berechtigten im Transparenzregister eintragen. Frist: unverzüglich bei Änderungen.",
+    "rechtsgrundlage": "GwG § 20, § 21",
+    "quelle_url": "https://www.transparenzregister.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "OHG",
+        "KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesellschaft-004",
+    "title": "AG – Hauptversammlung und Aufsichtsrat",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "AG müssen mindestens einmal jährlich eine HV abhalten. Ab 2.000 Mitarbeitenden: paritätisch besetzter Aufsichtsrat.",
+    "rechtsgrundlage": "AktG §§ 118–149, MitbestG",
+    "quelle_url": "https://www.gesetze-im-internet.de/aktg/__118.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "compliance-001",
+    "title": "Compliance-Managementsystem",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Geschäftsführer haben eine Legalitätspflicht und müssen geeignete Compliance-Strukturen einrichten (Richtlinien, Schulungen, IKS).",
+    "rechtsgrundlage": "GmbHG § 43, AktG § 93",
+    "quelle_url": "https://www.bmjv.de/DE/Themen/FokusThemen/Compliance/compliance_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 50
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "compliance-002",
+    "title": "Hinweisgeberschutzgesetz (HinSchG)",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Ab 50 Mitarbeitenden müssen interne Meldestellen für Hinweisgeber eingerichtet werden. Hinweisgeber sind vor Repressalien zu schützen.",
+    "rechtsgrundlage": "HinSchG §§ 12–17",
+    "quelle_url": "https://www.gesetze-im-internet.de/hinschg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 50
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "compliance-003",
+    "title": "Korruptionsprävention – Anti-Bestechungsgesetz",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Das Geben und Nehmen von Vorteilen ist strafbar. Antikorruptionsrichtlinien und Mitarbeiterschulungen sind einzuführen.",
+    "rechtsgrundlage": "StGB §§ 299–300, IntBestG",
+    "quelle_url": "https://www.bmjv.de/DE/Themen/FokusThemen/Korruption/korruption_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "medien-001",
+    "title": "Rundfunkbeitrag – Betriebsstättenbeitrag",
+    "category": "Medienrecht",
+    "beschreibung": "Unternehmen müssen für jede Betriebsstätte Rundfunkbeitrag zahlen (gestaffelt nach Mitarbeiterzahl und Kfz).",
+    "rechtsgrundlage": "RBStV § 5, § 6",
+    "quelle_url": "https://www.rundfunkbeitrag.de/unternehmen/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "medien-002",
+    "title": "Social Media – Impressumspflicht auf Geschäftsprofilen",
+    "category": "Medienrecht",
+    "beschreibung": "Geschäftliche Social-Media-Profile müssen ein vollständiges Impressum enthalten oder darauf verlinken.",
+    "rechtsgrundlage": "TMG § 5, MStV § 18",
+    "quelle_url": "https://www.gesetze-im-internet.de/tmg/__5.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "impressum"
+  },
+  {
+    "id": "buchh-aufbew-001",
+    "title": "Aufbewahrungsfristen für Geschäftsunterlagen",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Handelsbücher und Bilanzen: 10 Jahre. Handelsbriefe: 6 Jahre. Diese Fristen sind gesetzlich verpflichtend.",
+    "rechtsgrundlage": "HGB § 257, AO § 147",
+    "quelle_url": "https://www.ihk.de/aufbewahrungsfristen",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "buchh-rechnungs-001",
+    "title": "Rechnungspflichtangaben nach UStG § 14",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Rechnungen müssen alle gesetzlichen Pflichtangaben enthalten: Name, Anschrift, Steuernummer, Datum, Leistungsbeschreibung, Netto/Brutto/Steuer.",
+    "rechtsgrundlage": "UStG § 14 Abs. 4",
+    "quelle_url": "https://www.gesetze-im-internet.de/ustg_1980/__14.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "buchh-erechnung-001",
+    "title": "E-Rechnungspflicht B2B ab 2025",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Ab Januar 2025 müssen alle inländischen B2B-Umsätze empfangsseitig e-Rechnungen akzeptiert werden. Ab 2027 auch Pflicht zur Ausstellung.",
+    "rechtsgrundlage": "UStG § 14 Abs. 2 (neu), Wachstumschancengesetz",
+    "quelle_url": "https://www.bundesfinanzministerium.de/Content/DE/FAQ/FAQ-erechnung.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "cyber-001",
+    "title": "IT-Grundschutz – BSI-Kompendium",
+    "category": "Digitales Recht",
+    "beschreibung": "Das BSI-IT-Grundschutzwerk bietet einen strukturierten Ansatz zur IT-Sicherheit. Für KRITIS verbindlich, für andere empfohlen.",
+    "rechtsgrundlage": "BSI-KritisV, IT-SiG 2.0",
+    "quelle_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/IT-Grundschutz/it-grundschutz_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 10
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "it-sicherheitsrichtlinie"
+  },
+  {
+    "id": "cyber-002",
+    "title": "Multi-Faktor-Authentifizierung für Systeme mit Personendaten",
+    "category": "Datenschutz",
+    "beschreibung": "Zugang zu Systemen mit personenbezogenen Daten sollte durch MFA gesichert sein. DSGVO Art. 32 verlangt angemessene technische Maßnahmen.",
+    "rechtsgrundlage": "DSGVO Art. 32, BSI IT-Grundschutz",
+    "quelle_url": "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Accountschutz/Zwei-Faktor-Authentisierung/zwei-faktor-authentisierung_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "it-sicherheitsrichtlinie"
+  },
+  {
+    "id": "zahlungs-001",
+    "title": "Zahlungsverzug im Geschäftsverkehr – Verzugszins",
+    "category": "Vertragsrecht",
+    "beschreibung": "Im B2B-Verkehr tritt Zahlungsverzug automatisch 30 Tage nach Fälligkeit ein. Verzugszins: 9 Prozentpunkte über Basiszinssatz.",
+    "rechtsgrundlage": "BGB § 286, § 288 Abs. 2",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__286.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "handwerk-001",
+    "title": "Meisterpflicht und Handwerksrolle (HwO Anlage A)",
+    "category": "Berufsrecht",
+    "beschreibung": "Für zulassungspflichtige Handwerke ist ein Meister oder gleichwertig qualifizierter Betriebsleiter erforderlich. Betrieb muss in Handwerksrolle eingetragen sein.",
+    "rechtsgrundlage": "HwO §§ 1, 7, 117",
+    "quelle_url": "https://www.handwerk.de/existenzgruendung/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Handwerk"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vertr-agb-b2b-001",
+    "title": "AGB im B2B-Bereich – Einbeziehung und Inhaltskontrolle",
+    "category": "Vertragsrecht",
+    "beschreibung": "AGB gelten im B2B nur, wenn wirksam einbezogen und keine unangemessenen Klauseln enthalten (§§ 305–310 BGB).",
+    "rechtsgrundlage": "BGB §§ 305–310",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__305.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "gewaehrleistung-agb"
+  },
+  {
+    "id": "energie-eeg-001",
+    "title": "EEG – Eigenverbrauch und Netzanmeldung PV",
+    "category": "Energierecht",
+    "beschreibung": "Unternehmen mit PV-Anlage müssen diese beim Netzbetreiber anmelden und je nach Größe EEG-Umlage entrichten.",
+    "rechtsgrundlage": "EEG 2023, EnWG § 5",
+    "quelle_url": "https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/Erneuerbare_Energien/erneuerbare_energien-node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
   }
 ]

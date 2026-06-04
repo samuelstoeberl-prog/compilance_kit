@@ -14,6 +14,9 @@ import {
   gewaehrleistungAgbTemplate,
   aufhebungsvertragTemplate,
   datenschutzEinwilligungTemplate,
+  nichtOffenlegungTemplate,
+  werkvertragTemplate,
+  freiberuflerVertragTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -38,6 +41,9 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   'gewaehrleistung-agb': 'AGB mit Gewährleistungsregelungen',
   aufhebungsvertrag: 'Aufhebungsvertrag-Vorlage',
   'datenschutz-einwilligung': 'Datenschutz-Einwilligungserklärung',
+  'nda-geheimhaltung': 'Geheimhaltungsvereinbarung (NDA)',
+  werkvertrag: 'Werkvertrag-Vorlage',
+  'freiberufler-vertrag': 'Freiberufler-/Dienstleistungsvertrag',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -80,6 +86,9 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'gewaehrleistung-agb': return applyTemplate(gewaehrleistungAgbTemplate, vars)
     case 'aufhebungsvertrag': return applyTemplate(aufhebungsvertragTemplate, vars)
     case 'datenschutz-einwilligung': return applyTemplate(datenschutzEinwilligungTemplate, vars)
+    case 'nda-geheimhaltung': return applyTemplate(nichtOffenlegungTemplate, vars)
+    case 'werkvertrag': return applyTemplate(werkvertragTemplate, vars)
+    case 'freiberufler-vertrag': return applyTemplate(freiberuflerVertragTemplate, vars)
   }
 }
 

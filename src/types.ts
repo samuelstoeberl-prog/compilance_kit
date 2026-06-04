@@ -32,6 +32,9 @@ export type DokumentTyp =
   | 'gewaehrleistung-agb'
   | 'aufhebungsvertrag'
   | 'datenschutz-einwilligung'
+  | 'nda-geheimhaltung'
+  | 'werkvertrag'
+  | 'freiberufler-vertrag'
 
 export interface GiltFuer {
   rechtsformen: string[]

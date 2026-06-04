@@ -28275,5 +28275,1726 @@
         "IT"
       ]
     }
+  },
+  {
+    "id": "eu-horizon-msca-2024",
+    "title": "MSCA Postdoctoral Fellowships 2024",
+    "beschreibung": "Marie-Skłodowska-Curie-Aktionen: Stipendien für erfahrene Forschende zur Durchführung von Projekten in einem anderen Land.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission / MSCA",
+    "max_betrag": 300000,
+    "zins": null,
+    "antrag_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home",
+    "bearbeitungszeit_wochen": [
+      26,
+      52
+    ],
+    "ausschlusskriterien": [
+      "Kein Forschungshintergrund"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Forschungsproposal",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "Freiberufler"
+      ],
+      "mitarbeiter_max": null
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Forschung",
+        "Technologie",
+        "Bildung"
+      ]
+    }
+  },
+  {
+    "id": "eu-eic-pathfinder-2024",
+    "title": "EIC Pathfinder – Deep Tech Forschung",
+    "beschreibung": "Förderung von Hochrisiko-Forschungsprojekten mit transformativem Potenzial. Bis 4 Mio. € für Kooperationen.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "European Innovation Council (EIC)",
+    "max_betrag": 4000000,
+    "zins": null,
+    "antrag_url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder_en",
+    "bearbeitungszeit_wochen": [
+      20,
+      36
+    ],
+    "ausschlusskriterien": [
+      "Marktreife Produkte"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "mitarbeiter_max": 500
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "KI",
+        "Biotechnologie"
+      ]
+    }
+  },
+  {
+    "id": "eu-eic-accelerator-2024",
+    "title": "EIC Accelerator – Scale-up Förderung",
+    "beschreibung": "Förderung von Start-ups mit disruptiven Innovationen. Zuschuss bis 2,5 Mio. € plus Eigenkapital bis 15 Mio. €.",
+    "typ": "Beteiligung",
+    "quelle": "EU",
+    "foerderer": "European Innovation Council (EIC)",
+    "max_betrag": 17500000,
+    "zins": null,
+    "antrag_url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+    "bearbeitungszeit_wochen": [
+      16,
+      32
+    ],
+    "ausschlusskriterien": [
+      "Großunternehmen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Pitch Video",
+        "auto": false
+      },
+      {
+        "name": "Business Plan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "mitarbeiter_max": 250
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "KI",
+        "GreenTech",
+        "Biotech"
+      ]
+    }
+  },
+  {
+    "id": "eu-just-transition-2024",
+    "title": "Just Transition Fund – Strukturwandel",
+    "beschreibung": "Unterstützung für Regionen im Kohle- und fossilen Energieausstieg (NRW, Sachsen, Brandenburg).",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Strukturfonds / JTF",
+    "max_betrag": 5000000,
+    "zins": null,
+    "antrag_url": "https://www.bmwk.de/Redaktion/DE/Artikel/Wirtschaft/just-transition-fund.html",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Region nicht betroffen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Beschäftigungskonzept",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen",
+        "Sachsen",
+        "Brandenburg",
+        "Sachsen-Anhalt"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Energie",
+        "Produktion",
+        "Bergbau"
+      ]
+    }
+  },
+  {
+    "id": "bund-exist-research-transfer",
+    "title": "EXIST Forschungstransfer – Phase II",
+    "beschreibung": "Förderung technologieorientierter Gründungen aus Hochschulen. Phase II bis 180.000 € nach erfolgreicher Phase I.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / BMBF",
+    "max_betrag": 180000,
+    "zins": null,
+    "antrag_url": "https://www.exist.de/EXIST/Navigation/DE/Foerderung/EXIST-Forschungstransfer/exist-forschungstransfer.html",
+    "bearbeitungszeit_wochen": [
+      16,
+      26
+    ],
+    "ausschlusskriterien": [
+      "Keine Phase I absolviert",
+      "Kein Hochschulhintergrund"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Phase I Abschlussbericht",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG"
+      ],
+      "mitarbeiter_max": 50,
+      "gruendungsjahr": [
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Biotechnologie",
+        "Ingenieurwesen"
+      ]
+    }
+  },
+  {
+    "id": "bund-gruendungsoffensive",
+    "title": "Gründungsoffensive – Gründungs-Coaching",
+    "beschreibung": "Coaching-Gutscheine bis 5.000 € für Gründende in der Startphase. Beratung zu Geschäftsmodell, Finanzen, Marketing.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "max_betrag": 5000,
+    "zins": null,
+    "antrag_url": "https://www.bmwk.de/Redaktion/DE/Dossier/gruendungen.html",
+    "bearbeitungszeit_wochen": [
+      2,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen älter als 2 Jahre"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Gründungsdokumente",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "mitarbeiter_max": 10,
+      "gruendungsjahr": [
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Alle"
+      ]
+    }
+  },
+  {
+    "id": "bund-beg-sanierung",
+    "title": "BEG Sanierungskredit – Bundesförderung Effiziente Gebäude",
+    "beschreibung": "Zinsgünstige Darlehen bis 150.000 € pro Wohneinheit plus Tilgungszuschuss bis 20% für Sanierungen auf Effizienzhaus-Standard.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW / BMWSB",
+    "max_betrag": 150000,
+    "zins": "Ab 1,85% p.a. (Stand 2024)",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Privatpersonen/Bestandsimmobilien/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Neubau"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Energieausweis",
+        "auto": false
+      },
+      {
+        "name": "Energieeffizienz-Experte-Bestätigung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": null
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Immobilien",
+        "Bau"
+      ]
+    }
+  },
+  {
+    "id": "bund-digitalnow",
+    "title": "Digital Jetzt – Investitionsförderung Digitalisierung",
+    "beschreibung": "Förderung von Investitionen in digitale Technologien. Zuschuss von 30–70% je nach Unternehmensgröße, max. 50.000 €.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.bmwk.de/Redaktion/DE/Artikel/Digitale-Welt/digital-jetzt.html",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Mehr als 499 Mitarbeitende"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Digitalisierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Alle"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "bund-go-digital",
+    "title": "go-digital – Beratungsförderung Digitalisierung",
+    "beschreibung": "Bis 50% Förderung für externe Beratung in IT-Sicherheit, digitale Geschäftsprozesse und digitale Markterschließung.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "max_betrag": 17000,
+    "zins": null,
+    "antrag_url": "https://www.bmwk.de/Redaktion/DE/Artikel/Mittelstand/beratungsfoerderung-go-digital.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Mehr als 100 Mitarbeitende",
+      "Mehr als 20 Mio. € Umsatz"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensprofil",
+        "auto": true
+      },
+      {
+        "name": "Datenschutzerklärung",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 100,
+      "umsatz_max": "20000000"
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Alle"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "bund-dtcf",
+    "title": "DeepTech & Climate Fonds (DTCF)",
+    "beschreibung": "Beteiligungskapital für Start-ups in Deep Tech, Climate Tech und Life Sciences. Staatsfonds ergänzt private VC-Runden.",
+    "typ": "Beteiligung",
+    "quelle": "Bund",
+    "foerderer": "KfW Capital / DTCF GmbH",
+    "max_betrag": 30000000,
+    "zins": null,
+    "antrag_url": "https://www.kfw-capital.de/DeepTechClimateFonds/",
+    "bearbeitungszeit_wochen": [
+      12,
+      26
+    ],
+    "ausschlusskriterien": [
+      "Kein Technologiebezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Pitch Deck",
+        "auto": false
+      },
+      {
+        "name": "Finanzplan 5 Jahre",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "mitarbeiter_max": 500
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "KI",
+        "GreenTech",
+        "Biotechnologie"
+      ],
+      "gruendungsjahr": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ]
+    }
+  },
+  {
+    "id": "bund-zim-2024",
+    "title": "Zentrales Innovationsprogramm Mittelstand (ZIM) 2024",
+    "beschreibung": "Förderung innovativer FuE-Projekte für KMU. Einzelprojekte bis 550.000 €, Kooperationsprojekte bis 2,2 Mio. €.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / AiF",
+    "max_betrag": 2200000,
+    "zins": null,
+    "antrag_url": "https://www.zim.de/ZIM/Navigation/DE/Foerderung/foerderung.html",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Mehr als 499 Mitarbeitende"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Kooperationsvertrag",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Produktion",
+        "Ingenieurwesen",
+        "KI"
+      ]
+    }
+  },
+  {
+    "id": "bund-buergschaftsbank",
+    "title": "Bürgschaftsprogramm Mittelstandsbank",
+    "beschreibung": "Bürgschaften für KMU ohne ausreichende Sicherheiten bis 1,25 Mio. € (bis 80% des Kreditbetrags).",
+    "typ": "Bürgschaft",
+    "quelle": "Bund",
+    "foerderer": "Bürgschaftsbanken der Länder / KfW",
+    "max_betrag": 1250000,
+    "zins": null,
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCnden-Nachfolgen/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Ausreichende Sicherheiten vorhanden"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Jahresabschlüsse 3 Jahre",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Alle"
+      ]
+    }
+  },
+  {
+    "id": "by-lfa-invest",
+    "title": "BayLF Investitionskredit Bayern",
+    "beschreibung": "Langfristige Investitionskredite für bayerische Unternehmen zu Vorzugskonditionen für Anlagen, Gebäude und Modernisierungen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "LfA Förderbank Bayern",
+    "max_betrag": 10000000,
+    "zins": "Ab 2,1% p.a.",
+    "antrag_url": "https://www.lfa.de/foerderprogramme/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Bayern"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Bonitätsnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Produktion",
+        "Technologie",
+        "Handwerk"
+      ]
+    }
+  },
+  {
+    "id": "by-hightech-ai",
+    "title": "Hightech Agenda Bayern – KI-Förderung",
+    "beschreibung": "Bayern fördert KI-Projekte und KI-Infrastruktur mit bis zu 5 Mio. €. Schwerpunkte: KI im Gesundheitswesen, Mobilität, Industrie 4.0.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Bayerisches Staatsministerium für Digitales",
+    "max_betrag": 5000000,
+    "zins": null,
+    "antrag_url": "https://www.stmd.bayern.de/themen/hightech-agenda-bayern/",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Kein KI-Bezug",
+      "Nicht in Bayern"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "KI-Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "KI",
+        "Technologie",
+        "Gesundheit",
+        "Automotive"
+      ]
+    }
+  },
+  {
+    "id": "by-kultur-kreativ",
+    "title": "Kulturfonds Bayern – Kulturwirtschaft",
+    "beschreibung": "Förderung von Kultur- und Kreativwirtschaft in Bayern. Zuschüsse für Musik, Film, Design, Kunst und Literatur.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Bayerische Staatsregierung",
+    "max_betrag": 200000,
+    "zins": null,
+    "antrag_url": "https://www.stmwk.bayern.de/allgemein/meldung/8028/kulturfonds-bayern.html",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Kein Kulturbezug",
+      "Nicht in Bayern"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Kultur",
+        "Medien",
+        "Design",
+        "Film"
+      ]
+    }
+  },
+  {
+    "id": "nrw-digitalisierungskredit-2024",
+    "title": "NRW.BANK Digitalisierungskredit 2024",
+    "beschreibung": "Günstige Digitalisierungskredite für NRW-Unternehmen für Hard- und Software, IT-Infrastruktur und digitale Geschäftsmodelle.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "NRW.BANK",
+    "max_betrag": 5000000,
+    "zins": "Ab 1,95% p.a.",
+    "antrag_url": "https://www.nrwbank.de/de/foerderprodukte/nrwbank-digitalisierungskredit/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nicht in NRW"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Digitalisierungskonzept",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Produktion",
+        "Handel",
+        "Dienstleistungen"
+      ]
+    }
+  },
+  {
+    "id": "nrw-klimaschutz-mittelstand",
+    "title": "NRW Klimaschutzprogramm Mittelstand",
+    "beschreibung": "Förderung von Klimaschutzinvestitionen für NRW-Mittelstand: Energieeffizienz, Erneuerbare Energien, klimaneutrale Produktion.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "MWIKE NRW",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.wirtschaft.nrw/klimaschutzprogramm",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nicht in NRW",
+      "Kein Klimaschutzbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Klimaschutzkonzept",
+        "auto": false
+      },
+      {
+        "name": "CO2-Bilanz",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Produktion",
+        "Energie",
+        "Chemie"
+      ]
+    }
+  },
+  {
+    "id": "hh-innovationscheck-2024",
+    "title": "Innovationscheck Hamburg 2024",
+    "beschreibung": "Kleinstförderung für Hamburger Start-ups und KMU: bis 15.000 € für externe Innovationsberatung und Prototypenentwicklung.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Hamburgische Investitions- und Förderbank (IFB)",
+    "max_betrag": 15000,
+    "zins": null,
+    "antrag_url": "https://www.ifbhh.de/foerderprogramm/innovationscheck",
+    "bearbeitungszeit_wochen": [
+      3,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Hamburg",
+      "Mehr als 249 Mitarbeitende"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Innovationsbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Hamburg"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Hafen",
+        "Logistik",
+        "Medien"
+      ]
+    }
+  },
+  {
+    "id": "hh-gruenderstipendium",
+    "title": "Hamburg Gründerstipendium",
+    "beschreibung": "Monatliches Stipendium von 1.500 € für bis zu 18 Monate für innovative Gründungsvorhaben in Hamburg.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Hamburgische Investitions- und Förderbank (IFB)",
+    "max_betrag": 27000,
+    "zins": null,
+    "antrag_url": "https://www.ifbhh.de/foerderprogramm/hamburger-gruenderstipendium",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Hamburg",
+      "Unternehmen älter als 1 Jahr"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Pitch Deck",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Hamburg"
+      ],
+      "mitarbeiter_max": 5,
+      "gruendungsjahr": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Kreativwirtschaft",
+        "Soziale Innovation"
+      ]
+    }
+  },
+  {
+    "id": "be-profistart-2024",
+    "title": "Berlin ProfiStart – Gründungsförderung 2024",
+    "beschreibung": "Förderung von technologieorientierten Existenzgründungen in Berlin bis 150.000 €.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Berlin (IBB)",
+    "max_betrag": 150000,
+    "zins": null,
+    "antrag_url": "https://www.ibb.de/de/wirtschaftsfoerderung/gruenden-in-berlin/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Berlin",
+      "Unternehmen älter als 3 Jahre"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Technologienachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "bundeslaender": [
+        "Berlin"
+      ],
+      "mitarbeiter_max": 50,
+      "gruendungsjahr": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "KI",
+        "GreenTech",
+        "HealthTech"
+      ]
+    }
+  },
+  {
+    "id": "be-kreativwirtschaft",
+    "title": "Berlin Kreativwirtschaft Förderprogramm",
+    "beschreibung": "Förderung der Berliner Kreativ- und Kulturwirtschaft. Zuschüsse für Musik, Film, Mode, Design, Games bis 70% Förderquote.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Medienboard Berlin-Brandenburg",
+    "max_betrag": 300000,
+    "zins": null,
+    "antrag_url": "https://www.medienboard.de/foerderung/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Kein Kreativbezug",
+      "Nicht in Berlin/Brandenburg"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Budget-Plan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "bundeslaender": [
+        "Berlin",
+        "Brandenburg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Medien",
+        "Kultur",
+        "Film",
+        "Games",
+        "Mode"
+      ]
+    }
+  },
+  {
+    "id": "by-baystartup",
+    "title": "BayStartUP Netzwerk – Mentoring & Kapital",
+    "beschreibung": "Vernetzungsprogramm und Investorenmatching für bayerische Start-ups mit Business Angels und VC-Fonds.",
+    "typ": "Beteiligung",
+    "quelle": "Bundesland",
+    "foerderer": "BayStartUP",
+    "max_betrag": 5000000,
+    "zins": null,
+    "antrag_url": "https://www.baystartup.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Bayern"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Pitch Deck",
+        "auto": false
+      },
+      {
+        "name": "Finanzplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ],
+      "mitarbeiter_max": 100
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "KI",
+        "GreenTech",
+        "MedTech"
+      ],
+      "gruendungsjahr": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ]
+    }
+  },
+  {
+    "id": "sn-kmu-innovation",
+    "title": "Sachsen – KMU-Innovationsförderung",
+    "beschreibung": "Förderung von FuE-Projekten sächsischer KMU. Schwerpunkte: Digitalisierung, Klimaneutralität, Mobilität bis 1 Mio. €.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Sächsische Aufbaubank (SAB)",
+    "max_betrag": 1000000,
+    "zins": null,
+    "antrag_url": "https://www.sab.de/foerderung/unternehmen/innovationen/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Sachsen",
+      "Mehr als 249 Mitarbeitende"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Innovationsbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR"
+      ],
+      "bundeslaender": [
+        "Sachsen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Automobil",
+        "Maschinenbau",
+        "Technologie",
+        "Halbleiter"
+      ]
+    }
+  },
+  {
+    "id": "sn-gruenden",
+    "title": "Gründen in Sachsen – Startkapital",
+    "beschreibung": "Förderung von Existenzgründungen: Zuschuss bis 50.000 € und Beratungsförderung für innovative Gründungen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Sächsische Aufbaubank (SAB)",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.sab.de/foerderung/gruenden/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Sachsen",
+      "Unternehmen älter als 2 Jahre"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Gründungsnachweis",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "bundeslaender": [
+        "Sachsen"
+      ],
+      "mitarbeiter_max": 50,
+      "gruendungsjahr": [
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Alle"
+      ]
+    }
+  },
+  {
+    "id": "th-gruendertransfer",
+    "title": "Thüringer Gründertransfer",
+    "beschreibung": "Förderung von Start-ups aus Thüringer Hochschulen: Coaching, Infrastruktur und bis zu 80.000 € Startkapital.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Thüringer Aufbaubank (TAB)",
+    "max_betrag": 80000,
+    "zins": null,
+    "antrag_url": "https://www.aufbaubank.de/Foerderprogramme/Gruendung/",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Thüringen",
+      "Kein Hochschulbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR"
+      ],
+      "bundeslaender": [
+        "Thüringen"
+      ],
+      "mitarbeiter_max": 25,
+      "gruendungsjahr": [
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Optik",
+        "Biotechnologie",
+        "Medizintechnik"
+      ]
+    }
+  },
+  {
+    "id": "mv-invest",
+    "title": "MV Invest – Mittelstandsprogramm",
+    "beschreibung": "Förderung von Investitionen in MV: Zuschüsse bis 35% für neue Betriebsstätten und Modernisierungen in strukturschwachen Regionen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank MV (IB.MV)",
+    "max_betrag": 2000000,
+    "zins": null,
+    "antrag_url": "https://www.ib-mv.de/foerderprogramme/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nicht in MV"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Mecklenburg-Vorpommern"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Tourismus",
+        "Produktion",
+        "Maritime Wirtschaft"
+      ]
+    }
+  },
+  {
+    "id": "sh-ib-wachstum",
+    "title": "IB.SH Wachstumskredit Schleswig-Holstein",
+    "beschreibung": "Wachstumskredite für SH-Unternehmen zur Finanzierung von Wachstumsinvestitionen und Digitalisierung ab 2,2% p.a.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Schleswig-Holstein (IB.SH)",
+    "max_betrag": 5000000,
+    "zins": "Ab 2,2% p.a.",
+    "antrag_url": "https://www.ib-sh.de/produkt/wachstumskredit/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Nicht in SH",
+      "Mitarbeiter über 499"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Schleswig-Holstein"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Windenergie",
+        "Schiffbau",
+        "Tourismus",
+        "Ernährungswirtschaft"
+      ]
+    }
+  },
+  {
+    "id": "he-wibank-gruendung",
+    "title": "WIBank Gründungskredit Hessen",
+    "beschreibung": "Günstige Gründungskredite für hessische Gründungen bis 5 Jahre nach Gründung. Zinsen ab 1,8% p.a.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Wirtschafts- und Infrastrukturbank Hessen (WIBank)",
+    "max_betrag": 2000000,
+    "zins": "Ab 1,8% p.a.",
+    "antrag_url": "https://www.wibank.de/wibank/de/foerderangebote/gruenden-und-wachsen/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Hessen",
+      "Unternehmen älter als 5 Jahre"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Gründungsnachweis",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Hessen"
+      ],
+      "gruendungsjahr": [
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Finanzdienstleistungen",
+        "Logistik",
+        "Chemie",
+        "Pharma"
+      ]
+    }
+  },
+  {
+    "id": "sl-sikb-kredit",
+    "title": "SIKB Saarland – Förderbank Kredit",
+    "beschreibung": "Förderung von Investitionen für saarländische KMU durch zinsgünstige Darlehen und Bürgschaften.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Saarländische Investitionskreditbank (SIKB)",
+    "max_betrag": 3000000,
+    "zins": "Ab 2,0% p.a.",
+    "antrag_url": "https://www.sikb.de/foerderung/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Nicht im Saarland",
+      "Mehr als 250 Mitarbeitende"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Saarland"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Stahl",
+        "Automobil",
+        "IT",
+        "Gesundheit"
+      ]
+    }
+  },
+  {
+    "id": "rp-isb-innovation",
+    "title": "ISB Rheinland-Pfalz Innovationskredit",
+    "beschreibung": "Förderung von Innovationsprojekten: Günstige Kredite und Beratungsförderung für FuE und Digitalisierung in RLP.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitions- und Strukturbank RLP (ISB)",
+    "max_betrag": 5000000,
+    "zins": "Ab 1,9% p.a.",
+    "antrag_url": "https://www.isb.rlp.de/foerderangebote/unternehmen/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Nicht in RLP"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Innovationsbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Rheinland-Pfalz"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Wein",
+        "Chemie",
+        "Optik",
+        "Informationstechnologie"
+      ]
+    }
+  },
+  {
+    "id": "ni-nbank-digital",
+    "title": "N-Bank Digitalisierungsförderung Niedersachsen",
+    "beschreibung": "Förderung von Digitalisierungsvorhaben niedersächsischer KMU: Zuschüsse bis 100.000 € für Digitalisierungsinvestitionen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Niedersächsische Investitions- und Förderbank (N-Bank)",
+    "max_betrag": 100000,
+    "zins": null,
+    "antrag_url": "https://www.nbank.de/F%C3%B6rderprogramme/Unternehmen/Digitalisierung/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Niedersachsen",
+      "Mehr als 499 Mitarbeitende"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Digitalisierungskonzept",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Niedersachsen"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Maschinenbau",
+        "Automotive",
+        "Logistik",
+        "Landwirtschaft"
+      ]
+    }
+  },
+  {
+    "id": "st-ib-wirtschaft",
+    "title": "IB Sachsen-Anhalt – Wirtschaftsförderung",
+    "beschreibung": "Gründungsförderung, Investitionszulagen und FuE-Förderung aus GRW und EFRE-Mitteln für SA-Unternehmen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Sachsen-Anhalt (IB)",
+    "max_betrag": 3000000,
+    "zins": null,
+    "antrag_url": "https://www.ib-sachsen-anhalt.de/unternehmen/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nicht in SA"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Sachsen-Anhalt"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Chemie",
+        "Logistik",
+        "Erneuerbare Energien",
+        "Landwirtschaft"
+      ]
+    }
+  },
+  {
+    "id": "hb-bab-gruender",
+    "title": "Bremer Aufbaubank – Gründerkredit",
+    "beschreibung": "Günstige Kredite für Gründungen in Bremen und Bremerhaven mit tilgungsfreier Anlaufzeit. Zinsen ab 1,75% p.a.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Bremer Aufbaubank (BAB)",
+    "max_betrag": 1000000,
+    "zins": "Ab 1,75% p.a.",
+    "antrag_url": "https://www.bab-bremen.de/foerderangebote/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Bremen",
+      "Unternehmen älter als 5 Jahre"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Gründungsnachweis",
+        "auto": true
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Bremen"
+      ],
+      "gruendungsjahr": [
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Logistik",
+        "Luftfahrt",
+        "Lebensmittel",
+        "Gesundheit"
+      ]
+    }
+  },
+  {
+    "id": "bw-bwbc-kredit",
+    "title": "Baden-Württemberg Bank Kredit Mittelstand",
+    "beschreibung": "L-Bank Förderkredite für Investitionen, Betriebsmittel und Gründungen in Baden-Württemberg zu Vorzugskonditionen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "L-Bank Baden-Württemberg",
+    "max_betrag": 5000000,
+    "zins": "Ab 1,85% p.a.",
+    "antrag_url": "https://www.l-bank.de/foerderungen/foerderungen-unternehmen/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Nicht in BW"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Bonitätsnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Automobilindustrie",
+        "Maschinenbau",
+        "Technologie",
+        "Medizintechnik"
+      ]
+    }
+  },
+  {
+    "id": "bw-cyber-valley",
+    "title": "Cyber Valley BW – KI-Forschungsförderung",
+    "beschreibung": "Förderung von KI-Projekten und Forschungskooperationen im Cyber Valley. Zuschüsse für KI-Start-ups und etablierte Unternehmen in BW.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Land Baden-Württemberg / MWK",
+    "max_betrag": 2000000,
+    "zins": null,
+    "antrag_url": "https://www.cyber-valley.de/",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Kein KI-Bezug",
+      "Nicht in BW"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "KI-Forschungskonzept",
+        "auto": false
+      },
+      {
+        "name": "Partner-Nachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "KI",
+        "Technologie",
+        "Robotik",
+        "Mobilität"
+      ]
+    }
   }
 ]

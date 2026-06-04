@@ -10,3 +10,6 @@ export { sozialversicherungAnmeldungTemplate } from './sozialversicherung-anmeld
 export { gewaehrleistungAgbTemplate } from './gewaehrleistung-agb'
 export { aufhebungsvertragTemplate } from './aufhebungsvertrag'
 export { datenschutzEinwilligungTemplate } from './datenschutz-einwilligung'
+export { nichtOffenlegungTemplate } from './nda-geheimhaltung'
+export { werkvertragTemplate } from './werkvertrag'
+export { freiberuflerVertragTemplate } from './freiberufler-vertrag'
