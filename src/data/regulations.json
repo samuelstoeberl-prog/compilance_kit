@@ -23522,5 +23522,652 @@
       ]
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "handelsrecht-kaufmann-buchführungspflicht",
+    "title": "Buchführungspflicht für Kaufleute (§ 238 HGB)",
+    "category": "Steuer",
+    "beschreibung": "Jeder Kaufmann ist nach HGB § 238 zur Buchführung verpflichtet. Die Bücher sind ordnungsgemäß zu führen (GoB), 10 Jahre aufzubewahren (§ 257 HGB). Elektronische Buchführung nach GoBD.",
+    "rechtsgrundlage": "HGB §§ 238, 257, GoBD",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__238.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG",
+        "e.K.",
+        "eG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "handelsrecht-inventur-inventar-bilanz",
+    "title": "Inventurpflicht und Inventar (§§ 240–241a HGB)",
+    "category": "Steuer",
+    "beschreibung": "Kaufleute müssen zu Beginn des Handelsgewerbes und am Schluss jedes Geschäftsjahres ein Inventar aufstellen (Inventur). Zugelassene Vereinfachungen: Stichproben-Inventur, permanente Inventur, verlegte Inventur.",
+    "rechtsgrundlage": "HGB §§ 240–241a",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__240.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG",
+        "e.K.",
+        "eG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "handelsrecht-prokura-handlungsvollmacht",
+    "title": "Prokura und Handlungsvollmacht (§§ 48–58 HGB)",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Prokura ermächtigt zum gesamten Geschäftsbetrieb (§ 49 HGB). Eintragung ins Handelsregister ist Pflicht. Handlungsvollmacht ist enger gefasst. Erteilung und Widerruf müssen dokumentiert werden.",
+    "rechtsgrundlage": "HGB §§ 48–58",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__48.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG",
+        "e.K.",
+        "eG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-pillar2-mindestbesteuerung-konzerne",
+    "title": "Globale Mindestbesteuerung 15 % (Pillar 2 / MinStG)",
+    "category": "Steuer",
+    "beschreibung": "Ab 2024 gilt eine globale Mindeststeuer von 15 % für multinationale Konzerne mit Umsatz ≥ 750 Mio. €. Deutschland hat Pillar 2 durch das MinStG umgesetzt. Ergänzungs- und Nacherhebungssteuer für Konzerngesellschaften.",
+    "rechtsgrundlage": "MinStG (2023), OECD BEPS Pillar 2",
+    "quelle_url": "https://www.bundesfinanzministerium.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "mitarbeiter_min": 250
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-umsatzsteuer-plattformhaftung-§25e",
+    "title": "Umsatzsteuer-Plattformhaftung (§ 25e UStG)",
+    "category": "Steuer",
+    "beschreibung": "Betreiber elektronischer Marktplätze haften für nicht abgeführte Umsatzsteuer ihrer Händler (§ 25e UStG). Pflicht zur Aufzeichnung und Meldung von Händlerdaten. DAC7-Meldepflicht ab 2023.",
+    "rechtsgrundlage": "UStG § 25e, DAC7-Richtlinie",
+    "quelle_url": "https://www.gesetze-im-internet.de/ustg_1980/__25e.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "E-Commerce",
+        "Marktplatz",
+        "IT"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "entsendung-arbeitnehmerentsendegesetz",
+    "title": "Arbeitnehmerentsendung – AEntG und Meldepflichten",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei grenzüberschreitender Entsendung von Arbeitnehmern muss der ausländische Arbeitgeber Entsendemeldung beim Zoll erstatten (§ 18 AEntG) und die deutschen Mindestarbeitsbedingungen (Mindestlohn, Urlaub) einhalten.",
+    "rechtsgrundlage": "AEntG §§ 2, 18, EU-Entsenderichtlinie 96/71/EG",
+    "quelle_url": "https://www.zoll.de/DE/Fachthemen/Arbeit/Entsendung/entsendung_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Bau",
+        "Reinigung",
+        "Fleischwirtschaft",
+        "Transport",
+        "Pflege"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "entsendung-a1-bescheinigung-eu-entsendung",
+    "title": "A1-Bescheinigung bei EU-Dienstreisen",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei Dienstreisen und Entsendungen in andere EU-Staaten benötigen Arbeitnehmer eine A1-Bescheinigung, die den Fortbestand der deutschen Sozialversicherung bestätigt. Beantragung beim Sozialversicherungsträger (DRV/BKK).",
+    "rechtsgrundlage": "VO EG 883/2004, VO EG 987/2009",
+    "quelle_url": "https://www.deutsche-rentenversicherung.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-homeoffice-gefährdungsbeurteilung",
+    "title": "Homeoffice – Gefährdungsbeurteilung und Ausstattungspflicht",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitgeber haben auch für Homeoffice-Arbeitsplätze Pflichten: Gefährdungsbeurteilung, Unterweisungspflicht, ergonomische Ausstattung (Bildschirmarbeitsverordnung). Arbeitszeit im Homeoffice muss dokumentiert werden.",
+    "rechtsgrundlage": "ArbSchG § 5, BildscharbV, ArbStättV § 2 Abs. 7",
+    "quelle_url": "https://www.baua.de/DE/Themen/Arbeitsgestaltung-im-Betrieb/Telearbeit-und-mobiles-Arbeiten/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-nachtarbeit-zuschlag",
+    "title": "Nachtarbeit – Zuschlagspflicht und Gesundheitsschutz",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Nachtarbeitnehmer (mehr als 2h regelmäßig zwischen 23–6 Uhr) haben Anspruch auf Ausgleich (Zuschlag oder Freizeitausgleich, § 6 ArbZG) und periodische arbeitsmedizinische Untersuchungen. Nachtarbeitsdauer grundsätzlich max. 8h.",
+    "rechtsgrundlage": "ArbZG § 6, § 8",
+    "quelle_url": "https://www.gesetze-im-internet.de/arbzg/__6.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Gastronomie",
+        "Pflege",
+        "Produktion",
+        "Sicherheit",
+        "Transport"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-betriebsübergang-§613a",
+    "title": "Betriebsübergang – Informationspflicht (§ 613a BGB)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei Betriebsübergang gehen alle Arbeitsverhältnisse auf den Erwerber über. Arbeitnehmer müssen schriftlich über den Übergang, Zeitpunkt und Folgen informiert werden (§ 613a Abs. 5 BGB). Widerspruchsrecht binnen 1 Monat.",
+    "rechtsgrundlage": "BGB § 613a",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__613a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-verdachtskündigung-abmahnung",
+    "title": "Verdachtskündigung und Abmahnungserfordernis",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Verhaltensbedingte Kündigungen erfordern regelmäßig eine vorherige Abmahnung. Verdachtskündigungen sind zulässig bei dringendem Verdacht einer schwerwiegenden Pflichtverletzung; Anhörung des Arbeitnehmers ist Pflicht.",
+    "rechtsgrundlage": "BGB § 626, KSchG § 1",
+    "quelle_url": "https://www.gesetze-im-internet.de/kschg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vertragsrecht-software-wartungsvertrag",
+    "title": "Softwareüberlassungsvertrag und Wartungsvertrag",
+    "category": "Vertragsrecht",
+    "beschreibung": "Software-Kaufverträge, Lizenzverträge und Wartungsverträge unterliegen je nach Ausgestaltung dem Kauf-, Miet- oder Werkvertragsrecht. SaaS-Verträge sind in der Regel Mietverträge (§§ 535 ff. BGB). Datenschutz-Vereinbarung (AVV) notwendig.",
+    "rechtsgrundlage": "BGB §§ 433, 535, 631, UrhG § 69a",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "IT",
+        "Software"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vertragsrecht-subunternehmer-haftung",
+    "title": "Subunternehmer-Einsatz und Haftung (§ 14 AEntG)",
+    "category": "Vertragsrecht",
+    "beschreibung": "Generalunternehmer haften für Mindestlohn-Ansprüche der Subunternehmer-Arbeitnehmer (§ 14 AEntG). Im Bau gilt zudem die VOB/B-Subunternehmerregelung. Sorgfältige Vertragsgestaltung und Auswahlpflichten.",
+    "rechtsgrundlage": "AEntG § 14, SGB IV § 28e, VOB/B",
+    "quelle_url": "https://www.gesetze-im-internet.de/aentg_2009/__14.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Bau",
+        "Reinigung",
+        "IT",
+        "Logistik",
+        "Fleischwirtschaft"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "immobilien-gewerbemietvertrag-pflichtbestandteile",
+    "title": "Gewerbemietvertrag – Schriftform und Mindestlaufzeit",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "Gewerbemietverträge über mehr als 1 Jahr müssen dem Schriftformerfordernis entsprechen (§ 550 BGB). Fehlende Schriftform macht den Vertrag ordentlich kündbar. Indexierung, Umsatzmiete, Mietanpassung per Klausel zu regeln.",
+    "rechtsgrundlage": "BGB §§ 535, 550",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__550.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Immobilien"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "immobilien-grundbuch-belastungen",
+    "title": "Grundbuch – Eintragung von Grundschulden und Hypotheken",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "Kreditbesicherungen durch Grundstücke erfordern Eintragung einer Grundschuld oder Hypothek im Grundbuch (§§ 1113 ff., 1191 ff. BGB). Erfordert notarielle Beurkundung und Einigung. Löschungsanspruch bei Rückzahlung.",
+    "rechtsgrundlage": "BGB §§ 1113, 1191, GBO",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__1113.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Immobilien",
+        "Banken"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "telekommunikation-tkg-2021-netzneutralität",
+    "title": "Telekommunikationsgesetz (TKG) 2021 – Verbraucherrechte",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Das neue TKG 2021 stärkt Verbraucherrechte: Mindestqualitäten, Entschädigungsansprüche bei Ausfällen, Portierungsfristen 1 Werktag. Netzneutralität (EU Open Internet Regulation). Meldepflichten für TK-Anbieter.",
+    "rechtsgrundlage": "TKG 2021, EU-VO 2015/2120",
+    "quelle_url": "https://www.gesetze-im-internet.de/tkg_2021/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "Telekommunikation",
+        "IT",
+        "Internet-Provider"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesundheit-arbeitsmedizinische-vorsorge",
+    "title": "Arbeitsmedizinische Vorsorge (ArbMedVV)",
+    "category": "Brandschutz",
+    "beschreibung": "Arbeitgeber müssen für bestimmte Gefährdungen Pflicht- und Angebotsvorsorge (arbeitsmedizinische Untersuchungen) gewährleisten. Pflichtvorsorge: Lärm, Gefahrstoffe, Nachtarbeit, Bildschirmarbeit auf Wunsch.",
+    "rechtsgrundlage": "ArbMedVV §§ 3–7",
+    "quelle_url": "https://www.gesetze-im-internet.de/arbmedvv/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Produktion",
+        "Chemie",
+        "Bau",
+        "Gesundheitswirtschaft",
+        "Kfz"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "beihilferecht-de-minimis-verordnung",
+    "title": "De-minimis-Beihilfe – Kumulierungsregeln",
+    "category": "Compliance",
+    "beschreibung": "Staatliche Beihilfen bis 300.000 € über 3 Jahre (de-minimis, VO EU 2023/2831) sind ohne EU-Notifizierung zulässig. Unternehmen müssen Beihilfen kumulieren und dürfen die Schwelle nicht überschreiten.",
+    "rechtsgrundlage": "VO EU 2023/2831 (De-minimis)",
+    "quelle_url": "https://competition-policy.ec.europa.eu/state-aid/legislation/block-exemption-regulations-and-guidelines/de-minimis_de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "beihilferecht-agvo-allgemeine-gruppenfreistellung",
+    "title": "AGVO – Allgemeine Gruppenfreistellungsverordnung (EU)",
+    "category": "Compliance",
+    "beschreibung": "Die AGVO erlaubt Mitgliedstaaten bestimmte Beihilfen ohne vorherige EU-Genehmigung (FuE, KMU, Umwelt, Beschäftigung). Unternehmen in Schwierigkeiten sind ausgeschlossen. Transparenz- und Meldepflichten.",
+    "rechtsgrundlage": "VO EU 651/2014 (AGVO), ergänzende VO 2023/1315",
+    "quelle_url": "https://ec.europa.eu/competition/state_aid/legislation/block.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "it-software-esig-elektronische-signatur",
+    "title": "Elektronische Signatur (eIDAS) – Anforderungen und Rechtsverbindlichkeit",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Die EU eIDAS-Verordnung regelt elektronische Signaturen: einfache, fortgeschrittene und qualifizierte Signaturen (QES). QES hat gleiche Rechtswirkung wie handschriftliche Unterschrift. Qualifizierte Vertrauensdienstanbieter (QTSP) erforderlich.",
+    "rechtsgrundlage": "EU-VO 910/2014 (eIDAS), BGB § 126a",
+    "quelle_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Kryptografie_und_Digitale_Signaturen/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "it-dsgvo-privacy-by-design-technikgestaltung",
+    "title": "Privacy by Design / Default (Art. 25 DSGVO)",
+    "category": "Datenschutz",
+    "beschreibung": "Datenverarbeitende Systeme und Dienste müssen datenschutzfreundlich gestaltet werden (Privacy by Design). Datenschutz-Grundeinstellungen müssen restriktiv sein (Privacy by Default). Dokumentationspflicht.",
+    "rechtsgrundlage": "DSGVO Art. 25",
+    "quelle_url": "https://dsgvo-gesetz.de/art-25-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "IT",
+        "Software",
+        "E-Commerce"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "medienrecht-rundfunkbeitrag-firmenkunden",
+    "title": "Rundfunkbeitrag für Unternehmen (RBStV)",
+    "category": "Compliance",
+    "beschreibung": "Jede Betriebsstätte zahlt mindestens einen Rundfunkbeitrag (18,36 €/Monat). Für jede weitere Betriebsstätte ab 2 MA ist ein zusätzlicher Beitrag fällig. Online-Anmeldung beim Beitragsservice (ARD ZDF Deutschlandradio).",
+    "rechtsgrundlage": "RBStV §§ 5, 6",
+    "quelle_url": "https://www.rundfunkbeitrag.de/unternehmen/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler",
+        "Verein"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "medienrecht-pressrecht-gegendarstellung",
+    "title": "Presserecht – Gegendarstellungsrecht und Persönlichkeitsschutz",
+    "category": "Digitales Recht",
+    "beschreibung": "In Presse- und Medienerzeugnissen betroffene Unternehmen und Personen haben das Recht auf Gegendarstellung (Landespressegesetze). Werbung muss als solche gekennzeichnet sein (§ 5a UWG, Schleichwerbungsverbot).",
+    "rechtsgrundlage": "Landespressegesetze, UWG § 5a, MStV",
+    "quelle_url": "https://www.bpb.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Medien",
+        "Werbung",
+        "PR",
+        "Journalismus"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "medienrecht-influencer-kennzeichnungspflicht",
+    "title": "Influencer-Marketing – Kennzeichnungspflicht (UWG / MStV)",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Bezahlte Werbung in Social-Media-Posts muss als Werbung/Anzeige gekennzeichnet werden (§ 5a UWG, § 22 MStV). Auch kostenlose Produktplatzierungen können kennzeichnungspflichtig sein. Abmahnrisiko bei Verstößen.",
+    "rechtsgrundlage": "UWG § 5a, MStV § 22, TMG",
+    "quelle_url": "https://www.wettbewerbszentrale.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Medien",
+        "Werbung",
+        "E-Commerce",
+        "Mode",
+        "Beauty",
+        "Gastronomie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "reiserecht-pauschalreise-richtlinie",
+    "title": "Pauschalreiserichtlinie – Informations- und Haftungspflichten",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Reiseveranstalter müssen vorvertragliche Informationen bereitstellen, Insolvenzabsicherung nachweisen und bei Mängeln Abhilfe leisten. Recht auf Preisminderung und Schadensersatz bei erheblichen Mängeln (§§ 651a ff. BGB).",
+    "rechtsgrundlage": "BGB §§ 651a–651y, EU-RL 2015/2302",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__651a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Tourismus",
+        "Reisebranche"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "nachhaltigkeit-co2-neutrale-lieferung-unternehmen",
+    "title": "Klimaneutralitätspflichten – freiwillige vs. gesetzliche Anforderungen",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Neben gesetzlichen Pflichten (CSRD, LkSG) setzen immer mehr Großkunden Klimaneutralitätsnachweise voraus. ISO 14064, PAS 2060 und der GHG Protocol-Standard sind Rahmen für die Messung und Kompensation von CO₂-Emissionen.",
+    "rechtsgrundlage": "ISO 14064, GHG Protocol, PAS 2060",
+    "quelle_url": "https://ghgprotocol.org/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "nachhaltigkeit-lieferkette-co2-scope1-2-3",
+    "title": "CO₂-Bilanzierung Scope 1, 2, 3 (GHG Protocol)",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Scope 1 (direkte Emissionen), Scope 2 (Strom-Emissionen) und Scope 3 (Lieferkette + Nutzung) sind nach GHG Protocol zu messen. Ab 2025 verlangt CSRD Scope-3-Berichterstattung für viele Großunternehmen.",
+    "rechtsgrundlage": "GHG Protocol, CSRD/ESRS",
+    "quelle_url": "https://ghgprotocol.org/corporate-standard",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 50
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "verbraucherrecht-produkthaftung-prodhaftg",
+    "title": "Produkthaftungsgesetz (ProdHaftG) – Gefährdungshaftung",
+    "category": "Vertragsrecht",
+    "beschreibung": "Hersteller haften ohne Verschulden für Schäden durch fehlerhafte Produkte (Gefährdungshaftung). Haftungsgrenze für Sachschäden: 85 Mio. €; kein Limit für Personenschäden. Inverkehrbringen begründet Haftung.",
+    "rechtsgrundlage": "ProdHaftG §§ 1–19",
+    "quelle_url": "https://www.gesetze-im-internet.de/prodhaftg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
   }
 ]

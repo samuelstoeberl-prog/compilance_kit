@@ -27365,5 +27365,446 @@
         "Medizintechnik"
       ]
     }
+  },
+  {
+    "id": "bund-exist-forschungstransfer",
+    "title": "EXIST-Forschungstransfer – Ausgründungen aus Hochschulen",
+    "beschreibung": "Fördert aufwändige technologische Entwicklungsarbeiten für Ausgründungen aus Hochschulen in Phase I (18 Monate, bis 250.000 €) und II (2 Jahre, bis 1,6 Mio. €). Für DeepTech-intensive Gründungsvorhaben.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "max_betrag": 1600000,
+    "zins": null,
+    "antrag_url": "https://www.exist.de/EXIST/Navigation/DE/Gruendungsfoerderung/EXIST-Forschungstransfer/exist-forschungstransfer.html",
+    "bearbeitungszeit_wochen": [
+      12,
+      26
+    ],
+    "ausschlusskriterien": [
+      "Kein Hochschulbezug",
+      "Mehr als 5 Jahre nach Gründungsidee"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Technologiebeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Businessplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG"
+      ],
+      "mitarbeiter_max": 15
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "DeepTech",
+        "Biotech",
+        "Medizintechnik",
+        "Materialwissenschaft",
+        "KI",
+        "Quantentechnologie"
+      ]
+    }
+  },
+  {
+    "id": "bund-greenh2-wasserstoff-förderung-bmbf",
+    "title": "Nationale Wasserstoffstrategie – H2-Projekte (BMBF/BMWK)",
+    "beschreibung": "Bundesförderung für Wasserstoff-Technologien: Elektrolyseure, Brennstoffzellen, H2-Infrastruktur, Power-to-Gas. Programme: H2-Reallabore, H2Giga, H2Mare, HyperLink. Zuschüsse bis 50 % Projektkosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / BMWK / PtJ",
+    "max_betrag": 10000000,
+    "zins": null,
+    "antrag_url": "https://www.now-gmbh.de/wasserstoff/",
+    "bearbeitungszeit_wochen": [
+      12,
+      30
+    ],
+    "ausschlusskriterien": [
+      "Kein Wasserstoffbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Technologienachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "Energie",
+        "Wasserstoff",
+        "Chemie",
+        "Stahl",
+        "Transport",
+        "GreenTech"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-startup-nation-konjunktur",
+    "title": "High-Tech Gründerfonds IV (HTGF)",
+    "beschreibung": "Staatlicher Seed-Fonds für technologieorientierte Gründungen. Investiert bis zu 1 Mio. € (Follow-on bis 3 Mio. €) als stille Beteiligung. Fokus: Software, Biotech, Chemie, Hardware. Ko-Investoren willkommen.",
+    "typ": "Beteiligung",
+    "quelle": "Bund",
+    "foerderer": "HTGF / BMWK / KfW",
+    "max_betrag": 3000000,
+    "zins": null,
+    "antrag_url": "https://www.htgf.de/",
+    "bearbeitungszeit_wochen": [
+      8,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Kein Tech-Schwerpunkt",
+      "Bereits etabliertes Unternehmen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Pitch-Deck",
+        "auto": false
+      },
+      {
+        "name": "Businessplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "mitarbeiter_max": 25
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT",
+        "Biotech",
+        "DeepTech",
+        "GreenTech",
+        "Chemie",
+        "Hardware"
+      ],
+      "gruendungsjahr": [
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ]
+    }
+  },
+  {
+    "id": "eu-invest-eu-social-investment",
+    "title": "InvestEU – Soziale Investitionen und Kompetenzen",
+    "beschreibung": "InvestEU-Fenster für soziale Investitionen: Mikrofinanzierung, soziale Unternehmen, Bildungsinvestitionskredite. EIF garantiert Darlehen und Beteiligungen für soziale Unternehmen über nationale Finanzintermediäre.",
+    "typ": "Bürgschaft",
+    "quelle": "EU",
+    "foerderer": "EIF / InvestEU",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.eif.org/what_we_do/investeu/social_investment/",
+    "bearbeitungszeit_wochen": [
+      4,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Kein sozialer Unternehmenszweck"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Kreditantrag bei Partnerbank",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "Verein",
+        "eG",
+        "GbR"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Sozialwirtschaft",
+        "Bildung",
+        "Pflege",
+        "Gesundheitswirtschaft"
+      ]
+    }
+  },
+  {
+    "id": "bb-landesfoerderung-digitale-wirtschaft",
+    "title": "Brandenburg – Digitale Wirtschaft Förderung",
+    "beschreibung": "Brandenburg fördert digitale Infrastruktur und IKT-Projekte in Unternehmen mit EFRE-Mitteln. Schwerpunkte: Digitalisierung, Industrie 4.0, Cybersicherheit. Fördersätze 40–60 % für KMU.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "ILB Brandenburg",
+    "max_betrag": 300000,
+    "zins": null,
+    "antrag_url": "https://www.ilb.de/",
+    "bearbeitungszeit_wochen": [
+      6,
+      18
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb Brandenburg",
+      "Großunternehmen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Digitalisierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "bundeslaender": [
+        "Brandenburg"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT",
+        "Produktion",
+        "Handel",
+        "Dienstleistungen"
+      ]
+    }
+  },
+  {
+    "id": "ni-innovationsfoerderung-nbank-forschung",
+    "title": "Niedersachsen – NBank Innovationsförderung KMU",
+    "beschreibung": "NBank-Förderprogramm für FuE-Projekte niedersächsischer KMU. Einzelvorhaben bis 150.000 € Zuschuss, Verbundprojekte mit Forschungsinstituten höhere Förderungen. Fokus: Neue Technologien, Nachhaltigkeit.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "NBank Niedersachsen",
+    "max_betrag": 150000,
+    "zins": null,
+    "antrag_url": "https://www.nbank.de/",
+    "bearbeitungszeit_wochen": [
+      8,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb Niedersachsen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Innovationsvorhaben-Beschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR"
+      ],
+      "bundeslaender": [
+        "Niedersachsen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Maschinenbau",
+        "IT",
+        "Landwirtschaft",
+        "GreenTech",
+        "Automobil"
+      ]
+    }
+  },
+  {
+    "id": "rlp-efre-kmu-foerderung-innovation",
+    "title": "Rheinland-Pfalz – EFRE Innovation KMU",
+    "beschreibung": "RLP nutzt EFRE-Mittel für Innovationsvorhaben von KMU: FuE-Zuschüsse, Innovationsberatung, Technologietransfer. Fördersatz bis 45 %. Beratung über Technologiezentren und ISB.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "ISB RLP",
+    "max_betrag": 300000,
+    "zins": null,
+    "antrag_url": "https://www.isb.rlp.de/",
+    "bearbeitungszeit_wochen": [
+      8,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb RLP"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "FuE-Beschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR"
+      ],
+      "bundeslaender": [
+        "Rheinland-Pfalz"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "sa-sachsen-anhalt-solarfabrik-förderung",
+    "title": "Sachsen-Anhalt – Investitionsförderung GrüneWirtschaft",
+    "beschreibung": "Investitionszuschüsse für klimafreundliche und nachhaltige Wirtschaftsvorhaben in Sachsen-Anhalt. EFRE-kofinanziert. Produktion erneuerbarer Energietechnologien, Energiespeicher, Kreislaufwirtschaft.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "IB Sachsen-Anhalt",
+    "max_betrag": 2000000,
+    "zins": null,
+    "antrag_url": "https://www.ib-sachsen-anhalt.de/",
+    "bearbeitungszeit_wochen": [
+      10,
+      26
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb SA"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Nachhaltigkeitsnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR"
+      ],
+      "bundeslaender": [
+        "Sachsen-Anhalt"
+      ],
+      "branchen": [
+        "Energie",
+        "Produktion",
+        "GreenTech",
+        "Kreislaufwirtschaft"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-bsi-security-audit-förderung",
+    "title": "IT-Sicherheit KMU – BSI-geförderte Sicherheitsaudits",
+    "beschreibung": "Im Rahmen der Allianz für Cybersicherheit fördert das BSI Sicherheitsaudits und Assessments für KMU. Günstige Einstiegsaudits, Toolbereitstellung und Awareness-Training. Keine direkte Geldförderung, aber Sachleistungen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BSI",
+    "max_betrag": null,
+    "zins": null,
+    "antrag_url": "https://www.allianz-fuer-cybersicherheit.de/",
+    "bearbeitungszeit_wochen": [
+      2,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT",
+        "Handel",
+        "Produktion",
+        "Dienstleistungen"
+      ]
+    }
+  },
+  {
+    "id": "bund-gründerinnnen-förderung-bmwk-exist",
+    "title": "Gründerinnen-Förderung – Mentoring und Coachingprogramme",
+    "beschreibung": "Bundesweite Programme zur Förderung von Unternehmensgründerinnen: EXIST-Women, Female Founders Monitor, IFB-Coaching. Mentoring, Netzwerke, Sichtbarkeitsprogramme. Kombination mit EXIST-Stipendium möglich.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / BMF",
+    "max_betrag": 30000,
+    "zins": null,
+    "antrag_url": "https://www.female-founders-monitor.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan (ggf.)",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "relevanz_boost": {
+      "gruendungsjahr": [
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ]
+    }
   }
 ]
