@@ -21109,5 +21109,998 @@
       "mitarbeiter_min": 250
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-elektronische-registrierkasse-pflicht",
+    "title": "Kassensicherungsverordnung (KassenSichV) – TSE-Pflicht",
+    "category": "Steuer",
+    "beschreibung": "Elektronische Kassensysteme müssen seit 2020 mit einer zertifizierten technischen Sicherheitseinrichtung (TSE) ausgestattet sein. Belegausgabepflicht (§ 146a AO). Unangekündigte Kassennachschauen möglich.",
+    "rechtsgrundlage": "AO § 146a, KassenSichV, BSI TR-03153",
+    "quelle_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Kassen/kassen_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Gastronomie",
+        "Einzelhandel",
+        "Kfz",
+        "Handwerk",
+        "Lebensmittel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-umsatzsteuer-voranmeldung-dauerfrist",
+    "title": "Umsatzsteuer-Voranmeldung und Dauerfristverlängerung",
+    "category": "Steuer",
+    "beschreibung": "Unternehmer müssen monatlich oder vierteljährlich Umsatzsteuer-Voranmeldungen abgeben (§ 18 UStG). Eine Dauerfristverlängerung um 1 Monat ist beim Finanzamt beantragbar gegen Sondervorauszahlung von 1/11 der Jahressteuer.",
+    "rechtsgrundlage": "UStG § 18, UStDV § 46–48",
+    "quelle_url": "https://www.gesetze-im-internet.de/ustg_1980/__18.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-körperschaftsteuer-gmbh",
+    "title": "Körperschaftsteuer (KSt) für Kapitalgesellschaften",
+    "category": "Steuer",
+    "beschreibung": "Kapitalgesellschaften (GmbH, AG, UG) zahlen 15 % Körperschaftsteuer zzgl. 5,5 % Solidaritätszuschlag auf zu versteuerndes Einkommen. Körperschaftsteuervorauszahlungen quartalsweise (10.3., 10.6., 10.9., 10.12.).",
+    "rechtsgrundlage": "KStG §§ 1, 23",
+    "quelle_url": "https://www.gesetze-im-internet.de/kstg_1977/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "eG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-gewerbesteuer-zerlegung",
+    "title": "Gewerbesteuer-Zerlegung bei Mehrfachbetriebsstätten",
+    "category": "Steuer",
+    "beschreibung": "Unternehmen mit Betriebsstätten in mehreren Gemeinden müssen ihren Gewerbesteuermessbetrag nach Lohnsummen aufteilen (Zerlegung §§ 28–34 GewStG). Jede Gemeinde erhebt eigene Gewerbesteuer auf ihren Anteil.",
+    "rechtsgrundlage": "GewStG §§ 28–34",
+    "quelle_url": "https://www.gesetze-im-internet.de/gewstg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-erbschaft-schenkung-betriebsvermögen",
+    "title": "Erbschaft-/Schenkungsteuer – Betriebsvermögensverschonung",
+    "category": "Steuer",
+    "beschreibung": "Betriebsvermögen kann bei Erbschaft/Schenkung verschont werden (85 % Regelverschonung oder 100 % Optionsverschonung), wenn Behaltensfrist (5/7 Jahre) und Lohnsummenregel eingehalten werden. §§ 13a/13b ErbStG.",
+    "rechtsgrundlage": "ErbStG §§ 13a, 13b, 19a",
+    "quelle_url": "https://www.gesetze-im-internet.de/erbstg_1974/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-verrechnungspreise-dokumentation",
+    "title": "Verrechnungspreisdokumentation (§ 90 Abs. 3 AO)",
+    "category": "Steuer",
+    "beschreibung": "Unternehmen mit verbundenen ausländischen Gesellschaften müssen Verrechnungspreise nach dem Fremdvergleichsgrundsatz festlegen und dokumentieren (Master File, Local File, CbCR ab 750 Mio. € Umsatz).",
+    "rechtsgrundlage": "AO § 90 Abs. 3, GAufzV, OECD BEPS",
+    "quelle_url": "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Internationales_Steuerrecht/Verrechnungspreise/verrechnungspreise.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-einkommensteuer-freiberufler-anlage-eür",
+    "title": "EÜR – Einnahmen-Überschuss-Rechnung (§ 4 Abs. 3 EStG)",
+    "category": "Steuer",
+    "beschreibung": "Nicht buchführungspflichtige Selbstständige und Freiberufler können statt doppelter Buchführung eine EÜR erstellen. Die amtliche EÜR-Vorlage ist elektronisch ans Finanzamt zu übermitteln (Elster).",
+    "rechtsgrundlage": "EStG § 4 Abs. 3, § 60 EStDV",
+    "quelle_url": "https://www.elster.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Freiberufler",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-reisekostenrecht-werbungskosten",
+    "title": "Steuerliches Reisekostenrecht – Werbungskosten/Betriebsausgaben",
+    "category": "Steuer",
+    "beschreibung": "Fahrtkosten (0,30 €/km), Verpflegungspauschalen (12 € / 24 € / 28 €) und Übernachtungskosten sind als Werbungskosten oder Betriebsausgaben abzugsfähig. Erste Tätigkeitsstätte entscheidet über Pendlerpauschale vs. Reisekostenrecht.",
+    "rechtsgrundlage": "EStG §§ 9, 4 Abs. 5",
+    "quelle_url": "https://www.bundesfinanzministerium.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-photovoltaik-nullsteuersatz-umsatzsteuer",
+    "title": "Nullsteuersatz Photovoltaikanlagen (§ 12 Abs. 3 UStG)",
+    "category": "Steuer",
+    "beschreibung": "Seit Januar 2023 gilt 0 % Umsatzsteuer auf Lieferung und Installation von PV-Anlagen bis 30 kWp auf Wohn- und öffentlichen Gebäuden. Vereinfacht Privatpersonen und Kleinunternehmer die PV-Nutzung.",
+    "rechtsgrundlage": "UStG § 12 Abs. 3",
+    "quelle_url": "https://www.bundesfinanzministerium.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Energie",
+        "Handwerk",
+        "Elektro",
+        "SHK"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "compliance-hinweisgeberschutzgesetz-hinsgg",
+    "title": "Hinweisgeberschutz – Interne Meldestelle (HinSchG)",
+    "category": "Compliance",
+    "beschreibung": "Unternehmen mit ≥ 50 Beschäftigten müssen eine interne Meldestelle für Whistleblower einrichten (§ 12 HinSchG). Meldende Personen sind vor Repressalien geschützt. Externe Meldestelle: Bundesamt für Justiz.",
+    "rechtsgrundlage": "HinSchG § 12, EU-RL 2019/1937",
+    "quelle_url": "https://www.bundesjustizamt.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Verein",
+        "eG"
+      ],
+      "mitarbeiter_min": 50
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "compliance-aktionärsrechterichtlinie-say-on-pay",
+    "title": "Aktionärsrechterichtlinie II – Vergütungspolitik (AG)",
+    "category": "Compliance",
+    "beschreibung": "Börsennotierte AG müssen Vergütungspolitik für Vorstand und Aufsichtsrat mindestens alle 4 Jahre der Hauptversammlung zur Abstimmung vorlegen (Say-on-Pay). Jährlicher Vergütungsbericht ist zu veröffentlichen.",
+    "rechtsgrundlage": "AktG §§ 87a, 162, ARUG II",
+    "quelle_url": "https://www.gesetze-im-internet.de/aktg/__87a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "compliance-lieferkettensorgfaltspflichtengesetz",
+    "title": "Lieferkettensorgfaltspflichtengesetz (LkSG)",
+    "category": "Compliance",
+    "beschreibung": "Ab 1.000 Mitarbeiter (seit 2024): Unternehmen müssen menschenrechtliche und umweltbezogene Sorgfaltspflichten in ihrer Lieferkette einhalten, dokumentieren und jährlich berichten. Risikoanalyse und Beschwerdeverfahren erforderlich.",
+    "rechtsgrundlage": "LkSG §§ 3–10",
+    "quelle_url": "https://www.bafa.de/DE/Lieferketten/lieferketten_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 1000
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "compliance-anti-korruptions-richtlinie",
+    "title": "Anti-Korruptions-Compliance (§§ 299, 333 StGB)",
+    "category": "Compliance",
+    "beschreibung": "Unternehmen sollten Compliance-Programme gegen Korruption einrichten (Verhaltenskodex, Schulungen, Kontrollsysteme). Bestechung und Bestechlichkeit im Geschäftsverkehr (§ 299 StGB) können Unternehmen und Geschäftsführer strafbar machen.",
+    "rechtsgrundlage": "StGB §§ 299, 333, 334",
+    "quelle_url": "https://www.bmjv.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "compliance-geldwäscheprävention-risikobewertung",
+    "title": "Geldwäscheprävention – Risikoanalyse und Interne Sicherungsmaßnahmen",
+    "category": "Compliance",
+    "beschreibung": "Verpflichtete nach GwG (Notare, Rechtsanwälte, Immobilienmakler, Banken, Güterhändler) müssen jährlich eine Risikoanalyse erstellen und interne Sicherungsmaßnahmen implementieren (Geldwäschebeauftragter ab bestimmter Größe).",
+    "rechtsgrundlage": "GwG §§ 4–9",
+    "quelle_url": "https://www.fatf-gafi.org/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "compliance-corporate-governance-kodex",
+    "title": "Deutscher Corporate Governance Kodex (DCGK)",
+    "category": "Compliance",
+    "beschreibung": "Börsennotierte Unternehmen müssen jährlich erklären, ob und wie sie den DCGK-Empfehlungen folgen ('Comply or Explain'). Enthält Empfehlungen zu Vorstand, Aufsichtsrat, Transparenz und Vergütung.",
+    "rechtsgrundlage": "AktG § 161 (Entsprechenserklärung)",
+    "quelle_url": "https://www.dcgk.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "it-sicherheit-nis2-umsetzungsgesetz",
+    "title": "NIS2-Umsetzungsgesetz – Erweiterte Meldepflichten",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Das NIS2-Umsetzungsgesetz (BSIG-Novelle 2024) weitet Cybersicherheitspflichten auf ~30.000 weitere deutsche Unternehmen aus. Registrierung beim BSI, erhöhte Anforderungen an Risikomanagement, 24h/72h-Meldepflicht bei Incidents.",
+    "rechtsgrundlage": "BSIG 2024, EU-NIS2-RL 2022/2555",
+    "quelle_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/NIS-2/nis-2_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 50
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "it-sicherheit-kritisch-kritis-2-schwellenwert",
+    "title": "KRITIS-DachG – Resilienzpflichten kritischer Anlagen",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Das KRITIS-Dachgesetz (2024) verpflichtet Betreiber kritischer Anlagen (Schwellenwerte nach Sektoren) zur Resilienz: physische Sicherheit, Lieferkettensicherheit, Notfallmanagement, Meldepflichten beim BBK.",
+    "rechtsgrundlage": "KRITIS-DachG, EU-CER-RL 2022/2557",
+    "quelle_url": "https://www.bbk.bund.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "Energie",
+        "Wasser",
+        "Gesundheitswirtschaft",
+        "Transport",
+        "IT",
+        "Finanzdienstleistungen",
+        "Lebensmittel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "it-sicherheit-eu-ai-act-hochrisiko",
+    "title": "EU AI Act – Hochrisiko-KI Pflichten (ab 2025/2026)",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Der EU AI Act verpflichtet Anbieter und Betreiber von Hochrisiko-KI-Systemen (Biometrie, Bildung, Beschäftigung, kritische Infrastruktur etc.) zu Transparenz, Konformitätsbewertung, CE-Kennzeichnung und EU-Datenbank-Registrierung.",
+    "rechtsgrundlage": "EU-VO 2024/1689 (AI Act), Art. 6, 9, 16",
+    "quelle_url": "https://digital-strategy.ec.europa.eu/de/policies/european-approach-artificial-intelligence",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "it-sicherheit-dsgvo-datenpanne-meldung",
+    "title": "DSGVO – Datenpanne melden (Art. 33/34)",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Bei einer Verletzung des Schutzes personenbezogener Daten muss der Verantwortliche die Aufsichtsbehörde binnen 72 Stunden informieren (Art. 33 DSGVO). Betroffene Personen sind bei hohem Risiko direkt zu benachrichtigen (Art. 34).",
+    "rechtsgrundlage": "DSGVO Art. 33, 34",
+    "quelle_url": "https://dsgvo-gesetz.de/art-33-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "it-sicherheit-cloudsicherheit-bsi-c5",
+    "title": "BSI C5 – Cloud-Sicherheitsanforderungen",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Der BSI Cloud Computing Compliance Criteria Catalogue (C5) definiert Sicherheitsanforderungen für Cloud-Dienste. Behörden und sensible Organisationen sollten C5-zertifizierte Anbieter nutzen. Auch relevant für KRITIS.",
+    "rechtsgrundlage": "BSI C5 2020",
+    "quelle_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/Cloud-Computing/Anforderungskatalog-Cloud-Computing-C5/c5_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "IT",
+        "Gesundheitswirtschaft",
+        "Finanzdienstleistungen",
+        "Energie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "it-sicherheit-cyber-resilience-act-cra",
+    "title": "Cyber Resilience Act (CRA) – Produktsicherheit vernetzter Geräte",
+    "category": "IT-Sicherheit",
+    "beschreibung": "EU-Verordnung für Produkte mit digitalen Elementen (IoT, Software, Hardware). Hersteller müssen Sicherheit by Design, Schwachstellen-Management, CE-Kennzeichnung und SBOM (Software Bill of Materials) sicherstellen.",
+    "rechtsgrundlage": "EU-VO 2024/2847 (CRA)",
+    "quelle_url": "https://digital-strategy.ec.europa.eu/de/policies/cyber-resilience-act",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "IT",
+        "Elektronik",
+        "Maschinenbau",
+        "IoT",
+        "Software"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "datenschutz-verarbeitungsverzeichnis-tom",
+    "title": "Verzeichnis von Verarbeitungstätigkeiten (Art. 30 DSGVO)",
+    "category": "Datenschutz",
+    "beschreibung": "Jeder Verantwortliche muss ein Verzeichnis aller Verarbeitungstätigkeiten führen (Art. 30 DSGVO) mit Angaben zu Zweck, Kategorien, Empfängern, Löschfristen und TOM. Auf Anfrage der Aufsichtsbehörde vorzulegen.",
+    "rechtsgrundlage": "DSGVO Art. 30",
+    "quelle_url": "https://dsgvo-gesetz.de/art-30-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "datenschutz-betroffenenrechte-auskunft",
+    "title": "Betroffenenrechte – Auskunft, Löschung, Widerspruch (DSGVO)",
+    "category": "Datenschutz",
+    "beschreibung": "Unternehmen müssen Auskunftsersuchen (Art. 15), Löschungsanträge (Art. 17), Berichtigungen (Art. 16) und Widersprüche (Art. 21) binnen eines Monats beantworten. Prozesse dafür müssen vorhanden sein.",
+    "rechtsgrundlage": "DSGVO Art. 12–22",
+    "quelle_url": "https://dsgvo-gesetz.de/art-15-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "datenschutz-drittlandtransfer-standardklauseln",
+    "title": "Drittlandtransfer – EU-Standardvertragsklauseln (SCC)",
+    "category": "Datenschutz",
+    "beschreibung": "Personendaten dürfen nur in Länder außerhalb der EU/EWR übertragen werden, wenn dort ein angemessenes Datenschutzniveau besteht. Ohne Angemessenheitsbeschluss: EU-SCC oder Binding Corporate Rules (BCR) erforderlich.",
+    "rechtsgrundlage": "DSGVO Art. 44–49",
+    "quelle_url": "https://dsgvo-gesetz.de/art-46-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "datenschutz-cookies-einwilligung-ttdsg",
+    "title": "Cookie-Einwilligung (TTDSG / ePrivacy)",
+    "category": "Datenschutz",
+    "beschreibung": "Nicht technisch notwendige Cookies und Tracking-Technologien (Analytics, Werbung) erfordern eine aktive Einwilligung (§ 25 TTDSG). Cookie-Banner müssen klar und ablehnen-freundlich gestaltet sein. OPT-IN Standard.",
+    "rechtsgrundlage": "TTDSG § 25, DSGVO Art. 6",
+    "quelle_url": "https://www.gesetze-im-internet.de/ttdsg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "datenschutz-dsb-pflicht-betrieblicher",
+    "title": "Betrieblicher Datenschutzbeauftragter (DSB) – Bestellungspflicht",
+    "category": "Datenschutz",
+    "beschreibung": "Ein DSB ist zu bestellen, wenn regelmäßig ≥ 20 Personen personenbezogene Daten automatisiert verarbeiten, oder bei besonders risikoreichen Verarbeitungen. DSB kann intern oder extern sein.",
+    "rechtsgrundlage": "DSGVO Art. 37, BDSG § 38",
+    "quelle_url": "https://dsgvo-gesetz.de/art-37-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "mitarbeiter_min": 20
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-abfallverzeichnis-avv-einstufung",
+    "title": "Abfallverzeichnis-Verordnung – Gefährliche Abfälle",
+    "category": "Umwelt",
+    "beschreibung": "Unternehmen müssen anfallende Abfälle gemäß AVV klassifizieren (AS/EAS-Nummern). Gefährliche Abfälle erfordern Entsorgungsnachweis, Begleitschein und qualifizierte Entsorgungsfachbetriebe. Register führen (3 Jahre).",
+    "rechtsgrundlage": "AVV, KrWG § 50",
+    "quelle_url": "https://www.gesetze-im-internet.de/avv/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Produktion",
+        "Chemie",
+        "Kfz",
+        "Handwerk",
+        "Bau"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-f-gase-verordnung-kälteanlagen",
+    "title": "F-Gase-Verordnung – Dichtheitsprüfung Kälteanlagen",
+    "category": "Umwelt",
+    "beschreibung": "Betreiber von Kälte-, Klima- und Wärmepumpenanlagen mit fluorierten Treibhausgasen müssen regelmäßige Dichtheitsprüfungen durchführen (jährlich bis 3-monatlich je nach Füllmenge) und zertifizierte Techniker einsetzen.",
+    "rechtsgrundlage": "EU-VO 517/2014 (F-Gase-VO), ChemKlimaschutzV",
+    "quelle_url": "https://www.umweltbundesamt.de/themen/chemikalien/fluorierte-treibhausgase-f-gase",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Kältetechnik",
+        "SHK",
+        "Lebensmittel",
+        "Produktion",
+        "Handel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-seveso-iii-stör-fallverordnung",
+    "title": "Störfallverordnung (12. BImSchV) – Seveso III",
+    "category": "Umwelt",
+    "beschreibung": "Betriebe mit größeren Mengen gefährlicher Stoffe (Grundschwellenwerte) sind Störfallbetriebe und müssen Sicherheitsberichte, Notfallpläne und Sicherheitsmanagementsysteme vorhalten. Anzeige bei Behörde.",
+    "rechtsgrundlage": "12. BImSchV, EU-RL 2012/18/EU (Seveso III)",
+    "quelle_url": "https://www.gesetze-im-internet.de/bimschv_12_2000/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG"
+      ],
+      "branchen": [
+        "Chemie",
+        "Mineralöl",
+        "Pharma",
+        "Lager/Logistik"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-verpackungsgesetz-lizenzierung",
+    "title": "Verpackungsgesetz (VerpackG) – Systembeteiligung ZSVR",
+    "category": "Umwelt",
+    "beschreibung": "Erstinverkehrbringer von mit Waren befüllten Verpackungen müssen sich im Verpackungsregister LUCID registrieren und an einem dualen System (z. B. Grüner Punkt) beteiligen. Gilt auch für Online-Händler und Importeure.",
+    "rechtsgrundlage": "VerpackG § 9, § 7",
+    "quelle_url": "https://www.verpackungsregister.org/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Handel",
+        "Online-Handel",
+        "Produktion",
+        "Lebensmittel",
+        "Import/Export"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-depv-klärschlamm-entwässerung",
+    "title": "Klärschlammverordnung – Grenzwerte und Aufzeichnungen",
+    "category": "Umwelt",
+    "beschreibung": "Kläranlagenbetreiber und landwirtschaftliche Klärschlammverwerter müssen Grenzwerte für Schadstoffe (Schwermetalle, PFT, Mikroplastik) einhalten und Lieferscheine führen. Ab 2032 Phosphorrückgewinnungspflicht.",
+    "rechtsgrundlage": "AbfKlärV 2017",
+    "quelle_url": "https://www.gesetze-im-internet.de/abfkl_rv_2017/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "Verein"
+      ],
+      "branchen": [
+        "Wasserversorgung",
+        "Abwasser",
+        "Landwirtschaft"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-arbeitnehmerüberlassung-zeitarbeit",
+    "title": "Arbeitnehmerüberlassungsgesetz (AÜG) – Erlaubnispflicht",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Zeitarbeitsunternehmen benötigen eine Erlaubnis der Bundesagentur für Arbeit (§ 1 AÜG). Überlassung ist auf maximal 18 Monate beschränkt. Equal-Pay nach 9 Monaten. Verleihvertrag und Arbeitnehmerüberlassungsvertrag erforderlich.",
+    "rechtsgrundlage": "AÜG §§ 1, 3",
+    "quelle_url": "https://www.gesetze-im-internet.de/a_g/__1.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Personaldienstleistungen",
+        "Zeitarbeit"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-teilzeit-befristung-tzbefrg",
+    "title": "Teilzeitanspruch und Befristungsrecht (TzBfG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitnehmer in Betrieben mit ≥ 15 Beschäftigten haben Anspruch auf Arbeitszeitreduzierung (§ 8 TzBfG). Befristungen sind nur mit sachlichem Grund unbegrenzt, ohne Grund maximal 2 Jahre (3 Verlängerungen) möglich.",
+    "rechtsgrundlage": "TzBfG §§ 8, 14",
+    "quelle_url": "https://www.gesetze-im-internet.de/tzbfg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "mitarbeiter_min": 15
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-betriebsverfassungsgesetz-betriebsrat",
+    "title": "Betriebsratsgründung (BetrVG) – Mitbestimmungsrechte",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Ab 5 ständig wahlberechtigten Arbeitnehmern kann ein Betriebsrat gewählt werden. Der Betriebsrat hat Mitbestimmungsrechte bei Arbeitszeit, Einstellungen, Betriebsänderungen (§§ 87, 99, 111 BetrVG). Behinderung ist strafbar.",
+    "rechtsgrundlage": "BetrVG §§ 1, 87, 99, 111",
+    "quelle_url": "https://www.gesetze-im-internet.de/betrvg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "mitarbeiter_min": 5
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-schwerbehinderte-beschäftigungspflicht",
+    "title": "Beschäftigungspflicht für Schwerbehinderte (SGB IX)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitgeber mit ≥ 20 Arbeitsplätzen müssen 5 % der Arbeitsplätze mit schwerbehinderten Menschen besetzen. Bei Unterschreitung ist eine Ausgleichsabgabe zu zahlen (125–360 € je Monat / Pflichtplatz).",
+    "rechtsgrundlage": "SGB IX §§ 154, 160",
+    "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/__154.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Verein",
+        "eG"
+      ],
+      "mitarbeiter_min": 20
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-entgelttransparenzgesetz-eintg",
+    "title": "Entgelttransparenzgesetz – Auskunftsanspruch (EntgTranspG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "In Betrieben mit ≥ 200 Beschäftigten können Arbeitnehmer Auskunft über das Gehalt vergleichbarer Kollegen des anderen Geschlechts verlangen. Betriebe mit ≥ 500 MA müssen Berichtspflichten nach § 21 EntgTranspG erfüllen.",
+    "rechtsgrundlage": "EntgTranspG §§ 10, 21",
+    "quelle_url": "https://www.gesetze-im-internet.de/entgtraspg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "mitarbeiter_min": 200
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-allgemeines-gleichbehandlungsgesetz",
+    "title": "Allgemeines Gleichbehandlungsgesetz (AGG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Das AGG verbietet Diskriminierung im Beschäftigungsverhältnis wegen Rasse, Geschlecht, Religion, Behinderung, Alter, sexueller Identität. Arbeitgeber müssen Beschwerdemöglichkeit einrichten. Beweislast erleichtert für Betroffene.",
+    "rechtsgrundlage": "AGG §§ 1, 12, 22",
+    "quelle_url": "https://www.gesetze-im-internet.de/agg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler",
+        "Verein"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesellschaft-gesellschafterliste-gmbh-muss",
+    "title": "Gesellschafterliste GmbH – Aktualisierungspflicht",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Jede Veränderung im Gesellschafterbestand (Anteilsübertragung, Kapitalerhöhung) muss durch eine aktualisierte Gesellschafterliste beim Handelsregister eingereicht werden (§ 40 GmbHG). Notar oder Geschäftsführer einzureichen.",
+    "rechtsgrundlage": "GmbHG § 40",
+    "quelle_url": "https://www.gesetze-im-internet.de/gmbhg/__40.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesellschaft-hauptversammlung-ag-einladungsfristen",
+    "title": "Hauptversammlung AG – Einladungsfristen und Bekanntmachung",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Hauptversammlungen müssen mindestens 30 Tage vor dem Termin im Bundesanzeiger bekanntgemacht werden (§ 123 AktG). Tagesordnung und Unterlagen sind rechtzeitig zur Verfügung zu stellen.",
+    "rechtsgrundlage": "AktG §§ 121, 123, 124",
+    "quelle_url": "https://www.gesetze-im-internet.de/aktg/__121.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesellschaft-genossenschaft-prüfungspflicht",
+    "title": "Genossenschaft – Prüfungspflicht (GenG § 53)",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Eingetragene Genossenschaften müssen sich alle 2 Jahre (ab 2 Mio. € Bilanzsumme: jährlich) durch den zuständigen Genossenschaftsverband prüfen lassen. Pflichtmitgliedschaft im Prüfungsverband.",
+    "rechtsgrundlage": "GenG §§ 53, 54",
+    "quelle_url": "https://www.gesetze-im-internet.de/geng/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "eG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "energie-eeg-einspeisevergütung-photovoltaik",
+    "title": "EEG – Einspeisevergütung und Direktvermarktung Photovoltaik",
+    "category": "Energierecht",
+    "beschreibung": "Betreiber von PV-Anlagen erhalten je nach Inbetriebnahme und Größe garantierte Einspeisevergütungen oder müssen direkt vermarkten (ab 100 kWp). EEG 2023: Mieterstrom, Agri-PV, Floating-PV gefördert.",
+    "rechtsgrundlage": "EEG 2023 §§ 21, 48",
+    "quelle_url": "https://www.gesetze-im-internet.de/eeg_2014/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Verein",
+        "eG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "energie-lieferantenwechsel-netzanschluss-netzbetreiber",
+    "title": "Netzanschlusspflicht und Lieferantenwechsel (EnWG)",
+    "category": "Energierecht",
+    "beschreibung": "Netzbetreiber haben Anschluss- und Versorgungspflichten (§§ 17, 36 EnWG). Letztverbraucher können den Stromlieferanten einfach wechseln (§ 20a EnWG). Anschlussnehmer zahlen Netzentgelte und Konzessionsabgaben.",
+    "rechtsgrundlage": "EnWG §§ 17, 20a, 36",
+    "quelle_url": "https://www.gesetze-im-internet.de/enwg_2005/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Energie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "energie-stromsteuer-entlastung-produzierendes-gewerbe",
+    "title": "Stromsteuerbefreiung/-entlastung (StromStG)",
+    "category": "Energierecht",
+    "beschreibung": "Das produzierende Gewerbe und die Land- und Forstwirtschaft können Entlastung von der Stromsteuer beantragen (§§ 9a, 9b StromStG). Peak-Ausgleich für energieintensive Unternehmen mit Energiemanagementsystem.",
+    "rechtsgrundlage": "StromStG §§ 9a, 9b, 10",
+    "quelle_url": "https://www.zoll.de/DE/Fachthemen/Steuern/Verbrauchsteuern/Energie-Strom-Erdgas/Energiesteuer-Stromsteuer/energiesteuer-stromsteuer_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Produktion",
+        "Maschinenbau",
+        "Chemie",
+        "Stahl",
+        "Aluminium"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gewerbe-gaststättenrecht-konzession",
+    "title": "Gaststättenerlaubnis / Gaststättenanzeige",
+    "category": "Gewerberecht",
+    "beschreibung": "Das Gaststättenrecht ist seit 2006 Ländersache. Die meisten Bundesländer haben die Erlaubnispflicht abgeschafft; eine Anzeige beim Ordnungsamt (mit Angaben zu Räumlichkeiten, Hygienekonzept) genügt meist. Ausnahmen je nach Land.",
+    "rechtsgrundlage": "Gaststättengesetze der Länder, GastG (noch gültig wo kein Landesgesetz)",
+    "quelle_url": "https://www.bmwk.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Gastronomie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gewerbe-bewirtschaftung-gewerbe-abmeldung",
+    "title": "Gewerbeabmeldung (§ 14 GewO)",
+    "category": "Gewerberecht",
+    "beschreibung": "Bei Einstellung eines Gewerbebetriebs muss eine Gewerbeabmeldung beim zuständigen Gewerbeamt innerhalb eines Monats erfolgen (§ 14 Abs. 1 GewO). Formulare online verfügbar, Gebühr ca. 15–30 €.",
+    "rechtsgrundlage": "GewO § 14",
+    "quelle_url": "https://www.gesetze-im-internet.de/gewo/__14.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gewerbe-handelsregisterpflicht-kaufmann",
+    "title": "Handelsregisterpflicht für e.K., OHG und GmbH",
+    "category": "Gewerberecht",
+    "beschreibung": "Kaufleute (e.K.), Personenhandelsgesellschaften (OHG, KG) und Kapitalgesellschaften (GmbH, AG) sind zur Eintragung im Handelsregister verpflichtet. Änderungen (Adresse, Geschäftsführerwechsel) müssen unverzüglich angemeldet werden.",
+    "rechtsgrundlage": "HGB §§ 29, 106, GmbHG § 10",
+    "quelle_url": "https://www.handelsregister.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG",
+        "e.K.",
+        "eG"
+      ]
+    },
+    "hat_dokument_generator": false
   }
 ]

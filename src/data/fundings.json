@@ -25234,5 +25234,1006 @@
         "2023"
       ]
     }
+  },
+  {
+    "id": "eu-life-programm-umwelt-klimaschutz",
+    "title": "LIFE-Programm – Umwelt- und Klimaschutzprojekte",
+    "beschreibung": "EU-Programm zur Finanzierung von Umwelt-, Natur- und Klimaprojekten. Zwei Stränge: LIFE Natur/Biodiversität und LIFE Klimaschutz/Kreislaufwirtschaft. Zuschüsse bis 60 % (LIFE Natur: bis 75 %).",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission / CINEA",
+    "max_betrag": 5000000,
+    "zins": null,
+    "antrag_url": "https://cinea.ec.europa.eu/programmes/life_de",
+    "bearbeitungszeit_wochen": [
+      16,
+      52
+    ],
+    "ausschlusskriterien": [
+      "Rein kommerzielle Projekte ohne Umweltbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektantrag",
+        "auto": false
+      },
+      {
+        "name": "Partnerliste",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "Verein",
+        "GbR"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "GreenTech",
+        "Landwirtschaft",
+        "Umwelttechnik",
+        "Energie",
+        "Tourismus"
+      ]
+    }
+  },
+  {
+    "id": "eu-connecting-europe-facility-cef-energie",
+    "title": "Connecting Europe Facility (CEF) Energie",
+    "beschreibung": "EU-Programm für transeuropäische Energie-Infrastruktur: Strom- und Gasleitungen, LNG-Terminals, Smart Grids, Wasserstoffinfrastruktur. Große Infrastrukturvorhaben mit EU-weitem Mehrwert.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission / CINEA",
+    "max_betrag": 50000000,
+    "zins": null,
+    "antrag_url": "https://cinea.ec.europa.eu/programmes/cef_de",
+    "bearbeitungszeit_wochen": [
+      24,
+      52
+    ],
+    "ausschlusskriterien": [
+      "Kein transeuropäischer Bezug",
+      "Kleine lokale Projekte"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Feasibility Study",
+        "auto": false
+      },
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "Energie",
+        "Windenergie",
+        "Wasserstoff",
+        "Netzinfrastruktur"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "eu-erasmus-plus-berufsbildung",
+    "title": "Erasmus+ – Berufsbildung und Betriebspraktika",
+    "beschreibung": "EU-Programm für Bildung und Berufsbildung: Mobilitätsprojekte für Auszubildende (Praktika im Ausland), Kooperationsprojekte, Lernpartnerschaften. Unternehmen können als Aufnahmeorganisationen gefördert werden.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission / NA BIBB (Deutschland)",
+    "max_betrag": 400000,
+    "zins": null,
+    "antrag_url": "https://www.erasmusplus.de/",
+    "bearbeitungszeit_wochen": [
+      12,
+      26
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektantrag",
+        "auto": false
+      },
+      {
+        "name": "Partnervereinbarung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Verein"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Bildung",
+        "Handwerk",
+        "Gastronomie",
+        "IT",
+        "Beratung"
+      ]
+    }
+  },
+  {
+    "id": "eu-innovation-fund-grossanlagen",
+    "title": "EU Innovation Fund – CO₂-arme Technologien",
+    "beschreibung": "EU-Fonds für Großprojekte mit innovativen CO₂-armen Technologien (Stahl, Chemie, Zement, Wasserstoff, CCS). Finanziert aus ETS-Erlösen. Förderquote bis 60 % der inkrementellen Kosten.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission / CINEA",
+    "max_betrag": 200000000,
+    "zins": null,
+    "antrag_url": "https://climate.ec.europa.eu/eu-action/funding-climate-action/innovation-fund_de",
+    "bearbeitungszeit_wochen": [
+      24,
+      78
+    ],
+    "ausschlusskriterien": [
+      "Keine Großanlage / Pilot",
+      "Kleines Investitionsvolumen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Technologiebeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Businessplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "Stahl",
+        "Chemie",
+        "Zement",
+        "Energie",
+        "Wasserstoff",
+        "Produktion"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-foerderung-berufliche-weiterbildung-bmbf-qualifizierung",
+    "title": "BMBF – Qualifizierungsoffensive Betriebe",
+    "beschreibung": "Bundesförderung für betriebliche Weiterbildungsmaßnahmen, besonders im Bereich Digitalisierung und KI-Kompetenz. Kleinst- und Kleinunternehmen erhalten höhere Fördersätze. Bis 50 % Zuschuss auf Weiterbildungskosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / BMAS",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.bmbf.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Großunternehmen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Qualifizierungsplan",
+        "auto": false
+      },
+      {
+        "name": "Kostenplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT",
+        "Produktion",
+        "Handel",
+        "Dienstleistungen"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "bund-förderung-elektromobilität-betriebsflotte",
+    "title": "Bundesförderung Elektromobilität – Flottenumrüstung",
+    "beschreibung": "Förderung der Beschaffung von Elektro-Nutzfahrzeugen für gewerbliche Flotten (Liefer-E-Fahrzeuge, E-Busse). Programm des BMWK/BMDV. Kombination mit BAFA-Antrag und Ladeinfrastruktur möglich.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA / BMWK",
+    "max_betrag": 100000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Energie/Effiziente_Gebaeude/Elektromobilitaet/elektromobilitaet_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Privatpersonen ohne gewerbliche Nutzung"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Fahrzeugkaufvertrag",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Transport",
+        "Logistik",
+        "Handel",
+        "Handwerk",
+        "Lieferdienste"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-kfw-klimafreundlicher-neubau-nwg",
+    "title": "KfW Klimafreundlicher Neubau – Nichtwohngebäude (KNW)",
+    "beschreibung": "KfW-Kredit für Neubau klimafreundlicher Nichtwohngebäude (EG 40 oder QNG-Siegel). Förderbetrag bis 10 Mio. € je Vorhaben. Kombination mit Tilgungszuschuss. Gebäude muss unter CO₂-Grenzwert liegen.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW",
+    "max_betrag": 10000000,
+    "zins": "ab 1,55 % eff.",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Energie-Umwelt/Foerderprodukte/Klimafreundlicher-Neubau-Nichtwohngeb%C3%A4ude-(297-298)/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Bestandsgebäude",
+      "Wohngebäude"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Energieausweis (Bedarfsausweis)",
+        "auto": false
+      },
+      {
+        "name": "Baugenehmigung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Verein"
+      ],
+      "branchen": [
+        "Immobilien",
+        "Bau",
+        "Produktion",
+        "Handel"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-softwareentwicklung-mittelstand-förderung-iuk",
+    "title": "Förderung IKT-Projekte für Mittelstand (BMWK)",
+    "beschreibung": "BMWK fördert IKT-Projekte im Mittelstand: IT-Sicherheitsmaßnahmen, Software-Entwicklung, Cloud-Migration, IoT. Zuschüsse über Bundesländer-Kofinanzierung. Schwerpunkt: Transformationsprojekte.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "max_betrag": 200000,
+    "zins": null,
+    "antrag_url": "https://www.bmwk.de/",
+    "bearbeitungszeit_wochen": [
+      6,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Großunternehmen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Kostenplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT",
+        "Software",
+        "Handel",
+        "Produktion",
+        "Dienstleistungen"
+      ]
+    }
+  },
+  {
+    "id": "bund-innovationskredit-für-jungunternehmen",
+    "title": "KfW ERP-Innovationsprogramm – FuE-Kredit",
+    "beschreibung": "Langfristiger ERP-Kredit für Investitionen und Betriebsmittel in FuE-Projekte. Für KMU mit bis zu 500 Mio. € Umsatz. Bis zu 25 Mio. € je Vorhaben, 7 Jahre Laufzeit, tilgungsfreie Anlaufjahre.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW",
+    "max_betrag": 25000000,
+    "zins": "ab 2,75 % eff.",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/Innovation/Foerderprodukte/ERP-Innovationsprogramm-(059-079)/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Umsatz > 500 Mio. €"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "FuE-Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT",
+        "Maschinenbau",
+        "Medizintechnik",
+        "Chemie",
+        "GreenTech"
+      ]
+    }
+  },
+  {
+    "id": "bund-bundesfoerderung-effiziente-wärmenetze-bew",
+    "title": "BEW – Bundesförderung Effiziente Wärmenetze",
+    "beschreibung": "Förderung des Aufbaus und der Transformation von Wärmenetzen auf erneuerbare Energien und Abwärme. Systemstudien (50 %), Machbarkeitsstudien (50 %), Umsetzung (40 % Invest-Zuschuss).",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA",
+    "max_betrag": 100000000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Energie/Effiziente_Waermenetze/effiziente_waermenetze_node.html",
+    "bearbeitungszeit_wochen": [
+      8,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Privathaushalte",
+      "Kein öffentliches Wärmenetz"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Systemstudie",
+        "auto": false
+      },
+      {
+        "name": "Wirtschaftlichkeitsberechnung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "eG",
+        "Verein"
+      ],
+      "branchen": [
+        "Energie",
+        "Fernwärme",
+        "Stadtwerke",
+        "GreenTech"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "berlin-ibb-wachstumsprogramm",
+    "title": "IBB Berlin – Wachstumsprogramm (Berliner Unternehmen)",
+    "beschreibung": "Zinsgünstiger Kredit der Investitionsbank Berlin für Investitionen und Betriebsmittel Berliner Unternehmen. Kombination mit KfW möglich. Auch für Gründungsphase geeignet.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Berlin (IBB)",
+    "max_betrag": 10000000,
+    "zins": "ab 1,85 % eff.",
+    "antrag_url": "https://www.ibb.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb Berlin"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Jahresabschlüsse",
+        "auto": false
+      },
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "bundeslaender": [
+        "Berlin"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "berlin-startup-stipendium-senkrecht",
+    "title": "Berlin – Pro FIT Einzelprojektförderung (FuE)",
+    "beschreibung": "Berlins Innovationsprogramm Pro FIT fördert FuE-Einzel- und Verbundprojekte von KMU und Start-ups mit Sitz in Berlin. Zuschuss bis 50 % für KMU, max. 600.000 €. Fokus: Digitalisierung, Life Sciences, Greentech.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "IBB / Senat Berlin",
+    "max_betrag": 600000,
+    "zins": null,
+    "antrag_url": "https://www.ibb.de/foerderprodukte/pro-fit/",
+    "bearbeitungszeit_wochen": [
+      8,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb Berlin",
+      "Umsatz > 50 Mio. €"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "FuE-Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR"
+      ],
+      "bundeslaender": [
+        "Berlin"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT",
+        "KI",
+        "Biotech",
+        "GreenTech",
+        "Medizintechnik",
+        "Software"
+      ]
+    }
+  },
+  {
+    "id": "hamburg-ifb-gründungsfinanzierung",
+    "title": "IFB Hamburg – Gründungs- und Wachstumsfinanzierung",
+    "beschreibung": "IFB Hamburg bietet Investitionskredite, Beteiligungskapital und Bürgschaften für Hamburger Unternehmen. Hamburger Gründerkredit für Existenzgründer bis 250.000 €.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitions- und Förderbank Hamburg (IFB)",
+    "max_betrag": 5000000,
+    "zins": "ab 2,0 % eff.",
+    "antrag_url": "https://www.ifbhh.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb Hamburg"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Finanzplanung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "bundeslaender": [
+        "Hamburg"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bremen-bag-bab-investitionsförderung",
+    "title": "BAB Bremen – Investitions- und Strukturförderung",
+    "beschreibung": "Bremer Aufbau-Bank (BAB) fördert Investitionen und Strukturmaßnahmen in Bremen und Bremerhaven. Zinsgünstige Kredite, GRW-Zuschüsse für strukturschwache Bereiche, Bürgschaften für KMU.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Bremer Aufbau-Bank (BAB)",
+    "max_betrag": 5000000,
+    "zins": "ab 1,95 % eff.",
+    "antrag_url": "https://www.bab-bremen.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb Bremen/Bremerhaven"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Jahresabschlüsse",
+        "auto": false
+      },
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "bundeslaender": [
+        "Bremen"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bb-ilb-investitionsfoerderung",
+    "title": "ILB Brandenburg – GRW und Investitionsförderung",
+    "beschreibung": "Investitionsbank des Landes Brandenburg (ILB) fördert gewerbliche Investitionen mit GRW-Zuschüssen (bis 40 % in strukturschwachen Regionen). Innovationsprogramm Wachstum für KMU-FuE-Projekte.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank des Landes Brandenburg (ILB)",
+    "max_betrag": 3000000,
+    "zins": null,
+    "antrag_url": "https://www.ilb.de/",
+    "bearbeitungszeit_wochen": [
+      8,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb Brandenburg"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "bundeslaender": [
+        "Brandenburg"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "sa-iab-investitionsfoerderung",
+    "title": "IB Sachsen-Anhalt – Investitionsförderung",
+    "beschreibung": "Investitionsbank Sachsen-Anhalt fördert Unternehmensansiedlungen und -erweiterungen. GRW-Fördersätze bis 40 %, zinsgünstige Kredite, Bürgschaften. Besonders für verarbeitendes Gewerbe.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Sachsen-Anhalt (IB)",
+    "max_betrag": 5000000,
+    "zins": null,
+    "antrag_url": "https://www.ib-sachsen-anhalt.de/",
+    "bearbeitungszeit_wochen": [
+      8,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb Sachsen-Anhalt"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "bundeslaender": [
+        "Sachsen-Anhalt"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "ni-nbank-mittelstand-kredit",
+    "title": "NBank Niedersachsen – Mittelstandsförderung",
+    "beschreibung": "Investitionskredit der Niedersächsischen Investitions- und Förderbank (NBank) für KMU. Finanzierung von Investitionen, Betriebsmitteln und Unternehmensnachfolge. GRW-Zuschüsse in strukturschwachen Regionen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "NBank Niedersachsen",
+    "max_betrag": 7500000,
+    "zins": "ab 2,0 % eff.",
+    "antrag_url": "https://www.nbank.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb Niedersachsen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Jahresabschlüsse",
+        "auto": false
+      },
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "bundeslaender": [
+        "Niedersachsen"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "landwirtschaft-agrarinvestitionsförderung-afp",
+    "title": "Agrarinvestitionsförderungsprogramm (AFP)",
+    "beschreibung": "Bundesweites Programm zur Modernisierung landwirtschaftlicher Betriebe: Stallbauten, Lagerkapazitäten, Tierwohl, Umweltschutzmaßnahmen. Zuschuss 20–40 % durch Länder kofinanziert.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMEL / Länderministerien",
+    "max_betrag": 1500000,
+    "zins": null,
+    "antrag_url": "https://www.bmel.de/DE/themen/landwirtschaft/foerderprogramme/agrarinvestitionsfoerderungsprogramm.html",
+    "bearbeitungszeit_wochen": [
+      12,
+      30
+    ],
+    "ausschlusskriterien": [
+      "Nicht-landwirtschaftliche Betriebe"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Bauplanung",
+        "auto": false
+      },
+      {
+        "name": "Wirtschaftlichkeitsberechnung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Landwirtschaft",
+        "Forstwirtschaft",
+        "Tierhaltung"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "tourismus-erp-förderkredit-gastgewerbe",
+    "title": "ERP-Regionalförderung – Tourismus und Gastgewerbe",
+    "beschreibung": "KfW ERP-Regionalprogramm für Investitionen in Tourismus und Gastronomie in strukturschwachen Regionen (GRW-Gebiete). Tilgungszuschüsse möglich. Kombinierbar mit Landesprogrammen.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW / ERP-Sondervermögen",
+    "max_betrag": 10000000,
+    "zins": "ab 1,7 % eff.",
+    "antrag_url": "https://www.kfw.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Keine strukturschwache Region"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Jahresabschlüsse",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Gastronomie",
+        "Tourismus",
+        "Hotellerie"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "social-enterprise-qualifizierung-bundesprogramm",
+    "title": "Soziale Innovationen – BMBF Social Entrepreneurship",
+    "beschreibung": "BMBF fördert Soziale Innovationen und Social Entrepreneurship: Pilotprojekte, Begleitforschung, Netzwerke. Soziale Unternehmen, Vereine und gemeinnützige GmbHs mit innovativen Ansätzen zur gesellschaftlichen Herausforderung.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF",
+    "max_betrag": 300000,
+    "zins": null,
+    "antrag_url": "https://www.bmbf.de/bmbf/de/forschung/soziale-innovationen/soziale-innovationen_node.html",
+    "bearbeitungszeit_wochen": [
+      8,
+      20
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "Verein",
+        "eG",
+        "GbR"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Sozialwirtschaft",
+        "Bildung",
+        "Gesundheitswirtschaft",
+        "Pflege"
+      ]
+    }
+  },
+  {
+    "id": "gesundheitswirtschaft-digitalhealthfonds",
+    "title": "DiGA – Digitale Gesundheitsanwendungen (BfArM)",
+    "beschreibung": "Digitale Gesundheitsanwendungen (DiGA) können nach Zulassung durch das BfArM von Kassen erstattet werden. Für Hersteller von CE-zertifizierten Medizinprodukten Klasse I/IIa mit primär digitalem Hauptfunktionsmechanismus.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BfArM / GKV-System",
+    "max_betrag": null,
+    "zins": null,
+    "antrag_url": "https://diga.bfarm.de/",
+    "bearbeitungszeit_wochen": [
+      12,
+      52
+    ],
+    "ausschlusskriterien": [
+      "Kein Medizinprodukt",
+      "Kein digitaler Hauptfunktionsmechanismus"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "CE-Konformitätserklärung",
+        "auto": false
+      },
+      {
+        "name": "DiGA-Antrag beim BfArM",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "Medizintechnik",
+        "Gesundheitswirtschaft",
+        "Digital Health",
+        "Software"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "immobilien-städtebaufoerderung-bund-länder",
+    "title": "Städtebauförderung – Bund-Länder-Programm",
+    "beschreibung": "Gemeinschaftsprogramm Bund/Länder/Kommunen für Stadtentwicklung: Sanierung historischer Stadtkerne, soziale Stadt, Stadtumbau. Private Eigentümer können über kommunale Förderanträge Zuschüsse erhalten.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWSB / Länder / Kommunen",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.staedtebaufoerderung.info/",
+    "bearbeitungszeit_wochen": [
+      12,
+      52
+    ],
+    "ausschlusskriterien": [
+      "Außerhalb Sanierungsgebiet"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Sanierungskonzept",
+        "auto": false
+      },
+      {
+        "name": "Kostenvoranschlag",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Verein"
+      ],
+      "branchen": [
+        "Immobilien",
+        "Bau",
+        "Tourismus",
+        "Einzelhandel"
+      ]
+    },
+    "relevanz_boost": {}
   }
 ]
