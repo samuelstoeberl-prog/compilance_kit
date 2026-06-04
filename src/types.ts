@@ -40,6 +40,10 @@ export type DokumentTyp =
   | 'gewerberaummietvertrag'
   | 'lizenzvertrag'
   | 'dsb-bestellung'
+  | 'kooperationsvertrag'
+  | 'kaufvertrag'
+  | 'dienstleistungsvertrag'
+  | 'gesellschaftervertrag-gbr'
 
 export interface GiltFuer {
   rechtsformen: string[]

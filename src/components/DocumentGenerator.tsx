@@ -22,6 +22,10 @@ import {
   gewerberaummietvertragTemplate,
   lizenzvertragTemplate,
   dsbBestellungTemplate,
+  kooperationsvertragTemplate,
+  kaufvertragTemplate,
+  dienstleistungsvertragTemplate,
+  gesellschaftervertragGbrTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -54,6 +58,10 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   gewerberaummietvertrag: 'Gewerberaummietvertrag',
   lizenzvertrag: 'Lizenzvertrag (Software/IP/Marke)',
   'dsb-bestellung': 'DSB-Bestellungsurkunde',
+  kooperationsvertrag: 'Kooperationsvertrag',
+  kaufvertrag: 'Kaufvertrag (B2B)',
+  dienstleistungsvertrag: 'Dienstleistungsvertrag / SLA',
+  'gesellschaftervertrag-gbr': 'Gesellschaftervertrag GbR',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -104,6 +112,10 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'gewerberaummietvertrag': return applyTemplate(gewerberaummietvertragTemplate, vars)
     case 'lizenzvertrag': return applyTemplate(lizenzvertragTemplate, vars)
     case 'dsb-bestellung': return applyTemplate(dsbBestellungTemplate, vars)
+    case 'kooperationsvertrag': return applyTemplate(kooperationsvertragTemplate, vars)
+    case 'kaufvertrag': return applyTemplate(kaufvertragTemplate, vars)
+    case 'dienstleistungsvertrag': return applyTemplate(dienstleistungsvertragTemplate, vars)
+    case 'gesellschaftervertrag-gbr': return applyTemplate(gesellschaftervertragGbrTemplate, vars)
   }
 }
 

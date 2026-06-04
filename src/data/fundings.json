@@ -31970,5 +31970,617 @@
         "Automatisierung"
       ]
     }
+  },
+  {
+    "id": "bund-signo-2",
+    "title": "SIGNO Hochschulen – Schutz von Hochschulerfindungen",
+    "beschreibung": "Fördert die Patentierung und Verwertung von Hochschulerfindungen. Kooperationsprojekte zwischen Hochschulen und KMU werden mit bis zu 80 % der Patentierungskosten unterstützt.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / PROvendis",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.signo-deutschland.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Erfindungsmeldung",
+        "auto": false
+      },
+      {
+        "name": "Kooperationsvereinbarung Hochschule",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Pharma",
+        "Biotechnologie"
+      ]
+    }
+  },
+  {
+    "id": "bund-go-inno",
+    "title": "go-Inno – Innovationsberatung für KMU",
+    "beschreibung": "Fördert externe Innovationsberatung für KMU. Zertifizierte Berater helfen bei Technologie- und Produktinnovationen. Bis zu 50 % Förderquote auf Beraterhonorare.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "max_betrag": 20000,
+    "zins": null,
+    "antrag_url": "https://www.innovation-beratung-foerderung.de",
+    "bearbeitungszeit_wochen": [
+      3,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen > 100 Mio. EUR Umsatz"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Beratungsangebot zertifizierter Berater",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Produktion",
+        "Handwerk"
+      ]
+    }
+  },
+  {
+    "id": "bund-kfw-unternehmerplus",
+    "title": "KfW-Unternehmerplus – Finanzierungslösung für Wachstum",
+    "beschreibung": "Langfristige Finanzierung für Investitionen und Betriebsmittel wachsender Unternehmen. Laufzeiten bis 20 Jahre, tilgungsfreie Anlaufzeit, Haftungsfreistellung für Hausbank möglich.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW",
+    "max_betrag": 25000000,
+    "zins": "ab 3,75 % eff. p.a.",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung/Unternehmen/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen in Schwierigkeiten"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Jahresabschlüsse (3 Jahre)",
+        "auto": false
+      },
+      {
+        "name": "Finanzplanung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-digitalisierung-mittelstand",
+    "title": "Mittelstand-Digital Zentren – Kostenfreie Digitalisierungsberatung",
+    "beschreibung": "Bundesweit 26 Mittelstand-Digital Zentren bieten KMU kostenfreie Beratung, Workshops und Pilotprojekte zu Digitalisierungsthemen: KI, Cybersicherheit, E-Commerce, digitale Geschäftsmodelle.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / DLR",
+    "max_betrag": null,
+    "zins": null,
+    "antrag_url": "https://www.mittelstand-digital.de",
+    "bearbeitungszeit_wochen": [
+      1,
+      3
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "eu-eurostars3",
+    "title": "Eurostars 3 – F&E-Förderung für forschende KMU (EUREKA)",
+    "beschreibung": "Eurostars fördert internationale F&E-Projekte mit mindestens zwei Partnern aus EUREKA-Ländern. KMU müssen mind. 50 % der F&E-Arbeiten leisten. Bis zu 500.000 EUR pro deutschem Partner.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "EUREKA / BMBF",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.eurekanetwork.org/eurostars",
+    "bearbeitungszeit_wochen": [
+      16,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Keine internationalen Partner",
+      "< 10 % F&E-Ausgaben"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung (englisch)",
+        "auto": false
+      },
+      {
+        "name": "Partnervereinbarung",
+        "auto": false
+      },
+      {
+        "name": "F&E-Kostenplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Biotechnologie",
+        "Pharma",
+        "Produktion"
+      ]
+    }
+  },
+  {
+    "id": "eu-cbam-vorbereitung",
+    "title": "CBAM-Compliance – CO2-Grenzausgleichmechanismus (CBAM) ab 2026",
+    "beschreibung": "Ab 2026 müssen Importeure von Stahl, Aluminium, Zement, Dünger, Strom und Wasserstoff CBAM-Zertifikate kaufen. Förderprogramme für Dekarbonisierungsinvestitionen helfen bei der Vorbereitung.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "EU / NRW.BANK / L-Bank",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_de",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nicht betroffene Branchen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Emissionsnachweis",
+        "auto": false
+      },
+      {
+        "name": "Dekarbonisierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Produktion",
+        "Energie",
+        "Stahl/Metall"
+      ]
+    }
+  },
+  {
+    "id": "bw-transform-bw",
+    "title": "Transform.BW – Transformationsförderung Automotive / Industrie",
+    "beschreibung": "Baden-Württemberg fördert die wirtschaftliche Transformation in der Automobil- und Industriezuliefererbranche. Investitionen in neue Technologien, Qualifizierung und Umstrukturierung bis 50 % gefördert.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Ministerium für Wirtschaft, Arbeit und Tourismus BW",
+    "max_betrag": 2000000,
+    "zins": null,
+    "antrag_url": "https://wm.baden-wuerttemberg.de/de/wirtschaft/foerderung",
+    "bearbeitungszeit_wochen": [
+      8,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Kein BW-Bezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Transformationskonzept",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG"
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Produktion",
+        "Automotive",
+        "Maschinenbau"
+      ]
+    }
+  },
+  {
+    "id": "nrw-digitalisierungsprogramm",
+    "title": "NRW Digital – Digitalisierungsförderung für KMU",
+    "beschreibung": "Nordrhein-Westfalen fördert digitale Transformationsprojekte: E-Commerce, Cloud-Migration, Cybersicherheit, digitale Kundenprozesse. Zuschüsse bis 50.000 EUR für externe Beratung und Implementierung.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "NRW.BANK / MWIKE NRW",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.nrwbank.de/foerderung",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Kein NRW-Sitz"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Digitalisierungskonzept",
+        "auto": false
+      },
+      {
+        "name": "Angebote externer Berater",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "hh-innovationsfoerderung",
+    "title": "Hamburger Innovationsförderung – PROFI (Produktionsforschung Innovationen)",
+    "beschreibung": "Hamburg fördert industrielle Forschungs- und Entwicklungsprojekte mit Hamburger Unternehmen. Förderquote bis 45 % für KMU, bis 25 % für Großunternehmen. Förderfähig: Personal, Sachmittel, Aufträge.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Hamburgische Investitions- und Förderbank (IFB)",
+    "max_betrag": 200000,
+    "zins": null,
+    "antrag_url": "https://www.ifbhh.de/foerderprogramme",
+    "bearbeitungszeit_wochen": [
+      6,
+      14
+    ],
+    "ausschlusskriterien": [
+      "Kein Hamburg-Sitz"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Kostenplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Hamburg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Logistik",
+        "Maritime Wirtschaft",
+        "Technologie"
+      ]
+    }
+  },
+  {
+    "id": "he-gruenderfonds-hessen",
+    "title": "Gründerfonds Hessen – Eigenkapitalförderung für Startups",
+    "beschreibung": "Der Gründerfonds Hessen beteiligt sich als stiller Gesellschafter an innovativen Startups in Hessen. Investitionsvolumen 100.000–500.000 EUR, marktübliche Konditionen, ohne Mitspracherecht.",
+    "typ": "Beteiligung",
+    "quelle": "Bundesland",
+    "foerderer": "Wirtschafts- und Infrastrukturbank Hessen (WIBank)",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.wibank.de/foerderprodukte/gruenderfonds-hessen",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Kein Hessen-Sitz",
+      "Keine Innovation"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Finanzplanung (3 Jahre)",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG"
+      ],
+      "bundeslaender": [
+        "Hessen"
+      ],
+      "gruendungsjahr": [
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Fintech",
+        "HealthTech"
+      ]
+    }
+  },
+  {
+    "id": "mvp-technologiefoerderung",
+    "title": "Technologieförderung Mecklenburg-Vorpommern (EFRE)",
+    "beschreibung": "Mecklenburg-Vorpommern fördert aus EFRE-Mitteln technologische Innovationen und F&E-Projekte von KMU. Förderquote bis 60 % für kleine Unternehmen, bis 50 % für mittlere Unternehmen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Mecklenburg-Vorpommern (IB.SH)",
+    "max_betrag": 300000,
+    "zins": null,
+    "antrag_url": "https://www.foerderung-mv.de",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Kein MV-Sitz"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Innovationsprojektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Bonitätsnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Mecklenburg-Vorpommern"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-digitalbonus",
+    "title": "Digitalbonus Bayern – Förderung digitaler Investitionen",
+    "beschreibung": "Bayern fördert Investitionen in Hardware, Software und IT-Sicherheit für KMU. Zuschüsse bis 50.000 EUR (Digitalbonus Standard) bzw. 100.000 EUR (Digitalbonus Plus für F&E-intensive Projekte).",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Bayerisches Staatsministerium für Wirtschaft",
+    "max_betrag": 100000,
+    "zins": null,
+    "antrag_url": "https://www.digitalbonus.bayern",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Kein Bayern-Sitz",
+      "Unternehmen > 50 Mio. EUR Umsatz"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Angebote Lieferanten",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-klimaschutzprogramm-kmu",
+    "title": "Klimaschutz-Plus (BW) – Investitionen in Klimaschutz für KMU",
+    "beschreibung": "Baden-Württemberg fördert investive Klimaschutzmaßnahmen in KMU: Erneuerbare Energien, Energieeffizienz, Elektromobilität, Wärmerückgewinnung. Zuschuss 20–50 % der förderfähigen Kosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "L-Bank Baden-Württemberg",
+    "max_betrag": 200000,
+    "zins": null,
+    "antrag_url": "https://www.l-bank.de/klimaschutz-plus",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Kein BW-Sitz"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Energieaudit oder Klimaschutzkonzept",
+        "auto": false
+      },
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-mikrokreditfonds",
+    "title": "Mikrokreditfonds Deutschland – Kleinstkredite für Gründer",
+    "beschreibung": "Der Mikrokreditfonds Deutschland vergibt Kleinstkredite bis 25.000 EUR ohne bankübliche Sicherheiten. Zielgruppe: Existenzgründer und Kleinstunternehmen ohne Bankzugang. Rückzahlung in 6–48 Monaten.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "BMF / GLS Bank (Mikrofinanzinstitute)",
+    "max_betrag": 25000,
+    "zins": "ca. 7,9 % eff. p.a.",
+    "antrag_url": "https://www.mikrofinanz.net",
+    "bearbeitungszeit_wochen": [
+      2,
+      4
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen > 10 Mitarbeiter",
+      "Jahresumsatz > 100.000 EUR"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Liquiditätsplanung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 10
+    },
+    "relevanz_boost": {
+      "gruendungsjahr": [
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    }
   }
 ]

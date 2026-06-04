@@ -29753,5 +29753,401 @@
     },
     "hat_dokument_generator": true,
     "dokument_typ": "arbeitsschutz-unterweisung"
+  },
+  {
+    "id": "koop-001",
+    "title": "Kooperationsvertrag – Kartellrechtliche Grenzen (GWB § 1)",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Kooperationsverträge zwischen Unternehmen dürfen den Wettbewerb nicht beschränken. Art. 101 AEUV / GWB § 1 verbieten wettbewerbsbeschränkende Vereinbarungen. Gruppenfreistellungsverordnungen (VO 330/2010, VO 1217/2010) können Ausnahmen erlauben.",
+    "rechtsgrundlage": "GWB § 1, Art. 101 AEUV, VO 330/2010/EU",
+    "quelle_url": "https://www.gesetze-im-internet.de/gwb/__1.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "kooperationsvertrag"
+  },
+  {
+    "id": "koop-002",
+    "title": "Kooperationsvertrag – Schriftform und IP-Regelung",
+    "category": "Vertragsrecht",
+    "beschreibung": "Bei Kooperationen mit IP-Beteiligung (Patente, Software, Marken) müssen Eigentumsfragen (Background/Foreground IP), Lizenzen und Sublizenzrechte schriftlich geregelt werden. Ohne Regelung entsteht Miteigentum kraft Gesetzes.",
+    "rechtsgrundlage": "BGB §§ 705 ff., UrhG §§ 8, 31, PatG § 6",
+    "quelle_url": "https://www.gesetze-im-internet.de/urhg/__8.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "kooperationsvertrag"
+  },
+  {
+    "id": "koop-003",
+    "title": "Joint Venture / Bietergemeinschaft – Vergaberechtliche Anforderungen",
+    "category": "Vergaberecht",
+    "beschreibung": "Bietergemeinschaften bei öffentlichen Ausschreibungen müssen einen gemeinsamen Vertreter benennen und gemeinsam für Leistungspflichten haften. Zulässigkeit nach GWB § 153, VOB/A § 6d.",
+    "rechtsgrundlage": "GWB § 153, VgV § 44, VOB/A § 6d",
+    "quelle_url": "https://www.gesetze-im-internet.de/gwb/__153.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "kooperationsvertrag"
+  },
+  {
+    "id": "kauf-001",
+    "title": "B2B-Kaufvertrag – Untersuchungs- und Rügepflicht (HGB § 377)",
+    "category": "Handelsrecht",
+    "beschreibung": "Bei beiderseitigen Handelsgeschäften muss der Käufer die Ware unverzüglich nach Erhalt untersuchen und Mängel sofort rügen. Verspätete Rüge führt zur Genehmigung der mangelhaften Ware.",
+    "rechtsgrundlage": "HGB § 377, BGB §§ 434–442",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__377.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "kaufvertrag"
+  },
+  {
+    "id": "kauf-002",
+    "title": "Eigentumsvorbehalt – Einfacher und erweiterter Vorbehalt (BGB § 449)",
+    "category": "Vertragsrecht",
+    "beschreibung": "Beim Kauf auf Rechnung schützt der Eigentumsvorbehalt den Verkäufer bis zur vollständigen Zahlung. Im B2B-Bereich ist der erweiterte Eigentumsvorbehalt (Kontokorrent-, Konzern-, Weiterveräußerungsvorbehalt) üblich.",
+    "rechtsgrundlage": "BGB § 449, InsO §§ 47, 107",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__449.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "kaufvertrag"
+  },
+  {
+    "id": "kauf-003",
+    "title": "Produkthaftung – Haftung des Herstellers / Inverkehrbringers (ProdHaftG)",
+    "category": "Produkthaftung",
+    "beschreibung": "Wer Produkte herstellt oder in der EU erstmals in Verkehr bringt, haftet verschuldensunabhängig für Schäden durch fehlerhafte Produkte. Neue EU-Produkthaftungsrichtlinie 2024/2853 erweitert Haftung auf Software und KI.",
+    "rechtsgrundlage": "ProdHaftG § 1, RL 2024/2853/EU, BGB § 823",
+    "quelle_url": "https://www.gesetze-im-internet.de/prodhaftg/__1.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kauf-004",
+    "title": "CE-Kennzeichnungspflicht – Inverkehrbringen in der EU",
+    "category": "Produktrecht",
+    "beschreibung": "Viele Produktkategorien (Maschinen, Elektrogeräte, Spielzeug, Medizinprodukte) erfordern eine CE-Kennzeichnung und EU-Konformitätserklärung vor dem Inverkehrbringen. Ohne CE ist der Vertrieb in der EU unzulässig.",
+    "rechtsgrundlage": "VO 765/2008/EG, RL 2006/42/EG (MRL), RL 2014/35/EU (LVD)",
+    "quelle_url": "https://single-market-economy.ec.europa.eu/single-market/ce-marking_de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dlv-001",
+    "title": "Dienstleistungsvertrag – Abgrenzung Dienst-/Werkvertrag",
+    "category": "Vertragsrecht",
+    "beschreibung": "Dienstverträge schulden Tätigkeiten (BGB § 611), Werkverträge Erfolge (BGB § 631). Die Abgrenzung bestimmt Gewährleistungsrechte, Abnahme- und Vergütungsregeln. Falsche Einordnung kann zu Haftungsrisiken führen.",
+    "rechtsgrundlage": "BGB §§ 611, 631, BAG-Rechtsprechung",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__611.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "dienstleistungsvertrag"
+  },
+  {
+    "id": "dlv-002",
+    "title": "AVV-Pflicht bei Dienstleistern mit Datenzugriff (Art. 28 DSGVO)",
+    "category": "Datenschutz",
+    "beschreibung": "Erhält ein Dienstleister Zugriff auf personenbezogene Daten des Auftraggebers, ist ein Auftragsverarbeitungsvertrag (AVV) nach Art. 28 DSGVO zwingend. Fehlender AVV kann Bußgelder bis 10 Mio. EUR / 2 % Jahresumsatz auslösen.",
+    "rechtsgrundlage": "DSGVO Art. 28, BDSG § 62",
+    "quelle_url": "https://dsgvo-gesetz.de/art-28-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "dienstleistungsvertrag"
+  },
+  {
+    "id": "dlv-003",
+    "title": "SLA-Gestaltung – Verfügbarkeitsgarantien und Service Credits",
+    "category": "IT-Recht",
+    "beschreibung": "Service Level Agreements müssen Verfügbarkeiten, Reaktionszeiten, Wartungsfenster und Konsequenzen bei Unterschreitung (Service Credits, Sonderkündigungsrecht) klar definieren. Unklare SLAs gelten als Bestleitungspflicht ohne Garantie.",
+    "rechtsgrundlage": "BGB §§ 280, 611 ff., BGH-Rechtsprechung zu SLAs",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__280.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "dienstleistungsvertrag"
+  },
+  {
+    "id": "gbr-001",
+    "title": "GbR-Eintragung – MoPeG-Gesellschaftsregister ab 2024",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Seit 01.01.2024 (MoPeG) können GbRs als eGbR ins Gesellschaftsregister eingetragen werden. Eintragung ist Pflicht bei Immobilienerwerb, IP-Rechte-Übertragung oder Beteiligung an Handelsgesellschaften.",
+    "rechtsgrundlage": "BGB §§ 706–707a (MoPeG), GBO § 47 Abs. 2",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__706.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "gesellschaftervertrag-gbr"
+  },
+  {
+    "id": "gbr-002",
+    "title": "GbR – Gesamtschuldnerische Außenhaftung der Gesellschafter",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Gesellschafter einer GbR haften unbeschränkt und gesamtschuldnerisch mit ihrem Privatvermögen für Verbindlichkeiten der Gesellschaft (BGB § 721). Neu eintretende Gesellschafter haften auch für Altverbindlichkeiten.",
+    "rechtsgrundlage": "BGB §§ 721–721b (MoPeG), BGH-Urt. BGHZ 146, 341",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__721.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "gesellschaftervertrag-gbr"
+  },
+  {
+    "id": "gbr-003",
+    "title": "Gesellschaftervertrag – Formvorschriften bei Immobilien / GmbH-Anteilen",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Einbringung von Grundstücken in eine Gesellschaft erfordert notarielle Beurkundung (BGB § 311b). Übertragung von GmbH-Anteilen erfordert notarielle Form (GmbHG § 15). Ohne Notarform sind Verpflichtungen nichtig.",
+    "rechtsgrundlage": "BGB § 311b, GmbHG § 15, BeurkG",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__311b.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "OHG",
+        "KG"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "gesellschaftervertrag-gbr"
+  },
+  {
+    "id": "geldwasche-001",
+    "title": "Geldwäschegesetz – Identifizierungs- und Sorgfaltspflichten (GwG)",
+    "category": "Compliance",
+    "beschreibung": "Bestimmte Branchen (Immobilien, Finanz, Rechtsanwälte, Notare, Güterhandel > 10.000 EUR bar) müssen Kunden identifizieren, wirtschaftlich Berechtigte feststellen und Verdachtsfälle melden (GwG §§ 10 ff.).",
+    "rechtsgrundlage": "GwG §§ 2, 10–17, 43–45",
+    "quelle_url": "https://www.gesetze-im-internet.de/gwg_2017/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "geldwasche-002",
+    "title": "Transparenzregister – Meldepflicht wirtschaftlich Berechtigter",
+    "category": "Compliance",
+    "beschreibung": "Juristische Personen und eingetragene Personengesellschaften müssen wirtschaftlich Berechtigte (> 25 % Anteil) ins Transparenzregister eintragen. Verstöße: Bußgeld bis 1 Mio. EUR (GwG § 56).",
+    "rechtsgrundlage": "GwG §§ 18–26, 56",
+    "quelle_url": "https://www.transparenzregister.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "nachhaltigkeit-001",
+    "title": "CSRD – Nachhaltigkeitsberichterstattung (ab 2024/2025)",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Die Corporate Sustainability Reporting Directive (CSRD) verpflichtet ab 2024 große Unternehmen und ab 2025 börsennotierte KMU zur Berichterstattung nach ESRS-Standards. Bußgeld und Reputationsrisiken bei Verstoß.",
+    "rechtsgrundlage": "CSRD 2022/2464/EU, HGB § 289b ff., ESRS",
+    "quelle_url": "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG"
+      ],
+      "mitarbeiter_min": 250
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "nachhaltigkeit-002",
+    "title": "Lieferkettensorgfaltspflichtengesetz (LkSG) – ab 1.000 Mitarbeiter",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Unternehmen ab 1.000 Mitarbeiter müssen Menschenrechts- und Umweltrisiken in der Lieferkette identifizieren, verhindern und beheben. Jahresbericht beim BAFA, Bußgeld bis 2 % des Jahresumsatzes.",
+    "rechtsgrundlage": "LkSG §§ 3–10, 24",
+    "quelle_url": "https://www.gesetze-im-internet.de/lksg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 1000
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "nachhaltigkeit-003",
+    "title": "EU-Taxonomie-Verordnung – Klassifizierung nachhaltiger Wirtschaftstätigkeiten",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Unternehmen, die der NFRD/CSRD unterliegen, müssen Anteil taxonomiekonformer Umsätze, Investitionen und Betriebsausgaben offenlegen. Greenwashing kann als unlautere Handlung nach UWG geahndet werden.",
+    "rechtsgrundlage": "VO 2020/852/EU (Taxonomie), RL 2022/2464/EU (CSRD)",
+    "quelle_url": "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG"
+      ],
+      "mitarbeiter_min": 500
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-001",
+    "title": "Umsatzsteuer-Voranmeldung – monatliche / quartalsweise Pflicht (UStG § 18)",
+    "category": "Steuerrecht",
+    "beschreibung": "Unternehmer müssen Umsatzsteuer-Voranmeldungen elektronisch via ELSTER abgeben: monatlich bei Vorjahres-USt > 7.500 EUR, quartalsweise bis 7.500 EUR, jährlich bei Vorjahres-USt bis 1.000 EUR.",
+    "rechtsgrundlage": "UStG § 18, UStDV § 46, AEAO zu § 18 UStG",
+    "quelle_url": "https://www.gesetze-im-internet.de/ustg_1980/__18.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-002",
+    "title": "Körperschaftsteuer-Erklärungspflicht (KStG § 31)",
+    "category": "Steuerrecht",
+    "beschreibung": "Kapitalgesellschaften müssen jährlich Körperschaftsteuererklärung (KSt 1) elektronisch abgeben. Steuersatz 15 % zzgl. 5,5 % Solidaritätszuschlag. Gewerbesteuer zusätzlich (GewStG §§ 14 ff.).",
+    "rechtsgrundlage": "KStG §§ 1, 31, GewStG §§ 14–18",
+    "quelle_url": "https://www.gesetze-im-internet.de/kstg_1977/__31.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-003",
+    "title": "Gewerbesteuer – Anzeige- und Erklärungspflichten (GewStG)",
+    "category": "Steuerrecht",
+    "beschreibung": "Gewerbetreibende müssen Betriebseröffnung dem Finanzamt anzeigen und jährlich Gewerbesteuererklärung (GewSt 1) abgeben. Hebesatz variiert je Gemeinde (200–900 %). Freibetrag Einzelunternehmen/Personengesellschaften: 24.500 EUR.",
+    "rechtsgrundlage": "GewStG §§ 2, 14, 25, AO § 138",
+    "quelle_url": "https://www.gesetze-im-internet.de/gewstg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
   }
 ]
