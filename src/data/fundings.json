@@ -31449,5 +31449,526 @@
         "50–249"
       ]
     }
+  },
+  {
+    "id": "eu-eit-climate",
+    "title": "EIT Climate-KIC – Klimatransformation",
+    "beschreibung": "Klimainnovationen aus Europa: EIT Climate-KIC fördert Start-ups und Projekte mit Klimabezug durch Stipendien, Acceleratoren und Netzwerke.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "EIT Climate-KIC",
+    "max_betrag": 300000,
+    "zins": null,
+    "antrag_url": "https://www.climate-kic.org/programmes/",
+    "bearbeitungszeit_wochen": [
+      10,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Kein Klimabezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Klimawirkungsbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_max": 250
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "GreenTech",
+        "Energie",
+        "Landwirtschaft",
+        "Mobilität"
+      ]
+    }
+  },
+  {
+    "id": "eu-eit-digital",
+    "title": "EIT Digital – Digitale Transformation",
+    "beschreibung": "EIT Digital unterstützt digitale Innovationen und Entrepreneurship in Europa. Business-Entwicklungsprogramme und Finanzierung für Tech-Start-ups.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "EIT Digital",
+    "max_betrag": 400000,
+    "zins": null,
+    "antrag_url": "https://www.eitdigital.eu/our-work/accelerator/",
+    "bearbeitungszeit_wochen": [
+      10,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Kein Digitalbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Tech-Beschreibung",
+        "auto": false
+      },
+      {
+        "name": "Go-to-Market-Plan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "mitarbeiter_max": 200
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "KI",
+        "Cybersicherheit",
+        "Digitale Plattformen"
+      ]
+    }
+  },
+  {
+    "id": "bund-patentfoerderung",
+    "title": "SIGNO – Förderung gewerblicher Schutzrechte",
+    "beschreibung": "BMWi-Programm zur Förderung von Patentanmeldungen für KMU und Freiberufler. Zuschüsse zu Patentrecherchen und -anmeldungen bis 50%. Max. 16.400 €.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / SIGNO",
+    "max_betrag": 16400,
+    "zins": null,
+    "antrag_url": "https://www.signo-deutschland.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Mehr als 249 Mitarbeitende",
+      "Kein schützenswertes IP"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Erfindungsbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Patentrecherche",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Produktion",
+        "Pharma",
+        "Ingenieurwesen"
+      ]
+    }
+  },
+  {
+    "id": "bund-softwarefoerderung",
+    "title": "Bundesförderung Open Source Software",
+    "beschreibung": "Förderung der Entwicklung und Pflege von Open Source Software im Interesse des Gemeinwohls. Projekte mit Fokus auf digitale Souveränität und Sicherheit bevorzugt.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / Sovereign Tech Fund",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://sovereigntechfund.de/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Kein Open-Source-Projekt",
+      "Proprietäre Software"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Wirkungsnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "mitarbeiter_max": 100
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Software",
+        "Cybersicherheit"
+      ]
+    }
+  },
+  {
+    "id": "bund-rohstoffe",
+    "title": "Rohstoffversorgung – Diversifizierungsförderung",
+    "beschreibung": "Förderung von Projekten zur Diversifizierung kritischer Rohstoffversorgung. Strategische Partnerschaften, Recycling-Technologien und Substitutionsforschung.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BGR / BMWK",
+    "max_betrag": 2000000,
+    "zins": null,
+    "antrag_url": "https://www.bgr.bund.de/DE/Themen/Rohstoffwirtschaft/Foerderung/foerderung_node.html",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Kein Rohstoffbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Wirkungsanalyse",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Bergbau",
+        "Chemie",
+        "Produktion",
+        "Recycling"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Bergbau",
+        "Chemie",
+        "Batterie",
+        "Halbleiter"
+      ]
+    }
+  },
+  {
+    "id": "by-gse-gesundheit",
+    "title": "Bayern – Gesundheit.digital Förderung",
+    "beschreibung": "Bayerisches Förderprogramm für digitale Gesundheitslösungen: Telemedizin, KI-Diagnose, Digitale Pflegedokumentation. Bis 500.000 € Zuschuss.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Bayerisches Staatsministerium für Gesundheit",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.stmgp.bayern.de/themen/gesundheitsversorgung/digitale-gesundheit/",
+    "bearbeitungszeit_wochen": [
+      10,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Bayern",
+      "Kein Gesundheitsbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Digitales Gesundheitskonzept",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Gesundheit",
+        "HealthTech",
+        "Medizintechnik",
+        "Pflege"
+      ]
+    }
+  },
+  {
+    "id": "nrw-wasserstoff",
+    "title": "NRW Wasserstoff-Förderung",
+    "beschreibung": "NRW fördert Wasserstoffprojekte entlang der gesamten Wertschöpfungskette: Erzeugung, Speicherung, Transport, Nutzung. Bis 10 Mio. € pro Projekt.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "MWIKE NRW / PtJ",
+    "max_betrag": 10000000,
+    "zins": null,
+    "antrag_url": "https://www.wirtschaft.nrw/wasserstoff",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Nicht in NRW",
+      "Kein Wasserstoffbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Technologiebeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Realisierbarkeitsnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Energie",
+        "Wasserstoff",
+        "Industrie",
+        "Chemie",
+        "Automotive"
+      ]
+    }
+  },
+  {
+    "id": "bw-mechatronic",
+    "title": "Baden-Württemberg MeckaTronic-Förderung",
+    "beschreibung": "BW fördert Projekte in Mechatronik, Sensorik und intelligenten Produktionssystemen. Schwerpunkt: Transformation der Industrie 4.0 in BW.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Ministerium für Wirtschaft BW",
+    "max_betrag": 1500000,
+    "zins": null,
+    "antrag_url": "https://www.wirtschaft-bw.de/foerderung",
+    "bearbeitungszeit_wochen": [
+      10,
+      18
+    ],
+    "ausschlusskriterien": [
+      "Nicht in BW",
+      "Kein Produktionsbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Kooperationsnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Produktion",
+        "Maschinenbau",
+        "Automotive",
+        "Sensorik"
+      ]
+    }
+  },
+  {
+    "id": "ni-wasserwirtschaft",
+    "title": "Niedersachsen Wasserwirtschaft und Küstenschutz",
+    "beschreibung": "Förderung von Maßnahmen in der Wasserwirtschaft, Hochwasserschutz und Küstenschutz in Niedersachsen. Zuschüsse bis 80% für öffentliche und private Träger.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Niedersächsisches Umweltministerium (MU)",
+    "max_betrag": 2000000,
+    "zins": null,
+    "antrag_url": "https://www.umwelt.niedersachsen.de/themen/wasser/",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Niedersachsen",
+      "Kein Wasserbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Technischer Plan",
+        "auto": false
+      },
+      {
+        "name": "Umweltverträglichkeit",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Niedersachsen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Wasserwirtschaft",
+        "Umwelt",
+        "Bau",
+        "Küstenschutz"
+      ]
+    }
+  },
+  {
+    "id": "hb-maritim",
+    "title": "Bremen Maritime – Schiffbauförderung",
+    "beschreibung": "Förderung der Maritimen Wirtschaft in Bremen und Bremerhaven: Schiffbau, Meerestechnik, Offshore. Zuschüsse und günstige Kredite für Investitionen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "WFB Wirtschaftsförderung Bremen / BAB",
+    "max_betrag": 1000000,
+    "zins": null,
+    "antrag_url": "https://www.wfb-bremen.de/de/maritim",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Bremen",
+      "Kein Maritimbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Bremen"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Schiffbau",
+        "Meerestechnik",
+        "Offshore",
+        "Logistik"
+      ]
+    }
+  },
+  {
+    "id": "hh-hafen-logistik",
+    "title": "Hamburg Hafen und Logistik Innovationsförderung",
+    "beschreibung": "Förderung innovativer Logistik- und Hafentechnologien in Hamburg. Schwerpunkte: Automatisierung, Digitalisierung, Nachhaltigkeit im Hafen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "HPA / IFB Hamburg",
+    "max_betrag": 1500000,
+    "zins": null,
+    "antrag_url": "https://www.hamburg-port-authority.de/",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Hamburg",
+      "Kein Hafen-/Logistikbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Innovationskonzept",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Hamburg"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Logistik",
+        "Hafen",
+        "Schifffahrt",
+        "Automatisierung"
+      ]
+    }
   }
 ]

@@ -28833,5 +28833,474 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "lizenz-001",
+    "title": "Software-Lizenzmanagement",
+    "category": "Digitales Recht",
+    "beschreibung": "Unternehmen müssen alle genutzten Softwarelizenzen verwalten. Unlizenzierte Software kann zu Abmahnungen, Schadensersatzansprüchen und Strafverfolgung führen. SAM (Software Asset Management) empfohlen.",
+    "rechtsgrundlage": "UrhG §§ 69a–69g, § 97",
+    "quelle_url": "https://www.gesetze-im-internet.de/urhg/__69a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "lizenzvertrag"
+  },
+  {
+    "id": "lizenz-002",
+    "title": "Patent-Lizenzvertrag – Erteilung und Ausübung",
+    "category": "Geistiges Eigentum",
+    "beschreibung": "Patentlizenzen müssen klar Umfang, Gebiet und Exklusivität definieren. Unterlizenzierung erfordert gesonderte Erlaubnis. Lizenzeintrag im Patentregister empfohlen.",
+    "rechtsgrundlage": "PatG § 15, UrhG § 31",
+    "quelle_url": "https://www.dpma.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Technologie",
+        "Pharma",
+        "Produktion"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "lizenzvertrag"
+  },
+  {
+    "id": "lizenz-003",
+    "title": "Marken-Lizenzvertrag",
+    "category": "Geistiges Eigentum",
+    "beschreibung": "Markenlizenzen (§ 30 MarkenG) müssen schriftlich vereinbart werden. Qualitätskontrolle durch den Markeninhaber ist zur Aufrechterhaltung des Markenwerts wichtig.",
+    "rechtsgrundlage": "MarkenG § 30",
+    "quelle_url": "https://www.gesetze-im-internet.de/markeng/__30.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "lizenzvertrag"
+  },
+  {
+    "id": "telework-001",
+    "title": "Telearbeit – Arbeitsstättenverordnung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Telearbeitsplätze müssen die Anforderungen der ArbStättV erfüllen. Arbeitgeber müssen die Gefährdungsbeurteilung auch für Homeoffice-Arbeitsplätze durchführen.",
+    "rechtsgrundlage": "ArbStättV § 2 Abs. 7, Anhang 6",
+    "quelle_url": "https://www.gesetze-im-internet.de/arbst_ttv_2004/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "betriebsvereinbarung"
+  },
+  {
+    "id": "medizin-apotheke-001",
+    "title": "Apothekenpflicht und Arzneimittelrecht",
+    "category": "Gesundheitsrecht",
+    "beschreibung": "Arzneimittel dürfen nur über zugelassene Apotheken vertrieben werden. Online-Apotheken benötigen eine Zulassung und müssen EU-weit das gemeinsame Sicherheitsmerkmal verwenden.",
+    "rechtsgrundlage": "AMG §§ 43, 73, AMVV",
+    "quelle_url": "https://www.bfarm.de/DE/Arzneimittel/arzneimittel_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Pharma",
+        "Gesundheit",
+        "Apotheke"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "repair-001",
+    "title": "Recht auf Reparatur (EU-Richtlinie 2024)",
+    "category": "Produktrecht",
+    "beschreibung": "Die EU-Richtlinie zum Recht auf Reparatur (2024/1799) verpflichtet Hersteller, Reparaturen zu ermöglichen und Ersatzteile bereitzustellen. In nationales Recht bis Juli 2026 umzusetzen.",
+    "rechtsgrundlage": "EU-Richtlinie 2024/1799",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=OJ:L_202401799",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Produktion",
+        "Elektro",
+        "Handel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vergabe-003",
+    "title": "Soziale und ökologische Vergabekriterien",
+    "category": "Vergaberecht",
+    "beschreibung": "Öffentliche Auftraggeber müssen bei Vergaben soziale (Mindestlohn, Tariftreue) und ökologische Kriterien berücksichtigen. Bieter müssen entsprechende Nachweise vorlegen.",
+    "rechtsgrundlage": "GWB § 97 Abs. 3, VgV § 52",
+    "quelle_url": "https://www.bmwk.de/Redaktion/DE/Artikel/Wirtschaft/vergaberecht.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "ki-recht-001",
+    "title": "KI-Systeme – Risikokategorien EU AI Act",
+    "category": "Digitales Recht",
+    "beschreibung": "Der EU AI Act kategorisiert KI-Systeme nach Risiko. Verbotene KI: Verhaltensmanipulation, Social Scoring. Hochrisiko-KI (Medizin, Justiz, Kredite) braucht Conformity Assessment.",
+    "rechtsgrundlage": "EU AI Act 2024/1689, Art. 5, 6 ff.",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Technologie",
+        "KI",
+        "Software",
+        "Gesundheit",
+        "Finanzen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "ki-recht-002",
+    "title": "KI-Haftung – Produkthaftung für KI-Systeme",
+    "category": "Digitales Recht",
+    "beschreibung": "Die KI-Haftungsrichtlinie (AI Liability Directive) erleichtert Schadensersatzansprüche bei KI-Schäden durch Beweislastumkehr. Kombiniert mit neuer Produkthaftungsrichtlinie.",
+    "rechtsgrundlage": "KI-Haftungsrichtlinie (Proposal COM/2022/496), ProdHaftRL 2024",
+    "quelle_url": "https://ec.europa.eu/info/business-economy-euro/doing-business-eu/contract-rules/digital-contracts/liability-rules-artificial-intelligence_en",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Technologie",
+        "KI",
+        "Software"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "fintech-001",
+    "title": "Kryptowährungen – MiCA-Regulierung",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "Die Markets in Crypto-Assets Verordnung (MiCA, ab 2024) reguliert den Krypto-Asset-Markt. Emittenten von Krypto-Assets benötigen eine Zulassung. Whitepapers sind Pflicht.",
+    "rechtsgrundlage": "MiCA (EU) 2023/1114",
+    "quelle_url": "https://www.bafin.de/DE/Aufsicht/FinTech/Kryptowerte/kryptowerte_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Finanzdienstleistungen",
+        "Technologie",
+        "Krypto"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "fintech-002",
+    "title": "Open Banking – PSD2 und API-Zugang",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "Banken müssen Drittanbietern (TPP) den Zugang zu Kontodaten über sichere APIs ermöglichen. Unternehmen, die Bankdaten verarbeiten wollen, benötigen eine Lizenz als AIS oder PIS.",
+    "rechtsgrundlage": "PSD2-Richtlinie 2015/2366, ZAG",
+    "quelle_url": "https://www.bafin.de/DE/Aufsicht/ZahlungsdiensteEMI/zahlungsdienste_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Finanzdienstleistungen",
+        "Technologie",
+        "Fintech"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steur-ust-osr-001",
+    "title": "One-Stop-Shop (OSS) für EU-Umsatzsteuer",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "E-Commerce-Unternehmen, die Waren oder digitale Dienstleistungen an EU-Verbraucher liefern, müssen ab 10.000 € EU-Umsatz im Bestimmungsland Umsatzsteuer zahlen. Vereinfachung über OSS-Portal.",
+    "rechtsgrundlage": "UStG § 18j, EU MwSt-E-Commerce-Paket",
+    "quelle_url": "https://www.bzst.de/DE/Unternehmen/Umsatzsteuer/OSS/oss_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "E-Commerce",
+        "Technologie",
+        "Software"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "compliance-004",
+    "title": "Sanktionslisten-Screening – Pflicht",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Unternehmen müssen Kunden, Lieferanten und Geschäftspartner gegen EU- und UN-Sanktionslisten prüfen. Dies gilt insbesondere nach den Ukraine-Sanktionen. KYC-Prozess erforderlich.",
+    "rechtsgrundlage": "EU-Verordnungen über restriktive Maßnahmen, GwG § 10",
+    "quelle_url": "https://www.bafa.de/DE/Aussenwirtschaft/Exportkontrolle/Finanzsanktionen/finanzsanktionen_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "compliance-005",
+    "title": "Corporate Governance – D&O-Versicherung",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Geschäftsführer und Vorstände sollten durch eine D&O-Versicherung (Directors & Officers) gegen Haftungsansprüche abgesichert sein. Selbstbehalt nach AktG § 93 Abs. 2 Satz 3 für AG: 10% des Schadens.",
+    "rechtsgrundlage": "GmbHG § 43, AktG § 93",
+    "quelle_url": "https://www.bmjv.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "nachh-001",
+    "title": "Nachhaltigkeitsbericht – GRI-Standards",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Auch kleinere Unternehmen kommunizieren freiwillig Nachhaltigkeitsinformationen (ESG) nach GRI-Standards. Für große Unternehmen wird ab 2025 CSRD-Bericht Pflicht.",
+    "rechtsgrundlage": "CSRD 2022/2464, HGB § 289b",
+    "quelle_url": "https://www.bafin.de/DE/Aufsicht/Nachhaltigkeitsberichterstattung/nachhaltigkeitsberichterstattung_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "nachh-002",
+    "title": "Science Based Targets – Klimaziele",
+    "category": "Umweltrecht",
+    "beschreibung": "Unternehmen können bei der SBTi (Science Based Targets initiative) Klimaziele committen. Immer mehr Kunden und Investoren verlangen wissenschaftsbasierte Reduktionsziele.",
+    "rechtsgrundlage": "CSRD ESRS E1, Freiwillig",
+    "quelle_url": "https://sciencebasedtargets.org/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 50
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "wett-kartell-001",
+    "title": "Kartellrecht – Preisabsprachen verboten",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Horizontale Preisabsprachen mit Wettbewerbern sind verboten und können zu Bußgeldern von bis zu 10% des weltweiten Jahresumsatzes führen. Auch informeller Informationsaustausch kann problematisch sein.",
+    "rechtsgrundlage": "GWB § 1, AEUV Art. 101",
+    "quelle_url": "https://www.bundeskartellamt.de/DE/Kartellrecht/kartellrecht_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "wett-kartell-002",
+    "title": "Marktmachtmissbrauch (§ 19 GWB)",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Marktbeherrschende Unternehmen dürfen ihre Stellung nicht missbrauchen (z.B. Diskriminierung, Koppelung, predatory pricing). Marktmacht: > 40% Marktanteil.",
+    "rechtsgrundlage": "GWB §§ 18, 19, 20",
+    "quelle_url": "https://www.bundeskartellamt.de/DE/Kartellrecht/kartellrecht_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 250
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dsgvo-scoring-001",
+    "title": "Bonitätsscoring und DSGVO",
+    "category": "Datenschutz",
+    "beschreibung": "Bonitätsprüfungen und Scoring-Verfahren (SCHUFA, Creditreform) unterliegen strengen DSGVO-Anforderungen. Betroffene haben Auskunftsrecht und können Widerspruch erheben.",
+    "rechtsgrundlage": "DSGVO Art. 22, BDSG § 31",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Themen/Scoring/scoring_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Finanzdienstleistungen",
+        "E-Commerce",
+        "Handel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sonstig-001",
+    "title": "Videoüberwachung – DSGVO und BetrVG",
+    "category": "Datenschutz",
+    "beschreibung": "Videoüberwachung am Arbeitsplatz ist nur unter strengen Voraussetzungen zulässig. Betriebsrat hat Mitbestimmungsrecht. Hinweisschilder und Speicherfristen sind zu dokumentieren.",
+    "rechtsgrundlage": "DSGVO Art. 6, Art. 32, BetrVG § 87 Abs. 1 Nr. 6",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Themen/Videoüberwachung/Videoueberwachung_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "datenschutz-folgenabschaetzung"
+  },
+  {
+    "id": "sonstig-002",
+    "title": "Mitarbeiterdatenschutz – Personalakten",
+    "category": "Datenschutz",
+    "beschreibung": "Personalakten dürfen nur die für das Arbeitsverhältnis erforderlichen Daten enthalten. Arbeitnehmer haben Recht auf Akteneinsicht. Speicherfristen nach Austritt: max. 3 Jahre.",
+    "rechtsgrundlage": "BDSG § 26, DSGVO Art. 5",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Bereiche/Beschaeftigung/beschaeftigung_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "datenschutz-einwilligung"
   }
 ]

@@ -38,6 +38,7 @@ export type DokumentTyp =
   | 'betriebsvereinbarung'
   | 'handelsvertreter-vertrag'
   | 'gewerberaummietvertrag'
+  | 'lizenzvertrag'
 
 export interface GiltFuer {
   rechtsformen: string[]
