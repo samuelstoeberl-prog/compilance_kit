@@ -35,6 +35,7 @@ export type DokumentTyp =
   | 'nda-geheimhaltung'
   | 'werkvertrag'
   | 'freiberufler-vertrag'
+  | 'betriebsvereinbarung'
 
 export interface GiltFuer {
   rechtsformen: string[]

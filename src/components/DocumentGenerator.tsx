@@ -17,6 +17,7 @@ import {
   nichtOffenlegungTemplate,
   werkvertragTemplate,
   freiberuflerVertragTemplate,
+  betriebsvereinbarungTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -44,6 +45,7 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   'nda-geheimhaltung': 'Geheimhaltungsvereinbarung (NDA)',
   werkvertrag: 'Werkvertrag-Vorlage',
   'freiberufler-vertrag': 'Freiberufler-/Dienstleistungsvertrag',
+  betriebsvereinbarung: 'Betriebsvereinbarung-Vorlage',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -89,6 +91,7 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'nda-geheimhaltung': return applyTemplate(nichtOffenlegungTemplate, vars)
     case 'werkvertrag': return applyTemplate(werkvertragTemplate, vars)
     case 'freiberufler-vertrag': return applyTemplate(freiberuflerVertragTemplate, vars)
+    case 'betriebsvereinbarung': return applyTemplate(betriebsvereinbarungTemplate, vars)
   }
 }
 

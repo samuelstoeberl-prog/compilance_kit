@@ -27010,5 +27010,660 @@
       ]
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "betrv-001",
+    "title": "Betriebsrat – Gründung und Wahlen",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Ab 5 ständigen wahlberechtigten Arbeitnehmern kann ein Betriebsrat gegründet werden. Betriebsratswahlen finden alle 4 Jahre statt. Der Arbeitgeber darf die Betriebsratsgründung nicht behindern.",
+    "rechtsgrundlage": "BetrVG §§ 1–20",
+    "quelle_url": "https://www.gesetze-im-internet.de/betrvg/__1.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 5
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "betriebsvereinbarung"
+  },
+  {
+    "id": "betrv-002",
+    "title": "Mitbestimmung bei Homeoffice-Einführung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Die Einführung von Homeoffice/Mobile Work unterliegt dem erzwingbaren Mitbestimmungsrecht des Betriebsrats (§ 87 Abs. 1 Nr. 2 BetrVG). Eine Betriebsvereinbarung ist empfehlenswert.",
+    "rechtsgrundlage": "BetrVG § 87 Abs. 1 Nr. 2",
+    "quelle_url": "https://www.gesetze-im-internet.de/betrvg/__87.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 5
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "betriebsvereinbarung"
+  },
+  {
+    "id": "betrv-003",
+    "title": "Mitbestimmung bei IT-Systemen und KI",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Die Einführung von technischen Einrichtungen zur Verhaltens- oder Leistungsüberwachung (inkl. KI-Tools, Tracking-Software) unterliegt der erzwingbaren Mitbestimmung des Betriebsrats.",
+    "rechtsgrundlage": "BetrVG § 87 Abs. 1 Nr. 6",
+    "quelle_url": "https://www.gesetze-im-internet.de/betrvg/__87.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 5
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "betriebsvereinbarung"
+  },
+  {
+    "id": "betrv-004",
+    "title": "Betriebsvereinbarung Gleitzeit",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Flexible Arbeitszeitmodelle (Gleitzeit, Vertrauensarbeitszeit) bedürfen der Zustimmung des Betriebsrats und sollten in einer Betriebsvereinbarung geregelt werden.",
+    "rechtsgrundlage": "BetrVG § 87 Abs. 1 Nr. 2, ArbZG § 7",
+    "quelle_url": "https://www.gesetze-im-internet.de/betrvg/__87.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 5
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "betriebsvereinbarung"
+  },
+  {
+    "id": "gewerbe-miet-001",
+    "title": "Gewerbemietvertrag – Schriftformerfordernis",
+    "category": "Vertragsrecht",
+    "beschreibung": "Gewerbemietverträge mit einer Laufzeit über einem Jahr müssen schriftlich geschlossen werden (§ 550 BGB). Andernfalls gelten sie als auf unbestimmte Zeit geschlossen und sind nach einem Jahr kündbar.",
+    "rechtsgrundlage": "BGB § 550, § 578",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__550.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Immobilien",
+        "Handel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gewerbe-miet-002",
+    "title": "Betriebskostenabrechnung im Gewerbemietrecht",
+    "category": "Vertragsrecht",
+    "beschreibung": "Im Gewerberaummietrecht können Betriebskosten umfassend auf den Mieter umgelegt werden, sofern dies vertraglich vereinbart ist. Eine jährliche Abrechnung ist üblich.",
+    "rechtsgrundlage": "BGB § 556, § 578 Abs. 1",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__556.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Immobilien"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dsgvo-kinder-001",
+    "title": "Datenschutz bei Kindern – besondere Schutzpflichten",
+    "category": "Datenschutz",
+    "beschreibung": "Bei der Verarbeitung von Daten Minderjähriger gelten besondere Schutzpflichten. Bei direkten Online-Diensten für Kinder unter 16 Jahren ist die elterliche Einwilligung erforderlich.",
+    "rechtsgrundlage": "DSGVO Art. 8",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/Kinder.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Bildung",
+        "Gesundheit",
+        "Technologie",
+        "E-Commerce"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "datenschutz-einwilligung"
+  },
+  {
+    "id": "dsgvo-profiling-001",
+    "title": "Automatisierte Entscheidungen und Profiling",
+    "category": "Datenschutz",
+    "beschreibung": "Vollautomatisierte Entscheidungen mit erheblicher Auswirkung sind nur in engen Grenzen zulässig. Betroffene haben Recht auf menschliche Überprüfung.",
+    "rechtsgrundlage": "DSGVO Art. 22",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/Profiling.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Finanzdienstleistungen",
+        "Technologie",
+        "KI",
+        "E-Commerce"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dsgvo-drite-001",
+    "title": "Datenweitergabe in Drittländer (Art. 44 ff. DSGVO)",
+    "category": "Datenschutz",
+    "beschreibung": "Die Übermittlung personenbezogener Daten in Länder außerhalb der EU/EWR ist nur unter besonderen Voraussetzungen zulässig (Angemessenheitsbeschluss, SCC, BCR).",
+    "rechtsgrundlage": "DSGVO Art. 44–49",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/Drittlaender.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "it-cloud-001",
+    "title": "Cloud Computing – Datenschutz und AVV",
+    "category": "Datenschutz",
+    "beschreibung": "Die Nutzung von Cloud-Diensten (AWS, Azure, Google Cloud, Microsoft 365) erfordert einen Auftragsverarbeitungsvertrag (AVV) und Prüfung der Datenschutzkonformität.",
+    "rechtsgrundlage": "DSGVO Art. 28, Art. 44",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/CloudComputing.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "it-open-source-001",
+    "title": "Open-Source-Lizenzen – Compliance",
+    "category": "Digitales Recht",
+    "beschreibung": "Unternehmen, die Open-Source-Software nutzen oder verteilen, müssen die Lizenzbedingungen (GPL, MIT, Apache) einhalten. Copyleft-Lizenzen (GPL) können Offenlegungspflichten für eigenen Code auslösen.",
+    "rechtsgrundlage": "UrhG § 69a ff., Open-Source-Lizenzen",
+    "quelle_url": "https://www.ifrOSS.org/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Technologie",
+        "Software"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "it-saas-001",
+    "title": "SaaS-Anbieter – AGB und Datenschutz",
+    "category": "Vertragsrecht",
+    "beschreibung": "SaaS-Anbieter benötigen klare AGB, die Verfügbarkeit, SLAs, Datenschutz und Kündigung regeln. AVV-Pflicht, wenn Kundendaten verarbeitet werden.",
+    "rechtsgrundlage": "BGB §§ 305–310, DSGVO Art. 28",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__305.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Technologie",
+        "Software",
+        "SaaS"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "gewaehrleistung-agb"
+  },
+  {
+    "id": "insolvenz-003",
+    "title": "Eigenverwaltung und Schutzschirmverfahren",
+    "category": "Insolvenzrecht",
+    "beschreibung": "Das ESUG ermöglicht insolvenzbedrohten Unternehmen, im Rahmen eines Schutzschirmverfahrens die Restrukturierung selbst zu steuern. Voraussetzung: drohende Zahlungsunfähigkeit, kein Schuldnerverzug.",
+    "rechtsgrundlage": "InsO §§ 270a–270d (ESUG)",
+    "quelle_url": "https://www.gesetze-im-internet.de/inso/__270a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "insolvenz-004",
+    "title": "StaRUG – Restrukturierungsplan außergerichtlich",
+    "category": "Insolvenzrecht",
+    "beschreibung": "Das StaRUG ermöglicht Unternehmen, Schulden außergerichtlich zu restrukturieren, ohne Insolvenz anzumelden. Voraussetzung: drohende Zahlungsunfähigkeit. Richterliche Bestätigung möglich.",
+    "rechtsgrundlage": "StaRUG §§ 1–84",
+    "quelle_url": "https://www.gesetze-im-internet.de/starug/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "lebensm-003",
+    "title": "Lebensmittel-Rückverfolgbarkeit",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Lebensmittelunternehmer müssen lückenlose Rückverfolgbarkeit von Zutaten und Produkten gewährleisten. Dokumentation von Lieferanten und Abnehmern erforderlich.",
+    "rechtsgrundlage": "VO (EG) 178/2002 Art. 18",
+    "quelle_url": "https://www.bmel.de/DE/themen/ernaehrung/lebensmittelrecht/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Lebensmittel",
+        "Gastronomie",
+        "Produktion"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "lebensm-004",
+    "title": "Hygienepass und Gesundheitszeugnis",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Personen, die mit offenen Lebensmitteln umgehen, benötigen ein Gesundheitszeugnis nach § 42 IfSG. Regelmäßige Hygieneschulungen sind Pflicht.",
+    "rechtsgrundlage": "IfSG §§ 42–43, LMHV § 4",
+    "quelle_url": "https://www.gesetze-im-internet.de/ifsg/__42.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Lebensmittel",
+        "Gastronomie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesundheit-003",
+    "title": "Arbeitsmedizinische Vorsorge",
+    "category": "Gesundheitsrecht",
+    "beschreibung": "Arbeitgeber müssen arbeitsmedizinische Pflichtvorsorge für bestimmte Tätigkeiten (z.B. Bildschirmarbeit, Lärm, Gefahrstoffe) anbieten und anbieten lassen.",
+    "rechtsgrundlage": "ArbMedVV, ArbSchG § 3",
+    "quelle_url": "https://www.baua.de/DE/Themen/Arbeitsgestaltung-im-Betrieb/Arbeitsmedizin/arbeitsmedizin_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesundheit-004",
+    "title": "Erste Hilfe im Betrieb",
+    "category": "Gesundheitsrecht",
+    "beschreibung": "Arbeitgeber müssen für jeden Betrieb ausreichend Ersthelfer ausbilden (mind. 1 Ersthelfer pro 10-50 Beschäftigte je nach Branche) und Erste-Hilfe-Material bereithalten.",
+    "rechtsgrundlage": "DGUV Vorschrift 1, ArbSchG § 10",
+    "quelle_url": "https://www.dguv.de/de/praevention/themen-a-z/erstehilfe/index.jsp",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "bau-001",
+    "title": "Baustellenverordnung – Sicherheitsplan",
+    "category": "Arbeitsschutzrecht",
+    "beschreibung": "Bei Baustellen mit mehreren Unternehmen oder bestimmter Größe muss ein Sicherheits- und Gesundheitsschutzplan (SiGePlan) erstellt und ein Koordinator bestellt werden.",
+    "rechtsgrundlage": "BaustellV §§ 2–5",
+    "quelle_url": "https://www.gesetze-im-internet.de/baustv/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Bau",
+        "Handwerk"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "bau-002",
+    "title": "VOB/B – Bauleistungsvertrag",
+    "category": "Vertragsrecht",
+    "beschreibung": "Bei Bauverträgen empfiehlt sich die Einbeziehung der VOB/B (Vergabe- und Vertragsordnung für Bauleistungen). Sie enthält wichtige Regelungen zu Abnahme, Mängeln und Fristen.",
+    "rechtsgrundlage": "BGB §§ 650a–650v, VOB/B",
+    "quelle_url": "https://www.bmwk.de/Redaktion/DE/Artikel/Wirtschaft/vergaberecht.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Bau",
+        "Handwerk"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "berufsrecht-001",
+    "title": "Steuerberatung – Beraterpflichten und Haftung",
+    "category": "Berufsrecht",
+    "beschreibung": "Steuerberater haften für fehlerhafte Beratung nach § 280 BGB. Berufshaftpflicht ist Pflicht. Verschwiegenheitspflicht gilt gegenüber der gesamten Kanzlei.",
+    "rechtsgrundlage": "StBerG §§ 57–73, BGB § 280",
+    "quelle_url": "https://www.bstbk.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Beratung",
+        "Steuerberatung"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "berufsrecht-002",
+    "title": "Anwaltspflichten – Mandatsvertrag",
+    "category": "Berufsrecht",
+    "beschreibung": "Rechtsanwälte müssen bei Mandatsannahme über Vergütung und Risiken aufklären. Vergütungsvereinbarungen sollten schriftlich getroffen werden. Berufshaftpflicht erforderlich.",
+    "rechtsgrundlage": "BRAO § 49b, RVG, BORA § 2",
+    "quelle_url": "https://www.brak.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Recht"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "mobil-001",
+    "title": "Dienstwagenregelung – steuerliche Pflichten",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Dienstfahrzeuge zur privaten Nutzung sind als geldwerter Vorteil zu versteuern (1%-Methode oder Fahrtenbuch). Korrekte Abrechnung ist gegenüber dem Finanzamt nachzuweisen.",
+    "rechtsgrundlage": "EStG § 6 Abs. 1 Nr. 4, § 8 Abs. 2",
+    "quelle_url": "https://www.gesetze-im-internet.de/estg/__6.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "mobil-002",
+    "title": "E-Mobilität – Förderung und steuerliche Behandlung",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Elektrofahrzeuge als Dienstwagen können mit der 0,25%-Methode (statt 1%) versteuert werden. Ladevorrichtungen können geldwerter Vorteil sein oder pauschal besteuert werden.",
+    "rechtsgrundlage": "EStG § 6 Abs. 1 Nr. 4, § 3 Nr. 46",
+    "quelle_url": "https://www.gesetze-im-internet.de/estg/__3.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sozialr-001",
+    "title": "Kurzarbeitergeld – Voraussetzungen und Antrag",
+    "category": "Sozialversicherung",
+    "beschreibung": "Bei erheblichem Arbeitsausfall können Arbeitgeber Kurzarbeitergeld beantragen. Voraussetzungen: mind. 10% der Beschäftigten betroffen, unabwendbares Ereignis oder wirtschaftliche Gründe.",
+    "rechtsgrundlage": "SGB III §§ 95–109",
+    "quelle_url": "https://www.arbeitsagentur.de/unternehmen/finanziell/kurzarbeitergeld",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sozialr-002",
+    "title": "Beitragsnachweis und DEÜV-Meldungen",
+    "category": "Sozialversicherung",
+    "beschreibung": "Arbeitgeber müssen monatliche Beitragsnachweise für die Sozialversicherung erstatten und Meldungen nach DEÜV (An-, Ab-, Jahresmeldungen) fristgerecht abgeben.",
+    "rechtsgrundlage": "SGB IV §§ 28a–28l, DEÜV",
+    "quelle_url": "https://www.gkv-arbeitgeberforum.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "sozialversicherung-anmeldung"
+  },
+  {
+    "id": "stiftung-001",
+    "title": "Gemeinnützigkeit – Voraussetzungen und Nachweis",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Gemeinnützige Organisationen müssen ihre satzungsgemäßen Zwecke tatsächlich verfolgen, keine Gewinne ausschütten und Mittel zeitnah verwenden. Jährlicher Freistellungsbescheid nötig.",
+    "rechtsgrundlage": "AO §§ 51–68",
+    "quelle_url": "https://www.gesetze-im-internet.de/ao_1977/__51.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "lohn-001",
+    "title": "Entgelttransparenz und Auskunftsanspruch",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Beschäftigte in Unternehmen mit mehr als 200 Mitarbeitenden haben ein Auskunftsrecht über das Entgelt vergleichbarer Kolleginnen/Kollegen des anderen Geschlechts.",
+    "rechtsgrundlage": "EntgTranspG §§ 10–13",
+    "quelle_url": "https://www.gesetze-im-internet.de/entgltranspg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 200
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "lohn-002",
+    "title": "Tarifvertrag – Tarifbindung prüfen",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Betriebe können durch Verbandsmitgliedschaft oder Haustarifvertrag tarifgebunden sein. In diesem Fall sind Mindestvergütung, Arbeitszeiten und Urlaub des Tarifvertrags zwingend einzuhalten.",
+    "rechtsgrundlage": "TVG §§ 1–13",
+    "quelle_url": "https://www.gesetze-im-internet.de/tvg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
   }
 ]
