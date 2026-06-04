@@ -17671,5 +17671,2302 @@
     "hat_dokument_generator": true,
     "dokument_typ": "it-sicherheitsrichtlinie",
     "stand": "2025-06"
+  },
+  {
+    "id": "betriebsvereinbarung-it-nutzung",
+    "title": "IT-Nutzungsvereinbarung – Betriebsvereinbarung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Die private Nutzung betrieblicher IT-Mittel und die Überwachung von Mitarbeiterkommunikation sind durch Betriebsvereinbarung zu regeln.",
+    "rechtsgrundlage": "§ 87 Abs. 1 Nr. 1, 6 BetrVG",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "arbeitsunfall-meldepflicht",
+    "title": "Arbeitsunfall – Meldepflicht an Berufsgenossenschaft",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Unfälle mit mehr als 3 Arbeitstagen Ausfallzeit müssen der zuständigen Berufsgenossenschaft gemeldet werden; tödliche Unfälle sofort.",
+    "rechtsgrundlage": "§ 193 SGB VII",
+    "quelle_url": "https://www.dguv.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 1,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "weiterbildung-bildungszeitgesetz",
+    "title": "Bildungszeit – Freistellungsanspruch nach Landesrecht",
+    "category": "Arbeitsrecht",
+    "beschreibung": "In vielen Bundesländern haben Arbeitnehmer Anspruch auf bis zu 5 Tage Bildungsurlaub pro Jahr (z.B. BiZeit BW, BzG Berlin).",
+    "rechtsgrundlage": "Landesbildungsurlaubsgesetze",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "werkzeugklausel-haftung",
+    "title": "Haftung Arbeitnehmer – Beschränkung auf grobe Fahrlässigkeit",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei betrieblich veranlasster Tätigkeit haftet der Arbeitnehmer nur für Vorsatz und grobe Fahrlässigkeit; mittlere Fahrlässigkeit wird geteilt.",
+    "rechtsgrundlage": "Richterrecht, §§ 611, 619a BGB",
+    "quelle_url": "https://www.bundessozialgericht.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "antikorruption-mitarbeiter-geschenke",
+    "title": "Geschenkannahme – Antikorruptionsrichtlinie für Mitarbeiter",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Mitarbeiter dürfen keine Geschenke oder Vorteile annehmen, die die Unparteilichkeit bei Geschäftsentscheidungen beeinflussen könnten.",
+    "rechtsgrundlage": "§§ 299, 331 ff. StGB, § 4a UWG",
+    "quelle_url": "https://www.transparency.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "pausenzeiten-arbeitszeitgesetz",
+    "title": "Pausenzeiten – Pflichtpausen nach ArbZG",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei mehr als 6h Arbeitszeit: 30 Min. Pause; bei mehr als 9h: 45 Min. Pause. Pausen dürfen nicht vor Beginn oder am Ende der Arbeitszeit liegen.",
+    "rechtsgrundlage": "§ 4 ArbZG",
+    "quelle_url": "https://www.gesetze-im-internet.de/arbzg/__4.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "schwangerschaft-arbeitgeberpflicht",
+    "title": "Mutterschutz – Arbeitgeberpflichten bei Schwangerschaft",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Sobald die Schwangerschaft bekannt wird: Gefährdungsbeurteilung anpassen, Schutzfristen einhalten, Aufsichtsbehörde informieren.",
+    "rechtsgrundlage": "§§ 10, 15 MuSchG",
+    "quelle_url": "https://www.bmfsfj.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 1,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "aufhebungsvertrag-formvorschrift",
+    "title": "Aufhebungsvertrag – Schriftformerfordernis",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Aufhebungsverträge bedürfen der Schriftform; mündliche Aufhebungen sind unwirksam. Sperrzeit beim ALG droht bei freiwilligem Ausscheiden.",
+    "rechtsgrundlage": "§ 623 BGB, § 159 SGB III",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__623.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "arbeitszeugnis-pflicht",
+    "title": "Arbeitszeugnis – Anspruch bei Beendigung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitnehmer haben bei Beendigung des Arbeitsverhältnisses Anspruch auf ein qualifiziertes Arbeitszeugnis; muss wohlwollend formuliert sein.",
+    "rechtsgrundlage": "§ 109 GewO",
+    "quelle_url": "https://www.gesetze-im-internet.de/gewo/__109.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "minijob-zusatzjobs-anrechnung",
+    "title": "Minijob – Kumulierung mehrerer Minijobs",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Übt ein Arbeitnehmer mehrere Minijobs aus, werden die Entgelte addiert; bei Überschreitung der 556-€-Grenze entfällt die Pauschalbesteuerung.",
+    "rechtsgrundlage": "§ 8 Abs. 2 SGB IV",
+    "quelle_url": "https://www.minijob-zentrale.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "tarifvertrag-allgemeinverbindlich",
+    "title": "Allgemeinverbindlicher Tarifvertrag – Mindestlöhne Branchen",
+    "category": "Arbeitsrecht",
+    "beschreibung": "In bestimmten Branchen (Bau, Pflege, Gebäudereinigung) gelten allgemeinverbindliche Tarifverträge mit höheren Mindestlöhnen als gesetzlich.",
+    "rechtsgrundlage": "§ 5 TVG, AEntG",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "Bau / Handwerk",
+        "Baugewerbe",
+        "Gesundheit / Pflege"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "betriebsratswahl-frist",
+    "title": "Betriebsratswahl – Einleitung alle 4 Jahre",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Alle 4 Jahre findet die reguläre Betriebsratswahl statt; der amtierende Betriebsrat muss die Wahl rechtzeitig einleiten.",
+    "rechtsgrundlage": "§ 13 BetrVG",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 5,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "entgeltnachweis-lohnabrechnung",
+    "title": "Entgeltabrechnung – Monatliche Pflichtaushändigung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitgeber müssen Arbeitnehmern monatlich eine verständliche Entgeltabrechnung aushändigen; Mindestangaben nach § 108 GewO.",
+    "rechtsgrundlage": "§ 108 GewO",
+    "quelle_url": "https://www.gesetze-im-internet.de/gewo/__108.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 1,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "kurzarbeit-agentur-anzeige",
+    "title": "Kurzarbeit – Anzeige vor Einführung bei Agentur",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Kurzarbeit muss schriftlich bei der zuständigen Agentur für Arbeit angezeigt werden; Zustimmung des Betriebsrats erforderlich.",
+    "rechtsgrundlage": "§ 99 SGB III, § 87 BetrVG",
+    "quelle_url": "https://www.arbeitsagentur.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "auslandsentsendung-abgaben",
+    "title": "Auslandsentsendung – Sozialversicherung und Steuern",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei Entsendung von Mitarbeitenden ins Ausland sind Sozialversicherungspflicht, Einkommensteuer und lokale Arbeitsgesetze zu prüfen.",
+    "rechtsgrundlage": "§§ 3, 4 SGB IV, § 1 Abs. 4 EStG",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "probezeit-regelungen",
+    "title": "Probezeit – Maximal 6 Monate, Kündigung 2 Wochen",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Die Probezeit darf höchstens 6 Monate betragen; während der Probezeit gilt eine Kündigungsfrist von 2 Wochen.",
+    "rechtsgrundlage": "§ 622 Abs. 3 BGB",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__622.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "lohnpfaendung-arbeitgeber",
+    "title": "Lohnpfändung – Arbeitgeberpflichten bei Gehaltspfändung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei Lohnpfändungen muss der Arbeitgeber den pfändbaren Betrag an den Gläubiger abführen und den Arbeitnehmer schützen.",
+    "rechtsgrundlage": "§§ 850 ff. ZPO",
+    "quelle_url": "https://www.gesetze-im-internet.de/zpo/__850.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "sozialplan-interessenausgleich",
+    "title": "Sozialplan – Pflicht bei Betriebsänderungen ab 20 MA",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei Betriebsänderungen (Massenentlassungen, Verlagerungen) ab 20 Mitarbeitenden sind Interessenausgleich und Sozialplan mit dem Betriebsrat zu verhandeln.",
+    "rechtsgrundlage": "§§ 111–113 BetrVG",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 20,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "gig-economy-status",
+    "title": "Plattformarbeit – Arbeitnehmerstatus Gig-Worker",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Crowdworker und Plattformarbeiter können als Arbeitnehmer eingestuft werden; EU-Plattformarbeitsrichtlinie 2024 sieht Vermutungsregel vor.",
+    "rechtsgrundlage": "EU-Plattformarbeitsrichtlinie 2024, § 611a BGB",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "rufbereitschaft-verguetung",
+    "title": "Rufbereitschaft und Bereitschaftsdienst – Vergütungspflicht",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Rufbereitschaft außerhalb der Betriebsstätte gilt nicht als Arbeitszeit; Bereitschaftsdienst (Anwesenheitspflicht) ist vergütungspflichtig.",
+    "rechtsgrundlage": "§ 2 ArbZG, BAG-Rechtsprechung",
+    "quelle_url": "https://www.baua.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "gleichlohn-entgelttransparenz",
+    "title": "Entgelttransparenz – Auskunftsanspruch Arbeitnehmer",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Mitarbeitende ab 200 Personen haben individuellen Auskunftsanspruch über das Entgelt von Vergleichsgruppen.",
+    "rechtsgrundlage": "§§ 10, 11 EntgTranspG",
+    "quelle_url": "https://www.bmfsfj.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 200,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "grenzueberschreitende-entsendung-a1",
+    "title": "A1-Bescheinigung – Pflicht bei EU-Auslandsentsendung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei kurzfristigen Entsendungen in EU-Staaten ist eine A1-Bescheinigung des Sozialversicherungsträgers mitzuführen.",
+    "rechtsgrundlage": "VO (EG) 883/2004, § 106 SGB IV",
+    "quelle_url": "https://www.deutscherentenversicherung.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "beschaeftigung-auslaender-aufenthaltsrecht",
+    "title": "Ausländerbeschäftigung – Aufenthalts- und Arbeitsgenehmigung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Vor Einstellung ausländischer Arbeitnehmer außerhalb EU/EWR muss das Aufenthaltsrecht und Arbeitsgenehmigung geprüft werden.",
+    "rechtsgrundlage": "§§ 4a, 10, 39 AufenthG",
+    "quelle_url": "https://www.bamf.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "nebentaetigkeit-genehmigung",
+    "title": "Nebentätigkeit – Anzeige- oder Genehmigungspflicht",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitnehmer müssen Nebentätigkeiten anzeigen; wettbewerbliche Nebentätigkeiten benötigen Arbeitgebergenehmigung.",
+    "rechtsgrundlage": "§ 60 HGB, § 241 BGB",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__60.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "insolvenz-sozialplanforderungen",
+    "title": "Insolvenz – Vorrangige Forderungen Arbeitnehmer",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Lohnforderungen aus den letzten 3 Monaten sind Insolvenzforderungen; Insolvenzgeld der Agentur für Arbeit deckt bis zu 3 Monate.",
+    "rechtsgrundlage": "§§ 183–189 SGB III, § 55 InsO",
+    "quelle_url": "https://www.arbeitsagentur.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "grundsteuer-betrieb-grundvermögen",
+    "title": "Grundsteuer B – Betriebliches Grundvermögen",
+    "category": "Steuer",
+    "beschreibung": "Für betrieblich genutzte Grundstücke fällt Grundsteuer B an; Steuermessbetrag × kommunaler Hebesatz.",
+    "rechtsgrundlage": "GrStG, § 7 GrStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "schenkungsteuer-betriebsübertragung",
+    "title": "Erbschaft-/Schenkungsteuer – Betriebsübergabe unter Lebenden",
+    "category": "Steuer",
+    "beschreibung": "Bei vorweggenommener Erbfolge kann die 100%-Verschonung genutzt werden, wenn der Betrieb 7 Jahre fortgeführt wird.",
+    "rechtsgrundlage": "§§ 13a, 13b ErbStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "solidaritätszuschlag-wegfall",
+    "title": "Solidaritätszuschlag – Wegfall für Einkommensteuer ab 2021",
+    "category": "Steuer",
+    "beschreibung": "Der Soli entfällt für 90% der Einkommensteuerpflichtigen; Kapitalgesellschaften zahlen weiterhin 5,5% auf Körperschaftsteuer.",
+    "rechtsgrundlage": "SolZG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG (haftungsbeschränkt)"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "kirchensteuer-kapitalgesellschaft",
+    "title": "Kirchensteuer – Kapitalertragsteuer Kirchensteuerpflicht",
+    "category": "Steuer",
+    "beschreibung": "Bei Auszahlung von Kapitalerträgen muss die Bank prüfen, ob Kirchensteuerpflicht besteht; automatischer Kirchensteuerabzug seit 2015.",
+    "rechtsgrundlage": "§ 51a EStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "steuerpflicht-kryptowährungen",
+    "title": "Kryptowährungen – Steuerliche Behandlung",
+    "category": "Steuer",
+    "beschreibung": "Gewinne aus dem Verkauf von Kryptowährungen sind nach mehr als 1 Jahr steuerfrei (§ 23 EStG); innerhalb 1 Jahr steuerpflichtig.",
+    "rechtsgrundlage": "§ 23 EStG, BMF-Schreiben 2022",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "digitale-betriebsstätte-ausland",
+    "title": "Digitale Betriebsstätte – Steuerliche Risiken im Ausland",
+    "category": "Steuer",
+    "beschreibung": "Digitale Aktivitäten in anderen Ländern können zu steuerlichen Betriebsstätten führen; OECD-Regelungen im Wandel.",
+    "rechtsgrundlage": "§§ 12, 13 AO, BEPS-Projekt",
+    "quelle_url": "https://www.oecd.org/tax/beps/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "pauschalsteuer-mini-midijob",
+    "title": "Pauschalsteuer – 2% bei Minijobs mit Rentenversicherung",
+    "category": "Steuer",
+    "beschreibung": "Arbeitgeber können für Minijobs eine Pauschalsteuer von 2% (inkl. KiSt) zahlen; vereinfachtes Verfahren über Minijob-Zentrale.",
+    "rechtsgrundlage": "§ 40a EStG",
+    "quelle_url": "https://www.minijob-zentrale.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "verlustvortra-rücktrag",
+    "title": "Verlustvor- und -rücktrag – Steueroptimierung",
+    "category": "Steuer",
+    "beschreibung": "Verluste können im Entstehungsjahr bis 10 Mio. € zurückgetragen oder auf Folgejahre vorgetragen werden; Mindestbesteuerung beachten.",
+    "rechtsgrundlage": "§ 10d EStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "betriebliche-altersvorsorge-steuer",
+    "title": "Betriebliche Altersvorsorge – Steuerliche Förderung bAV",
+    "category": "Steuer",
+    "beschreibung": "Beiträge zur bAV bis 4% der Beitragsbemessungsgrenze sind steuer- und sozialabgabenfrei; Arbeitgeberzuschuss Pflicht seit 2022.",
+    "rechtsgrundlage": "§ 3 Nr. 63 EStG, BetrAVG",
+    "quelle_url": "https://www.bmas.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "umsatzsteuer-bauleistungen",
+    "title": "Umsatzsteuer – Reverse Charge Bauleistungen",
+    "category": "Steuer",
+    "beschreibung": "Bei Bauleistungen zwischen Bauunternehmen gilt Reverse Charge; der Leistungsempfänger schuldet die Umsatzsteuer.",
+    "rechtsgrundlage": "§ 13b Abs. 2 Nr. 4 UStG",
+    "quelle_url": "https://www.gesetze-im-internet.de/ustg_1980/__13b.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "Bau / Handwerk",
+        "Baugewerbe"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "steuer-lizenz-ip-box",
+    "title": "IP-Box – Steuerliche Begünstigung von Lizenzeinnahmen",
+    "category": "Steuer",
+    "beschreibung": "Einnahmen aus selbst entwickelten Patenten und Lizenzen können begünstigt besteuert werden; international unterschiedlich geregelt.",
+    "rechtsgrundlage": "§ 4j EStG (Anti-Lizenzgebühren)",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG"
+      ],
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "KI & Hochtechnologie"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "kapitalertragsteuer-abgeltung",
+    "title": "Kapitalertragsteuer – 25% Abgeltungsteuer auf Dividenden",
+    "category": "Steuer",
+    "beschreibung": "Dividenden und Zinserträge unterliegen der 25%igen Abgeltungsteuer plus Solidaritätszuschlag; Freistellungsauftrag möglich.",
+    "rechtsgrundlage": "§§ 32d, 43 EStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "gewerbesteuer-hinzurechnung-mieten",
+    "title": "Gewerbesteuer – Hinzurechnung Mieten und Pachten",
+    "category": "Steuer",
+    "beschreibung": "Ein Viertel der Miet- und Pachtzahlungen werden der Gewerbesteuer-Bemessungsgrundlage hinzugerechnet; Freibetrag 200.000 €.",
+    "rechtsgrundlage": "§ 8 Nr. 1d GewStG",
+    "quelle_url": "https://www.gesetze-im-internet.de/gewstg/__8.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "thesaurierungsbesteuerung-personengesellschaft",
+    "title": "Thesaurierungsbegünstigung – § 34a EStG für Personengesellschaften",
+    "category": "Steuer",
+    "beschreibung": "Nicht entnommene Gewinne von Personengesellschaften können mit nur 28,25% besteuert werden (statt regulär bis 45%).",
+    "rechtsgrundlage": "§ 34a EStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GbR",
+        "KG",
+        "OHG"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "holdingstruktur-steueroptimierung",
+    "title": "Holdingstruktur – Steuerliche Vorteile Beteiligungserträge",
+    "category": "Steuer",
+    "beschreibung": "Dividenden zwischen Kapitalgesellschaften sind zu 95% steuerfrei; Holdingstruktur kann Steuerbelastung erheblich reduzieren.",
+    "rechtsgrundlage": "§§ 8b KStG, 9 Nr. 2a GewStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "vorsteuer-abzug-gemischt",
+    "title": "Vorsteuerabzug – Aufteilung gemischt genutzter Kosten",
+    "category": "Steuer",
+    "beschreibung": "Bei gemischt genutzten Leistungen (privat/betrieblich) ist der Vorsteuerabzug aufzuteilen; Dokumentation erforderlich.",
+    "rechtsgrundlage": "§ 15 Abs. 4 UStG",
+    "quelle_url": "https://www.gesetze-im-internet.de/ustg_1980/__15.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "lohnsteuer-jahresausgleich",
+    "title": "Lohnsteuer-Jahresausgleich – Pflicht für Arbeitgeber",
+    "category": "Steuer",
+    "beschreibung": "Arbeitgeber müssen am Jahresende einen freiwilligen Lohnsteuer-Jahresausgleich für Arbeitnehmer durchführen, sofern kein Hinderungsgrund.",
+    "rechtsgrundlage": "§ 42b EStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 1,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "steuerliche-anerkennung-homeoffice",
+    "title": "Homeoffice-Pauschale – 6 € pro Tag, max. 1.260 €",
+    "category": "Steuer",
+    "beschreibung": "Arbeitnehmer ohne häusliches Arbeitszimmer können 6 € pro Homeoffice-Tag (max. 210 Tage = 1.260 €) als Werbungskosten abziehen.",
+    "rechtsgrundlage": "§ 4 Abs. 5 Nr. 6b EStG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "datenschutz-social-media-unternehmen",
+    "title": "Social-Media-Datenschutz – Gemeinsame Verantwortlichkeit",
+    "category": "Datenschutz",
+    "beschreibung": "Betreiber einer Facebook-/Instagram-Fanpage sind gemeinsam Verantwortliche (Art. 26 DSGVO) mit Meta; Zusatzvereinbarung erforderlich.",
+    "rechtsgrundlage": "Art. 26 DSGVO, EuGH C-210/16",
+    "quelle_url": "https://www.datenschutzkonferenz-online.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "recht-auf-vergessenwerden",
+    "title": "Recht auf Vergessenwerden – Löschung aus Suchmaschinenergebnissen",
+    "category": "Datenschutz",
+    "beschreibung": "Auf Antrag müssen Suchmaschinenbetreiber Links zu veralteten oder falschen Informationen entfernen; Prüfung im Einzelfall.",
+    "rechtsgrundlage": "Art. 17 DSGVO, EuGH C-131/12",
+    "quelle_url": "https://dsgvo-gesetz.de/art-17-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "datenschutz-bewertungsportale",
+    "title": "Bewertungsportale – Löschungsansprüche und Gegendarstellung",
+    "category": "Datenschutz",
+    "beschreibung": "Unternehmen können die Löschung falscher Bewertungen verlangen; Plattformbetreiber müssen auf Widersprüche reagieren.",
+    "rechtsgrundlage": "Art. 17, 21 DSGVO, § 1004 BGB",
+    "quelle_url": "https://www.bundesgerichtshof.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "datenschutz-marketingautomatisierung",
+    "title": "Marketing-Automatisierung – Einwilligung und Profiling",
+    "category": "Datenschutz",
+    "beschreibung": "Automatisierte Newsletter-Sequenzen und Profiling-basierte Personalisierung erfordern ausdrückliche Einwilligung und transparente Kommunikation.",
+    "rechtsgrundlage": "Art. 6, 22 DSGVO, § 7 UWG",
+    "quelle_url": "https://dsgvo-gesetz.de/art-22-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "datenschutz-archivierung",
+    "title": "Archivierung – DSGVO-konforme Langzeitarchivierung",
+    "category": "Datenschutz",
+    "beschreibung": "Dokumente mit personenbezogenen Daten (z.B. Verträge) müssen auch in der Langzeitarchivierung DSGVO-konform behandelt werden.",
+    "rechtsgrundlage": "Art. 89 DSGVO",
+    "quelle_url": "https://dsgvo-gesetz.de/art-89-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "datenschutz-telekommunikation",
+    "title": "Telekommunikation – TKG und TTDSG Datenschutz",
+    "category": "Datenschutz",
+    "beschreibung": "Telekommunikationsunternehmen unterliegen besonderen Datenschutzpflichten nach TKG und TTDSG; Fernmeldegeheimnis ist zu wahren.",
+    "rechtsgrundlage": "§§ 3, 174 TKG, § 3 TTDSG",
+    "quelle_url": "https://www.bundesnetzagentur.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "datenschutz-kundenkarte",
+    "title": "Kundenkarte – Einwilligung und Opt-in Pflicht",
+    "category": "Datenschutz",
+    "beschreibung": "Kundenkarten- und Bonusprogramme dürfen nur mit ausdrücklicher Einwilligung betrieben werden; Koppelungsverbot beachten.",
+    "rechtsgrundlage": "Art. 7, 22 DSGVO, § 25 TTDSG",
+    "quelle_url": "https://dsgvo-gesetz.de/art-7-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "Einzelhandel",
+        "Handel / E-Commerce"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "datenschutz-ki-entscheidungen",
+    "title": "KI-Entscheidungssysteme – DSGVO und KI-Verordnung",
+    "category": "Datenschutz",
+    "beschreibung": "Systeme zur automatisierten Beurteilung von Personen (Kreditscoring, Bewerberauswahl) sind besonders zu regulieren.",
+    "rechtsgrundlage": "Art. 22 DSGVO, EU KI-VO 2024/1689",
+    "quelle_url": "https://dsgvo-gesetz.de/art-22-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "datenschutz-drittlaender-usa",
+    "title": "USA-Datenübertragung – EU-US Data Privacy Framework",
+    "category": "Datenschutz",
+    "beschreibung": "Seit 2023 ermöglicht das EU-US Data Privacy Framework Datenübertragungen in die USA für zertifizierte US-Unternehmen (Nachfolger von Privacy Shield).",
+    "rechtsgrundlage": "Art. 45 DSGVO, EU-Durchführungsbeschluss 2023/1795",
+    "quelle_url": "https://www.dataprivacyframework.gov",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "datenschutz-verschlüsselung-pflicht",
+    "title": "Verschlüsselung – Art. 32 DSGVO Stand der Technik",
+    "category": "Datenschutz",
+    "beschreibung": "Personenbezogene Daten sind bei Übertragung (TLS 1.3) und Speicherung (AES-256) nach Stand der Technik zu verschlüsseln.",
+    "rechtsgrundlage": "Art. 32 DSGVO",
+    "quelle_url": "https://dsgvo-gesetz.de/art-32-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "iso-27001-zertifizierung",
+    "title": "ISO 27001 – Informationssicherheitsmanagementsystem",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Zertifiziertes ISMS nach ISO 27001 ist branchenübergreifender Goldstandard; Pflicht bei Verträgen mit Großkunden und öffentlichem Sektor.",
+    "rechtsgrundlage": "ISO/IEC 27001:2022",
+    "quelle_url": "https://www.bsi.bund.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "soc2-typ2-compliance",
+    "title": "SOC 2 Type II – Sicherheitszertifizierung für SaaS",
+    "category": "IT-Sicherheit",
+    "beschreibung": "US-amerikanische Sicherheitszertifizierung für Cloud-Dienste; zunehmend Anforderung bei internationalen B2B-Kunden.",
+    "rechtsgrundlage": "AICPA SOC 2, TSC",
+    "quelle_url": "https://www.aicpa.org",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Software / IT"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "penetrationstest-webanwendung",
+    "title": "Penetrationstest – Webanwendungen und APIs",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Webanwendungen und öffentliche APIs sind mindestens jährlich durch zertifizierte Pentester (OSCP/CEH) auf Schwachstellen zu testen.",
+    "rechtsgrundlage": "BSI IT-Grundschutz CON.8, OWASP",
+    "quelle_url": "https://www.bsi.bund.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "siem-log-management",
+    "title": "SIEM – Security Information and Event Management",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Sicherheitsrelevante Ereignisse (Logins, Fehler, Zugriffe) sind zu protokollieren, zentral zu sammeln und auf Anomalien zu prüfen.",
+    "rechtsgrundlage": "BSI IT-Grundschutz DER.1, ISO 27001 A.12.4",
+    "quelle_url": "https://www.bsi.bund.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "zero-trust-architektur",
+    "title": "Zero-Trust – Netzwerkarchitektur und Identitätsbasierter Zugriff",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Modernes Sicherheitskonzept: Kein implizites Vertrauen für interne Netzwerke; jeder Zugriff muss authentifiziert und autorisiert werden.",
+    "rechtsgrundlage": "BSI Grundschutz, NIST SP 800-207",
+    "quelle_url": "https://www.bsi.bund.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Software / IT"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "software-lizenzverwaltung",
+    "title": "Softwarelizenz-Compliance – SAM und Audit-Vorbereitung",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Unternehmen müssen einen vollständigen Überblick über alle eingesetzten Softwarelizenzen führen; Über- oder Unterlizenziering vermeiden.",
+    "rechtsgrundlage": "UrhG §§ 69a ff.",
+    "quelle_url": "https://www.bsi.bund.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "open-source-lizenzverpflichtungen",
+    "title": "Open-Source-Lizenzen – GPL, MIT, Apache Compliance",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Werden Open-Source-Komponenten in Produkten eingesetzt, müssen Lizenzbedingungen (v.a. GPL Copyleft) eingehalten werden.",
+    "rechtsgrundlage": "UrhG §§ 31, 69a, GPL v2/v3",
+    "quelle_url": "https://www.gnu.org/licenses/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Software / IT"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "api-sicherheit-owasp",
+    "title": "API-Sicherheit – OWASP API Security Top 10",
+    "category": "IT-Sicherheit",
+    "beschreibung": "APIs müssen gegen die OWASP API Security Top 10 abgesichert sein; Authentifizierung, Rate Limiting und Input-Validierung sind Pflicht.",
+    "rechtsgrundlage": "OWASP API Security Top 10, BSI",
+    "quelle_url": "https://owasp.org/www-project-api-security/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "IT-Dienstleistungen & Software",
+        "Software / IT"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "epr-erweiterte-herstellerverantwortung",
+    "title": "Erweiterte Herstellerverantwortung – EPR für Verpackung und E-Schrott",
+    "category": "Umwelt",
+    "beschreibung": "Hersteller und Importeure tragen Verantwortung für die Entsorgung ihrer Produkte; Beitrag zu dualen Systemen und Rücknahmepflichten.",
+    "rechtsgrundlage": "VerpackG, ElektroG, EU-EPR-Initiativen",
+    "quelle_url": "https://www.umweltbundesamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "klimaneutralitaet-kommunikation",
+    "title": "Klimaneutralitätswerbung – Irreführungsverbot",
+    "category": "Umwelt",
+    "beschreibung": "Unternehmen, die 'klimaneutral' werben, müssen dies belegen; reine Kompensation ohne Reduktionsmaßnahmen ist wettbewerbswidrig.",
+    "rechtsgrundlage": "§ 5 UWG, EU-Richtlinie Greenwashing 2024",
+    "quelle_url": "https://www.umweltbundesamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "regenwater-entsorgung-einleitung",
+    "title": "Regenwasserversickerung – Versiegelung und Abwassergebühren",
+    "category": "Umwelt",
+    "beschreibung": "Bei neuen Gewerbeflächen ist dezentrale Regenwasserversickerung zu prüfen; Abkopplung reduziert Abwassergebühren.",
+    "rechtsgrundlage": "§§ 55, 56 WHG",
+    "quelle_url": "https://www.bmuv.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "abfallvermeidung-betrieb",
+    "title": "Abfallvermeidung – Abfallhierarchie und Optimierung",
+    "category": "Umwelt",
+    "beschreibung": "Die Abfallhierarchie (Vermeiden > Wiederverwenden > Recyceln > Verwerten > Beseitigen) ist bei betrieblichen Entscheidungen zu berücksichtigen.",
+    "rechtsgrundlage": "§§ 6–8 KrWG",
+    "quelle_url": "https://www.bmuv.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "grüne-logistik-co2",
+    "title": "Grüne Logistik – CO₂-Reporting für Transporte",
+    "category": "Umwelt",
+    "beschreibung": "Unternehmen, die Lieferketten managen, sollten Transportemissionen nach EN 16258 oder GLEC-Framework berechnen und berichten.",
+    "rechtsgrundlage": "EN 16258, GLEC Framework",
+    "quelle_url": "https://www.umweltbundesamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "Transport & Logistik",
+        "Transport / Logistik"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "pfas-beschraenkung",
+    "title": "PFAS – Beschränkungen für perfluorierte Verbindungen",
+    "category": "Umwelt",
+    "beschreibung": "PFAS-Verbote in Textilien, Feuerlöschmitteln und Verpackungen treten schrittweise in Kraft; Substitutionspflicht.",
+    "rechtsgrundlage": "REACH Anhang XVII, VO (EU) 2023/2055",
+    "quelle_url": "https://echa.europa.eu",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "Industrie & Fertigung",
+        "Bau / Handwerk"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "altholz-entsorgung",
+    "title": "Altholzentsorgung – Kategorien und Verwertungspflichten",
+    "category": "Umwelt",
+    "beschreibung": "Altholz aus dem Rückbau muss nach Kategorien getrennt entsorgt werden; Deponieverbot für bestimmte Klassen.",
+    "rechtsgrundlage": "AltholzV",
+    "quelle_url": "https://www.bmuv.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "Bau / Handwerk",
+        "Baugewerbe"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "störfall-verordnung",
+    "title": "Störfall-Verordnung – Betreiberpflichten für Großanlagen",
+    "category": "Umwelt",
+    "beschreibung": "Betreiber von Anlagen mit großen Mengen gefährlicher Stoffe (Seveso-III-Betriebe) müssen Sicherheitsberichte erstellen und Behörden informieren.",
+    "rechtsgrundlage": "12. BImSchV (Störfall-V)",
+    "quelle_url": "https://www.bmuv.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "Industrie & Fertigung",
+        "Produktion / Fertigung"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "green-public-procurement-bieter",
+    "title": "Nachhaltige Beschaffung – Umweltanforderungen bei Ausschreibungen",
+    "category": "Umwelt",
+    "beschreibung": "Öffentliche Auftraggeber können Umweltanforderungen (Energieeffizienz, Recyclinggehalt, CO₂-Fußabdruck) in Ausschreibungskriterien aufnehmen.",
+    "rechtsgrundlage": "§ 97 Abs. 3 GWB",
+    "quelle_url": "https://www.umweltbundesamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "verbot-einwegplastik",
+    "title": "Einwegplastik-Verbot – SUP-Richtlinie und VerbotsV",
+    "category": "Umwelt",
+    "beschreibung": "Bestimmte Einwegkunststoffartikel (Strohhalme, Besteck, Teller, Wattestäbchen) sind verboten; Kennzeichnungspflichten für andere.",
+    "rechtsgrundlage": "SUP-RL 2019/904, EWKVerbotsV",
+    "quelle_url": "https://www.bmuv.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "Gastronomie / Hotellerie",
+        "Lebensmittelhandel",
+        "Einzelhandel"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "geldwaesche-bargeld-10000",
+    "title": "Bargeldgeschäfte – Identifizierungspflicht ab 10.000 €",
+    "category": "Compliance",
+    "beschreibung": "Bei Barzahlungen ab 10.000 € sind Vertragspartner zu identifizieren und Transaktionen zu dokumentieren.",
+    "rechtsgrundlage": "§§ 10, 25h GwG",
+    "quelle_url": "https://www.bafin.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "sorgfaltspflicht-immobilienmakler",
+    "title": "Immobilienmakler – Geldwäsche-Sorgfaltspflichten",
+    "category": "Compliance",
+    "beschreibung": "Immobilienmakler sind Verpflichtete nach GwG; sie müssen Käufer und Verkäufer identifizieren und bei Verdacht melden.",
+    "rechtsgrundlage": "§ 2 Abs. 1 Nr. 14 GwG",
+    "quelle_url": "https://www.bafin.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "Immobilienwesen"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "compliance-risikoanalyse",
+    "title": "Unternehmensweite Compliance-Risikoanalyse",
+    "category": "Compliance",
+    "beschreibung": "Jährliche Risikoanalyse aller relevanten Compliance-Bereiche (GwG, Korruption, Kartellrecht, Exportkontrolle) ist Best Practice.",
+    "rechtsgrundlage": "ISO 37301, IDW PS 980",
+    "quelle_url": "https://www.idw.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "whistleblower-kanal-anonym",
+    "title": "Hinweisgeberkanal – Anonyme Meldung ermöglichen",
+    "category": "Compliance",
+    "beschreibung": "Der interne Meldekanal soll auch anonyme Hinweise zulassen; Schutz vor Repressalien muss sichergestellt sein.",
+    "rechtsgrundlage": "§ 16 HinSchG",
+    "quelle_url": "https://www.bundesjustizamt.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 50,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "lieferanten-code-of-conduct",
+    "title": "Lieferanten-Verhaltenskodex – Supplier Code of Conduct",
+    "category": "Compliance",
+    "beschreibung": "Unternehmen sollten einen Verhaltenskodex für Lieferanten erstellen und dessen Einhaltung vertraglich vereinbaren.",
+    "rechtsgrundlage": "LkSG §§ 6, 7",
+    "quelle_url": "https://www.bafa.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 250,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "interne-revision",
+    "title": "Interne Revision – Unabhängige Prüfung Compliance",
+    "category": "Compliance",
+    "beschreibung": "Größere Unternehmen sollten eine interne Revision einrichten, die Compliance-Prozesse und Interne Kontrollsysteme regelmäßig prüft.",
+    "rechtsgrundlage": "IIA Standards, IDW",
+    "quelle_url": "https://www.iia.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 100,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "corporate-criminal-liability",
+    "title": "Unternehmensstrafbarkeit – Verbandssanktionsgesetz (geplant)",
+    "category": "Compliance",
+    "beschreibung": "Das geplante Verbandssanktionsgesetz soll Unternehmen für Mitarbeiterstraftaten haftbar machen; CMS-Aufbau reduziert Haftung.",
+    "rechtsgrundlage": "VerSanG (Entwurf)",
+    "quelle_url": "https://www.bmj.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "datenschutz-compliance-check",
+    "title": "Datenschutz-Compliance-Audit – Regelmäßige Überprüfung",
+    "category": "Compliance",
+    "beschreibung": "Mindestens jährliche interne oder externe Überprüfung der DSGVO-Konformität aller Prozesse und Systeme.",
+    "rechtsgrundlage": "Art. 32, 83, 84 DSGVO",
+    "quelle_url": "https://www.bfdi.bund.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "waermepumpe-foerderung-beg",
+    "title": "Wärmepumpe – BEG Förderung und Pflichten beim Einbau",
+    "category": "Energierecht",
+    "beschreibung": "Wärmepumpen in bestimmten Gebäuden erhalten Bundesförderung; Einbau nur durch zertifizierte Fachbetriebe.",
+    "rechtsgrundlage": "GEG §§ 71ff., BEG",
+    "quelle_url": "https://www.bafa.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "mieterstrommodell",
+    "title": "Mieterstrom – Lieferpflichten und EEG-Vergütung",
+    "category": "Energierecht",
+    "beschreibung": "Vermieter können Solarstrom direkt an Mieter liefern; Mieterstromvertrag und EEG-Förderung nach § 21 EEG.",
+    "rechtsgrundlage": "§§ 21, 42b EEG 2023",
+    "quelle_url": "https://www.bundesnetzagentur.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "Immobilienwesen"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "energieausweis-aushaeng",
+    "title": "Energieausweis – Aushangpflicht in öffentlichen Gebäuden",
+    "category": "Energierecht",
+    "beschreibung": "Gebäude mit mehr als 250 m² Nutzfläche, die von Behörden genutzt werden, oder mit regelmäßigem Publikumsverkehr müssen den Energieausweis aushängen.",
+    "rechtsgrundlage": "§ 80 GEG",
+    "quelle_url": "https://www.bmwsb.bund.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "strom-eigenerzeugung-netzbetreiber",
+    "title": "Eigenstromversorgung – Anmeldung Netzbetreiber",
+    "category": "Energierecht",
+    "beschreibung": "Betreiber von PV-, BHKW- oder Windanlagen müssen sich beim Netzbetreiber anmelden und Einspeiseverhältnisse klären.",
+    "rechtsgrundlage": "§ 8 EEG 2023, §§ 11 ff. KWKG",
+    "quelle_url": "https://www.bundesnetzagentur.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "energiebeauftragter-unternehmen",
+    "title": "Energiebeauftragter – Benennung in großen Unternehmen",
+    "category": "Energierecht",
+    "beschreibung": "Unternehmen mit ISO 50001 oder nach EnEfG sind gut beraten, einen Energiebeauftragten zu benennen, der Maßnahmen koordiniert.",
+    "rechtsgrundlage": "§ 10 EnEfG, DIN EN ISO 50001",
+    "quelle_url": "https://www.bmwk.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 250,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "abwaerme-nutzungspflicht-enefg",
+    "title": "Abwärme-Nutzungspflicht – EnEfG ab 2025",
+    "category": "Energierecht",
+    "beschreibung": "Betriebe mit Abwärme ab 500 kW müssen diese dokumentieren und, soweit wirtschaftlich zumutbar, nutzen oder Dritten zur Verfügung stellen.",
+    "rechtsgrundlage": "§§ 17, 18 EnEfG",
+    "quelle_url": "https://www.bmwk.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "Industrie & Fertigung",
+        "Produktion / Fertigung"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "elektromobilitaet-ladepflicht-gebaeude",
+    "title": "Ladeinfrastruktur – Pflicht bei Neubau und Renovierung",
+    "category": "Energierecht",
+    "beschreibung": "Bei Neubau und größerer Renovierung von Nichtwohngebäuden mit mehr als 10 Stellplätzen müssen Leerrohre und Ladepunkte eingeplant werden.",
+    "rechtsgrundlage": "§ 71k GEG, EU-GEB-RL",
+    "quelle_url": "https://www.bmwsb.bund.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "redispatch-anlagenbetreiber",
+    "title": "Redispatch 2.0 – Pflichten für Anlagenbetreiber",
+    "category": "Energierecht",
+    "beschreibung": "Betreiber steuerbarer Erzeugungsanlagen ab 100 kW müssen am Redispatch-Verfahren teilnehmen und steuerbar sein.",
+    "rechtsgrundlage": "§ 13a EnWG",
+    "quelle_url": "https://www.bundesnetzagentur.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "lieferung-an-gesellschafter",
+    "title": "Leistungen an Gesellschafter – Fremdvergleich",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Verträge zwischen GmbH und Gesellschafter-Geschäftsführer müssen einem Fremdvergleich standhalten; sonst verdeckte Gewinnausschüttung.",
+    "rechtsgrundlage": "§ 8 Abs. 3 KStG, § 43 GmbHG",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "AG"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "organhaftung-d-o",
+    "title": "D&O-Versicherung – Organhaftung Geschäftsführer und Vorstand",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Persönliche Haftung von Geschäftsführern und Vorständen kann durch D&O-Versicherung abgemildert werden; Selbstbehalt bei AG Pflicht.",
+    "rechtsgrundlage": "§ 93 Abs. 2 AktG, § 43 GmbHG",
+    "quelle_url": "https://www.gesetze-im-internet.de/aktg/__93.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "AG"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "squeeze-out-minderheitsaktionäre",
+    "title": "Squeeze-Out – Ausschluss von Minderheitsaktionären",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Hauptaktionäre mit ≥ 95% können Minderheitsaktionäre gegen Abfindung ausschließen; Hauptversammlungsbeschluss erforderlich.",
+    "rechtsgrundlage": "§§ 327a–327f AktG",
+    "quelle_url": "https://www.gesetze-im-internet.de/aktg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "verschmelzung-umwandlung",
+    "title": "Verschmelzung und Spaltung – UmwG Pflichten",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Umwandlungsmaßnahmen (Verschmelzung, Spaltung, Formwechsel) erfordern notarielle Beurkundung, Prüfung und Handelsregistereintrag.",
+    "rechtsgrundlage": "UmwG §§ 2 ff.",
+    "quelle_url": "https://www.gesetze-im-internet.de/umwg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "jahresbericht-verein",
+    "title": "Verein – Tätigkeitsbericht und Rechenschaftspflicht",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Gemeinnützige Vereine müssen ihren Mitgliedern jährlich Rechenschaft über Einnahmen, Ausgaben und Vermögen ablegen.",
+    "rechtsgrundlage": "§§ 27, 26 BGB",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__27.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "e.V. (Verein)",
+        "gGmbH (gemeinnützig)"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "gemeinnuetzigkeit-voraussetzungen",
+    "title": "Gemeinnützigkeit – Anerkennungsvoraussetzungen AO",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Körperschaften mit gemeinnützigen, mildtätigen oder kirchlichen Zwecken sind von Körperschaft- und Gewerbesteuer befreit; Satzungspflichten nach §§ 59–63 AO.",
+    "rechtsgrundlage": "§§ 51–68 AO",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "e.V. (Verein)",
+        "gGmbH (gemeinnützig)"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "konzernrecht-beherrschungsvertrag",
+    "title": "Konzernrecht – Beherrschungsvertrag und Verlustübernahme",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Ein Beherrschungsvertrag ermöglicht Weisungsrecht der Mutter; Pflicht zur Verlustübernahme und Ausgleichszahlungen.",
+    "rechtsgrundlage": "§§ 291–310 AktG",
+    "quelle_url": "https://www.gesetze-im-internet.de/aktg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG",
+        "GmbH"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "stille-beteiligung-finanzierung",
+    "title": "Stille Beteiligung – Finanzierungsinstrument KMU",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Stille Gesellschaft als Finanzierungsinstrument; echte stille Beteiligung behandelt Einlage als Fremdkapital, unechte als Eigenkapital.",
+    "rechtsgrundlage": "§§ 230–236 HGB",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__230.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GbR"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "scope3-lieferkettenemissionen",
+    "title": "Scope 3 – Lieferketten-Emissionen erfassen",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Scope-3-Emissionen aus vor- und nachgelagerten Wertschöpfungsstufen sind für vollständige CO₂-Bilanzierung und CSRD-Berichte notwendig.",
+    "rechtsgrundlage": "GHG Protocol Scope 3, ESRS E1",
+    "quelle_url": "https://ghgprotocol.org",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "sdg-nachhaltigkeitsziele-unternehmen",
+    "title": "UN-Nachhaltigkeitsziele – SDGs im Unternehmenskontext",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Unternehmen können freiwillig zu den 17 SDGs berichten; zunehmend von Investoren und Kunden gefordert.",
+    "rechtsgrundlage": "UN SDGs, GRI 2021",
+    "quelle_url": "https://www.unglobalcompact.org",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "esg-rating-bonitaet",
+    "title": "ESG-Rating – Einfluss auf Kreditkonditionen",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "ESG-Ratings beeinflussen zunehmend Bankkonditionen und Lieferantenanforderungen; Verbesserung senkt Kapitalkosten.",
+    "rechtsgrundlage": "EU-Taxonomie-VO, EBA-Leitlinien",
+    "quelle_url": "https://www.eba.europa.eu",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "co2-kompensation-zertifikate",
+    "title": "CO₂-Kompensation – Gold Standard und VCS Zertifikate",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Unvermeidbare CO₂-Emissionen können über Hochwertige Kompensationszertifikate ausgeglichen werden; Transparenz gegenüber Kunden erforderlich.",
+    "rechtsgrundlage": "Gold Standard, VCS Verra",
+    "quelle_url": "https://goldstandard.org",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "b-corp-zertifizierung",
+    "title": "B Corp Zertifizierung – Soziale und ökologische Standards",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Freiwillige Zertifizierung für Unternehmen mit hohen sozialen und ökologischen Standards; wachsende Nachfrage bei Investoren.",
+    "rechtsgrundlage": "B Corp Standards",
+    "quelle_url": "https://www.bcorporation.eu",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "kreislaufwirtschaft-produktdesign",
+    "title": "Kreislaufwirtschaft – Produktdesign für Reparierbarkeit",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Ökodesign-Verordnungen schreiben zunehmend Reparierbarkeit und Recyclinggehalt vor; frühzeitige Produktanpassung spart Kosten.",
+    "rechtsgrundlage": "ESPR-VO (geplant), EU-Aktionsplan Kreislaufwirtschaft",
+    "quelle_url": "https://ec.europa.eu/environment/circular-economy/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 0,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "lieferkette-menschenrechte-audit",
+    "title": "Menschenrechtsaudit – Lieferantenprüfung vor Ort",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Social Audits bei Lieferanten in Risikoländern sind für LkSG-Unternehmen Pflicht; anerkannte Standards: SMETA, SA8000.",
+    "rechtsgrundlage": "LkSG §§ 5, 6, SA8000",
+    "quelle_url": "https://www.bafa.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 1000,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
+  },
+  {
+    "id": "nachhaltigkeitsmanager-funktion",
+    "title": "Nachhaltigkeitsmanager – Funktion und Aufgaben",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Größere Unternehmen benennen Nachhaltigkeitsmanager (CSO), die CSRD-Berichterstattung, ESG-Strategie und Stakeholder-Kommunikation verantworten.",
+    "rechtsgrundlage": "CSRD, ESRS, GRI",
+    "quelle_url": "https://www.bmj.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "alle"
+      ],
+      "branchen": [
+        "alle"
+      ],
+      "mitarbeiter_min": 250,
+      "bundeslaender": [
+        "alle"
+      ]
+    },
+    "hat_dokument_generator": false,
+    "stand": "2025-06"
   }
 ]
