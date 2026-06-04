@@ -28302,5 +28302,536 @@
       ]
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "gewerbe-miet-003",
+    "title": "Gewerberaummietvertrag – Schriftformklausel",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "Gewerbemietverträge über 1 Jahr müssen dem Schriftformerfordernis des § 550 BGB genügen. Alle wesentlichen Regelungen (Laufzeit, Miete, Fläche) müssen in der Vertragsurkunde stehen.",
+    "rechtsgrundlage": "BGB § 550, § 578",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__550.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "gewerberaummietvertrag"
+  },
+  {
+    "id": "gewerbe-miet-004",
+    "title": "Betriebskosten – Umlageschlüssel Gewerbe",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "Im Gewerbemietrecht können Betriebskosten umfangreich umgelegt werden. Umlageschlüssel, abrechnungsfähige Kosten und Abrechnungsfristen müssen vertraglich geregelt sein.",
+    "rechtsgrundlage": "BGB § 556, § 578, BetrKV",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__556.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Immobilien"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "gewerberaummietvertrag"
+  },
+  {
+    "id": "gewerbe-miet-005",
+    "title": "Energieausweis – Vorlage bei Vermietung",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "Bei Neuvermietung von Gewerberäumen muss ein gültiger Energieausweis vorgelegt werden. Fehlt er, drohen Bußgelder bis 15.000 €.",
+    "rechtsgrundlage": "GEG §§ 79–88",
+    "quelle_url": "https://www.gesetze-im-internet.de/geg/__79.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Immobilien",
+        "Bau"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "gewerberaummietvertrag"
+  },
+  {
+    "id": "immo-weg-001",
+    "title": "WEG-Verwaltung – Pflichten der Eigentümergemeinschaft",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "WEG-Eigentümergemeinschaften müssen mindestens jährliche Eigentümerversammlungen abhalten, Wirtschaftspläne aufstellen und einen Verwalter bestellen.",
+    "rechtsgrundlage": "WEG §§ 19–29",
+    "quelle_url": "https://www.gesetze-im-internet.de/weg/__19.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Immobilien"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "immo-makler-001",
+    "title": "Maklerrecht – 2020er Provisionsteilung",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "Beim Kauf von Einfamilienhäusern und Eigentumswohnungen gilt seit 2020 die hälftige Provisionsteilung. Maklerverträge müssen in Textform geschlossen werden.",
+    "rechtsgrundlage": "BGB §§ 656a–656d",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__656a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Immobilien"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steur-inh-001",
+    "title": "Körperschaftsteuer – Verlustabzug (§ 8c KStG)",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Bei Übertragung von mehr als 50% der Anteile einer Kapitalgesellschaft können Verlustvorträge vollständig verloren gehen. § 8c KStG und Sanierungsausnahme beachten.",
+    "rechtsgrundlage": "KStG § 8c, § 8d",
+    "quelle_url": "https://www.gesetze-im-internet.de/kstg_1977/__8c.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steur-thes-001",
+    "title": "Thesaurierungsbegünstigung (§ 34a EStG)",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Personenunternehmen können auf Antrag nicht entnommene Gewinne mit 28,25% besteuern statt des persönlichen Steuersatzes. Bei späterer Entnahme Nachsteuer fällig.",
+    "rechtsgrundlage": "EStG § 34a",
+    "quelle_url": "https://www.gesetze-im-internet.de/estg/__34a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbr-mass-kuend-001",
+    "title": "Massenentlassung – Anzeige bei der Agentur",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei Massenentlassungen (z.B. 10+ Mitarbeitende in Betrieben mit 21–59 Beschäftigten) muss die Bundesagentur für Arbeit vorab informiert werden. Sperrfrist: 1 Monat.",
+    "rechtsgrundlage": "KSchG §§ 17–20",
+    "quelle_url": "https://www.gesetze-im-internet.de/kschg/__17.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 21
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-dsa-001",
+    "title": "Digital Services Act (DSA) – Pflichten",
+    "category": "Digitales Recht",
+    "beschreibung": "Der DSA verpflichtet Online-Plattformen zu Transparenz, Beschwerdeverfahren und Risikofolgenabschätzung. Sehr große Plattformen (>45 Mio. Nutzer EU) haben besondere Pflichten.",
+    "rechtsgrundlage": "DSA (EU) 2022/2065",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32022R2065",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Technologie",
+        "E-Commerce",
+        "Plattformen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-dma-001",
+    "title": "Digital Markets Act (DMA) – Torwächter-Pflichten",
+    "category": "Digitales Recht",
+    "beschreibung": "Der DMA richtet sich an digitale Gatekeeper (Google, Apple, Amazon, Meta, Microsoft, TikTok). Diese müssen Interoperabilität, Datenzugang und fairen Wettbewerb sicherstellen.",
+    "rechtsgrundlage": "DMA (EU) 2022/1925",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32022R1925",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG",
+        "GmbH"
+      ],
+      "branchen": [
+        "Technologie",
+        "Plattformen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-datact-001",
+    "title": "Data Act (EU) – Datenzugangspflichten",
+    "category": "Digitales Recht",
+    "beschreibung": "Der EU Data Act (ab September 2025) verpflichtet Hersteller vernetzter Produkte (IoT) zur Bereitstellung von Produktdaten für Nutzer. Datenportabilität und Datenweitergabe reguliert.",
+    "rechtsgrundlage": "Data Act (EU) 2023/2854",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32023R2854",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Technologie",
+        "IoT",
+        "Automotive",
+        "Maschinenbau"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vertr-kaufvertrag-001",
+    "title": "Kaufvertrag B2B – Gewährleistungsausschluss",
+    "category": "Vertragsrecht",
+    "beschreibung": "Im B2B-Bereich kann die Gewährleistung durch AGB oder Individualvereinbarung beschränkt oder ausgeschlossen werden. Arglistig verschwiegene Mängel sind ausgenommen.",
+    "rechtsgrundlage": "BGB §§ 433–479",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__433.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vertr-darlehen-001",
+    "title": "Darlehensvertrag – Formvorschriften",
+    "category": "Vertragsrecht",
+    "beschreibung": "Verbraucherdarlehensverträge müssen schriftlich geschlossen werden und gesetzliche Pflichtangaben enthalten. Fehlen Pflichtangaben, kann der Zinssatz auf den gesetzlichen Zinssatz reduziert werden.",
+    "rechtsgrundlage": "BGB §§ 491–512",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__491.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Finanzdienstleistungen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "ges-holding-001",
+    "title": "Holdingstruktur – steuerliche Vorteile",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Eine Holding-GmbH kann Dividenden aus Tochtergesellschaften nahezu steuerfrei empfangen (§ 8b KStG). Durchführung einer Due Diligence vor Holdingumwandlung empfohlen.",
+    "rechtsgrundlage": "KStG § 8b, UmwG",
+    "quelle_url": "https://www.gesetze-im-internet.de/kstg_1977/__8b.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "ges-umwandlung-001",
+    "title": "Umwandlung – Formwechsel und Verschmelzung",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Formwechsel (z.B. GbR → GmbH), Verschmelzungen und Spaltungen sind nach dem UmwG geregelt. Notarielle Beurkundung erforderlich. Gläubigerschutz ist sicherzustellen.",
+    "rechtsgrundlage": "UmwG §§ 1–320",
+    "quelle_url": "https://www.gesetze-im-internet.de/umwg_1994/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "bank-zahlungskonto-001",
+    "title": "Recht auf Basiskonto",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "Jede Person mit rechtmäßigem Aufenthalt in der EU hat das Recht auf ein Zahlungskonto mit Basisfunktionen. Banken dürfen nur aus bestimmten Gründen ablehnen.",
+    "rechtsgrundlage": "ZKG §§ 31–47",
+    "quelle_url": "https://www.gesetze-im-internet.de/zkg/__31.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steur-int-001",
+    "title": "Verrechnungspreise – Dokumentationspflicht",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Transaktionen zwischen verbundenen Unternehmen müssen zu Fremdvergleichspreisen erfolgen und dokumentiert werden (§ 1 AStG). Unangemessene Preise werden korrigiert.",
+    "rechtsgrundlage": "AStG § 1, GAufzV",
+    "quelle_url": "https://www.gesetze-im-internet.de/astg/__1.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 50
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steur-int-002",
+    "title": "Pillar Two – Mindeststeuer 15%",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Das Mindestbesteuerungsgesetz setzt die OECD Pillar Two-Regelung um. Konzerne mit Jahresumsatz >750 Mio. € müssen mindestens 15% effektive Steuer zahlen.",
+    "rechtsgrundlage": "MinStG, EU-Richtlinie 2022/2523",
+    "quelle_url": "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/20_Legislaturperiode/2023-12-21-MinStG/0-Gesetz.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 1000
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "wistraf-001",
+    "title": "Untreue und Geschäftsführerhaftung",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Geschäftsführer haften nach § 43 GmbHG für die Sorgfalt eines ordentlichen Kaufmanns. Verstöße können zu persönlicher Schadensersatzpflicht führen. Entlastung durch ordnungsgemäße Beschlussfassung.",
+    "rechtsgrundlage": "GmbHG § 43, StGB § 266 (Untreue)",
+    "quelle_url": "https://www.gesetze-im-internet.de/gmbhg/__43.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "wistraf-002",
+    "title": "Wirtschaftsbetrug – Sorgfaltspflichten",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Unternehmen können Ziel von Wirtschaftsbetrug sein (CEO-Fraud, Phishing, Fakturenbetrug). Interne Kontrollsysteme, Vier-Augen-Prinzip und Schulungen sind wichtige Gegenmaßnahmen.",
+    "rechtsgrundlage": "StGB §§ 263, 263a",
+    "quelle_url": "https://www.bka.de/DE/UnsereAufgaben/Deliktsbereiche/Wirtschaftskriminalitaet/wirtschaftskriminalitaet_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 10
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sv-mini-midi-001",
+    "title": "Minijob und Midijob – Grenzen 2024",
+    "category": "Sozialversicherung",
+    "beschreibung": "Minijob-Grenze: 538 €/Monat (ab 2024). Midijob-Bereich: 538,01 € – 2.000 €/Monat. Im Midijob reduzierte Arbeitnehmer-SV-Beiträge. Korrekte Anmeldung bei Minijob-Zentrale erforderlich.",
+    "rechtsgrundlage": "SGB IV § 8, § 20",
+    "quelle_url": "https://www.minijob-zentrale.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "sozialversicherung-anmeldung"
+  },
+  {
+    "id": "sv-haushalt-001",
+    "title": "Haushaltshilfe – Anmeldepflicht",
+    "category": "Sozialversicherung",
+    "beschreibung": "Haushaltshilfen müssen bei der Minijob-Zentrale angemeldet werden. Unfallversicherungsschutz greift nur bei ordnungsgemäßer Anmeldung.",
+    "rechtsgrundlage": "SGB IV § 8a, § 28a",
+    "quelle_url": "https://www.minijob-zentrale.de/haushalt",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Einzelunternehmen",
+        "GbR",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "sozialversicherung-anmeldung"
+  },
+  {
+    "id": "it-sec-backupkonzept-001",
+    "title": "Datensicherungskonzept – IT-Sicherheitspflicht",
+    "category": "Digitales Recht",
+    "beschreibung": "Regelmäßige Datensicherungen (Backups) sind Teil der technisch-organisatorischen Maßnahmen nach DSGVO Art. 32. Backups sollten das 3-2-1-Prinzip befolgen und regelmäßig getestet werden.",
+    "rechtsgrundlage": "DSGVO Art. 32, BSI-IT-Grundschutz",
+    "quelle_url": "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Cyber-Sicherheitslage/Methoden-der-Cyber-Kriminalitaet/Ransomware/ransomware_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "it-sicherheitsrichtlinie"
+  },
+  {
+    "id": "it-sec-patch-001",
+    "title": "Patch-Management – Sicherheitsupdates",
+    "category": "Digitales Recht",
+    "beschreibung": "Ungepatchte Software ist eine häufige Ursache für Sicherheitsvorfälle. Ein Patch-Management-Prozess mit definierten Fristen für kritische Sicherheitsupdates ist Teil guter IT-Governance.",
+    "rechtsgrundlage": "DSGVO Art. 32, BSI-IT-Grundschutz OPS.1.1.3",
+    "quelle_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "mitarbeiter_min": 5
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "it-sicherheitsrichtlinie"
+  },
+  {
+    "id": "reise-gesch-001",
+    "title": "Geschäftsreiseregelungen – steuerliche Behandlung",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Reisekosten (Verpflegungsmehraufwand, Übernachtung, Fahrtkosten) können steuerfrei erstattet oder als Betriebsausgabe abgezogen werden. Tagespauschalen 2024: 14 € bis 28 €.",
+    "rechtsgrundlage": "EStG § 4 Abs. 5, § 9 Abs. 1 Satz 3 Nr. 5a",
+    "quelle_url": "https://www.gesetze-im-internet.de/estg/__9.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
   }
 ]

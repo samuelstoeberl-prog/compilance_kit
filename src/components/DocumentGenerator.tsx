@@ -19,6 +19,7 @@ import {
   freiberuflerVertragTemplate,
   betriebsvereinbarungTemplate,
   handelsvertreterVertragTemplate,
+  gewerberaummietvertragTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -48,6 +49,7 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   'freiberufler-vertrag': 'Freiberufler-/Dienstleistungsvertrag',
   betriebsvereinbarung: 'Betriebsvereinbarung-Vorlage',
   'handelsvertreter-vertrag': 'Handelsvertretervertrag',
+  gewerberaummietvertrag: 'Gewerberaummietvertrag',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -95,6 +97,7 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'freiberufler-vertrag': return applyTemplate(freiberuflerVertragTemplate, vars)
     case 'betriebsvereinbarung': return applyTemplate(betriebsvereinbarungTemplate, vars)
     case 'handelsvertreter-vertrag': return applyTemplate(handelsvertreterVertragTemplate, vars)
+    case 'gewerberaummietvertrag': return applyTemplate(gewerberaummietvertragTemplate, vars)
   }
 }
 

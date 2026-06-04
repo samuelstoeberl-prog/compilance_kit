@@ -37,6 +37,7 @@ export type DokumentTyp =
   | 'freiberufler-vertrag'
   | 'betriebsvereinbarung'
   | 'handelsvertreter-vertrag'
+  | 'gewerberaummietvertrag'
 
 export interface GiltFuer {
   rechtsformen: string[]
