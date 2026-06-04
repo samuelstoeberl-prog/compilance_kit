@@ -27,6 +27,9 @@ export type DokumentTyp =
   | 'kassenbuch'
   | 'datenschutz-folgenabschaetzung'
   | 'it-sicherheitsrichtlinie'
+  | 'arbeitsvertrag'
+  | 'sozialversicherung-anmeldung'
+  | 'gewaehrleistung-agb'
 
 export interface GiltFuer {
   rechtsformen: string[]

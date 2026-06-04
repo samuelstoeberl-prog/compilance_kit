@@ -9,6 +9,9 @@ import {
   kassenbuchTemplate,
   datenschutzFolgenabschaetzungTemplate,
   itSicherheitsrichtlinieTemplate,
+  arbeitsvertragTemplate,
+  sozialversicherungAnmeldungTemplate,
+  gewaehrleistungAgbTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -28,6 +31,9 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   kassenbuch: 'Kassenbuch-Vorlage',
   'datenschutz-folgenabschaetzung': 'Datenschutz-Folgenabschätzung (DPIA)',
   'it-sicherheitsrichtlinie': 'IT-Sicherheitsrichtlinie',
+  arbeitsvertrag: 'Arbeitsvertrag-Vorlage',
+  'sozialversicherung-anmeldung': 'SV-Anmeldeformular / Checkliste',
+  'gewaehrleistung-agb': 'AGB mit Gewährleistungsregelungen',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -65,6 +71,9 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'kassenbuch': return applyTemplate(kassenbuchTemplate, vars)
     case 'datenschutz-folgenabschaetzung': return applyTemplate(datenschutzFolgenabschaetzungTemplate, vars)
     case 'it-sicherheitsrichtlinie': return applyTemplate(itSicherheitsrichtlinieTemplate, vars)
+    case 'arbeitsvertrag': return applyTemplate(arbeitsvertragTemplate, vars)
+    case 'sozialversicherung-anmeldung': return applyTemplate(sozialversicherungAnmeldungTemplate, vars)
+    case 'gewaehrleistung-agb': return applyTemplate(gewaehrleistungAgbTemplate, vars)
   }
 }
 

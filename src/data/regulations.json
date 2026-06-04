@@ -19968,5 +19968,1146 @@
     },
     "hat_dokument_generator": false,
     "stand": "2025-06"
+  },
+  {
+    "id": "arbeitsvertrag-schriftform-nachwg",
+    "title": "Schriftliche Arbeitsvertrag-Dokumentation (NachwG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Seit August 2022 müssen wesentliche Arbeitsbedingungen am ersten Arbeitstag schriftlich ausgehändigt werden (§ 2 NachwG): Beginn, Ort, Tätigkeit, Arbeitszeit, Vergütung, Urlaub, Kündigungsfristen, Tarifvertrag.",
+    "rechtsgrundlage": "NachwG § 2, BGB § 611a",
+    "quelle_url": "https://www.gesetze-im-internet.de/nachwg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler",
+        "Verein",
+        "eG"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "arbeitsvertrag"
+  },
+  {
+    "id": "sv-anmeldung-deüv-pflicht",
+    "title": "Sozialversicherungsanmeldung DEÜV (§ 28a SGB IV)",
+    "category": "Sozialversicherung",
+    "beschreibung": "Arbeitgeber müssen jeden Arbeitnehmer bei der zuständigen Krankenkasse anmelden (Meldung nach DEÜV). Frist: spätestens 6 Wochen nach Beschäftigungsbeginn. Minijobber: Minijob-Zentrale.",
+    "rechtsgrundlage": "SGB IV § 28a, DEÜV",
+    "quelle_url": "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "sozialversicherung-anmeldung"
+  },
+  {
+    "id": "agb-pflicht-b2c-online",
+    "title": "AGB-Pflicht im Online-Handel (B2C)",
+    "category": "Vertragsrecht",
+    "beschreibung": "Online-Händler im B2C müssen klare AGB mit Gewährleistungsrechten, Widerrufsbelehrung und Lieferbedingungen bereitstellen. Unwirksame Klauseln nach §§ 308–309 BGB führen zu Abmahnrisiken.",
+    "rechtsgrundlage": "BGB §§ 305–310, 312ff., UWG",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__305.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "gewaehrleistung-agb"
+  },
+  {
+    "id": "sv-jahresmeldung-arbeitgeber",
+    "title": "Jahresentgeltmeldung (SV-Jahresmeldung)",
+    "category": "Sozialversicherung",
+    "beschreibung": "Bis 15. Februar jedes Jahres müssen Arbeitgeber für jeden versicherungspflichtigen Beschäftigten eine Jahresmeldung mit dem Vorjahresverdienst an die Einzugsstelle übermitteln.",
+    "rechtsgrundlage": "SGB IV § 28a Abs. 2, DEÜV § 10",
+    "quelle_url": "https://www.gkv-datenaustausch.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "beitragsnachweis-frist-sv",
+    "title": "Beitragsnachweis Sozialversicherung (monatlich)",
+    "category": "Sozialversicherung",
+    "beschreibung": "Arbeitgeber müssen spätestens zwei Arbeitstage vor Fälligkeit der SV-Beiträge einen Beitragsnachweis elektronisch an die Krankenkasse übermitteln (§ 28f SGB IV).",
+    "rechtsgrundlage": "SGB IV § 28f, § 23",
+    "quelle_url": "https://www.gkv-datenaustausch.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "unfallversicherung-bg-meldung",
+    "title": "Unfallversicherung – Meldung bei Berufsgenossenschaft",
+    "category": "Sozialversicherung",
+    "beschreibung": "Jeder Arbeitgeber muss sich und seine Beschäftigten bei der zuständigen Berufsgenossenschaft (BG) anmelden. Die UV ist ausschließlich vom Arbeitgeber zu tragen; UV-Lohnnachweis jährlich bis 16. Februar.",
+    "rechtsgrundlage": "SGB VII § 150, § 165",
+    "quelle_url": "https://www.dguv.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kurzarbeitergeld-antrag",
+    "title": "Kurzarbeitergeld – Anzeige und Abrechnung",
+    "category": "Sozialversicherung",
+    "beschreibung": "Bei Kurzarbeit muss der Arbeitgeber den erheblichen Arbeitsausfall bei der Agentur für Arbeit anzeigen und monatlich Kurzarbeitergeld (KUG) beantragen. Leistungshöhe: 60 % / 67 % des Netto-Soll-Entgelts.",
+    "rechtsgrundlage": "SGB III §§ 95 ff.",
+    "quelle_url": "https://www.arbeitsagentur.de/unternehmen/finanziell/kurzarbeitergeld",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "elterngeld-arbeitgeberbescheinigung",
+    "title": "Arbeitgeberbescheinigung für Elterngeld",
+    "category": "Sozialversicherung",
+    "beschreibung": "Arbeitgeber müssen auf Anfrage eine Arbeitgeber­bescheinigung über das Arbeitsentgelt der letzten 12 Monate vor der Geburt ausstellen, die die Elterngeldstelle für die Berechnung benötigt.",
+    "rechtsgrundlage": "BEEG § 9",
+    "quelle_url": "https://www.gesetze-im-internet.de/beeg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "agb-einbeziehung-b2b",
+    "title": "AGB-Einbeziehung im B2B-Verkehr",
+    "category": "Vertragsrecht",
+    "beschreibung": "Im B2B-Verkehr gelten AGB nur, wenn sie ordnungsgemäß einbezogen wurden (§ 305 BGB). Kollidierende AGB-Klauseln heben sich gegenseitig auf (Dissensregel). Inhaltskontrolle nach §§ 307–309 BGB.",
+    "rechtsgrundlage": "BGB §§ 305–310",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__305.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kaufvertrag-gewährleistung-2jahre",
+    "title": "Gewährleistungsfrist 2 Jahre (B2C-Kaufrecht)",
+    "category": "Vertragsrecht",
+    "beschreibung": "Bei Verbraucherverträgen beträgt die Gewährleistungsfrist 2 Jahre ab Ablieferung. Die Beweislastumkehr gilt in den ersten 12 Monaten: Es wird vermutet, der Mangel lag bei Übergabe vor.",
+    "rechtsgrundlage": "BGB §§ 434–438, § 477 (Beweislastumkehr)",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__438.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "widerrufsrecht-14-tage-online",
+    "title": "14-tägiges Widerrufsrecht im Online-Handel",
+    "category": "Vertragsrecht",
+    "beschreibung": "Verbraucher haben bei Online-Käufen ein 14-tägiges Widerrufsrecht ohne Angabe von Gründen. Händler müssen die Widerrufsbelehrung vor Vertragsabschluss bereitstellen, sonst verlängert sich die Frist auf 12 Monate + 14 Tage.",
+    "rechtsgrundlage": "BGB §§ 312g, 355, 356, EGBGB Art. 246a",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__312g.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dienstleistungsvertrag-schriftform",
+    "title": "Schriftformerfordernis bei bestimmten Dienstverträgen",
+    "category": "Vertragsrecht",
+    "beschreibung": "Bestimmte Verträge (z. B. Grundstückskaufverträge, Bürgschaften, Schuldversprechen) bedürfen der notariellen Beurkundung oder Schriftform. Mündliche Vereinbarungen können formunwirksam sein.",
+    "rechtsgrundlage": "BGB §§ 125, 126, 311b, 765",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__125.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "auftragsverarbeitungsvertrag-avv",
+    "title": "Auftragsverarbeitungsvertrag (AVV) bei Datenverarbeitung",
+    "category": "Datenschutz",
+    "beschreibung": "Wer personenbezogene Daten durch Dritte verarbeiten lässt (z. B. Cloud-Anbieter, Lohnbüro), muss einen AVV nach Art. 28 DSGVO abschließen. Fehlt der AVV, liegt ein Datenschutzverstoß vor.",
+    "rechtsgrundlage": "DSGVO Art. 28",
+    "quelle_url": "https://dsgvo-gesetz.de/art-28-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "geldwäschegesetz-sorgfaltspflichten",
+    "title": "Geldwäsche-Sorgfaltspflichten (GwG)",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "Verpflichtete nach GwG (Banken, Immobilienmakler, Steuerberater, Güterhändler ab 10.000 € Barzahlung) müssen Kunden identifizieren (KYC), wirtschaftlich Berechtigte feststellen und verdächtige Transaktionen melden.",
+    "rechtsgrundlage": "GwG §§ 3–13",
+    "quelle_url": "https://www.gesetze-im-internet.de/gwg_2017/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "transparenzregister-eintragung",
+    "title": "Transparenzregister – Meldepflicht wirtschaftlich Berechtigte",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "Juristische Personen müssen ihre wirtschaftlich Berechtigten (natürliche Personen mit >25% Eigentumsanteil oder Kontrolle) im Transparenzregister melden. Verstöße können mit Bußgeld bis 1 Mio. € geahndet werden.",
+    "rechtsgrundlage": "GwG § 20, § 21",
+    "quelle_url": "https://www.transparenzregister.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "eG",
+        "Verein"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "zahlungsdiensteaufsicht-zag",
+    "title": "Erlaubnispflicht für Zahlungsdienste (ZAG / BaFin)",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "Unternehmen, die Zahlungsdienste (z. B. Überweisungen, Kartenzahlungen, E-Wallets) erbringen, benötigen eine Erlaubnis der BaFin nach ZAG. Ohne Erlaubnis droht Strafverfolgung nach § 31 ZAG.",
+    "rechtsgrundlage": "ZAG §§ 10, 31",
+    "quelle_url": "https://www.bafin.de/DE/Aufsicht/ZahlungsinstituteBaFin/zahlungsinstitute_bafin_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "bilanzierung-hgb-jahresabschluss",
+    "title": "Jahresabschluss nach HGB – Bilanz und GuV",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "Kaufleute sind nach HGB zur Buchführung und zum Jahresabschluss (Bilanz + GuV) verpflichtet. Kapitalgesellschaften müssen zusätzlich Anhang und Lagebericht erstellen und beim Bundesanzeiger offenlegen.",
+    "rechtsgrundlage": "HGB §§ 238–342e",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG",
+        "e.K.",
+        "eG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "offenlegung-bundesanzeiger",
+    "title": "Offenlegung Jahresabschluss im Bundesanzeiger",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "GmbH, AG und ähnliche Kapitalgesellschaften müssen ihren Jahresabschluss spätestens 12 Monate nach Bilanzstichtag beim Bundesanzeiger einreichen. Verstöße führen zu Ordnungsgeldern des Bundesamts für Justiz (bis 25.000 €).",
+    "rechtsgrundlage": "HGB §§ 325–329, PublG",
+    "quelle_url": "https://www.bundesanzeiger.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "eG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "konzernabschluss-ifrs",
+    "title": "Konzernabschluss nach IFRS (kapitalmarktorientiert)",
+    "category": "Finanzmarktrecht",
+    "beschreibung": "Kapitalmarktorientierte Mutterunternehmen der EU müssen ihren Konzernabschluss nach IFRS aufstellen (IAS-Verordnung). Nicht kapitalmarktorientierte Konzerne können HGB oder freiwillig IFRS anwenden.",
+    "rechtsgrundlage": "HGB § 315e, IAS-Verordnung (EG) 1606/2002",
+    "quelle_url": "https://www.ifrs.org/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG",
+        "GmbH"
+      ],
+      "mitarbeiter_min": 250
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "freiberufler-kammerpflicht",
+    "title": "Kammermitgliedschaft für Freie Berufe",
+    "category": "Berufsrecht",
+    "beschreibung": "Ärzte (Ärztekammer), Rechtsanwälte (Rechtsanwaltskammer), Architekten (Architektenkammer), Steuerberater (StBK) etc. sind kraft Gesetzes Pflichtmitglieder ihrer Berufskammer und unterliegen der Berufsaufsicht.",
+    "rechtsgrundlage": "BRAO, ÄrzteO, StBerG, Ingenieur- und Architektengesetze der Länder",
+    "quelle_url": "https://www.brak.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Freiberufler",
+        "GmbH",
+        "UG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "berufshaftpflicht-pflichtversicherung",
+    "title": "Berufshaftpflichtversicherung (gesetzliche Pflicht)",
+    "category": "Berufsrecht",
+    "beschreibung": "Bestimmte freie Berufe und Gewerbetreibende sind zum Abschluss einer Berufshaftpflichtversicherung verpflichtet: Rechtsanwälte, Steuerberater, Wirtschaftsprüfer, Architekten, Ingenieure, Immobilienmakler, Versicherungsvermittler.",
+    "rechtsgrundlage": "BRAO § 51, StBerG § 67, GewO § 34d",
+    "quelle_url": "https://www.gdv.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Freiberufler",
+        "GmbH",
+        "UG",
+        "AG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuerberater-schweigepflicht",
+    "title": "Berufsgeheimnis / Verschwiegenheitspflicht (§ 203 StGB)",
+    "category": "Berufsrecht",
+    "beschreibung": "Ärzte, Rechtsanwälte, Steuerberater, Wirtschaftsprüfer, Psychologen und weitere Berufsträger sind zur Verschwiegenheit über Patientendaten und Mandantengeheimnisse verpflichtet. Verletzung ist strafbar (§ 203 StGB).",
+    "rechtsgrundlage": "StGB § 203",
+    "quelle_url": "https://www.gesetze-im-internet.de/stgb/__203.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Freiberufler",
+        "GmbH",
+        "UG",
+        "AG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gewerbeerlaubnis-34a-bewachung",
+    "title": "Gewerbeerlaubnis Bewachungsgewerbe (§ 34a GewO)",
+    "category": "Berufsrecht",
+    "beschreibung": "Wer gewerbsmäßig fremde Personen oder Sachen bewacht, benötigt eine Erlaubnis nach § 34a GewO. Voraussetzungen: Zuverlässigkeit, Sachkunde, Haftpflichtversicherung. Seit 2019 erweiterte Sachkundeprüfung.",
+    "rechtsgrundlage": "GewO § 34a, BewachV",
+    "quelle_url": "https://www.gesetze-im-internet.de/gewo/__34a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "heilmittelerbringer-zulassung",
+    "title": "Zulassung Heilmittelerbringer (SGB V)",
+    "category": "Berufsrecht",
+    "beschreibung": "Physiotherapeuten, Ergotherapeuten, Logopäden, die mit gesetzlichen Krankenkassen abrechnen wollen, benötigen eine Zulassung nach SGB V § 124. Voraussetzungen: staatliche Anerkennung, Betriebsstättenanforderungen.",
+    "rechtsgrundlage": "SGB V § 124",
+    "quelle_url": "https://www.gkv-spitzenverband.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Freiberufler",
+        "GmbH",
+        "UG",
+        "GbR"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "haccp-lebensmittelhygiene",
+    "title": "HACCP-Konzept (Lebensmittelhygiene-Verordnung)",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Lebensmittelunternehmer müssen ein HACCP-basiertes Eigenkontrollsystem einrichten, unterhalten und dokumentieren. Dies umfasst kritische Kontrollpunkte (CCPs), Grenzwerte, Überwachung und Korrekturmaßnahmen.",
+    "rechtsgrundlage": "EG-VO 852/2004 Art. 5, LMHV § 3",
+    "quelle_url": "https://www.bvl.bund.de/DE/Arbeitsbereiche/01_Lebensmittel/04_AntragstellerUnternehmen/Lebensmittelhygiene/lebensmittelhygiene_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Lebensmittel",
+        "Gastronomie",
+        "Catering",
+        "Lebensmittelhandel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "lebensmittelunternehmen-registrierung",
+    "title": "Registrierung / Zulassung Lebensmittelbetrieb",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Lebensmittelunternehmer müssen ihren Betrieb vor Aufnahme der Tätigkeit bei der zuständigen Lebensmittelüberwachungsbehörde registrieren (§ 4 LMHV). Bestimmte Betriebe (z. B. Schlachtbetriebe) brauchen eine EU-Zulassung.",
+    "rechtsgrundlage": "EG-VO 852/2004 Art. 6, LMHV § 4",
+    "quelle_url": "https://www.bvl.bund.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Lebensmittel",
+        "Gastronomie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "alkohol-jugendschutz-gastronomie",
+    "title": "Jugendschutz – Alkohol- und Tabakverbot",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Gaststätten und Einzelhandel dürfen Branntwein und branntweinhaltige Getränke nicht an Minderjährige abgeben (§ 9 JuSchG). Bier und Wein ab 16 Jahren. Kontrollpflichten und Aushangspflichten nach JuSchG.",
+    "rechtsgrundlage": "JuSchG §§ 9, 10",
+    "quelle_url": "https://www.gesetze-im-internet.de/juschg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Gastronomie",
+        "Lebensmittelhandel",
+        "Einzelhandel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "nahrungsergaenzungsmittel-anzeige",
+    "title": "Anzeigepflicht Nahrungsergänzungsmittel (NemV)",
+    "category": "Lebensmittelrecht",
+    "beschreibung": "Nahrungsergänzungsmittel müssen vor dem Inverkehrbringen beim Bundesamt für Verbraucherschutz und Lebensmittelsicherheit (BVL) angezeigt werden (§ 5 NemV). Mustertextvorlagen und Kennzeichnungsregeln sind einzuhalten.",
+    "rechtsgrundlage": "NemV § 5, LMIV",
+    "quelle_url": "https://www.bvl.bund.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Lebensmittel",
+        "Pharmaindustrie",
+        "Gesundheitswirtschaft"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gueterbeförderung-erlaubnispflicht",
+    "title": "Güterkraftverkehrserlaubnis (GüKG)",
+    "category": "Transportrecht",
+    "beschreibung": "Gewerbliche Güterbeförderung mit Fahrzeugen über 3,5 t zGG erfordert eine EU-Lizenz (internationale Fahrten) oder nationale Erlaubnis. Voraussetzungen: Zuverlässigkeit, finanzielle Leistungsfähigkeit, fachliche Eignung.",
+    "rechtsgrundlage": "GüKG § 3, EU-VO 1071/2009",
+    "quelle_url": "https://www.bamf.de/ (BALM)",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Transport",
+        "Logistik",
+        "Spedition"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "fahrerqualifikation-berufskraftfahrer",
+    "title": "Berufskraftfahrerqualifikation (BKrFQG)",
+    "category": "Transportrecht",
+    "beschreibung": "Fahrer von Lkw (C/CE) und Bussen (D/DE) müssen eine Grundqualifikation nach BKrFQG nachweisen und alle 5 Jahre Weiterbildung absolvieren (35 Stunden). Dokumentation durch Fahrerqualifizierungsnachweis (FQN).",
+    "rechtsgrundlage": "BKrFQG, RL 2003/59/EG",
+    "quelle_url": "https://www.baf.bund.de/DE/BKF/BKF_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Transport",
+        "Logistik",
+        "Spedition",
+        "Busunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "lenk-ruhezeiten-eu-fahrer",
+    "title": "EU-Lenk- und Ruhezeiten (VO EG 561/2006)",
+    "category": "Transportrecht",
+    "beschreibung": "Fahrer von Fahrzeugen über 3,5 t oder Fahrgastbeförderung müssen Lenk- und Ruhezeiten einhalten. Tageslenkzeit: 9 h (2×10 h/Woche). Wochenlenkzeit: 56 h. Digitaler Tachograph ist Pflicht.",
+    "rechtsgrundlage": "VO EG 561/2006, FPersG, FPersV",
+    "quelle_url": "https://www.baf.bund.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Transport",
+        "Logistik",
+        "Spedition",
+        "Busunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "adr-gefährliche-güter-transport",
+    "title": "ADR – Transport gefährlicher Güter auf der Straße",
+    "category": "Transportrecht",
+    "beschreibung": "Transport gefährlicher Güter erfordert ADR-Schulung des Fahrers, Gefahrgutbeauftragten, Fahrzeugausrüstung und Beförderungspapiere. Unternehmen ab gewissen Mengen brauchen einen Gefahrgutbeauftragten.",
+    "rechtsgrundlage": "ADR 2023, GGVSEB, GbV",
+    "quelle_url": "https://www.bam.de/DE/Themen/Transport/Gefahrguettransport/gefahrguettransport_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Transport",
+        "Logistik",
+        "Chemie",
+        "Pharmaindustrie",
+        "Mineralöl"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "mautpflicht-lkw-tolling",
+    "title": "Lkw-Mautpflicht (BFStrMG)",
+    "category": "Transportrecht",
+    "beschreibung": "Seit Juli 2024 gilt die Lkw-Maut für Fahrzeuge ab 3,5 t zGG auf Bundesfernstraßen. Seit 2023 CO₂-Aufschlag. Buchung über Toll Collect oder On-Board-Unit (OBU). Mautbefreiungen für E-Fahrzeuge.",
+    "rechtsgrundlage": "BFStrMG, EU-RL 1999/62/EG",
+    "quelle_url": "https://www.toll-collect.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Transport",
+        "Logistik",
+        "Spedition"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "produktsicherheitsgesetz-marktbeobachtung",
+    "title": "Produktsicherheitsgesetz (ProdSG) – Marktbeobachtung",
+    "category": "Produktrecht",
+    "beschreibung": "Hersteller, Importeure und Händler müssen unsichere Produkte unverzüglich melden (RAPEX) und ggf. vom Markt nehmen. Rückrufpflicht bei ernsthaften Sicherheitsrisiken. Neue EU-Produktsicherheits-VO ab 2024.",
+    "rechtsgrundlage": "ProdSG, EU-VO 2023/988",
+    "quelle_url": "https://www.baua.de/DE/Themen/Arbeitsgestaltung-im-Betrieb/Produktsicherheit/produktsicherheit_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "elektrogeraete-weee-rücknahme",
+    "title": "Elektrogeräte-Rücknahme (ElektroG / WEEE)",
+    "category": "Produktrecht",
+    "beschreibung": "Hersteller und Importeure von Elektro- und Elektronikgeräten müssen sich beim Elektro-Altgeräte-Register (ear) registrieren und Rücknahmesysteme finanzieren. Online-Händler: Hinweispflicht und ggf. Rücknahme.",
+    "rechtsgrundlage": "ElektroG, WEEE-RL 2012/19/EU",
+    "quelle_url": "https://www.stiftung-ear.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Elektronik",
+        "IT",
+        "Maschinenbau",
+        "Einzelhandel",
+        "Online-Handel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "batteriegesetz-rücknahmepflicht",
+    "title": "Batteriegesetz – Registrierung und Rücknahme",
+    "category": "Produktrecht",
+    "beschreibung": "Hersteller und Importeure von Batterien/Akkus müssen sich beim Umweltbundesamt registrieren, Rücknahmesysteme einrichten und Entsorgungshinweise auf Produkten anbringen. Ab 2025 EU-Batterie-VO.",
+    "rechtsgrundlage": "BattG, EU-VO 2023/1542",
+    "quelle_url": "https://www.umweltbundesamt.de/themen/wirtschaft-konsum/produkte/batterien-akkus",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Elektronik",
+        "IT",
+        "Automobil",
+        "Maschinenbau"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "maschinenverordnung-2023",
+    "title": "Maschinenverordnung 2023 (EU) 2023/1230",
+    "category": "Produktrecht",
+    "beschreibung": "Neue EU-Maschinenverordnung ersetzt ab Januar 2027 die Maschinenrichtlinie 2006/42/EG. Neue Anforderungen an Cybersicherheit, KI-basierte Maschinen, digitale Benutzerinformation und vernetzte Maschinen.",
+    "rechtsgrundlage": "EU-VO 2023/1230, 9. ProdSV",
+    "quelle_url": "https://ec.europa.eu/docsroom/documents/54454",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Maschinenbau",
+        "Automobil",
+        "Produktion"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "betriebshaftpflicht-empfehlung",
+    "title": "Betriebshaftpflichtversicherung",
+    "category": "Versicherungsrecht",
+    "beschreibung": "Die Betriebshaftpflichtversicherung schützt vor Schadenersatzansprüchen Dritter aus dem Betrieb. Für viele Branchen faktisch unerlässlich. Mindestdeckungssummen variieren je nach Branche und Gesetz.",
+    "rechtsgrundlage": "BGB §§ 823 ff., spezielle Branchengesetze",
+    "quelle_url": "https://www.gdv.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kfz-haftpflicht-pflichtversicherung",
+    "title": "Kfz-Haftpflichtversicherung (PflVG)",
+    "category": "Versicherungsrecht",
+    "beschreibung": "Für alle Kraftfahrzeuge ist eine Haftpflichtversicherung Pflicht (§ 1 PflVG). Mindestdeckungssumme: 7,5 Mio. € Personenschäden, 1,22 Mio. € Sachschäden, 50.000 € Vermögensschäden (§ 4 KfzPflVV).",
+    "rechtsgrundlage": "PflVG § 1, KfzPflVV § 4",
+    "quelle_url": "https://www.gesetze-im-internet.de/pflvg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "versicherungsvermittler-erlaubnis-34d",
+    "title": "Versicherungsvermittler – Erlaubnis nach § 34d GewO",
+    "category": "Versicherungsrecht",
+    "beschreibung": "Gewerbsmäßige Versicherungsvermittler und -berater benötigen eine Erlaubnis nach § 34d GewO sowie Eintragung im Vermittlerregister (IHK). Anforderungen: Sachkunde, Zuverlässigkeit, Haftpflichtversicherung.",
+    "rechtsgrundlage": "GewO § 34d, VersVermV",
+    "quelle_url": "https://www.vermittlerregister.info/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Versicherungen",
+        "Finanzen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "mpg-medizinprodukt-zulassung",
+    "title": "Medizinprodukterecht – MDR-Konformität (EU 2017/745)",
+    "category": "Gesundheitsrecht",
+    "beschreibung": "Hersteller von Medizinprodukten müssen die EU-MDR 2017/745 erfüllen: Klassifizierung (I–III), klinische Bewertung, Qualitätsmanagementsystem, EUDAMED-Registrierung und ggf. benannte Stelle. Übergangsfristen laufen aus.",
+    "rechtsgrundlage": "EU-MDR 2017/745, MPDG",
+    "quelle_url": "https://www.bfarm.de/DE/Medizinprodukte/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "Medizintechnik",
+        "Gesundheitswirtschaft",
+        "Pharmaindustrie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "betäubungsmittel-sicherheitsvorschriften",
+    "title": "Betäubungsmittelrecht – BtMG Erlaubnispflicht",
+    "category": "Gesundheitsrecht",
+    "beschreibung": "Wer Betäubungsmittel herstellt, handelt, einführt oder abgibt, benötigt eine Erlaubnis des BfArM (§ 3 BtMG). Apotheken, Ärzte, Krankenhäuser unterliegen strengen Aufzeichnungs- und Dokumentationspflichten.",
+    "rechtsgrundlage": "BtMG §§ 3, 8, 13",
+    "quelle_url": "https://www.bfarm.de/DE/Bundesopiumstelle/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Pharmaindustrie",
+        "Gesundheitswirtschaft",
+        "Apotheken"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "krankenhaus-infektionsschutz",
+    "title": "Infektionsschutz – Meldepflicht nach IfSG",
+    "category": "Gesundheitsrecht",
+    "beschreibung": "Ärzte, Krankenhäuser und Labore müssen bestimmte meldepflichtige Infektionskrankheiten (§ 6 IfSG: Cholera, Typhus, COVID-19 etc.) dem Gesundheitsamt melden. Für Betriebe gelten Hygienevorschriften bei Ausbrüchen.",
+    "rechtsgrundlage": "IfSG §§ 6, 7, 36",
+    "quelle_url": "https://www.rki.de/DE/Content/Infekt/IfSG/ifsg_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Gesundheitswirtschaft",
+        "Gastronomie",
+        "Pflege"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "baugenehmigung-landesbauordnung",
+    "title": "Baugenehmigung nach Landesbauordnung",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "Bauliche Anlagen bedürfen in der Regel einer Baugenehmigung nach der jeweiligen Landesbauordnung (LBO). Ausnahmen: verfahrensfreie Vorhaben (Garagen, kleine Nebenanlagen). Zuständig: Bauordnungsamt.",
+    "rechtsgrundlage": "LBO der jeweiligen Bundesländer, BauGB",
+    "quelle_url": "https://www.bmwsb.bund.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler",
+        "Verein"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "mietrecht-betriebskosten-abrechnung",
+    "title": "Betriebskostenabrechnung bei gewerblicher Miete",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "Vermieter müssen Betriebskosten nach den Vereinbarungen im Mietvertrag abrechnen. Bei gewerblicher Miete sind die §§ 535 ff. BGB und die Vereinbarungen maßgeblich; eine Jahresfrist wie bei Wohnraum gilt nicht.",
+    "rechtsgrundlage": "BGB §§ 535, 556",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__556.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "maklerrecht-wohnungsvermittlung-bestellerprinzip",
+    "title": "Bestellerprinzip bei Wohnraumvermittlung (MaKlG)",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "Seit 2020: Wer einen Makler bestellt, zahlt die Provision. Bei Mietwohnungen zahlt der Vermieter den Makler. Beim Kauf teilen Käufer und Verkäufer die Provision zu gleichen Teilen (höchstens 50/50).",
+    "rechtsgrundlage": "BGB §§ 656a–656d",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__656a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Immobilien"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "energieausweis-gebäude",
+    "title": "Energieausweis – Pflicht bei Verkauf und Vermietung",
+    "category": "Bau- und Immobilienrecht",
+    "beschreibung": "Bei Verkauf, Vermietung und Verpachtung von Gebäuden oder Gebäudeteilen muss ein Energieausweis vorgelegt werden (GEG § 80). Bedarfs- oder Verbrauchsausweis. Pflichtangaben in Immobilienanzeigen.",
+    "rechtsgrundlage": "GEG §§ 79–88",
+    "quelle_url": "https://www.bmwsb.bund.de/SharedDocs/faqs/DE/themen/bauen/energieausweis/energieausweis-allgemein.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Immobilien",
+        "Bau"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "öffentliche-ausschreibung-vob",
+    "title": "Öffentliche Vergabe – VOB/A und VOL/A",
+    "category": "Vergaberecht",
+    "beschreibung": "Öffentliche Auftraggeber müssen Bauleistungen nach VOB/A und Liefer-/Dienstleistungen nach VgV/UVgO ausschreiben. Bietende Unternehmen müssen Eignungsnachweise (Zuverlässigkeit, Fachkunde, Leistungsfähigkeit) erbringen.",
+    "rechtsgrundlage": "GWB §§ 97 ff., VgV, VOB/A, UVgO",
+    "quelle_url": "https://www.bmwk.de/Redaktion/DE/Artikel/Wirtschaft/vergaberecht.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vob-werkvertrag-abnahme",
+    "title": "VOB/B – Werkvertrag und Abnahmepflicht",
+    "category": "Vergaberecht",
+    "beschreibung": "Im Baubereich gelten die VOB/B-Regelungen für Werkverträge. Der Auftraggeber muss nach Fertigstellung abnahmen. Mit Abnahme beginnt die Gewährleistungsfrist (4 Jahre nach VOB/B). Mängelrüge vor Abnahme dokumentieren.",
+    "rechtsgrundlage": "VOB/B §§ 12, 13, BGB §§ 631 ff.",
+    "quelle_url": "https://www.deutsches-baublatt.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Bau",
+        "Handwerk",
+        "Architektur"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "csrd-nachhaltigkeitsberichterstattung",
+    "title": "CSRD – Nachhaltigkeitsberichterstattung (ab 2025/2026)",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Die EU-Richtlinie CSRD (Corporate Sustainability Reporting Directive) verpflichtet ab 2025 (für Großunternehmen) und 2026 (für börsennotierte KMU) zur standardisierten Nachhaltigkeitsberichterstattung nach ESRS. Externe Prüfpflicht.",
+    "rechtsgrundlage": "EU-RL 2022/2464 (CSRD), ESRS",
+    "quelle_url": "https://ec.europa.eu/info/business-economy-euro/company-reporting-and-auditing/company-reporting/corporate-sustainability-reporting_de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "eG"
+      ],
+      "mitarbeiter_min": 250
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "cbam-co2-grenzausgleich-import",
+    "title": "CBAM – CO₂-Grenzausgleichssystem (Import)",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Ab Oktober 2023 (Übergangsphase) müssen EU-Importeure von Zement, Stahl, Aluminium, Dünger, Strom und Wasserstoff CO₂-Emissionen der importierten Waren melden. Ab 2026 Kauf von CBAM-Zertifikaten.",
+    "rechtsgrundlage": "EU-VO 2023/956 (CBAM)",
+    "quelle_url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "Stahl",
+        "Aluminium",
+        "Chemie",
+        "Energie",
+        "Import/Export"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "eu-taxonomy-grüne-investments",
+    "title": "EU-Taxonomie – Klassifizierung nachhaltiger Wirtschaftstätigkeiten",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Finanzmarktteilnehmer und große Nicht-Finanzunternehmen müssen offenlegen, welcher Anteil ihrer Wirtschaftstätigkeiten der EU-Taxonomie für nachhaltige Aktivitäten entspricht (ökologisch nachhaltig vs. nicht).",
+    "rechtsgrundlage": "EU-VO 2020/852, delegierte Verordnungen",
+    "quelle_url": "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "mitarbeiter_min": 250
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "energiemanagement-iso50001-pflicht",
+    "title": "Energiemanagementsystem (ISO 50001 / EED)",
+    "category": "Energierecht",
+    "beschreibung": "Unternehmen, die keine KMU sind (> 250 MA oder > 50 Mio. € Umsatz), müssen alle 4 Jahre Energieaudits nach DIN EN 16247 oder ein zertifiziertes Energiemanagementsystem (ISO 50001) durchführen.",
+    "rechtsgrundlage": "EDL-G § 8, EU-EED 2012/27/EU",
+    "quelle_url": "https://www.bafa.de/DE/Energie/Energieeffizienz/Energieaudits/energieaudits_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 250
+    },
+    "hat_dokument_generator": false
   }
 ]
