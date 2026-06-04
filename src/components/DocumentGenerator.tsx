@@ -12,6 +12,8 @@ import {
   arbeitsvertragTemplate,
   sozialversicherungAnmeldungTemplate,
   gewaehrleistungAgbTemplate,
+  aufhebungsvertragTemplate,
+  datenschutzEinwilligungTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -34,6 +36,8 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   arbeitsvertrag: 'Arbeitsvertrag-Vorlage',
   'sozialversicherung-anmeldung': 'SV-Anmeldeformular / Checkliste',
   'gewaehrleistung-agb': 'AGB mit Gewährleistungsregelungen',
+  aufhebungsvertrag: 'Aufhebungsvertrag-Vorlage',
+  'datenschutz-einwilligung': 'Datenschutz-Einwilligungserklärung',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -74,6 +78,8 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'arbeitsvertrag': return applyTemplate(arbeitsvertragTemplate, vars)
     case 'sozialversicherung-anmeldung': return applyTemplate(sozialversicherungAnmeldungTemplate, vars)
     case 'gewaehrleistung-agb': return applyTemplate(gewaehrleistungAgbTemplate, vars)
+    case 'aufhebungsvertrag': return applyTemplate(aufhebungsvertragTemplate, vars)
+    case 'datenschutz-einwilligung': return applyTemplate(datenschutzEinwilligungTemplate, vars)
   }
 }
 

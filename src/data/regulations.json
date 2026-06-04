@@ -22102,5 +22102,691 @@
       ]
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "aufhebungsvertrag-schriftform-pflicht",
+    "title": "Aufhebungsvertrag – Schriftformerfordernis (§ 623 BGB)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Die Aufhebung eines Arbeitsverhältnisses bedarf zu ihrer Wirksamkeit der Schriftform (§ 623 BGB). Mündliche Aufhebungsvereinbarungen sind nichtig. Der Vertrag muss eigenhändig unterschrieben werden.",
+    "rechtsgrundlage": "BGB § 623, § 126",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__623.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "aufhebungsvertrag"
+  },
+  {
+    "id": "dsgvo-einwilligung-newsletter-marketing",
+    "title": "DSGVO-Einwilligung für Newsletter und E-Mail-Marketing",
+    "category": "Datenschutz",
+    "beschreibung": "Für Newsletter und Werbe-E-Mails ist eine aktive, dokumentierte Einwilligung der Empfänger erforderlich (Art. 6 Abs. 1 lit. a DSGVO, UWG § 7). Double-Opt-In empfohlen. Einwilligungsnachweise müssen gespeichert werden.",
+    "rechtsgrundlage": "DSGVO Art. 7, UWG § 7",
+    "quelle_url": "https://dsgvo-gesetz.de/art-7-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "datenschutz-einwilligung"
+  },
+  {
+    "id": "arbeitsrecht-mutterschutz-fristen",
+    "title": "Mutterschutzgesetz – Beschäftigungsverbote und Fristen",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Werdende Mütter genießen 6 Wochen vor und 8 Wochen (12 bei Früh-/Mehrlingsgeburt) nach der Geburt absolutes Beschäftigungsverbot. Arbeitgeber müssen unverzüglich Gefährdungsbeurteilung erstellen und ggf. Arbeitsplatz anpassen.",
+    "rechtsgrundlage": "MuSchG §§ 3, 13, 20",
+    "quelle_url": "https://www.gesetze-im-internet.de/muschg_2018/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-elternzeit-anmeldung",
+    "title": "Elternzeit – Anmeldepflicht und Arbeitgeberpflichten",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Elternzeit muss dem Arbeitgeber 7 Wochen vor Beginn schriftlich angemeldet werden (§ 16 BEEG). Für die ersten 3 Lebensjahre ist das Kind berechtigt. Arbeitgeber darf während der Elternzeit nicht kündigen (Kündigungsschutz).",
+    "rechtsgrundlage": "BEEG §§ 15, 16, 18",
+    "quelle_url": "https://www.gesetze-im-internet.de/beeg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-pflegezeitgesetz",
+    "title": "Pflegezeit und Familienpflegezeit (PflegeZG / FPfZG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Beschäftigte haben Anspruch auf bis zu 6 Monate Pflegezeit (§ 3 PflegeZG) und bis zu 24 Monate Familienpflegezeit (§ 2 FPfZG) zur Pflege naher Angehöriger. Ankündigungspflicht 10 Arbeitstage. Kündigungsschutz.",
+    "rechtsgrundlage": "PflegeZG, FPfZG",
+    "quelle_url": "https://www.gesetze-im-internet.de/pflegezg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "mitarbeiter_min": 15
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-arbeitsunfallmeldung-uvv",
+    "title": "Arbeitsunfall – Meldepflicht und Unfallverhütungsvorschriften",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitsunfälle mit mehr als 3 Arbeitstagen Ausfall sind der zuständigen Berufsgenossenschaft zu melden (§ 193 SGB VII). Unternehmer müssen ein Verbandbuch führen und Unfallverhütungsvorschriften (UVV) der BG einhalten.",
+    "rechtsgrundlage": "SGB VII § 193, DGUV-V 1",
+    "quelle_url": "https://www.dguv.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-mindestlohn-dokumentation-mini-midi",
+    "title": "Mindestlohn-Dokumentation für Minijobs und Midijobs",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Für geringfügig Beschäftigte sowie bestimmte Branchen (§ 17 MiLoG) müssen Arbeitgeber Beginn, Ende und Dauer der Arbeitszeit täglich aufzeichnen und 2 Jahre aufbewahren. Nachweispflicht bei Kontrolle durch Zoll.",
+    "rechtsgrundlage": "MiLoG § 17, SchwarzArbG",
+    "quelle_url": "https://www.gesetze-im-internet.de/milog/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Gastronomie",
+        "Einzelhandel",
+        "Transport",
+        "Bau",
+        "Gebäudereinigung",
+        "Landwirtschaft"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "arbeitszeitnachweis"
+  },
+  {
+    "id": "arbeitsrecht-urlaubsgesetz-burl",
+    "title": "Bundesurlaubsgesetz – Mindesturlaub und Übertragung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Jeder Arbeitnehmer hat Anspruch auf mindestens 24 Werktage (20 Arbeitstage bei 5-Tage-Woche) bezahlten Jahresurlaub (§ 3 BUrlG). Nicht genommener Urlaub verfällt am 31.3. des Folgejahres, sofern der Arbeitnehmer in der Lage war, ihn zu nehmen.",
+    "rechtsgrundlage": "BUrlG §§ 3, 7",
+    "quelle_url": "https://www.gesetze-im-internet.de/burlg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-lohnsteuer-anmeldung-monatlich",
+    "title": "Lohnsteuer-Anmeldung (monatlich/quartalsweise)",
+    "category": "Steuer",
+    "beschreibung": "Arbeitgeber müssen die einbehaltene Lohnsteuer monatlich oder vierteljährlich beim Finanzamt anmelden und abführen (§ 41a EStG). Elektronische Übermittlung über ELSTER. Fristen: 10. des Folgemonats.",
+    "rechtsgrundlage": "EStG § 41a",
+    "quelle_url": "https://www.elster.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-umsatzsteuer-innergemeinschaftlich-zusammenfassende-meldung",
+    "title": "Zusammenfassende Meldung (ZM) – innergemeinschaftliche Lieferungen",
+    "category": "Steuer",
+    "beschreibung": "Unternehmer, die innergemeinschaftliche Lieferungen oder Dienstleistungen nach § 18a UStG erbringen, müssen monatlich eine Zusammenfassende Meldung (ZM) ans BZSt übermitteln. Frist: 25. des Folgemonats.",
+    "rechtsgrundlage": "UStG § 18a",
+    "quelle_url": "https://www.bzst.de/DE/Unternehmen/Umsatzsteuer/ZusammenfassendeMeldung/zusammenfassende_meldung_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-sachbezüge-mahlzeitengestellung",
+    "title": "Sachbezüge und Mahlzeitengestellung – Pauschalbesteuerung",
+    "category": "Steuer",
+    "beschreibung": "Geldwerte Vorteile (Sachbezüge) wie Dienstwagen, Essensgutscheine, Handy sind lohnsteuerpflichtig. Sachbezugsfreigrenze: 50 €/Monat. Pauschalbesteuerung möglich (z. B. 25 % für Mahlzeiten § 40 Abs. 2 EStG).",
+    "rechtsgrundlage": "EStG §§ 8, 40 Abs. 2, LStR",
+    "quelle_url": "https://www.gesetze-im-internet.de/estg/__8.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-grunderwerbsteuer-grundstückskauf",
+    "title": "Grunderwerbsteuer beim Grundstückskauf",
+    "category": "Steuer",
+    "beschreibung": "Beim Kauf von Grundstücken und Gebäuden fällt Grunderwerbsteuer an (3,5–6,5 % je Bundesland). Steuerschuldner: Käufer (§ 13 GrEStG). Notar übermittelt Kaufvertrag ans Finanzamt; Bezahlung vor Eigentumsübergang.",
+    "rechtsgrundlage": "GrEStG §§ 1, 13",
+    "quelle_url": "https://www.gesetze-im-internet.de/grestg_1983/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Immobilien",
+        "Bau"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-solidaritätszuschlag-kapitalgesellschaft",
+    "title": "Solidaritätszuschlag (SolZ) auf Körperschaft- und Kapitalertragsteuer",
+    "category": "Steuer",
+    "beschreibung": "Kapitalgesellschaften zahlen weiterhin 5,5 % SolZ auf Körperschaft- und Kapitalertragsteuer (KapESt). Natürliche Personen mit KSt-Freisetzung seit 2021 weitgehend befreit, Kapitalgesellschaften nicht.",
+    "rechtsgrundlage": "SolzG 1995 § 3",
+    "quelle_url": "https://www.gesetze-im-internet.de/solzg_1995/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "eG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesellschaft-umwandlungsgesetz-verschmelzung",
+    "title": "Unternehmensumwandlung – Verschmelzung, Spaltung, Formwechsel",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Umwandlungen nach UmwG (Verschmelzung, Spaltung, Formwechsel) erfordern Umwandlungsbericht, Verschmelzungsplan, Zustimmung der Gesellschafterversammlung und Handelsregistereintragung. Steuerliche Implikationen beachten (UmwStG).",
+    "rechtsgrundlage": "UmwG §§ 1 ff., UmwStG",
+    "quelle_url": "https://www.gesetze-im-internet.de/umwg_1994/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG",
+        "eG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesellschaft-holdingstruktur-konzernrecht",
+    "title": "Konzernrecht und Holding-Struktur (AktG §§ 291 ff.)",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Unterordnungskonzerne (AktG §§ 291 ff.) erfordern Beherrschungs-/Gewinnabführungsverträge. GmbH-Konzernrecht ist weniger streng geregelt; faktische Konzernstrukturen sind aber haftungsrelevant (Existenzvernichtungshaftung).",
+    "rechtsgrundlage": "AktG §§ 291 ff., GmbHG (analog)",
+    "quelle_url": "https://www.gesetze-im-internet.de/aktg/__291.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "mitarbeiter_min": 50
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "berufsrecht-heilpraktikergesetz",
+    "title": "Heilpraktikergesetz – Erlaubnispflicht",
+    "category": "Berufsrecht",
+    "beschreibung": "Wer die Heilkunde berufsmäßig ausübt, ohne Arzt zu sein, benötigt eine Heilpraktikererlaubnis der Gesundheitsbehörde (§ 1 HeilprG). Überprüfung durch Amtsarzt, Kenntnisnachweis. Beschränkte Heilpraktiker nur für Physiotherapie oder Psychotherapie.",
+    "rechtsgrundlage": "HeilprG § 1",
+    "quelle_url": "https://www.gesetze-im-internet.de/heilprg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "Freiberufler",
+        "GmbH",
+        "UG",
+        "GbR"
+      ],
+      "branchen": [
+        "Gesundheitswirtschaft",
+        "Alternative Medizin",
+        "Heilpraktik"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "berufsrecht-immobilienmakler-34c-erlaubnis",
+    "title": "Immobilienmakler-Erlaubnis (§ 34c GewO)",
+    "category": "Berufsrecht",
+    "beschreibung": "Immobilienmakler, Bauträger und Baubetreuer benötigen eine Erlaubnis nach § 34c GewO (Zuverlässigkeit, geordnete Vermögensverhältnisse, Haftpflichtversicherung). Weiterbildungspflicht 20 Stunden/3 Jahre seit 2018.",
+    "rechtsgrundlage": "GewO § 34c, MaBV",
+    "quelle_url": "https://www.gesetze-im-internet.de/gewo/__34c.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Immobilien"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "berufsrecht-finanzanlagenvermittler-34f",
+    "title": "Finanzanlagenvermittler – Erlaubnis § 34f GewO",
+    "category": "Berufsrecht",
+    "beschreibung": "Vermittler von Investmentfonds, Vermögensanlagen und AIF benötigen eine Erlaubnis nach § 34f GewO. Anforderungen: Sachkunde (IHK), Zuverlässigkeit, Haftpflichtversicherung, Registrierung im Vermittlerregister.",
+    "rechtsgrundlage": "GewO § 34f, FinVermV",
+    "quelle_url": "https://www.gesetze-im-internet.de/gewo/__34f.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Finanzen",
+        "Versicherungen",
+        "Immobilien"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "wettbewerbsrecht-uwg-unlautere-werbung",
+    "title": "UWG – Unlautere Werbung und Abmahnrisiken",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Das UWG schützt vor irreführender, aggressiver und sonstiger unlauterer Geschäftspraxis. Häufige Abmahngründe: fehlende Pflichtangaben, irreführende Werbung, unerlaubte E-Mail-Werbung, Cold Calling, Fake-Bewertungen.",
+    "rechtsgrundlage": "UWG §§ 3–7, Anhang zu § 3 Abs. 3",
+    "quelle_url": "https://www.gesetze-im-internet.de/uwg_2004/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "wettbewerbsrecht-kartellrecht-gc-100",
+    "title": "Kartellrecht – Wettbewerbsbeschränkungen (GWB / AEUV Art. 101)",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Unternehmen dürfen keine wettbewerbsbeschränkenden Vereinbarungen (Preisabsprachen, Marktaufteilung) treffen. Marktbeherrschende Unternehmen unterliegen Missbrauchsverbot. Bußgelder bis 10 % des Jahresumsatzes möglich.",
+    "rechtsgrundlage": "GWB §§ 1, 19, AEUV Art. 101, 102",
+    "quelle_url": "https://www.bundeskartellamt.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "wettbewerbsrecht-preiskennzeichnung-peisangabenvo",
+    "title": "Preisangabenverordnung (PAngV) – Pflichtangaben",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Händler müssen Verbrauchern den Gesamtpreis inkl. MwSt. und aller Pflichtabgaben anzeigen. Online: Versandkosten separat ausweisen. Beim Vergleich von Preisen gilt Grundpreis (§ 4 PAngV). Neue PAngV ab 2022.",
+    "rechtsgrundlage": "PAngV 2022",
+    "quelle_url": "https://www.gesetze-im-internet.de/pangv/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Einzelhandel",
+        "Online-Handel",
+        "Gastronomie",
+        "Dienstleistungen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "wettbewerbsrecht-fernabsatz-informationspflichten",
+    "title": "Informationspflichten im Fernabsatz (BGB Art. 246a EGBGB)",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Online-Händler müssen vor Vertragsabschluss umfangreiche Pflichtinformationen bereitstellen: Identität des Unternehmers, wesentliche Merkmale der Ware, Gesamtpreis, Widerrufsbelehrung, Lieferbedingungen, Beschwerdemöglichkeiten.",
+    "rechtsgrundlage": "BGB §§ 312d, 312f, EGBGB Art. 246a",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__312d.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "wettbewerbsrecht-bewertungsmanipulation-verbot",
+    "title": "Verbot gefälschter Bewertungen (UWG § 5)",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Gekaufte Bewertungen, gefälschte Rezensionen und nicht transparente Bewertungssammlungen verstoßen gegen UWG § 5 (Irreführung). Bußgelder möglich. Plattformen müssen Echtheitsnachweise sicherstellen (Omnibus-RL 2022).",
+    "rechtsgrundlage": "UWG § 5, RL 2019/2161/EU (Omnibus-RL)",
+    "quelle_url": "https://www.gesetze-im-internet.de/uwg_2004/__5.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-digital-services-act-dsa",
+    "title": "Digital Services Act (DSA) – Pflichten für Online-Plattformen",
+    "category": "Digitales Recht",
+    "beschreibung": "Der EU DSA gilt ab 2024 für Online-Plattformen: Meldeverfahren für illegale Inhalte, Transparenz über Algorithmen, Werbeverbot für Minderjährige, Risikoberichte (VLOP). Kleinunternehmen haben vereinfachte Pflichten.",
+    "rechtsgrundlage": "EU-VO 2022/2065 (DSA)",
+    "quelle_url": "https://digital-strategy.ec.europa.eu/de/policies/digital-services-act-package",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "IT",
+        "Software",
+        "E-Commerce",
+        "Social Media",
+        "Marktplatz"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-digital-markets-act-dma",
+    "title": "Digital Markets Act (DMA) – Gatekeeper-Regulierung",
+    "category": "Digitales Recht",
+    "beschreibung": "Der EU DMA reguliert seit 2023 sogenannte Gatekeeper (Google, Apple, Meta, Amazon, Microsoft, TikTok). Kleinere Unternehmen sind betroffen als Nutzer von Gatekeeper-Plattformen (Interoperabilitätsanforderungen).",
+    "rechtsgrundlage": "EU-VO 2022/1925 (DMA)",
+    "quelle_url": "https://digital-strategy.ec.europa.eu/de/policies/digital-markets-act",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "IT",
+        "Software",
+        "E-Commerce"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-plattformarbeitsrichtlinie-eu",
+    "title": "EU-Plattformarbeitsrichtlinie – Beschäftigungsstatus",
+    "category": "Digitales Recht",
+    "beschreibung": "Die EU-Plattformarbeitsrichtlinie (2024) stellt Vermutung auf: Plattformarbeiter gelten als abhängig Beschäftigte. Plattformen müssen Beschäftigungsstatus prüfen. Auswirkungen auf Gig-Economy-Unternehmen.",
+    "rechtsgrundlage": "EU-RL 2024/2831 (Plattformarbeit)",
+    "quelle_url": "https://ec.europa.eu/social/main.jsp?catId=1423",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "IT",
+        "Plattformwirtschaft",
+        "Logistik",
+        "Lieferservices"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-e-rechnungspflicht-2025",
+    "title": "E-Rechnungspflicht im B2B (ab Januar 2025)",
+    "category": "Digitales Recht",
+    "beschreibung": "Ab 01.01.2025 müssen inländische B2B-Rechnungen als strukturierte E-Rechnung (ZUGFeRD, XRechnung oder EN 16931) ausgestellt werden können (§ 14 UStG). Übergangsfristen bis 2028 je nach Umsatz.",
+    "rechtsgrundlage": "UStG § 14 (Jahressteuergesetz 2024), EU-RL 2014/55/EU",
+    "quelle_url": "https://www.bundesfinanzministerium.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-open-source-lizenzpflichten",
+    "title": "Open-Source-Lizenzpflichten (GPL, MIT, Apache)",
+    "category": "Digitales Recht",
+    "beschreibung": "Unternehmen, die Open-Source-Software in Produkten verwenden, müssen die jeweiligen Lizenzbedingungen einhalten (Copyleft, Namensnennung, Quellcodeoffenlegung). Verstöße gegen GPL sind Urheberrechtsverletzungen.",
+    "rechtsgrundlage": "UrhG § 69a ff., GPL, LGPL, MIT, Apache 2.0",
+    "quelle_url": "https://www.gnu.org/licenses/licenses.en.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "IT",
+        "Software",
+        "Elektronik",
+        "Maschinenbau"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "geistiges-eigentum-markenanmeldung-dpma",
+    "title": "Markenanmeldung beim DPMA / EUIPO",
+    "category": "Geistiges Eigentum",
+    "beschreibung": "Marken schützen Unternehmenszeichen vor Nachahmung. Anmeldung beim DPMA (nationale Marke, Klassen nach Nizza-Klassifikation) oder EUIPO (EU-Marke, Schutz in 27 Ländern). Schutzrecht entsteht durch Eintragung, nicht Benutzung.",
+    "rechtsgrundlage": "MarkenG §§ 3, 33, EU-VO 2017/1001",
+    "quelle_url": "https://www.dpma.de/marken/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "geistiges-eigentum-patentschutz-dpma",
+    "title": "Patentschutz – Anmeldung und Neuheitsgebot",
+    "category": "Geistiges Eigentum",
+    "beschreibung": "Patente schützen technische Erfindungen für 20 Jahre. Neuheitsgebot: Erfindung darf vor Anmeldung nicht veröffentlicht worden sein. Anmeldung beim DPMA oder EPA (europäisches Patent). Jahresgebühren zur Aufrechterhaltung.",
+    "rechtsgrundlage": "PatG §§ 1, 35, EPÜ",
+    "quelle_url": "https://www.dpma.de/patente/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "geistiges-eigentum-urheberrecht-werke",
+    "title": "Urheberrecht – Schutz von Werken und Software",
+    "category": "Geistiges Eigentum",
+    "beschreibung": "Urheberrechtsschutz entsteht automatisch bei Schöpfung (keine Anmeldung nötig). Gilt für literarische, künstlerische Werke, Fotos, Software (§ 69a UrhG). Nutzungsrechte müssen vertraglich eingeräumt werden. Schutzfrist: 70 Jahre nach Tod.",
+    "rechtsgrundlage": "UrhG §§ 1, 69a, 12",
+    "quelle_url": "https://www.gesetze-im-internet.de/urhg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
   }
 ]

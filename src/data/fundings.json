@@ -26235,5 +26235,675 @@
       ]
     },
     "relevanz_boost": {}
+  },
+  {
+    "id": "bund-invest-bw-markteinführungshilfe",
+    "title": "Markteinführungshilfe für innovative Produkte (BMWK)",
+    "beschreibung": "Bundesförderung für die Markteinführung neuer innovativer Produkte und Dienstleistungen. Zuschüsse für Demonstrations- und Pilotvorhaben. Schwerpunkt: Cleantech, Digitalisierung, Gesundheit.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / PtJ",
+    "max_betrag": 300000,
+    "zins": null,
+    "antrag_url": "https://www.ptj.de/",
+    "bearbeitungszeit_wochen": [
+      8,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Kein innovatives Produkt/Dienstleistung"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Produktbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Marktanalyse",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "GreenTech",
+        "Medizintechnik",
+        "IT",
+        "Biotechnologie"
+      ]
+    }
+  },
+  {
+    "id": "bund-spielzeug-design-kreativwirtschaft-foerderung",
+    "title": "Innovationsgutschein Handwerk (BMBF / HWK)",
+    "beschreibung": "Förderung für handwerkliche Innovationsprojekte: Prozessinnovationen, Betriebsdigitalisierung, neue Dienstleistungen. Gutscheine bis 10.000 € über Handwerkskammern.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / Handwerkskammern",
+    "max_betrag": 10000,
+    "zins": null,
+    "antrag_url": "https://www.zdh.de/",
+    "bearbeitungszeit_wochen": [
+      2,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Kein Handwerksbetrieb"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Innovationsbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Handwerk",
+        "Bau",
+        "Kfz",
+        "SHK",
+        "Elektro"
+      ],
+      "mitarbeiter_max": 49
+    },
+    "relevanz_boost": {
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ]
+    }
+  },
+  {
+    "id": "bund-bundeswaldprämie-forst",
+    "title": "Bundeswaldprämie – Nachhaltige Forstwirtschaft",
+    "beschreibung": "Bundesprämie für klimaangepasste und nachhaltige Waldwirtschaft. 100 €/Hektar Waldprämie für Privat- und Kommunalwaldbesitzer, die auf Kahlschläge verzichten und klimaangepasste Mischwälder aufbauen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMEL",
+    "max_betrag": 100000,
+    "zins": null,
+    "antrag_url": "https://www.bmel.de/DE/themen/wald/bundeswaldpraemie.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Kein Waldbesitz"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Waldbesitznachweis",
+        "auto": false
+      },
+      {
+        "name": "Forstbetriebsnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Verein"
+      ],
+      "branchen": [
+        "Forstwirtschaft",
+        "Landwirtschaft"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-bundesfoerderung-barrierefreiheit-unternehmen",
+    "title": "BMAS – Einstellungshilfen für Schwerbehinderte",
+    "beschreibung": "Integrationsämter und Agentur für Arbeit fördern Einstellung schwerbehinderter Menschen: Eingliederungszuschüsse bis 70 % des Arbeitsentgelts für 24 Monate, Arbeitshilfen, Beschäftigungssicherungszuschüsse.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Integrationsamt / Agentur für Arbeit",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.rehadat-foerderung.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Keine Einstellung eines Schwerbehinderten geplant"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Schwerbehindertennachweis",
+        "auto": false
+      },
+      {
+        "name": "Arbeitsvertrag",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Verein"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-bundesfoerderung-recycling-kreislaufwirtschaft",
+    "title": "Ressourceneffizienz-Programm (ProgRess III)",
+    "beschreibung": "Bundesförderprogramm für Ressourceneffizienz und Kreislaufwirtschaft: Beratung, Pilotprojekte, Demonstrationsanlagen für geschlossene Materialkreisläufe. Fördersätze bis 50 % der Projektkosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "UBA / BMUV",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.umweltbundesamt.de/themen/wirtschaft-konsum/ressourcenschonung",
+    "bearbeitungszeit_wochen": [
+      8,
+      20
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Materialbilanz",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Produktion",
+        "Chemie",
+        "Kunststoff",
+        "Textil",
+        "Bau",
+        "Elektronik"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-gründercoaching-deutschland-kfw",
+    "title": "KfW-Gründercoaching Deutschland",
+    "beschreibung": "Zuschüsse zu Coaching-Kosten für Unternehmen bis 5 Jahre nach Gründung. Beratung zu Unternehmensführung, Personal, Marketing, Finanzierung. 50 % Förderanteil (neue Bundesländer: 70 %). Max. 10 Tagessätze.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "KfW / BAFA",
+    "max_betrag": 4000,
+    "zins": null,
+    "antrag_url": "https://www.kfw.de/",
+    "bearbeitungszeit_wochen": [
+      2,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen älter als 5 Jahre"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Gewerbeanmeldung",
+        "auto": false
+      },
+      {
+        "name": "Coach-Angebot",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "relevanz_boost": {
+      "gruendungsjahr": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ]
+    }
+  },
+  {
+    "id": "eu-erc-starting-grant-forschung",
+    "title": "ERC Starting Grant – Exzellenzforschung",
+    "beschreibung": "Europäischer Forschungsrat fördert bahnbrechende Grundlagenforschung von Nachwuchswissenschaftlern (2–7 Jahre nach Promotion) mit bis zu 1,5 Mio. €. Auch für industrienahe Forschung an Hochschulen relevant.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "European Research Council (ERC)",
+    "max_betrag": 1500000,
+    "zins": null,
+    "antrag_url": "https://erc.europa.eu/funding/starting-grants",
+    "bearbeitungszeit_wochen": [
+      20,
+      52
+    ],
+    "ausschlusskriterien": [
+      "Mehr als 7 Jahre nach Promotion",
+      "Kein Hochschulbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Forschungsvorschlag",
+        "auto": false
+      },
+      {
+        "name": "CV",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Biotechnologie",
+        "KI",
+        "Quantentechnologie",
+        "Physik",
+        "Chemie"
+      ]
+    }
+  },
+  {
+    "id": "eu-interreg-grenzüberschreitend",
+    "title": "Interreg – Grenzüberschreitende Zusammenarbeit",
+    "beschreibung": "EU-Programm für territoriale Kooperation zwischen Regionen verschiedener Mitgliedstaaten. Fördert gemeinsame Projekte in Wirtschaft, Forschung, Tourismus, Umwelt an Grenzen. Kofinanzierung 60–75 %.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission / Länder",
+    "max_betrag": 2000000,
+    "zins": null,
+    "antrag_url": "https://www.interreg.eu/",
+    "bearbeitungszeit_wochen": [
+      16,
+      52
+    ],
+    "ausschlusskriterien": [
+      "Kein grenzüberschreitender Partnercharakter"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Partnervereinbarung",
+        "auto": false
+      },
+      {
+        "name": "Projektantrag",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "Verein",
+        "GbR"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Tourismus",
+        "Umwelttechnik",
+        "GreenTech",
+        "Bildung"
+      ]
+    }
+  },
+  {
+    "id": "bw-lea-ladestationen-elektromobilitaet",
+    "title": "BW-Förderung Ladeinfrastruktur Elektromobilität",
+    "beschreibung": "Baden-Württemberg fördert öffentlich zugängliche Ladeinfrastruktur und betriebliche Ladesäulen. Zuschüsse bis 50 % der Investitionskosten für AC- und DC-Ladeinfrastruktur an Gewerbestandorten.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "L-Bank / Landesministerium BW",
+    "max_betrag": 100000,
+    "zins": null,
+    "antrag_url": "https://www.l-bank.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb BW",
+      "Privathaushalt"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Kostenvoranschlag",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ],
+      "branchen": [
+        "Handel",
+        "Produktion",
+        "Transport",
+        "Immobilien"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bay-digitalbonus-foerderung",
+    "title": "Digitalbonus Bayern – IT-Sicherheit und Digitalisierung",
+    "beschreibung": "Bayerisches KMU-Förderprogramm für IT-Sicherheitsmaßnahmen und Digitalisierungsprojekte. Standard: bis 10.000 € (50 %), Plus: bis 50.000 € (50 %) für fortgeschrittene Projekte. Kombinierbar mit BAFA.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Bayerisches Staatsministerium für Wirtschaft",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.digitalbonus.bayern/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb Bayern",
+      "Großunternehmen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Kostenplan",
+        "auto": false
+      },
+      {
+        "name": "IT-Sicherheitskonzept (für Plus)",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT",
+        "Handel",
+        "Produktion",
+        "Handwerk",
+        "Dienstleistungen"
+      ]
+    }
+  },
+  {
+    "id": "nrw-startercenter-gründungsberatung",
+    "title": "NRW – Startercenter Gründungsberatung",
+    "beschreibung": "Kostenlose Erstberatung für Gründungsvorhaben in NRW über das Netzwerk der Startercenter. Businessplan-Check, Fördermittelberatung, Vermittlung an Experten. Keine direkte Geldförderung, aber Wert von mehreren tausend Euro.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "NRW Wirtschaftsministerium / IHK",
+    "max_betrag": null,
+    "zins": null,
+    "antrag_url": "https://www.startercenter.nrw/",
+    "bearbeitungszeit_wochen": [
+      1,
+      4
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb NRW"
+    ],
+    "benoetigte_dokumente": [],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ]
+    },
+    "relevanz_boost": {
+      "gruendungsjahr": [
+        "2023",
+        "2024",
+        "2025"
+      ]
+    }
+  },
+  {
+    "id": "bund-kfw-erneuerbare-offshore-windpark",
+    "title": "KfW Offshore Windenergie – Projektfinanzierung",
+    "beschreibung": "KfW-Finanzierung für Offshore-Windparks in der deutschen Ausschließlichen Wirtschaftszone (AWZ). Langfristige Projektfinanzierung ohne Rückgriff auf die Bilanz des Unternehmens. Garantien und Bürgschaften möglich.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW",
+    "max_betrag": 500000000,
+    "zins": "individuell",
+    "antrag_url": "https://www.kfw.de/",
+    "bearbeitungszeit_wochen": [
+      26,
+      78
+    ],
+    "ausschlusskriterien": [
+      "Kein Windenergieprojekt"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Genehmigungsbescheid",
+        "auto": false
+      },
+      {
+        "name": "Projektfinanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "Windenergie",
+        "Energie",
+        "GreenTech"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-mikrokreditfonds-deutschland",
+    "title": "Mikrokreditfonds Deutschland – Kleinstkredite",
+    "beschreibung": "Kleinstkredite bis 25.000 € für Kleinstunternehmen und Selbstständige, die keinen Bankkredit erhalten. Finanziert über Microfinance-Institute. Geeignet für Gründer und Unternehmen in Wachstumsphase ohne ausreichende Sicherheiten.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "BMWK / Mikrokreditfonds",
+    "max_betrag": 25000,
+    "zins": "ab 7,9 % eff.",
+    "antrag_url": "https://www.mikrokreditfonds.de/",
+    "bearbeitungszeit_wochen": [
+      2,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Kreditbedarf > 25.000 €",
+      "Immobilienfinanzierung"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Finanzplanung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "mitarbeiter_max": 9
+    },
+    "relevanz_boost": {
+      "gruendungsjahr": [
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ]
+    }
+  },
+  {
+    "id": "bund-ifo-kurzarbeit-qualifizierungsfoerderung",
+    "title": "Qualifizierungsoffensive – Förderung während Kurzarbeit (BMAS)",
+    "beschreibung": "Während Kurzarbeit können Betriebe Weiterbildungsmaßnahmen ihrer Arbeitnehmer fördern lassen: BA übernimmt Lehrgangskosten und erstattet teilweise Sozialversicherungsbeiträge (§ 106a SGB III).",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesagentur für Arbeit",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.arbeitsagentur.de/unternehmen/finanziell/foerderung-von-weiterbildung",
+    "bearbeitungszeit_wochen": [
+      2,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Kein Kurzarbeitergeld-Bezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Kurzarbeitsanzeige",
+        "auto": false
+      },
+      {
+        "name": "Maßnahmenplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "eu-cosme-garantieprogramm-kmu",
+    "title": "COSME / InvestEU – KMU-Bürgschaften über Hausbanken",
+    "beschreibung": "EU-Garantieprogramm (im Rahmen InvestEU seit 2021) erleichtert KMU-Kredite durch Bürgschaften: Hausbanken können günstigere Konditionen anbieten. Kein direkter Antrag – über teilnehmende Banken in Deutschland.",
+    "typ": "Bürgschaft",
+    "quelle": "EU",
+    "foerderer": "EIF / Europäische Investitionsbank",
+    "max_betrag": 1500000,
+    "zins": null,
+    "antrag_url": "https://www.eif.org/",
+    "bearbeitungszeit_wochen": [
+      2,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Großunternehmen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Kreditantrag bei Hausbank",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {}
   }
 ]

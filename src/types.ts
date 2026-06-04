@@ -30,6 +30,8 @@ export type DokumentTyp =
   | 'arbeitsvertrag'
   | 'sozialversicherung-anmeldung'
   | 'gewaehrleistung-agb'
+  | 'aufhebungsvertrag'
+  | 'datenschutz-einwilligung'
 
 export interface GiltFuer {
   rechtsformen: string[]
