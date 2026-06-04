@@ -83,8 +83,7 @@ export default function LoginPage() {
           <SignIn
             routing="path"
             path="/login"
-            afterSignInUrl="/"
-            afterSignUpUrl="/"
+            fallbackRedirectUrl="/"
             appearance={{
               layout: { showOptionalFields: false },
               elements: {

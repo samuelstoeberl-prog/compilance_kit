@@ -69,9 +69,9 @@ export default function App() {
         element={isSignedIn ? <Navigate to="/dashboard" replace /> : <PreviewPage />}
       />
 
-      {/* Login: eingeloggte Nutzer weiterleiten */}
+      {/* Login: eingeloggte Nutzer weiterleiten — /login/* für Clerk-Sub-Routen (verify etc.) */}
       <Route
-        path="/login"
+        path="/login/*"
         element={
           isSignedIn
             ? <Navigate to="/dashboard" replace />
