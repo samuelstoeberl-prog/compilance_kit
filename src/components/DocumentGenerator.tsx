@@ -21,6 +21,7 @@ import {
   handelsvertreterVertragTemplate,
   gewerberaummietvertragTemplate,
   lizenzvertragTemplate,
+  dsbBestellungTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -52,6 +53,7 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   'handelsvertreter-vertrag': 'Handelsvertretervertrag',
   gewerberaummietvertrag: 'Gewerberaummietvertrag',
   lizenzvertrag: 'Lizenzvertrag (Software/IP/Marke)',
+  'dsb-bestellung': 'DSB-Bestellungsurkunde',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -101,6 +103,7 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'handelsvertreter-vertrag': return applyTemplate(handelsvertreterVertragTemplate, vars)
     case 'gewerberaummietvertrag': return applyTemplate(gewerberaummietvertragTemplate, vars)
     case 'lizenzvertrag': return applyTemplate(lizenzvertragTemplate, vars)
+    case 'dsb-bestellung': return applyTemplate(dsbBestellungTemplate, vars)
   }
 }
 

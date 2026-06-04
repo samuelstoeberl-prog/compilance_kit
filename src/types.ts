@@ -39,6 +39,7 @@ export type DokumentTyp =
   | 'handelsvertreter-vertrag'
   | 'gewerberaummietvertrag'
   | 'lizenzvertrag'
+  | 'dsb-bestellung'
 
 export interface GiltFuer {
   rechtsformen: string[]

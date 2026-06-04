@@ -29302,5 +29302,456 @@
     },
     "hat_dokument_generator": true,
     "dokument_typ": "datenschutz-einwilligung"
+  },
+  {
+    "id": "dsb-pflicht-001",
+    "title": "Datenschutzbeauftragter – Bestellungspflicht ab 20 Personen",
+    "category": "Datenschutz",
+    "beschreibung": "Ab 20 Personen, die ständig mit automatisierter Datenverarbeitung beschäftigt sind, muss ein Datenschutzbeauftragter bestellt werden. In bestimmten Fällen (Art. 37 DSGVO) gilt die Pflicht unabhängig von der Personenzahl.",
+    "rechtsgrundlage": "DSGVO Art. 37, BDSG § 38",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/DSB_Bestellpflicht.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 20
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "dsb-bestellung"
+  },
+  {
+    "id": "dsb-pflicht-002",
+    "title": "Datenschutzbeauftragter – Meldung an Aufsichtsbehörde",
+    "category": "Datenschutz",
+    "beschreibung": "Die Benennung eines Datenschutzbeauftragten muss der zuständigen Datenschutz-Aufsichtsbehörde mitgeteilt werden. Kontaktdaten des DSB sind auf der Website zu veröffentlichen.",
+    "rechtsgrundlage": "DSGVO Art. 37 Abs. 7",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/DSB_Bestellpflicht.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 20
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "dsb-bestellung"
+  },
+  {
+    "id": "dsb-pflicht-003",
+    "title": "Externer Datenschutzbeauftragter – Bestellung",
+    "category": "Datenschutz",
+    "beschreibung": "Kleine Unternehmen können statt eines internen einen externen DSB beauftragen. Der externe DSB muss die erforderliche Fachkunde und Zuverlässigkeit besitzen und darf keinen Interessenkonflikt haben.",
+    "rechtsgrundlage": "DSGVO Art. 37, Art. 38, BDSG § 38",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/DSB_Bestellpflicht.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "dsb-bestellung"
+  },
+  {
+    "id": "dpia-pflicht-001",
+    "title": "Datenschutz-Folgenabschätzung – Wann Pflicht?",
+    "category": "Datenschutz",
+    "beschreibung": "Eine DPIA ist Pflicht bei Hochrisikovorhaben: Profiling, Videoüberwachung, Big Data Analytics, Verarbeitung besonderer Kategorien. Die Aufsichtsbehörde veröffentlicht Positivlisten.",
+    "rechtsgrundlage": "DSGVO Art. 35",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/DSFA.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "datenschutz-folgenabschaetzung"
+  },
+  {
+    "id": "dpia-pflicht-002",
+    "title": "KI-Systeme – DPIA-Pflicht",
+    "category": "Datenschutz",
+    "beschreibung": "Der Einsatz von KI-Systemen zur automatisierten Entscheidungsfindung oder zum Profiling erfordert in der Regel eine Datenschutz-Folgenabschätzung nach Art. 35 DSGVO.",
+    "rechtsgrundlage": "DSGVO Art. 35, EU AI Act Art. 9",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/DSFA.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Technologie",
+        "KI",
+        "Finanzdienstleistungen",
+        "Gesundheit"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "datenschutz-folgenabschaetzung"
+  },
+  {
+    "id": "dsgvo-auskunft-001",
+    "title": "Auskunftspflicht gegenüber Betroffenen",
+    "category": "Datenschutz",
+    "beschreibung": "Betroffene Personen haben das Recht auf Auskunft über verarbeitete Daten. Unternehmen müssen innerhalb von 1 Monat antworten. Prozesse und Formulare für Auskunftsanfragen sollten etabliert sein.",
+    "rechtsgrundlage": "DSGVO Art. 15",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/Auskunftsrecht.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dsgvo-loeschung-001",
+    "title": "Recht auf Löschung – Prozesse implementieren",
+    "category": "Datenschutz",
+    "beschreibung": "Betroffene können Löschung ihrer Daten verlangen. Unternehmen müssen Löschprozesse implementieren, die alle Systeme, Backups und verbundene Auftragsverarbeiter einschließen.",
+    "rechtsgrundlage": "DSGVO Art. 17",
+    "quelle_url": "https://www.bfdi.bund.de/DE/Datenschutz/Ueberblick/MeineRechte/Artikel/Loeschung.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-plattform-001",
+    "title": "Plattformhaftung – Hosting-Privileg",
+    "category": "Digitales Recht",
+    "beschreibung": "Hosting-Provider und Plattformen haften nicht für von Nutzern eingestellte Inhalte, sofern sie keine Kenntnis haben und unverzüglich handeln (DSA Art. 6, TMG § 10 alt). Inhaltemoderation ist Pflicht.",
+    "rechtsgrundlage": "DSA Art. 6, TMG § 10 (alt), UrhG § 97",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32022R2065",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Technologie",
+        "Plattformen",
+        "E-Commerce"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "digital-domainhaftung-001",
+    "title": "Domain und Markenrecht – Cybersquatting",
+    "category": "Geistiges Eigentum",
+    "beschreibung": "Domain-Registrierung mit fremden Marken- oder Firmennamen ist unzulässig. Markeninhaber können Domainübertragung oder -löschung verlangen. UDRP-Verfahren bei ICANN möglich.",
+    "rechtsgrundlage": "MarkenG § 14, § 15, UWG § 5",
+    "quelle_url": "https://www.dpma.de/marken/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "mwst-dreiecksgesch-001",
+    "title": "Innergemeinschaftliche Lieferungen – Nachweispflicht",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Innergemeinschaftliche Lieferungen sind umsatzsteuerfrei, wenn der Erwerber eine gültige USt-IdNr. hat und die Steuerfreiheit nachgewiesen wird (Gelangensbestätigung, CMR-Frachtbrief).",
+    "rechtsgrundlage": "UStG § 6a, UStDV § 17a–17d",
+    "quelle_url": "https://www.gesetze-im-internet.de/ustg_1980/__6a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Handel",
+        "Produktion",
+        "Export"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "ges-kapitalerhalt-001",
+    "title": "Stammkapital – Erhaltungs- und Auffüllungspflicht",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Das Stammkapital der GmbH (mindest 25.000 €) darf nicht an Gesellschafter ausgezahlt werden, sofern dadurch das Stammkapital unterschritten würde. Rückzahlungspflicht bei verdeckten Gewinnausschüttungen.",
+    "rechtsgrundlage": "GmbHG §§ 30, 31",
+    "quelle_url": "https://www.gesetze-im-internet.de/gmbhg/__30.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "ges-ug-ruecklage-001",
+    "title": "UG (haftungsbeschränkt) – Rücklagenpflicht",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Die UG muss 25% ihres Jahresüberschusses in eine gesetzliche Rücklage einstellen, bis das Stammkapital 25.000 € erreicht. Erst dann kann sie zur regulären GmbH umgewandelt werden.",
+    "rechtsgrundlage": "GmbHG § 5a",
+    "quelle_url": "https://www.gesetze-im-internet.de/gmbhg/__5a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "UG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbr-nettolohn-001",
+    "title": "Nettolohnvereinbarungen und Lohnpfändung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei Nettolohnvereinbarungen muss der Arbeitgeber die Steuern und Sozialversicherungsbeiträge tragen. Pfändungsfreigrenzen sind beim P-Konto und Lohnpfändung zu beachten.",
+    "rechtsgrundlage": "ZPO §§ 850–850f, EStG § 40",
+    "quelle_url": "https://www.gesetze-im-internet.de/zpo/__850.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbr-urlaubsrecht-001",
+    "title": "Urlaubsrecht – Mindesturlaub und Übertragung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Mindesturlaub: 20 Werktage (5-Tage-Woche). Urlaubsabgeltung ist bei Vertragsende Pflicht. Resturlaub kann bis 31.03. des Folgejahres übertragen werden (BAG-Urteil 2023: kein automatischer Verfall).",
+    "rechtsgrundlage": "BUrlG §§ 1–13, BAG-Urteil 20.12.2022",
+    "quelle_url": "https://www.gesetze-im-internet.de/burlg/__1.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sv-entgeltfortz-001",
+    "title": "Entgeltfortzahlung im Krankheitsfall",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitgeber müssen im Krankheitsfall bis zu 6 Wochen 100% des Entgelts weiterzahlen. Für Kleinstbetriebe gibt es das U1-Ausgleichsverfahren für Erstattungen.",
+    "rechtsgrundlage": "EntgFG §§ 3–6, AAG § 1",
+    "quelle_url": "https://www.gesetze-im-internet.de/entgfg/__3.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sv-mutterschaft-001",
+    "title": "Mutterschutz – Arbeitgeberpflichten",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Schwangere Mitarbeiterinnen genießen Sonderkündigungsschutz. Arbeitgeber müssen die Aufsichtsbehörde und die Krankenkasse informieren und einen Mutterschutzarbeitsplatz einrichten.",
+    "rechtsgrundlage": "MuSchG §§ 9–29",
+    "quelle_url": "https://www.gesetze-im-internet.de/muschg_2018/__9.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vrb-abonnement-001",
+    "title": "Abonnement-Fallen – Button-Lösung",
+    "category": "Vertragsrecht",
+    "beschreibung": "Online-Bestellungen müssen durch einen Bestell-Button mit klarer Kennzeichnung ('zahlungspflichtig bestellen') abgeschlossen werden. Fehlt die Button-Lösung, ist der Vertrag nichtig.",
+    "rechtsgrundlage": "BGB § 312j",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__312j.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "E-Commerce",
+        "Technologie",
+        "SaaS"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vrb-abo-kuend-001",
+    "title": "Kündigungsbutton – Pflicht ab 2022",
+    "category": "Vertragsrecht",
+    "beschreibung": "Seit Juli 2022 müssen Unternehmen auf ihrer Website einen einfach zugänglichen Kündigungsbutton ('Verträge hier kündigen') bereitstellen.",
+    "rechtsgrundlage": "BGB § 312k",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__312k.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "E-Commerce",
+        "Technologie",
+        "SaaS",
+        "Abonnements"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "brand-001",
+    "title": "Brandschutz – Arbeitsstättenverordnung",
+    "category": "Arbeitsschutzrecht",
+    "beschreibung": "Arbeitgeber müssen Brandschutzmaßnahmen (Feuerlöscher, Notbeleuchtung, Fluchtwege) einrichten und regelmäßige Brandschutzübungen und -unterweisungen durchführen.",
+    "rechtsgrundlage": "ArbStättV § 4, ASR A2.2, ArbSchG § 3",
+    "quelle_url": "https://www.baua.de/DE/Themen/Arbeitsgestaltung-im-Betrieb/Arbeitsstaetten/ASR/ASR-A2-2/ASR-A2-2_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "arbeitsschutz-unterweisung"
+  },
+  {
+    "id": "gefahrstoffe-001",
+    "title": "Gefahrstoffverordnung – Sicherheitsdatenblätter",
+    "category": "Arbeitsschutzrecht",
+    "beschreibung": "Unternehmen, die Gefahrstoffe verwenden, müssen Sicherheitsdatenblätter bereithalten, Beschäftigte unterweisen und ein Gefahrstoffverzeichnis führen.",
+    "rechtsgrundlage": "GefStoffV §§ 6, 14, REACH",
+    "quelle_url": "https://www.baua.de/DE/Themen/Arbeitsgestaltung-im-Betrieb/Gefahrstoffe/gefahrstoffe_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Chemie",
+        "Produktion",
+        "Handwerk",
+        "Bau"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "arbeitsschutz-unterweisung"
   }
 ]
