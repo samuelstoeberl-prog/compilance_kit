@@ -24169,5 +24169,802 @@
       ]
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "ausw-exportkontrolle-awg",
+    "title": "Exportkontrolle – Ausfuhrgenehmigungspflicht (AWG / EG-Dual-Use)",
+    "category": "Außenwirtschaft",
+    "beschreibung": "Bestimmte Güter (Dual-Use-Waren, Rüstungsgüter, Software) dürfen nur mit Ausfuhrgenehmigung des BAFA exportiert werden. EU-Dual-Use-Verordnung 2021/821. Sanktionslisten-Screening vor jedem Export Pflicht.",
+    "rechtsgrundlage": "AWG § 4, AWV, EU-VO 2021/821 (Dual-Use)",
+    "quelle_url": "https://www.bafa.de/DE/Aussenwirtschaft/Ausfuhrkontrolle/ausfuhrkontrolle_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Maschinenbau",
+        "Elektronik",
+        "IT",
+        "Chemie",
+        "Rüstung",
+        "Optik"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "ausw-sanktionsrecht-eu-screening",
+    "title": "EU-Sanktionen – Compliance-Pflicht für Unternehmen",
+    "category": "Außenwirtschaft",
+    "beschreibung": "Unternehmen müssen vor Geschäftsabschlüssen Sanktionslisten prüfen (EU, UN, OFAC). Verstöße gegen EU-Sanktionen sind strafbar. Sanktions-Compliance-Programme und regelmäßige Listenabgleiche sind Pflicht.",
+    "rechtsgrundlage": "AWG § 18, EU-Sanktionsverordnungen",
+    "quelle_url": "https://www.bafa.de/DE/Aussenwirtschaft/Sanktionen_Embargos/sanktionen_embargos_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "ausw-zollrecht-zollanmeldung",
+    "title": "Zollrecht – Zollanmeldung und Zolltarifnummern",
+    "category": "Außenwirtschaft",
+    "beschreibung": "Alle Waren, die in die EU ein- oder aus der EU ausgeführt werden, müssen beim Zoll angemeldet werden. Zolltarifnummern (KN/HS-Code) bestimmen Zollsatz und Einfuhrumsatzsteuer. ATLAS-Verfahren für elektronische Zollanmeldungen.",
+    "rechtsgrundlage": "UZK (EU) 952/2013, ZollVG",
+    "quelle_url": "https://www.zoll.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Import/Export",
+        "Handel",
+        "Produktion",
+        "Logistik"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "ausw-eori-nummer",
+    "title": "EORI-Nummer – Pflicht für Import/Export in die EU",
+    "category": "Außenwirtschaft",
+    "beschreibung": "Alle Wirtschaftsbeteiligten, die Zollanmeldungen abgeben oder zollrechtliche Entscheidungen beantragen, benötigen eine EORI-Nummer (Economic Operators' Registration and Identification). Beantragung beim Hauptzollamt.",
+    "rechtsgrundlage": "UZK Art. 9",
+    "quelle_url": "https://www.zoll.de/DE/Fachthemen/Zoelle/EORI-Nummer/eori-nummer_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Import/Export",
+        "Handel",
+        "Logistik",
+        "Produktion"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "ausw-ursprungszeugnis-präferenznachweis",
+    "title": "Ursprungszeugnis und Präferenznachweis",
+    "category": "Außenwirtschaft",
+    "beschreibung": "Für zollrechtliche Vergünstigungen (Freihandelsabkommen) muss ein Ursprungszeugnis oder REX-Erklärung ausgestellt werden. Falsche Ursprungsangaben sind strafbar. IHK-Zertifizierung erforderlich.",
+    "rechtsgrundlage": "UZK, Freihandelsabkommen (EU-UK, EU-Japan etc.)",
+    "quelle_url": "https://www.ihk.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Import/Export",
+        "Produktion",
+        "Handel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "insolvenz-insolvenzantragspflicht-geschäftsführer",
+    "title": "Insolvenzantragspflicht – 6-Wochen-Frist (§ 15a InsO)",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Geschäftsführer von Kapitalgesellschaften müssen bei Zahlungsunfähigkeit oder Überschuldung spätestens 6 Wochen nach Eintritt Insolvenzantrag stellen (§ 15a InsO). Verspäteter Antrag führt zu persönlicher Haftung und Strafbarkeit.",
+    "rechtsgrundlage": "InsO § 15a, StGB § 15a",
+    "quelle_url": "https://www.gesetze-im-internet.de/inso/__15a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "eG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "insolvenz-schutzschirmverfahren-eigenverwaltung",
+    "title": "Schutzschirmverfahren und Eigenverwaltung (§§ 270–270d InsO)",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Drohend zahlungsunfähige Unternehmen können ein Schutzschirmverfahren beantragen (§ 270b InsO) und einen Insolvenzplan erarbeiten. Eigenverwaltung ermöglicht Sanierung unter Aufsicht eines Sachwalters ohne Insolvenzverwaltung.",
+    "rechtsgrundlage": "InsO §§ 270, 270a, 270b, 270d",
+    "quelle_url": "https://www.gesetze-im-internet.de/inso/__270.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG",
+        "eG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "insolvenz-anfechtung-gläubiger",
+    "title": "Insolvenzanfechtung – Rückforderung von Zahlungen",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Der Insolvenzverwalter kann Zahlungen der letzten 4 Jahre anfechten, wenn der Gläubiger die Zahlungsunfähigkeit kannte oder vorsätzliche Benachteiligung vorlag. Gläubiger sollten Zahlungen dokumentieren.",
+    "rechtsgrundlage": "InsO §§ 129–147",
+    "quelle_url": "https://www.gesetze-im-internet.de/inso/__129.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-abschreibung-afa-bewegliche-wirtschaftsgüter",
+    "title": "Abschreibung (AfA) – Nutzungsdauer und Sonderabschreibungen",
+    "category": "Steuer",
+    "beschreibung": "Wirtschaftsgüter werden über die betriebsgewöhnliche Nutzungsdauer abgeschrieben. Degressive AfA (25 %, max. 2,5x linear) für Anschaffungen 2020–2026. Sonderabschreibung nach § 7g EStG: 20 % zusätzlich für Kleinunternehmen.",
+    "rechtsgrundlage": "EStG §§ 7, 7g",
+    "quelle_url": "https://www.gesetze-im-internet.de/estg/__7.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-investitionsabzugsbetrag-§7g",
+    "title": "Investitionsabzugsbetrag (IAB) nach § 7g EStG",
+    "category": "Steuer",
+    "beschreibung": "KMU können bis zu 50 % geplanter Investitionen (max. 200.000 € IAB) bereits im Jahr vor der Anschaffung steuerlich abziehen. Voraussetzung: Betriebsvermögen ≤ 235.000 €. Investition muss innerhalb 3 Jahre erfolgen.",
+    "rechtsgrundlage": "EStG § 7g",
+    "quelle_url": "https://www.gesetze-im-internet.de/estg/__7g.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-forschungsförderungsgesetz-fzulg",
+    "title": "Forschungsförderungsgesetz (FZulG) – Steuerliche FuE-Förderung",
+    "category": "Steuer",
+    "beschreibung": "Unternehmen erhalten 25 % Forschungszulage auf FuE-Personalkosten (bis 10 Mio. € Bemessungsgrundlage), also max. 2,5 Mio. €/Jahr. Auch für Auftragsforschung und kleine Unternehmen geeignet. Antrag beim BSFZ.",
+    "rechtsgrundlage": "FZulG §§ 1–10",
+    "quelle_url": "https://www.bsfz.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-steuerliche-behandlung-kryptowährungen",
+    "title": "Kryptowährungen – Steuerliche Behandlung (EStG § 22 Nr. 2)",
+    "category": "Steuer",
+    "beschreibung": "Gewinne aus dem Verkauf von Kryptowährungen innerhalb der Spekulationsfrist (1 Jahr) sind steuerpflichtig (§ 22 Nr. 2 EStG, § 23 Abs. 1 Nr. 2). Mining ist gewerbliche Tätigkeit. Staking-Erträge: Einzelfallbeurteilung.",
+    "rechtsgrundlage": "EStG §§ 22, 23, BMF-Schreiben 2022",
+    "quelle_url": "https://www.bundesfinanzministerium.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "steuer-umsatzsteuer-one-stop-shop-oss",
+    "title": "One-Stop-Shop (OSS) – Umsatzsteuer EU-Fernverkäufe",
+    "category": "Steuer",
+    "beschreibung": "EU-Händler, die Waren an Verbraucher in anderen EU-Staaten liefern (> 10.000 €/Jahr), müssen OSS nutzen oder sich in jedem Land registrieren. OSS ermöglicht zentrale Abgabe der USt-Erklärung für alle EU-Länder.",
+    "rechtsgrundlage": "UStG §§ 18j, 18k, EU-MwSt-RL 2017/2455",
+    "quelle_url": "https://www.bzst.de/DE/Unternehmen/Umsatzsteuer/OneStopShop/oneStopShop_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "E-Commerce",
+        "Handel",
+        "Online-Handel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-tarifbindung-allgemeinverbindlich",
+    "title": "Tarifbindung und Allgemeinverbindlichkeit (§ 5 TVG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Allgemeinverbindlich erklärte Tarifverträge (§ 5 TVG) gelten für alle Arbeitgeber der Branche, auch wenn sie nicht Mitglied im Arbeitgeberverband sind. Mindestarbeitsbedingungen (z. B. Bau, Reinigung, Pflege) unbedingt einhalten.",
+    "rechtsgrundlage": "TVG § 5",
+    "quelle_url": "https://www.bmas.de/DE/Arbeit/Arbeitsrecht/Tarifrecht/tarifrecht.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Bau",
+        "Reinigung",
+        "Pflege",
+        "Gastronomie",
+        "Lebensmittel",
+        "Sicherheit"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-urheberrecht-arbeitnehmer",
+    "title": "Arbeitnehmerurheberrecht – Nutzungsrechte an Arbeitsergebnissen",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Schöpfungen von Arbeitnehmern im Rahmen ihrer Arbeitsaufgaben stehen grundsätzlich dem Arbeitnehmer zu (UrhG § 43). Nutzungsrechte müssen im Arbeitsvertrag eingeräumt werden. Ausnahme: Software nach § 69b UrhG.",
+    "rechtsgrundlage": "UrhG §§ 43, 69b",
+    "quelle_url": "https://www.gesetze-im-internet.de/urhg/__43.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "IT",
+        "Medien",
+        "Design",
+        "Werbung",
+        "Architektur"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitsrecht-arbeitskampfrecht-streik",
+    "title": "Arbeitskampfrecht – Streik und Aussperrung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitskämpfe (Streik, Aussperrung) sind nur im Rahmen von Tarifverhandlungen zulässig (Ultima-Ratio-Prinzip). Wildcat-Streiks sind rechtswidrig. Arbeitgeber müssen Streikbrecher-Strategien mit Betriebsrat abstimmen.",
+    "rechtsgrundlage": "GG Art. 9 Abs. 3, Richterrecht (BAG)",
+    "quelle_url": "https://www.bmas.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 20
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-klimaschutzgesetz-sektorenziele",
+    "title": "Bundes-Klimaschutzgesetz (KSG) – Sektorenziele",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Das Klimaschutzgesetz setzt verbindliche Treibhausgas-Minderungsziele je Sektor (Energie, Industrie, Gebäude, Verkehr, Landwirtschaft, Abfall). Unternehmen in emissionsintensiven Sektoren müssen auf Klimaneutralität 2045 ausrichten.",
+    "rechtsgrundlage": "KSG §§ 3, 4",
+    "quelle_url": "https://www.gesetze-im-internet.de/ksg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG"
+      ],
+      "branchen": [
+        "Energie",
+        "Stahl",
+        "Chemie",
+        "Zement",
+        "Landwirtschaft",
+        "Transport"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-deforestation-eu-verordnung",
+    "title": "EU-Entwaldungsverordnung (EUDR) – Sorgfaltspflichten",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Ab Ende 2024/2025: Unternehmen, die Soja, Rinder, Palmöl, Holz, Kakao, Kaffee, Kautschuk (und daraus hergestellte Produkte) einführen oder im EU-Markt platzieren, müssen Entwaldungsfreiheit nachweisen (EUDR).",
+    "rechtsgrundlage": "EU-VO 2023/1115 (EUDR)",
+    "quelle_url": "https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Lebensmittel",
+        "Import/Export",
+        "Landwirtschaft",
+        "Holz",
+        "Papier",
+        "Schokolade"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "umwelt-mikroplastik-kosmetikverbot",
+    "title": "Mikroplastik-Beschränkungen (EU REACH Anhang XVII)",
+    "category": "Umwelt",
+    "beschreibung": "Die EU-REACH-Beschränkung für absichtlich zugesetzte Mikroplastik-Partikel tritt schrittweise ab Oktober 2023 in Kraft. Betroffen: Kosmetika, Waschmittel, Farben, Düngemittel, Granulat für Sportplätze.",
+    "rechtsgrundlage": "REACH Anhang XVII Nr. 78, EU-VO 2023/2055",
+    "quelle_url": "https://echa.europa.eu/de/hot-topics/microplastics",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Kosmetik",
+        "Chemie",
+        "Bau",
+        "Landwirtschaft",
+        "Reinigung"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vergabe-lieferkette-nachhaltige-beschaffung",
+    "title": "Nachhaltige öffentliche Beschaffung (UVgO § 37)",
+    "category": "Vergaberecht",
+    "beschreibung": "Öffentliche Auftraggeber müssen bei Vergaben soziale, ökologische und innovative Anforderungen berücksichtigen (§ 37 UVgO, § 127 GWB). Bieter müssen Nachhaltigkeitsstandards (Mindestlohn, Umwelt, ILO-Kernarbeitsnormen) nachweisen.",
+    "rechtsgrundlage": "GWB §§ 97, 127, VgV § 58",
+    "quelle_url": "https://www.bmwk.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vergabe-eignungsprüfung-zuverlässigkeit",
+    "title": "Vergabe – Eignungsprüfung und Ausschlussgründe (§ 123 GWB)",
+    "category": "Vergaberecht",
+    "beschreibung": "Bei öffentlichen Aufträgen werden Bieter nach Eignung geprüft: Zuverlässigkeit (keine Strafurteile, keine Steuerrückstände), Fachkunde, Leistungsfähigkeit. Präqualifikation oder Einzelnachweise je Vergabeverfahren.",
+    "rechtsgrundlage": "GWB §§ 123–125, VgV §§ 42–48",
+    "quelle_url": "https://www.pq-vol.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sozialrecht-minijob-grenze-538",
+    "title": "Minijob-Grenze 538 € – Sozialversicherungspflicht",
+    "category": "Sozialversicherung",
+    "beschreibung": "Geringfügige Beschäftigung liegt vor, wenn das regelmäßige Arbeitsentgelt 538 €/Monat nicht übersteigt (ab 01.01.2024). Arbeitgeber zahlen Pauschalbeiträge (KV: 13 %, RV: 15 %). Anmeldung über Minijob-Zentrale.",
+    "rechtsgrundlage": "SGB IV § 8, § 14 Abs. 3 MiLoG",
+    "quelle_url": "https://www.minijob-zentrale.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sozialrecht-midijob-gleitzone-2000",
+    "title": "Midijob – Übergangsbereich 538–2.000 €",
+    "category": "Sozialversicherung",
+    "beschreibung": "Im Übergangsbereich (Midijob, 538–2.000 €/Monat) zahlen Arbeitnehmer reduzierte SV-Beiträge, Arbeitgeber volle Beiträge. Rentenansprüche bleiben vollständig erhalten (seit Juli 2019). Abwicklung wie normale SV.",
+    "rechtsgrundlage": "SGB IV § 20 Abs. 2",
+    "quelle_url": "https://www.gesetze-im-internet.de/sgb_4/__20.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sozialrecht-werkstudenten-sozialversicherung",
+    "title": "Werkstudenten – Sozialversicherungsfreiheit",
+    "category": "Sozialversicherung",
+    "beschreibung": "Werkstudenten (eingeschriebene Studierende) sind in der KV, PV und AV beitragsfrei, zahlen aber RV-Beiträge. Voraussetzung: Studium ist Hauptbeschäftigung, max. 20h/Woche während des Semesters (Zeitgrenzen beachten).",
+    "rechtsgrundlage": "SGB V § 6 Abs. 1 Nr. 3, SGB III § 27 Abs. 4",
+    "quelle_url": "https://www.bundesgesundheitsministerium.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "it-dsgvo-profiling-automated-decision",
+    "title": "Automatisierte Entscheidungen und Profiling (Art. 22 DSGVO)",
+    "category": "Datenschutz",
+    "beschreibung": "Vollautomatisierte Entscheidungen mit rechtlicher Wirkung (Kreditscoring, Einstellungsentscheidungen) sind nur ausnahmsweise erlaubt (Art. 22 DSGVO). Betroffene müssen über die Logik informiert werden und haben Widerspruchsrecht.",
+    "rechtsgrundlage": "DSGVO Art. 22",
+    "quelle_url": "https://dsgvo-gesetz.de/art-22-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Finanzdienstleistungen",
+        "IT",
+        "E-Commerce",
+        "HR"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "it-cloud-serverstandort-dsgvo",
+    "title": "Cloud-Datenspeicherung – DSGVO-konforme Server-Standorte",
+    "category": "Datenschutz",
+    "beschreibung": "Personendaten in Cloud-Diensten müssen in der EU/EWR gespeichert werden oder Angemessenheitsbeschluss/SCC vorliegen. US-Cloud-Dienste: Schrems II-Anforderungen (TIA nötig). Vertragsgestaltung mit AVV nach Art. 28 DSGVO.",
+    "rechtsgrundlage": "DSGVO Art. 44–49, Schrems II (EuGH C-311/18)",
+    "quelle_url": "https://edpb.europa.eu/our-work-tools/our-documents/recommendations/recommendations-012020-measures-supplement-transfer_de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "IT",
+        "Software",
+        "E-Commerce",
+        "Gesundheitswirtschaft"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesellschaft-gmbh-stammkapital-haftung",
+    "title": "GmbH-Stammkapital – Kapitalerhaltung und Haftungsdurchgriff",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Das GmbH-Stammkapital (min. 25.000 €) muss erhalten bleiben. Verbotene Auszahlungen an Gesellschafter können zur persönlichen Haftung des Geschäftsführers führen. Existenzvernichtungshaftung bei mutwilliger Aushöhlung.",
+    "rechtsgrundlage": "GmbHG §§ 30, 43, BGH Trihotel-Urteil",
+    "quelle_url": "https://www.gesetze-im-internet.de/gmbhg/__30.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesellschaft-gesellschafterstreit-abfindung",
+    "title": "Gesellschafterstreit – Ausschluss und Abfindungsanspruch",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Ein GmbH-Gesellschafter kann aus wichtigem Grund ausgeschlossen werden (§ 34 GmbHG, Einziehung). Der Ausgeschlossene hat Anspruch auf Abfindung zum Verkehrswert. Gesellschaftsvertrag sollte Abfindungsregelungen enthalten.",
+    "rechtsgrundlage": "GmbHG § 34, BGB § 738",
+    "quelle_url": "https://www.gesetze-im-internet.de/gmbhg/__34.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR",
+        "OHG",
+        "KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gesellschaft-stille-gesellschaft",
+    "title": "Stille Gesellschaft – Beteiligung und Haftung",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Bei einer stillen Gesellschaft beteiligt sich ein Anleger mit einer Einlage am Handelsgewerbe eines anderen ohne nach außen aufzutreten (§§ 230 ff. HGB). Atypisch stille Gesellschaft gilt steuerlich wie Mitunternehmerschaft.",
+    "rechtsgrundlage": "HGB §§ 230–237",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__230.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "produkt-ökodesign-verordnung-2024",
+    "title": "Ökodesign-Verordnung (ESPR) – Nachhaltigkeitsanforderungen Produkte",
+    "category": "Produktrecht",
+    "beschreibung": "Die neue EU Ökodesign-Verordnung (ESPR, 2024) definiert Mindestanforderungen für Energieeffizienz, Reparierbarkeit, Recyclingfähigkeit und digitale Produktpässe für viele Produktgruppen. Textil, Elektronik, Batterien zuerst.",
+    "rechtsgrundlage": "EU-VO 2024/1781 (ESPR)",
+    "quelle_url": "https://ec.europa.eu/info/energy-climate-change-environment/standards-tools-and-labels/products-labelling-rules-and-requirements/sustainable-products/ecodesign-sustainable-products-regulation_de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Produktion",
+        "Elektronik",
+        "Textil",
+        "Maschinenbau",
+        "Möbel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "produkt-digitaler-produktpass",
+    "title": "Digitaler Produktpass (DPP) – EU-Anforderungen",
+    "category": "Produktrecht",
+    "beschreibung": "Ab 2026+ müssen bestimmte Produktgruppen (Batterien, Textil, Elektronik, Stahl, Zement) einen digitalen Produktpass (DPP) tragen, der Informationen zur Zusammensetzung, Reparierbarkeit und Entsorgung enthält.",
+    "rechtsgrundlage": "EU ESPR 2024/1781, EU Batterie-VO 2023/1542",
+    "quelle_url": "https://green-business.ec.europa.eu/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Produktion",
+        "Elektronik",
+        "Textil",
+        "Stahl",
+        "Automobil",
+        "Chemie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dienstleistung-ferndiagnose-telemedizin",
+    "title": "Telemedizin und Fernbehandlung – Ärztliche Berufsordnung",
+    "category": "Gesundheitsrecht",
+    "beschreibung": "Fernbehandlung (Telemedizin, Apps) ist unter Beachtung des medizinischen Standards und nach Anpassung der Musterberufsordnung 2018 erlaubt. Ärzte müssen Telemedizin in Deutschland über Telematik-Infrastruktur (TI) abwickeln.",
+    "rechtsgrundlage": "MBO-Ä § 7, SGB V §§ 87, 291a (TI)",
+    "quelle_url": "https://www.bundesaerztekammer.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Gesundheitswirtschaft",
+        "Medizintechnik",
+        "Digital Health"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dienstleistung-reisebüro-sicherungsschein",
+    "title": "Reisebüro – Sicherungsschein und Insolvenzabsicherung",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Reiseveranstalter müssen Reisende gegen Insolvenz absichern (§ 651r BGB). Pflicht: Sicherungsschein eines Kreditinstituts oder Versicherers. Reisebüros als Vermittler haben weniger Pflichten, aber Hinweispflichten.",
+    "rechtsgrundlage": "BGB §§ 651r–651u",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__651r.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "Tourismus",
+        "Reisebranche"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "beihilfe-unternehmen-schwierigkeiten",
+    "title": "Keine Beihilfen für Unternehmen in Schwierigkeiten",
+    "category": "Compliance",
+    "beschreibung": "Unternehmen in wirtschaftlichen Schwierigkeiten (> 50 % Kapitalverlust, Insolvenzreife) dürfen grundsätzlich keine staatlichen Beihilfen erhalten (Leitlinien für Rettungs-/Umstrukturierungsbeihilfen). Ausnahme: Rettungsbeihilfen mit Restrukturierungsplan.",
+    "rechtsgrundlage": "EU-Leitlinien Rettungs-/Umstrukturierungsbeihilfen 2014/C 249/01",
+    "quelle_url": "https://ec.europa.eu/competition/state_aid/legislation/rescue_restructuring.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "hat_dokument_generator": false
   }
 ]

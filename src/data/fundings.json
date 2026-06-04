@@ -27806,5 +27806,474 @@
         "2025"
       ]
     }
+  },
+  {
+    "id": "bund-außenwirtschaft-exportinitiative",
+    "title": "Exportinitiative – Markterschließungsprogramm AHK",
+    "beschreibung": "Bundesförderung für internationale Markterschließung: Delegationsreisen, Messebeteiligungen, AHK-Beratungen. BMWK fördert KMU bei Ersterschließung neuer Märkte mit bis zu 80 % Zuschuss auf Beratungskosten.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / AHK",
+    "max_betrag": 30000,
+    "zins": null,
+    "antrag_url": "https://www.gtai.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Großunternehmen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Markterschließungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Produktion",
+        "IT",
+        "Maschinenbau",
+        "Medizintechnik"
+      ]
+    }
+  },
+  {
+    "id": "bund-absatzfoerderung-auslandsmesse",
+    "title": "Messebeteiligung Ausland – AUMA-Förderung",
+    "beschreibung": "Bundesförderung für KMU-Beteiligungen an deutschen Gemeinschaftsständen auf internationalen Messen. Reduzierte Standmiete und Organisation durch AUMA/Branchenverbände. Teilnahme an über 200 Auslandsmessen jährlich.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / AUMA",
+    "max_betrag": 15000,
+    "zins": null,
+    "antrag_url": "https://www.auma.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Großunternehmen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Anmeldeformular",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Maschinenbau",
+        "Elektronik",
+        "Medizintechnik",
+        "Lebensmittel",
+        "Mode"
+      ]
+    }
+  },
+  {
+    "id": "bund-forschungszulage-fzulg",
+    "title": "Forschungszulage (FZulG) – 25 % Steuervorteil auf FuE",
+    "beschreibung": "Alle Unternehmen können 25 % ihrer FuE-Personalkosten als Steuererstattung erhalten (max. 2,5 Mio. €/Jahr). Antrag beim BSFZ (Bescheinigungsstelle Forschungszulage). Auch für Auftragsforschung und KMU geeignet.",
+    "typ": "Steuervorteil",
+    "quelle": "Bund",
+    "foerderer": "BSFZ / Finanzamt",
+    "max_betrag": 2500000,
+    "zins": null,
+    "antrag_url": "https://www.bsfz.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Keine FuE-Tätigkeit"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "FuE-Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Lohnliste FuE-Personal",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K.",
+        "Freiberufler"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "IT",
+        "Maschinenbau",
+        "Chemie",
+        "Medizintechnik",
+        "Biotechnologie",
+        "GreenTech",
+        "Automobil"
+      ]
+    }
+  },
+  {
+    "id": "eu-pfr-horizon-msca",
+    "title": "MSCA Postdoctoral Fellowships – Forschungsmobilität",
+    "beschreibung": "Marie-Skłodowska-Curie-Maßnahmen für Postdocs: Individuelle Stipendien für grenzüberschreitende Forschungsprojekte. Unternehmen können als aufnehmende Organisationen für MSCA Industrial Postdoctoral Fellowships genutzt werden.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "European Commission / MSCA",
+    "max_betrag": 200000,
+    "zins": null,
+    "antrag_url": "https://marie-sklodowska-curie-actions.ec.europa.eu/",
+    "bearbeitungszeit_wochen": [
+      16,
+      52
+    ],
+    "ausschlusskriterien": [
+      "Kein Forschungsbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Forschungsplan",
+        "auto": false
+      },
+      {
+        "name": "Hosting Agreement",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "branchen": [
+        "IT",
+        "Biotechnologie",
+        "Chemie",
+        "Physik",
+        "Ingenieurwesen"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-umweltinnovationsprogramm-bmuv",
+    "title": "Umweltinnovationsprogramm (UIP) – BMUV",
+    "beschreibung": "Das UIP fördert Demonstrationsvorhaben mit Pilotcharakter, die den Stand der Technik im Umweltschutz übertreffen. Investitionszuschüsse bis 30 % oder Darlehen. Schwerpunkte: Wasser, Luft, Boden, Abfall, Energie.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMUV / UBA",
+    "max_betrag": 3000000,
+    "zins": null,
+    "antrag_url": "https://www.umweltbundesamt.de/foerderangebote",
+    "bearbeitungszeit_wochen": [
+      12,
+      30
+    ],
+    "ausschlusskriterien": [
+      "Kein Pilotcharakter",
+      "Standard-Technologien"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Technologiebeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Umweltauswirkungsanalyse",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "branchen": [
+        "GreenTech",
+        "Chemie",
+        "Produktion",
+        "Wasserversorgung",
+        "Abfallwirtschaft"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bw-holzwirtschaft-foerderung",
+    "title": "BW – Holz.BW Förderung für Holzwirtschaft",
+    "beschreibung": "Baden-Württemberg fördert nachhaltige Holznutzung und Holzwirtschaft: Sägewerke, Zimmerer, Möbelproduktion, Holzinnovationen. Zuschüsse und zinsgünstige Kredite der L-Bank für Investitionen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "MLR BW / L-Bank",
+    "max_betrag": 200000,
+    "zins": null,
+    "antrag_url": "https://www.l-bank.de/",
+    "bearbeitungszeit_wochen": [
+      6,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb BW",
+      "Kein Holzbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ],
+      "branchen": [
+        "Forstwirtschaft",
+        "Handwerk",
+        "Bau",
+        "Möbel"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bay-landwirtschaft-agrarinvest",
+    "title": "Bayern – Bayerisches Kulturlandschaftsprogramm (KULAP)",
+    "beschreibung": "Bayerisches Agrar-Umweltprogramm für nachhaltige Landwirtschaft: Prämien für Biodiversität, Gewässerschutz, ökologischen Landbau, Blühstreifen. Prämien 50–500 €/ha je Maßnahme.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Bayerisches Staatsministerium für Ernährung, Landwirtschaft",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.stmelf.bayern.de/",
+    "bearbeitungszeit_wochen": [
+      4,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb Bayern",
+      "Kein landwirtschaftlicher Betrieb"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Flächennachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ],
+      "branchen": [
+        "Landwirtschaft",
+        "Forstwirtschaft"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "nrw-gründungskredit-startkapital",
+    "title": "NRW Startkapital Fonds – Beteiligungskapital",
+    "beschreibung": "Stilles Beteiligungskapital für innovative Start-ups in NRW in der Frühphase. Ticket bis 500.000 €, Ko-Investment mit Business Angels. Verwaltung durch Business Angels Netzwerk Deutschland (BAND).",
+    "typ": "Beteiligung",
+    "quelle": "Bundesland",
+    "foerderer": "NRW.BANK / MWIKE NRW",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.nrwbank.de/",
+    "bearbeitungszeit_wochen": [
+      8,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb NRW",
+      "Kein Tech-/Innovations-Charakter"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Pitch-Deck",
+        "auto": false
+      },
+      {
+        "name": "Businessplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ],
+      "mitarbeiter_max": 49
+    },
+    "relevanz_boost": {
+      "gruendungsjahr": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "branchen": [
+        "IT",
+        "Software",
+        "GreenTech",
+        "Medizintechnik",
+        "KI"
+      ]
+    }
+  },
+  {
+    "id": "sh-green-economy-foerderung",
+    "title": "Schleswig-Holstein – Green Economy Förderprogramm",
+    "beschreibung": "SH fördert Unternehmen der Green Economy: erneuerbare Energien, Energieeffizienz, Wasserwirtschaft, nachhaltige Mobilität. IB.SH bietet EFRE-kofinanzierte Zuschüsse und zinsgünstige Kredite.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "IB.SH / Wirtschaftsministerium SH",
+    "max_betrag": 300000,
+    "zins": null,
+    "antrag_url": "https://www.ib-sh.de/",
+    "bearbeitungszeit_wochen": [
+      6,
+      18
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen außerhalb SH"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "Einzelunternehmen",
+        "e.K."
+      ],
+      "bundeslaender": [
+        "Schleswig-Holstein"
+      ],
+      "branchen": [
+        "Energie",
+        "GreenTech",
+        "Wasser",
+        "Transport",
+        "Landwirtschaft"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-soziale-innovation-bibb",
+    "title": "BIBB – Förderung Berufliche Ausbildung (Ausbildungsbonus)",
+    "beschreibung": "Ausbildungsbonus für Betriebe, die zusätzliche Ausbildungsplätze schaffen oder Jugendliche ohne Ausbildungsplatz übernehmen. Pro zusätzlichen Ausbildungsplatz bis zu 4.000 € Zuschuss für Ausbildungsvergütung.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMBF / Bundesagentur für Arbeit",
+    "max_betrag": 4000,
+    "zins": null,
+    "antrag_url": "https://www.bibb.de/",
+    "bearbeitungszeit_wochen": [
+      2,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Kein zusätzlicher Ausbildungsplatz"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Ausbildungsvertrag",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "e.K."
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Handwerk",
+        "Handel",
+        "Gastronomie",
+        "Pflege",
+        "IT"
+      ]
+    }
   }
 ]
