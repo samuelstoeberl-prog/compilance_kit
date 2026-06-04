@@ -30806,5 +30806,648 @@
         "Logistik"
       ]
     }
+  },
+  {
+    "id": "eu-cbam-2024",
+    "title": "EU Carbon Border Adjustment (CBAM) Transition Support",
+    "beschreibung": "EU-Unterstützung für Unternehmen bei Anpassung an den Klimagrenzausgleich. Beratungsförderung für importierende Unternehmen in Stahl, Aluminium, Zement, Dünger.",
+    "typ": "Beratungszuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission / CINEA",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Kein Import aus Drittstaaten"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Importnachweise",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": null
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Produktion",
+        "Chemie",
+        "Stahl",
+        "Aluminium"
+      ]
+    }
+  },
+  {
+    "id": "eu-digital-europe",
+    "title": "Digital Europe Programme",
+    "beschreibung": "EU-Programm für Digitale Infrastruktur, Cybersicherheit, KI und digitale Kompetenzen. Fördersumme: 7,6 Mrd. €. Für Unternehmen und Forschung.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission",
+    "max_betrag": 5000000,
+    "zins": null,
+    "antrag_url": "https://digital-strategy.ec.europa.eu/en/activities/digital-programme",
+    "bearbeitungszeit_wochen": [
+      20,
+      36
+    ],
+    "ausschlusskriterien": [
+      "Kein Digitalisierungsbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektantrag",
+        "auto": false
+      },
+      {
+        "name": "Konsortialvertrag",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_max": null
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "KI",
+        "Cybersicherheit",
+        "Cloud"
+      ]
+    }
+  },
+  {
+    "id": "eu-green-deal-fund",
+    "title": "InvestEU – Sustainable Infrastructure",
+    "beschreibung": "InvestEU-Fonds unterstützt nachhaltige Infrastruktur, Forschung und soziale Investitionen. Zugang über NfIs (Nationale Förderinstitute, z.B. KfW).",
+    "typ": "Kredit",
+    "quelle": "EU",
+    "foerderer": "EIB / InvestEU",
+    "max_betrag": 50000000,
+    "zins": "Ab 1,5% p.a.",
+    "antrag_url": "https://www.eib.org/en/about/initiatives/investeu/index.htm",
+    "bearbeitungszeit_wochen": [
+      12,
+      24
+    ],
+    "ausschlusskriterien": [
+      "Keine nachhaltige Komponente"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Wirtschaftlichkeitsnachweis",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_max": null
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Energie",
+        "GreenTech",
+        "Bau",
+        "Infrastruktur"
+      ]
+    }
+  },
+  {
+    "id": "bund-nachhaltigkeit-kmu",
+    "title": "Bundesförderung Nachhaltige Stadtentwicklung",
+    "beschreibung": "Förderung von Stadtentwicklungs- und Quartiersinvestitionen, inkl. Energieeffizienz in Gewerbegebieten. Kombinierbar mit KfW-Krediten.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWSB / BAFA",
+    "max_betrag": 1000000,
+    "zins": null,
+    "antrag_url": "https://www.bbsr.bund.de/BBSR/DE/forschung/programme/staedtebaufoerderung/staedtebaufoerderung_node.html",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Kein städtebaulicher Bezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Städtebauliches Konzept",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": null
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Immobilien",
+        "Bau",
+        "Energie",
+        "Tourismus"
+      ]
+    }
+  },
+  {
+    "id": "bund-fachkraefte-quali",
+    "title": "Qualifizierungschancengesetz – Weiterbildungsförderung",
+    "beschreibung": "Arbeitgeber erhalten Zuschüsse zu Weiterbildungskosten und Arbeitsentgelten bei Qualifizierung von Mitarbeitenden (insbesondere in Digitalisierung und Strukturwandel). Bis 100% bei Kleinstbetrieben.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesagentur für Arbeit",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.arbeitsagentur.de/unternehmen/finanziell/foerderung-von-weiterbildung",
+    "bearbeitungszeit_wochen": [
+      2,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Keine Weiterbildungsmaßnahme"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Weiterbildungsnachweis",
+        "auto": false
+      },
+      {
+        "name": "Qualifizierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Alle"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49",
+        "50–249"
+      ]
+    }
+  },
+  {
+    "id": "bund-kultur-startups",
+    "title": "Kultur- und Kreativpiloten Deutschland",
+    "beschreibung": "Jährlicher Wettbewerb für innovative Gründungen in der Kultur- und Kreativwirtschaft. 32 Preisträger erhalten Beratung, Coaching und Medienaufmerksamkeit.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesregierung / Initiative Kultur- und Kreativwirtschaft",
+    "max_betrag": 20000,
+    "zins": null,
+    "antrag_url": "https://www.kultur-kreativ-wirtschaft.de/KUK/Navigation/DE/Foerderung/Kultur-und-Kreativpiloten/kultur-und-kreativpiloten.html",
+    "bearbeitungszeit_wochen": [
+      12,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Kein Kultur- oder Kreativbezug",
+      "Unternehmen älter als 5 Jahre"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Bewerbungsformular",
+        "auto": false
+      },
+      {
+        "name": "Projektbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "mitarbeiter_max": 50,
+      "gruendungsjahr": [
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Medien",
+        "Kultur",
+        "Design",
+        "Film",
+        "Games",
+        "Musik"
+      ]
+    }
+  },
+  {
+    "id": "bund-digitalbonus-agrar",
+    "title": "Digitalbonus Landwirtschaft",
+    "beschreibung": "Förderung der Digitalisierung in der Landwirtschaft: Precision Farming, Sensortechnologie, Robotik, digitale Betriebsführung. Zuschüsse bis 50%.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMEL",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.bmel.de/DE/themen/landwirtschaft/digitalisierung/digitalisierung_node.html",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Kein Agrarbetrieb",
+      "Nicht Deutschland"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Digitalisierungskonzept",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Landwirtschaft"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Landwirtschaft",
+        "AgriTech"
+      ]
+    }
+  },
+  {
+    "id": "by-gruendungsbonus",
+    "title": "Bayern – Gründungsbonus für Hochschulabsolventen",
+    "beschreibung": "Einmaliger Zuschuss von 15.000 € für technologieorientierte Gründungen durch Hochschulabsolventen in Bayern innerhalb von 2 Jahren nach Abschluss.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Bayerisches Staatsministerium für Wissenschaft",
+    "max_betrag": 15000,
+    "zins": null,
+    "antrag_url": "https://www.stmwk.bayern.de/studenten/gruendungen.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Bayern",
+      "Abschluss über 2 Jahre her",
+      "Kein Technologiebezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Abschlusszeugnis",
+        "auto": false
+      },
+      {
+        "name": "Businessplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Bayern"
+      ],
+      "mitarbeiter_max": 10,
+      "gruendungsjahr": [
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Ingenieurwesen",
+        "Naturwissenschaften"
+      ]
+    }
+  },
+  {
+    "id": "nrw-kundenbindung-handel",
+    "title": "NRW – Innenstadtprogramm Handel",
+    "beschreibung": "Förderung von Transformationsprozessen im stationären Einzelhandel in NRW. Beratung und Investitionszuschüsse für Digitalisierung, Omnichannel und Erlebnishandel.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "MWIKE NRW",
+    "max_betrag": 30000,
+    "zins": null,
+    "antrag_url": "https://www.wirtschaft.nrw/handel-erneuerung",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Nicht in NRW",
+      "Kein stationärer Handel"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Handelskonzept",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Nordrhein-Westfalen"
+      ],
+      "mitarbeiter_max": 99
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Handel",
+        "Einzelhandel"
+      ]
+    }
+  },
+  {
+    "id": "be-sozinnovation",
+    "title": "Berlin Social Impact Lab",
+    "beschreibung": "Unterstützung für Social Entrepreneurs in Berlin: Coaching, Arbeitsplätze, Finanzierungsvermittlung. Stipendien bis 2.000 € für soziale Innovationen.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Social Impact gGmbH / IBB",
+    "max_betrag": 24000,
+    "zins": null,
+    "antrag_url": "https://socialimpactlab.eu/",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Berlin",
+      "Keine soziale Wirkung",
+      "Kein gemeinnütziges Konzept"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Wirkungsbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Finanzplanung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Berlin"
+      ],
+      "mitarbeiter_max": 25,
+      "gruendungsjahr": [
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Soziale Innovation",
+        "NGO",
+        "Bildung",
+        "Gesundheit"
+      ]
+    }
+  },
+  {
+    "id": "mv-tourism-digital",
+    "title": "MV Tourismusdigitalisierung",
+    "beschreibung": "Mecklenburg-Vorpommern fördert die Digitalisierung der Tourismuswirtschaft: Buchungssysteme, digitale Erlebnisse, KI-gestützte Gästekommunikation.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Tourismusverband MV / IB.MV",
+    "max_betrag": 100000,
+    "zins": null,
+    "antrag_url": "https://www.auf-nach-mv.de/tourismus/foerderung/",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Nicht in MV",
+      "Kein Tourismusbezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Digitalisierungskonzept",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Mecklenburg-Vorpommern"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Tourismus",
+        "Hotellerie",
+        "Gastronomie"
+      ]
+    }
+  },
+  {
+    "id": "sn-fachkraefte",
+    "title": "Sachsen – Fachkräftegewinnung und -bindung",
+    "beschreibung": "Sächsisches Förderprogramm für Fachkräftestrategie: Beratung, Qualifizierung und Maßnahmen zur Fachkräftegewinnung und -bindung in KMU.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Sächsische Aufbaubank (SAB)",
+    "max_betrag": 25000,
+    "zins": null,
+    "antrag_url": "https://www.sab.de/foerderung/arbeit-und-soziales/fachkraefte/",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Nicht in Sachsen",
+      "Mehr als 249 Mitarbeitende"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Fachkräftekonzept",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Sachsen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Alle"
+      ]
+    }
+  },
+  {
+    "id": "st-digitalpakt",
+    "title": "Sachsen-Anhalt – DigitalPakt Mittelstand",
+    "beschreibung": "Förderung der digitalen Infrastruktur und Prozesse in KMU in Sachsen-Anhalt. Zuschüsse bis 40% für Hard- und Software.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Investitionsbank Sachsen-Anhalt (IB)",
+    "max_betrag": 150000,
+    "zins": null,
+    "antrag_url": "https://www.ib-sachsen-anhalt.de/unternehmen/digitalisierung/",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Nicht in SA",
+      "Mehr als 249 Mitarbeitende"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Digitalisierungsplan",
+        "auto": false
+      },
+      {
+        "name": "Angebote",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Sachsen-Anhalt"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Alle"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49",
+        "50–249"
+      ]
+    }
   }
 ]

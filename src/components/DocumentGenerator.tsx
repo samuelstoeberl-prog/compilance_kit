@@ -18,6 +18,7 @@ import {
   werkvertragTemplate,
   freiberuflerVertragTemplate,
   betriebsvereinbarungTemplate,
+  handelsvertreterVertragTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -46,6 +47,7 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   werkvertrag: 'Werkvertrag-Vorlage',
   'freiberufler-vertrag': 'Freiberufler-/Dienstleistungsvertrag',
   betriebsvereinbarung: 'Betriebsvereinbarung-Vorlage',
+  'handelsvertreter-vertrag': 'Handelsvertretervertrag',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -92,6 +94,7 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'werkvertrag': return applyTemplate(werkvertragTemplate, vars)
     case 'freiberufler-vertrag': return applyTemplate(freiberuflerVertragTemplate, vars)
     case 'betriebsvereinbarung': return applyTemplate(betriebsvereinbarungTemplate, vars)
+    case 'handelsvertreter-vertrag': return applyTemplate(handelsvertreterVertragTemplate, vars)
   }
 }
 

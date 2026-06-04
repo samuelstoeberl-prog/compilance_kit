@@ -27665,5 +27665,642 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "handelsv-001",
+    "title": "Handelsvertreterrecht – Pflichten und Ausgleich",
+    "category": "Vertragsrecht",
+    "beschreibung": "Handelsvertreter sind selbstständige Gewerbetreibende (§ 84 HGB). Bei Vertragsende haben sie unter Umständen Anspruch auf Ausgleichszahlung nach § 89b HGB (max. 1 Jahresprovision).",
+    "rechtsgrundlage": "HGB §§ 84–92c",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__84.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "handelsvertreter-vertrag"
+  },
+  {
+    "id": "handelsv-002",
+    "title": "Handelsvertreter – Provision und Buchauszug",
+    "category": "Vertragsrecht",
+    "beschreibung": "Handelsvertreter haben Anspruch auf Provision für vermittelte Geschäfte (§ 87 HGB) und können jederzeit einen Buchauszug verlangen (§ 87c HGB). Abrechnungen müssen monatlich erteilt werden.",
+    "rechtsgrundlage": "HGB §§ 87, 87a, 87b, 87c",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__87.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "handelsvertreter-vertrag"
+  },
+  {
+    "id": "vertrieb-001",
+    "title": "Franchise-Recht – Vorvertragliche Aufklärung",
+    "category": "Vertragsrecht",
+    "beschreibung": "Franchisegeber sind zur umfassenden vorvertraglichen Aufklärung verpflichtet. Franchiseverträge sollten die Exklusivität, Gebühren, Schulungen und Beendigungsmodalitäten klar regeln.",
+    "rechtsgrundlage": "BGB § 311 Abs. 2, § 242",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__311.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Handel",
+        "Franchise",
+        "Gastronomie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vertrieb-002",
+    "title": "Vertriebsrecht – Exklusivvertrieb und Kartellrecht",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Exklusivvertriebsvereinbarungen dürfen den Wettbewerb nicht spürbar beeinträchtigen. GVO Vertikalvereinbarungen (2022/720/EU) regelt, wann Exklusivvereinbarungen zulässig sind.",
+    "rechtsgrundlage": "GVO 2022/720/EU, GWB §§ 1, 2",
+    "quelle_url": "https://www.bundeskartellamt.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "insolvenz-005",
+    "title": "Gläubigerausschuss und Insolvenzplan",
+    "category": "Insolvenzrecht",
+    "beschreibung": "Im Insolvenzverfahren kann ein Gläubigerausschuss eingesetzt werden. Über einen Insolvenzplan können Unternehmen saniert werden, wenn eine Mehrheit der Gläubiger zustimmt.",
+    "rechtsgrundlage": "InsO §§ 67–73, §§ 217–269",
+    "quelle_url": "https://www.gesetze-im-internet.de/inso/__217.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "nachfolge-001",
+    "title": "Unternehmensnachfolge – rechtliche Gestaltung",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Die Unternehmensnachfolge sollte frühzeitig geplant werden (mind. 5 Jahre). Optionen: Schenkung, Erbfall, Verkauf, Management-Buyout. Steuerliche Freibeträge (ErbStG § 13a) optimal nutzen.",
+    "rechtsgrundlage": "ErbStG §§ 13a, 13b, GmbHG § 15, BGB §§ 2032 ff.",
+    "quelle_url": "https://www.bmwk.de/Redaktion/DE/Artikel/Mittelstand/unternehmensnachfolge.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "nachfolge-002",
+    "title": "Erbschaftsteuer – Betriebsvermögen Verschonung",
+    "category": "Steuer- und Buchführungsrecht",
+    "beschreibung": "Bei Übertragung von Betriebsvermögen kann bis zu 85% (Regelverschonung) oder 100% (Optionsverschonung) Erbschaftsteuer entfallen, wenn Haltefristen und Lohnsummenregelungen eingehalten werden.",
+    "rechtsgrundlage": "ErbStG §§ 13a, 13b",
+    "quelle_url": "https://www.gesetze-im-internet.de/erbstg_1974/__13a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "patent-001",
+    "title": "Patent – Anmeldung und Schutzrecht",
+    "category": "Geistiges Eigentum",
+    "beschreibung": "Technische Erfindungen können durch Patent beim DPMA geschützt werden. Schutzzeit: 20 Jahre. Arbeitnehmerererfindungen müssen dem Arbeitgeber gemeldet werden (ArbEG).",
+    "rechtsgrundlage": "PatG, ArbEG § 5",
+    "quelle_url": "https://www.dpma.de/patente/patentanmeldung/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Technologie",
+        "Produktion",
+        "Pharma"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "patent-002",
+    "title": "Markenrecht – Markenanmeldung DPMA",
+    "category": "Geistiges Eigentum",
+    "beschreibung": "Marken können beim DPMA, EUIPO (EU-Marke) oder WIPO (international) angemeldet werden. Schutzzeit: 10 Jahre, verlängerbar. Benutzungszwang nach 5 Jahren.",
+    "rechtsgrundlage": "MarkenG §§ 3, 4, 14",
+    "quelle_url": "https://www.dpma.de/marken/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "patent-003",
+    "title": "Designschutz – Gebrauchsmuster und Design",
+    "category": "Geistiges Eigentum",
+    "beschreibung": "Gebrauchsmuster (technisch, 10 Jahre) und eingetragene Designs (ästhetisch, 25 Jahre) bieten ergänzenden Schutz zu Patenten. Anmeldung beim DPMA.",
+    "rechtsgrundlage": "GebrMG, DesignG",
+    "quelle_url": "https://www.dpma.de/gebrauchsmuster/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Produktion",
+        "Design",
+        "Technologie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "urheber-001",
+    "title": "Software-Urheberrecht",
+    "category": "Geistiges Eigentum",
+    "beschreibung": "Software ist urheberrechtlich geschützt (§ 69a UrhG). Nutzungsrechte sind zu klären, insbesondere bei Open-Source, Auftragswerken und Arbeitnehmerwerken.",
+    "rechtsgrundlage": "UrhG §§ 69a–69g",
+    "quelle_url": "https://www.gesetze-im-internet.de/urhg/__69a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Technologie",
+        "Software"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "urheber-002",
+    "title": "KI-generierte Inhalte – Urheberrechtsfragen",
+    "category": "Geistiges Eigentum",
+    "beschreibung": "KI-generierte Texte, Bilder und Musik sind in Deutschland derzeit nicht urheberrechtlich geschützt (kein menschlicher Schöpfer). Nutzungsrechte an KI-Tools klären, insbesondere für Trainingsdaten.",
+    "rechtsgrundlage": "UrhG § 2 Abs. 2, EU AI Act",
+    "quelle_url": "https://www.dpma.de/dpma/veroeffentlichungen/aktuelles/ki_urheber.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": [
+        "Technologie",
+        "Medien",
+        "KI"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "export-001",
+    "title": "Ursprungszeugnis und Präferenznachweise",
+    "category": "Außenwirtschaft",
+    "beschreibung": "Bei Export in Präferenzabkommensländer (z.B. UK, Kanada, Japan) können Ursprungsnachweise Zollvorteile gewähren. Unternehmen müssen Ursprungsregeln einhalten und Erklärungen ausstellen.",
+    "rechtsgrundlage": "UZK Art. 61–112, Präferenzabkommen",
+    "quelle_url": "https://www.zoll.de/DE/Fachthemen/Zoelle/Ursprung-Praeferenzen/Praeferenzen/praeferenzen_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Handel",
+        "Produktion",
+        "Export"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "export-002",
+    "title": "Lieferbedingungen INCOTERMS 2020",
+    "category": "Außenwirtschaft",
+    "beschreibung": "Internationale Lieferbedingungen (INCOTERMS 2020) regeln Gefahrenübergang, Kosten und Versicherungspflichten. Die richtige INCOTERM-Wahl (EXW, FOB, CIF, DDP etc.) verhindert Streitigkeiten.",
+    "rechtsgrundlage": "INCOTERMS 2020 (ICC), UGB",
+    "quelle_url": "https://www.icc-deutschland.de/incoterms/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Handel",
+        "Produktion",
+        "Logistik",
+        "Export"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "klima-001",
+    "title": "EU-Emissionshandel (ETS) – Berichtspflicht",
+    "category": "Umweltrecht",
+    "beschreibung": "Unternehmen in bestimmten Industrien (Energie, Stahl, Zement, Chemie) müssen am EU-ETS teilnehmen, Emissionen messen, berichten und Zertifikate abgeben.",
+    "rechtsgrundlage": "TEHG, EU ETS-Richtlinie 2003/87/EG",
+    "quelle_url": "https://www.dehst.de/DE/Startseite/startseite_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Energie",
+        "Stahl",
+        "Chemie",
+        "Zement",
+        "Luftfahrt"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "klima-002",
+    "title": "Klimaneutralitätsziel – CSRD-Berichterstattung",
+    "category": "Umweltrecht",
+    "beschreibung": "Große Unternehmen müssen ab 2025 über ihre Klimaziele und Fortschritte berichten (CSRD/ESRS E1). Net-Zero-Ziele erfordern Science Based Targets und regelmäßige Überprüfung.",
+    "rechtsgrundlage": "CSRD 2022/2464, ESRS E1",
+    "quelle_url": "https://www.bafin.de/DE/Aufsicht/Nachhaltigkeitsberichterstattung/nachhaltigkeitsberichterstattung_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG",
+        "GmbH",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 250
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kreislauf-001",
+    "title": "Kreislaufwirtschaftsgesetz – Abfallvermeidung",
+    "category": "Umweltrecht",
+    "beschreibung": "Unternehmen sind zur Abfallvermeidung verpflichtet. Abfälle sind in der Reihenfolge Vermeiden, Verwerten, Beseitigen zu behandeln. Nachweise über ordnungsgemäße Entsorgung pflegen.",
+    "rechtsgrundlage": "KrWG §§ 5, 7, 8",
+    "quelle_url": "https://www.umweltbundesamt.de/themen/abfall-ressourcen/kreislaufwirtschaft",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Produktion",
+        "Chemie",
+        "Bau",
+        "Handel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kreislauf-002",
+    "title": "Ökodesign-Verordnung (ESPR)",
+    "category": "Produktrecht",
+    "beschreibung": "Die neue EU-Ökodesign-Verordnung (ab 2025 schrittweise) macht Nachhaltigkeitsanforderungen für immer mehr Produktgruppen verbindlich: Haltbarkeit, Reparierbarkeit, Recyclingfähigkeit.",
+    "rechtsgrundlage": "ESPR 2024/1781, ErP-Richtlinie",
+    "quelle_url": "https://environment.ec.europa.eu/topics/circular-economy/sustainable-products-initiative_en",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Produktion",
+        "Handel",
+        "E-Commerce"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "soznacho-001",
+    "title": "ESG-Reporting – Soziale Kennzahlen",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Im Rahmen der CSRD müssen große Unternehmen über soziale Standards berichten (ESRS S1 Eigene Belegschaft, S2 Wertschöpfungskette). Menschenrechtliche Sorgfalt ist nachzuweisen.",
+    "rechtsgrundlage": "CSRD 2022/2464, ESRS S1/S2",
+    "quelle_url": "https://www.bafin.de/DE/Aufsicht/Nachhaltigkeitsberichterstattung/nachhaltigkeitsberichterstattung_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG",
+        "GmbH",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_min": 250
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "soznacho-002",
+    "title": "Diversity & Inklusion – Quotenregelungen",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Börsennotierte und paritätisch mitbestimmte Unternehmen müssen die Geschlechterquote (30% je Geschlecht im Aufsichtsrat) einhalten. Zielvorgaben für Vorstand und obere Führungsebenen.",
+    "rechtsgrundlage": "FüPoG II, AktG § 96 Abs. 2",
+    "quelle_url": "https://www.bmjv.de/DE/Themen/FokusThemen/Gleichberechtigung/fuehrungspositionengesetz.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG"
+      ],
+      "mitarbeiter_min": 500
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbr-teilzeit-001",
+    "title": "Teilzeit und Befristung (TzBfG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Befristete Arbeitsverträge ohne Sachgrund sind nur bis zu 2 Jahre (max. 3 Verlängerungen) zulässig. Mit Sachgrund (§ 14 Abs. 1 TzBfG) länger möglich. Kettenverträge prüfen.",
+    "rechtsgrundlage": "TzBfG §§ 14, 22",
+    "quelle_url": "https://www.gesetze-im-internet.de/tzbfg/__14.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "arbeitsvertrag"
+  },
+  {
+    "id": "arbr-kuendschutz-001",
+    "title": "Kündigungsschutzgesetz (KSchG) – Soziale Auswahl",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Ab 10 Mitarbeitenden gilt der allgemeine Kündigungsschutz. Betriebsbedingte Kündigungen erfordern eine ordnungsgemäße Sozialauswahl (Alter, Betriebszugehörigkeit, Unterhaltspflichten, Schwerbehinderung).",
+    "rechtsgrundlage": "KSchG §§ 1–14",
+    "quelle_url": "https://www.gesetze-im-internet.de/kschg/__1.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 10
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "aufhebungsvertrag"
+  },
+  {
+    "id": "arbr-agb-vertrag-001",
+    "title": "Allgemeine Geschäftsbedingungen im Arbeitsvertrag",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Vorformulierte Arbeitsvertragsklauseln unterliegen der AGB-Kontrolle. Überraschende, benachteiligende oder intransparente Klauseln sind unwirksam.",
+    "rechtsgrundlage": "BGB §§ 305–310, § 611a",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__305.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "arbeitsvertrag"
+  },
+  {
+    "id": "gesundheit-005",
+    "title": "Betriebliches Eingliederungsmanagement (BEM)",
+    "category": "Gesundheitsrecht",
+    "beschreibung": "Ab 6 Wochen Krankheit innerhalb von 12 Monaten muss der Arbeitgeber dem Arbeitnehmer ein BEM-Gespräch anbieten. BEM ist Voraussetzung für wirksame krankheitsbedingte Kündigung.",
+    "rechtsgrundlage": "SGB IX § 167 Abs. 2",
+    "quelle_url": "https://www.gesetze-im-internet.de/sgb_9_2018/__167.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "tier-001",
+    "title": "Tierhaltung im Betrieb – Genehmigungen",
+    "category": "Berufsrecht",
+    "beschreibung": "Kommerzielle Tierhaltung (Landwirtschaft, Zuchten, Tierpflege) erfordert Genehmigungen nach TierSchG, TierHaltungsVO und ggf. BauGB. Hygiene- und Sorgfaltspflichten.",
+    "rechtsgrundlage": "TierSchG §§ 11, 16, TierHaltungsVO",
+    "quelle_url": "https://www.bmel.de/DE/themen/tiere/tierschutz/tierschutz_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Landwirtschaft",
+        "Veterinär",
+        "Tierhaltung"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "dsgvo-einw-werbung-001",
+    "title": "Einwilligung bei E-Mail-Marketing",
+    "category": "Datenschutz",
+    "beschreibung": "E-Mail-Werbung ohne vorherige ausdrückliche Einwilligung ist unzulässig (UWG § 7 Abs. 2 Nr. 3). Double-Opt-In-Verfahren empfohlen. Opt-In muss dokumentiert werden.",
+    "rechtsgrundlage": "UWG § 7 Abs. 2 Nr. 3, DSGVO Art. 6 Abs. 1 lit. a",
+    "quelle_url": "https://www.gesetze-im-internet.de/uwg_2004/__7.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "datenschutz-einwilligung"
+  },
+  {
+    "id": "dsgvo-cookie-001",
+    "title": "Cookie-Banner – technische Umsetzung",
+    "category": "Datenschutz",
+    "beschreibung": "Cookie-Consent-Tools müssen so konfiguriert sein, dass Ablehnen genauso einfach ist wie Zustimmen. Keine vorausgewählten Häkchen für nicht-notwendige Cookies.",
+    "rechtsgrundlage": "TTDSG § 25, DSGVO Art. 7",
+    "quelle_url": "https://www.datenschutz-notizen.de/cookie-consent/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "datenschutzerklarung"
+  },
+  {
+    "id": "schiedsrecht-001",
+    "title": "Schiedsklauseln in Verträgen",
+    "category": "Vertragsrecht",
+    "beschreibung": "Schiedsklauseln ermöglichen die außergerichtliche Streitbeilegung. DIS-Schiedsordnung oder ICC-Schiedsordnung bieten anerkannte Rahmen. Gerichtsstandsklauseln können durch Schiedsklauseln ersetzt werden.",
+    "rechtsgrundlage": "ZPO §§ 1025–1066",
+    "quelle_url": "https://www.dis-arb.de/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "AG",
+        "GmbH & Co. KG",
+        "GbR",
+        "OHG",
+        "KG"
+      ]
+    },
+    "hat_dokument_generator": false
   }
 ]
