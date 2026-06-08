@@ -30149,5 +30149,279 @@
       ]
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "loi-001",
+    "title": "Vorvertragliche Pflichten – Culpa in Contrahendo (BGB § 311 Abs. 2)",
+    "category": "Vertragsrecht",
+    "beschreibung": "Bereits in der Verhandlungsphase entstehen Schutz- und Aufklärungspflichten. Wer Vertrauen auf einen Vertragsschluss erweckt und die Verhandlungen ohne triftigen Grund abbricht, kann schadensersatzpflichtig werden (c.i.c.).",
+    "rechtsgrundlage": "BGB § 311 Abs. 2, § 241 Abs. 2, § 280",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__311.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "letter-of-intent"
+  },
+  {
+    "id": "loi-002",
+    "title": "Letter of Intent – Vertraulichkeit bei M&A-Verhandlungen",
+    "category": "Vertragsrecht",
+    "beschreibung": "Bei Unternehmenskäufen und -beteiligungen werden im Rahmen der Anbahnung sensible Geschäftsinformationen ausgetauscht. Eine schriftliche Vertraulichkeitsregelung im LOI schützt vor Weitergabe an Dritte und Wettbewerber.",
+    "rechtsgrundlage": "GeschGehG §§ 2, 4, UWG § 17, BGB § 241",
+    "quelle_url": "https://www.gesetze-im-internet.de/geschgehg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "letter-of-intent"
+  },
+  {
+    "id": "loi-003",
+    "title": "Fusionskontrolle – Anmeldepflicht bei Unternehmenszusammenschlüssen (GWB § 35)",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Unternehmenszusammenschlüsse oberhalb bestimmter Umsatzschwellen (Inland > 50 Mio. EUR / weltweit > 500 Mio. EUR) müssen beim Bundeskartellamt angemeldet werden, bevor sie vollzogen werden dürfen.",
+    "rechtsgrundlage": "GWB §§ 35–43, Art. 101/102 AEUV, FKVO 139/2004",
+    "quelle_url": "https://www.gesetze-im-internet.de/gwb/__35.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG"
+      ],
+      "mitarbeiter_min": 50
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kreislauf-003",
+    "title": "Verpackungsgesetz – Registrierungs- und Lizenzierungspflicht (VerpackG)",
+    "category": "Umweltrecht",
+    "beschreibung": "Hersteller und Vertreiber, die verpackte Ware in Verkehr bringen, müssen sich bei der Zentralen Stelle Verpackungsregister (LUCID) registrieren und Systembeteiligungsentgelte für Verpackungsrecycling entrichten.",
+    "rechtsgrundlage": "VerpackG §§ 9, 33–36",
+    "quelle_url": "https://www.gesetze-im-internet.de/verpackg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kreislauf-004",
+    "title": "Elektrogesetz – Rücknahme- und Registrierungspflicht (ElektroG)",
+    "category": "Umweltrecht",
+    "beschreibung": "Hersteller und Vertreiber von Elektro- und Elektronikgeräten müssen sich bei der stiftung ear registrieren, Altgeräte zurücknehmen und Garantien für Entsorgungskosten stellen (WEEE-Richtlinie).",
+    "rechtsgrundlage": "ElektroG §§ 6, 37, RL 2012/19/EU (WEEE)",
+    "quelle_url": "https://www.gesetze-im-internet.de/elektrog/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Handel",
+        "Produktion",
+        "Technologie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "exportkontrolle-001",
+    "title": "Außenwirtschaftsrecht – Exportkontrolle und Genehmigungspflicht (AWG/AWV)",
+    "category": "Außenwirtschaftsrecht",
+    "beschreibung": "Export von Gütern mit doppeltem Verwendungszweck (Dual-Use) oder in Embargoländer kann genehmigungspflichtig sein. BAFA prüft Anträge; Verstöße können strafrechtlich verfolgt werden (bis 5 Jahre Haft).",
+    "rechtsgrundlage": "AWG §§ 4–19, AWV §§ 8–76, VO 2021/821/EU (Dual-Use-VO)",
+    "quelle_url": "https://www.gesetze-im-internet.de/awg_2013/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Produktion",
+        "Technologie",
+        "Chemie",
+        "Handel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "exportkontrolle-002",
+    "title": "Sanktionslisten-Screening – EU-/US-Sanktionsregime",
+    "category": "Compliance",
+    "beschreibung": "Unternehmen mit internationalem Geschäft müssen Geschäftspartner gegen EU-, UN- und ggf. US-Sanktionslisten (OFAC) prüfen, bevor Geschäfte abgeschlossen werden. Verstöße können zu Bußgeldern und Reputationsschäden führen.",
+    "rechtsgrundlage": "VO 2580/2001/EG, AWG § 18, EU-Sanktionsverordnungen",
+    "quelle_url": "https://www.bafa.de/DE/Aussenwirtschaft/Ausfuhrkontrolle/Embargos/embargos_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "barrierefrei-001",
+    "title": "Barrierefreiheitsstärkungsgesetz – Pflichten für digitale Produkte (BFSG, ab 2025)",
+    "category": "Digitales Recht",
+    "beschreibung": "Ab 28.06.2025 müssen bestimmte Produkte und Dienstleistungen (E-Commerce, Bankdienstleistungen, E-Books, Telekommunikation) barrierefrei gestaltet sein. Betrifft v.a. Webseiten, Apps und Self-Service-Terminals.",
+    "rechtsgrundlage": "BFSG §§ 1–3, 16–37, EU-RL 2019/882 (European Accessibility Act)",
+    "quelle_url": "https://www.gesetze-im-internet.de/bfsg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "E-Commerce",
+        "Handel",
+        "Finanzdienstleistungen",
+        "Technologie"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "barrierefrei-002",
+    "title": "Barrierefreie-Informationstechnik-Verordnung – öffentliche Stellen (BITV 2.0)",
+    "category": "Digitales Recht",
+    "beschreibung": "Öffentliche Stellen und Unternehmen mit öffentlichen Aufträgen müssen Webseiten und mobile Anwendungen nach WCAG 2.1 AA barrierefrei gestalten und eine Erklärung zur Barrierefreiheit veröffentlichen.",
+    "rechtsgrundlage": "BITV 2.0 §§ 3, 4, 12, BGG § 12a",
+    "quelle_url": "https://www.gesetze-im-internet.de/bitv_2_0/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG"
+      ],
+      "branchen": [
+        "Öffentlicher Sektor",
+        "IT-Dienstleistung"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "whistleblow-002",
+    "title": "Hinweisgeberschutzgesetz – interne Meldekanäle (HinSchG, ab 50 Mitarbeiter)",
+    "category": "Compliance",
+    "beschreibung": "Beschäftigungsgeber mit in der Regel mind. 50 Beschäftigten müssen interne Meldestellen für Hinweisgeber einrichten, die vertrauliche Meldungen über Rechtsverstöße ermöglichen. Verstöße: Bußgeld bis 50.000 EUR.",
+    "rechtsgrundlage": "HinSchG §§ 12–18, 40",
+    "quelle_url": "https://www.gesetze-im-internet.de/hinschg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 50
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "lieferkette-002",
+    "title": "EU-Entwaldungsverordnung – Sorgfaltspflichten (EUDR, ab 2025/2026)",
+    "category": "Nachhaltigkeit",
+    "beschreibung": "Unternehmen, die Holz, Kakao, Kaffee, Soja, Palmöl, Kautschuk oder Rinder in die EU importieren oder exportieren, müssen Sorgfaltserklärungen abgeben und Entwaldungsfreiheit ihrer Lieferketten nachweisen.",
+    "rechtsgrundlage": "VO 2023/1115/EU (EUDR)",
+    "quelle_url": "https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG"
+      ],
+      "branchen": [
+        "Handel",
+        "Produktion",
+        "Lebensmittel",
+        "Holz/Möbel"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "energieaudit-001",
+    "title": "Energieauditpflicht – Nicht-KMU nach EDL-G § 8",
+    "category": "Energie",
+    "beschreibung": "Unternehmen, die keine KMU sind (≥ 250 Mitarbeiter oder > 50 Mio. EUR Umsatz / 43 Mio. EUR Bilanzsumme), müssen alle vier Jahre ein Energieaudit nach DIN EN 16247-1 durchführen lassen.",
+    "rechtsgrundlage": "EDL-G § 8, DIN EN 16247-1",
+    "quelle_url": "https://www.gesetze-im-internet.de/edl-g/__8.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 250
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vergabe-001",
+    "title": "Vergaberecht – Eignungsnachweise bei öffentlichen Aufträgen",
+    "category": "Vergaberecht",
+    "beschreibung": "Unternehmen, die sich an öffentlichen Ausschreibungen beteiligen wollen, müssen Eignungsnachweise (Fachkunde, Leistungsfähigkeit, Zuverlässigkeit) erbringen und Eigenerklärungen zu Ausschlussgründen abgeben (§ 122 GWB).",
+    "rechtsgrundlage": "GWB §§ 122–126, VgV §§ 42–49",
+    "quelle_url": "https://www.gesetze-im-internet.de/gwb/__122.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
   }
 ]

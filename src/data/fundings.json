@@ -32582,5 +32582,363 @@
         "2026"
       ]
     }
+  },
+  {
+    "id": "bund-ausbildungsbonus",
+    "title": "Ausbildungsbonus – Förderung neuer Ausbildungsplätze",
+    "beschreibung": "Bundesweite Programme unterstützen Unternehmen, die zusätzliche Ausbildungsplätze schaffen oder Ausbildungsverbünde bilden, mit Zuschüssen zu Ausbildungsvergütung und Ausstattungskosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesagentur für Arbeit / BMBF",
+    "max_betrag": 8000,
+    "zins": null,
+    "antrag_url": "https://www.arbeitsagentur.de/unternehmen/finanziell/ausbildungsfoerderung",
+    "bearbeitungszeit_wochen": [
+      3,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Bereits laufendes Ausbildungsverhältnis ohne Neuschaffung"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Ausbildungsvertrag",
+        "auto": false
+      },
+      {
+        "name": "Nachweis Zusatzplatz",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "eu-horizon-cluster4",
+    "title": "Horizon Europe Cluster 4 – Digitales, Industrie & Raumfahrt",
+    "beschreibung": "Cluster 4 des EU-Forschungsrahmenprogramms Horizon Europe fördert Forschung zu Schlüsseltechnologien (KI, Robotik, Halbleiter, Quanten, Photonik), Fertigungstechnologien und Raumfahrt mit bis zu 100 % Förderquote für KMU.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission",
+    "max_betrag": 4000000,
+    "zins": null,
+    "antrag_url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/programmes/horizon",
+    "bearbeitungszeit_wochen": [
+      20,
+      32
+    ],
+    "ausschlusskriterien": [
+      "Keine internationalen Konsortialpartner"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Konsortialvereinbarung",
+        "auto": false
+      },
+      {
+        "name": "Projektantrag (englisch)",
+        "auto": false
+      },
+      {
+        "name": "Exzellenz- und Wirkungsbeschreibung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "KI",
+        "Produktion",
+        "Raumfahrt"
+      ]
+    }
+  },
+  {
+    "id": "bund-energieeffizienz-prozesswaerme",
+    "title": "Förderung Prozesswärme aus erneuerbaren Energien (BEW)",
+    "beschreibung": "Die Bundesförderung für effiziente Wärmenetze und Prozesswärme unterstützt Unternehmen bei der Umstellung industrieller Wärmeerzeugung auf erneuerbare Energien und Abwärmenutzung. Zuschüsse bis 50 % der Investitionskosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BAFA",
+    "max_betrag": 15000000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/DE/Energie/Effiziente_Waermenetze/effiziente_waermenetze_node.html",
+    "bearbeitungszeit_wochen": [
+      10,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Fossile Wärmeerzeugung ohne Transformationsplan"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Transformationsplan",
+        "auto": false
+      },
+      {
+        "name": "Wirtschaftlichkeitsberechnung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG"
+      ],
+      "branchen": [
+        "Produktion",
+        "Energie",
+        "Chemie"
+      ]
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "sn-saxony-innovation",
+    "title": "Sächsische Aufbaubank – Innovationsprämie für KMU",
+    "beschreibung": "Sachsen fördert Innovationsvorhaben kleiner Unternehmen mit Zuschüssen für die Entwicklung neuer Produkte, Verfahren und Dienstleistungen. Förderquote bis 50 %, Schwerpunkt auf Mikroelektronik und Materialforschung.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Sächsische Aufbaubank (SAB)",
+    "max_betrag": 175000,
+    "zins": null,
+    "antrag_url": "https://www.sab.sachsen.de/foerderungen",
+    "bearbeitungszeit_wochen": [
+      8,
+      16
+    ],
+    "ausschlusskriterien": [
+      "Kein Sachsen-Sitz"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Innovationskonzept",
+        "auto": false
+      },
+      {
+        "name": "Kosten- und Finanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Sachsen"
+      ],
+      "mitarbeiter_max": 49
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Mikroelektronik",
+        "Technologie",
+        "Produktion"
+      ]
+    }
+  },
+  {
+    "id": "rp-isb-innovationsfoerderung",
+    "title": "ISB Innovationsförderung Rheinland-Pfalz",
+    "beschreibung": "Die Investitions- und Strukturbank Rheinland-Pfalz (ISB) fördert Forschungs-, Entwicklungs- und Innovationsvorhaben von KMU mit zinsgünstigen Darlehen und Tilgungszuschüssen.",
+    "typ": "Kredit",
+    "quelle": "Bundesland",
+    "foerderer": "Investitions- und Strukturbank Rheinland-Pfalz (ISB)",
+    "max_betrag": 1000000,
+    "zins": "ab 2,5 % eff. p.a.",
+    "antrag_url": "https://www.isb.rlp.de/foerderprogramme",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Kein RLP-Sitz"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Innovationsprojektbeschreibung",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Rheinland-Pfalz"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Produktion",
+        "Chemie"
+      ]
+    }
+  },
+  {
+    "id": "th-thüringen-invest",
+    "title": "Thüringen-Invest – Investitionsförderung für KMU",
+    "beschreibung": "Thüringen unterstützt Investitionen kleiner und mittlerer Unternehmen in Maschinen, Anlagen und Betriebsausstattung mit nicht rückzahlbaren Zuschüssen. Förderquote bis 25 % der förderfähigen Kosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Thüringer Aufbaubank (TAB)",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.aufbaubank.de/Foerderprogramme/Thueringen-Invest",
+    "bearbeitungszeit_wochen": [
+      6,
+      14
+    ],
+    "ausschlusskriterien": [
+      "Kein Thüringen-Sitz"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Unternehmenskonzept",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Thüringen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-frauen-gruenden",
+    "title": "Förderprogramm „Frauen unternehmen“ – Gründerinnen-Coaching",
+    "beschreibung": "Bundesweites Mentoring- und Coaching-Programm für Unternehmerinnen in der Gründungs- und Wachstumsphase. Kostenfreie Beratung durch erfahrene Unternehmerinnen, Netzwerkaufbau und Sichtbarkeit.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK",
+    "max_betrag": null,
+    "zins": null,
+    "antrag_url": "https://www.existenzgruenderinnen.de",
+    "bearbeitungszeit_wochen": [
+      2,
+      6
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Kurzdarstellung des Vorhabens",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 9
+    },
+    "relevanz_boost": {
+      "gruendungsjahr": [
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    }
+  },
+  {
+    "id": "bund-zim-kooperation",
+    "title": "ZIM-Kooperationsprojekte – Verbundforschung für Mittelstand",
+    "beschreibung": "Das Zentrale Innovationsprogramm Mittelstand fördert Kooperationsprojekte zwischen mehreren Unternehmen oder mit Forschungseinrichtungen. Förderquote bis 55 % für kleine Unternehmen, Zuschüsse für Personal- und Sachkosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "AiF Projekt GmbH / BMWK",
+    "max_betrag": 600000,
+    "zins": null,
+    "antrag_url": "https://www.zim.de/ZIM/Navigation/DE/Foerderung/Kooperationsprojekte/kooperationsprojekte.html",
+    "bearbeitungszeit_wochen": [
+      12,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Einzelvorhaben ohne Kooperationspartner"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Kooperationsvereinbarung",
+        "auto": false
+      },
+      {
+        "name": "Gemeinsamer Projektantrag",
+        "auto": false
+      },
+      {
+        "name": "Verwertungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Produktion",
+        "Biotechnologie"
+      ]
+    }
   }
 ]

@@ -26,6 +26,8 @@ import {
   kaufvertragTemplate,
   dienstleistungsvertragTemplate,
   gesellschaftervertragGbrTemplate,
+  letterOfIntentTemplate,
+  entsorgungsvertragTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -62,6 +64,8 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   kaufvertrag: 'Kaufvertrag (B2B)',
   dienstleistungsvertrag: 'Dienstleistungsvertrag / SLA',
   'gesellschaftervertrag-gbr': 'Gesellschaftervertrag GbR',
+  'letter-of-intent': 'Letter of Intent (LOI)',
+  entsorgungsvertrag: 'Entsorgungs- und Recyclingvertrag',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -116,6 +120,8 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'kaufvertrag': return applyTemplate(kaufvertragTemplate, vars)
     case 'dienstleistungsvertrag': return applyTemplate(dienstleistungsvertragTemplate, vars)
     case 'gesellschaftervertrag-gbr': return applyTemplate(gesellschaftervertragGbrTemplate, vars)
+    case 'letter-of-intent': return applyTemplate(letterOfIntentTemplate, vars)
+    case 'entsorgungsvertrag': return applyTemplate(entsorgungsvertragTemplate, vars)
   }
 }
 

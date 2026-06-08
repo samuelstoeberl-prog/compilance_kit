@@ -44,6 +44,8 @@ export type DokumentTyp =
   | 'kaufvertrag'
   | 'dienstleistungsvertrag'
   | 'gesellschaftervertrag-gbr'
+  | 'letter-of-intent'
+  | 'entsorgungsvertrag'
 
 export interface GiltFuer {
   rechtsformen: string[]
