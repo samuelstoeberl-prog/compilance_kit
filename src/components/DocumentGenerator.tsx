@@ -34,6 +34,8 @@ import {
   homeofficeVereinbarungTemplate,
   elternzeitVereinbarungTemplate,
   abmahnungTemplate,
+  mietkautionsvereinbarungTemplate,
+  geschaeftsfuehrervertragTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -78,6 +80,8 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   'homeoffice-vereinbarung': 'Homeoffice-/Mobile-Arbeit-Vereinbarung',
   'elternzeit-vereinbarung': 'Elternzeit-/Elternteilzeit-Vereinbarung',
   abmahnung: 'Abmahnung',
+  mietkautionsvereinbarung: 'Mietkautionsvereinbarung (Gewerberaum)',
+  geschaeftsfuehrervertrag: 'Geschäftsführer-Anstellungsvertrag',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -140,6 +144,8 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'homeoffice-vereinbarung': return applyTemplate(homeofficeVereinbarungTemplate, vars)
     case 'elternzeit-vereinbarung': return applyTemplate(elternzeitVereinbarungTemplate, vars)
     case 'abmahnung': return applyTemplate(abmahnungTemplate, vars)
+    case 'mietkautionsvereinbarung': return applyTemplate(mietkautionsvereinbarungTemplate, vars)
+    case 'geschaeftsfuehrervertrag': return applyTemplate(geschaeftsfuehrervertragTemplate, vars)
   }
 }
 

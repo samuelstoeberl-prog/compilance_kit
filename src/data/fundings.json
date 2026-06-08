@@ -33361,5 +33361,175 @@
       ],
       "gruendungsjahr": null
     }
+  },
+  {
+    "id": "bund-unternehmensnachfolge-beratung",
+    "title": "Beratungsförderung für Unternehmensnachfolge und Geschäftsführerwechsel",
+    "beschreibung": "Zuschuss zu externer Beratung bei der Regelung der Unternehmensnachfolge, einschließlich rechtlicher Gestaltung von Geschäftsführer-Anstellungsverträgen und Übergabeprozessen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Wirtschaft und Klimaschutz (BMWK) / KfW",
+    "max_betrag": 8000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen in Schwierigkeiten",
+      "bereits abgeschlossene Nachfolgeprozesse"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregisterauszug",
+        "auto": false
+      },
+      {
+        "name": "Beraterangebot/-vertrag",
+        "auto": false
+      },
+      {
+        "name": "Nachfolgekonzept",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": null,
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": null,
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ],
+      "gruendungsjahr": null
+    }
+  },
+  {
+    "id": "bund-gewerbeimmobilien-buergschaft",
+    "title": "Bürgschaftsprogramm für Gewerbeimmobilien-Anmietung",
+    "beschreibung": "Ausfallbürgschaft zur Absicherung von Mietkautionen und Investitionen bei der Anmietung oder Anpassung von Gewerberäumen für kleine und mittlere Unternehmen.",
+    "typ": "Bürgschaft",
+    "quelle": "Bund",
+    "foerderer": "Bürgschaftsbank in Zusammenarbeit mit KfW",
+    "max_betrag": 1000000,
+    "zins": null,
+    "antrag_url": "https://www.vdb-info.de",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen in Schwierigkeiten",
+      "spekulative Immobiliengeschäfte"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Mietvertragsentwurf",
+        "auto": false
+      },
+      {
+        "name": "Bonitätsunterlagen",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": "50000000",
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Handel",
+        "Gastgewerbe",
+        "Dienstleistungen",
+        "Produktion"
+      ],
+      "mitarbeiter": null,
+      "gruendungsjahr": null
+    }
+  },
+  {
+    "id": "bund-fuehrungskraefte-coaching",
+    "title": "Förderung von Coaching- und Weiterbildungsmaßnahmen für Führungskräfte",
+    "beschreibung": "Zuschuss zu Coaching- und Schulungsmaßnahmen für Geschäftsführer und Führungskräfte in den Bereichen Unternehmensführung, Compliance, Personalmanagement und Recht.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA)",
+    "max_betrag": 4500,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/unternehmensberatung",
+    "bearbeitungszeit_wochen": [
+      3,
+      6
+    ],
+    "ausschlusskriterien": [
+      "bereits laufende identische Maßnahmen",
+      "Großunternehmen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Coaching-/Schulungsangebot",
+        "auto": false
+      },
+      {
+        "name": "Unternehmensregisterauszug",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": null,
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": null,
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ],
+      "gruendungsjahr": null
+    }
   }
 ]

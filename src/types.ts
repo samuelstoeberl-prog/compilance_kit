@@ -52,6 +52,8 @@ export type DokumentTyp =
   | 'homeoffice-vereinbarung'
   | 'elternzeit-vereinbarung'
   | 'abmahnung'
+  | 'mietkautionsvereinbarung'
+  | 'geschaeftsfuehrervertrag'
 
 export interface GiltFuer {
   rechtsformen: string[]

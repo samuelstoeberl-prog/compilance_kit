@@ -31018,5 +31018,166 @@
       "mitarbeiter_min": 1
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "mietkaution-001",
+    "title": "Vereinbarung einer Mietkaution für Gewerberäume",
+    "category": "Verträge & Vereinbarungen",
+    "beschreibung": "Unternehmen, die Gewerberäume anmieten, sollten die Höhe, Art und Rückzahlungsmodalitäten der Mietkaution vertraglich klar regeln, um Streitigkeiten bei Vertragsende zu vermeiden.",
+    "rechtsgrundlage": "§§ 232 ff. BGB, § 551 BGB analog, § 47 InsO",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__551.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "mietkautionsvereinbarung"
+  },
+  {
+    "id": "mietkaution-002",
+    "title": "Trennung der Mietkaution vom Vermögen des Vermieters",
+    "category": "Vertragsrecht",
+    "beschreibung": "Vermieter müssen erhaltene Mietkautionen getrennt von ihrem eigenen Vermögen anlegen, um dem Mieter im Insolvenzfall ein Aussonderungsrecht zu sichern.",
+    "rechtsgrundlage": "§ 551 Abs. 3 BGB analog, § 47 InsO",
+    "quelle_url": "https://www.gesetze-im-internet.de/inso/__47.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Immobilien",
+        "Vermietung"
+      ],
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "geschaeftsfuehrer-001",
+    "title": "Abschluss eines Geschäftsführer-Anstellungsvertrags",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "GmbHs und vergleichbare Gesellschaften sollten mit ihren Geschäftsführern einen schriftlichen Anstellungsvertrag schließen, der Vergütung, Aufgaben, Wettbewerbsverbot und Beendigungsmodalitäten klar regelt – getrennt von der körperschaftsrechtlichen Organbestellung.",
+    "rechtsgrundlage": "§§ 6, 35-38, 43 GmbHG, §§ 611, 626, 675 BGB",
+    "quelle_url": "https://www.gesetze-im-internet.de/gmbhg/__35.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "geschaeftsfuehrervertrag"
+  },
+  {
+    "id": "geschaeftsfuehrer-002",
+    "title": "Sorgfaltspflicht und Haftung des Geschäftsführers (§ 43 GmbHG)",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Geschäftsführer haften gegenüber der Gesellschaft für die Sorgfalt eines ordentlichen Geschäftsmanns. Eine vertragliche Haftungsbeschränkung auf Vorsatz und grobe Fahrlässigkeit ist unzulässig; D&O-Versicherungen können das Risiko absichern.",
+    "rechtsgrundlage": "§ 43 GmbHG, § 93 AktG analog",
+    "quelle_url": "https://www.gesetze-im-internet.de/gmbhg/__43.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "geschaeftsfuehrer-003",
+    "title": "Zustimmungspflichtige Geschäfte und Geschäftsordnung der Geschäftsführung",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Gesellschafterversammlungen sollten in einer Geschäftsordnung festlegen, welche Geschäfte der Geschäftsführer nur mit vorheriger Zustimmung der Gesellschafter vornehmen darf (z.B. Kreditaufnahmen, Grundstücksgeschäfte, Bürgschaften).",
+    "rechtsgrundlage": "§ 37 GmbHG, Gesellschaftsvertrag",
+    "quelle_url": "https://www.gesetze-im-internet.de/gmbhg/__37.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": 10,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "compliance-personal-002",
+    "title": "Dokumentation arbeitsrechtlicher Maßnahmen (Abmahnung, Personalakte)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitgeber sollten arbeitsrechtliche Maßnahmen wie Abmahnungen ordnungsgemäß dokumentieren und in die Personalakte aufnehmen, um im Streitfall (z.B. vor dem Arbeitsgericht) Nachweise führen zu können.",
+    "rechtsgrundlage": "§ 1 Abs. 2 KSchG, § 83 Abs. 2 BetrVG, BAG-Rechtsprechung",
+    "quelle_url": "https://www.gesetze-im-internet.de/kschg/__1.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": 1,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vertragsmanagement-001",
+    "title": "Systematische Verwaltung von Geschäfts- und Mietverträgen",
+    "category": "Organisation & Verwaltung",
+    "beschreibung": "Unternehmen sollten ein zentrales Vertragsmanagement führen, das Laufzeiten, Kündigungsfristen, Sicherheiten (z.B. Kautionen, Bürgschaften) und Vertragsanpassungen systematisch erfasst, um Fristversäumnisse zu vermeiden.",
+    "rechtsgrundlage": "Allgemeine Sorgfaltspflichten, § 257 HGB (Aufbewahrungspflichten)",
+    "quelle_url": "https://www.gesetze-im-internet.de/hgb/__257.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
   }
 ]
