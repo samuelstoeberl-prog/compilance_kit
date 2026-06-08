@@ -33755,5 +33755,111 @@
       ],
       "gruendungsjahr": null
     }
+  },
+  {
+    "id": "bund-arge-grossprojekt-foerderung",
+    "title": "Förderung von Konsortien für Forschungs- und Großprojekte",
+    "beschreibung": "Zuschuss für Unternehmenskonsortien, die sich zur gemeinsamen Bearbeitung von Forschungs-, Infrastruktur- oder Innovationsprojekten zusammenschließen, inkl. Unterstützung bei der rechtlichen Strukturierung (Konsortialverträge).",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Bildung und Forschung (BMBF) / Projektträger",
+    "max_betrag": 500000,
+    "zins": null,
+    "antrag_url": "https://www.foerderportal.bund.de",
+    "bearbeitungszeit_wochen": [
+      10,
+      20
+    ],
+    "ausschlusskriterien": [
+      "Einzelunternehmen ohne Konsortialpartner",
+      "Projekte ohne Innovationsgehalt"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Konsortialvertrag (Entwurf)",
+        "auto": false
+      },
+      {
+        "name": "Projektskizze",
+        "auto": false
+      },
+      {
+        "name": "Finanzierungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_max": null,
+      "umsatz_max": null,
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Forschung",
+        "IT",
+        "Industrie",
+        "Bauwesen"
+      ],
+      "mitarbeiter": [
+        "50–249",
+        "250+"
+      ],
+      "gruendungsjahr": null
+    }
+  },
+  {
+    "id": "bund-corporate-governance-beratung",
+    "title": "Beratungszuschuss für Corporate-Governance- und Vergütungssysteme",
+    "beschreibung": "Zuschuss zu externer rechtlicher Beratung bei der Einführung von Corporate-Governance-Strukturen, Vergütungssystemen für Vorstände und Geschäftsführer sowie D&O-Versicherungslösungen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Wirtschaft und Klimaschutz (BMWK)",
+    "max_betrag": 7000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/unternehmensberatung",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Großkonzerne mit eigener Rechtsabteilung über 250 MA"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Beraterangebot",
+        "auto": false
+      },
+      {
+        "name": "Handelsregisterauszug",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG",
+        "GmbH",
+        "GmbH & Co. KG"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": null,
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": null,
+      "mitarbeiter": [
+        "50–249"
+      ],
+      "gruendungsjahr": null
+    }
   }
 ]

@@ -31406,5 +31406,132 @@
       "bundeslaender": null
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "konsortium-001",
+    "title": "Gründung von Konsortien und Bietergemeinschaften (ARGE)",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Unternehmen, die sich für gemeinsame Großprojekte oder Ausschreibungen zu Arbeitsgemeinschaften (ARGE) zusammenschließen, sollten Leistungsanteile, Führung, Haftung und Gewinnverteilung in einem Konsortialvertrag regeln.",
+    "rechtsgrundlage": "§§ 705-740 BGB (MoPeG), §§ 421, 426 BGB",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__705.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR"
+      ],
+      "branchen": [
+        "Bauwesen",
+        "Ingenieurwesen",
+        "IT",
+        "Industrie"
+      ],
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "konsortialvertrag"
+  },
+  {
+    "id": "konsortium-002",
+    "title": "Kartellrechtliche Zulässigkeit von Bietergemeinschaften",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Bietergemeinschaften bei öffentlichen Ausschreibungen sind nur zulässig, wenn die beteiligten Unternehmen das Vorhaben nicht alleine durchführen könnten. Wettbewerbswidrige Preisabsprachen (Submissionsabsprachen) sind strafbar.",
+    "rechtsgrundlage": "§ 1 GWB, § 298 StGB",
+    "quelle_url": "https://www.gesetze-im-internet.de/stgb/__298.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG"
+      ],
+      "branchen": [
+        "Bauwesen",
+        "Ingenieurwesen",
+        "Industrie"
+      ],
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vorstand-001",
+    "title": "Abschluss von Vorstandsanstellungsverträgen in der Aktiengesellschaft",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Aktiengesellschaften müssen mit Vorstandsmitgliedern Anstellungsverträge schließen, die Vergütung, Wettbewerbsverbot, Haftung und Beendigungsmodalitäten gemäß den aktienrechtlichen Vorgaben regeln – getrennt von der Organbestellung.",
+    "rechtsgrundlage": "§§ 84, 87, 88, 93 AktG, § 611 BGB",
+    "quelle_url": "https://www.gesetze-im-internet.de/aktg/__84.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "vorstandsanstellungsvertrag"
+  },
+  {
+    "id": "vorstand-002",
+    "title": "Vergütungssystem für Vorstandsmitglieder (§§ 87, 87a AktG)",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Der Aufsichtsrat muss ein klares und verständliches Vergütungssystem für Vorstandsmitglieder beschließen, das von der Hauptversammlung gebilligt wird, und die Angemessenheit der Vergütung im Hinblick auf die Lage der Gesellschaft sicherstellen.",
+    "rechtsgrundlage": "§§ 87, 87a, 120a AktG",
+    "quelle_url": "https://www.gesetze-im-internet.de/aktg/__87.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vorstand-003",
+    "title": "Sorgfaltspflicht und Haftungsbeschränkung des Vorstands (§ 93 AktG)",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Vorstandsmitglieder haften für die Sorgfalt eines ordentlichen und gewissenhaften Geschäftsleiters. Eine vertragliche Haftungsfreistellung ist unzulässig; D&O-Versicherungen mit gesetzlichem Mindestselbstbehalt sind das übliche Absicherungsinstrument.",
+    "rechtsgrundlage": "§ 93 AktG",
+    "quelle_url": "https://www.gesetze-im-internet.de/aktg/__93.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kapitalmarkt-001",
+    "title": "Director's Dealings – Meldepflichten bei Eigengeschäften von Führungskräften",
+    "category": "Kapitalmarktrecht",
+    "beschreibung": "Mitglieder von Geschäftsführungs- und Aufsichtsorganen kapitalmarktorientierter Unternehmen müssen Eigengeschäfte mit Aktien oder Schuldtiteln der Gesellschaft ab einem Schwellenwert unverzüglich offenlegen.",
+    "rechtsgrundlage": "Art. 19 Marktmissbrauchsverordnung (MAR), § 26 WpHG",
+    "quelle_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32014R0596",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "AG"
+      ],
+      "branchen": [
+        "Finanzwesen",
+        "Börsennotierte Unternehmen"
+      ],
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
   }
 ]

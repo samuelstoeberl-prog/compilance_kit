@@ -58,6 +58,8 @@ export type DokumentTyp =
   | 'aufhebungsvereinbarung-abfindung'
   | 'maklervertrag'
   | 'sponsoringvertrag'
+  | 'konsortialvertrag'
+  | 'vorstandsanstellungsvertrag'
 
 export interface GiltFuer {
   rechtsformen: string[]

@@ -40,6 +40,8 @@ import {
   aufhebungsvereinbarungAbfindungTemplate,
   maklervertragTemplate,
   sponsoringvertragTemplate,
+  konsortialvertragTemplate,
+  vorstandsanstellungsvertragTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -90,6 +92,8 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   'aufhebungsvereinbarung-abfindung': 'Aufhebungsvereinbarung mit Abfindung',
   maklervertrag: 'Maklervertrag (Handels-/Immobilienmakler)',
   sponsoringvertrag: 'Sponsoringvertrag',
+  konsortialvertrag: 'Konsortialvertrag (ARGE/Bietergemeinschaft)',
+  vorstandsanstellungsvertrag: 'Vorstandsanstellungsvertrag (AG)',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -158,6 +162,8 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'aufhebungsvereinbarung-abfindung': return applyTemplate(aufhebungsvereinbarungAbfindungTemplate, vars)
     case 'maklervertrag': return applyTemplate(maklervertragTemplate, vars)
     case 'sponsoringvertrag': return applyTemplate(sponsoringvertragTemplate, vars)
+    case 'konsortialvertrag': return applyTemplate(konsortialvertragTemplate, vars)
+    case 'vorstandsanstellungsvertrag': return applyTemplate(vorstandsanstellungsvertragTemplate, vars)
   }
 }
 
