@@ -31252,5 +31252,159 @@
       "bundeslaender": null
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "makler-001",
+    "title": "Abschluss von Maklerverträgen für Immobilien- oder Geschäftsvermittlung",
+    "category": "Vertragsrecht",
+    "beschreibung": "Unternehmen, die Makler mit dem Verkauf, der Vermietung oder der Vermittlung von Geschäftsabschlüssen beauftragen, sollten Provisionshöhe, Auftragsart (einfach/Alleinauftrag) und Pflichten schriftlich regeln.",
+    "rechtsgrundlage": "§§ 652-656d BGB, §§ 93 ff. HGB, § 34c GewO",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__652.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Immobilien",
+        "Handel",
+        "Dienstleistungen"
+      ],
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "maklervertrag"
+  },
+  {
+    "id": "makler-002",
+    "title": "Bestellerprinzip bei der Vermittlung von Wohnraum",
+    "category": "Vertragsrecht",
+    "beschreibung": "Bei der Vermittlung von Mietwohnraum gilt das Bestellerprinzip: Die Maklerprovision schuldet grundsätzlich, wer den Makler beauftragt hat. Vermieter dürfen die Provision nicht auf Mieter abwälzen.",
+    "rechtsgrundlage": "§ 2 Abs. 1a Wohnungsvermittlungsgesetz (WoVermittG)",
+    "quelle_url": "https://www.gesetze-im-internet.de/wovermg/__2.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Immobilien"
+      ],
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "makler-003",
+    "title": "Geldwäscheprävention bei Immobiliengeschäften (§ 2 GwG)",
+    "category": "Compliance & Geldwäsche",
+    "beschreibung": "Immobilienmakler unterliegen besonderen Sorgfalts- und Identifizierungspflichten nach dem Geldwäschegesetz und müssen verdächtige Transaktionen an die Zentralstelle für Finanztransaktionsuntersuchungen (FIU) melden.",
+    "rechtsgrundlage": "§ 2 Abs. 1 Nr. 14 GwG, § 43 GwG (Meldepflicht)",
+    "quelle_url": "https://www.gesetze-im-internet.de/gwg_2017/__2.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Immobilien"
+      ],
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "sponsoring-001",
+    "title": "Abschluss von Sponsoringverträgen mit Vereinen, Veranstaltungen oder Personen",
+    "category": "Vertragsrecht",
+    "beschreibung": "Unternehmen, die Sport-, Kultur- oder Sozialprojekte sponsern, sollten Leistung, Gegenleistung (Werbeleistungen), Nutzungsrechte an Marken/Logos und Imageklauseln vertraglich regeln, um die Abgrenzung zur Spende sicherzustellen.",
+    "rechtsgrundlage": "§ 516 BGB, § 314 BGB, BMF-Schreiben zum Sponsoring",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__516.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "sponsoringvertrag"
+  },
+  {
+    "id": "sponsoring-002",
+    "title": "Steuerliche Behandlung von Sponsoringaufwendungen als Betriebsausgaben",
+    "category": "Steuerrecht",
+    "beschreibung": "Sponsoringaufwendungen können als Betriebsausgaben abgesetzt werden, wenn ihnen ein wirtschaftlicher Werbewert für das Unternehmen gegenübersteht. Die korrekte umsatzsteuerliche Behandlung und Rechnungsstellung ist zu beachten.",
+    "rechtsgrundlage": "§ 4 Abs. 4 EStG, BMF-Schreiben vom 18.02.1998, §§ 1, 14 UStG",
+    "quelle_url": "https://www.gesetze-im-internet.de/estg/__4.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "gemeinnuetzigkeit-001",
+    "title": "Vereinbarkeit von Sponsoring mit dem Gemeinnützigkeitsrecht",
+    "category": "Steuerrecht",
+    "beschreibung": "Gemeinnützige Organisationen, die Sponsoringeinnahmen erzielen, müssen die Abgrenzung zwischen ideellem Bereich, Vermögensverwaltung und wirtschaftlichem Geschäftsbetrieb beachten, um ihre Steuerbegünstigung nicht zu gefährden.",
+    "rechtsgrundlage": "§§ 52, 64 AO",
+    "quelle_url": "https://www.gesetze-im-internet.de/ao_1977/__64.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "e.V.",
+        "Stiftung",
+        "gGmbH"
+      ],
+      "branchen": [
+        "Vereine",
+        "Soziales",
+        "Kultur",
+        "Sport"
+      ],
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
   }
 ]

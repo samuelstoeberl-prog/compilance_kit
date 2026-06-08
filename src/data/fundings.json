@@ -33642,5 +33642,118 @@
       ],
       "gruendungsjahr": null
     }
+  },
+  {
+    "id": "bund-immobilienvermittlung-digitalisierung",
+    "title": "Digitalisierungsförderung für Immobilien- und Vermittlungsunternehmen",
+    "beschreibung": "Zuschuss zur Digitalisierung von Vermittlungsprozessen, z.B. Einführung von CRM-Systemen, virtuellen Besichtigungstools und digitalen Vertragsabschlussverfahren für Makler und Vermittlungsunternehmen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Wirtschaft und Klimaschutz (BMWK)",
+    "max_betrag": 12000,
+    "zins": null,
+    "antrag_url": "https://www.bmwk.de/digital-jetzt",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen in Schwierigkeiten",
+      "bereits abgeschlossene Digitalisierungsprojekte"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Digitalisierungskonzept",
+        "auto": false
+      },
+      {
+        "name": "Erlaubnis nach § 34c GewO",
+        "auto": false
+      },
+      {
+        "name": "Kostenvoranschlag",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "mitarbeiter_max": 49,
+      "umsatz_max": null,
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Immobilien",
+        "Dienstleistungen"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ],
+      "gruendungsjahr": null
+    }
+  },
+  {
+    "id": "bund-sportfoerderung-sponsoring",
+    "title": "Förderprogramm für gesellschaftliches Engagement und Sportsponsoring im Mittelstand",
+    "beschreibung": "Zuschuss zu Kosten im Zusammenhang mit dem Aufbau langfristiger Sponsoring- und Förderpartnerschaften mit gemeinnützigen Sport-, Kultur- oder Bildungsorganisationen, inkl. rechtlicher Beratung zur Vertragsgestaltung.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Landesministerien für Wirtschaft / Kultus (länderspezifisch)",
+    "max_betrag": 7000,
+    "zins": null,
+    "antrag_url": "https://www.foerderdatenbank.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [
+      "rein kommerzielle Werbepartnerschaften ohne gemeinnützigen Bezug"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Sponsoringkonzept",
+        "auto": false
+      },
+      {
+        "name": "Nachweis Gemeinnützigkeit des Partners",
+        "auto": false
+      },
+      {
+        "name": "Kostenplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": null,
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": null,
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ],
+      "gruendungsjahr": null
+    }
   }
 ]

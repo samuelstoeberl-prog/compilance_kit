@@ -56,6 +56,8 @@ export type DokumentTyp =
   | 'geschaeftsfuehrervertrag'
   | 'vertriebsvereinbarung'
   | 'aufhebungsvereinbarung-abfindung'
+  | 'maklervertrag'
+  | 'sponsoringvertrag'
 
 export interface GiltFuer {
   rechtsformen: string[]
