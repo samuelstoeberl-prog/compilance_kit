@@ -36,6 +36,8 @@ import {
   abmahnungTemplate,
   mietkautionsvereinbarungTemplate,
   geschaeftsfuehrervertragTemplate,
+  vertriebsvereinbarungTemplate,
+  aufhebungsvereinbarungAbfindungTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -82,6 +84,8 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   abmahnung: 'Abmahnung',
   mietkautionsvereinbarung: 'Mietkautionsvereinbarung (Gewerberaum)',
   geschaeftsfuehrervertrag: 'Geschäftsführer-Anstellungsvertrag',
+  vertriebsvereinbarung: 'Vertriebsvereinbarung (Distributor-Vertrag)',
+  'aufhebungsvereinbarung-abfindung': 'Aufhebungsvereinbarung mit Abfindung',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -146,6 +150,8 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'abmahnung': return applyTemplate(abmahnungTemplate, vars)
     case 'mietkautionsvereinbarung': return applyTemplate(mietkautionsvereinbarungTemplate, vars)
     case 'geschaeftsfuehrervertrag': return applyTemplate(geschaeftsfuehrervertragTemplate, vars)
+    case 'vertriebsvereinbarung': return applyTemplate(vertriebsvereinbarungTemplate, vars)
+    case 'aufhebungsvereinbarung-abfindung': return applyTemplate(aufhebungsvereinbarungAbfindungTemplate, vars)
   }
 }
 

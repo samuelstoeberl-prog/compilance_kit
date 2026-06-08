@@ -33531,5 +33531,116 @@
       ],
       "gruendungsjahr": null
     }
+  },
+  {
+    "id": "bund-exportvertrieb-foerderung",
+    "title": "Förderung des Aufbaus von Vertriebsstrukturen im Auslandsgeschäft",
+    "beschreibung": "Zuschuss zu Kosten für den Aufbau von Vertriebspartnerschaften, Markterschließung und rechtlicher Beratung bei internationalen Vertriebsvereinbarungen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesamt für Wirtschaft und Ausfuhrkontrolle (BAFA) / Germany Trade & Invest (GTAI)",
+    "max_betrag": 15000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/aussenwirtschaft",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen in Schwierigkeiten",
+      "Geschäfte mit sanktionierten Staaten"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Markterschließungskonzept",
+        "auto": false
+      },
+      {
+        "name": "Unternehmensregisterauszug",
+        "auto": false
+      },
+      {
+        "name": "Kostenschätzung Vertriebsaufbau",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": null,
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Handel",
+        "Produktion",
+        "Großhandel"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ],
+      "gruendungsjahr": null
+    }
+  },
+  {
+    "id": "bund-newplacement-foerderung",
+    "title": "Förderung von Outplacement- und Newplacement-Maßnahmen",
+    "beschreibung": "Zuschuss zu Outplacement-Beratung und Coaching für Beschäftigte, deren Arbeitsverhältnis im Rahmen einer Aufhebungsvereinbarung oder betriebsbedingten Kündigung endet, zur Unterstützung der beruflichen Neuorientierung.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesagentur für Arbeit",
+    "max_betrag": 3500,
+    "zins": null,
+    "antrag_url": "https://www.arbeitsagentur.de/unternehmen",
+    "bearbeitungszeit_wochen": [
+      3,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Maßnahmen ohne externen Anbieter",
+      "bereits abgeschlossene Trennungsprozesse"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Nachweis Beendigung des Arbeitsverhältnisses",
+        "auto": false
+      },
+      {
+        "name": "Angebot Outplacement-Anbieter",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": null,
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": null,
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ],
+      "gruendungsjahr": null
+    }
   }
 ]

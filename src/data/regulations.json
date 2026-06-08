@@ -31179,5 +31179,78 @@
       "bundeslaender": null
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "aufhebung-abfindung-001",
+    "title": "Abschluss von Aufhebungsvereinbarungen mit Abfindungsregelung",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Bei einvernehmlicher Beendigung von Arbeitsverhältnissen sollten Arbeitgeber Abfindung, Freistellung, Zeugnis und Ausgleichsklauseln schriftlich regeln und auf mögliche Sperrzeiten beim Arbeitslosengeld hinweisen.",
+    "rechtsgrundlage": "§§ 311, 623 BGB, §§ 9, 10 KSchG, § 34 EStG, § 159 SGB III",
+    "quelle_url": "https://www.gesetze-im-internet.de/kschg/__9.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": 1,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "aufhebungsvereinbarung-abfindung"
+  },
+  {
+    "id": "aufhebung-abfindung-002",
+    "title": "Hinweispflicht zu Sperrzeiten bei Aufhebungsverträgen",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitgeber sollten Arbeitnehmer beim Abschluss eines Aufhebungsvertrags auf das Risiko einer Sperrzeit beim Bezug von Arbeitslosengeld sowie auf die Pflicht zur frühzeitigen Meldung als arbeitsuchend hinweisen.",
+    "rechtsgrundlage": "§ 159 SGB III, § 38 SGB III",
+    "quelle_url": "https://www.gesetze-im-internet.de/sgb_3/__159.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": 1,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "vertragsmanagement-002",
+    "title": "Steuerliche Behandlung von Abfindungszahlungen (Fünftelregelung)",
+    "category": "Steuerrecht",
+    "beschreibung": "Abfindungen für den Verlust des Arbeitsplatzes können nach § 34 EStG ermäßigt besteuert werden (Fünftelregelung). Arbeitgeber sollten dies bei der Lohnabrechnung und Bescheinigung berücksichtigen.",
+    "rechtsgrundlage": "§ 34 EStG",
+    "quelle_url": "https://www.gesetze-im-internet.de/estg/__34.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": 1,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
   }
 ]

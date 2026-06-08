@@ -54,6 +54,8 @@ export type DokumentTyp =
   | 'abmahnung'
   | 'mietkautionsvereinbarung'
   | 'geschaeftsfuehrervertrag'
+  | 'vertriebsvereinbarung'
+  | 'aufhebungsvereinbarung-abfindung'
 
 export interface GiltFuer {
   rechtsformen: string[]
