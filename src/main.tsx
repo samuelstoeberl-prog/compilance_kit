@@ -25,7 +25,7 @@ createRoot(document.getElementById('root')!).render(
       localization={deDE}
       signInFallbackRedirectUrl="/"
       signUpFallbackRedirectUrl="/"
-      signOutUrl="/login"
+      afterSignOutUrl="/login"
     >
       <BrowserRouter>
         <ProfilProvider>
