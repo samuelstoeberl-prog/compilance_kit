@@ -9,7 +9,7 @@ import DocumentGenerator, { buildDocument } from '../components/DocumentGenerato
 import { downloadAsPDF, downloadAsDOCX } from '../utils/exportDoc'
 import regulationData from '../data/regulations.json'
 import fundingData from '../data/fundings.json'
-import { CheckCircle, TrendingUp, Settings } from 'lucide-react'
+import { CheckCircle, TrendingUp, Settings, FileText } from 'lucide-react'
 import type { Regulation, Funding, PflichtStatus, FundingMitScore, RegulationMitStatus, DokumentTyp } from '../types'
 
 type Tab = 'pflichten' | 'foerderungen' | 'dokumente'
@@ -208,6 +208,7 @@ export default function Dashboard() {
       <nav className="bg-white border-b border-sand-border px-6 flex gap-2">
         {tabBtn('pflichten',   'Pflichten',   allRegs.length,    <CheckCircle size={18} />)}
         {tabBtn('foerderungen','Förderungen', allFundings.length, <TrendingUp size={18} />)}
+        {tabBtn('dokumente',   'Vorlagen',    dokRegs.length,    <FileText size={18} />)}
       </nav>
 
       <div className="max-w-6xl mx-auto px-8 py-8">
