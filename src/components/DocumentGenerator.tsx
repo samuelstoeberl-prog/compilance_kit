@@ -32,6 +32,8 @@ import {
   socialMediaRichtlinieTemplate,
   buergschaftsvertragTemplate,
   homeofficeVereinbarungTemplate,
+  elternzeitVereinbarungTemplate,
+  abmahnungTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -74,6 +76,8 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   'social-media-richtlinie': 'Social-Media-Richtlinie',
   buergschaftsvertrag: 'Bürgschaftsvertrag',
   'homeoffice-vereinbarung': 'Homeoffice-/Mobile-Arbeit-Vereinbarung',
+  'elternzeit-vereinbarung': 'Elternzeit-/Elternteilzeit-Vereinbarung',
+  abmahnung: 'Abmahnung',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -134,6 +138,8 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'social-media-richtlinie': return applyTemplate(socialMediaRichtlinieTemplate, vars)
     case 'buergschaftsvertrag': return applyTemplate(buergschaftsvertragTemplate, vars)
     case 'homeoffice-vereinbarung': return applyTemplate(homeofficeVereinbarungTemplate, vars)
+    case 'elternzeit-vereinbarung': return applyTemplate(elternzeitVereinbarungTemplate, vars)
+    case 'abmahnung': return applyTemplate(abmahnungTemplate, vars)
   }
 }
 

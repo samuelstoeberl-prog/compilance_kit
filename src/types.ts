@@ -50,6 +50,8 @@ export type DokumentTyp =
   | 'social-media-richtlinie'
   | 'buergschaftsvertrag'
   | 'homeoffice-vereinbarung'
+  | 'elternzeit-vereinbarung'
+  | 'abmahnung'
 
 export interface GiltFuer {
   rechtsformen: string[]

@@ -30831,5 +30831,192 @@
       ]
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "elternzeit-001",
+    "title": "Elternzeit – Anspruch und Antragsfristen (§§ 15-16 BEEG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitnehmer haben Anspruch auf Elternzeit bis zur Vollendung des 3. Lebensjahres des Kindes (mit Übertragungsmöglichkeit von bis zu 24 Monaten bis zum 8. Geburtstag). Antrag muss 7 bzw. 13 Wochen vorher gestellt werden.",
+    "rechtsgrundlage": "BEEG §§ 15, 16",
+    "quelle_url": "https://www.gesetze-im-internet.de/beeg/__15.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "elternzeit-vereinbarung"
+  },
+  {
+    "id": "elternzeit-002",
+    "title": "Kündigungsschutz während der Elternzeit (§ 18 BEEG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Ab dem Zeitpunkt der Antragstellung (max. 14 Wochen vor Beginn) bis zum Ende der Elternzeit besteht ein besonderer Kündigungsschutz. Eine Kündigung ist nur in Ausnahmefällen mit behördlicher Zustimmung möglich.",
+    "rechtsgrundlage": "BEEG § 18 Abs. 1",
+    "quelle_url": "https://www.gesetze-im-internet.de/beeg/__18.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "elternzeit-vereinbarung"
+  },
+  {
+    "id": "elternzeit-003",
+    "title": "Anspruch auf Elternteilzeit während der Elternzeit (§ 15 Abs. 7 BEEG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Beschäftigte in Betrieben mit mehr als 15 Mitarbeitern haben unter bestimmten Voraussetzungen Anspruch auf Verringerung der Arbeitszeit (15-32 Std./Woche) während der Elternzeit. Der Arbeitgeber kann nur aus dringenden betrieblichen Gründen ablehnen.",
+    "rechtsgrundlage": "BEEG § 15 Abs. 4-7",
+    "quelle_url": "https://www.gesetze-im-internet.de/beeg/__15.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 15
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "elternzeit-vereinbarung"
+  },
+  {
+    "id": "abmahnung-001",
+    "title": "Abmahnung als Voraussetzung für verhaltensbedingte Kündigung (§ 1 Abs. 2 KSchG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Vor einer verhaltensbedingten Kündigung ist in der Regel eine vorherige, einschlägige Abmahnung erforderlich. Diese muss Rüge-, Warn- und Dokumentationsfunktion erfüllen, um vor Gericht Bestand zu haben.",
+    "rechtsgrundlage": "KSchG § 1 Abs. 2, BGB §§ 314, 626, BAG-Rechtsprechung",
+    "quelle_url": "https://www.gesetze-im-internet.de/kschg/__1.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "abmahnung"
+  },
+  {
+    "id": "abmahnung-002",
+    "title": "Recht auf Gegendarstellung und Personalakteneinsicht (§ 83 BetrVG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Beschäftigte haben das Recht, ihre Personalakte einzusehen und Erklärungen zum Akteninhalt – auch zu Abmahnungen – beizufügen. Unrichtige oder unzulässige Abmahnungen können auf Entfernung aus der Personalakte gerichtlich überprüft werden.",
+    "rechtsgrundlage": "BetrVG § 83 Abs. 1, 2, BGB § 242 (Anspruch auf Entfernung)",
+    "quelle_url": "https://www.gesetze-im-internet.de/betrvg/__83.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 5
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "abmahnung-003",
+    "title": "Verhältnismäßigkeitsgrundsatz bei arbeitsrechtlichen Sanktionen",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitsrechtliche Maßnahmen (Ermahnung, Abmahnung, Kündigung) müssen verhältnismäßig sein und dem Ultima-Ratio-Prinzip folgen. Eine Kündigung ohne vorherige, einschlägige Abmahnung ist regelmäßig unwirksam, sofern keine Ausnahme greift.",
+    "rechtsgrundlage": "KSchG § 1, BAG-Rechtsprechung zum Ultima-Ratio-Prinzip",
+    "quelle_url": "https://www.bundesarbeitsgericht.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "mutterschutz-002",
+    "title": "Mutterschutz – Beschäftigungsverbote und Gefährdungsbeurteilung (MuSchG)",
+    "category": "Arbeitsschutz",
+    "beschreibung": "Arbeitgeber müssen für schwangere und stillende Mitarbeiterinnen eine arbeitsplatzbezogene Gefährdungsbeurteilung durchführen und ggf. Beschäftigungsverbote aussprechen. Die zuständige Aufsichtsbehörde ist über Schwangerschaften zu informieren.",
+    "rechtsgrundlage": "MuSchG §§ 9-16, 27",
+    "quelle_url": "https://www.gesetze-im-internet.de/muschg_2018/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "pflegezeit-001",
+    "title": "Pflegezeit und Familienpflegezeit – Freistellungsansprüche (PflegeZG/FPfZG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Beschäftigte haben Anspruch auf kurzzeitige Arbeitsverhinderung (bis 10 Tage), Pflegezeit (bis 6 Monate, ab 16 Mitarbeitern) und Familienpflegezeit (bis 24 Monate, ab 26 Mitarbeitern) zur Pflege naher Angehöriger.",
+    "rechtsgrundlage": "PflegeZG §§ 2-3, FPfZG §§ 2-3",
+    "quelle_url": "https://www.gesetze-im-internet.de/pflegezg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 16
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "compliance-personal-001",
+    "title": "Personalakte – Datenschutzkonforme Führung (DSGVO Art. 5, BDSG § 26)",
+    "category": "Datenschutz",
+    "beschreibung": "Personalakten dürfen nur Daten enthalten, die für das Beschäftigungsverhältnis erforderlich sind (Datenminimierung). Beschäftigte haben Auskunfts-, Berichtigungs- und Löschungsrechte. Aufbewahrungsfristen sind zu beachten.",
+    "rechtsgrundlage": "DSGVO Art. 5, 15-17, BDSG § 26",
+    "quelle_url": "https://dsgvo-gesetz.de/art-5-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
   }
 ]

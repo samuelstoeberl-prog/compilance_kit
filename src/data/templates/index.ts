@@ -28,3 +28,5 @@ export { datenverarbeitungsvereinbarungTemplate } from './datenverarbeitungsvere
 export { socialMediaRichtlinieTemplate } from './social-media-richtlinie'
 export { buergschaftsvertragTemplate } from './buergschaftsvertrag'
 export { homeofficeVereinbarungTemplate } from './homeoffice-vereinbarung'
+export { elternzeitVereinbarungTemplate } from './elternzeit-vereinbarung'
+export { abmahnungTemplate } from './abmahnung'

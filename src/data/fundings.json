@@ -33190,5 +33190,176 @@
       "mitarbeiter_max": 249
     },
     "relevanz_boost": {}
+  },
+  {
+    "id": "bund-elterngeldplus-beratung",
+    "title": "Beratungsförderung für familienfreundliche Personalpolitik",
+    "beschreibung": "Zuschuss für Unternehmen, die externe Beratung zur Einführung familienfreundlicher Arbeitsmodelle (Elternzeit-Management, Wiedereinstiegsprogramme, flexible Arbeitszeiten) in Anspruch nehmen.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Familie, Senioren, Frauen und Jugend (BMFSFJ)",
+    "max_betrag": 6000,
+    "zins": null,
+    "antrag_url": "https://www.bmfsfj.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen in Schwierigkeiten",
+      "bereits geförderte identische Beratung"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Unternehmensregisterauszug",
+        "auto": false
+      },
+      {
+        "name": "Beratervertrag/Angebot",
+        "auto": false
+      },
+      {
+        "name": "Konzept zur familienfreundlichen Personalpolitik",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": null,
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": null,
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ],
+      "gruendungsjahr": null
+    }
+  },
+  {
+    "id": "bund-wiedereinstieg-foerderung",
+    "title": "Förderprogramm Wiedereinstieg nach Elternzeit",
+    "beschreibung": "Zuschuss zu Qualifizierungs- und Coaching-Maßnahmen für Beschäftigte, die nach Eltern- oder Pflegezeit in den Betrieb zurückkehren, sowie zu betrieblichen Wiedereingliederungsprogrammen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesagentur für Arbeit",
+    "max_betrag": 5000,
+    "zins": null,
+    "antrag_url": "https://www.arbeitsagentur.de",
+    "bearbeitungszeit_wochen": [
+      3,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Maßnahmen, die bereits anderweitig gefördert werden"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Nachweis Eltern-/Pflegezeit",
+        "auto": false
+      },
+      {
+        "name": "Qualifizierungsplan",
+        "auto": false
+      },
+      {
+        "name": "Bestätigung der Rückkehr",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen",
+        "Freiberufler"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": null,
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": null,
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ],
+      "gruendungsjahr": null
+    }
+  },
+  {
+    "id": "bund-arbeitsrechtscompliance-zuschuss",
+    "title": "Zuschuss für arbeitsrechtliche Compliance-Schulungen",
+    "beschreibung": "Förderung von Schulungs- und Beratungsleistungen für Führungskräfte und Personalverantwortliche zu Themen wie Abmahnungspraxis, Kündigungsschutz, Diskriminierungsschutz (AGG) und Dokumentationspflichten im Arbeitsrecht.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Arbeit und Soziales (BMAS)",
+    "max_betrag": 4000,
+    "zins": null,
+    "antrag_url": "https://www.bmas.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Großunternehmen",
+      "interne Schulungen ohne externen Anbieter"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Schulungsangebot/-konzept",
+        "auto": false
+      },
+      {
+        "name": "Unternehmensregisterauszug",
+        "auto": false
+      },
+      {
+        "name": "Teilnehmerliste (geplant)",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": null,
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": null,
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ],
+      "gruendungsjahr": null
+    }
   }
 ]
