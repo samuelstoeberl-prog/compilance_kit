@@ -28,6 +28,8 @@ import {
   gesellschaftervertragGbrTemplate,
   letterOfIntentTemplate,
   entsorgungsvertragTemplate,
+  datenverarbeitungsvereinbarungTemplate,
+  socialMediaRichtlinieTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -66,6 +68,8 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   'gesellschaftervertrag-gbr': 'Gesellschaftervertrag GbR',
   'letter-of-intent': 'Letter of Intent (LOI)',
   entsorgungsvertrag: 'Entsorgungs- und Recyclingvertrag',
+  datenverarbeitungsvereinbarung: 'Auftragsverarbeitungsvertrag (AVV)',
+  'social-media-richtlinie': 'Social-Media-Richtlinie',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -122,6 +126,8 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'gesellschaftervertrag-gbr': return applyTemplate(gesellschaftervertragGbrTemplate, vars)
     case 'letter-of-intent': return applyTemplate(letterOfIntentTemplate, vars)
     case 'entsorgungsvertrag': return applyTemplate(entsorgungsvertragTemplate, vars)
+    case 'datenverarbeitungsvereinbarung': return applyTemplate(datenverarbeitungsvereinbarungTemplate, vars)
+    case 'social-media-richtlinie': return applyTemplate(socialMediaRichtlinieTemplate, vars)
   }
 }
 

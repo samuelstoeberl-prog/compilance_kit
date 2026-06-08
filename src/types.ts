@@ -46,6 +46,8 @@ export type DokumentTyp =
   | 'gesellschaftervertrag-gbr'
   | 'letter-of-intent'
   | 'entsorgungsvertrag'
+  | 'datenverarbeitungsvereinbarung'
+  | 'social-media-richtlinie'
 
 export interface GiltFuer {
   rechtsformen: string[]

@@ -32940,5 +32940,174 @@
         "Biotechnologie"
       ]
     }
+  },
+  {
+    "id": "bund-cybersicherheit-kmu",
+    "title": "BSI-Förderung Cybersicherheit für KMU",
+    "beschreibung": "Förderung von Maßnahmen zur Verbesserung der IT-Sicherheit in kleinen und mittleren Unternehmen: Sicherheitsaudits, Implementierung von Schutzmaßnahmen, Mitarbeiterschulungen zu Cybersicherheit. Zuschuss bis 50 % der Kosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BSI / BMI",
+    "max_betrag": 30000,
+    "zins": null,
+    "antrag_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/KMU/kmu_node.html",
+    "bearbeitungszeit_wochen": [
+      4,
+      10
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "IT-Sicherheitskonzept",
+        "auto": false
+      },
+      {
+        "name": "Angebote zertifizierter Dienstleister",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Finanzdienstleistungen",
+        "Gesundheitswesen"
+      ]
+    }
+  },
+  {
+    "id": "eu-digital-skills-jobs",
+    "title": "Digital Skills and Jobs Coalition – Qualifizierungsförderung",
+    "beschreibung": "EU-Initiative zur Förderung digitaler Kompetenzen in Unternehmen. Fördert Schulungsprogramme, Umschulungsmaßnahmen und Zertifizierungen im Bereich digitale Technologien und KI für Beschäftigte.",
+    "typ": "Zuschuss",
+    "quelle": "EU",
+    "foerderer": "Europäische Kommission / Digital Europe Programme",
+    "max_betrag": 100000,
+    "zins": null,
+    "antrag_url": "https://digital-skills-jobs.europa.eu",
+    "bearbeitungszeit_wochen": [
+      10,
+      18
+    ],
+    "ausschlusskriterien": [],
+    "benoetigte_dokumente": [
+      {
+        "name": "Schulungskonzept",
+        "auto": false
+      },
+      {
+        "name": "Bedarfsanalyse",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "Produktion",
+        "Handel"
+      ]
+    }
+  },
+  {
+    "id": "bund-zuschuss-datenschutz",
+    "title": "Förderung Datenschutz-Compliance für KMU (Landesbeauftragte)",
+    "beschreibung": "Mehrere Bundesländer fördern die Implementierung von Datenschutz-Managementsystemen, externe DSB-Bestellung und Schulungen für KMU mit Zuschüssen zu Beratungs- und Implementierungskosten.",
+    "typ": "Beratungszuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Landesbeauftragte für Datenschutz / Wirtschaftsministerien",
+    "max_betrag": 15000,
+    "zins": null,
+    "antrag_url": "https://www.bfdi.bund.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Bereits zertifiziertes DSMS vorhanden"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Datenschutz-Gap-Analyse",
+        "auto": false
+      },
+      {
+        "name": "Beraterangebot",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bund-nis2-foerderung",
+    "title": "NIS2-Umsetzungsförderung – Cybersicherheitsinvestitionen",
+    "beschreibung": "Unterstützung für Unternehmen in NIS2-relevanten Sektoren bei der Umsetzung von Risikomanagementmaßnahmen, Meldesystemen und Sicherheitszertifizierungen. Zuschuss zu Beratungs- und Implementierungskosten bis 50 %.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BSI / BMWK",
+    "max_betrag": 100000,
+    "zins": null,
+    "antrag_url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Cyber-Sicherheitslage/NIS-2/nis-2_node.html",
+    "bearbeitungszeit_wochen": [
+      6,
+      14
+    ],
+    "ausschlusskriterien": [
+      "Nicht NIS2-pflichtige Branchen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Risikoanalyse",
+        "auto": false
+      },
+      {
+        "name": "Umsetzungsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 50,
+      "branchen": [
+        "Energie",
+        "Gesundheitswesen",
+        "Transport/Logistik",
+        "Technologie"
+      ]
+    },
+    "relevanz_boost": {}
   }
 ]

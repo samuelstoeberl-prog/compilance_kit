@@ -30423,5 +30423,179 @@
       ]
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "avv-001",
+    "title": "Auftragsverarbeitung – Pflicht zum Abschluss eines AVV (Art. 28 DSGVO)",
+    "category": "Datenschutz",
+    "beschreibung": "Wer personenbezogene Daten durch externe Dienstleister (Cloud, Hosting, Lohnbuchhaltung, Call-Center) verarbeiten lässt, muss vor Beginn einen schriftlichen Auftragsverarbeitungsvertrag (AVV) gemäß Art. 28 Abs. 3 DSGVO abschließen.",
+    "rechtsgrundlage": "DSGVO Art. 28 Abs. 1, 3, 9, BDSG § 62",
+    "quelle_url": "https://dsgvo-gesetz.de/art-28-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "datenverarbeitungsvereinbarung"
+  },
+  {
+    "id": "avv-002",
+    "title": "Subunternehmerkette – Weitergabepflicht bei Auftragsverarbeitung (Art. 28 Abs. 4)",
+    "category": "Datenschutz",
+    "beschreibung": "Setzt der Auftragsverarbeiter weitere Subunternehmer ein, muss er denselben Datenschutzpflichten-Standard vertraglich an diese weitergeben und der Verantwortliche muss zustimmen oder informiert werden.",
+    "rechtsgrundlage": "DSGVO Art. 28 Abs. 2, 4",
+    "quelle_url": "https://dsgvo-gesetz.de/art-28-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "datenverarbeitungsvereinbarung"
+  },
+  {
+    "id": "avv-003",
+    "title": "Drittlandübermittlung – Standardvertragsklauseln erforderlich (Art. 44-49)",
+    "category": "Datenschutz",
+    "beschreibung": "Werden personenbezogene Daten in Länder außerhalb der EU/des EWR übermittelt (z.B. US-Cloud-Anbieter), bedarf es geeigneter Garantien wie EU-Standardvertragsklauseln (SCC) oder eines Angemessenheitsbeschlusses.",
+    "rechtsgrundlage": "DSGVO Art. 44–49, Durchführungsbeschluss 2021/914 (SCC)",
+    "quelle_url": "https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection_de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "social-001",
+    "title": "Social-Media-Nutzung – Mitbestimmungsrecht des Betriebsrats (§ 87 BetrVG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Richtlinien zur Nutzung sozialer Medien durch Beschäftigte unterliegen der Mitbestimmung des Betriebsrats, insbesondere bei Regelungen zum Ordnungsverhalten und bei technischen Überwachungseinrichtungen.",
+    "rechtsgrundlage": "BetrVG § 87 Abs. 1 Nr. 1, 6",
+    "quelle_url": "https://www.gesetze-im-internet.de/betrvg/__87.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 5
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "social-media-richtlinie"
+  },
+  {
+    "id": "social-002",
+    "title": "Geschäftsgeheimnisschutz in sozialen Netzwerken (GeschGehG)",
+    "category": "Compliance",
+    "beschreibung": "Mitarbeiter können durch unbedachte Posts in sozialen Medien Geschäftsgeheimnisse offenlegen. Unternehmen sollten klare Richtlinien zur Vertraulichkeit etablieren, um den gesetzlichen Geheimnisschutz aufrechtzuerhalten.",
+    "rechtsgrundlage": "GeschGehG §§ 2, 4, UWG § 17",
+    "quelle_url": "https://www.gesetze-im-internet.de/geschgehg/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "social-media-richtlinie"
+  },
+  {
+    "id": "social-003",
+    "title": "Influencer-Marketing – Kennzeichnungspflicht für Werbung (§ 5a UWG)",
+    "category": "Wettbewerbsrecht",
+    "beschreibung": "Beiträge mit kommerziellem Bezug (Produktplatzierung, gesponserte Inhalte) müssen klar als Werbung gekennzeichnet sein. Verstöße können von Wettbewerbern abgemahnt werden und Bußgelder nach sich ziehen.",
+    "rechtsgrundlage": "UWG § 5a Abs. 4, Medienstaatsvertrag § 22, TMG § 6",
+    "quelle_url": "https://www.gesetze-im-internet.de/uwg_2004/__5a.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Marketing",
+        "E-Commerce",
+        "Handel"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "social-media-richtlinie"
+  },
+  {
+    "id": "cyber-003",
+    "title": "Meldepflicht für Cybervorfälle – CER-Richtlinie / KRITIS-Dachgesetz",
+    "category": "IT-Sicherheit",
+    "beschreibung": "Betreiber kritischer Infrastrukturen (Energie, Wasser, Gesundheit, Finanzen, Verkehr) müssen erhebliche Sicherheitsvorfälle dem BSI bzw. BBK unverzüglich melden und Resilienzmaßnahmen nachweisen.",
+    "rechtsgrundlage": "KRITIS-Dachgesetz, RL 2022/2557/EU (CER-RL), BSIG § 8b",
+    "quelle_url": "https://www.bbk.bund.de/DE/Themen/Kritische-Infrastrukturen/kritische-infrastrukturen_node.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG"
+      ],
+      "branchen": [
+        "Energie",
+        "Wasserwirtschaft",
+        "Gesundheitswesen",
+        "Finanzdienstleistungen",
+        "Transport/Logistik"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "arbeitszeit-002",
+    "title": "Arbeitszeiterfassungspflicht – EuGH-Stechuhr-Urteil und § 16 ArbZG",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Nach dem EuGH-Urteil (C-55/18) und BAG-Rechtsprechung (1 ABR 22/21) müssen Arbeitgeber ein System zur Erfassung der täglichen Arbeitszeit der Beschäftigten einführen. Eine gesetzliche Konkretisierung im ArbZG ist in Vorbereitung.",
+    "rechtsgrundlage": "ArbZG § 16, EuGH C-55/18, BAG 1 ABR 22/21",
+    "quelle_url": "https://www.gesetze-im-internet.de/arbzg/__16.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "arbeitszeitnachweis"
   }
 ]
