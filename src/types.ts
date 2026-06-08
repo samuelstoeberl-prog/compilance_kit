@@ -48,6 +48,8 @@ export type DokumentTyp =
   | 'entsorgungsvertrag'
   | 'datenverarbeitungsvereinbarung'
   | 'social-media-richtlinie'
+  | 'buergschaftsvertrag'
+  | 'homeoffice-vereinbarung'
 
 export interface GiltFuer {
   rechtsformen: string[]

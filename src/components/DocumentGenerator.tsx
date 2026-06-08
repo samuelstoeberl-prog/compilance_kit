@@ -30,6 +30,8 @@ import {
   entsorgungsvertragTemplate,
   datenverarbeitungsvereinbarungTemplate,
   socialMediaRichtlinieTemplate,
+  buergschaftsvertragTemplate,
+  homeofficeVereinbarungTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -70,6 +72,8 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   entsorgungsvertrag: 'Entsorgungs- und Recyclingvertrag',
   datenverarbeitungsvereinbarung: 'Auftragsverarbeitungsvertrag (AVV)',
   'social-media-richtlinie': 'Social-Media-Richtlinie',
+  buergschaftsvertrag: 'Bürgschaftsvertrag',
+  'homeoffice-vereinbarung': 'Homeoffice-/Mobile-Arbeit-Vereinbarung',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -128,6 +132,8 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'entsorgungsvertrag': return applyTemplate(entsorgungsvertragTemplate, vars)
     case 'datenverarbeitungsvereinbarung': return applyTemplate(datenverarbeitungsvereinbarungTemplate, vars)
     case 'social-media-richtlinie': return applyTemplate(socialMediaRichtlinieTemplate, vars)
+    case 'buergschaftsvertrag': return applyTemplate(buergschaftsvertragTemplate, vars)
+    case 'homeoffice-vereinbarung': return applyTemplate(homeofficeVereinbarungTemplate, vars)
   }
 }
 

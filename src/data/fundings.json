@@ -33109,5 +33109,86 @@
       ]
     },
     "relevanz_boost": {}
+  },
+  {
+    "id": "bund-homeoffice-foerderung",
+    "title": "Förderung digitaler Arbeitsplätze – Mobiles Arbeiten (Digital Jetzt Erweiterung)",
+    "beschreibung": "Im Rahmen des Programms 'Digital Jetzt' können KMU auch Investitionen in Hardware, Software und Schulungen für mobiles Arbeiten und Homeoffice-Arbeitsplätze fördern lassen. Zuschuss bis 50 % der Investitionskosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "BMWK / KfW",
+    "max_betrag": 50000,
+    "zins": null,
+    "antrag_url": "https://www.bmwk.de/Redaktion/DE/Artikel/Digitale-Welt/digital-jetzt-foerderung.html",
+    "bearbeitungszeit_wochen": [
+      6,
+      12
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen > 499 Mitarbeiter"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Digitalisierungsstrategie",
+        "auto": false
+      },
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 499
+    },
+    "relevanz_boost": {}
+  },
+  {
+    "id": "bw-arbeitsschutzfoerderung",
+    "title": "Arbeitsschutzprämie Baden-Württemberg – Investitionen in sichere Arbeitsplätze",
+    "beschreibung": "Baden-Württemberg fördert Investitionen in Arbeitsschutzmaßnahmen, ergonomische Arbeitsplätze und Gesundheitsmanagement für KMU mit Zuschüssen bis 40 % der förderfähigen Kosten.",
+    "typ": "Zuschuss",
+    "quelle": "Bundesland",
+    "foerderer": "Ministerium für Arbeit und Sozialordnung BW",
+    "max_betrag": 25000,
+    "zins": null,
+    "antrag_url": "https://sm.baden-wuerttemberg.de/de/arbeit/arbeitsschutz/foerderprogramme",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Kein BW-Sitz"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Gefährdungsbeurteilung",
+        "auto": false
+      },
+      {
+        "name": "Maßnahmenkonzept",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "bundeslaender": [
+        "Baden-Württemberg"
+      ],
+      "mitarbeiter_max": 249
+    },
+    "relevanz_boost": {}
   }
 ]

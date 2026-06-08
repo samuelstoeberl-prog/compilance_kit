@@ -30597,5 +30597,239 @@
     },
     "hat_dokument_generator": true,
     "dokument_typ": "arbeitszeitnachweis"
+  },
+  {
+    "id": "buergschaft-001",
+    "title": "Bürgschaft – Schriftformerfordernis (§ 766 BGB)",
+    "category": "Vertragsrecht",
+    "beschreibung": "Eine Bürgschaftserklärung ist nur wirksam, wenn sie schriftlich erteilt wird (§ 766 BGB). Die elektronische Form ist explizit ausgeschlossen. Mündliche Bürgschaftszusagen sind nichtig, es sei denn die Hauptverbindlichkeit wird erfüllt.",
+    "rechtsgrundlage": "BGB § 766, § 350 HGB (Kaufleute)",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__766.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "buergschaftsvertrag"
+  },
+  {
+    "id": "buergschaft-002",
+    "title": "Selbstschuldnerische Bürgschaft – Verzicht auf Vorausklage (§ 773 BGB)",
+    "category": "Vertragsrecht",
+    "beschreibung": "Bei der selbstschuldnerischen Bürgschaft verzichtet der Bürge auf die Einrede der Vorausklage und kann unmittelbar, ohne vorherige Zwangsvollstreckung gegen den Hauptschuldner, in Anspruch genommen werden. Häufig bei Mietkautionen und Krediten gefordert.",
+    "rechtsgrundlage": "BGB §§ 771, 773",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__773.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "buergschaftsvertrag"
+  },
+  {
+    "id": "buergschaft-003",
+    "title": "Bürgschaft naher Angehöriger – Sittenwidrigkeitskontrolle (BGH/BVerfG)",
+    "category": "Vertragsrecht",
+    "beschreibung": "Bürgschaften finanziell überforderter, naher Angehöriger ohne nennenswertes Eigeninteresse können wegen Sittenwidrigkeit nichtig sein (§ 138 BGB), wenn sie aus emotionaler Verbundenheit übernommen wurden und die Bank dies ausgenutzt hat.",
+    "rechtsgrundlage": "BGB § 138, BVerfGE 89, 214, BGH-Rechtsprechung zur Angehörigenbürgschaft",
+    "quelle_url": "https://www.bundesverfassungsgericht.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "homeoffice-001",
+    "title": "Mobile Arbeit – Mitbestimmungsrecht des Betriebsrats (§ 87 Abs. 1 Nr. 14 BetrVG)",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Die Ausgestaltung mobiler Arbeit (Homeoffice-Regelungen, Erreichbarkeit, technische Ausstattung) unterliegt der Mitbestimmung des Betriebsrats. Seit der BetrVG-Reform 2021 ausdrücklich in § 87 Abs. 1 Nr. 14 verankert.",
+    "rechtsgrundlage": "BetrVG § 87 Abs. 1 Nr. 14, § 92a",
+    "quelle_url": "https://www.gesetze-im-internet.de/betrvg/__87.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG"
+      ],
+      "mitarbeiter_min": 5
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "homeoffice-vereinbarung"
+  },
+  {
+    "id": "homeoffice-002",
+    "title": "Arbeitsschutz im Homeoffice – Gefährdungsbeurteilung (ArbSchG, ArbStättV)",
+    "category": "Arbeitsschutz",
+    "beschreibung": "Arbeitgeber bleiben auch im Homeoffice für den Arbeitsschutz verantwortlich und müssen eine Gefährdungsbeurteilung des häuslichen Arbeitsplatzes durchführen (z.B. Bildschirmarbeitsplatz-Ergonomie nach ArbStättV Anhang Nr. 6).",
+    "rechtsgrundlage": "ArbSchG §§ 3-5, ArbStättV § 3, Anhang Nr. 6",
+    "quelle_url": "https://www.gesetze-im-internet.de/arbschg/__5.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "homeoffice-vereinbarung"
+  },
+  {
+    "id": "homeoffice-003",
+    "title": "Gesetzliche Unfallversicherung im Homeoffice (SGB VII § 8)",
+    "category": "Sozialversicherung",
+    "beschreibung": "Unfälle während versicherter Tätigkeiten im Homeoffice sind grundsätzlich gesetzlich unfallversichert – seit der Reform des § 8 SGB VII gilt dies auch für Wege innerhalb der Wohnung (z.B. zur Kinderbetreuung).",
+    "rechtsgrundlage": "SGB VII § 8 Abs. 1, BSG-Rechtsprechung B 2 U 4/21 R",
+    "quelle_url": "https://www.gesetze-im-internet.de/sgb_7/__8.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "homeoffice-vereinbarung"
+  },
+  {
+    "id": "homeoffice-004",
+    "title": "IT-Sicherheit im Homeoffice – Erweiterte Anforderungen an TOMs (Art. 32 DSGVO)",
+    "category": "Datenschutz",
+    "beschreibung": "Beim mobilen Arbeiten mit Zugriff auf personenbezogene Daten müssen zusätzliche technische und organisatorische Maßnahmen (VPN, Verschlüsselung, Zugriffskontrollen, Clean-Desk-Policy) gewährleistet sein.",
+    "rechtsgrundlage": "DSGVO Art. 32, BDSG § 26, BSI-Grundschutz",
+    "quelle_url": "https://dsgvo-gesetz.de/art-32-dsgvo/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_min": 1
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kreditwesen-001",
+    "title": "Kreditwesengesetz – Erlaubnispflicht für Finanzdienstleistungen (KWG § 32)",
+    "category": "Finanzrecht",
+    "beschreibung": "Wer Bankgeschäfte oder Finanzdienstleistungen gewerbsmäßig betreiben will (Kreditvergabe, Zahlungsdienste, Anlagevermittlung), benötigt eine Erlaubnis der BaFin. Unerlaubtes Betreiben ist strafbar (§ 54 KWG).",
+    "rechtsgrundlage": "KWG §§ 1, 32, 54, ZAG",
+    "quelle_url": "https://www.gesetze-im-internet.de/kredwg/__32.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG"
+      ],
+      "branchen": [
+        "Finanzdienstleistungen",
+        "Fintech"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "kreditwesen-002",
+    "title": "Verbraucherkreditrichtlinie – Informationspflichten bei Krediten (BGB §§ 491 ff.)",
+    "category": "Verbraucherschutz",
+    "beschreibung": "Bei der Vergabe von Verbraucherdarlehen müssen umfangreiche vorvertragliche Informationspflichten (Effektivzins, Widerrufsrecht, Kreditwürdigkeitsprüfung) erfüllt werden. Verstöße können zum Wegfall des Zinsanspruchs führen.",
+    "rechtsgrundlage": "BGB §§ 491-505e, Art. 247 EGBGB",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__491.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG"
+      ],
+      "branchen": [
+        "Finanzdienstleistungen",
+        "Handel",
+        "E-Commerce"
+      ]
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "mieterschutz-001",
+    "title": "Gewerbemietrecht – Schriftformgebot bei längeren Mietverträgen (§ 550 BGB)",
+    "category": "Mietrecht",
+    "beschreibung": "Gewerbemietverträge mit einer Laufzeit von mehr als einem Jahr bedürfen der Schriftform. Bei Verstoß gilt der Vertrag als auf unbestimmte Zeit geschlossen und kann vorzeitig ordentlich gekündigt werden.",
+    "rechtsgrundlage": "BGB § 550, § 578",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__550.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ]
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "gewerberaummietvertrag"
+  },
+  {
+    "id": "wettbewerb-002",
+    "title": "Preisangabenverordnung – Grundpreisangabe im Handel (PAngV)",
+    "category": "Verbraucherschutz",
+    "beschreibung": "Anbieter von Waren in Fertigpackungen, offenen Packungen oder als Verkaufseinheiten müssen neben dem Gesamtpreis den Grundpreis (Preis je Mengeneinheit) angeben. Verstöße können wettbewerbsrechtlich abgemahnt werden.",
+    "rechtsgrundlage": "PAngV §§ 3-5, UWG § 3a",
+    "quelle_url": "https://www.gesetze-im-internet.de/pangv_2022/",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "AG",
+        "UG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Handel",
+        "E-Commerce",
+        "Lebensmittel"
+      ]
+    },
+    "hat_dokument_generator": false
   }
 ]
