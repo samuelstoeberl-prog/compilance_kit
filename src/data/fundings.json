@@ -33987,5 +33987,123 @@
       ],
       "gruendungsjahr": null
     }
+  },
+  {
+    "id": "bund-leasing-investitionsfoerderung",
+    "title": "Förderkredit für Investitionen in Maschinen und Ausrüstung (auch Leasing)",
+    "beschreibung": "Zinsgünstige Förderkredite zur Finanzierung oder Anzahlung von Leasingverträgen für Maschinen, Fahrzeuge und Betriebsausstattung kleiner und mittlerer Unternehmen.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 500000,
+    "zins": "ab 3,0% effektiver Jahreszins",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung",
+    "bearbeitungszeit_wochen": [
+      3,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen in Schwierigkeiten",
+      "reine Finanzinvestitionen"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Leasing-/Kaufvertragsentwurf",
+        "auto": false
+      },
+      {
+        "name": "Investitionsplan",
+        "auto": false
+      },
+      {
+        "name": "Bonitätsunterlagen",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": null,
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Produktion",
+        "Logistik",
+        "Handwerk"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ],
+      "gruendungsjahr": null
+    }
+  },
+  {
+    "id": "bund-geheimnisschutz-foerderung",
+    "title": "Förderung von Maßnahmen zum Schutz von Geschäftsgeheimnissen",
+    "beschreibung": "Zuschuss zu Maßnahmen, die dem Schutz von Geschäftsgeheimnissen dienen, z.B. Einführung von Klassifizierungssystemen, Zugriffskontrollen, Mitarbeiterschulungen und rechtlicher Beratung zur Erstellung von Geheimhaltungsvereinbarungen.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Wirtschaft und Klimaschutz (BMWK)",
+    "max_betrag": 5000,
+    "zins": null,
+    "antrag_url": "https://www.bmwk.de",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Großunternehmen",
+      "Standardsoftware ohne Anpassung"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Schutzkonzept für Geschäftsgeheimnisse",
+        "auto": false
+      },
+      {
+        "name": "Beraterangebot",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 249,
+      "umsatz_max": null,
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Technologie",
+        "IT",
+        "Produktion"
+      ],
+      "mitarbeiter": [
+        "10–49",
+        "50–249"
+      ],
+      "gruendungsjahr": null
+    }
   }
 ]

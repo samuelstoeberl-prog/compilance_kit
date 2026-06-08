@@ -44,6 +44,8 @@ import {
   vorstandsanstellungsvertragTemplate,
   investorenvereinbarungTemplate,
   pachtvertragGewerbeTemplate,
+  leasingvertragTemplate,
+  mitarbeiterNdaTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -98,6 +100,8 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   vorstandsanstellungsvertrag: 'Vorstandsanstellungsvertrag (AG)',
   investorenvereinbarung: 'Investorenvereinbarung (Term Sheet/Beteiligung)',
   'pachtvertrag-gewerbe': 'Pachtvertrag (Gewerbebetrieb)',
+  leasingvertrag: 'Leasingvertrag (Geräte/Maschinen)',
+  'mitarbeiter-nda': 'Verschwiegenheitsvereinbarung mit Beschäftigten',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -170,6 +174,8 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'vorstandsanstellungsvertrag': return applyTemplate(vorstandsanstellungsvertragTemplate, vars)
     case 'investorenvereinbarung': return applyTemplate(investorenvereinbarungTemplate, vars)
     case 'pachtvertrag-gewerbe': return applyTemplate(pachtvertragGewerbeTemplate, vars)
+    case 'leasingvertrag': return applyTemplate(leasingvertragTemplate, vars)
+    case 'mitarbeiter-nda': return applyTemplate(mitarbeiterNdaTemplate, vars)
   }
 }
 

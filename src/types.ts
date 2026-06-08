@@ -62,6 +62,8 @@ export type DokumentTyp =
   | 'vorstandsanstellungsvertrag'
   | 'investorenvereinbarung'
   | 'pachtvertrag-gewerbe'
+  | 'leasingvertrag'
+  | 'mitarbeiter-nda'
 
 export interface GiltFuer {
   rechtsformen: string[]

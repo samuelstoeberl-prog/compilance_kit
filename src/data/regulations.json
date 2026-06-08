@@ -31660,5 +31660,106 @@
       "bundeslaender": null
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "leasing-001",
+    "title": "Abschluss von Leasingverträgen für Geräte und Maschinen",
+    "category": "Vertragsrecht",
+    "beschreibung": "Unternehmen, die Maschinen, Fahrzeuge oder IT-Ausstattung least, sollten Vertragsart (Voll-/Teilamortisation), Laufzeit, Gefahrtragung und Optionen bei Vertragsende vertraglich klar regeln.",
+    "rechtsgrundlage": "§§ 535 ff. BGB analog, BMF-Leasingerlasse",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__535.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Produktion",
+        "Logistik",
+        "Handwerk",
+        "IT"
+      ],
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "leasingvertrag"
+  },
+  {
+    "id": "leasing-002",
+    "title": "Bilanzielle Zurechnung von Leasingobjekten (BMF-Leasingerlasse)",
+    "category": "Steuerrecht",
+    "beschreibung": "Die Zurechnung von Leasingobjekten zum Leasinggeber oder Leasingnehmer für Bilanzierungs- und steuerliche Zwecke richtet sich nach den BMF-Leasingerlassen zur Voll- und Teilamortisation und beeinflusst die steuerliche Behandlung der Leasingraten.",
+    "rechtsgrundlage": "BMF-Schreiben zu Leasingerlassen, § 39 AO",
+    "quelle_url": "https://www.bundesfinanzministerium.de",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "geschaeftsgeheimnis-002",
+    "title": "Abschluss von Verschwiegenheitsvereinbarungen mit Beschäftigten",
+    "category": "Arbeitsrecht",
+    "beschreibung": "Arbeitgeber sollten mit Beschäftigten, die Zugang zu Geschäftsgeheimnissen haben, gesonderte Verschwiegenheitsvereinbarungen schließen, um die Anforderungen an angemessene Geheimhaltungsmaßnahmen nach dem Geschäftsgeheimnisgesetz zu erfüllen.",
+    "rechtsgrundlage": "§§ 1, 2, 4 GeschGehG, §§ 74 ff. HGB",
+    "quelle_url": "https://www.gesetze-im-internet.de/geschgehg/__2.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": 1,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "mitarbeiter-nda"
+  },
+  {
+    "id": "geschaeftsgeheimnis-003",
+    "title": "Angemessene Geheimhaltungsmaßnahmen als Schutzvoraussetzung (§ 2 GeschGehG)",
+    "category": "Compliance & Datenschutz",
+    "beschreibung": "Damit Informationen als Geschäftsgeheimnis im Rechtssinne geschützt sind, müssen Unternehmen angemessene Geheimhaltungsmaßnahmen ergreifen (Kennzeichnung, Zugriffsbeschränkungen, vertragliche Verpflichtungen). Ohne solche Maßnahmen entfällt der gesetzliche Schutz.",
+    "rechtsgrundlage": "§ 2 Nr. 1 lit. b GeschGehG",
+    "quelle_url": "https://www.gesetze-im-internet.de/geschgehg/__2.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": null,
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
   }
 ]
