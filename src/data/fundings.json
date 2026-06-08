@@ -33861,5 +33861,131 @@
       ],
       "gruendungsjahr": null
     }
+  },
+  {
+    "id": "bund-invest-zuschuss-wagniskapital",
+    "title": "INVEST – Zuschuss für Wagniskapital",
+    "beschreibung": "Privatinvestoren, die in junge innovative Unternehmen investieren, erhalten einen Erwerbszuschuss von 20% der Investitionssumme. Für die beteiligten Start-ups erleichtert dies die Eigenkapitalbeschaffung erheblich.",
+    "typ": "Zuschuss",
+    "quelle": "Bund",
+    "foerderer": "Bundesministerium für Wirtschaft und Klimaschutz (BMWK) / BAFA",
+    "max_betrag": 100000,
+    "zins": null,
+    "antrag_url": "https://www.bafa.de/invest",
+    "bearbeitungszeit_wochen": [
+      4,
+      8
+    ],
+    "ausschlusskriterien": [
+      "Unternehmen älter als 10 Jahre",
+      "Beteiligungen über Kapitalgesellschaften des Investors"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Beteiligungsvertrag/Investorenvereinbarung",
+        "auto": false
+      },
+      {
+        "name": "Unternehmensregisterauszug",
+        "auto": false
+      },
+      {
+        "name": "Geschäftsplan",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "AG"
+      ],
+      "mitarbeiter_max": 49,
+      "umsatz_max": "5000000",
+      "bundeslaender": null,
+      "gruendungsjahr": [
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Start-up",
+        "Technologie",
+        "IT"
+      ],
+      "mitarbeiter": [
+        "1–9",
+        "10–49"
+      ],
+      "gruendungsjahr": [
+        "2024",
+        "2025",
+        "2026"
+      ]
+    }
+  },
+  {
+    "id": "bund-gewerbepacht-investitionskredit",
+    "title": "Investitionskredit für die Übernahme von Pachtbetrieben",
+    "beschreibung": "Zinsgünstiger Kredit für Existenzgründer und Unternehmen, die einen bestehenden Gewerbebetrieb (z.B. Gastronomie, Einzelhandel) im Wege der Pacht übernehmen und Investitionen in Inventar oder Modernisierung tätigen.",
+    "typ": "Kredit",
+    "quelle": "Bund",
+    "foerderer": "KfW Bankengruppe",
+    "max_betrag": 300000,
+    "zins": "ab 3,5% effektiver Jahreszins",
+    "antrag_url": "https://www.kfw.de/inlandsfoerderung",
+    "bearbeitungszeit_wochen": [
+      3,
+      6
+    ],
+    "ausschlusskriterien": [
+      "Sanierungsfälle ohne tragfähiges Konzept"
+    ],
+    "benoetigte_dokumente": [
+      {
+        "name": "Pachtvertrag (Entwurf)",
+        "auto": false
+      },
+      {
+        "name": "Businessplan",
+        "auto": false
+      },
+      {
+        "name": "Kapitaldienstfähigkeitsrechnung",
+        "auto": false
+      }
+    ],
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "mitarbeiter_max": 49,
+      "umsatz_max": null,
+      "bundeslaender": null,
+      "gruendungsjahr": null
+    },
+    "relevanz_boost": {
+      "branchen": [
+        "Gastgewerbe",
+        "Handel"
+      ],
+      "mitarbeiter": [
+        "0",
+        "1–9"
+      ],
+      "gruendungsjahr": null
+    }
   }
 ]

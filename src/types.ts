@@ -60,6 +60,8 @@ export type DokumentTyp =
   | 'sponsoringvertrag'
   | 'konsortialvertrag'
   | 'vorstandsanstellungsvertrag'
+  | 'investorenvereinbarung'
+  | 'pachtvertrag-gewerbe'
 
 export interface GiltFuer {
   rechtsformen: string[]

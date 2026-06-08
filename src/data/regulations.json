@@ -31533,5 +31533,132 @@
       "bundeslaender": null
     },
     "hat_dokument_generator": false
+  },
+  {
+    "id": "investor-001",
+    "title": "Abschluss von Investorenvereinbarungen bei Finanzierungsrunden",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Start-ups und wachsende Unternehmen, die Wagniskapital oder Crowdinvesting-Mittel aufnehmen, sollten Beteiligungsform, Bewertung, Informationsrechte, Liquidationspräferenzen und Vesting-Regelungen in einer Investorenvereinbarung (Term Sheet) festhalten.",
+    "rechtsgrundlage": "§ 15 GmbHG, §§ 230 ff. HGB, VermAnlG",
+    "quelle_url": "https://www.gesetze-im-internet.de/gmbhg/__15.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "IT",
+        "Start-up",
+        "Technologie"
+      ],
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "investorenvereinbarung"
+  },
+  {
+    "id": "investor-002",
+    "title": "Prospekt- und Informationspflichten bei Vermögensanlagen (Crowdinvesting)",
+    "category": "Kapitalmarktrecht",
+    "beschreibung": "Unternehmen, die Kapital über Crowdinvesting-Plattformen (z.B. Nachrangdarlehen) einsammeln, müssen die Vorgaben des Vermögensanlagengesetzes zu Prospektpflicht bzw. Vermögensanlagen-Informationsblättern beachten.",
+    "rechtsgrundlage": "§§ 6, 13 Vermögensanlagengesetz (VermAnlG)",
+    "quelle_url": "https://www.gesetze-im-internet.de/vermanlg/__13.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "AG",
+        "GmbH & Co. KG"
+      ],
+      "branchen": [
+        "Start-up",
+        "Technologie",
+        "Immobilien"
+      ],
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "investor-003",
+    "title": "Vesting-Regelungen und Gründerbindung bei Beteiligungsverträgen",
+    "category": "Gesellschaftsrecht",
+    "beschreibung": "Bei Investorenbeteiligungen ist es üblich, Geschäftsanteile der Gründer einer mehrjährigen Vesting-Regelung mit Cliff-Periode zu unterwerfen, um die langfristige Bindung an das Unternehmen sicherzustellen.",
+    "rechtsgrundlage": "Gesellschaftsvertragliche Vereinbarung, § 15 GmbHG",
+    "quelle_url": "https://www.gesetze-im-internet.de/gmbhg/__15.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "AG"
+      ],
+      "branchen": [
+        "Start-up",
+        "Technologie"
+      ],
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
+  },
+  {
+    "id": "pacht-001",
+    "title": "Abschluss von Pachtverträgen für Gewerbebetriebe",
+    "category": "Vertragsrecht",
+    "beschreibung": "Unternehmen, die einen Gewerbebetrieb oder eine Gewerbefläche pachten oder verpachten, sollten Pachtzins, Inventarübernahme, Konkurrenzschutz und Rückgabemodalitäten klar vertraglich regeln – die Pacht räumt dem Pächter zusätzlich das Recht zur Fruchtziehung ein.",
+    "rechtsgrundlage": "§§ 581-597 BGB",
+    "quelle_url": "https://www.gesetze-im-internet.de/bgb/__581.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "AG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Gastgewerbe",
+        "Handel",
+        "Landwirtschaft",
+        "Immobilien"
+      ],
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": true,
+    "dokument_typ": "pachtvertrag-gewerbe"
+  },
+  {
+    "id": "pacht-002",
+    "title": "Genehmigungspflichten bei der Übernahme von Pachtbetrieben (Gaststätten, Handel)",
+    "category": "Gewerberecht",
+    "beschreibung": "Pächter von Gaststätten- oder Handelsbetrieben müssen erforderliche Konzessionen und Genehmigungen (Gaststättenerlaubnis, Gewerbeanmeldung, Hygienevorschriften) eigenständig beantragen bzw. übertragen lassen.",
+    "rechtsgrundlage": "§ 2 GastG, § 14 GewO",
+    "quelle_url": "https://www.gesetze-im-internet.de/gastg/__2.html",
+    "gilt_fuer": {
+      "rechtsformen": [
+        "GmbH",
+        "UG (haftungsbeschränkt)",
+        "GmbH & Co. KG",
+        "OHG",
+        "KG",
+        "GbR",
+        "Einzelunternehmen"
+      ],
+      "branchen": [
+        "Gastgewerbe",
+        "Handel"
+      ],
+      "mitarbeiter_min": null,
+      "bundeslaender": null
+    },
+    "hat_dokument_generator": false
   }
 ]

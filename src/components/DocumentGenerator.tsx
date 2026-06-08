@@ -42,6 +42,8 @@ import {
   sponsoringvertragTemplate,
   konsortialvertragTemplate,
   vorstandsanstellungsvertragTemplate,
+  investorenvereinbarungTemplate,
+  pachtvertragGewerbeTemplate,
 } from '../data/templates'
 
 interface Props {
@@ -94,6 +96,8 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   sponsoringvertrag: 'Sponsoringvertrag',
   konsortialvertrag: 'Konsortialvertrag (ARGE/Bietergemeinschaft)',
   vorstandsanstellungsvertrag: 'Vorstandsanstellungsvertrag (AG)',
+  investorenvereinbarung: 'Investorenvereinbarung (Term Sheet/Beteiligung)',
+  'pachtvertrag-gewerbe': 'Pachtvertrag (Gewerbebetrieb)',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -164,6 +168,8 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
     case 'sponsoringvertrag': return applyTemplate(sponsoringvertragTemplate, vars)
     case 'konsortialvertrag': return applyTemplate(konsortialvertragTemplate, vars)
     case 'vorstandsanstellungsvertrag': return applyTemplate(vorstandsanstellungsvertragTemplate, vars)
+    case 'investorenvereinbarung': return applyTemplate(investorenvereinbarungTemplate, vars)
+    case 'pachtvertrag-gewerbe': return applyTemplate(pachtvertragGewerbeTemplate, vars)
   }
 }
 
