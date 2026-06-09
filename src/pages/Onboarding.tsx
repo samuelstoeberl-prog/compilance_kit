@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
+import { useAuth } from '@clerk/clerk-react'
 import { useProfil } from '../context/ProfilContext'
 import type { UnternehmensProfil } from '../types'
 
@@ -73,6 +74,7 @@ const STEPS = [
 
 export default function Onboarding() {
   const { profil, setProfil } = useProfil()
+  const { isSignedIn } = useAuth()
   const navigate = useNavigate()
   const [step, setStep] = useState(0)
   const [form, setForm] = useState<FormState>(() => ({
@@ -111,7 +113,7 @@ export default function Onboarding() {
 
   const handleSubmit = async () => {
     await setProfil(form as UnternehmensProfil)
-    navigate(profil ? '/dashboard' : '/preview')
+    navigate(isSignedIn ? '/dashboard' : '/login')
   }
 
   const inputCls = 'w-full bg-white border border-sand-border rounded-lg px-4 py-2.5 text-ink placeholder-muted focus:outline-none focus:border-ink font-sans text-sm'
@@ -276,6 +278,18 @@ export default function Onboarding() {
             </button>
           </div>
         </form>
+
+        {!isSignedIn && (
+          <div className="mt-8 pt-6 border-t border-sand-border flex items-center justify-between">
+            <p className="text-xs text-muted font-sans">
+              Bereits ein Konto? Melde dich an und deine gespeicherten Daten werden geladen.
+            </p>
+            <Link to="/login"
+              className="ml-4 flex-shrink-0 text-xs font-mono border border-sand-border text-ink px-4 py-2 rounded-lg hover:bg-sand-mid transition-colors">
+              Anmelden →
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   )

@@ -3,7 +3,6 @@ import { useAuth } from '@clerk/clerk-react'
 import { useProfil } from './context/ProfilContext'
 import { ErrorBoundary } from './components/ErrorBoundary'
 import Onboarding from './pages/Onboarding'
-import PreviewPage from './pages/PreviewPage'
 import Dashboard from './pages/Dashboard'
 import LoginPage from './pages/LoginPage'
 import Impressum from './pages/Impressum'
@@ -39,11 +38,11 @@ export default function App() {
   return (
     <ErrorBoundary>
     <Routes>
-      {/* Root: eingeloggt → Dashboard, sonst → Onboarding */}
+      {/* Root: eingeloggt + Profil → Dashboard, sonst → Onboarding */}
       <Route
         path="/"
         element={
-          isSignedIn
+          isSignedIn && profil
             ? <Navigate to="/dashboard" replace />
             : <Navigate to="/onboarding" replace />
         }
@@ -59,15 +58,9 @@ export default function App() {
         }
       />
 
-      {/* Preview: Hard-Lock nach Onboarding – zeigt Zahlen, erzwingt Anmeldung */}
-      <Route
-        path="/preview"
-        element={isSignedIn ? <Navigate to="/dashboard" replace /> : <PreviewPage />}
-      />
-      <Route
-        path="/preview/*"
-        element={isSignedIn ? <Navigate to="/dashboard" replace /> : <PreviewPage />}
-      />
+      {/* Preview: obsolet – weiterleiten */}
+      <Route path="/preview" element={<Navigate to="/login" replace />} />
+      <Route path="/preview/*" element={<Navigate to="/login" replace />} />
 
       {/* Login: eingeloggte Nutzer weiterleiten — /login/* für Clerk-Sub-Routen (verify etc.) */}
       <Route
