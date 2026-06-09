@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "node --env-file=.env --import tsx/esm src/index.ts",
     "start": "node dist/index.js",
-    "build": "tsc",
-    "db:migrate": "tsx src/db/migrate.ts",
+    "build": "tsc && cp src/db/schema.sql dist/db/schema.sql",
+    "db:migrate": "node dist/db/migrate.js",
     "db:seed": "tsx src/db/seed.ts"
   },
   "dependencies": {
