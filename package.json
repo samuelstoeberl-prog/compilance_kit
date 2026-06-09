@@ -19,8 +19,10 @@
     "scrape:dry": "tsx scrapers/run-foerderung.ts --dry-run"
   },
   "dependencies": {
+    "@clerk/backend": "^3.5.0",
     "@clerk/clerk-react": "^5.61.8",
     "@clerk/localizations": "^4.7.0",
+    "@neondatabase/serverless": "^1.1.0",
     "docx": "^9.6.1",
     "jspdf": "^4.2.1",
     "lucide-react": "^1.14.0",
@@ -33,6 +35,7 @@
     "@types/node": "^24.12.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "@vercel/node": "^5.8.14",
     "@vitejs/plugin-react": "^6.0.1",
     "autoprefixer": "^10.4.27",
     "cheerio": "^1.2.0",
