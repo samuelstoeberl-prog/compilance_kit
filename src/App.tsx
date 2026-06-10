@@ -1,5 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { useAuth } from '@clerk/clerk-react'
+import { Analytics } from '@vercel/analytics/react'
 import { useProfil } from './context/ProfilContext'
 import Onboarding from './pages/Onboarding'
 import PreviewPage from './pages/PreviewPage'
@@ -35,53 +36,56 @@ export default function App() {
   if (!isLoaded || isLoadingProfil) return <AuthLoadingSkeleton />
 
   return (
-    <Routes>
-      {/* Root: eingeloggt → Dashboard, sonst → Onboarding */}
-      <Route
-        path="/"
-        element={
-          isSignedIn
-            ? <Navigate to="/dashboard" replace />
-            : <Navigate to="/onboarding" replace />
-        }
-      />
+    <>
+      <Routes>
+        {/* Root: eingeloggt → Dashboard, sonst → Onboarding */}
+        <Route
+          path="/"
+          element={
+            isSignedIn
+              ? <Navigate to="/dashboard" replace />
+              : <Navigate to="/onboarding" replace />
+          }
+        />
 
-      {/* Onboarding: öffentlich – kein Login nötig */}
-      <Route
-        path="/onboarding"
-        element={
-          isSignedIn && profil
-            ? <Navigate to="/dashboard" replace />
-            : <Onboarding />
-        }
-      />
+        {/* Onboarding: öffentlich – kein Login nötig */}
+        <Route
+          path="/onboarding"
+          element={
+            isSignedIn && profil
+              ? <Navigate to="/dashboard" replace />
+              : <Onboarding />
+          }
+        />
 
-      {/* Preview: Hard-Lock nach Onboarding – zeigt Zahlen, erzwingt Anmeldung */}
-      <Route
-        path="/preview"
-        element={isSignedIn ? <Navigate to="/dashboard" replace /> : <PreviewPage />}
-      />
-      <Route
-        path="/preview/*"
-        element={isSignedIn ? <Navigate to="/dashboard" replace /> : <PreviewPage />}
-      />
+        {/* Preview: Hard-Lock nach Onboarding – zeigt Zahlen, erzwingt Anmeldung */}
+        <Route
+          path="/preview"
+          element={isSignedIn ? <Navigate to="/dashboard" replace /> : <PreviewPage />}
+        />
+        <Route
+          path="/preview/*"
+          element={isSignedIn ? <Navigate to="/dashboard" replace /> : <PreviewPage />}
+        />
 
-      {/* Login: eingeloggte Nutzer weiterleiten */}
-      <Route
-        path="/login"
-        element={
-          isSignedIn
-            ? <Navigate to="/dashboard" replace />
-            : <LoginPage />
-        }
-      />
+        {/* Login: eingeloggte Nutzer weiterleiten */}
+        <Route
+          path="/login"
+          element={
+            isSignedIn
+              ? <Navigate to="/dashboard" replace />
+              : <LoginPage />
+          }
+        />
 
-      {/* Dashboard: nur für eingeloggte Nutzer */}
-      <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+        {/* Dashboard: nur für eingeloggte Nutzer */}
+        <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
 
-      {/* Öffentliche Seiten */}
-      <Route path="/impressum"   element={<Impressum />} />
-      <Route path="/datenschutz" element={<Datenschutz />} />
-    </Routes>
+        {/* Öffentliche Seiten */}
+        <Route path="/impressum"   element={<Impressum />} />
+        <Route path="/datenschutz" element={<Datenschutz />} />
+      </Routes>
+      <Analytics />
+    </>
   )
 }
