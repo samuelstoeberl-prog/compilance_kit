@@ -208,8 +208,9 @@ STREITSCHLICHTUNG
 Die EU-Kommission stellt eine Plattform zur Online-Streitbeilegung bereit:
 https://ec.europa.eu/consumers/odr
 
-Wir sind [nicht] bereit, an einem Streitbeilegungsverfahren vor einer
-Verbraucherschlichtungsstelle teilzunehmen.
+Wir sind [bereit / nicht bereit – Zutreffendes auswählen], an einem
+Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
+teilzunehmen.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -227,55 +228,42 @@ Branche: ${profil.branche} · Bundesland: ${profil.bundesland}`
 
 function generateArbeitszeitnachweis(profil: UnternehmensProfil): string {
   const monat = new Date().toLocaleDateString('de-DE', { month: 'long', year: 'numeric' })
+
+  const wochentage = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So']
+  const tableRows = ['Tag|Datum|Beginn|Ende|Pause|Nettozeit']
+  for (let woche = 0; woche < 4; woche++) {
+    for (const tag of wochentage) {
+      tableRows.push(`${tag}|__.__.____| | | | `)
+    }
+  }
+  const tabelle = `[[TABLE]]\n${tableRows.join('\n')}\n[[/TABLE]]`
+
   return `ARBEITSZEITNACHWEIS
-gemäß § 17 MiLoG (Mindestlohngesetz)
+gemäß § 16 Abs. 2 ArbZG und § 17 MiLoG
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-UNTERNEHMEN: ${profil.name}
-MONAT:       ${monat}
-MITARBEITER: ___________________________
-ABTEILUNG:   ___________________________
+UNTERNEHMEN:    ${profil.name}
+MONAT / JAHR:   ${monat}
+MITARBEITER/IN: ___________________________
+ABTEILUNG:      ___________________________
+PERSONALNUMMER: ___________________________
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-STUNDENNACHWEIS
+TÄGLICHE ARBEITSZEITEN
 
-Tag  │ Datum       │ Arbeitsbeginn │ Arbeitsende │ Pause (Min) │ Gesamt
-─────┼─────────────┼───────────────┼─────────────┼─────────────┼───────
-  1  │             │               │             │             │
-  2  │             │               │             │             │
-  3  │             │               │             │             │
-  4  │             │               │             │             │
-  5  │             │               │             │             │
-  6  │             │               │             │             │
-  7  │             │               │             │             │
-  8  │             │               │             │             │
-  9  │             │               │             │             │
- 10  │             │               │             │             │
- 11  │             │               │             │             │
- 12  │             │               │             │             │
- 13  │             │               │             │             │
- 14  │             │               │             │             │
- 15  │             │               │             │             │
- 16  │             │               │             │             │
- 17  │             │               │             │             │
- 18  │             │               │             │             │
- 19  │             │               │             │             │
- 20  │             │               │             │             │
- 21  │             │               │             │             │
- 22  │             │               │             │             │
- 23  │             │               │             │             │
- 24  │             │               │             │             │
- 25  │             │               │             │             │
- 26  │             │               │             │             │
- 27  │             │               │             │             │
- 28  │             │               │             │             │
- 29  │             │               │             │             │
- 30  │             │               │             │             │
- 31  │             │               │             │             │
-─────┴─────────────┴───────────────┴─────────────┴─────────────┴───────
-                                               GESAMT MONAT:  _______ h
+${tabelle}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MONATSZUSAMMENFASSUNG
+
+Soll-Arbeitszeit (Monat):   _______ Stunden
+Ist-Arbeitszeit gesamt:     _______ Stunden
+Davon Überstunden:          _______ Stunden
+Davon Minusstunden:         _______ Stunden
+Urlaub / Krank / Feiertage: _______ Tage
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -291,23 +279,29 @@ Differenz:                 _______ €
 
 UNTERSCHRIFTEN
 
-Mitarbeiter:
+Mitarbeiter/in:
 Datum: ________________  Unterschrift: _______________________________
 
-Arbeitgeber / ${profil.name}:
+Arbeitgeber / Vorgesetzte/r (${profil.name}):
 Datum: ________________  Unterschrift: _______________________________
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 RECHTLICHE HINWEISE
 
-Aufbewahrungsfrist:  2 Jahre ab Erstellungsdatum (§ 17 Abs. 2 MiLoG)
-Aufbewahrungsort:    Im Betrieb, für Kontrolle durch Zollbehörden bereitzuhalten
+Aufzeichnungspflicht: Gemäß § 16 Abs. 2 ArbZG ist die über die werktägliche
+Arbeitszeit von 8 Stunden hinausgehende Arbeitszeit aufzuzeichnen und
+mindestens 2 Jahre aufzubewahren.
 
-Pflicht gilt für:
-- Geringfügig Beschäftigte (Minijobber)
-- Arbeitnehmer in Branchen nach § 2a SchwarzArbG
-- Arbeitnehmer bis 2.000 EUR Monatsverdienst (nicht dauerhaft)
+Höchstarbeitszeit: 8 Stunden täglich, max. 10 Stunden bei Ausgleich
+innerhalb von 6 Kalendermonaten (§ 3 ArbZG).
+
+Mindestruhezeit: 11 Stunden nach Arbeitsende (§ 5 ArbZG).
+
+Aufbewahrungsfrist (MiLoG): 2 Jahre ab Erstellungsdatum (§ 17 Abs. 2 MiLoG),
+im Betrieb für Kontrollen durch die Zollbehörden bereitzuhalten. Gilt
+insbesondere für geringfügig Beschäftigte, Arbeitnehmer in Branchen nach
+§ 2a SchwarzArbG sowie Beschäftigte bis 2.000 EUR Monatsverdienst.
 
 Unternehmen: ${profil.name} · ${profil.rechtsform} · ${profil.bundesland}
 Branche: ${profil.branche}`
@@ -421,18 +415,19 @@ TEILNEHMERLISTE UND BESTÄTIGUNG
 Die unterzeichnenden Personen bestätigen, dass sie an der Unterweisung
 teilgenommen haben und die Inhalte verstanden haben.
 
-Nr.  │ Name (Druck)              │ Datum        │ Unterschrift
-─────┼───────────────────────────┼──────────────┼─────────────────────
-  1  │                           │              │
-  2  │                           │              │
-  3  │                           │              │
-  4  │                           │              │
-  5  │                           │              │
-  6  │                           │              │
-  7  │                           │              │
-  8  │                           │              │
-  9  │                           │              │
- 10  │                           │              │
+[[TABLE]]
+Nr.|Name (Druck)|Datum|Unterschrift
+1| | |
+2| | |
+3| | |
+4| | |
+5| | |
+6| | |
+7| | |
+8| | |
+9| | |
+10| | |
+[[/TABLE]]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
