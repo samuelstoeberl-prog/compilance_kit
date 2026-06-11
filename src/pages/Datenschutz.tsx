@@ -161,8 +161,8 @@ export default function Datenschutz() {
           <Section nr="7" titel="Datenlöschung">
             <p>
               <strong>Eingeloggte Nutzer</strong> können ihr Konto und alle damit verknüpften Daten
-              jederzeit löschen über: Profil-Einstellungen → Konto löschen, oder per E-Mail an{' '}
-              {BETREIBER.email}.
+              jederzeit löschen über: <Link to="/konto" className="underline hover:text-ink">Konto-Einstellungen → Konto löschen</Link>,
+              oder per E-Mail an {BETREIBER.email}.
             </p>
             <p className="mt-2">
               <strong>Ohne Login</strong> können Sie die lokal gespeicherten Daten über die
@@ -176,7 +176,7 @@ export default function Datenschutz() {
               <li>Berichtigung unrichtiger Daten (Art. 16)</li>
               <li>Löschung Ihrer Daten (Art. 17)</li>
               <li>Einschränkung der Verarbeitung (Art. 18)</li>
-              <li>Datenübertragbarkeit (Art. 20)</li>
+              <li>Datenübertragbarkeit (Art. 20) – Export als JSON über <Link to="/konto" className="underline hover:text-ink">Konto-Einstellungen</Link></li>
               <li>Widerspruch gegen die Verarbeitung (Art. 21)</li>
             </ul>
             <p className="mt-3">Anfragen richten Sie an: {BETREIBER.email}</p>

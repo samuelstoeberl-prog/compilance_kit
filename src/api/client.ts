@@ -118,6 +118,18 @@ export function updateRegulationStatus(
   })
 }
 
+// ── Konto ─────────────────────────────────────────────────────────────────────
+
+/** Lädt alle gespeicherten Daten des Nutzers als JSON (Art. 20 DSGVO) */
+export function exportMyData(): Promise<unknown> {
+  return apiFetch('/api/user/export')
+}
+
+/** Löscht das Konto inkl. aller gespeicherten Daten unwiderruflich (Art. 17 DSGVO) */
+export function deleteMyAccount(): Promise<{ ok: true }> {
+  return apiFetch('/api/user/account', { method: 'DELETE' })
+}
+
 // ── Health-Check ──────────────────────────────────────────────────────────────
 
 export async function checkBackend(): Promise<boolean> {

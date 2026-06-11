@@ -1,7 +1,8 @@
 import { Router } from 'express'
 import { db } from '../db/client.js'
 import { validateBody, validateUUID, CompanySchema } from '../middleware/validate.js'
-import { requireAuth, getCurrentUserId, assertOwnership } from '../middleware/auth.js'
+import { requireAuth, getCurrentUserId } from '../middleware/auth.js'
+import { requireCompanyOwnership } from '../middleware/ownership.js'
 import type { CompanyRow } from '../types.js'
 
 export const companiesRouter = Router()
@@ -80,17 +81,9 @@ companiesRouter.get('/:id', requireAuth, validateUUID('id'), async (req, res) =>
 })
 
 // ── PUT /api/companies/:id – Unternehmen aktualisieren (nur eigenes) ──────────
-companiesRouter.put('/:id', requireAuth, validateUUID('id'), validateBody(CompanySchema), async (req, res) => {
+companiesRouter.put('/:id', requireAuth, validateUUID('id'), requireCompanyOwnership('id'), validateBody(CompanySchema), async (req, res) => {
   try {
     const clerkUserId = getCurrentUserId(req)
-
-    // Ownership-Check: Nutzer darf nur sein eigenes Unternehmen bearbeiten
-    const owned = await assertOwnership(db, req.params.id, clerkUserId)
-    if (!owned) {
-      res.status(403).json({ error: 'Kein Zugriff auf dieses Unternehmen' })
-      return
-    }
-
     const b = req.body
     const { rows } = await db.query<CompanyRow>(`
       UPDATE companies

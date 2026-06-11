@@ -473,6 +473,8 @@ export default function Dashboard() {
             ComplianceKit ersetzt keine individuelle Rechtsberatung. Alle Angaben ohne Gewähr auf Vollständigkeit und Aktualität.
           </span>
           <div className="flex items-center gap-4">
+            <Link to="/konto" className="hover:text-ink transition-colors">Konto</Link>
+            <span className="text-sand-border">|</span>
             <Link to="/impressum" className="hover:text-ink transition-colors">Impressum</Link>
             <span className="text-sand-border">|</span>
             <Link to="/datenschutz" className="hover:text-ink transition-colors">Datenschutz</Link>

@@ -4,6 +4,7 @@ import { clerkMiddleware } from '@clerk/express'
 import { companiesRouter } from './routes/companies.js'
 import { matchRouter } from './routes/match.js'
 import { aiRouter } from './routes/ai.js'
+import { userRouter } from './routes/user.js'
 import { generalLimiter, aiLimiter } from './middleware/rateLimit.js'
 
 export const app = express()
@@ -40,6 +41,7 @@ app.get('/api/health', (_, res) => res.json({ status: 'ok', ts: new Date().toISO
 app.use('/api/companies', companiesRouter)
 app.use('/api/match', matchRouter)
 app.use('/api/ai', aiRouter)
+app.use('/api/user', userRouter)
 
 // 404-Fallback
 app.use((req, res) => res.status(404).json({ error: `Route nicht gefunden: ${req.path}` }))

@@ -4,6 +4,7 @@ import { useProfil } from './context/ProfilContext'
 import Onboarding from './pages/Onboarding'
 import PreviewPage from './pages/PreviewPage'
 import Dashboard from './pages/Dashboard'
+import Konto from './pages/Konto'
 import LoginPage from './pages/LoginPage'
 import Impressum from './pages/Impressum'
 import Datenschutz from './pages/Datenschutz'
@@ -78,6 +79,7 @@ export default function App() {
 
       {/* Dashboard: nur für eingeloggte Nutzer */}
       <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+      <Route path="/konto" element={<ProtectedRoute><Konto /></ProtectedRoute>} />
 
       {/* Öffentliche Seiten */}
       <Route path="/impressum"   element={<Impressum />} />
