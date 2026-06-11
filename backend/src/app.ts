@@ -8,6 +8,9 @@ import { generalLimiter, aiLimiter } from './middleware/rateLimit.js'
 
 export const app = express()
 
+// Hinter dem Vercel/Reverse-Proxy: X-Forwarded-For für korrekte Client-IPs vertrauen
+app.set('trust proxy', 1)
+
 // ── Clerk-Middleware (muss vor allen Routes stehen) ───────────────────────────
 // Liest CLERK_SECRET_KEY aus process.env und verifiziert JWTs automatisch
 app.use(clerkMiddleware())
