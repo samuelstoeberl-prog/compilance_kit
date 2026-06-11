@@ -4,6 +4,7 @@ import { clerkMiddleware } from '@clerk/express'
 import { companiesRouter } from './routes/companies.js'
 import { matchRouter } from './routes/match.js'
 import { aiRouter } from './routes/ai.js'
+import { generalLimiter, aiLimiter } from './middleware/rateLimit.js'
 
 export const app = express()
 
@@ -26,6 +27,10 @@ app.use((_, res, next) => {
   res.setHeader('X-XSS-Protection', '1; mode=block')
   next()
 })
+
+// ── Rate-Limiting ─────────────────────────────────────────────────────────────
+app.use('/api', generalLimiter)
+app.use('/api/ai', aiLimiter)
 
 // ── Routes ────────────────────────────────────────────────────────────────────
 app.get('/api/health', (_, res) => res.json({ status: 'ok', ts: new Date().toISOString() }))
