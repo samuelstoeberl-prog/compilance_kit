@@ -25,19 +25,3 @@ export function getCurrentUserId(req: Request): string {
   if (!userId) throw new Error('Kein authentifizierter Nutzer im Request')
   return userId
 }
-
-/**
- * Prüft ob ein Unternehmen dem aktuellen Nutzer gehört.
- * Gibt false zurück wenn die Zuordnung nicht stimmt (→ 403).
- */
-export async function assertOwnership(
-  db: import('pg').Pool,
-  companyId: string,
-  clerkUserId: string,
-): Promise<boolean> {
-  const { rows } = await db.query(
-    'SELECT 1 FROM companies WHERE id = $1 AND clerk_user_id = $2',
-    [companyId, clerkUserId]
-  )
-  return rows.length > 0
-}

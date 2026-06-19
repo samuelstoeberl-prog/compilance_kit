@@ -1,0 +1,18 @@
+{
+  "name": "ComplianceKit",
+  "short_name": "ComplianceKit",
+  "description": "Pflichten, Förderprogramme und Dokumentvorlagen für kleine und mittlere Unternehmen.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F4F2EE",
+  "theme_color": "#1A1814",
+  "lang": "de",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

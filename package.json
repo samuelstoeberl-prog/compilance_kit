@@ -21,11 +21,15 @@
   "dependencies": {
     "@clerk/clerk-react": "^5.61.8",
     "@clerk/localizations": "^4.7.0",
+    "@fontsource/dm-sans": "^5.2.8",
+    "@fontsource/dm-serif-display": "^5.2.8",
+    "@fontsource/ibm-plex-mono": "^5.2.7",
     "docx": "^9.6.1",
     "jspdf": "^4.2.1",
     "lucide-react": "^1.14.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
+    "react-helmet-async": "^3.0.0",
     "react-router-dom": "^7.14.0"
   },
   "devDependencies": {

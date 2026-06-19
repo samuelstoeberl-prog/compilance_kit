@@ -2,6 +2,7 @@ import { Router } from 'express'
 import Anthropic from '@anthropic-ai/sdk'
 import { z } from 'zod'
 import { validateBody } from '../middleware/validate.js'
+import { requireAuth } from '../middleware/auth.js'
 
 export const aiRouter = Router()
 
@@ -30,7 +31,7 @@ const DOK_LABELS: Record<string, string> = {
 
 // POST /api/ai/documents – AI-gestützte Dokumentgenerierung
 // Der Key bleibt Server-seitig, das Frontend bekommt nur den fertigen Text
-aiRouter.post('/documents', validateBody(DocumentRequestSchema), async (req, res) => {
+aiRouter.post('/documents', requireAuth, validateBody(DocumentRequestSchema), async (req, res) => {
   if (!process.env.ANTHROPIC_API_KEY) {
     res.status(503).json({ error: 'AI-Dokumentgenerierung nicht konfiguriert' })
     return

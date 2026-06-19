@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /konto
+Disallow: /preview
+
+Sitemap: https://compilance-kit.de/sitemap.xml

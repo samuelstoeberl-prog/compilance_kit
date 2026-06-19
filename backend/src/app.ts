@@ -4,8 +4,13 @@ import { clerkMiddleware } from '@clerk/express'
 import { companiesRouter } from './routes/companies.js'
 import { matchRouter } from './routes/match.js'
 import { aiRouter } from './routes/ai.js'
+import { userRouter } from './routes/user.js'
+import { generalLimiter, aiLimiter } from './middleware/rateLimit.js'
 
 export const app = express()
+
+// Hinter dem Vercel/Reverse-Proxy: X-Forwarded-For für korrekte Client-IPs vertrauen
+app.set('trust proxy', 1)
 
 // ── Clerk-Middleware (muss vor allen Routes stehen) ───────────────────────────
 // Liest CLERK_SECRET_KEY aus process.env und verifiziert JWTs automatisch
@@ -27,11 +32,16 @@ app.use((_, res, next) => {
   next()
 })
 
+// ── Rate-Limiting ─────────────────────────────────────────────────────────────
+app.use('/api', generalLimiter)
+app.use('/api/ai', aiLimiter)
+
 // ── Routes ────────────────────────────────────────────────────────────────────
 app.get('/api/health', (_, res) => res.json({ status: 'ok', ts: new Date().toISOString() }))
 app.use('/api/companies', companiesRouter)
 app.use('/api/match', matchRouter)
 app.use('/api/ai', aiRouter)
+app.use('/api/user', userRouter)
 
 // 404-Fallback
 app.use((req, res) => res.status(404).json({ error: `Route nicht gefunden: ${req.path}` }))
