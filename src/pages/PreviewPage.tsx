@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { SignIn } from '@clerk/clerk-react'
 import { useProfil } from '../context/ProfilContext'
+import Seo from '../components/Seo'
 import { sortedFundings, filterRegulations } from '../utils/filter'
 import fundingData from '../data/fundings.json'
 import regulationData from '../data/regulations.json'
@@ -22,6 +23,11 @@ export default function PreviewPage() {
 
   return (
     <div className="min-h-screen bg-sand-light flex items-center justify-center p-6 font-sans">
+      <Seo
+        title="Ihre Vorschau – ComplianceKit"
+        description="Ihre persönliche Übersicht über passende Pflichten und Förderprogramme."
+        noindex
+      />
       <div className="w-full max-w-lg">
 
         {/* Logo */}

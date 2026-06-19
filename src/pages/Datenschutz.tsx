@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Seo from '../components/Seo'
 
 // ─── HIER DEINE DATEN EINTRAGEN ───────────────────────────────────────────────
 const BETREIBER = {
@@ -16,6 +17,7 @@ export default function Datenschutz() {
 
   return (
     <div className="min-h-screen bg-sand-light">
+      <Seo title="Datenschutzerklärung – ComplianceKit" description="Datenschutzerklärung von ComplianceKit gemäß Art. 13, 14 DSGVO." />
       <header className="border-b border-sand-border bg-white px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2.5">
           <div className="w-7 h-7 bg-ink rounded flex items-center justify-center">

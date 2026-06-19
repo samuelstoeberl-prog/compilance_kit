@@ -1,4 +1,5 @@
 import { SignIn } from '@clerk/clerk-react'
+import Seo from '../components/Seo'
 
 const STATS = [
   { zahl: '346', einheit: 'Förderprogramme', sub: 'laufend aktualisiert' },
@@ -9,6 +10,10 @@ const STATS = [
 export default function LoginPage() {
   return (
     <div className="min-h-screen flex font-sans">
+      <Seo
+        title="Anmelden – ComplianceKit"
+        description="Melden Sie sich bei ComplianceKit an, um Ihre Pflichten, Förderprogramme und Dokumente zu verwalten."
+      />
 
       {/* ── Linke Spalte ──────────────────────────────────────────────────── */}
       <div className="hidden lg:flex lg:w-[46%] bg-ink flex-col justify-between p-12 relative overflow-hidden">

@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useProfil } from '../context/ProfilContext'
+import Seo from '../components/Seo'
 import type { UnternehmensProfil } from '../types'
 
 const RECHTSFORMEN = [
@@ -119,6 +120,41 @@ export default function Onboarding() {
 
   return (
     <div className="min-h-screen bg-sand-light flex items-center justify-center p-6">
+      <Seo
+        title="Onboarding – ComplianceKit"
+        description="Erfassen Sie Ihr Unternehmensprofil und erhalten Sie eine Übersicht über passende Pflichten und Förderprogramme."
+        jsonLd={[
+          {
+            '@context': 'https://schema.org',
+            '@type': 'WebApplication',
+            name: 'ComplianceKit',
+            url: 'https://compilance-kit.de/',
+            applicationCategory: 'BusinessApplication',
+            operatingSystem: 'Web',
+            description:
+              'ComplianceKit zeigt kleinen und mittleren Unternehmen anhand ihres Profils passende gesetzliche Pflichten und Förderprogramme an.',
+            offers: {
+              '@type': 'Offer',
+              price: '0',
+              priceCurrency: 'EUR',
+            },
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            name: 'ComplianceKit',
+            url: 'https://compilance-kit.de/',
+            email: 'samuelstoeberl@gmail.com',
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: 'Josef Schwab Straße 7',
+              postalCode: '94559',
+              addressLocality: 'Niederwinkling',
+              addressCountry: 'DE',
+            },
+          },
+        ]}
+      />
       <div className="w-full max-w-lg">
 
         {/* Logo */}

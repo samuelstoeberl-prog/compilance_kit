@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Seo from '../components/Seo'
 
 // ─── HIER DEINE DATEN EINTRAGEN ───────────────────────────────────────────────
 const BETREIBER = {
@@ -27,6 +28,7 @@ function Row({ label, value }: { label: string; value: string }) {
 export default function Impressum() {
   return (
     <div className="min-h-screen bg-sand-light">
+      <Seo title="Impressum – ComplianceKit" description="Impressum und Anbieterkennzeichnung gemäß § 5 DDG für ComplianceKit." />
       <header className="border-b border-sand-border bg-white px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2.5">
           <div className="w-7 h-7 bg-ink rounded flex items-center justify-center">

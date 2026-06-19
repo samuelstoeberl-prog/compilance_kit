@@ -492,7 +492,7 @@ export default function DocumentGenerator({ regulation, profil, onComplete, onCl
             <h2 className="font-serif text-xl text-ink">{DOK_LABELS[typ]}</h2>
             <p className="text-sm text-muted-dark font-sans mt-1">{regulation.title}</p>
           </div>
-          <button onClick={onClose} className="text-muted hover:text-ink text-xl leading-none mt-1">×</button>
+          <button onClick={onClose} aria-label="Schließen" className="text-muted hover:text-ink text-xl leading-none mt-1">×</button>
         </div>
 
         {/* Status banner */}

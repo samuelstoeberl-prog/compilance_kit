@@ -3,6 +3,7 @@ import { useNavigate, Link } from 'react-router-dom'
 import { useProfil } from '../context/ProfilContext'
 import { filterRegulations, sortedFundings } from '../utils/filter'
 import { fetchFundings, fetchRegulations, type ApiFunding, type ApiRegulation } from '../api/client'
+import Seo from '../components/Seo'
 import ApplicationWizard from '../components/ApplicationWizard'
 import DocumentGenerator, { buildDocument } from '../components/DocumentGenerator'
 import { downloadAsPDF, downloadAsDOCX } from '../utils/exportDoc'
@@ -173,6 +174,7 @@ export default function Dashboard() {
 
   return (
     <div className="min-h-screen bg-sand-light font-sans">
+      <Seo title="Dashboard – ComplianceKit" description="Ihre Compliance-Pflichten, Förderprogramme und Dokumente im Überblick." noindex />
 
       {/* Header */}
       <header className="bg-white border-b border-sand-border px-8 py-4 flex items-center justify-between shadow-sm">
@@ -272,7 +274,7 @@ export default function Dashboard() {
                 <input type="text" placeholder="Suchen..." value={search} onChange={e => setSearch(e.target.value)}
                   className="w-full bg-white border border-sand-border rounded-lg pl-9 pr-4 py-2 text-sm text-ink placeholder-muted focus:outline-none focus:border-ink-border font-sans" />
                 {search && (
-                  <button onClick={() => setSearch('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-muted hover:text-ink text-lg leading-none">×</button>
+                  <button onClick={() => setSearch('')} aria-label="Suche zurücksetzen" className="absolute right-3 top-1/2 -translate-y-1/2 text-muted hover:text-ink text-lg leading-none">×</button>
                 )}
               </div>
 

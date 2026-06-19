@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useClerk } from '@clerk/clerk-react'
+import Seo from '../components/Seo'
 import { exportMyData, deleteMyAccount } from '../api/client'
 
 export default function Konto() {
@@ -47,6 +48,7 @@ export default function Konto() {
 
   return (
     <div className="min-h-screen bg-sand-light">
+      <Seo title="Konto-Einstellungen – ComplianceKit" description="Exportieren oder löschen Sie Ihre bei ComplianceKit gespeicherten Daten." noindex />
       <header className="border-b border-sand-border bg-white px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2.5">
           <div className="w-7 h-7 bg-ink rounded flex items-center justify-center">
