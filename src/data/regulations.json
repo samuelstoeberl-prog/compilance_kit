@@ -200,7 +200,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": true,
+    "dokument_typ": "gefaehrdungsbeurteilung"
   },
   {
     "id": "erste-hilfe-einrichtung",
@@ -3070,7 +3071,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": true,
+    "dokument_typ": "nachweis-arbeitsbedingungen"
   },
   {
     "id": "reg-agg",
@@ -3538,7 +3540,8 @@
         "alle"
       ]
     },
-    "hat_dokument_generator": false
+    "hat_dokument_generator": true,
+    "dokument_typ": "gefaehrdungsbeurteilung"
   },
   {
     "id": "reg-asig",
@@ -8758,8 +8761,8 @@
       ],
       "mitarbeiter_min": 1
     },
-    "hat_dokument_generator": false,
-    "dokument_typ": null
+    "hat_dokument_generator": true,
+    "dokument_typ": "nachweis-arbeitsbedingungen"
   },
   {
     "id": "nicht-diskriminierung-stellenausschreibung",

@@ -16,6 +16,8 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   impressum: 'Impressum',
   arbeitszeitnachweis: 'Arbeitszeitnachweis-Vorlage',
   'arbeitsschutz-unterweisung': 'Arbeitsschutzunterweisung-Vorlage',
+  gefaehrdungsbeurteilung: 'Gefährdungsbeurteilung-Vorlage',
+  'nachweis-arbeitsbedingungen': 'Niederschrift Arbeitsbedingungen (NachwG)',
 }
 
 function ph(val: string | undefined, placeholder: string): string {
@@ -450,12 +452,180 @@ Rechtsgrundlagen:   § 12 ArbSchG, § 4 BGV A1, DGUV Vorschrift 1
 Unternehmen: ${profil.name} · ${profil.mitarbeiter} Mitarbeitende · ${profil.bundesland}`
 }
 
+function generateGefaehrdungsbeurteilung(profil: UnternehmensProfil): string {
+  const branchenGefahren: Record<string, string[]> = {
+    'Software / IT': [
+      'Bildschirmarbeit / Ergonomie',
+      'Psychische Belastung (Termindruck, Daueraufmerksamkeit)',
+      'Bewegungsmangel / einseitige Körperhaltung',
+    ],
+    'Produktion / Fertigung': [
+      'Maschinen- und Anlagensicherheit',
+      'Lärm und Vibrationen',
+      'Gefahrstoffe und Sicherheitsdatenblätter',
+      'Heben und Tragen schwerer Lasten',
+    ],
+    'Handel / E-Commerce': [
+      'Stolper-, Sturz- und Rutschgefahren im Lager',
+      'Heben und Tragen schwerer Lasten',
+      'Bildschirmarbeit und Ergonomie an der Kasse',
+    ],
+    'Gastronomie / Hotellerie': [
+      'Schnitt- und Verbrühungsgefahren',
+      'Rutschgefahr auf nassen Böden',
+      'Umgang mit Reinigungs- und Gefahrstoffen',
+      'Brandgefahr (Fettbrand)',
+    ],
+    'Gesundheit / Pflege': [
+      'Infektionsgefährdung / Umgang mit Körperflüssigkeiten',
+      'Heben und Lagern von Patienten',
+      'Psychische Belastung',
+      'Umgang mit Arzneimitteln',
+    ],
+    'Bau / Handwerk': [
+      'Absturzgefahr (Gerüste, Leitern, Dächer)',
+      'Elektrische Gefährdungen',
+      'Gefahrstoffe (Asbest, Quarzstaub, Lösemittel)',
+      'Maschinen- und Werkzeuggefahren',
+    ],
+    'Transport / Logistik': [
+      'Ladungssicherung',
+      'Gabelstaplerbetrieb',
+      'Heben und Tragen im Lager',
+      'Ermüdung bei Fahrtätigkeit',
+    ],
+  }
+
+  const gefahren = branchenGefahren[profil.branche] ?? [
+    'Allgemeine Unfallgefahren am Arbeitsplatz',
+    'Ergonomie / Körperhaltung',
+    'Psychische Belastung',
+    'Elektrische Sicherheit',
+  ]
+
+  const tableRows = [
+    'Gefährdung|Risiko (gering/mittel/hoch)|Schutzmaßnahme|Verantwortlich|Umgesetzt am',
+    ...gefahren.map(g => `${g}| | | | `),
+  ]
+  const tabelle = `[[TABLE]]\n${tableRows.join('\n')}\n[[/TABLE]]`
+
+  return `GEFÄHRDUNGSBEURTEILUNG
+gemäß § 5 ArbSchG (Arbeitsschutzgesetz)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ALLGEMEINE ANGABEN
+
+Unternehmen:        ${profil.name}
+Branche:            ${profil.branche}
+Mitarbeitende:      ${profil.mitarbeiter}
+Arbeitsbereich:     ___________________________
+Erstellt von:       ___________________________
+Datum der Erhebung: ___________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GEFÄHRDUNGEN UND SCHUTZMASSNAHMEN (branchenspezifisch: ${profil.branche})
+
+${tabelle}
+
+Weitere betriebsspezifische Gefährdungen:
+___________________________________________
+___________________________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WIRKSAMKEITSKONTROLLE
+
+Datum der Überprüfung: ___________________________
+Maßnahmen wirksam:     Ja / Nein / Teilweise
+Nächste Überprüfung:   ___________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BESTÄTIGUNG
+
+Datum: ________________  Unterschrift: _______________________________
+Name:  ________________________________  Funktion: ___________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RECHTLICHE HINWEISE
+
+Pflicht:            Für jeden Arbeitsplatz, vor Aufnahme der Tätigkeit und bei
+                    relevanten Änderungen; Wirksamkeit regelmäßig überprüfen
+Aufbewahrung:       Dauerhaft, mindestens bis zur nächsten Aktualisierung
+Rechtsgrundlagen:   § 5, § 6 ArbSchG, ggf. branchenspezifische Verordnungen
+                    (BetrSichV, GefStoffV, BioStoffV, ArbStättV)
+
+Unternehmen: ${profil.name} · ${profil.mitarbeiter} Mitarbeitende · ${profil.bundesland}`
+}
+
+function generateNachweisArbeitsbedingungen(profil: UnternehmensProfil): string {
+  return `NIEDERSCHRIFT DER WESENTLICHEN ARBEITSBEDINGUNGEN
+gemäß § 2 Nachweisgesetz (NachwG)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ARBEITGEBER
+
+Unternehmen: ${profil.name}
+Rechtsform:  ${profil.rechtsform}
+Adresse:     ${ph(profil.strasse, 'Straße & Hausnummer')}, ${ph(profil.plz_ort, 'PLZ & Ort')}
+
+ARBEITNEHMER/IN
+
+Name:               ___________________________
+Anschrift:          ___________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+VERTRAGSBEDINGUNGEN
+
+Beginn des Arbeitsverhältnisses:  ___________________________
+Befristung (falls zutreffend):    ___________________________
+Arbeitsort:                       ___________________________
+Tätigkeitsbeschreibung:           ___________________________
+Zusammensetzung des Arbeitsentgelts (Grundgehalt, Zuschläge, Boni):
+___________________________________________
+Vereinbarte Arbeitszeit:          _______ Stunden / Woche
+Ruhepausen und Ruhezeiten:        ___________________________
+Schichtsystem (falls zutreffend): ___________________________
+Dauer der Probezeit:              ___________________________
+Urlaubsanspruch:                  _______ Werktage / Jahr
+Kündigungsfristen:                ___________________________
+Anzuwendender Tarifvertrag (falls zutreffend): ___________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+UNTERSCHRIFTEN
+
+Arbeitgeber (${profil.name}):
+Datum: ________________  Unterschrift: _______________________________
+
+Arbeitnehmer/in:
+Datum: ________________  Unterschrift: _______________________________
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RECHTLICHE HINWEISE
+
+Pflicht:            Spätestens am ersten Arbeitstag (§ 2 Abs. 1 NachwG, seit
+                    BEG IV / 2025 auch in digitaler Form zulässig)
+Aufbewahrung:       Für die Dauer des Arbeitsverhältnisses
+Rechtsgrundlage:    § 2 Nachweisgesetz (NachwG)
+
+Unternehmen: ${profil.name} · ${profil.rechtsform} · ${profil.bundesland}`
+}
+
 function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
   switch (typ) {
     case 'datenschutzerklaerung': return generateDatenschutzerklaerung(profil)
     case 'impressum': return generateImpressum(profil)
     case 'arbeitszeitnachweis': return generateArbeitszeitnachweis(profil)
     case 'arbeitsschutz-unterweisung': return generateArbeitsschutzUnterweisung(profil)
+    case 'gefaehrdungsbeurteilung': return generateGefaehrdungsbeurteilung(profil)
+    case 'nachweis-arbeitsbedingungen': return generateNachweisArbeitsbedingungen(profil)
   }
 }
 

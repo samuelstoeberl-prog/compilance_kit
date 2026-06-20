@@ -24,6 +24,8 @@ export type DokumentTyp =
   | 'impressum'
   | 'arbeitszeitnachweis'
   | 'arbeitsschutz-unterweisung'
+  | 'gefaehrdungsbeurteilung'
+  | 'nachweis-arbeitsbedingungen'
 
 export interface GiltFuer {
   rechtsformen: string[]
