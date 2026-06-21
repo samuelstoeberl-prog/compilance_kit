@@ -128,6 +128,8 @@ export default function LoginPage() {
             <a href="/impressum" className="hover:text-ink transition-colors">Impressum</a>
             <span className="mx-2 text-sand-border">·</span>
             <a href="/datenschutz" className="hover:text-ink transition-colors">Datenschutz</a>
+            <span className="mx-2 text-sand-border">·</span>
+            <a href="/statistik" className="hover:text-ink transition-colors">Statistik</a>
           </p>
         </div>
       </div>

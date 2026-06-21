@@ -8,6 +8,7 @@ import Konto from './pages/Konto'
 import LoginPage from './pages/LoginPage'
 import Impressum from './pages/Impressum'
 import Datenschutz from './pages/Datenschutz'
+import Statistik from './pages/Statistik'
 
 function AuthLoadingSkeleton() {
   return (
@@ -84,6 +85,7 @@ export default function App() {
       {/* Öffentliche Seiten */}
       <Route path="/impressum"   element={<Impressum />} />
       <Route path="/datenschutz" element={<Datenschutz />} />
+      <Route path="/statistik"   element={<Statistik />} />
     </Routes>
   )
 }

@@ -478,6 +478,8 @@ export default function Dashboard() {
             <Link to="/impressum" className="hover:text-ink transition-colors">Impressum</Link>
             <span className="text-sand-border">|</span>
             <Link to="/datenschutz" className="hover:text-ink transition-colors">Datenschutz</Link>
+            <span className="text-sand-border">|</span>
+            <Link to="/statistik" className="hover:text-ink transition-colors">Statistik</Link>
           </div>
         </div>
       </footer>
