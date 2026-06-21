@@ -11,14 +11,42 @@ const MIT_MAP: Record<string, number> = {
   '250+': 500,
 }
 
+// Onboarding-Branche → normalisierter Wert, identisch zu BRANCHE_NORM in filter.ts.
+// regulations.json verwendet uneinheitlich mal das Onboarding-Label (z.B. "Handwerk"),
+// mal die normalisierte Gruppe (z.B. "Bau / Handwerk") – ohne diese Normalisierung
+// werden Pflichten für mehrere Branchen systematisch unterzählt.
+const BRANCHE_NORM: Record<string, string> = {
+  'Handwerk': 'Bau / Handwerk',
+  'Baugewerbe': 'Bau / Handwerk',
+  'Industrie & Fertigung': 'Produktion / Fertigung',
+  'Einzelhandel': 'Handel / E-Commerce',
+  'Großhandel': 'Handel / E-Commerce',
+  'E-Commerce': 'Handel / E-Commerce',
+  'IT-Dienstleistungen & Software': 'Software / IT',
+  'KI & Hochtechnologie': 'Software / IT',
+  'Unternehmensberatung & Agentur': 'Dienstleistungen',
+  'Kreativwirtschaft': 'Dienstleistungen',
+  'Gastronomie & Cafés': 'Gastronomie / Hotellerie',
+  'Hotellerie & Beherbergung': 'Gastronomie / Hotellerie',
+  'Gesundheitswesen & Soziales': 'Gesundheit / Pflege',
+  'Freie Berufe (Recht, Steuern, Architektur)': 'Dienstleistungen',
+  'Transport & Logistik': 'Transport',
+  'Immobilienwesen': 'Dienstleistungen',
+  'Land- & Forstwirtschaft': 'Landwirtschaft',
+}
+
 type StatistikProfil = Pick<UnternehmensProfil, 'rechtsform' | 'branche' | 'mitarbeiter' | 'bundesland'>
 
 function istRelevant(reg: Regulation, profil: StatistikProfil): boolean {
   const g = reg.gilt_fuer
   const mitZahl = MIT_MAP[profil.mitarbeiter] ?? 0
+  const brancheNorm = BRANCHE_NORM[profil.branche] ?? profil.branche
 
   if (g.rechtsformen[0] !== 'alle' && !g.rechtsformen.includes(profil.rechtsform)) return false
-  if (g.branchen && g.branchen[0] !== 'alle' && !g.branchen.includes(profil.branche)) return false
+  if (g.branchen && g.branchen[0] !== 'alle') {
+    const match = g.branchen.some(b => b === profil.branche || b === brancheNorm)
+    if (!match) return false
+  }
   if (g.mitarbeiter_min !== undefined && g.mitarbeiter_min > 0 && mitZahl < g.mitarbeiter_min) return false
   if (g.bundeslaender && g.bundeslaender[0] !== 'alle' && !g.bundeslaender.includes(profil.bundesland)) return false
 
