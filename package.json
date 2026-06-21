@@ -7,6 +7,8 @@
     "dev": "concurrently -n frontend,backend -c cyan,green \"vite\" \"(pg_isready -q 2>/dev/null || sudo -n service postgresql start 2>/dev/null || true) && cd backend && node --env-file=.env --import tsx/esm src/index.ts\"",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "preview": "vite preview",
     "backend:dev": "cd backend && npm install && npm run dev",
     "backend:migrate": "cd backend && npm run db:migrate",
@@ -47,6 +49,7 @@
     "tsx": "^4.22.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.0",
-    "vite": "^8.0.4"
+    "vite": "^8.0.4",
+    "vitest": "^4.1.9"
   }
 }
