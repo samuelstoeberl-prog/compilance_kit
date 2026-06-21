@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import type { RegulationMitStatus, UnternehmensProfil, DokumentTyp } from '../types'
+import { downloadAsPDF, downloadAsDOCX } from '../utils/exportDoc'
 
 interface Props {
   regulation: RegulationMitStatus
@@ -17,6 +18,10 @@ const DOK_LABELS: Record<DokumentTyp, string> = {
   'arbeitsschutz-unterweisung': 'Arbeitsschutzunterweisung-Vorlage',
 }
 
+function ph(val: string | undefined, placeholder: string): string {
+  return val?.trim() ? val.trim() : `[${placeholder}]`
+}
+
 function generateDatenschutzerklaerung(profil: UnternehmensProfil): string {
   return `DATENSCHUTZERKLÄRUNG
 gemäß Art. 13, 14 DSGVO
@@ -28,11 +33,11 @@ Stand: ${new Date().toLocaleDateString('de-DE', { month: 'long', year: 'numeric'
 1. VERANTWORTLICHER
 
 ${profil.name}
-[STRASSE UND HAUSNUMMER]
-[PLZ ORT]
+${ph(profil.strasse, 'STRASSE UND HAUSNUMMER')}
+${ph(profil.plz_ort, 'PLZ ORT')}
 
-E-Mail: [EMAIL-ADRESSE]
-Telefon: [TELEFONNUMMER]
+E-Mail: ${ph(profil.email, 'EMAIL-ADRESSE')}
+Telefon: ${ph(profil.telefon, 'TELEFONNUMMER')}
 ${profil.rechtsform !== 'Einzelunternehmen' && profil.rechtsform !== 'GbR' ? 'Handelsregister: [AMTSGERICHT], HRB [NUMMER]' : ''}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -108,18 +113,18 @@ anpassen.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-7. IHRE RECHTE (Art. 15–22 DSGVO)
+7. IHRE RECHTE (Art. 15-22 DSGVO)
 
 Sie haben das Recht auf:
-✓  Auskunft über Ihre gespeicherten Daten (Art. 15 DSGVO)
-✓  Berichtigung unrichtiger Daten (Art. 16 DSGVO)
-✓  Löschung Ihrer Daten (Art. 17 DSGVO)
-✓  Einschränkung der Verarbeitung (Art. 18 DSGVO)
-✓  Datenübertragbarkeit (Art. 20 DSGVO)
-✓  Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)
-✓  Widerruf einer Einwilligung (Art. 7 Abs. 3 DSGVO)
+- Auskunft über Ihre gespeicherten Daten (Art. 15 DSGVO)
+- Berichtigung unrichtiger Daten (Art. 16 DSGVO)
+- Löschung Ihrer Daten (Art. 17 DSGVO)
+- Einschränkung der Verarbeitung (Art. 18 DSGVO)
+- Datenübertragbarkeit (Art. 20 DSGVO)
+- Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)
+- Widerruf einer Einwilligung (Art. 7 Abs. 3 DSGVO)
 
-Zur Ausübung Ihrer Rechte wenden Sie sich an: [EMAIL-ADRESSE]
+Zur Ausübung Ihrer Rechte wenden Sie sich an: ${ph(profil.email, 'EMAIL-ADRESSE')}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -128,7 +133,7 @@ Zur Ausübung Ihrer Rechte wenden Sie sich an: [EMAIL-ADRESSE]
 Sie haben das Recht, sich bei der zuständigen Datenschutzaufsichtsbehörde
 zu beschweren. Die für ${profil.bundesland} zuständige Behörde ist:
 
-[ZUSTÄNDIGE LANDESBEHÖRDE – siehe https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html]
+[ZUSTÄNDIGE LANDESBEHÖRDE – siehe https://www.bfdi.bund.de]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -150,13 +155,13 @@ gemäß § 5 DDG (Digitale-Dienste-Gesetz)
 ANGABEN ZUM UNTERNEHMEN
 
 ${profil.name}
-[STRASSE UND HAUSNUMMER]
-[PLZ ORT]
+${ph(profil.strasse, 'STRASSE UND HAUSNUMMER')}
+${ph(profil.plz_ort, 'PLZ ORT')}
 Deutschland
 
-Telefon: [TELEFONNUMMER]
-E-Mail:  [EMAIL-ADRESSE]
-Website: [WEBSITE-URL]
+Telefon: ${ph(profil.telefon, 'TELEFONNUMMER')}
+E-Mail:  ${ph(profil.email, 'EMAIL-ADRESSE')}
+Website: ${ph(profil.website, 'WEBSITE-URL')}
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -203,8 +208,9 @@ STREITSCHLICHTUNG
 Die EU-Kommission stellt eine Plattform zur Online-Streitbeilegung bereit:
 https://ec.europa.eu/consumers/odr
 
-Wir sind [nicht] bereit, an einem Streitbeilegungsverfahren vor einer
-Verbraucherschlichtungsstelle teilzunehmen.
+Wir sind [bereit / nicht bereit – Zutreffendes auswählen], an einem
+Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
+teilzunehmen.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -222,55 +228,42 @@ Branche: ${profil.branche} · Bundesland: ${profil.bundesland}`
 
 function generateArbeitszeitnachweis(profil: UnternehmensProfil): string {
   const monat = new Date().toLocaleDateString('de-DE', { month: 'long', year: 'numeric' })
+
+  const wochentage = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So']
+  const tableRows = ['Tag|Datum|Beginn|Ende|Pause|Nettozeit']
+  for (let woche = 0; woche < 4; woche++) {
+    for (const tag of wochentage) {
+      tableRows.push(`${tag}|__.__.____| | | | `)
+    }
+  }
+  const tabelle = `[[TABLE]]\n${tableRows.join('\n')}\n[[/TABLE]]`
+
   return `ARBEITSZEITNACHWEIS
-gemäß § 17 MiLoG (Mindestlohngesetz)
+gemäß § 16 Abs. 2 ArbZG und § 17 MiLoG
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-UNTERNEHMEN: ${profil.name}
-MONAT:       ${monat}
-MITARBEITER: ___________________________
-ABTEILUNG:   ___________________________
+UNTERNEHMEN:    ${profil.name}
+MONAT / JAHR:   ${monat}
+MITARBEITER/IN: ___________________________
+ABTEILUNG:      ___________________________
+PERSONALNUMMER: ___________________________
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-STUNDENNACHWEIS
+TÄGLICHE ARBEITSZEITEN
 
-Tag  │ Datum       │ Arbeitsbeginn │ Arbeitsende │ Pause (Min) │ Gesamt
-─────┼─────────────┼───────────────┼─────────────┼─────────────┼───────
-  1  │             │               │             │             │
-  2  │             │               │             │             │
-  3  │             │               │             │             │
-  4  │             │               │             │             │
-  5  │             │               │             │             │
-  6  │             │               │             │             │
-  7  │             │               │             │             │
-  8  │             │               │             │             │
-  9  │             │               │             │             │
- 10  │             │               │             │             │
- 11  │             │               │             │             │
- 12  │             │               │             │             │
- 13  │             │               │             │             │
- 14  │             │               │             │             │
- 15  │             │               │             │             │
- 16  │             │               │             │             │
- 17  │             │               │             │             │
- 18  │             │               │             │             │
- 19  │             │               │             │             │
- 20  │             │               │             │             │
- 21  │             │               │             │             │
- 22  │             │               │             │             │
- 23  │             │               │             │             │
- 24  │             │               │             │             │
- 25  │             │               │             │             │
- 26  │             │               │             │             │
- 27  │             │               │             │             │
- 28  │             │               │             │             │
- 29  │             │               │             │             │
- 30  │             │               │             │             │
- 31  │             │               │             │             │
-─────┴─────────────┴───────────────┴─────────────┴─────────────┴───────
-                                               GESAMT MONAT:  _______ h
+${tabelle}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MONATSZUSAMMENFASSUNG
+
+Soll-Arbeitszeit (Monat):   _______ Stunden
+Ist-Arbeitszeit gesamt:     _______ Stunden
+Davon Überstunden:          _______ Stunden
+Davon Minusstunden:         _______ Stunden
+Urlaub / Krank / Feiertage: _______ Tage
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -280,32 +273,35 @@ Geleistete Stunden:        _______ h
 Mindestlohn 2026:          13,90 € / Stunde
 Mindestvergütung gesamt:   _______ €
 Tatsächliche Vergütung:    _______ €
-Differenz:                 _______ €  ☐ OK  ☐ Nachzahlung erforderlich
+Differenz:                 _______ €
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 UNTERSCHRIFTEN
 
-Mitarbeiter:
+Mitarbeiter/in:
 Datum: ________________  Unterschrift: _______________________________
 
-Arbeitgeber / ${profil.name}:
+Arbeitgeber / Vorgesetzte/r (${profil.name}):
 Datum: ________________  Unterschrift: _______________________________
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 RECHTLICHE HINWEISE
 
-Aufbewahrungsfrist:  2 Jahre ab Erstellungsdatum (§ 17 Abs. 2 MiLoG)
-Aufbewahrungsort:    Im Betrieb, für Kontrolle durch Zollbehörden bereitzuhalten
+Aufzeichnungspflicht: Gemäß § 16 Abs. 2 ArbZG ist die über die werktägliche
+Arbeitszeit von 8 Stunden hinausgehende Arbeitszeit aufzuzeichnen und
+mindestens 2 Jahre aufzubewahren.
 
-Pflicht gilt für:
-• Geringfügig Beschäftigte (Minijobber)
-• Arbeitnehmer in Branchen nach § 2a SchwarzArbG
-• Arbeitnehmer bis 2.000 € Monatsverdienst (nicht dauerhaft)
+Höchstarbeitszeit: 8 Stunden täglich, max. 10 Stunden bei Ausgleich
+innerhalb von 6 Kalendermonaten (§ 3 ArbZG).
 
-Gültige Branchen (Auszug): Bauwirtschaft, Gastronomie, Spedition,
-Schaustellergewerbe, Forst, Gebäudereinigung, Fleischwirtschaft, Messebau
+Mindestruhezeit: 11 Stunden nach Arbeitsende (§ 5 ArbZG).
+
+Aufbewahrungsfrist (MiLoG): 2 Jahre ab Erstellungsdatum (§ 17 Abs. 2 MiLoG),
+im Betrieb für Kontrollen durch die Zollbehörden bereitzuhalten. Gilt
+insbesondere für geringfügig Beschäftigte, Arbeitnehmer in Branchen nach
+§ 2a SchwarzArbG sowie Beschäftigte bis 2.000 EUR Monatsverdienst.
 
 Unternehmen: ${profil.name} · ${profil.rechtsform} · ${profil.bundesland}
 Branche: ${profil.branche}`
@@ -389,7 +385,7 @@ Branche:          ${profil.branche}
 Unterweisungsort: ___________________________
 Datum:            ___________________________
 Unterweiser/in:   ___________________________
-Anlass:           ☐ Erstunterweisung  ☐ Jährliche Wiederholung  ☐ Anlassbezogen
+Anlass:           Erstunterweisung / Jährliche Wiederholung / Anlassbezogen
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -403,7 +399,7 @@ ___________________________________________
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-NOTFALLINFOMATIONEN
+NOTFALLINFORMATIONEN
 
 Notruf:          112
 Betriebsarzt:    ___________________________
@@ -419,18 +415,19 @@ TEILNEHMERLISTE UND BESTÄTIGUNG
 Die unterzeichnenden Personen bestätigen, dass sie an der Unterweisung
 teilgenommen haben und die Inhalte verstanden haben.
 
-Nr.  │ Name (Druck)              │ Datum        │ Unterschrift
-─────┼───────────────────────────┼──────────────┼─────────────────────
-  1  │                           │              │
-  2  │                           │              │
-  3  │                           │              │
-  4  │                           │              │
-  5  │                           │              │
-  6  │                           │              │
-  7  │                           │              │
-  8  │                           │              │
-  9  │                           │              │
- 10  │                           │              │
+[[TABLE]]
+Nr.|Name (Druck)|Datum|Unterschrift
+1| | |
+2| | |
+3| | |
+4| | |
+5| | |
+6| | |
+7| | |
+8| | |
+9| | |
+10| | |
+[[/TABLE]]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -462,29 +459,25 @@ function buildDocument(typ: DokumentTyp, profil: UnternehmensProfil): string {
   }
 }
 
-export function downloadDoc(content: string, filename: string, ext: 'docx' | 'pdf') {
-  // DOCX: plain text wrapped — Word can open it
-  // PDF: use text/plain, browser handles as download
-  const mime = ext === 'docx'
-    ? 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-    : 'text/plain;charset=utf-8'
-  const blob = new Blob([content], { type: mime })
-  const url = URL.createObjectURL(blob)
-  const a = document.createElement('a')
-  a.href = url
-  a.download = `${filename}.${ext}`
-  a.click()
-  URL.revokeObjectURL(url)
-}
-
 export default function DocumentGenerator({ regulation, profil, onComplete, onClose }: Props) {
   const typ = regulation.dokument_typ as DokumentTyp
-  const [content] = useState(() => buildDocument(typ, profil))
   const filename = `${typ}-${(profil.name || 'dokument').replace(/\s+/g, '-')}`
 
-  const download = (ext: 'docx' | 'pdf') => {
-    downloadDoc(content, filename, ext)
-    onComplete(regulation.id)
+  const [content] = useState(() => buildDocument(typ, profil))
+  const [downloading, setDownloading] = useState<'pdf' | 'docx' | null>(null)
+
+  const download = async (ext: 'pdf' | 'docx') => {
+    setDownloading(ext)
+    try {
+      if (ext === 'pdf') {
+        downloadAsPDF(content, filename)
+      } else {
+        await downloadAsDOCX(content, filename)
+      }
+      onComplete(regulation.id)
+    } finally {
+      setDownloading(null)
+    }
   }
 
   return (
@@ -502,10 +495,10 @@ export default function DocumentGenerator({ regulation, profil, onComplete, onCl
           <button onClick={onClose} className="text-muted hover:text-ink text-xl leading-none mt-1">×</button>
         </div>
 
-        {/* Info banner */}
-        <div className="mx-6 mt-5 bg-teal-light border border-teal/30 rounded-xl p-4 flex gap-3">
-          <span className="text-teal-dark text-lg leading-none mt-0.5">✓</span>
-          <div>
+        {/* Status banner */}
+        <div className="mx-6 mt-5 rounded-xl p-4 flex gap-3 border bg-teal-light border-teal/30">
+          <span className="text-lg leading-none mt-0.5 text-teal-dark">✓</span>
+          <div className="flex-1 min-w-0">
             <p className="text-sm font-sans font-medium text-teal-dark">Vorlage fertig</p>
             <p className="text-xs text-muted-dark font-sans mt-0.5">
               Vorausgefüllt für: {profil.rechtsform} · {profil.branche} · {profil.bundesland}
@@ -526,13 +519,19 @@ export default function DocumentGenerator({ regulation, profil, onComplete, onCl
             className="bg-white border border-sand-border text-ink py-2.5 px-4 rounded-lg text-sm font-sans hover:border-ink transition-colors">
             Schließen
           </button>
-          <button onClick={() => download('docx')}
-            className="flex-1 bg-ink text-sand-light py-2.5 rounded-lg text-sm font-sans font-medium hover:bg-ink-light transition-colors">
-            DOCX herunterladen
+          <button
+            onClick={() => download('pdf')}
+            disabled={!!downloading}
+            className="flex-1 bg-sand-mid border border-sand-border text-ink py-2.5 rounded-lg text-sm font-sans font-medium hover:bg-sand transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            {downloading === 'pdf' ? 'Wird erstellt…' : 'PDF herunterladen'}
           </button>
-          <button onClick={() => download('pdf')}
-            className="flex-1 bg-sand-mid border border-sand-border text-ink py-2.5 rounded-lg text-sm font-sans font-medium hover:bg-sand transition-colors">
-            TXT herunterladen
+          <button
+            onClick={() => download('docx')}
+            disabled={!!downloading}
+            className="flex-1 bg-ink text-sand-light py-2.5 rounded-lg text-sm font-sans font-medium hover:bg-ink-light transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            {downloading === 'docx' ? 'Wird erstellt…' : 'DOCX herunterladen'}
           </button>
         </div>
       </div>
