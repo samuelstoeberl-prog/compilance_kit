@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { ClerkProvider } from '@clerk/clerk-react'
 import { deDE } from '@clerk/localizations'
+import { Analytics } from '@vercel/analytics/react'
 import { ProfilProvider } from './context/ProfilContext'
 import './index.css'
 import App from './App.tsx'
@@ -31,6 +32,7 @@ createRoot(document.getElementById('root')!).render(
           <App />
         </ProfilProvider>
       </BrowserRouter>
+      <Analytics />
     </ClerkProvider>
   </StrictMode>,
 )
