@@ -18,7 +18,8 @@
     "scrape:foerderung": "tsx scrapers/run-foerderung.ts",
     "scrape:regulatorik": "tsx scrapers/run-regulatorik.ts",
     "scrape:all": "npm run scrape:foerderung && npm run scrape:regulatorik",
-    "scrape:dry": "tsx scrapers/run-foerderung.ts --dry-run"
+    "scrape:dry": "tsx scrapers/run-foerderung.ts --dry-run",
+    "typecheck:scrapers": "tsc --noEmit -p scrapers/tsconfig.json"
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.61.8",

@@ -16,6 +16,7 @@ import { loadEnv } from './env.js'
 import { ALL_FUNDING_DOMAINS, PROGRAM_KEYWORDS } from './config/seeds-foerderung.js'
 import { crawlDomains } from './core/crawler.js'
 import { batchExtractFundings } from './processors/keyword-extractor.js'
+import { touchFundingsUpdatedAt } from './core/meta.js'
 import type { Funding } from '../src/types.js'
 
 loadEnv()
@@ -78,6 +79,7 @@ async function main() {
   const fresh = batchExtractFundings(pages, htmlMap)
   const existing = loadExisting()
   const merged = mergeAndSave(existing, fresh)
+  touchFundingsUpdatedAt()
 
   console.log('\n══ Ergebnis ══════════════════════════════════════════')
   console.log(`  Vorher  : ${existing.length} Programme`)

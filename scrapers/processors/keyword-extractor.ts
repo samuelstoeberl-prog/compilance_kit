@@ -136,9 +136,9 @@ function extractAusschluesse(text: string): string[] {
 
 // ── Mitarbeiter-Limit ─────────────────────────────────────────────────────────
 
-function extractMitarbeiterMax(text: string): number | null {
+function extractMitarbeiterMax(text: string): number | undefined {
   const m = text.match(/(?:max\.?|bis zu|weniger als|unter)\s*(\d+)\s*(?:Mitarbeiter|Beschäftigte|Mitarbeitende)/i)
-  return m ? parseInt(m[1]) : null
+  return m ? parseInt(m[1]) : undefined
 }
 
 // ── Bundesland-Erkennung ──────────────────────────────────────────────────────

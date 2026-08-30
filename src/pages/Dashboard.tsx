@@ -8,6 +8,8 @@ import DocumentGenerator, { buildDocument } from '../components/DocumentGenerato
 import { downloadAsPDF, downloadAsDOCX } from '../utils/exportDoc'
 import regulationData from '../data/regulations.json'
 import fundingData from '../data/fundings.json'
+import scraperMeta from '../data/meta.json'
+import { describeFreshness } from '../utils/dataFreshness'
 import { CheckCircle, TrendingUp, Settings } from 'lucide-react'
 import type { Regulation, Funding, PflichtStatus, FundingMitScore, RegulationMitStatus, DokumentTyp } from '../types'
 
@@ -98,6 +100,13 @@ export default function Dashboard() {
   const [wizard, setWizard] = useState<FundingMitScore | null>(null)
   const [docGen, setDocGen] = useState<RegulationMitStatus | null>(null)
 
+  // ── Daten-Stand (nur relevant für den lokalen JSON-Fallback, s. DATA_SOURCES.md) ──
+  const regFreshness = describeFreshness(scraperMeta.regulations_updated_at)
+  const fundFreshness = describeFreshness(scraperMeta.fundings_updated_at)
+  const oldestFreshness = [regFreshness, fundFreshness]
+    .filter((f): f is NonNullable<typeof f> => f !== null)
+    .sort((a, b) => b.daysOld - a.daysOld)[0] ?? null
+
   useEffect(() => {
     if (!profil) navigate('/')
   }, [profil, navigate])
@@ -186,6 +195,16 @@ export default function Dashboard() {
           <span className="font-serif text-ink text-xl font-bold">ComplianceKit</span>
           <span className="text-sand-border text-lg">|</span>
           <span className="text-sm text-muted font-sans">Compliance & Förderungen für KMU</span>
+          {oldestFreshness && (
+            <span
+              title={`Regulierungen zuletzt aktualisiert: ${regFreshness?.label ?? '–'} · Förderungen: ${fundFreshness?.label ?? '–'}`}
+              className={`text-xs font-mono px-2 py-1 rounded-full ${
+                oldestFreshness.isStale ? 'bg-amber-light text-amber-dark' : 'bg-sand-mid text-muted-dark'
+              }`}
+            >
+              Daten-Stand: {oldestFreshness.label}
+            </span>
+          )}
         </div>
         <div className="flex items-center gap-3">
           <button onClick={() => navigate('/onboarding')}

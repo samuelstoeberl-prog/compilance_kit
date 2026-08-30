@@ -13,6 +13,7 @@ import { loadEnv } from './env.js'
 import { ALL_REGULATION_DOMAINS, REGULATION_KEYWORDS } from './config/seeds-regulatorik.js'
 import { crawlDomains } from './core/crawler.js'
 import { batchExtractRegulations } from './processors/keyword-extractor.js'
+import { touchRegulationsUpdatedAt } from './core/meta.js'
 import type { Regulation } from '../src/types.js'
 
 loadEnv()
@@ -71,6 +72,7 @@ async function main() {
   const fresh = batchExtractRegulations(pages)
   const existing = loadExisting()
   const merged = mergeAndSave(existing, fresh)
+  touchRegulationsUpdatedAt()
 
   console.log('\n══ Ergebnis ══════════════════════════════════════════')
   console.log(`  Vorher  : ${existing.length} Pflichten`)
