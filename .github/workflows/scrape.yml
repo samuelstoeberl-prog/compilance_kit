@@ -1,0 +1,61 @@
+name: Scraper – Datenaktualisierung
+
+on:
+  schedule:
+    # Montags 03:00 UTC - außerhalb der üblichen Nutzungszeit, ein Lauf/Woche
+    - cron: '0 3 * * 1'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  scrape:
+    name: Scrape & PR öffnen
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Playwright-Browser installieren
+        run: npx playwright install --with-deps chromium
+
+      - name: Scraper laufen lassen (Förderungen + Regulierungen)
+        run: npm run scrape:all
+
+      - name: Diff prüfen
+        id: diff
+        run: |
+          if git diff --quiet -- src/data/regulations.json src/data/fundings.json src/data/meta.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Pull Request mit aktualisierten Daten öffnen
+        if: steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'Automatisches Daten-Update (Scraper)'
+          title: 'Automatisches Daten-Update (Scraper)'
+          body: |
+            Automatisch erzeugt vom wöchentlichen Scraper-Workflow
+            (`.github/workflows/scrape.yml`).
+
+            **Vor dem Merge prüfen:**
+            - Stichprobenartig neue/geänderte Einträge gegen `quelle_url`/`antrag_url` verifizieren (Keyword-Extraktion kann Beträge/Fristen falsch erkennen, s. `docs/DATA_SOURCES.md`)
+            - Nach dem Merge: `npm run backend:migrate` manuell ausführen, um die aktualisierten JSON-Daten in die Produktions-Datenbank zu übernehmen (bewusst nicht Teil dieser Automatisierung, s. Doku)
+          branch: scraper-update
+          delete-branch: true
+          labels: |
+            data-update
+            automated

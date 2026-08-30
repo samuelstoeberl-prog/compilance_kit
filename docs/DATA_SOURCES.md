@@ -50,12 +50,27 @@ maximale Seitenzahl, Priorität). Aktuell abgedeckt:
 
 `scrapers/core/crawler.ts` crawlt diese Seeds (mit Tiefenbegrenzung,
 Concurrency-Limit, Checkpointing für Resume nach Abbruch),
-`scrapers/processors/keyword-extractor.ts` /
-`ai-funding.ts` / `ai-regulation.ts` filtern per Keyword-Matching auf
-relevante Seiten und extrahieren Strukturdaten (Titel, Betrag, Frist,
+`scrapers/processors/keyword-extractor.ts` filtert per Keyword-Matching
+auf relevante Seiten und extrahiert Strukturdaten (Titel, Betrag, Frist,
 Quelle-URL). Ergebnis wird mit dem bestehenden Datenbestand gemerged
 (`mergeAndSave` — neue/geänderte Einträge per ID überschrieben, Rest
-bleibt erhalten) und nach `src/data/*.json` geschrieben.
+bleibt erhalten) und nach `src/data/*.json` geschrieben. Jeder Lauf
+aktualisiert außerdem `src/data/meta.json` (`scrapers/core/meta.ts`) mit
+dem Zeitstempel des letzten erfolgreichen Durchlaufs — das ist die
+Grundlage für den "Daten-Stand"-Hinweis im Dashboard.
+
+> **Unwired Alternative:** `scrapers/processors/ai-funding.ts` und
+> `ai-regulation.ts` enthalten eine LLM-basierte Extraktion (Anthropic
+> API statt Keyword-Regex) als potenziell robustere Alternative zur
+> Freitext-Erkennung. Sie sind aktuell **nicht in `run-foerderung.ts`/
+> `run-regulatorik.ts` eingebunden** und referenzieren `@anthropic-ai/sdk`,
+> das im Root-`package.json` nicht als Abhängigkeit installiert ist —
+> beim direkten Ausführen würden sie fehlschlagen. Sieht nach begonnener,
+> nicht abgeschlossener Arbeit aus (nicht nach totem Code), deshalb bewusst
+> nicht gelöscht, aber auch nicht in diesem Durchlauf aktiviert: das würde
+> laufende Anthropic-API-Kosten in einem automatisierten,
+> zeitgesteuerten Workflow bedeuten — eine Kostenentscheidung, die der
+> Betreiber treffen sollte, keine rein technische.
 
 ```bash
 npm run scrape:foerderung          # nur Förderungen
@@ -72,24 +87,44 @@ Nach einem Scraper-Lauf müssen die JSON-Dateien noch in die Postgres-DB
 `migrate-regulierung.ts` — liest die JSON, schreibt/upsert't in die
 DB-Tabellen).
 
-## Update-Rhythmus: aktuell manuell, nicht automatisiert
+## Update-Rhythmus: wöchentlich automatisiert, mit Review-Pflicht
 
-**Das ist die größte verbleibende Lücke in der Datenpipeline.** Der
-Scraper läuft nur, wenn ihn jemand manuell startet
-(`npm run scrape:all`). Es gibt aktuell:
+`.github/workflows/scrape.yml` läuft **wöchentlich** (montags 03:00 UTC,
+außerhalb der üblichen Nutzungszeit) und kann zusätzlich manuell über
+"Run workflow" in GitHub Actions ausgelöst werden. Der Workflow:
 
-- ❌ Keinen Cron-Job / Scheduled Workflow
-- ❌ Keinen Hinweis in der UI, wie alt die aktuell angezeigten Daten sind
-- ❌ Keinen Review-Schritt vor Übernahme (frisch gescrapte Daten werden
-  direkt gemerged)
+1. führt `npm run scrape:all` aus (Förderungen + Regulierungen,
+   Playwright-Browser wird vorher installiert)
+2. prüft, ob sich `src/data/regulations.json`, `fundings.json` oder
+   `meta.json` geändert haben
+3. öffnet — **falls ja** — einen Pull Request mit den Änderungen
+   (`peter-evans/create-pull-request`), statt direkt auf `main` zu
+   committen
 
-**Empfehlung für den nächsten Schritt** (bewusst nicht in diesem
-Durchlauf umgesetzt, siehe Decision Memo): ein wöchentlicher
-GitHub-Actions-Scheduled-Workflow, der `npm run scrape:all` ausführt und
-das Ergebnis als PR statt als direkten Commit vorschlägt — damit jemand
-vor der Übernahme drüberschaut (gerade bei Keyword-Extraktion aus
-Freitext ist eine Fehlerquote realistisch, ein automatischer Merge in die
-Produktivdaten ohne Review wäre riskant).
+**Bewusst kein Auto-Merge**: Keyword-Extraktion aus Freitext hat eine
+realistische Fehlerquote (Beträge, Fristen, Zuständigkeiten). Ein PR
+zwingt zu einem kurzen Review, bevor geänderte Daten live gehen —
+insbesondere ein Diff-Blick auf neue/stark veränderte Einträge gegen ihre
+`quelle_url`/`antrag_url`.
+
+**Nach dem Merge des PRs weiterhin manuell:** `npm run backend:migrate`
+ausführen, um die aktualisierten JSON-Daten in die Postgres-Produktions-DB
+zu übernehmen. Das bewusst *nicht* im Workflow zu automatisieren, da das
+bedeuten würde, `DATABASE_URL` (Production-Zugang) als Repository-Secret
+in einen zeitgesteuerten CI-Job zu geben — eine Erweiterung des
+Blast-Radius, die eine eigene Entscheidung des Betreibers verdient, nicht
+etwas, das sich "im Vorbeigehen" mit-automatisieren lässt.
+
+**Einmalige Voraussetzung im Repo:** Unter *Settings → Actions → General
+→ Workflow permissions* muss "Allow GitHub Actions to create and approve
+pull requests" aktiviert sein, sonst schlägt der PR-Erstellungsschritt mit
+einem Berechtigungsfehler fehl (der restliche Scraper-Lauf ist davon nicht
+betroffen).
+
+Der Dashboard-Header zeigt seit diesem Durchlauf einen "Daten-Stand:
+TT.MM.JJJJ"-Hinweis (`src/utils/dataFreshness.ts`), der ab 60 Tagen
+Alter gelb hervorgehoben wird — Nutzer sehen damit, dass sie einen
+gescrapten Snapshot sehen, kein Live-Feed.
 
 ## Datenqualität & Haftung
 
