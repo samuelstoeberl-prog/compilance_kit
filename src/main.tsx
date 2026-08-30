@@ -5,8 +5,12 @@ import { ClerkProvider } from '@clerk/clerk-react'
 import { deDE } from '@clerk/localizations'
 import { Analytics } from '@vercel/analytics/react'
 import { ProfilProvider } from './context/ProfilContext'
+import { ErrorBoundary } from './components/ErrorBoundary'
+import { initSentry } from './lib/sentry'
 import './index.css'
 import App from './App.tsx'
+
+initSentry()
 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 
@@ -29,7 +33,9 @@ createRoot(document.getElementById('root')!).render(
     >
       <BrowserRouter>
         <ProfilProvider>
-          <App />
+          <ErrorBoundary>
+            <App />
+          </ErrorBoundary>
         </ProfilProvider>
       </BrowserRouter>
       <Analytics />

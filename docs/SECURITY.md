@@ -136,11 +136,29 @@ Getrennt von reiner Anwendungssicherheit, aber eng verwandt:
   individuelle Rechtsberatung. Alle Angaben ohne Gewähr auf Vollständigkeit
   und Aktualität."
 
+## Error-Tracking & Absturzsicherheit
+
+- **Frontend:** `src/components/ErrorBoundary.tsx` fängt Render-Fehler ab, die
+  sonst die gesamte App mit weißem Bildschirm crashen (z.B. korrupte
+  `localStorage`-Werte) — mit Reset-Button statt Totalausfall. Optionales
+  Sentry-Tracking (`src/lib/sentry.ts`, `VITE_SENTRY_DSN`): ohne DSN passiert
+  nichts, `Sentry.captureException()` ist dann ein No-Op.
+- **Backend:** `backend/src/lib/sentry.ts` (`SENTRY_DSN`) — vor Express
+  initialisiert (s. `index.ts`, dynamic import von `app.js` erst danach,
+  sonst greift Sentries automatische Express-Instrumentierung nicht),
+  `Sentry.setupExpressErrorHandler(app)` meldet unerwartete Exceptions, bevor
+  der eigene generische 500-Handler greift.
+- **Kein Sentry-Account wird durch diesen Code angelegt** — beide
+  Integrationen sind bewusst optional/no-op ohne DSN, damit lokale
+  Entwicklung, Tests und CI ohne externe Abhängigkeit funktionieren. Wer
+  Sentry nutzen will: DSN unter sentry.io anlegen, in `VITE_SENTRY_DSN`
+  (Frontend) bzw. `SENTRY_DSN` (Backend) eintragen.
+
 ## Bekannte Lücken (ehrlich, nicht beschönigt)
 
 | Lücke | Risiko | Empfehlung |
 |---|---|---|
 | Kein externer Penetrationstest | Unbekannte Schwachstellen nicht ausgeschlossen | Vor Produktivbetrieb mit echten Unternehmensdaten in größerem Umfang durchführen |
-| Kein Error-/Security-Monitoring (z.B. Sentry) | Angriffe/Fehler in Produktion bleiben unbemerkt, außer in Vercel-Logs | Fast-Follow, kein Blocker |
+| Sentry ist verdrahtet, aber ohne DSN inaktiv | Ohne einen echten Sentry-Account bleiben Fehler in Produktion weiterhin nur in Vercel-Logs sichtbar | DSN anlegen und eintragen (s.o.) — reine Konfigurationsaufgabe, kein Code mehr nötig |
 | Kein CSP-Header (Content-Security-Policy) | Zusätzliche XSS-Tiefenverteidigung fehlt | Nachrüstbar ohne große Umstellung |
 | Kein dediziertes Secret-Rotation-Verfahren | Bei Kompromittierung eines Keys keine automatisierte Rotation | Bei Wachstum des Teams relevant |

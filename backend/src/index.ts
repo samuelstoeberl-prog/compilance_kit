@@ -15,8 +15,15 @@ if (existsSync(envPath)) {
   }
 }
 
-import { app } from './app.js'
-import { db } from './db/client.js'
+// Sentry muss initialisiert sein, bevor express geladen wird, sonst greift
+// die automatische Express-Instrumentierung nicht (s. backend/src/lib/sentry.ts).
+// Deshalb hier per dynamic import statt eines normalen top-level import von
+// ./app.js, dessen Auswertung sonst vor diesem Code liefe.
+import { initSentry } from './lib/sentry.js'
+initSentry()
+
+const { app } = await import('./app.js')
+const { db } = await import('./db/client.js')
 
 const PORT = parseInt(process.env.PORT ?? '3001')
 

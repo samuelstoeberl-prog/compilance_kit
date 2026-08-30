@@ -8,6 +8,9 @@ import { aiRouter } from './routes/ai.js'
 import { userRouter } from './routes/user.js'
 import { generalLimiter, aiLimiter } from './middleware/rateLimit.js'
 import { openApiSpec } from './openapi.js'
+import { initSentry, Sentry } from './lib/sentry.js'
+
+initSentry()
 
 export const app = express()
 
@@ -49,6 +52,11 @@ app.use('/api/user', userRouter)
 
 // 404-Fallback
 app.use((req, res) => res.status(404).json({ error: `Route nicht gefunden: ${req.path}` }))
+
+// Sentry muss nach den Routes und vor dem eigenen Error-Handler registriert
+// werden, damit Exceptions vor dem generischen 500-Response gemeldet werden.
+// No-Op, wenn initSentry() (s.o.) mangels SENTRY_DSN nichts initialisiert hat.
+Sentry.setupExpressErrorHandler(app)
 
 // Globaler Fehler-Handler
 // eslint-disable-next-line @typescript-eslint/no-unused-vars -- Express erkennt Error-Handler nur an der 4-Parameter-Signatur

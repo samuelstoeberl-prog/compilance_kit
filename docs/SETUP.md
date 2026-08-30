@@ -33,6 +33,7 @@ Frontend — `.env.local` im Projekt-Root (siehe `.env.example`):
 ```bash
 VITE_CLERK_PUBLISHABLE_KEY=pk_test_...   # Clerk Dashboard → API Keys
 VITE_API_URL=                            # leer = selber Origin / Vite-Proxy
+VITE_SENTRY_DSN=                         # optional, Error-Tracking, leer = inaktiv
 ```
 
 Backend — `backend/.env` (siehe `backend/.env.example`):
@@ -44,6 +45,7 @@ FRONTEND_URL=http://localhost:5173
 NODE_ENV=development
 ANTHROPIC_API_KEY=sk-ant-...   # optional, nur für KI-Dokumentgenerierung
 CLERK_SECRET_KEY=sk_test_...   # Clerk Dashboard → API Keys → Secret Key
+SENTRY_DSN=                     # optional, Error-Tracking, leer = inaktiv
 ```
 
 Frontend und Backend haben **eigene, unabhängige** `.env`-Dateien — nichts
@@ -98,6 +100,7 @@ npm run build        # tsc -b && vite build (Frontend)
 npm test             # vitest run (Frontend)
 cd backend && npx tsc --noEmit && npm test   # Backend Typecheck + Tests
 curl http://localhost:3001/api/health        # {"status":"ok",...}
+open http://localhost:3001/api/docs          # interaktive API-Doku (Swagger UI)
 ```
 
 Alle vier Befehle laufen identisch auch in CI
