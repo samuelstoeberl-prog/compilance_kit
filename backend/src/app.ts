@@ -1,11 +1,13 @@
 import express from 'express'
 import cors from 'cors'
+import swaggerUi from 'swagger-ui-express'
 import { clerkMiddleware } from '@clerk/express'
 import { companiesRouter } from './routes/companies.js'
 import { matchRouter } from './routes/match.js'
 import { aiRouter } from './routes/ai.js'
 import { userRouter } from './routes/user.js'
 import { generalLimiter, aiLimiter } from './middleware/rateLimit.js'
+import { openApiSpec } from './openapi.js'
 
 export const app = express()
 
@@ -38,6 +40,8 @@ app.use('/api/ai', aiLimiter)
 
 // ── Routes ────────────────────────────────────────────────────────────────────
 app.get('/api/health', (_, res) => res.json({ status: 'ok', ts: new Date().toISOString() }))
+app.get('/api/openapi.json', (_, res) => res.json(openApiSpec))
+app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(openApiSpec))
 app.use('/api/companies', companiesRouter)
 app.use('/api/match', matchRouter)
 app.use('/api/ai', aiRouter)

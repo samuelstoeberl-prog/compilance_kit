@@ -57,6 +57,10 @@ Express + TypeScript, `backend/src/`:
   `match.ts` (gefilterte/gescorte Regulierungen & Förderungen pro
   Unternehmen), `ai.ts` (Dokumentgenerierung via Anthropic, Backend-only
   Key), `user.ts` (Art. 17/20 DSGVO: Export & Löschung)
+- `openapi.ts` — hand-gepflegte OpenAPI-3-Spezifikation aller Routen,
+  ausgeliefert unter `GET /api/openapi.json` (Rohdaten) und `GET /api/docs`
+  (interaktive Swagger-UI, `swagger-ui-express`). Kein Auto-Generator —
+  muss bei Routenänderungen manuell mit aktualisiert werden.
 - `matching/engine.ts` + `scoring.ts` — serverseitige Variante derselben
   Filter-/Scoring-Logik wie `src/utils/filter.ts` im Frontend (bewusst
   dupliziert, damit der Offline-Fallback ohne Backend funktioniert — kein
