@@ -1,4 +1,3 @@
-import * as cheerio from 'cheerio'
 import { fetchHtml, extractLinks, extractPageText, closeBrowser } from './fetcher.js'
 import { saveCheckpoint, loadCheckpoint, generateRunId } from './checkpoint.js'
 import type { DomainConfig } from '../config/seeds-foerderung.js'
@@ -45,7 +44,10 @@ class Semaphore {
     if (this.slots > 0) { this.slots--; return Promise.resolve() }
     return new Promise(r => this.queue.push(r))
   }
-  release() { this.queue.length > 0 ? this.queue.shift()!() : this.slots++ }
+  release() {
+    if (this.queue.length > 0) this.queue.shift()!()
+    else this.slots++
+  }
 }
 
 export interface CrawlOptions {

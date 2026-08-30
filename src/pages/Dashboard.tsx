@@ -98,7 +98,9 @@ export default function Dashboard() {
   const [wizard, setWizard] = useState<FundingMitScore | null>(null)
   const [docGen, setDocGen] = useState<RegulationMitStatus | null>(null)
 
-  if (!profil) { navigate('/'); return null }
+  useEffect(() => {
+    if (!profil) navigate('/')
+  }, [profil, navigate])
 
   // ── Daten laden: Backend wenn online, sonst lokale JSON ─────────────────────
   const loadData = useCallback(async () => {
@@ -123,11 +125,13 @@ export default function Dashboard() {
   // ── Datenquellen: API (primär) oder lokale JSON (Fallback) ───────────────────
   const allRegs: RegulationMitStatus[] = useMemo(() => {
     if (apiRegs) return apiRegs.map(toRegulationMitStatus)
+    if (!profil) return []
     return filterRegulations(regulationData as Regulation[], profil, statusMap)
   }, [apiRegs, profil, statusMap])
 
   const allFundings: FundingMitScore[] = useMemo(() => {
     if (apiFunds) return apiFunds.map(toFundingMitScore)
+    if (!profil) return []
     return sortedFundings(fundingData as Funding[], profil)
   }, [apiFunds, profil])
 
@@ -170,6 +174,8 @@ export default function Dashboard() {
       }`}>{count}</span>
     </button>
   )
+
+  if (!profil) return null
 
   return (
     <div className="min-h-screen bg-sand-light font-sans">

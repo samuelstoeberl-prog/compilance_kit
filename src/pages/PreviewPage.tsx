@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { SignIn } from '@clerk/clerk-react'
 import { useProfil } from '../context/ProfilContext'
@@ -11,14 +11,15 @@ export default function PreviewPage() {
   const { profil } = useProfil()
   const navigate = useNavigate()
 
-  if (!profil) {
-    navigate('/onboarding')
-    return null
-  }
+  useEffect(() => {
+    if (!profil) navigate('/onboarding')
+  }, [profil, navigate])
 
-  const fundings = useMemo(() => sortedFundings(fundingData as Funding[], profil), [profil])
-  const regulations = useMemo(() => filterRegulations(regulationData as Regulation[], profil, {}), [profil])
+  const fundings = useMemo(() => profil ? sortedFundings(fundingData as Funding[], profil) : [], [profil])
+  const regulations = useMemo(() => profil ? filterRegulations(regulationData as Regulation[], profil, {}) : [], [profil])
   const offenCount = regulations.filter(r => r.status !== 'nicht_relevant').length
+
+  if (!profil) return null
 
   return (
     <div className="min-h-screen bg-sand-light flex items-center justify-center p-6 font-sans">

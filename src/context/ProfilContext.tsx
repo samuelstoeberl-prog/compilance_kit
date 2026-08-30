@@ -76,7 +76,8 @@ export function ProfilProvider({ children }: { children: ReactNode }) {
     if (!clerkLoaded) return
 
     if (!userId) {
-      // Nutzer ausgeloggt – alles zurücksetzen
+      // Nutzer ausgeloggt – alles zurücksetzen (synchronisiert auf Clerk-Auth-State, kein abgeleiteter State)
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setProfilState(null)
       setCompanyId(null)
       setStatusMap({})
@@ -182,6 +183,7 @@ export function ProfilProvider({ children }: { children: ReactNode }) {
   )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components -- Provider + zugehöriger Hook gehören zusammen in eine Datei
 export function useProfil() {
   const ctx = useContext(ProfilContext)
   if (!ctx) throw new Error('useProfil must be used within ProfilProvider')

@@ -1,6 +1,6 @@
 // Checkpoint system: saves crawl progress to disk so a crash can be resumed
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs'
+import { readFileSync, writeFileSync, existsSync, mkdirSync, unlinkSync } from 'fs'
 import { resolve } from 'path'
 
 export interface CheckpointData {
@@ -32,7 +32,6 @@ export function loadCheckpoint(runId: string): CheckpointData | null {
 export function clearCheckpoint(runId: string): void {
   const path = resolve(CHECKPOINT_DIR, `${runId}.json`)
   if (existsSync(path)) {
-    const { unlinkSync } = require('fs')
     unlinkSync(path)
   }
 }

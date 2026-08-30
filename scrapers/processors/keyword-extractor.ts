@@ -43,7 +43,7 @@ function extractMaxBetrag(text: string): number | null {
     pattern.lastIndex = 0
     let m: RegExpExecArray | null
     while ((m = pattern.exec(text)) !== null) {
-      let raw = m[1].replace(/\./g, '').replace(',', '.')
+      const raw = m[1].replace(/\./g, '').replace(',', '.')
       let val = parseFloat(raw)
       if (isNaN(val)) continue
       // Erkenne "Mio." im Match

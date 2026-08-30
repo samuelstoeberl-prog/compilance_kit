@@ -173,7 +173,6 @@ for (const r of rfRows) {
 }
 
 let upserted = 0
-let skipped = 0
 const jsonItems: object[] = []
 
 for (const reg of regs) {

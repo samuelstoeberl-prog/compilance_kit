@@ -9,6 +9,7 @@ interface Props {
   onClose: () => void
 }
 
+// eslint-disable-next-line react-refresh/only-export-components -- buildDocument wird von Dashboard.tsx direkt genutzt, ein Split würde nur Indirektion hinzufügen
 export { buildDocument }
 
 const DOK_LABELS: Record<DokumentTyp, string> = {

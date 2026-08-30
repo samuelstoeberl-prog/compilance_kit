@@ -47,6 +47,7 @@ app.use('/api/user', userRouter)
 app.use((req, res) => res.status(404).json({ error: `Route nicht gefunden: ${req.path}` }))
 
 // Globaler Fehler-Handler
+// eslint-disable-next-line @typescript-eslint/no-unused-vars -- Express erkennt Error-Handler nur an der 4-Parameter-Signatur
 app.use((err: Error, _req: express.Request, res: express.Response, _next: express.NextFunction) => {
   console.error('[Unhandled Error]', err)
   res.status(500).json({ error: 'Interner Serverfehler' })
